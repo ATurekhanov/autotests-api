@@ -7,7 +7,7 @@ from clients.api_client import APIClient
 
 class CreateUserRequestDict(TypedDict):
     """
-    Описание структуры запроса на аутентификацию.
+    Описание структуры тела запроса на создание пользователя.
     """
     email: str
     password: str
@@ -18,12 +18,12 @@ class CreateUserRequestDict(TypedDict):
 
 class PublicUsersClient(APIClient):
     """
-    Клиент для публичных методов не требующих авторизации для работы с /api/v1/users.
+    Клиент для работы с /api/v1/users.
     """
 
     def create_user_api(self, request: CreateUserRequestDict) -> Response:
         """
-        Метод выполняет создание пользователя.
+        Метод создания пользователя.
 
         :param request: Словарь с данными пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response.
