@@ -12,7 +12,7 @@ class Token(BaseModel):
 
 class LoginRequestSchema(BaseModel):
     """
-    Структура данных пользователя для авторизации.
+    Схема запроса для авторизации.
     """
     email: EmailStr
     password: str
@@ -20,13 +20,13 @@ class LoginRequestSchema(BaseModel):
 
 class LoginResponseSchema(BaseModel):
     """
-    Структура ответа на аутентификации.
+    Схема ответа на аутентификации.
     """
     token: Token
 
 
 class RefreshRequestSchema(BaseModel):
     """
-    Структура данных для обновления токена.
+    Схема запроса для обновления токена.
     """
     refresh_token: str = Field(alias='refreshToken')
