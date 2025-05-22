@@ -19,6 +19,12 @@ class CreateUserResponseSchema(BaseModel):
     user: User
 
 
+class GetUserResponseSchema(BaseModel):
+    """
+    Схема ответа получения пользователя.
+    """
+    user: User
+
 class CreateUserRequestSchema(BaseModel):
     """
     Схема запроса на создание пользователя.
