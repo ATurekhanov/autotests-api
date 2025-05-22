@@ -25,7 +25,7 @@ class PublicUsersClient(APIClient):
         :param request: Схема с данными пользователя.
         :return: Схема ответа создания пользователя.
         """
-        response = self.create_user_api(request.model_dump(by_alias=True))
+        response = self.create_user_api(request)
         return CreateUserResponseSchema.model_validate_json(response.text)
 
 

@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, EmailStr, Field, ConfigDict
 
 
 class User(BaseModel):
@@ -23,7 +23,7 @@ class CreateUserRequestSchema(BaseModel):
     """
     Схема запроса на создание пользователя.
     """
-    email: str
+    email: EmailStr
     password: str
     last_name: str = Field(alias='lastName')
     first_name: str = Field(alias='firstName')

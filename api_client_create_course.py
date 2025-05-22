@@ -1,8 +1,6 @@
 from clients.authentication.authentication_schema import LoginRequestSchema
 from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
-from clients.exercises.exercises_client import get_exercises_client
-from clients.exercises.exercises_schema import CreateExerciseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.users.public_users_client import get_public_users_client
@@ -26,7 +24,6 @@ authentication_user = LoginRequestSchema(
 )
 files_client = get_files_client(authentication_user)
 course_client = get_courses_client(authentication_user)
-exercises_client = get_exercises_client(authentication_user)
 
 create_file_request = CreateFileRequestSchema(
     filename="example.png",
@@ -47,15 +44,3 @@ create_course_request = CreateCourseRequestSchema(
 )
 create_course_response = course_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
-
-create_exercise_request = CreateExerciseRequestSchema(
-    title="test exercise",
-    courseId=create_course_response.course.id,
-    maxScore=100,
-    minScore=0,
-    orderIndex=9,
-    description="description for test exercise",
-    estimatedTime="1 day"
-)
-create_exercise_response = exercises_client.create_exercise(create_exercise_request)
-print('Create exercise data:', create_exercise_response)
