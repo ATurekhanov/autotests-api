@@ -6,12 +6,28 @@ from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 
 
+class Token(TypedDict):
+    """
+    Описание структуры аутентификационных токенов.
+    """
+    tokenType: str
+    accessToken: str
+    refreshToken: str
+
+
 class LoginRequestDict(TypedDict):
     """
     Описание структуры запроса на аутентификацию.
     """
     email: str
     password: str
+
+
+class LoginResponseDict(TypedDict):
+    """
+    Описание структуры ответа на аутентификации.
+    """
+    token: Token
 
 
 class RefreshRequestDict(TypedDict):
@@ -44,6 +60,14 @@ class AuthenticationClient(APIClient):
         """
         return self.post("/api/v1/authentication/refresh", json=request)
 
+    def login(self, request: LoginRequestDict) -> LoginResponseDict:
+        """
+        Login запрос на получение токена.
+        :param request: Словарь с email и password.
+        :return: Словарь с токеном.
+        """
+        response = self.login_api(request)
+        return response.json()
 
 def get_authentication_client() -> AuthenticationClient:
     """

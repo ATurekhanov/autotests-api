@@ -32,7 +32,7 @@ class PublicUsersClient(APIClient):
         return self.post("/api/v1/users", json=request)
 
 
-def get_authentication_client() -> PublicUsersClient:
+def get_public_users_client() -> PublicUsersClient:
     """
     Создает экземпляр PublicUsersClient с уже настроенным HTTP-клиентом.
     :return: Готовый к использованию PublicUsersClient.
