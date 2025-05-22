@@ -6,6 +6,31 @@ from clients.api_client import APIClient
 from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 
 
+class Exercise(TypedDict):
+    """
+    Описание структуры упражнения.
+    """
+    id: str
+    title: str
+    courseId: str
+    maxScore: int | None
+    minScore: int | None
+    orderIndex: int
+    description: str
+    estimatedTime: str | None
+
+
+class ExerciseResponseDict(TypedDict):
+    """
+    Описание структуры ответа получения/создания/обновления упражнения.
+    """
+    exercise: Exercise
+    # Могу ли я использовать один ExerciseResponseDict для get/post/put запросов?
+    # По сваггеру у них одна схема в ответах и чтоб не создавать одинаковые словари
+    # GetExerciseResponseDict, CreateExerciseResponseDict, UpdateExerciseResponseDict
+    # Можно ли создать 1 словарь ExerciseResponseDict? Аналогичный вопрос и касательно других клиентов
+
+
 class GetExercisesQueryDict(TypedDict):
     """
     Описание структуры query параметров запроса на получение списка курсов.
@@ -13,19 +38,24 @@ class GetExercisesQueryDict(TypedDict):
     courseId: str
 
 
-class CreateExerciseRequestDict(TypedDict):
+class GetExercisesResponseDict(TypedDict):
+    """
+    Описание структуры ответа получения списка упражнений.
+    """
+    exercises: list[Exercise]
+
+
+class CreateExerciseRequestDict(TypedDict, total=False):
     """
     Описание структуры тела запроса на создание упражнения.
     """
-    title: str
-    courseId: str
-    maxScore: Required[int | None]  # По сваггеру это поле принимает int или None и обязательное
-    # Указал Required/NotRequired, но вроде это не работает. Если подскажете как в таких
-    # случаях нужно делать в условиях когда обязательно нужен TypedDict буду очень признателен.
-    minScore: Required[int | None]  # По сваггеру это поле принимает int или None и обязательное
-    orderIndex: NotRequired[int]  # По сваггеру это поле принимает только int и опциональное
-    description: str
-    estimatedTime: Required[str | None]  # По сваггеру это поле принимает str или None и обязательное
+    title: Required[str]
+    courseId: Required[str]
+    maxScore: Required[int | None]
+    minScore: Required[int | None]
+    orderIndex: NotRequired[int]
+    description: Required[str]
+    estimatedTime: Required[str | None]
 
 
 class UpdateExerciseRequestDict(TypedDict):
@@ -86,8 +116,24 @@ class ExercisesClient(APIClient):
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
+    def get_exercises(self, query: GetExercisesQueryDict) -> GetExercisesResponseDict:
+        response = self.get_exercises_api(query)
+        return response.json()
 
-def get_private_users_client(user: AuthenticationUserDict) -> ExercisesClient:
+    def get_exercise(self, exercise_id: str) -> ExerciseResponseDict:
+        response = self.get_exercise_api(exercise_id)
+        return response.json()
+
+    def create_exercise(self, request: CreateExerciseRequestDict) -> ExerciseResponseDict:
+        response = self.create_exercise_api(request)
+        return response.json()
+
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> ExerciseResponseDict:
+        response = self.update_exercise_api(exercise_id, request)
+        return response.json()
+
+
+def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
 
