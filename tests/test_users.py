@@ -1,18 +1,19 @@
 from http import HTTPStatus
 
 import pytest
-from httpx import request
 
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.users import assert_create_user_response, assert_get_user_response
+from tools.fakers import fake
 
 
 @pytest.mark.regression
 @pytest.mark.users
-def test_create_user(public_users_client):
-    request = CreateUserRequestSchema()
+@pytest.mark.parametrize('email_domain', ['mail.ru', 'gmail.com', 'example.com'])
+def test_create_user(public_users_client, email_domain):
+    request = CreateUserRequestSchema(email=fake.email(email_domain))
     response = public_users_client.create_user_api(request)
     response_data = CreateUserResponseSchema.model_validate_json(response.text)
 
