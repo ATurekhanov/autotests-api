@@ -2,6 +2,8 @@ import pytest
 from pydantic import BaseModel, EmailStr
 
 from clients.authentication.authentication_client import AuthenticationClient, get_authentication_client
+from clients.authentication.authentication_schema import LoginRequestSchema
+from clients.users.private_users_client import PrivateUsersClient, get_private_users_client
 from clients.users.public_users_client import PublicUsersClient, get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 
@@ -17,6 +19,10 @@ class UserFixture(BaseModel):
     @property
     def password(self) -> str:
         return self.request.password
+
+    @property
+    def authentication_user(self) -> LoginRequestSchema:
+        return LoginRequestSchema(email=self.email, password=self.password)
 
 
 @pytest.fixture
@@ -35,3 +41,8 @@ def func_user(public_users_client) -> UserFixture:
     response = public_users_client.create_user(request)
 
     return UserFixture(request=request, response=response)
+
+
+@pytest.fixture
+def private_users_client(func_user) -> PrivateUsersClient:
+    return get_private_users_client(func_user.authentication_user)

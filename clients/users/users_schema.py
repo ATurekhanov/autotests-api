@@ -3,7 +3,7 @@ from pydantic import BaseModel, EmailStr, Field, ConfigDict
 from tools.fakers import fake
 
 
-class User(BaseModel):
+class UserSchema(BaseModel):
     """
     Структура пользователя.
     """
@@ -18,14 +18,14 @@ class CreateUserResponseSchema(BaseModel):
     """
     Схема ответа создания пользователя.
     """
-    user: User
+    user: UserSchema
 
 
 class GetUserResponseSchema(BaseModel):
     """
     Схема ответа получения пользователя.
     """
-    user: User
+    user: UserSchema
 
 class CreateUserRequestSchema(BaseModel):
     """

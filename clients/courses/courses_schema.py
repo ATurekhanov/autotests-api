@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 
 from clients.files.files_schema import File
-from clients.users.users_schema import User
+from clients.users.users_schema import UserSchema
 from tools.fakers import fake
 
 
@@ -16,7 +16,7 @@ class Course(BaseModel):
     description: str
     preview_file: File = Field(alias='previewFile')
     estimated_time: str | None = Field(alias='estimatedTime')
-    created_by_user: User = Field(alias='createdByUser')
+    created_by_user: UserSchema = Field(alias='createdByUser')
 
 
 class GetCoursesQuerySchema(BaseModel):
