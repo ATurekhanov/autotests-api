@@ -3,7 +3,7 @@ import uuid
 from pydantic import BaseModel, EmailStr, Field, ConfigDict
 from pydantic.alias_generators import to_camel
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 '''
@@ -19,7 +19,7 @@ from tools.fakers import get_random_email
 
 class UserSchema(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
-    email: EmailStr = Field(default_factory=get_random_email)
+    email: EmailStr = Field(default_factory=fake.email)
     last_name: str = Field(alias='lastName', default='Doe')
     first_name: str = Field(alias='firstName', default='John')
     middle_name: str = Field(alias='middleName', default='Test')
