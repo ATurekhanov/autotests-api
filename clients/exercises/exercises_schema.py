@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 from tools.fakers import fake
 
@@ -41,6 +41,8 @@ class GetExercisesQuerySchema(BaseModel):
     """
     Схема query-параметров запроса для получения списка упражнений.
     """
+    model_config = ConfigDict(populate_by_name=True)
+
     course_id: str = Field(alias='courseId')
 
 

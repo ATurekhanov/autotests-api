@@ -1,5 +1,5 @@
 import pytest
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from clients.exercises.exercises_client import get_exercises_client, ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema
@@ -8,12 +8,19 @@ from fixtures.users import UserFixture
 
 
 class ExerciseFixture(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+
     request: CreateExerciseRequestSchema
     response: CreateExerciseResponseSchema
 
     @property
     def id(self):
         return self.response.exercise.id
+
+    @property
+    def course_id(self):
+        return self.response.exercise.course_id
 
 
 @pytest.fixture
