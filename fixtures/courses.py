@@ -11,6 +11,10 @@ class CourseFixture(BaseModel):
     request: CreateCourseRequestSchema
     response: CreateCourseResponseSchema
 
+    @property
+    def id(self) -> str:
+        return self.response.course.id
+
 @pytest.fixture
 def courses_client(func_user: UserFixture) -> CoursesClient:
     return get_courses_client(func_user.authentication_user)
