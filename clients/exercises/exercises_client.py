@@ -2,8 +2,15 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.authentication.authentication_schema import LoginRequestSchema
-from clients.exercises.exercises_schema import ExerciseResponseSchema, GetExercisesQuerySchema, GetExercisesResponseSchema, \
-    CreateExerciseRequestSchema, UpdateExerciseRequestSchema
+from clients.exercises.exercises_schema import (
+    GetExercisesQuerySchema,
+    GetExercisesResponseSchema,
+    CreateExerciseRequestSchema,
+    UpdateExerciseRequestSchema,
+    CreateExerciseResponseSchema,
+    GetExerciseResponseSchema,
+    UpdateExerciseResponseSchema
+)
 from clients.private_http_builder import get_private_http_client
 
 
@@ -57,17 +64,17 @@ class ExercisesClient(APIClient):
         response = self.get_exercises_api(query)
         return GetExercisesResponseSchema.model_validate_json(response.text)
 
-    def get_exercise(self, exercise_id: str) -> ExerciseResponseSchema:
+    def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
         response = self.get_exercise_api(exercise_id)
-        return ExerciseResponseSchema.model_validate_json(response.text)
+        return GetExerciseResponseSchema.model_validate_json(response.text)
 
-    def create_exercise(self, request: CreateExerciseRequestSchema) -> ExerciseResponseSchema:
+    def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         response = self.create_exercise_api(request)
-        return ExerciseResponseSchema.model_validate_json(response.text)
+        return CreateExerciseResponseSchema.model_validate_json(response.text)
 
-    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> ExerciseResponseSchema:
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         response = self.update_exercise_api(exercise_id, request)
-        return ExerciseResponseSchema.model_validate_json(response.text)
+        return UpdateExerciseResponseSchema.model_validate_json(response.text)
 
 
 def get_exercises_client(user: LoginRequestSchema) -> ExercisesClient:

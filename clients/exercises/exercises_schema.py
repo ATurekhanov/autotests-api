@@ -5,7 +5,7 @@ from tools.fakers import fake
 
 class ExerciseSchema(BaseModel):
     """
-    Описание структуры упражнения.
+    Структура упражнения.
     """
     id: str
     title: str
@@ -17,30 +17,9 @@ class ExerciseSchema(BaseModel):
     estimated_time: str | None = Field(alias='estimatedTime')
 
 
-class ExerciseResponseSchema(BaseModel):
-    """
-    Описание структуры ответа получения/создания/обновления упражнения.
-    """
-    exercise: ExerciseSchema
-
-
-class GetExercisesQuerySchema(BaseModel):
-    """
-    Описание структуры query параметров запроса на получение списка курсов.
-    """
-    course_id: str = Field(alias='courseId')
-
-
-class GetExercisesResponseSchema(BaseModel):
-    """
-    Описание структуры ответа получения списка упражнений.
-    """
-    exercises: list[ExerciseSchema]
-
-
 class CreateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры тела запроса на создание упражнения.
+    Схема запроса для создания упражнения.
     """
     title: str = Field(default_factory=fake.sentence)
     course_id: str = Field(alias='courseId', default_factory=fake.uuid4)
@@ -51,9 +30,37 @@ class CreateExerciseRequestSchema(BaseModel):
     estimated_time: str | None = Field(alias='estimatedTime', default_factory=fake.estimated_time)
 
 
+class CreateExerciseResponseSchema(BaseModel):
+    """
+    Схема ответа для создания упражнения.
+    """
+    exercise: ExerciseSchema
+
+
+class GetExercisesQuerySchema(BaseModel):
+    """
+    Схема query-параметров запроса для получения списка упражнений.
+    """
+    course_id: str = Field(alias='courseId')
+
+
+class GetExercisesResponseSchema(BaseModel):
+    """
+    Схема ответа для получения списка упражнений.
+    """
+    exercises: list[ExerciseSchema]
+
+
+class GetExerciseResponseSchema(BaseModel):
+    """
+    Схема ответа для получения упражнения.
+    """
+    exercise: ExerciseSchema
+
+
 class UpdateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры тела запроса на обновление упражнения.
+    Схема запроса для обновления упражнения.
     """
     title: str | None = Field(default_factory=fake.sentence)
     max_score: int | None = Field(alias='maxScore', default_factory=fake.max_score)
@@ -61,3 +68,10 @@ class UpdateExerciseRequestSchema(BaseModel):
     order_index: int | None = Field(alias='orderIndex', default_factory=fake.integer)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(alias='estimatedTime', default_factory=fake.estimated_time)
+
+
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+    Схема ответа для обновления упражнения.
+    """
+    exercise: ExerciseSchema

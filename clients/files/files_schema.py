@@ -3,9 +3,9 @@ from pydantic import BaseModel, HttpUrl, Field
 from tools.fakers import fake
 
 
-class File(BaseModel):
+class FileSchema(BaseModel):
     """
-    Схема файла.
+    Структура файла.
     """
     id: str
     filename: str
@@ -15,7 +15,7 @@ class File(BaseModel):
 
 class CreateFileRequestSchema(BaseModel):
     """
-    Описание структуры тела запроса на создание файла.
+    Схема запроса для создания файла.
     """
     filename: str = Field(default_factory=lambda: f"{fake.uuid4()}.png")
     directory: str = Field(default="tests")
@@ -24,6 +24,13 @@ class CreateFileRequestSchema(BaseModel):
 
 class CreateFileResponseSchema(BaseModel):
     """
-    Описание структуры ответа на создание файла.
+    Схема ответа для создания файла.
     """
-    file: File
+    file: FileSchema
+
+
+class GetFileResponseSchema(BaseModel):
+    """
+    Схема ответа для получения файла.
+    """
+    file: FileSchema

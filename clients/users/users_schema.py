@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, Field, ConfigDict
+from pydantic import BaseModel, EmailStr, Field
 
 from tools.fakers import fake
 
@@ -14,22 +14,9 @@ class UserSchema(BaseModel):
     middle_name: str = Field(alias='middleName')
 
 
-class CreateUserResponseSchema(BaseModel):
-    """
-    Схема ответа создания пользователя.
-    """
-    user: UserSchema
-
-
-class GetUserResponseSchema(BaseModel):
-    """
-    Схема ответа получения пользователя.
-    """
-    user: UserSchema
-
 class CreateUserRequestSchema(BaseModel):
     """
-    Схема запроса на создание пользователя.
+    Схема запроса для создания пользователя.
     """
     email: EmailStr = Field(default_factory=fake.email)
     password: str = Field(default_factory=fake.password)
@@ -38,11 +25,32 @@ class CreateUserRequestSchema(BaseModel):
     middle_name: str = Field(alias='middleName', default_factory=fake.middle_name)
 
 
+class CreateUserResponseSchema(BaseModel):
+    """
+    Схема ответа для создания пользователя.
+    """
+    user: UserSchema
+
+
+class GetUserResponseSchema(BaseModel):
+    """
+    Схема ответа для получения пользователя.
+    """
+    user: UserSchema
+
+
 class UpdateUserRequestSchema(BaseModel):
     """
-    Описание структуры тела запроса на обновление данных пользователя.
+    Схема запроса для обновления пользователя.
     """
     email: EmailStr | None = Field(default_factory=fake.email)
     last_name: str | None = Field(alias='lastName', default_factory=fake.last_name)
     first_name: str | None = Field(alias='firstName', default_factory=fake.first_name)
     middle_name: str | None = Field(alias='middleName', default_factory=fake.middle_name)
+
+
+class UpdateUserResponseSchema(BaseModel):
+    """
+    Схема ответа для обновления пользователя.
+    """
+    user: UserSchema

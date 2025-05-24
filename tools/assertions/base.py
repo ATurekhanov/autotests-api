@@ -1,4 +1,8 @@
+from http import HTTPStatus
 from typing import Any
+
+import httpx
+from pydantic import HttpUrl
 
 
 def assert_status_code(actual: int, expected: int):
@@ -42,3 +46,14 @@ def assert_is_true(actual: Any, name: str):
         f'Incorrect value: {name}'
         f'Expected true value but got: {actual}'
     )
+
+def assert_file_is_accessible(url: str):
+    """
+    Проверяет, что файл доступен по указанному URL.
+
+    :param url: Ссылка на файл.
+    :raises AssertionError: Если файл не доступен.
+    """
+    response = httpx.get(url)
+
+    assert response.status_code == HTTPStatus.OK, f"Файл недоступен по URL: {url}"
