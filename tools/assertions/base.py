@@ -1,5 +1,5 @@
 from http import HTTPStatus
-from typing import Any
+from typing import Any, Sized
 
 import httpx
 from pydantic import HttpUrl
@@ -57,3 +57,19 @@ def assert_file_is_accessible(url: str):
     response = httpx.get(url)
 
     assert response.status_code == HTTPStatus.OK, f"Файл недоступен по URL: {url}"
+
+def assert_length(actual: Sized, expected: Sized, name: str):
+    """
+    Проверяет, что фактическая длина равна ожидаемой.
+
+    :param actual: Фактический объект.
+    :param expected: Ожидаемый объект.
+    :param name: Название проверяемого значения.
+    :raises AssertionError: Если длина не совпадает.
+    """
+
+    assert len(actual) == len(expected), (
+        f'Incorrect object length: "{name}". '
+        f'Expected length: {len(expected)}. '
+        f'Actual length: {len(actual)}'
+    )
