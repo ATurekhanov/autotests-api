@@ -12,6 +12,10 @@ class UserFixture(BaseModel):
     response: CreateUserResponseSchema
 
     @property
+    def id(self) -> str:
+        return self.response.user.id
+
+    @property
     def email(self) -> EmailStr:
         return self.response.user.email
 

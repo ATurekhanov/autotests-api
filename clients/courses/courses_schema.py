@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 from clients.files.files_schema import File
 from clients.users.users_schema import UserSchema
@@ -30,6 +30,8 @@ class CreateCourseRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание курса.
     """
+    model_config = ConfigDict(populate_by_name=True)
+
     title: str = Field(default_factory=fake.sentence)
     max_score: int | None = Field(alias='maxScore', default_factory=fake.max_score)
     min_score: int | None = Field(alias='minScore', default_factory=fake.min_score)
