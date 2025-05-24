@@ -110,6 +110,14 @@ class Fake:
         """
         return self.integer(1, 30)
 
+    def word(self) -> str:
+        """
+        Генерирует случайное слово.
+
+        :return: Случайное слово.
+        """
+        return self.faker.word()
+
 
 # Создаем экземпляр класса Fake с использованием Faker
 fake = Fake(faker=Faker())

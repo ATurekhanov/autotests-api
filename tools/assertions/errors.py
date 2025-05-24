@@ -81,7 +81,10 @@ def assert_create_file_with_empty_filename_and_directory_response(actual: Valida
     """
     assert_create_file_with_empty_fields(actual, ['filename', 'directory'])
 
-def assert_internal_error_response(actual: InternalErrorResponseSchema, expected: InternalErrorResponseSchema):
+def assert_internal_error_response(
+        actual: InternalErrorResponseSchema,
+        expected: InternalErrorResponseSchema
+):
     """
     Функция для проверки внутренней ошибки. Например, ошибки 404 (File not found).
 
@@ -101,3 +104,27 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     expected = InternalErrorResponseSchema(detail='File not found')
 
     assert_equal(actual, expected, 'detail')
+
+def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema, file_id: str):
+    """
+    Проверяет, что ответ на получение файла с невалидным значением file_id соответствует ожидаемой валидационной ошибке.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :param file_id: Невалидный идентификатор файла.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    expected = ValidationErrorResponseSchema(
+        details=
+        [
+            ValidationErrorSchema(
+                type="uuid_parsing",
+                input=file_id,
+                context={"error": "invalid character: expected an optional \
+prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"},
+                message="Input should be a valid UUID, invalid character: expected an optional \
+prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+                location=["path", "file_id"]
+            )
+        ]
+    )
+    assert_validation_error_response(actual, expected)
