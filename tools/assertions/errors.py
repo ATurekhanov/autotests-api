@@ -1,4 +1,4 @@
-from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema
+from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 
 
@@ -32,6 +32,13 @@ def assert_validation_error_response(actual: ValidationErrorResponseSchema, expe
 
 
 def assert_create_file_with_empty_fields(actual: ValidationErrorResponseSchema, names: list[str]):
+    """
+    Проверяет, что ответ на создание файла с пустыми значениями соответствует ожидаемой валидационной ошибке.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :param names: Список полей, у которых должны быть пустые значения.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
     expected = ValidationErrorResponseSchema(
         details=
         [
@@ -73,3 +80,24 @@ def assert_create_file_with_empty_filename_and_directory_response(actual: Valida
     :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
     """
     assert_create_file_with_empty_fields(actual, ['filename', 'directory'])
+
+def assert_internal_error_response(actual: InternalErrorResponseSchema, expected: InternalErrorResponseSchema):
+    """
+    Функция для проверки внутренней ошибки. Например, ошибки 404 (File not found).
+
+    :param actual: Фактический ответ API.
+    :param expected: Ожидаемый ответ API.
+    :raises AssertionError: Если значения полей не совпадают.
+    """
+    assert_equal(actual.detail, expected.detail, "detail")
+
+def assert_file_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Функция для проверки ошибки, если файл не найден на сервере.
+
+    :param actual: Фактический ответ.
+    :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
+    """
+    expected = InternalErrorResponseSchema(detail='File not found')
+
+    assert_equal(actual, expected, 'detail')
