@@ -5,6 +5,7 @@ from httpx import Client
 
 from clients.authentication.authentication_client import get_authentication_client
 from clients.authentication.authentication_schema import LoginRequestSchema
+from clients.event_hooks import curl_event_hook
 
 
 @lru_cache(maxsize=None)
@@ -23,5 +24,6 @@ def get_private_http_client(user: LoginRequestSchema) -> Client:
     return Client(
         timeout=60,
         base_url="http://0.0.0.0:8000",
-        headers={"Authorization": f"Bearer {login_response.token.access_token}"}
+        headers={"Authorization": f"Bearer {login_response.token.access_token}",},
+        event_hooks={'request': [curl_event_hook]}
     )
