@@ -4,6 +4,9 @@ from clients.files.files_schema import CreateFileRequestSchema, CreateFileRespon
     GetFileResponseSchema
 from config import settings
 from tools.assertions.base import assert_equal, assert_file_is_accessible
+from tools.logger import get_logger
+
+logger = get_logger("FILES_ASSERTIONS")
 
 
 @allure.step("Check create file response")
@@ -15,6 +18,8 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     :param response: Ответ API с данными файла.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
+    logger.info('Check create file response')
+
     expected_url = f'{settings.http_client.client_url}static/{request.directory}/{request.filename}'
     actual_url = str(response.file.url)
 
@@ -33,6 +38,8 @@ def assert_file(actual: FileSchema, expected: FileSchema):
     :param expected: Ожидаемые данные файла.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
+    logger.info('Check file')
+
     assert_equal(actual.id, expected.id, "id")
     assert_equal(actual.url, expected.url, "url")
     assert_equal(actual.filename, expected.filename, "filename")
@@ -50,4 +57,6 @@ def assert_get_file_response(
     :param create_file_response: Ответ API при создании файла.
     :raises AssertionError: Если данные файла не совпадают.
     """
+    logger.info('Check get file response')
+
     assert_file(get_file_response.file, create_file_response.file)
