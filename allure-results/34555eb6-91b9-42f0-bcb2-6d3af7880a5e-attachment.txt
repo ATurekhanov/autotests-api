@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjExOjIzLjc2MjU2NSIsInVzZXJfaWQiOiI1MzgzMjE3YS04MDlhLTQ0NzctOTVkMS1iMDBmOGM1YzY1MDkifQ.5EvwGHsOfM1Ii5VaOUsc2kXLC4NY3-kT2SUCNsQuRSY' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whether over far audience.","maxScore":67,"minScore":5,"description":"Include face toward could improve recently detail. Word suffer science laugh.\nAcross long expert catch stay doctor. New form yes talk itself capital difference.","previewFileId":"a99279ee-d222-44cc-8316-98788a50c400","estimatedTime":"6 weeks","createdByUserId":"5383217a-809a-4477-95d1-b00f8c5c6509"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjExOjIzLjc2MjU2NSIsInVzZXJfaWQiOiI1MzgzMjE3YS04MDlhLTQ0NzctOTVkMS1iMDBmOGM1YzY1MDkifQ.5EvwGHsOfM1Ii5VaOUsc2kXLC4NY3-kT2SUCNsQuRSY' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry indicate teacher successful option thing.","courseId":"2b1df965-9dcb-4fb6-92c3-5ef89d16bc76","maxScore":93,"minScore":2,"orderIndex":40,"description":"Fish word night indicate each even huge. When feel various prevent over any. Method head candidate low.","estimatedTime":"3 weeks"}'

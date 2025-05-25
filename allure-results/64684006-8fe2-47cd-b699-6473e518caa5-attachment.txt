@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8d28629d-3fd8-4b17-844f-b17cd0c50050' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjExOjIyLjU3MTc3MyIsInVzZXJfaWQiOiJiZTIwODVjZC0yOTU3LTRlOWQtOGQ0Zi0wM2JiNGJiZjAzM2YifQ.shYkn3SR9WAusdEzmsRyfan1dBvGRBNVlck-ZWI9en8' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually across like professional budget when behavior.","maxScore":65,"minScore":6,"description":"Part company two common large. Garden tonight imagine office. Civil nor arm professor bed close. Cause mention writer might two side.","estimatedTime":"6 weeks"}'

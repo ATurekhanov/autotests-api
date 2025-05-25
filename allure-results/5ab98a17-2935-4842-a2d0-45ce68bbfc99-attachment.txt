@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjExOjI0Ljk2OTc1MSIsInVzZXJfaWQiOiJiNzBmNTQ0MS01MzdkLTRiYzYtYjRmOC1iZmU5NDJhODhkZDEifQ.bgWlQjxHwXjk82RE4wBnSRqJA5AhNwhZsC_hhWi2Kks' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Himself easy serious movie but spend.","maxScore":91,"minScore":30,"description":"Like wind provide result audience scene position. Modern game range their professional very. Try news off only western.","previewFileId":"1e394e26-93e8-4fc7-b0f9-95ec96ac0cf3","estimatedTime":"2 weeks","createdByUserId":"b70f5441-537d-4bc6-b4f8-bfe942a88dd1"}'

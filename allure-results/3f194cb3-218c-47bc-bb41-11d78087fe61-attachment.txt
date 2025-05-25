@@ -1,0 +1,2 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:22 Make GET request to http://localhost:8000/api/v1/files/incorrect-file-id
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:25 Got response 422 Unprocessable Entity from http://localhost:8000/api/v1/files/incorrect-file-id
