@@ -1,8 +1,11 @@
+import allure
+
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, FileSchema, \
     GetFileResponseSchema
 from tools.assertions.base import assert_equal, assert_file_is_accessible
 
 
+@allure.step("Check create file response")
 def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
     """
     Проверяет, что ответ на создание файла соответствует запросу.
@@ -20,6 +23,7 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
 
     assert_file_is_accessible(actual_url)
 
+@allure.step("Check file")
 def assert_file(actual: FileSchema, expected: FileSchema):
     """
     Проверяет, что фактические данные файла соответствуют ожидаемым.
@@ -33,6 +37,7 @@ def assert_file(actual: FileSchema, expected: FileSchema):
     assert_equal(actual.filename, expected.filename, "filename")
     assert_equal(actual.directory, expected.directory, "directory")
 
+@allure.step("Check get file response")
 def assert_get_file_response(
         get_file_response: GetFileResponseSchema,
         create_file_response: CreateFileResponseSchema

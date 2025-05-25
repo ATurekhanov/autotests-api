@@ -1,5 +1,6 @@
 from functools import lru_cache
 
+import allure
 from httpx import Client
 
 from clients.authentication.authentication_client import get_authentication_client
@@ -7,6 +8,7 @@ from clients.authentication.authentication_schema import LoginRequestSchema
 
 
 @lru_cache(maxsize=None)
+@allure.step('Get client with JWT token')
 def get_private_http_client(user: LoginRequestSchema) -> Client:
     """
     Функция создаёт экземпляр httpx.Client с аутентификацией пользователя.
