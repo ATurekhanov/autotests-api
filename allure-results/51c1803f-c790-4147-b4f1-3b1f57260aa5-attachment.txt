@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEwOjQ3OjIxLjMxNTgzNiIsInVzZXJfaWQiOiIwYzRhYjAxMS01MzZmLTRmYjAtOWU1OC04OWEzNmFhYTdiZmUifQ.g_tSeotLUimMloFg-sepTZv2h7R4fj9RspUmIEk05XM' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perform certain blue set.","maxScore":58,"minScore":25,"description":"By white say happen country. Election race son assume physical only unit. Cost fund others agent only.","previewFileId":"8564aa2e-fb93-4b42-b703-8ec3efa2e9dc","estimatedTime":"3 weeks","createdByUserId":"0c4ab011-536f-4fb0-9e58-89a36aaa7bfe"}'

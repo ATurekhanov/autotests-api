@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEwOjQ3OjIwLjkxNzUxMCIsInVzZXJfaWQiOiJlMmQyY2M5My0zZWI4LTQ5ODgtOGFlYi1jZTM4MGVkMDYzNWYifQ.M7JamppcBddnmFkN2IGfk-etGa8fIHOgQOP2fhvGiTQ' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major lay wonder edge audience show.","maxScore":84,"minScore":14,"description":"Around sometimes friend girl true tax Mrs speech. Least maintain notice. Shoulder single story pass physical Democrat.","previewFileId":"e8d07a88-ba96-453c-809c-12c80180bfdf","estimatedTime":"7 weeks","createdByUserId":"e2d2cc93-3eb8-4988-8aeb-ce380ed0635f"}'

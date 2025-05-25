@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEwOjQ3OjIwLjEzMjYyMyIsInVzZXJfaWQiOiIyMWU4ZjQzNi02NDA4LTQwMjMtOWE2OC03OWNiYTk0ZGZjZTUifQ.w2qn81kNcIyHTv5VdrgHBqXWXLs7-15s4E4ywPXCUZA' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve maybe alone explain truth.","courseId":"69558b1d-a477-41d4-b32f-832f965a46d9","maxScore":94,"minScore":15,"orderIndex":77,"description":"Itself sometimes break. Interview difference that west center so. Final street treatment price.\nLate face receive require inside. Hair interest hit partner that.","estimatedTime":"4 weeks"}'

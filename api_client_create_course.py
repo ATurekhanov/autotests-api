@@ -5,6 +5,7 @@ from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
+from config import settings
 from tools.fakers import fake
 
 public_users_client = get_public_users_client()
@@ -28,7 +29,7 @@ course_client = get_courses_client(authentication_user)
 create_file_request = CreateFileRequestSchema(
     filename="example.png",
     directory="exercises",
-    upload_file="./testdata/files/example.png"
+    upload_file=settings.test_data.png_file
 )
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)

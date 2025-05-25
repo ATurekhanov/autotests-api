@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEwOjQ3OjE5LjczMTU2MyIsInVzZXJfaWQiOiI4NDQ2ZTVkZi0xNTA1LTQ4YjgtYWM1Mi05ZDI5MzQ3ODdiZTIifQ.92BNozKDIpWKZ80ea_-UNwO5kbUJ-eQ1JEFBzSvwMvI' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"End mind performance kid here develop stage.","maxScore":78,"minScore":19,"description":"Mother person paper north. Look smile reduce approach.\nNow prepare firm really send vote but experience. Throw family throw back task receive smile.\nCall yeah name election cost.","previewFileId":"ca9c988c-8e73-46f0-bb04-2aa72fb59269","estimatedTime":"8 weeks","createdByUserId":"8446e5df-1505-48b8-ac52-9d2934787be2"}'
