@@ -25,4 +25,3 @@ class Settings(BaseSettings):
     test_data: TestDataConfig
 
 settings =Settings()
-print(settings)

@@ -1,1 +1,0 @@
-{"uuid": "d670e130-7350-4fe6-a99a-28a5750b0186", "children": ["7a3462e6-c0f4-458d-8fe5-9d4fc2584888"], "befores": [{"name": "public_users_client", "status": "passed", "steps": [{"name": "Get client without JWT token", "status": "passed", "start": 1748168242908, "stop": 1748168242918}], "start": 1748168242908, "stop": 1748168242918}], "start": 1748168242908, "stop": 1748168243289}
