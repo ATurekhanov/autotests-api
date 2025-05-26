@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE3OjA3OjMxLjE2NzE2NyIsInVzZXJfaWQiOiI4MDUyMGZhYy0yYTQyLTRlMGYtOWM4Zi1jZjUwMWJiYjk0NjYifQ.JuDxeMTyJazmHCAwB6et2QL4yc070W6Lvb1x5ib0iPI' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where million language what.","maxScore":56,"minScore":17,"description":"Yet nice attack be. Worker maybe worry action throw soon.\nSuch smile find general. Law citizen than outside. Food sometimes life law open.","previewFileId":"42182a82-1aed-4f75-98a3-08c1f6c3cf14","estimatedTime":"9 weeks","createdByUserId":"80520fac-2a42-4e0f-9c8f-cf501bbb9466"}'

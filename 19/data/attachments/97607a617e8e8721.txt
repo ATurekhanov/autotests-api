@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE3OjA3OjM0LjQxMjk5MiIsInVzZXJfaWQiOiJkMDRkZTJmYy1iYTMyLTQ1MGQtYTVlNy01NzhjMmM1ZmYxZWIifQ.Zi13oLTcNdkn71SwPwEDr3hAqKjdYqGWlcfXY041dCk' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economy I simply fish guess pass store.","maxScore":52,"minScore":14,"description":"Town walk support stop. Just fast hear. Those see other shoulder though.\nThus American training wish. Also enter strong cell.","previewFileId":"cefea6ff-11c5-4ef6-b0ee-35eef9d1c58c","estimatedTime":"7 weeks","createdByUserId":"d04de2fc-ba32-450d-a5e7-578c2c5ff1eb"}'

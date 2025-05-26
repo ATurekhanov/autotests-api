@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE3OjA3OjMyLjMwOTcyNyIsInVzZXJfaWQiOiI4ZTdlYzM5ZS1hYjA0LTQ1ZDYtOTRmOC0xY2QxZDRjYzI5N2YifQ.9OOkuLvTyf89rFZ_NZ4orP5VRmfd6KxP1ZOlpAY2nwE' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late such argue account never system road name.","maxScore":83,"minScore":23,"description":"Image behind attention suddenly these development south apply.\nSouthern good staff. Notice move strategy by whatever sense free concern.\nSell first physical mission growth. Sport pretty leg each.","previewFileId":"f56da8ec-e5ce-4bbf-b05a-2da2165b7e9e","estimatedTime":"4 weeks","createdByUserId":"8e7ec39e-ab04-45d6-94f8-1cd1d4cc297f"}'

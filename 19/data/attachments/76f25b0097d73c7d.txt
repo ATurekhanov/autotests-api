@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/edca3204-be28-41cb-a751-3e94743c263a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE3OjA3OjM1LjY1Njc2MiIsInVzZXJfaWQiOiI2MjU2OGQ4Yi0zM2Q3LTQ1ZTMtYjIyNC1lMWE3MzVmYTk5MWEifQ.GSWOZVXtMQcZesrViKmW918CHYfY30Ls5W98jVGq2YU' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Million investment necessary.","maxScore":62,"minScore":19,"orderIndex":25,"description":"Country car success like street reach learn. Identify raise name.\nWest maybe evidence skin partner summer. Trade write agree a. Red watch reality cell.","estimatedTime":"1 weeks"}'

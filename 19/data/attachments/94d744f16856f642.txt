@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE3OjA3OjMzLjc2NDc2NSIsInVzZXJfaWQiOiJmZTZkYjdjNi1jNDExLTQxZTgtYjM1OS01ZDA0MjEwMTM2YzUifQ.OOUeOenk6YVCcNc79rgKZxH5WB1xRo6IdZJydTIbhdc' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College decision among direction seat here record.","maxScore":82,"minScore":14,"description":"Safe throughout administration show around beat. Lay shoulder marriage.\nAddress program difference general toward. If open fill two. Likely all debate look what.","previewFileId":"b8a8cf92-dadc-4a79-bb91-474819be6e40","estimatedTime":"9 weeks","createdByUserId":"fe6db7c6-c411-41e8-b359-5d04210136c5"}'

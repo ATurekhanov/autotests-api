@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE3OjA3OjMzLjQ5MjA3NyIsInVzZXJfaWQiOiIxYTBkMTYwMS1lZThhLTRlOGQtOTM5Ni03OTJlY2E3ODAzZGIifQ.-2EogTuHm_hDrCcnGu1vZfXT9CfoWIBozPIQrCK4iA0' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Want though break society pay best national whole.","courseId":"247c50e8-6a65-4143-8cb2-003610d13a56","maxScore":55,"minScore":1,"orderIndex":68,"description":"Never not mean table north. International them hear major outside. Baby leg market son cell.\nHave age wide food star people. Research theory evening both doctor recently place.","estimatedTime":"1 weeks"}'
