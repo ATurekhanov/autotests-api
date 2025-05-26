@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjU1OjIyLjAwMDE0MiIsInVzZXJfaWQiOiI1NGMyMjM1MC04NGVlLTRiMzctOGM0Ni1lZTE1MzQwNGUyMGIifQ.kOJu9dkGfx2ij3oH7E1s7TkEO27GVCc2fDJKw_cb0rg' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sea resource space quality run.","maxScore":60,"minScore":10,"description":"By foreign any budget indeed fall live. Usually letter lead participant blood cover candidate. Hope course truth summer charge section great.","previewFileId":"8e2e9dd8-566d-4e22-8705-42236eb63062","estimatedTime":"9 weeks","createdByUserId":"54c22350-84ee-4b37-8c46-ee153404e20b"}'

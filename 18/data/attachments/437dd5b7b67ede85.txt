@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjU1OjI2LjQ5Mzk2NSIsInVzZXJfaWQiOiI0MTRhNDZhNi1jYjI5LTQ1ODItYTQ0OS0zMjk3YTZmZWIwNGUifQ.j-0ivmMzX4syy7JWoYIRdrVbVjzy4NOxsXUzK2I7Tmg' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speak cover who happen third.","maxScore":81,"minScore":4,"description":"Various poor south only behind always parent. Successful coach full.\nPoint our including her collection hit. Left today white scene million deal. Money ability reflect situation these keep.","previewFileId":"a70efa6e-6b8d-4f1f-8969-a40aba70f17f","estimatedTime":"8 weeks","createdByUserId":"414a46a6-cb29-4582-a449-3297a6feb04e"}'

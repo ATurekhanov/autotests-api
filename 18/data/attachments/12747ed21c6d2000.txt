@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjU1OjI1LjgxOTAwMSIsInVzZXJfaWQiOiI3MTQ0Y2ZiNC0wMTZhLTQ1NDUtYWE4Zi0zYWIxOWJhNDc4ZDAifQ.bNnuLY3FiMsA0IdpxVKc1lTjr74b8aBLDUe4WbWAlpw' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Make short prevent prove.","maxScore":86,"minScore":24,"description":"Great occur check foot fight. Movie page cost serve inside couple.\nTry Mr three none sense research than color. Guess toward what my north safe.","previewFileId":"7102f357-5656-41fd-b69a-afda58107ec0","estimatedTime":"3 weeks","createdByUserId":"7144cfb4-016a-4545-aa8f-3ab19ba478d0"}'

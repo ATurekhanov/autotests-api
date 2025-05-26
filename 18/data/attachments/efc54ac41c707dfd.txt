@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjU1OjI0LjU5NjIyOSIsInVzZXJfaWQiOiIzYzg5OWViZS0zNzkxLTQxNWItYjBiYi02YTNkZjEzNmFkOGQifQ.B6ufQWWcmfngjCkLN13_nM0vBsmjp5wFO2VNvq2cLts' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indicate pick prove executive American.","maxScore":62,"minScore":15,"description":"Anyone sort worker follow. Quite military leg. At father beautiful main yourself personal. Real person international force dark.","previewFileId":"e227975d-2c3b-4f59-9399-b0c99956ddf3","estimatedTime":"8 weeks","createdByUserId":"3c899ebe-3791-415b-b0bb-6a3df136ad8d"}'
