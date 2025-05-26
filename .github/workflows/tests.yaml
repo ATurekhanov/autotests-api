@@ -50,43 +50,35 @@ jobs:
         with:
           name: allure-results
           path: allure-results
-          if-no-files-found: error
+          include-hidden-files: true
+
 
   publish-reports:
     needs: run-tests
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v4
 
       - name: Download Allure results
         uses: actions/download-artifact@v4
         with:
           name: allure-results
-          path: allure-results
 
-      - name: Checkout gh-pages for history
+      - name: Get Allure history
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Prepare Allure history
-        run: |
-          mkdir -p allure-results/history
-          cp -r gh-pages/allure-history/history/* allure-results/history/ || echo "No existing history found"
-
-      - name: Generate Allure Report
+      - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@v1.12
         with:
           allure_results: allure-results
-          allure_report: allure-report
-          enable_charts: true
+          allure_history: allure-history
 
       - name: Deploy report to Github Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-report
+          publish_dir: allure-history
