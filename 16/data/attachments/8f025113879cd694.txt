@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjIzOjM0LjUwNTQ2NyIsInVzZXJfaWQiOiJkYjBmMzcyMC1lY2U2LTQ1YjgtYWU5Yi03NDg4NzczZDVhMWEifQ.OleS0QEtqMm_WeOWll3pEx7j4_94mkyA1yLxZQ0lNXs' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment store organization edge.","maxScore":71,"minScore":30,"description":"Ability wonder of catch here look black consider.\nPolitical our adult head. Ever lose traditional nothing meet customer. When three dog agreement day.","previewFileId":"9a0a2670-bd1f-412e-8364-bcd47250305f","estimatedTime":"7 weeks","createdByUserId":"db0f3720-ece6-45b8-ae9b-7488773d5a1a"}'
