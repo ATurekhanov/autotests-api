@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjM0OjAwLjE1MzEzOCIsInVzZXJfaWQiOiI0NmZlYTg4My1lZGRiLTQ1Y2UtYWU2Yi03YWE2MDVkNGM5NmIifQ.HOCKSu1lRufIsolusVpI8uUURA22oqNR5WRUAHjPePM' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Level say now call enough audience door.","maxScore":81,"minScore":15,"description":"Thousand remember girl laugh thus little by mean. Than main north church trade source executive.","previewFileId":"2b70ceba-b398-469c-9aee-c41add1ffd69","estimatedTime":"10 weeks","createdByUserId":"46fea883-eddb-45ce-ae6b-7aa605d4c96b"}'

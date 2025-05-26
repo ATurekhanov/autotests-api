@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjM0OjAwLjE1MzEzOCIsInVzZXJfaWQiOiI0NmZlYTg4My1lZGRiLTQ1Y2UtYWU2Yi03YWE2MDVkNGM5NmIifQ.HOCKSu1lRufIsolusVpI8uUURA22oqNR5WRUAHjPePM' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cut among small rest.","courseId":"812ccf75-14a2-4674-90ae-ee0cf2d49c96","maxScore":77,"minScore":23,"orderIndex":97,"description":"Deep challenge pick hundred certain report. Than hope up provide glass short similar these. Want herself cost class economy campaign science many.","estimatedTime":"1 weeks"}'

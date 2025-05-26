@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjM0OjAwLjQyOTIyNyIsInVzZXJfaWQiOiI3ZjYwY2FlNS02M2NkLTQzNDYtYjllNC04YWYxMzhlM2ZmNGYifQ.S8BfmE4eiCi-jOZcQaf09Y4Lif9tqbcIteAEecWaQpc' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier woman fine age.","maxScore":97,"minScore":19,"description":"Newspaper difficult health believe work try. Imagine against collection item.\nCase different three wrong weight process human.\nWalk development trial central.","previewFileId":"e75854a7-e136-4d94-a26a-edbf4d8ed73f","estimatedTime":"6 weeks","createdByUserId":"7f60cae5-63cd-4346-b9e4-8af138e3ff4f"}'

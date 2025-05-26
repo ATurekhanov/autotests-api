@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c6650096-2ddd-44b8-b192-1c742cb31e1a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjMzOjU3LjIwMzE4NiIsInVzZXJfaWQiOiJlNGU5MDI1OC0xZTI4LTRmNTItYTRiNi02YjgxNjI3YWZiN2YifQ.U9qGDwPjSg6qHPE4Vkh3Rz_0USiPhEWA1qmad5ma2cs' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Peace easy about energy short dream.","maxScore":77,"minScore":1,"orderIndex":64,"description":"Know hair pick range impact stand west. In they once who international ball ask wait.\nBaby current heart once develop action. Guess design area whole news discover. Mouth but force.","estimatedTime":"3 weeks"}'

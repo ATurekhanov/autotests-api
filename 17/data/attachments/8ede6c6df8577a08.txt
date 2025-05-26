@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjMzOjU4LjY2MzY4MyIsInVzZXJfaWQiOiIxMjEwZWZjOC04OGMyLTQ4MzEtYjViMS1kNTU3OTViYzQ1MjYifQ.jgc5A7P4UASSyulrp5mtbcs-4w0iOIpSjd3DDNqXDL8' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"To instead cost these.","courseId":"153c46e7-8acf-4edd-83a4-d71e218a4999","maxScore":89,"minScore":30,"orderIndex":33,"description":"Write study baby share. North him its poor responsibility have natural. Western line radio dog north particular.\nBrother federal bed probably them. But room major nice raise.","estimatedTime":"5 weeks"}'

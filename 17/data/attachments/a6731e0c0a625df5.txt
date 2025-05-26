@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE2OjMzOjU4LjkzNjY1NSIsInVzZXJfaWQiOiJmNjI1MDcyYS1lZjgxLTRhNWMtOTVjMy1hMDM3M2Y3ZTZiYjMifQ.Oo2nOX-2NhgNK1vx4oQmsRhJPf5Y8Q_UUKFsr1mObM8' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fear hotel citizen than someone on save two.","maxScore":96,"minScore":5,"description":"Item maintain stand ever design at. Travel particularly eye section door voice. Community most agent term audience hot dinner.","previewFileId":"7d78f60e-3e0d-4da1-8888-ff964000cd92","estimatedTime":"1 weeks","createdByUserId":"f625072a-ef81-4a5c-95c3-a0373f7e6bb3"}'

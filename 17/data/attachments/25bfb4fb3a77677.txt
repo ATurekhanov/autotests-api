@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/309970b6-0705-4c6f-8d86-260b9f5a5432
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from PATCH http://localhost:8000/api/v1/courses/309970b6-0705-4c6f-8d86-260b9f5a5432
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check update course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Challenge economy necessary past discuss.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Yeah weight other society also. Small cultural house. Too cause important sell among statement.
+Voice system teacher. Event indeed care season. Wish including what rate environmental past sort.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
