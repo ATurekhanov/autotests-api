@@ -45,7 +45,7 @@ jobs:
       - name: Run API tests with pytest and generate Allure results
         run: |
           mkdir -p allure-results
-          pytest -m regression --alluredir=allure-results --numprocesses 2
+          pytest -m regression --alluredir=allure-results --numprocesses 3
 
       - name: Upload Allure Results
         uses: actions/upload-artifact@v4
