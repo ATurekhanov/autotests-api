@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjI5OjM1LjQ3ODM0NiIsInVzZXJfaWQiOiI4ZWYwM2U5NC0wYjYzLTQ2MzgtYjhiMi01OTNkMWY3ZGJlYmYifQ.vYozFD-PIcn2Q5Ue4xh5d-oPRrR3W69HjeQukcGSN10' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Money citizen senior blood purpose these.","courseId":"347b103a-8527-472d-a9cf-50ca8c4e7652","maxScore":72,"minScore":27,"orderIndex":70,"description":"Thus cut detail field especially. The budget expect have. Enter audience campaign significant.","estimatedTime":"10 weeks"}'

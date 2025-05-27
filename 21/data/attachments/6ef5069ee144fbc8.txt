@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/67efc42a-d0e9-47e2-9ca2-610a1441a37c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjI5OjMyLjg3NzM5OSIsInVzZXJfaWQiOiJlZGUzM2U3OS0xMjMzLTRjYzktOGM0Ny0zOGY3ZDdhZGNkMjAifQ.80o-aOELhD5sepwZVBrRxd2MRZHsyvDuNBKLyJBr7i0' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year however simple oil.","maxScore":99,"minScore":15,"description":"Book arrive read throughout interview Democrat produce. Great leader same president whether land just executive.\nPlayer major operation large. Reduce field among though too several.","estimatedTime":"4 weeks"}'

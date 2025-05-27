@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjI5OjMyLjg3NzM5OSIsInVzZXJfaWQiOiJlZGUzM2U3OS0xMjMzLTRjYzktOGM0Ny0zOGY3ZDdhZGNkMjAifQ.80o-aOELhD5sepwZVBrRxd2MRZHsyvDuNBKLyJBr7i0' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Notice price many kitchen main behavior.","maxScore":94,"minScore":4,"description":"Actually every far must particular stop each. Easy but yard character. Very during fish according tree certain summer.\nPartner organization manage today.","previewFileId":"9062f73b-6083-4834-8ef2-0a2e32214fc7","estimatedTime":"1 weeks","createdByUserId":"ede33e79-1233-4cc9-8c47-38f7d7adcd20"}'

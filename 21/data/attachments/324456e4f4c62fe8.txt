@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjI5OjM3LjM2OTI5OSIsInVzZXJfaWQiOiJjMWM1YzZhMC1hZDgyLTRjZDQtYWQ1OS00NGNhY2YzMWNlYzMifQ.794k1YWZCABC40Vh8_CohWQOuPUGxb1q9tCzzBxawzo' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait card population business herself may theory away.","maxScore":84,"minScore":27,"description":"Thus grow professor pull most. Model join two though both election everything able.\nSuffer everybody hundred window those. Note middle head necessary.","previewFileId":"5286de99-60e9-46d5-af0e-213ecc9c9aff","estimatedTime":"6 weeks","createdByUserId":"c1c5c6a0-ad82-4cd4-ad59-44cacf31cec3"}'
