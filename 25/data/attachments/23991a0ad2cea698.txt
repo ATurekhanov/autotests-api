@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE2OjM4OjQ2Ljc1MjIzNSIsInVzZXJfaWQiOiI4YjcyNmNhMi1hYTJmLTQxMTktOTRkYS0zNjExNTdmYjcyZTMifQ.Sna1bf93CoRG15EfiGvJ6PKyf-KArc2dyak9_fxWK2U' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly boy customer series remain strategy right assume.","maxScore":86,"minScore":16,"description":"Program reflect speak quality really ten. Take garden our for political door. Social half blue fear local. Article share activity return.","previewFileId":"8f3869dd-35d3-456e-a8f8-77ac9bdbb33e","estimatedTime":"5 weeks","createdByUserId":"8b726ca2-aa2f-4119-94da-361157fb72e3"}'

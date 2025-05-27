@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE2OjM4OjQ5LjE1OTM1NCIsInVzZXJfaWQiOiI0ZDQ4YjUzZC0zYTJlLTQwMDAtOTZiNS03MWRlYzA1NzRhOTYifQ.bfQFgvWEReYDgrpI92zBGCbbCAWx46IqmpxW5pTUJK0' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point serious science job alone born figure.","courseId":"f343834e-ce92-45d2-bf48-11f01febf63c","maxScore":74,"minScore":27,"orderIndex":84,"description":"Offer tax give week plan matter. Total card deal movie while bed you. Staff situation structure south society see why road.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE2OjM4OjQ4LjUxODE4MSIsInVzZXJfaWQiOiJjZDUzZWY4Ny01ZjE1LTRkOWUtYjZjNi1lZThmODEyNTgwMzEifQ.ThuyXk-rDWrGihzv41sKZGgd7-xkXqpowhq7FL1diWs' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Of girl song build buy fish.","courseId":"2a77d9e9-aae8-4e23-a586-36e2bf7422e2","maxScore":63,"minScore":10,"orderIndex":91,"description":"Bed past oil. Look magazine sister floor line wall. Easy point through base shake fear without. End marriage worker month pretty modern.","estimatedTime":"7 weeks"}'

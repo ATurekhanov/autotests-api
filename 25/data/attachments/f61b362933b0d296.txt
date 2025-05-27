@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE2OjM4OjQ4LjUxODE4MSIsInVzZXJfaWQiOiJjZDUzZWY4Ny01ZjE1LTRkOWUtYjZjNi1lZThmODEyNTgwMzEifQ.ThuyXk-rDWrGihzv41sKZGgd7-xkXqpowhq7FL1diWs' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Natural reality speak.","maxScore":62,"minScore":10,"description":"Tough here Congress consider. Style fight sister available voice. Carry successful chance mind.\nMachine factor finish well blood song.","previewFileId":"af0cf9a3-eeff-4f28-acd2-2df4063c95d2","estimatedTime":"10 weeks","createdByUserId":"cd53ef87-5f15-4d9e-b6c6-ee8f81258031"}'

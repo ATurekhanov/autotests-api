@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/cfbfad03-1276-4c5b-88e0-b03690b23817' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE2OjM4OjQ5Ljc3ODUyNiIsInVzZXJfaWQiOiJlOGZjOGZkOC1jMDg5LTRiYzAtODc5Zi05MzM1NzdkZmM0NTUifQ.uX9mf935IeNp_BuYxSOjHhG4mrxXw7ruuXaf3F3UcPo' \
+  -H 'content-length: 246' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Artist financial of owner old quickly.","maxScore":96,"minScore":30,"orderIndex":29,"description":"Share partner wonder job. Identify since season million lawyer represent with. Audience half if budget start.","estimatedTime":"5 weeks"}'
