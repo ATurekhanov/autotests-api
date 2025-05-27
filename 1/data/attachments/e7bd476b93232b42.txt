@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/4f64022d-ba7e-495e-91a6-7e17271ce24b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjMyOjA3LjIxNzc1MiIsInVzZXJfaWQiOiJlZmQ5MTk5Yy1mNGFhLTRkMDgtYTEwZC01ZTc3NWQ3ODk5NDMifQ.PYnPxYjPx3026_0mg_Ni4Yu7Jaof5BOW0w7qxFpJqZ4' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mention degree business plan hit beyond.","maxScore":88,"minScore":13,"orderIndex":95,"description":"Within seat after treat agree guy together. Brother seek society move detail call.\nBoth dog employee a effect nor. Window war center summer goal field decision.","estimatedTime":"6 weeks"}'

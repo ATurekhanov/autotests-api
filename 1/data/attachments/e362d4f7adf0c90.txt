@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjMyOjAzLjg3MjczOCIsInVzZXJfaWQiOiJiZTJmM2QzOS0zZjExLTQ3MTQtODFmNy01Y2Y3ZDNmZjg1ZTgifQ.fenweZtSMk0vS3QmLX2mNIf6YqG8x2O1CSf0ASNQBRk' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term open much suggest.","maxScore":86,"minScore":13,"description":"Partner conference happy age human.\nCultural response company. Staff letter adult various.\nFear kitchen region create should prevent scene. White camera final choice. Determine across reveal.","previewFileId":"c0d0a639-8c47-4016-a160-185b5668cc4a","estimatedTime":"7 weeks","createdByUserId":"be2f3d39-3f11-4714-81f7-5cf7d3ff85e8"}'
