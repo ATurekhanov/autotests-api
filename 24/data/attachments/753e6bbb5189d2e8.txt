@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjM0OjI1LjAxMjM3MyIsInVzZXJfaWQiOiI2NzhkZmVjMS1hODY4LTQxM2YtYTcyNC05MzE5NTBhNzA1NmUifQ.w0bQpyLVKWQZOKC3aqCRaQJ_jGC6sIymffu7suOqRs0' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Since far church industry take person.","courseId":"21ea861e-2b21-47bb-8e03-0f6499966321","maxScore":82,"minScore":6,"orderIndex":58,"description":"Board your notice small form season trip. Adult administration own serve.\nClaim Congress garden morning that pass research. Happy business apply full at scientist.","estimatedTime":"10 weeks"}'

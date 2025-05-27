@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c7af4233-6f82-4645-9c42-e1cee8ec3c16' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjM0OjI2LjI3NjY5MyIsInVzZXJfaWQiOiIyOThmYjE0My1iNjZjLTRlYzItOWQ2OS03MjMwZmRiZTIyNjgifQ.UGlfoFEvNHa8U84I_U2zV1Id3TDLTaC77hdbKadi6hg' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Box program face market will drug not food.","maxScore":60,"minScore":27,"orderIndex":79,"description":"Color culture thus tax pick positive. Room represent everything land day.\nPass mean establish performance rich social mind plan. Movement television face others.","estimatedTime":"8 weeks"}'

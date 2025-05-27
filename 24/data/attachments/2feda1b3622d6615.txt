@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bb0ec6f5-ff09-49ab-9fe4-4397f1e7f7a3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjM0OjIxLjc1MjU1MSIsInVzZXJfaWQiOiJjN2E4NGYyYi1mNTM1LTQ3NzctYmY0MC01NGEwYzA5ZWM2ZGUifQ.h9OSO9joV7iDpUrKErQNDlTXW6EFVG2zP8KRCM8mA-4' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Not car world wide huge particularly picture.","maxScore":86,"minScore":21,"description":"Late participant central mother. Course situation parent Mrs. Hand law air step their. Buy by church very forward more music.","estimatedTime":"10 weeks"}'

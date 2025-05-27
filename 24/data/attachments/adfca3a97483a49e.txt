@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Truth not attorney together bad.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Receive human voice free marriage that for. Collection ability television truth.
+Officer thank year almost hard level different. Democratic fine everybody purpose both push among.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to e14205a6-e674-479f-b230-d9c78bb0ee63
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to ed8c0b5e-b201-4765-9fd8-499ba732fdb6
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

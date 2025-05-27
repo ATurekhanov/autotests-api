@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjM0OjI0LjA4MDY2NSIsInVzZXJfaWQiOiI3YzVkMjcwOS02YjZlLTRiYmItOThlMS1hYWM3NGM3YmY0MmIifQ.bNkRMCQnkIOigNjexBWdHklNuEf4pFt8thq9N2K6D04' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Despite economic including sister party.","courseId":"1e370794-ed27-4d72-923e-27e80f08b9c4","maxScore":81,"minScore":29,"orderIndex":5,"description":"Then benefit artist finish per should range. Beat nice determine condition necessary dinner specific. Rise guess early policy boy.","estimatedTime":"1 weeks"}'

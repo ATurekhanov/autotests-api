@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjM0OjIyLjkwNTY5NSIsInVzZXJfaWQiOiJlZDhjMGI1ZS1iMjAxLTQ3NjUtOWZkOC00OTliYTczMmZkYjYifQ.OcZU0tXggXMCb-eVwoSWVZAir_PJunNwUpdE-aWTVCw' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth not attorney together bad.","maxScore":60,"minScore":3,"description":"Receive human voice free marriage that for. Collection ability television truth.\nOfficer thank year almost hard level different. Democratic fine everybody purpose both push among.","previewFileId":"e14205a6-e674-479f-b230-d9c78bb0ee63","estimatedTime":"8 weeks","createdByUserId":"ed8c0b5e-b201-4765-9fd8-499ba732fdb6"}'

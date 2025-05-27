@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjM0OjIxLjc1MjU1MSIsInVzZXJfaWQiOiJjN2E4NGYyYi1mNTM1LTQ3NzctYmY0MC01NGEwYzA5ZWM2ZGUifQ.h9OSO9joV7iDpUrKErQNDlTXW6EFVG2zP8KRCM8mA-4' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement interview morning head.","maxScore":53,"minScore":1,"description":"Behind future ago budget attention reflect another. Somebody a billion whether. Say hour black language.\nSouth operation debate.\nSet art always compare our. Girl system television world.","previewFileId":"de76a698-0fd1-4930-9c83-2a66f1a188f0","estimatedTime":"2 weeks","createdByUserId":"c7a84f2b-f535-4777-bf40-54a0c09ec6de"}'
