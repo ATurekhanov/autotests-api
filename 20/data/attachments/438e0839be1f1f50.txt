@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjE3OjM5LjAwNjMzOSIsInVzZXJfaWQiOiJhMzUzNWI4ZS05ZTgxLTQ4M2YtOWM5Zi01ZjQ4NDRlYmFiYzkifQ.NoxB7N7JU3-nhyHd7dpJIH4v-MKQ-MD1P6YbXm4yLyE' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold time drug popular soon get senior.","maxScore":81,"minScore":20,"description":"Where possible movie really. Your condition sure pass behind fish lot. Economic out head before interview.","previewFileId":"3b71b1ab-1603-4024-b7b2-e292e399a188","estimatedTime":"8 weeks","createdByUserId":"a3535b8e-9e81-483f-9c9f-5f4844ebabc9"}'

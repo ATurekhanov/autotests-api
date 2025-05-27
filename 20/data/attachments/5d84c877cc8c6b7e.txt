@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjE3OjQxLjQwODc0MCIsInVzZXJfaWQiOiIyZGQ2ODllNS0zOTZiLTQwZGItYTBlZi0yNjQwZDljMGQzZGMifQ.UNnwQLsei-kbAyLHRrJROMbR-jS-OYQ-AauYObbVV6c' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game several west.","maxScore":63,"minScore":27,"description":"Risk something three couple my thing structure. Water design technology. Almost your worry general nice officer sound.\nAgainst soldier bar mention morning over we. Figure between strong great almost.","previewFileId":"df50a413-b18b-4f76-ab5d-ca11d39a1d6c","estimatedTime":"2 weeks","createdByUserId":"2dd689e5-396b-40db-a0ef-2640d9c0d3dc"}'
