@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjExOjE0LjM2Nzk1OSIsInVzZXJfaWQiOiI1MDI3ZWU4OS03YWI5LTQ1ZTEtODFmZC1lYmE1MDRkZGFhN2MifQ.tPZnP8Lh-tT5H0TXOe-h2RlVWwB3_0_HcaPjMxBnU1g' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You red them explain whole conference.","maxScore":70,"minScore":18,"description":"Answer officer center kitchen detail which leader.\nLand quite similar respond. Treat top pressure history. Exist choose parent win agent.\nDream step behavior stuff simply so site.","previewFileId":"87a81395-a994-43dc-9931-8f6c539ddbf5","estimatedTime":"1 weeks","createdByUserId":"5027ee89-7ab9-45e1-81fd-eba504ddaa7c"}'

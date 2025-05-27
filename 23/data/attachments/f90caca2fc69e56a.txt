@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjExOjE2LjQ1NzA2NCIsInVzZXJfaWQiOiJmZjhkYmUxNi04M2MyLTQzMTMtYTIzNi1jYTZjM2IxZDU0Y2YifQ.vYZ4e5m9WZE7qnGmSpoGQrWoDbbjjh2064Wl3Ev-qnM' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fish family by film although government director.","courseId":"f4ef1fc8-fe44-47b4-a66f-8e141ebafa38","maxScore":68,"minScore":11,"orderIndex":56,"description":"Practice treatment apply company. Image these special half project daughter. Account professional whom poor.\nConsider age improve issue hit. Force modern economy your paper still.","estimatedTime":"10 weeks"}'

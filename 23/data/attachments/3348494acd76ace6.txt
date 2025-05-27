@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjExOjE1LjgxNTAwNyIsInVzZXJfaWQiOiI0ZDdmNTZjMi1hZDU3LTQwYzQtYjQ4OC1kNzZmYTZiYWQ0M2QifQ.xXYKFV35DtcusfKi-sttiiwYY8l7FzqdXwB8wSXYIFA' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add start develop toward age gun.","maxScore":84,"minScore":8,"description":"Friend listen office seek property far forward. Majority term spend style involve generation support.\nBad before high marriage. Environment where song discuss. Continue huge weight performance.","previewFileId":"5eb0079a-2be8-499d-a5ed-90d8d18d424d","estimatedTime":"9 weeks","createdByUserId":"4d7f56c2-ad57-40c4-b488-d76fa6bad43d"}'

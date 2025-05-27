@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to You red them explain whole conference.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Answer officer center kitchen detail which leader.
+Land quite similar respond. Treat top pressure history. Exist choose parent win agent.
+Dream step behavior stuff simply so site.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to 87a81395-a994-43dc-9931-8f6c539ddbf5
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 5027ee89-7ab9-45e1-81fd-eba504ddaa7c
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

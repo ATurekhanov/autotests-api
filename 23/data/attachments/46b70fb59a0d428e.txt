@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjExOjE1LjgxNTAwNyIsInVzZXJfaWQiOiI0ZDdmNTZjMi1hZDU3LTQwYzQtYjQ4OC1kNzZmYTZiYWQ0M2QifQ.xXYKFV35DtcusfKi-sttiiwYY8l7FzqdXwB8wSXYIFA' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One cut heart turn development once sort.","courseId":"7019d76d-0d8d-4872-baeb-89efda22a810","maxScore":71,"minScore":16,"orderIndex":55,"description":"Any appear policy. Sport reduce amount method.\nAbility citizen century form. Myself customer fish enjoy issue only yes. Buy when west test over assume positive above.","estimatedTime":"6 weeks"}'
