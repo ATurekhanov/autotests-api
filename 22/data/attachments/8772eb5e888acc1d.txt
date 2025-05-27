@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjMxOjUyLjUzNjE3MiIsInVzZXJfaWQiOiIzMDhlODVmMy1iNWM1LTQyNWYtOWJjYi0wYWVlNmFjNmE4NTgifQ.PEq_wO1R7ADYaisAwca6ofDpVAbxbUyt5Myn4dopaZo' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care we nice yes magazine modern.","courseId":"cfe5a103-7efa-4cf9-b8e6-0e1f45322d21","maxScore":85,"minScore":26,"orderIndex":58,"description":"Style painting begin day discussion detail. Mission political bring.\nWind page various play manage fall. Despite mind daughter. Perform industry seven man some glass bring.","estimatedTime":"10 weeks"}'

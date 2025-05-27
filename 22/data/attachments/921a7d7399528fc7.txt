@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjMxOjUxLjg4NDUyOCIsInVzZXJfaWQiOiI0MzE3ZTY5MC1jZWE4LTQ5Y2MtYjhhOS0wYzk1Zjg5ZjgwODUifQ.xImwyBBFGZWq-eAEx_g9LOYNN2U_rvNXuuwtZrbXBGg' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put find heavy we that general strong.","maxScore":74,"minScore":27,"description":"Test others yeah art big. Hair turn manager shake series leader. Easy evidence really answer if owner green.\nValue stock indeed American.","previewFileId":"8f17bd87-ad1a-4b59-85b4-9f60a68e6673","estimatedTime":"1 weeks","createdByUserId":"4317e690-cea8-49cc-b8a9-0c95f89f8085"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjMxOjUxLjMwOTEyMyIsInVzZXJfaWQiOiIwODdlYTA3NC1lYjc4LTQyYjUtOGMxNi0zMmRhYTFmMTc0YWQifQ.gL-leZ_NH0GcFUEp5AbQCCOVLW-W5LG0ytXptUw1Yks' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get old prepare break on.","maxScore":58,"minScore":9,"description":"Add activity recognize fire director use Mr. Enjoy popular both need. Training cultural nothing.\nPick night fact painting wind financial. Space husband family security growth grow explain.","previewFileId":"ac9174d6-3d3c-448d-8e91-4ba9fec0f03b","estimatedTime":"4 weeks","createdByUserId":"087ea074-eb78-42b5-8c16-32daa1f174ad"}'

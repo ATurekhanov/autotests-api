@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjMxOjQ5LjIxNDA1NiIsInVzZXJfaWQiOiIyYTE0YmY4Zi0zNzZkLTRlZDYtYWU1ZS04ZTIyOTMxNzE5ZjAifQ.eUxuz2DdJSyQeLYiuVWSAL8vGEfV783WE7hZLENmvZU' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born career reflect huge.","maxScore":60,"minScore":18,"description":"Partner quality sister project technology should six. Indeed benefit try vote.\nUnderstand respond commercial growth during measure. Hand about six know.","previewFileId":"e0d09509-6270-421a-86d4-1cb644e58471","estimatedTime":"4 weeks","createdByUserId":"2a14bf8f-376d-4ed6-ae5e-8e22931719f0"}'

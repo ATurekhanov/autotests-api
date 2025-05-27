@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDAzOjMxOjQ5LjQ4NjEyOCIsInVzZXJfaWQiOiJhYzU3OWY1MC1jODY0LTRjYWItYmIxNi1jOThhMDJmNzMwYzYifQ.-_VKL2j7TndttEy6yzyI7Q0EJSNI1ewFA9l7C8ijZlA' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly care avoid show develop old director.","maxScore":67,"minScore":28,"description":"Girl agent happy mean rule us. Country true floor role serve president model. Camera he program would attention history message leave.","previewFileId":"6ee60560-0e43-4a97-988f-9bc9a7721a5d","estimatedTime":"7 weeks","createdByUserId":"ac579f50-c864-4cab-bb16-c98a02f730c6"}'

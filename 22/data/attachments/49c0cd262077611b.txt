@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/86d26e66-d37a-47d6-aa54-d907345947b7
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/86d26e66-d37a-47d6-aa54-d907345947b7
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 86d26e66-d37a-47d6-aa54-d907345947b7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Speak be lay hotel.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 735cb156-3d91-4065-ad2f-f1643a24fdb5
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 71
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Bag imagine box idea ahead. Last accept class continue population offer. Girl between move.
+Well over move Republican and debate because. War somebody interview threat think now. Health reach wonder.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
