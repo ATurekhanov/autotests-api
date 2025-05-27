@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjA2OjAyLjIxMjQ5NyIsInVzZXJfaWQiOiJhMTFiM2Y5Yi02ZjU2LTRlMDQtODI5OC1iYjgxZjA5ZjI2ZmQifQ.yRY067PlFzvO-FTnUUrkREBXDqYLjSbJq7aBalnyGIQ' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discuss majority certain week condition allow whose.","maxScore":82,"minScore":15,"description":"Population police seven. Phone future effort plan bit finally.\nGround public beautiful order wrong coach foreign purpose. Identify else me them evidence serious resource way.","previewFileId":"7dc24189-b32e-4567-b0fa-d8f06d210ddc","estimatedTime":"8 weeks","createdByUserId":"a11b3f9b-6f56-4e04-8298-bb81f09f26fd"}'

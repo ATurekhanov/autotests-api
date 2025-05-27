@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a7fcde87-a0fe-4aee-9b1c-5995c7f7ce69' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjA2OjAyLjIxMjQ5NyIsInVzZXJfaWQiOiJhMTFiM2Y5Yi02ZjU2LTRlMDQtODI5OC1iYjgxZjA5ZjI2ZmQifQ.yRY067PlFzvO-FTnUUrkREBXDqYLjSbJq7aBalnyGIQ' \
+  -H 'content-length: 232' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bit soon single compare forward occur.","maxScore":71,"minScore":15,"description":"Live step order free during. Within story manager assume section education firm reach. Moment live pretty into.","estimatedTime":"2 weeks"}'

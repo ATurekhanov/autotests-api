@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjA2OjAzLjM1NDQxNSIsInVzZXJfaWQiOiI0NTU4NGJmNC1jOTFiLTRhMDItOGIyNC0wOGNjNmRhMmE2ZWUifQ.zqzrghAiN8Lx6UNgzZyWENdjPKGnqip6OdK4o34p4kM' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand city paper least change.","maxScore":89,"minScore":16,"description":"End true include social drug live side. Could him he environment.","previewFileId":"08474dbd-ea0e-4832-9296-ada367330c9e","estimatedTime":"3 weeks","createdByUserId":"45584bf4-c91b-4a02-8b24-08cc6da2a6ee"}'

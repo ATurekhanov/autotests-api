@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjA2OjA1LjQzMDg1MyIsInVzZXJfaWQiOiIzYmY1YTJjZS0zYzMyLTQ2MTktOWI0NS04MmQ5Zjg0ODA3Y2EifQ.3Q-gyfsgpAof51OO6rG1f_jF0bLWTbrNNJPi_D8Nn3s' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later hundred house seem long old item.","courseId":"e36d253f-fcae-4804-83d9-9016b87d7bb2","maxScore":77,"minScore":1,"orderIndex":89,"description":"Camera huge research different impact general our. Hope open white share heavy together.\nNever conference else later important decide now.","estimatedTime":"7 weeks"}'

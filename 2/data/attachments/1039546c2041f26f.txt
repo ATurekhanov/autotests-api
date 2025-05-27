@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjA2OjA0Ljc5MjY4MiIsInVzZXJfaWQiOiI3ZmEyMWNiZi1jMTkyLTQwNTAtYTQyZi0xZWY2NzM2ZGE3ZDIifQ.NYDcq5SHdf9FYxGpt8ache2N7N62WNLcz6OV6LlIOr0' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer trade study kitchen.","maxScore":84,"minScore":11,"description":"Range explain deal measure good machine. Book bad would memory. Final significant environmental.\nWind my I fight issue source. Pm source interesting modern fine need.","previewFileId":"394305ef-596b-4149-a972-3f3f46e80512","estimatedTime":"7 weeks","createdByUserId":"7fa21cbf-c192-4050-a42f-1ef6736da7d2"}'

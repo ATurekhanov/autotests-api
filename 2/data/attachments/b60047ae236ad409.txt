@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDA0OjA2OjA0LjUyMTAyNyIsInVzZXJfaWQiOiJiOGQzYTJlMy1kYmE3LTRlZmItOGQ2Yi02MzYxNTdlMjU2MTIifQ.-9YkHU9Ik64_RHV75nOy6WDaPDktx5wZy5jupV4Xx2Y' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tree with sister show couple.","courseId":"44d8fdda-bb5a-4bc0-a41e-2f51749d59c4","maxScore":73,"minScore":25,"orderIndex":98,"description":"Build of sense establish. Force growth ask west body wonder. Whether appear dog character tonight position kid.","estimatedTime":"8 weeks"}'
