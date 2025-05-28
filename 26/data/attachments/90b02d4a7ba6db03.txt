@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjM2OjI4LjA1MDU4NiIsInVzZXJfaWQiOiJlNmRiY2Q0Yy01NjdiLTRlYWItYWU0NC05MTU4N2JiYjY5YTMifQ.LKY5_v8QePtYgWmi-9v14y_ghk6_0-tDSU2gZRZP5iw' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You year your force.","maxScore":50,"minScore":11,"description":"Single four paper large cost sign during.\nHuman education energy fall financial hair current phone. Mind edge suffer.\nReduce beautiful station off herself senior. Police sort share season.","previewFileId":"8d62d01a-4cc8-4d7e-aa8b-7ca00af162d4","estimatedTime":"9 weeks","createdByUserId":"e6dbcd4c-567b-4eab-ae44-91587bbb69a3"}'

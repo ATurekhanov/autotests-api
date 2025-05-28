@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjM2OjI1LjkzMzgzMSIsInVzZXJfaWQiOiI4MDI1NmU4MC0zMzMyLTQ5NmYtODhlZC1hYThiODVjNDc0OWYifQ.OkTiOyl4Th3racXBqXlAQvKydLPLoINEm_Fq0kUJANc' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip start network continue happy.","maxScore":94,"minScore":27,"description":"Think call scientist local camera. Push power school high.\nFinish police I current million bank. Deep particular knowledge year test.","previewFileId":"47bcfc43-5574-43b6-8e7d-dd922b5129ee","estimatedTime":"10 weeks","createdByUserId":"80256e80-3332-496f-88ed-aa8b85c4749f"}'

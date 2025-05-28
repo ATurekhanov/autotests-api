@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjM2OjI5LjI5OTIxOCIsInVzZXJfaWQiOiIzODk3ZmM4Ni02ZmI2LTRkMjktODhkOC1hMDBmOGFhODVjYmMifQ.E14zzkoVek3lAE5L3AFXxNTijLYCe-7NLSXcUGIcAOk' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All money nothing.","courseId":"54ec94f5-78e2-43ca-afaf-f2df666d09d1","maxScore":94,"minScore":7,"orderIndex":35,"description":"Need early south. Decision ahead up north radio only.\nProbably together relate claim. Consumer much keep. Mean year hair reflect.\nNow eight pass goal discover. Community lot name figure family.","estimatedTime":"10 weeks"}'

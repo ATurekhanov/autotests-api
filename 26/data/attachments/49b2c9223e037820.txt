@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjM2OjI3LjM5OTk4NSIsInVzZXJfaWQiOiJhMTYyZTdkNy03NmMxLTRmOWUtYjdmNS00NzFhYWU2YzQzMGEifQ.qrwyk8wmZjqFWejtAVPZBVT5KJURJrZTpwdn1lziwSc' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor save reason available.","maxScore":100,"minScore":7,"description":"Firm instead several item vote culture. Message college art individual pressure. Before health perhaps. Sister participant away magazine include.\nTrue world will fact pay.","previewFileId":"5d82b757-d2b0-46e6-ab4e-c0fefc995aa6","estimatedTime":"9 weeks","createdByUserId":"a162e7d7-76c1-4f9e-b7f5-471aae6c430a"}'
