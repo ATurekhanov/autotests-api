@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjA3OjExLjY1NjU0NiIsInVzZXJfaWQiOiIxMDI2YmQwMS01YWZkLTQyZjQtYTkwYi1jZmU2ODFhZTI4NTEifQ.v3rC8QqdSXvjohDEEElFFEFNTCtebrhPDfXwKzFj-dI' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room list address in.","maxScore":63,"minScore":7,"description":"Day treat cut ability fast use.\nMinute environment amount seat five recognize. Stand cold however mention long leader.","previewFileId":"e3401081-57b8-4410-8737-0ec0a8bf7e7a","estimatedTime":"4 weeks","createdByUserId":"1026bd01-5afd-42f4-a90b-cfe681ae2851"}'

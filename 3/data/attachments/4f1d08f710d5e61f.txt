@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjA3OjA5Ljc2NjI3OSIsInVzZXJfaWQiOiI3OTI5YzE5OS0wNGE3LTQ5ODktYWZkYS1hMTQxZjVlN2Y2ZmYifQ.cs-LWUaJ_I7A8hvqgbNMEX1k45BrrdLg7wl-zqPF7JE' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs tonight late full truth stuff site.","maxScore":85,"minScore":1,"description":"Event investment tree provide. Benefit everyone important any goal.","previewFileId":"60495684-1763-453a-819b-e0e64873b879","estimatedTime":"9 weeks","createdByUserId":"7929c199-04a7-4989-afda-a141f5e7f6ff"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjA3OjA4LjMxOTA1MSIsInVzZXJfaWQiOiIxOTQ2ZDAxYS0xYTM5LTQzMDEtYTZkYy0yNDgzM2JhMjkwNWQifQ.2rLPX9o-0XhbUgp3gs5ceernhsrm6hNajS9HAPQXoaU' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Old appear just blue blue prepare between.","maxScore":100,"minScore":27,"description":"Dog change trade spend. Ever least trial here major floor. Artist have stop bill figure not. Believe set front market rest operation.","previewFileId":"ba8dbbcb-506f-4459-b12c-ccb9aa1a7692","estimatedTime":"10 weeks","createdByUserId":"1946d01a-1a39-4301-a6dc-24833ba2905d"}'

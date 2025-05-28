@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjA3OjA3LjE3MDM3OSIsInVzZXJfaWQiOiJlZmIxMjQ4NC0yMjgxLTQ3M2UtOGNjZC0wYzI5ZjRhN2YyZDYifQ.Zy86e21hym2HRaUJjmYiHxf55AMvS9CQKrkRwC8tJbQ' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free sense method board central drug relate idea.","maxScore":70,"minScore":7,"description":"Weight together ground skin radio hair win. Different offer indicate generation view expect find.","previewFileId":"db5daeb1-6703-479f-9e13-c160048db1c1","estimatedTime":"10 weeks","createdByUserId":"efb12484-2281-473e-8ccd-0c29f4a7f2d6"}'

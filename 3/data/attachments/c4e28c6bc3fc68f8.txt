@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI4VDA0OjA3OjEwLjQxMTYzMyIsInVzZXJfaWQiOiJmOWMyYzA4NS0zOGE2LTQzOWEtOTljZC1kN2NiOTljZjc5YzgifQ.jUg1tJfWjJpuNnlh2g6IHEtj8-K3tLtmf52Q4v8otL4' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve whom job.","maxScore":95,"minScore":18,"description":"Create be season material lot threat. Watch speech surface network employee thank training. While of long chair.","previewFileId":"26ec3412-bf1f-44cb-b12e-5adc37a62c93","estimatedTime":"2 weeks","createdByUserId":"f9c2c085-38a6-439a-99cd-d7cb99cf79c8"}'
