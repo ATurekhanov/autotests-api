@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjA4OjAzLjk5MTY4NiIsInVzZXJfaWQiOiIwNDU0ZDM5Yy0yZjFlLTQ1NGQtYTY2NS0zZTUyMTJiNjU2ZmIifQ.GEFkzZxiefpj_JzB8XhXO0QYb1ZBeC75rsk9v05K_58' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Network sing work will.","maxScore":89,"minScore":11,"description":"You study central attorney I particular girl. Kind eat thus fact. Body debate interest its.\nPer seem kitchen visit. Sit win commercial become. Move energy sit avoid worker red.","previewFileId":"fe73a74a-7235-4f56-b9ac-6972f0563ed8","estimatedTime":"7 weeks","createdByUserId":"0454d39c-2f1e-454d-a665-3e5212b656fb"}'

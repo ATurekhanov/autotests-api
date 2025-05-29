@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjA4OjA2LjY2MDQyNyIsInVzZXJfaWQiOiIxOGJhNTRhNy1iNjZiLTQwYzYtYjgwOC1kOTQ5YTEwZjg1YjEifQ.GGI6FMdC2OFxhpL4_HVbfUWo1vWEg8F74wyo0nfhkv8' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Police like series director.","maxScore":75,"minScore":2,"description":"Make race issue if choice. Nation value knowledge measure marriage enjoy. Lawyer beyond late song mind.","previewFileId":"88f86472-b4ba-41e7-ac19-a2ec6cd36691","estimatedTime":"3 weeks","createdByUserId":"18ba54a7-b66b-40c6-b808-d949a10f85b1"}'
