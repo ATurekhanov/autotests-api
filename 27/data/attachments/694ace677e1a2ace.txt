@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1208182d-2350-4bfe-a97e-2c068238eb58' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE0LjMzOTU0NyIsInVzZXJfaWQiOiIxNzY0YmRiNC01NmI0LTQxYjgtOWE2MS02YjNjYjJhMjY3MDgifQ.LCr1qfvwzGMsrxxrBBwJ4YPDov9XhZw5Wzth-zOczdU' \
+  -H 'content-length: 212' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Imagine police weight.","maxScore":95,"minScore":11,"description":"Much final plan public worker. Outside partner debate memory draw. Total get girl here foot deep ok father.","estimatedTime":"6 weeks"}'

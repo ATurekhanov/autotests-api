@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE3LjYwNjQwMyIsInVzZXJfaWQiOiI2ZDgzOTAzYi1kZTYwLTQ0YTItYjQxNC1jY2E3OTdkMjZiYTgifQ.JfGO78nRoZ9rCwfb-cDIWiXNpTeHfEMktmulNZMkDZc' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Race but computer.","maxScore":78,"minScore":30,"description":"Relate myself far price actually staff last from. Bag reach reason general during drive either.\nLine black want. Positive total night medical culture final. When game section rock already lay attack.","previewFileId":"0673f13a-8199-4de3-a9db-a8553070ab57","estimatedTime":"6 weeks","createdByUserId":"6d83903b-de60-44a2-b414-cca797d26ba8"}'

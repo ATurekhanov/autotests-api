@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE0LjMzOTU0NyIsInVzZXJfaWQiOiIxNzY0YmRiNC01NmI0LTQxYjgtOWE2MS02YjNjYjJhMjY3MDgifQ.LCr1qfvwzGMsrxxrBBwJ4YPDov9XhZw5Wzth-zOczdU' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead born occur page range far.","maxScore":79,"minScore":27,"description":"Set yes water approach thing enter partner. Style under throughout base new similar.\nBe father receive process. Amount brother mention determine different six office.\nAdd language agree power.","previewFileId":"e675d51e-925f-425a-9010-4fd85b3d7f0a","estimatedTime":"6 weeks","createdByUserId":"1764bdb4-56b4-41b8-9a61-6b3cb2a26708"}'

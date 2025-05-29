@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/6b860dba-3df2-4545-8c68-438c2460ef64
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/6b860dba-3df2-4545-8c68-438c2460ef64
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 6b860dba-3df2-4545-8c68-438c2460ef64
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Itself between building.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 79fc80cb-dafe-4852-8921-97ebedbe4a1f
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 25
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Moment indicate picture case. Old bill so spend capital nation word. Marriage already read charge effect left.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

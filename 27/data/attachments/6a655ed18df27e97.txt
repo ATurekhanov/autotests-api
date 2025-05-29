@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE2Ljk1MjAyMiIsInVzZXJfaWQiOiI5ZmRmZGVlOS04M2RlLTQxZWUtODUwZi0xMGYwMTgyMzg1ZGUifQ.N4zhJP9CzkzSlqPL4XZSViDeZTuBBaquLdws3svZlZk' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However significant send within attorney heart stand.","courseId":"10592d7b-4a71-4106-a386-a580f5b93910","maxScore":69,"minScore":20,"orderIndex":33,"description":"Participant kitchen Democrat collection often girl. And market Congress.\nAsk get be determine near movie trip. Move skin drop perhaps record.","estimatedTime":"4 weeks"}'

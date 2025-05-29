@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE1LjQ5ODQ2OSIsInVzZXJfaWQiOiI3MTNjMjAxMS02Y2RlLTQ3YTYtOTQ2Ny01ZGU2OTQ3OGVhMDEifQ.edhR8JL1SuzkLrBsyxF3W99YTxGXmEyvRswYmvLWEpk' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simply plant main staff rest risk may.","maxScore":77,"minScore":4,"description":"Inside voice detail trip firm field car. Protect effect fill trial.\nAlone than whole investment whatever. Building sure customer ground world here.","previewFileId":"048615e4-8c27-4aaf-a2f7-ec72f149a526","estimatedTime":"3 weeks","createdByUserId":"713c2011-6cde-47a6-9467-5de69478ea01"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE1Ljc3MjkyNCIsInVzZXJfaWQiOiJmODRlZTliMS0yMjdjLTRkYjMtYmIzNy04MDJkMDU5ZWZlZTcifQ.CUN7yKm8IVLoTeBPoNnORbDcc9T9fxDdIg7E4ZfgTzQ' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern although lay whom.","maxScore":56,"minScore":19,"description":"Loss my use drop get able. He happen eight wide yard water. West manage family TV response guess.\nCourse military partner believe thought give.","previewFileId":"76140a3b-9ba1-4d86-9427-174fc67b4bec","estimatedTime":"10 weeks","createdByUserId":"f84ee9b1-227c-4db3-bb37-802d059efee7"}'

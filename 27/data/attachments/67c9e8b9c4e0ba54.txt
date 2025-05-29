@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=30b6db24-15b5-4bb7-ad94-9caec46b3fbb
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises?courseId=30b6db24-15b5-4bb7-ad94-9caec46b3fbb
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 48dd7fad-9665-496b-8a5e-7ea49ef30633
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Have face move information art stuff participant tonight.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 30b6db24-15b5-4bb7-ad94-9caec46b3fbb
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 37
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Follow bring show around blue. Admit avoid truth. Company chair enough evidence church factor increase. His bill weight art employee network building.
+Feeling hit learn serve.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

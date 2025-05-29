@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE4Ljg1OTA2MiIsInVzZXJfaWQiOiIzMGViYWM1MS00OGY3LTQ5YzMtOTlmMC03Y2ViMjc5NmM5ZWQifQ.-bMxU0Qrf0X1YzDTeJQNcddAkPcCwHfClNR3YeK-_h8' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Clearly ok many development tend picture.","maxScore":81,"minScore":4,"description":"Positive score pattern attorney away she no. Respond professional team when.\nCoach team conference doctor happen. Blue news political still whatever. Worry better guy through these you book whom.","previewFileId":"061d31d9-4ad9-45a3-89f2-80482707db5d","estimatedTime":"6 weeks","createdByUserId":"30ebac51-48f7-49c3-99f0-7ceb2796c9ed"}'

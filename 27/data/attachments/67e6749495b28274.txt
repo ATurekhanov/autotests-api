@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI5VDA0OjMyOjE4LjE5MjU1NyIsInVzZXJfaWQiOiI4NmI4MmY5ZS1iZGU5LTRiYjEtOGFhNy03YThiNDhhYjBjMjIifQ.VQ1XXqvdNbSBwwijCnhSwozf4Wow4pZeHKCUe8OOaA8' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign begin fall ten.","maxScore":83,"minScore":6,"description":"East finally right letter. Smile theory president world.\nAudience eight maybe by thank hundred. Decade author cultural. Young think market employee cold.\nHold country really medical foreign else.","previewFileId":"9e941b90-81bd-4a94-b884-01908e65c31b","estimatedTime":"8 weeks","createdByUserId":"86b82f9e-bde9-4bb1-8aa7-7a8b48ab0c22"}'
