@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjMwOjE2LjE0NDUxMyIsInVzZXJfaWQiOiJkNjZiYTRhMC0zMTRjLTQ5MDktYWNiNS1lNjAzYjBlOTkyNzMifQ.ULltVa_nE9QbK4vz7W6sbuffNoeVifoHaaqPl7Plw1k' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People page story when hotel tough stop.","maxScore":79,"minScore":18,"description":"Fund expert government fact theory fast term. Report million per would trial grow military.","previewFileId":"75fece21-4da2-4874-a063-4df567e55de9","estimatedTime":"5 weeks","createdByUserId":"d66ba4a0-314c-4909-acb5-e603b0e99273"}'

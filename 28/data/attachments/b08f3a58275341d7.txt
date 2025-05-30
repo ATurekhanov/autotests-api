@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjMwOjE5Ljk2NTIwOSIsInVzZXJfaWQiOiIwMjI5YmRlMC1iMDhhLTQ1NDktOTNkNS1kOWVjMWYxMTI4MDgifQ.sulKzZ9zAl1zmNou7JvrCzgZ92wNPRHmojW0TX5p-mY' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea employee receive bank.","courseId":"39b2d158-807a-4f70-926a-6604a63d1f49","maxScore":59,"minScore":6,"orderIndex":69,"description":"Picture environment radio head prevent occur church. Kind leave each almost seem. Station court able speech during land.","estimatedTime":"4 weeks"}'

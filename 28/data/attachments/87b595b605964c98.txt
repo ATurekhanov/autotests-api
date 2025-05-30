@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjMwOjE3LjU2MTU2NCIsInVzZXJfaWQiOiJhYzJiMjdlYS1jMGNjLTRiYjQtYTgyMi0xMTMxZTVkMzM4NDcifQ.oxSpAun4fzOKVEmGJIi78xA0ruAvTMV1zJTFqw6rWyI' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Operation laugh authority.","maxScore":63,"minScore":19,"description":"Cause three above finally beautiful economic agree this. Quickly onto population now.\nToday say positive create.\nKey grow toward story country subject step. Challenge own unit guy first.","previewFileId":"748a0cdb-a45b-417e-ad52-8e39d442aa63","estimatedTime":"4 weeks","createdByUserId":"ac2b27ea-c0cc-4bb4-a822-1131e5d33847"}'

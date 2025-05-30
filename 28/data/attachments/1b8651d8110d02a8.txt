@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjMwOjE5LjM3ODMwMiIsInVzZXJfaWQiOiJjYjRiZmQxMi0xZDk5LTRmNmYtYjMyZS1kZjU4N2QyN2NmMWIifQ.cjeQu4gvw4SrMAyPQZ9WJZDMYGkCxpWF4jFT-m4HoHc' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Public major social against sense leader.","maxScore":88,"minScore":18,"description":"Know write father record. Suddenly task artist administration.\nCourse official student manage get. Until source environment century.","previewFileId":"a1d14aca-8f5c-429a-a0cf-6938ded7fe44","estimatedTime":"5 weeks","createdByUserId":"cb4bfd12-1d99-4f6f-b32e-df587d27cf1b"}'

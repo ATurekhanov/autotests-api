@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjMwOjE4LjQ2MDMzMSIsInVzZXJfaWQiOiIzMTAwNTRiNC04MDllLTQxMTUtYjY4Yy0yZjI3ZmUyZTM2YWQifQ.S6qdzGoqu1zlGbM0k_8TF3smrDFwqjOTdgInT63obAw' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Once million whose particularly must hold success.","courseId":"e30b3b10-3719-4959-9d0c-8b4fb61bc09a","maxScore":53,"minScore":18,"orderIndex":64,"description":"Build rise couple network. Professor build kitchen affect. Economic range among far part energy move.","estimatedTime":"4 weeks"}'

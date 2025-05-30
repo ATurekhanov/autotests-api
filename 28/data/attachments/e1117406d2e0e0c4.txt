@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjMwOjE5Ljk2NTIwOSIsInVzZXJfaWQiOiIwMjI5YmRlMC1iMDhhLTQ1NDktOTNkNS1kOWVjMWYxMTI4MDgifQ.sulKzZ9zAl1zmNou7JvrCzgZ92wNPRHmojW0TX5p-mY' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Issue ask throw southern figure mean window.","maxScore":97,"minScore":3,"description":"Help if point speak quickly. Move often at just watch whatever. Suggest federal participant century. Class them produce score.","previewFileId":"91ee9008-0b19-463c-b199-ca79748c650e","estimatedTime":"7 weeks","createdByUserId":"0229bde0-b08a-4549-93d5-d9ec1f112808"}'

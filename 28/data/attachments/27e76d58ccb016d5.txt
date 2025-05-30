@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjMwOjIwLjYyOTcyOSIsInVzZXJfaWQiOiIyYmI4YzViYi1hNTJkLTRmOTktOWFlNC0zOGM1ODI2ZWQzMmYifQ.Ywl2Xjiit73oeyyybPs8iYqJR_O0ABNW3jwfbNMtSPg' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Page paper theory national people situation data.","maxScore":73,"minScore":10,"description":"Protect dinner respond finish man. Movie issue sit maintain ok.\nLikely through size my. Central expect number by. Black probably long machine because bed price.","previewFileId":"cdcb48c1-e4e4-4091-837f-3823d62c0c2d","estimatedTime":"3 weeks","createdByUserId":"2bb8c5bb-a52d-4f99-9ae4-38c5826ed32f"}'
