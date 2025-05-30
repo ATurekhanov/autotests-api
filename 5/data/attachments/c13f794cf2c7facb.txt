@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjA2OjQ5LjkzMjA0NiIsInVzZXJfaWQiOiJjNWQ0ODE5MC0xZTAzLTQ3YTItYTVhMy03ODQyMmMzNmVhNDEifQ.ZbT40cEVvF6Px6sukVqayqFcUppTntbHfuMWJSm131Q' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Process send war TV town where table.","maxScore":59,"minScore":17,"description":"Bed name lawyer place of because rock. Throw role former rest center reach fear.\nRole to former operation reason. Low beyond thank try research.","previewFileId":"09d547da-db6a-4209-a714-f9581e728402","estimatedTime":"7 weeks","createdByUserId":"c5d48190-1e03-47a2-a5a3-78422c36ea41"}'

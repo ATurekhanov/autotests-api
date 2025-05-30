@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjA2OjQ5LjI4MjE2MSIsInVzZXJfaWQiOiI3ZTA0M2IzMi1lODU1LTRlYzQtOTJhNS1hNDkwYTA4NzdhZjYifQ.gu4KYIJ-SGH-WLkjgue9_qqhwnwktUIgFBepH57RlDU' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hear hour several light chair difference get front.","maxScore":63,"minScore":10,"description":"Benefit seek someone throw my practice camera practice. Role charge couple generation far able discussion. Practice forward until far thus be voice.","previewFileId":"97d45198-5fec-4b70-a4d7-51c46eef439e","estimatedTime":"1 weeks","createdByUserId":"7e043b32-e855-4ec4-92a5-a490a0877af6"}'

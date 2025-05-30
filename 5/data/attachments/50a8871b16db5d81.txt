@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjA2OjQ2LjY0NjI1NCIsInVzZXJfaWQiOiJjYThiNmUzYS02ODNkLTRlNjMtOGIzNy04YWY5ODNjMTYzZmQifQ.kDcdLBa_wcFCJn9nwIcRyeYkXYiIExuYqGjzUkqobKM' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tend animal commercial charge control member.","maxScore":67,"minScore":16,"description":"Whatever mention care rock real money. Magazine space white itself. During tonight enough those.","previewFileId":"c837ff73-368e-4bb7-a800-ca351b1929ee","estimatedTime":"8 weeks","createdByUserId":"ca8b6e3a-683d-4e63-8b37-8af983c163fd"}'

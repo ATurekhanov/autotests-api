@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Plant heavy cost involve support put girl statement.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Family turn product near free think. Impact floor practice wait not. Final rise offer wait process walk reduce. Theory hear stay although someone program.
+Gas ready country two that.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to 2040a9a3-e2a3-4267-9981-f4829bccc8af
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 936d2469-cafc-4b61-80dc-f144757dd574
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

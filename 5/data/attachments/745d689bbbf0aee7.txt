@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMwVDA0OjA2OjQ3Ljc5ODc1MyIsInVzZXJfaWQiOiI5MzZkMjQ2OS1jYWZjLTRiNjEtODBkYy1mMTQ0NzU3ZGQ1NzQifQ.cLIJC-sOeqduwfuZotGzPPBRXWhMtampxyNyC1KHhpM' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plant heavy cost involve support put girl statement.","maxScore":55,"minScore":21,"description":"Family turn product near free think. Impact floor practice wait not. Final rise offer wait process walk reduce. Theory hear stay although someone program.\nGas ready country two that.","previewFileId":"2040a9a3-e2a3-4267-9981-f4829bccc8af","estimatedTime":"10 weeks","createdByUserId":"936d2469-cafc-4b61-80dc-f144757dd574"}'
