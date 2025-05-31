@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=0abcfe5c-d7ee-4bb2-b8ab-f28a7460b119
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises?courseId=0abcfe5c-d7ee-4bb2-b8ab-f28a7460b119
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 3b3a7a6b-7910-4d57-ba9d-9181270ca035
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Hotel green so born.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 0abcfe5c-d7ee-4bb2-b8ab-f28a7460b119
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 88
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Change thousand really everybody sometimes candidate. Without draw collection production. More blood information energy.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

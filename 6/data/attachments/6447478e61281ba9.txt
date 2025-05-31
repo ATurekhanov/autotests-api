@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjA0OjU0Ljc0MTI2NCIsInVzZXJfaWQiOiJiOTQwZjUxZS03MWVmLTRkMGQtYjgzNC1lODMzZGRiODQ4MzAifQ.s1Ugqh8S-8WA_aWwD-Cc97KEOPtq-6UbwprY0dM_sSw' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Budget skill different author body.","maxScore":60,"minScore":10,"description":"Until white election. Tell too return crime only actually. Green act else hard develop.\nSomething big poor cell ground mouth parent. Paper Mrs design that popular minute.","previewFileId":"2e7b5f1a-cbb4-4073-95ad-b62a4a59972b","estimatedTime":"2 weeks","createdByUserId":"b940f51e-71ef-4d0d-b834-e833ddb84830"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/96f1d129-5de9-476b-8a66-4b3b45920cd6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjA0OjU3LjgyMzcxMyIsInVzZXJfaWQiOiI1YTZhYjQxNi0zNTgzLTQwYTUtODJlOC1kY2FhOTM0YzdkZTAifQ.dFEvpK_v5r-sykXGBXFJBQq5pEDvW0AHr9K6_zEbqVU' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter join its kid sister.","maxScore":69,"minScore":3,"orderIndex":32,"description":"Example firm we focus protect send. Exactly almost staff song.\nThird girl business few hotel often. Purpose model help rule.\nSpend on energy culture purpose. Sea full debate.","estimatedTime":"8 weeks"}'
