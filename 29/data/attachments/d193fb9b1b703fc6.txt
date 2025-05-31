@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjM4LjIzOTM3MSIsInVzZXJfaWQiOiJlNjU0MDhjOS01NjFjLTQ3OGEtYmQ1OC1lNTBkN2VjZDFiYzcifQ.mCBzC7KnFcybKHdu1fY8HLq--aV4lXWVFvrK4Iysxg4' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law level meet organization fill forward.","maxScore":56,"minScore":11,"description":"Consider adult bill these their health. Nation also particular gun alone grow from stock.\nUnit good hard sing spring. Condition develop him state. Brother state amount we sell.","previewFileId":"581830e7-7a22-4c80-89a1-651fc7d40e60","estimatedTime":"8 weeks","createdByUserId":"e65408c9-561c-478a-bd58-e50d7ecd1bc7"}'

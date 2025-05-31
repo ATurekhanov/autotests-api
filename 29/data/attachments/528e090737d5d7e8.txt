@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/b06631e3-39d1-4c79-b096-c3e5c28b0fe0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjQwLjExMTUzOCIsInVzZXJfaWQiOiI1ZjYxN2Q5Zi1mNTkxLTQ4MjMtOTVjMi03MmMwOTA2ZjYzY2EifQ.a5M-FphQ1ZeC1OJbBykgQFcWpZ8n98V2BjfYXc6OkO0' \
+  -H 'content-length: 206' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Resource state at art exist.","maxScore":74,"minScore":8,"orderIndex":67,"description":"Pay threat difference world. Environmental consumer five large mission try note.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjM2Ljc5NDMzMCIsInVzZXJfaWQiOiI1OWVlYmMxYS00MmFkLTRjZWYtYWFkOS01NGFhODYwZjJlMTEifQ.lwYkZLPvAwGuDJ92A_qVJ7QoblZ5o1gDDa4JxPXJGPc' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book along military.","maxScore":96,"minScore":23,"description":"Treatment day ready heavy require purpose wait. Black some every. Three pass blue court everybody left doctor.\nCentral national suffer entire. Exactly you year worry.","previewFileId":"e1862568-20ef-47ad-9a32-5161ce0d3721","estimatedTime":"1 weeks","createdByUserId":"59eebc1a-42ad-4cef-aad9-54aa860f2e11"}'

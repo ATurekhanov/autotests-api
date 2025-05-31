@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjM4Ljg4NDA4NSIsInVzZXJfaWQiOiI1NWEwYTlkOS0wYTZmLTRjNGUtYmVjYy0xMDJlMDJlN2UyM2MifQ.fuf3SQK6zVd40cjsP8qk0a8wpnDkZjWE63-r2PWAi6o' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Base option away often network professor best short.","maxScore":94,"minScore":30,"description":"Spring power out realize such party letter. Account bring machine likely foreign.","previewFileId":"b8ddade6-51dd-42d8-a1ad-4c9267ee9b06","estimatedTime":"3 weeks","createdByUserId":"55a0a9d9-0a6f-4c4e-becc-102e02e7e23c"}'

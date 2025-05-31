@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/90157474-bf5f-41df-9a14-0bd538a5fae9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjM1LjY0Nzg2NyIsInVzZXJfaWQiOiJmNmYyMmRmNS01ZTA4LTQ1NjktYWEyNC02MThkZmE2YmU4NTEifQ.N2EXvPWPNybhTqkD07yEIPFNqOASdQIgXuB2qktxVBU' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive number lose political smile meet.","maxScore":84,"minScore":22,"description":"Realize first base market. Mr really step film baby. Member able audience nature adult.\nAnalysis happen herself they work city dark. Themselves country force record mind trouble.","estimatedTime":"8 weeks"}'

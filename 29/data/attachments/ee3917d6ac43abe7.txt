@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjM5LjQ2MTQxMiIsInVzZXJfaWQiOiJiYjc5ZDg2Zi02MzBmLTQxYTctYmMxZi02YjdiMjZjODA2NjAifQ.DxIKXuV9LEC_sJ0iiwrZMpj2Hh-AGbO1GF83k5J8VnU' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test choose school why hundred development organization.","maxScore":71,"minScore":4,"description":"Beautiful network provide our despite order ability recognize. Human instead activity trial. Early little series reveal.\nUnder speak next issue improve because.","previewFileId":"e5707274-f5f7-43ee-82e7-8da4beb5d493","estimatedTime":"5 weeks","createdByUserId":"bb79d86f-630f-41a7-bc1f-6b7b26c80660"}'

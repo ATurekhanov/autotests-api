@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjM1LjY0Nzg2NyIsInVzZXJfaWQiOiJmNmYyMmRmNS01ZTA4LTQ1NjktYWEyNC02MThkZmE2YmU4NTEifQ.N2EXvPWPNybhTqkD07yEIPFNqOASdQIgXuB2qktxVBU' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular throw cost score color hit.","maxScore":63,"minScore":24,"description":"Challenge part music near responsibility. Special work too. Ago in according according.\nNor nature big current successful no consider.","previewFileId":"82edb72a-7811-415f-9745-fb7ea8cb3da6","estimatedTime":"2 weeks","createdByUserId":"f6f22df5-5e08-4569-aa24-618dfa6be851"}'

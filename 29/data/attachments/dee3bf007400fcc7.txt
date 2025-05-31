@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTMxVDA0OjMwOjQwLjExMTUzOCIsInVzZXJfaWQiOiI1ZjYxN2Q5Zi1mNTkxLTQ4MjMtOTVjMi03MmMwOTA2ZjYzY2EifQ.a5M-FphQ1ZeC1OJbBykgQFcWpZ8n98V2BjfYXc6OkO0' \
+  -H 'content-length: 269' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Country standard room water cut.","maxScore":86,"minScore":2,"description":"Month before detail support develop couple.","previewFileId":"962cb29c-9762-4e55-bc27-407b2ccd547f","estimatedTime":"4 weeks","createdByUserId":"5f617d9f-f591-4823-95c2-72c0906f63ca"}'
