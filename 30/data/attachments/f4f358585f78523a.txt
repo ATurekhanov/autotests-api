@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Investment also east near indicate.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Peace this section indeed. Share past approach chance bit far hold.
+Rock chair speech same mouth book. Before suggest yet game process smile more. Him fine building leg produce truth.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to 4b166c7d-1080-4b11-87c1-7305129b880e
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 1a7c874e-8a9c-44c2-8a6a-fd49b0d1692e
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

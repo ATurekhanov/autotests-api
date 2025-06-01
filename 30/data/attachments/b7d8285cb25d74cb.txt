@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/963ece8c-3df2-4063-90e9-e78240ddf349' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjUzOjAwLjkzNjQ4MCIsInVzZXJfaWQiOiJhMTE4YWIxNC02N2U5LTQ2YzMtOWMyYi1jN2E1OTgxMmY1ZWUifQ.7eMgc8UwzSLlfUhxoa_nZly9Ff0htrVBosyzqGjcw_Y' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect community age nor free machine.","maxScore":70,"minScore":28,"description":"Until Mrs property. What compare song management next.\nSide mind identify exactly per buy. Everybody probably human certain successful man total edge.","estimatedTime":"3 weeks"}'

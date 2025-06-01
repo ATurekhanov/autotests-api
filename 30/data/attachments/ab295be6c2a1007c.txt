@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjUzOjA0LjE4Mzc3MSIsInVzZXJfaWQiOiI0MGJiZWMzNS00MDgwLTQxZGUtYmFkMC04NGFhM2VlYjc4NjAifQ.szjhRubUmETFvT8Fqa8_oYmxBkimTkw2TYGTDOLVO2U' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Appear never imagine authority sign once.","maxScore":73,"minScore":8,"description":"Throughout skill spring suggest pull. Subject collection fish identify significant. Many authority still short store.\nMr likely watch really determine across. Time begin whether put.","previewFileId":"8f20bf1c-489c-4710-801f-f9f1747acc04","estimatedTime":"3 weeks","createdByUserId":"40bbec35-4080-41de-bad0-84aa3eeb7860"}'

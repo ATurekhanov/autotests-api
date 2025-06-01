@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjUzOjAyLjM1ODgwMyIsInVzZXJfaWQiOiJlNjNjYTY1YS1kNzlhLTQ2MzItOTdjZC1mMGE5OWMwNzkwNDQifQ.tpFr2UcC_DZFnNYm-XfrmUx7s3dLJtC9VDV871rowkk' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need class finally agreement.","maxScore":90,"minScore":5,"description":"Develop position recognize source. Mention culture matter become debate officer any. Film also discover above.\nMemory whether us field involve. Mouth door choose event nor.","previewFileId":"b96c2a07-b7d5-49d0-84ae-a6f9941c6ac2","estimatedTime":"2 weeks","createdByUserId":"e63ca65a-d79a-4632-97cd-f0a99c079044"}'

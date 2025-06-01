@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjUzOjA1LjQyNDI4NCIsInVzZXJfaWQiOiJjZmQ2MzQwOC05NGQyLTQ0ZjMtOTkwNC05NDc2NGI2YzMwNDkifQ.j-VyIZ2PtrXsCwojVJ141LNf8r1Pxf_FhXFYzUJFyzo' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper even tell live.","maxScore":81,"minScore":18,"description":"Energy find data couple call.\nA theory idea modern. Identify stay since individual board risk sport. To health measure lose tough value.","previewFileId":"9e858f42-d101-4e5b-9f28-cfa3a4c0a65c","estimatedTime":"6 weeks","createdByUserId":"cfd63408-94d2-44f3-9904-94764b6c3049"}'

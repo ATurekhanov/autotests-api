@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjUzOjAyLjA4NTU5MCIsInVzZXJfaWQiOiIxYTdjODc0ZS04YTljLTQ0YzItOGE2YS1mZDQ5YjBkMTY5MmUifQ.ORlqJrYRa__MCco2maitdxGzPJt6JlPWHoXod-GaUfY' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Investment also east near indicate.","maxScore":82,"minScore":21,"description":"Peace this section indeed. Share past approach chance bit far hold.\nRock chair speech same mouth book. Before suggest yet game process smile more. Him fine building leg produce truth.","previewFileId":"4b166c7d-1080-4b11-87c1-7305129b880e","estimatedTime":"9 weeks","createdByUserId":"1a7c874e-8a9c-44c2-8a6a-fd49b0d1692e"}'

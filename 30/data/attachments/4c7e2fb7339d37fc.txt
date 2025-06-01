@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjUzOjA0Ljc2MTc0MyIsInVzZXJfaWQiOiIyYzJhYjcxNS04NzMwLTQ3ODMtYjFiZi1lNDUxNTg5MGQzMGEifQ.6RZ77KiBOQYBWrwTK3cI3nu74khqJdQjIZ9bwfOTSrs' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone scientist few paper.","maxScore":88,"minScore":7,"description":"Book play phone well this future wrong nearly. Environmental similar mean leave recognize.\nGeneration successful bank real soldier stuff it even. Down relate war item minute.","previewFileId":"b9c2b425-947c-4973-b852-c6855e0738fb","estimatedTime":"6 weeks","createdByUserId":"2c2ab715-8730-4783-b1bf-e4515890d30a"}'
