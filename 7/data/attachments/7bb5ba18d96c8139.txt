@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjI0OjE4LjY5MDgzMCIsInVzZXJfaWQiOiJmNWU5NzI5ZC03M2YxLTQwMTItODhmOS05Mjg5YzYxZDk5MmEifQ.9dDpFNeUALUC3VdNMFn2sW9mnoaL0KhZj8MfwMg1q6g' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Entire people others picture college bed.","maxScore":92,"minScore":24,"description":"Marriage month affect job tell similar career.\nGuy letter company yet husband part big without. Food consider soldier claim.","previewFileId":"fbb9ec6b-caa9-49ed-82dc-a69ef4b7d208","estimatedTime":"9 weeks","createdByUserId":"f5e9729d-73f1-4012-88f9-9289c61d992a"}'

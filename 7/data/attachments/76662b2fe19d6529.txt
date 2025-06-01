@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3e9e04de-165d-488c-bf5e-8277fbc6202c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjI0OjE2LjA5ODY0MyIsInVzZXJfaWQiOiIyZjE0ZGE5ZC0wMTczLTRjM2EtYTc1NS0wZTQ1NjUzMWU2N2UifQ.ShkkT2zN005E7_PB01bnlpKnD3Kh91K4Tq2erx8abAs' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long over particularly hospital race edge.","maxScore":92,"minScore":19,"description":"While wind cover house these nothing.\nSomeone crime stuff machine. Green really foot.\nList result window mind. Story clear data present test.","estimatedTime":"6 weeks"}'

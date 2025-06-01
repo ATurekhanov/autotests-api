@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAxVDA0OjI0OjE5Ljk3MDk4MSIsInVzZXJfaWQiOiI1OWQ0OTNhYy00N2JhLTQzMzEtYTZmMy1mMDRiNjgwNjM3YmUifQ.I65b8Jt7ZFT9CTRhbtxQI0E2bkJv4pBNB9JHKJwDhOs' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serve score card price.","maxScore":55,"minScore":27,"description":"Agree book tree quickly face. Cup now begin pay.\nRadio officer reduce arrive return left sister. Recent white month response.","previewFileId":"77389811-e3c6-4f89-a5be-eb88ab45be74","estimatedTime":"4 weeks","createdByUserId":"59d493ac-47ba-4331-a6f3-f04b680637be"}'
