@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjQ3OjU0LjM1NjIyNiIsInVzZXJfaWQiOiI1ZjU2YWVlOC0zYmZjLTQ0MTItYjk4OS05ZDIyNDE0MzhiNmIifQ.814NTVmXfY7irG50MfO1JwQaGNjRl8nEaH25RXIOl44' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead shake century major two.","maxScore":65,"minScore":4,"description":"If about must growth agree man. Television high customer movie guess. Unit teacher past change opportunity power.","previewFileId":"a6a7d78b-d0f3-4cab-8ef0-e13b500f72a9","estimatedTime":"4 weeks","createdByUserId":"5f56aee8-3bfc-4412-b989-9d2241438b6b"}'

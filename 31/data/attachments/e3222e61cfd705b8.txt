@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/1b73d7b5-9649-4b88-8c8e-ac2d2c9e929e
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/1b73d7b5-9649-4b88-8c8e-ac2d2c9e929e
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 1b73d7b5-9649-4b88-8c8e-ac2d2c9e929e
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Tree look pressure society.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to a78c3b3c-8343-4b39-919d-374735757437
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 8
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Remember science nice stay would. Crime opportunity play discover. Resource serious someone chance.
+National add big good they I. I admit business PM. Huge go find candidate hand war mention remain.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

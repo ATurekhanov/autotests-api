@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjQ3OjU2LjE4NzMwNSIsInVzZXJfaWQiOiI2MDA0NzRkOC02ODMwLTQxYmUtYmI5My00ZjVjYTI2Nzg4MmYifQ.HsWvILze2NwUEQJsIQu7TvuZGayKqFa5gXCZd1V1FWs' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball bed decision property loss account.","maxScore":93,"minScore":6,"description":"Choice head director image almost. Speech whom whatever project among property new. Make manage kid stock network similar next.","previewFileId":"430f015a-e7b2-40a2-9238-1523b4826d3b","estimatedTime":"2 weeks","createdByUserId":"600474d8-6830-41be-bb93-4f5ca267882f"}'

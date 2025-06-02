@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjQ3OjUyLjkzMTU4NCIsInVzZXJfaWQiOiI5NmIxNDAzNC1jNzM5LTRiOGItOWJiZi01YjlmNDMxNjZlZTkifQ.lvTJw0Yc6fgoOXCe7c-ImprTkBBRZA2MJ5mT4xsJ-6M' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Clearly sometimes stop rise nature fund forward.","maxScore":96,"minScore":8,"description":"Young voice decide hundred start ten. Political take new wind door. Congress exactly media order.\nRecent least stage research officer field little. Marriage truth institution drive allow.","previewFileId":"7d57e775-8ed4-4020-93b3-9c90d025b941","estimatedTime":"6 weeks","createdByUserId":"96b14034-c739-4b8b-9bbf-5b9f43166ee9"}'

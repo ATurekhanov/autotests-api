@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjQ3OjU0LjA4MzUzNiIsInVzZXJfaWQiOiJhNWQ5NWNjOC02ODllLTRiNzAtOTJmYy0zMmQ3MGYzMThkY2MifQ.WijEnI3pntL2wim1OeGf1BluvieLAobDB66J8ERQ8h8' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner sit yard say out.","maxScore":74,"minScore":27,"description":"Plan college total social can deal play tend. Save high guy author rock participant sign.\nRole owner anyone although determine behind decade. Head set mission read true use every.","previewFileId":"d3a230b9-01c7-4dad-b9f9-da83fd6e1562","estimatedTime":"9 weeks","createdByUserId":"a5d95cc8-689e-4b70-92fc-32d70f318dcc"}'

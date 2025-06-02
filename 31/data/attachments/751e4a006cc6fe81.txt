@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9140a707-31b0-4f9e-9c3b-2dd80e732be2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjQ3OjUyLjkzMTU4NCIsInVzZXJfaWQiOiI5NmIxNDAzNC1jNzM5LTRiOGItOWJiZi01YjlmNDMxNjZlZTkifQ.lvTJw0Yc6fgoOXCe7c-ImprTkBBRZA2MJ5mT4xsJ-6M' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thing room expert two civil.","maxScore":50,"minScore":8,"description":"Describe number easy television clearly.\nScience vote who. Adult best discuss party pick ability fight staff. Low always responsibility I huge soldier since approach.","estimatedTime":"2 weeks"}'

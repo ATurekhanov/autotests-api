@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjQ3OjU1LjU0MTkzMCIsInVzZXJfaWQiOiJmYWUxMGMzOS02ZDIyLTQ1MDAtOGI5Yy1hZjBmZDQyMTI4ZWEifQ.ykBt9ela4u-vS-1-UwhRb5qGSaw4diyqo94Od-CE08U' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Not economy financial value trial.","maxScore":59,"minScore":23,"description":"Model policy include whom out.\nWhole nor benefit individual activity money best. Would commercial least most participant and not certain. Television kid indicate close majority beyond head.","previewFileId":"94519549-6612-425f-84fa-d269067e7c67","estimatedTime":"5 weeks","createdByUserId":"fae10c39-6d22-4500-8b9c-af0fd42128ea"}'

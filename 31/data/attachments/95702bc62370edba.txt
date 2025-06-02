@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjQ3OjU1LjI2ODg3NiIsInVzZXJfaWQiOiJkZTI0NTg2OS0zMGQwLTRkOGItYjBlNi0wMWQzMjM3MWRlNGMifQ.i5HDOaldH8yK8XuqriLVVHOX5o6MXw_NAV6fo1OnV80' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key require drop single fast.","courseId":"3952589f-48e9-43a7-a224-050c6c13ee4c","maxScore":95,"minScore":23,"orderIndex":41,"description":"News blood everything cover decide. Offer interest again though focus throughout.\nThought food figure. Everything hair huge price son later south. Unit attention hour herself. Late happen end.","estimatedTime":"6 weeks"}'

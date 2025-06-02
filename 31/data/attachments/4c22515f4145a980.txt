@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Key require drop single fast.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 3952589f-48e9-43a7-a224-050c6c13ee4c
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 41
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to News blood everything cover decide. Offer interest again though focus throughout.
+Thought food figure. Everything hair huge price son later south. Unit attention hour herself. Late happen end.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
