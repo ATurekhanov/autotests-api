@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjE0OjQ0Ljk2NTAwNiIsInVzZXJfaWQiOiI5MjFjMmU1Yi0yYzVkLTQzNjctYmY0YS0xMTJjYzVhOTdkZDIifQ.ADNiYkDGD1bxY6Edsz6Wgv1VmtIdUysRL5sF66U7jAA' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Left this create fine yet girl.","maxScore":57,"minScore":13,"description":"Short happy investment inside speech resource. Father half adult property from to president. Raise follow role the.","previewFileId":"6c1629ad-881b-4c2c-ab0d-8369ad8577d5","estimatedTime":"7 weeks","createdByUserId":"921c2e5b-2c5d-4367-bf4a-112cc5a97dd2"}'

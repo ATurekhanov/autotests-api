@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjE0OjQ1LjYwMjcyMiIsInVzZXJfaWQiOiJmNzM0NmE3OC04NjkyLTRkZDktYTM4Mi1hYjczZWY0MDYzNzUifQ.LdibLUMFIXbjGSWiok8emc0BmFZghiuXCbQIArx0tJ4' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"American really up write.","maxScore":70,"minScore":15,"description":"Fact end activity bank certainly interesting collection.\nEvidence others source follow. Have history voice study set project reality. In give pull with. Western remember fight shoulder.","previewFileId":"3fb2975f-beee-484b-bbf7-aec85b2d32d2","estimatedTime":"4 weeks","createdByUserId":"f7346a78-8692-4dd9-a382-ab73ef406375"}'

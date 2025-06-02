@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAyVDA0OjE0OjQzLjIyMTEyNSIsInVzZXJfaWQiOiIyMWJiZDE0Yy01ZmY4LTQ1OGEtODMwZi1jOTM0M2Y1N2NjZjQifQ.XplCMKgmEUKlZt_WAv7VR7pxjlkSyG9st_7wFTnbFRs' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Type look case why.","maxScore":91,"minScore":28,"description":"Include believe lawyer establish price husband class. However thus close want beautiful bar national on.\nSomebody than prove mind produce president represent they. Walk should friend sea why.","previewFileId":"0a4a29d7-834d-4ebc-ab0d-60892d03dc87","estimatedTime":"5 weeks","createdByUserId":"21bbd14c-5ff8-458a-830f-c9343f57ccf4"}'
