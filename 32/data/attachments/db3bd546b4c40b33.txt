@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjEyLjUzMDMwMiIsInVzZXJfaWQiOiI1OTNkMGUzNy1iNzE3LTQyMDEtYjBhYy05OWI2ZTc0MTcxNmUifQ.XJy0JKjcfiIxqnR_VBrxCufeO0POvlaZg1zEmq4_XQw' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There unit life.","courseId":"c7853ec1-3c65-4388-8469-c716130a0c91","maxScore":71,"minScore":14,"orderIndex":74,"description":"Enjoy appear detail most young pretty stand. General lot pass enough event it.\nEconomy clearly through require help. Nation loss reduce around skill later care. Choice much real whatever a old room.","estimatedTime":"6 weeks"}'

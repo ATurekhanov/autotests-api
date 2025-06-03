@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjExLjA3NjExNyIsInVzZXJfaWQiOiIyMjY4ZjU4OS0wZjJjLTQxMTMtOTBjYi0wMDM0OWYzYWUyMzkifQ.81KTzgek4RvBni0VK8WIdAoI9CWcc5RPXr6QVyZqslI' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond style degree quality must sometimes sit.","maxScore":96,"minScore":20,"description":"Adult example but good. Indicate central well night could politics despite. Page company collection Republican fear.","previewFileId":"9b4da10f-8b0e-45e2-92f2-f28a2f6a9805","estimatedTime":"10 weeks","createdByUserId":"2268f589-0f2c-4113-90cb-00349f3ae239"}'

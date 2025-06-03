@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjE0LjQwNjc5MCIsInVzZXJfaWQiOiJhNjg1NDczMC1lMDczLTRlMzMtYTM3NS04MTY1M2QwODkwYjAifQ.ZFkZoyhCNXWz3ajf2uYwS5HwIGWiSi0sfXIcw94CLV8' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok certain sport five.","maxScore":74,"minScore":19,"description":"Character energy half community today. Usually population see life method together expect church. Money old system bed item.","previewFileId":"a4fba7c7-2831-476f-8a1f-649a010f4a9d","estimatedTime":"6 weeks","createdByUserId":"a6854730-e073-4e33-a375-81653d0890b0"}'

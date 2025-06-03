@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjEzLjc3NDA2NyIsInVzZXJfaWQiOiIxNWZjMzhhYi01YTVhLTQzMDQtYjA0MC1kYjJiZjU4NTQwOTMifQ.4jYam_ce1mms7VbnVa-pG2UiBRZlbLAkhc7VWgQZwcQ' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food practice late quality.","maxScore":83,"minScore":5,"description":"Such generation mother consider. Way particularly second single blue leader.\nFive at up wide although. Audience look popular success deal.","previewFileId":"2510da37-b154-4723-8248-bf07e1c87efb","estimatedTime":"10 weeks","createdByUserId":"15fc38ab-5a5a-4304-b040-db2bf5854093"}'

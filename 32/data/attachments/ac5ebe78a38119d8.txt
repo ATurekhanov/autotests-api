@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjEzLjE4NDk0NiIsInVzZXJfaWQiOiJhMzFjNDdiNi1jNTJmLTQ0MTktODM2OC05YTMzN2Y0MWU5OTgifQ.QhF4OZtG_DzUIPRHmVEkENcFpKGgKkMXT0n2QSCDNF4' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship join space like place suddenly arm.","maxScore":89,"minScore":5,"description":"Cold whether including phone wonder happen do. Vote station turn her.\nAbility artist notice expect between pretty against child. Beautiful any can treatment need feeling time.","previewFileId":"9e19fbf8-253e-4960-92d8-038159bef475","estimatedTime":"10 weeks","createdByUserId":"a31c47b6-c52f-4419-8368-9a337f41e998"}'

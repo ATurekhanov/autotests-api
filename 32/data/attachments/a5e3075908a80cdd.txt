@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjA5LjkzMjEwMSIsInVzZXJfaWQiOiJlMGU5OWY4MC04ZTVjLTQ4YmUtYjM1Ni02YmM5ZjE2NTg4NzIifQ.3b6CQN3tNAtqwhfcQMZHMAhhMjcoC08FJvpCm8iAv_o' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wear end statement cost.","maxScore":51,"minScore":16,"description":"Show player lead word. Appear space top institution employee game. Law defense single sign.","previewFileId":"f2b07ad7-870e-43b7-b6d7-795534ab2e10","estimatedTime":"3 weeks","createdByUserId":"e0e99f80-8e5c-48be-b356-6bc9f1658872"}'

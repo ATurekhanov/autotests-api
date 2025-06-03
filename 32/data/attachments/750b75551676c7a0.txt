@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjEyLjUzMDMwMiIsInVzZXJfaWQiOiI1OTNkMGUzNy1iNzE3LTQyMDEtYjBhYy05OWI2ZTc0MTcxNmUifQ.XJy0JKjcfiIxqnR_VBrxCufeO0POvlaZg1zEmq4_XQw' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discuss share either ago it PM.","maxScore":56,"minScore":24,"description":"More education organization himself general attack. Impact wait only possible young.\nOther effort choice. Interview indeed team over laugh source read. Improve leg authority design.","previewFileId":"c4d0e1d6-5fda-4523-8fba-6256d2cd7ab9","estimatedTime":"5 weeks","createdByUserId":"593d0e37-b717-4201-b0ac-99b6e741716e"}'

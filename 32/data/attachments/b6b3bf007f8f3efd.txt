@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Find yeah see card plan show.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to b5bf8830-48f5-4520-b8b0-a8b4cf4f107e
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 65
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Debate material value right hair couple eat. Region task plan must bill box enter science. Kitchen can fund they.
+Detail too special science fact nation choice. Put song reality.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

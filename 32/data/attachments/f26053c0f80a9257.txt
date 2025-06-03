@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/007b4b4e-e27f-4ac6-aa6c-12e7bdc45fee' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjM0OjA5LjkzMjEwMSIsInVzZXJfaWQiOiJlMGU5OWY4MC04ZTVjLTQ4YmUtYjM1Ni02YmM5ZjE2NTg4NzIifQ.3b6CQN3tNAtqwhfcQMZHMAhhMjcoC08FJvpCm8iAv_o' \
+  -H 'content-length: 218' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forward next past go.","maxScore":58,"minScore":3,"description":"Business picture be religious. Green point for ready when see learn.\nThere manage inside large. Century after kid.","estimatedTime":"3 weeks"}'
