@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjA5OjQzLjU0MDA5NiIsInVzZXJfaWQiOiIyYTMwMDc5My1mMTkwLTRhMDAtYTRhZS0wZGRkNDNjMzIzMzAifQ.my2L7d2l8QGXDPKqwzCZL8NL0rPfZx6xz7Pk1aQiVJ4' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Medical teach woman protect ever front.","maxScore":59,"minScore":21,"description":"Ago painting even effect seven feeling. Upon parent significant pull hand lot least.","previewFileId":"c90c388a-ffe4-4562-8bce-6150487b6105","estimatedTime":"9 weeks","createdByUserId":"2a300793-f190-4a00-a4ae-0ddd43c32330"}'

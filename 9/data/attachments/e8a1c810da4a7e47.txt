@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/609942be-9d76-488d-900a-b9a43180d775' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjA5OjQwLjkyMDMyNCIsInVzZXJfaWQiOiJiMGQyMzc0Ni1lZTAwLTQ2YmQtYmU0Zi1hZDBjY2IyY2IyM2EifQ.9uv4aE6wbv1Cy0xGzAS2PsQoDU5pylVY4QBYj9rCyyI' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy southern other sign skill rest must.","maxScore":84,"minScore":3,"description":"Yourself blood challenge. Prove chair during suddenly serve.\nForm appear authority night. Last hospital color. Hot federal action sea quickly respond.","estimatedTime":"6 weeks"}'

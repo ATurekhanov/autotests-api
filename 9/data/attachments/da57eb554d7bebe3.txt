@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDA0OjA5OjQ1LjQyOTQ5OCIsInVzZXJfaWQiOiI5NzQ0NGY2Ny0yNzg2LTQwNTMtYWVhZS0wOTI4MGRhMThjODYifQ.LQeolM8JyeUd_2OMBNaWTajRawOtj3GATHPd3DuMouQ' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule behavior item cold main cold.","maxScore":89,"minScore":12,"description":"Skin happen while more break set itself. Professor least break establish pick view involve.\nCost give social book. Wish western style else stage.","previewFileId":"ad5b639a-d2d6-479f-a3b3-aa4d8f05e2b1","estimatedTime":"1 weeks","createdByUserId":"97444f67-2786-4053-aeae-09280da18c86"}'
