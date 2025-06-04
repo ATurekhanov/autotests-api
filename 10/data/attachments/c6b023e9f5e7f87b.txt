@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjA5OjU1LjU1Mzc3NSIsInVzZXJfaWQiOiJlNDM2ODdhNC0wYTU5LTRlNTktYTZhNC1lZDE1ZDhlMTYzYjAifQ.nGfYzPppb9Vw3M5-f0CfLtd8UsXeytRuxyzrJQN39ZU' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out admit husband wall.","maxScore":59,"minScore":11,"description":"Ten painting throughout tell. Light couple alone which job material.\nHistory language discover recent while can contain list. Character instead outside bank doctor color nature.","previewFileId":"2c59de58-a4e5-42c3-b1eb-d1b2fb6aa285","estimatedTime":"2 weeks","createdByUserId":"e43687a4-0a59-4e59-a6a4-ed15d8e163b0"}'

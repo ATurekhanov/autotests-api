@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjA5OjUxLjk3NDkxMSIsInVzZXJfaWQiOiJkZjhhNDZjNS03NzgwLTQxMTEtYjFkYS1iMDgzMmNlYzBkYmQifQ.qrxwb4bBHXii8edc9mFa6dM9zWhDibIJM7569sr6-F0' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Senior note church usually although several detail.","maxScore":93,"minScore":25,"description":"Off recent occur eight apply. More serious piece yes pick city thousand real.","previewFileId":"55a939c1-16b1-4081-8b94-1a61b3edd38b","estimatedTime":"5 weeks","createdByUserId":"df8a46c5-7780-4111-b1da-b0832cec0dbd"}'

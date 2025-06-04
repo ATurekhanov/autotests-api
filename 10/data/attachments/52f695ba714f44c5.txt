@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjA5OjU0Ljk0NTE0NiIsInVzZXJfaWQiOiJmZDk3Y2EyNC1iYjU5LTQ3ZjYtOTkwYy1kMDlhNjk2OTI1NzYifQ.AJZqQcait5sLXMGx-fa_f3hVjkJFdxBAHL6oYFIpzy0' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speak election above population ball build Mr hour.","maxScore":67,"minScore":20,"description":"Turn school walk score store. Brother whether must window expect. Sell draw case development. Study if receive summer report who car.","previewFileId":"61ffaa92-cbd6-4a56-8b9d-402df0bf6083","estimatedTime":"5 weeks","createdByUserId":"fd97ca24-bb59-47f6-990c-d09a69692576"}'

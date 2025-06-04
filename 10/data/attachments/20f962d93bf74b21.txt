@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjA5OjUzLjcyNDgyOCIsInVzZXJfaWQiOiI0OGE5OWQ5ZC1kYmMwLTRiOWMtYmJlNi1iOTllODZkNDFlMDIifQ.i3FxN1WpA0ae1APkevCmUIcr4ulIdKRDJc04YI96Msc' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep authority sort new rate.","maxScore":59,"minScore":2,"description":"Indeed factor organization loss could one specific. Who condition local oil.\nLittle realize throughout enjoy red resource style many. And everybody nature anyone.","previewFileId":"5b0e30bf-d634-49a0-859e-6db65c3fadb4","estimatedTime":"2 weeks","createdByUserId":"48a99d9d-dbc0-4b9c-bbe6-b99e86d41e02"}'

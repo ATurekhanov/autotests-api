@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjA5OjU0LjMxMTYwNiIsInVzZXJfaWQiOiJiMWE1NjM1MS1iZWUzLTQwMDAtYjI4OS04NzE1MGY1NjdjYmEifQ.Q2mUXXJDQKSedToeAkIZ7Rt6V_hseSMZn7Wo7iaNwdE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Network quickly doctor mission knowledge thousand hand.","maxScore":84,"minScore":12,"description":"Admit instead power whom thing trial along statement.\nProcess road opportunity positive produce present. True also necessary site.","previewFileId":"ffa77357-2734-4613-87b3-d40d39f39c4d","estimatedTime":"8 weeks","createdByUserId":"b1a56351-bee3-4000-b289-87150f567cba"}'
