@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjM0OjE4LjY2OTUxMCIsInVzZXJfaWQiOiI5YmI5ZTZiNS02OGU4LTQ3Y2MtYmNmZC1jNWM2MTA1MTIyMDAifQ.jXoU2WEot_58SzfyPZEEBSEfiYSp8cvDKMLzYtC059s' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every Democrat friend.","maxScore":100,"minScore":24,"description":"It office authority. World now energy senior have give no.","previewFileId":"b8d49210-3db3-4b17-8317-e50a288019b0","estimatedTime":"8 weeks","createdByUserId":"9bb9e6b5-68e8-47cc-bcfd-c5c610512200"}'

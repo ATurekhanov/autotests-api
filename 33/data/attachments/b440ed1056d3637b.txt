@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d4bb3010-a207-4708-aea2-f1568729e050' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjM0OjE0LjgyNjAyMCIsInVzZXJfaWQiOiJhOWFlZjJjMS1hM2Y2LTQwYTctYjJhYy0yMDk1YzU2NTMwMDMifQ.CLrgYiDgHYgw2BZgq9WOdrb5ccRQoJJp-c9OxQA0uB0' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Himself good here space.","maxScore":50,"minScore":9,"description":"Must race front nice option result. I dark get.\nRun manager know evidence early fund. Wear yet wonder. Mrs better both may doctor natural bank something.","estimatedTime":"8 weeks"}'

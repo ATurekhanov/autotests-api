@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjM0OjE4LjA3NjY3NSIsInVzZXJfaWQiOiI0N2U4OWVlMi00NmFmLTRjZTEtYmE4My0wMzUxNTBjZGUyYWIifQ.3HI_UKcdDbwQwjJUIfo0JoMpSmF5GFpoOklBTZJ4qUs' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially once cold cut both leave.","maxScore":57,"minScore":4,"description":"Shake serious group fire Democrat. Your recognize personal perform quite later late. And pay one statement serious.\nBall hold free before.","previewFileId":"0fbef7d2-74d6-4398-a8ec-f988f2930d09","estimatedTime":"4 weeks","createdByUserId":"47e89ee2-46af-4ce1-ba83-035150cde2ab"}'

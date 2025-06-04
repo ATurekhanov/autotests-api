@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=b78ec917-9d18-44d1-86bb-2f7cbd096940
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises?courseId=b78ec917-9d18-44d1-86bb-2f7cbd096940
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 1773f608-cbad-4357-b1e4-c85ed9e4eced
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Activity star thus research live now serious system.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to b78ec917-9d18-44d1-86bb-2f7cbd096940
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 96
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Physical something southern operation government. Peace son stay phone industry. Series four sing president security effect what number.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

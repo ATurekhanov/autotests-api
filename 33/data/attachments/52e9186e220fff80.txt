@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjM0OjE0LjgyNjAyMCIsInVzZXJfaWQiOiJhOWFlZjJjMS1hM2Y2LTQwYTctYjJhYy0yMDk1YzU2NTMwMDMifQ.CLrgYiDgHYgw2BZgq9WOdrb5ccRQoJJp-c9OxQA0uB0' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense list accept sit what.","maxScore":54,"minScore":8,"description":"Agency explain news wonder chance son memory. Arm scientist ten small.\nDo nothing prevent consider. Clearly quality young claim. Side number produce officer body.","previewFileId":"b29659e1-b010-442a-9a68-796a69bf65dc","estimatedTime":"3 weeks","createdByUserId":"a9aef2c1-a3f6-40a7-b2ac-2095c5653003"}'

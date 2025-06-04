@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjM0OjE2LjI0NjA2NSIsInVzZXJfaWQiOiJjYjg3Y2E4NC04MGFiLTQ2ZWYtYWY4Ny01ZjljM2U3MTIxYjEifQ.ywAK_-buwBRmfBc7-BAiN-78DBEBQ60sCwpeSH1gNk0' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep society agreement this.","maxScore":53,"minScore":25,"description":"General conference second article entire. Test market remember good professional indicate enter. Process stand trade certainly financial ready figure. East look order energy speech conference.","previewFileId":"33af80cf-9f47-475c-aac2-303cfa093b30","estimatedTime":"10 weeks","createdByUserId":"cb87ca84-80ab-46ef-af87-5f9c3e7121b1"}'

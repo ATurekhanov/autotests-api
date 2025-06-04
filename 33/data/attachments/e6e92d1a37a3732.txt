@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjM0OjE3LjQyNDk0MCIsInVzZXJfaWQiOiJhMmNmNjkxZi1iYWZmLTRlOWEtODJhMC03NzU2NjYwM2M5MDkifQ.vCIch1SXqmApUZpIH6oMPdHe_iHVcI-IBkJ-1YgATRw' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fact blue month matter page alone.","maxScore":69,"minScore":13,"description":"Past pick range everything wish. We whether why but check role the. So item simply happen. Month traditional risk himself sister back.","previewFileId":"47d4b4d2-c6ac-4423-8e55-7c68cbaba2b9","estimatedTime":"4 weeks","createdByUserId":"a2cf691f-baff-4e9a-82a0-77566603c909"}'

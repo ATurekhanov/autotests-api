@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA0VDA0OjM0OjE5LjMzMDkwNyIsInVzZXJfaWQiOiI5NmEzMTRjOS04ZDkyLTQ3NDYtYTlmYy1hMGQ2MWY2M2VjZmUifQ.lA3VDfuwStqk9d0FJ1Yypkt524bKPTZzmUMNHqAawro' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Station speech organization economic listen.","maxScore":91,"minScore":30,"description":"Through if personal figure property they. Newspaper method drug student marriage plant finally. Do short popular spend born page traditional.","previewFileId":"e3f2e43c-bf92-441f-99b2-3c3fdb3e7a97","estimatedTime":"5 weeks","createdByUserId":"96a314c9-8d92-4746-a9fc-a0d61f63ecfe"}'

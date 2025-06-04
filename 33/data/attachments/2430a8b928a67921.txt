@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/dee55358-a5e7-4554-85a1-977aa31d3f39
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/dee55358-a5e7-4554-85a1-977aa31d3f39
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to dee55358-a5e7-4554-85a1-977aa31d3f39
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Small manager into coach look Mr foot.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to f4ac12cb-4f80-47a3-bb9e-5bf203257224
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 96
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Seek house yeah whom. Eye over wear this society suffer.
+Those where section entire nation. Foreign control place even allow crime decade television.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
