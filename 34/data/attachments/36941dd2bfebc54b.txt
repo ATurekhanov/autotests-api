@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjAzLjIzNjQ0MiIsInVzZXJfaWQiOiI4ZDkxM2FhOS0zYTY2LTQxNjMtYTgwMC01YWJjYTIyYmJjMTgifQ.V0sVQsvUw2O6KfJA2XX6jtBrmahCIBvazCP-cdj3kg8' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beautiful watch method sometimes fight much.","courseId":"d908b489-96e1-4fff-a5be-5a8d44ba10f4","maxScore":80,"minScore":19,"orderIndex":12,"description":"Political include edge sure teach your. Strategy that stand. Man who relationship tough many purpose.\nArrive indeed tree anything. Each whatever lose beat mind. Thank several behavior.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/98e884fa-91cd-4e2e-ae35-bbcfccd4c737' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjA1LjYzNzIzMyIsInVzZXJfaWQiOiI5MzMwNTg0Ny1hNGIxLTRiYTQtOWMzZC0zZjdjMmU4ODhhNjQifQ.BKl6l_cqFvor9GumBLSUmaq8lLTH6mUuV1Kk-lMDqhs' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rock everybody democratic.","maxScore":66,"minScore":1,"orderIndex":68,"description":"Shoulder expert option. With with effect must together threat.\nOccur support catch model much speak threat. Top piece by four feel kitchen type.\nSomeone young reality stage know on who plan.","estimatedTime":"2 weeks"}'

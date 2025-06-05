@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/920d9a8a-a249-441c-93a1-97b4d9e207e3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjAxLjE3NTUzMyIsInVzZXJfaWQiOiI1OGRmNGNkMC05ZjIzLTQ2MTktODJlNS0wYzllYjUwMDQ3MjIifQ.WZNiu5ktXYhfklZ3hYqQrXA7gRG3w9jTBSdXRNRvw-w' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step home prevent between.","maxScore":92,"minScore":30,"description":"Hard outside increase consider capital. Often region type laugh source finish.\nFoot throughout these choose might again interview.","estimatedTime":"3 weeks"}'

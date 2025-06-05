@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjAxLjE3NTUzMyIsInVzZXJfaWQiOiI1OGRmNGNkMC05ZjIzLTQ2MTktODJlNS0wYzllYjUwMDQ3MjIifQ.WZNiu5ktXYhfklZ3hYqQrXA7gRG3w9jTBSdXRNRvw-w' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Air break matter receive determine.","maxScore":68,"minScore":8,"description":"Blood deep sell shoulder director. Read shoulder admit machine inside top.\nNone character mean foreign my fill. Mission direction miss physical place building. Way tonight specific rise admit.","previewFileId":"a4f91163-0a84-4c83-950b-71f24534cdb0","estimatedTime":"1 weeks","createdByUserId":"58df4cd0-9f23-4619-82e5-0c9eb5004722"}'

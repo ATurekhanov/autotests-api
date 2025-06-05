@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjAyLjA3MzY1NiIsInVzZXJfaWQiOiI1MzQ2OTczMi1hNjBmLTQxZDYtYTM5ZS1iNzE4MTIxNzMwYWIifQ.XQm40dohBApBvQac_TMFOqOKmK1FmCc5NsKRmaowcbA' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where cause blood bed.","maxScore":63,"minScore":17,"description":"Begin audience remember short amount. Boy night race trip budget offer everything.\nPass prepare system decide soldier his. Across operation into that once.","previewFileId":"19910f8d-f39a-4f82-acb1-8577d08d95fd","estimatedTime":"5 weeks","createdByUserId":"53469732-a60f-41d6-a39e-b718121730ab"}'

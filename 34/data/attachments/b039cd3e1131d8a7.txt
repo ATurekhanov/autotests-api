@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjAyLjY1NTA1NyIsInVzZXJfaWQiOiIyOGFmNmJlZi0yZjc1LTQ5NWYtYjRjMC1kOTI0ZDBkOTE1ODMifQ.2xe6Lh7hSMIsSgSY7mA1zKCW8on8DQAg_YBXgUuXC9Y' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None become effect win dark.","maxScore":80,"minScore":29,"description":"Little beat opportunity business improve over. Rate option work toward environment song week. Use several quickly smile.","previewFileId":"a94d8474-f396-40c9-98b0-6da793abeb9c","estimatedTime":"5 weeks","createdByUserId":"28af6bef-2f75-495f-b4c0-d924d0d91583"}'

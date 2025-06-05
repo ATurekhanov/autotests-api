@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjAzLjgxODU4MSIsInVzZXJfaWQiOiIwNzUyOWZkMS1hMTE5LTRkZTQtYjVjNi1jNGFlNTNiMzI4MzEifQ.GtGKUl0iHS5bZo8N71u4f4jFFTnpwc9JOrVF6pmXsYA' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Might benefit same particular foot.","maxScore":86,"minScore":10,"description":"Worker television let score after check oil. Religious activity may she though list type.","previewFileId":"ee5958b9-28c2-42ec-9c7d-5bbbe89ae983","estimatedTime":"7 weeks","createdByUserId":"07529fd1-a119-4de4-b5c6-c4ae53b32831"}'

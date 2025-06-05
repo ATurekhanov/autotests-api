@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjA1LjYzNzIzMyIsInVzZXJfaWQiOiI5MzMwNTg0Ny1hNGIxLTRiYTQtOWMzZC0zZjdjMmU4ODhhNjQifQ.BKl6l_cqFvor9GumBLSUmaq8lLTH6mUuV1Kk-lMDqhs' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free impact war spring off course along.","maxScore":72,"minScore":8,"description":"Only floor test newspaper floor score can. Great century wish PM push involve meeting. Tend theory sense.\nWrite number expect will those wrong song. Red better gas lawyer age should.","previewFileId":"d13704d4-8957-4027-a325-19400478bf06","estimatedTime":"2 weeks","createdByUserId":"93305847-a4b1-4ba4-9c3d-3f7c2e888a64"}'

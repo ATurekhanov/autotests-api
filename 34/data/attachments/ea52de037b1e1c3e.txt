@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjM1OjA1LjAzMzMyOCIsInVzZXJfaWQiOiI0OTNmMmZiYy00NjcxLTQ3ZTktOTcyYy01ZGQyYTZhZGViODIifQ.3X40JoZMXZ0vLwmyWvBV5oAPmxfgx3QZv2H-7Rvo0AY' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal oil window police idea.","maxScore":71,"minScore":13,"description":"Sometimes school edge movie. Full less food bad.\nHistory employee series rich leave stand. Dream oil above education dog card current. Attack off paper.","previewFileId":"f38f4c9c-80c6-4159-b610-5885b1e2a3f5","estimatedTime":"10 weeks","createdByUserId":"493f2fbc-4671-47e9-972c-5dd2a6adeb82"}'
