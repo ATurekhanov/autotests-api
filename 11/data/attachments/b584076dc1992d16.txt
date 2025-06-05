@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjEwOjQ3LjgyODg2NCIsInVzZXJfaWQiOiJlOTc2Y2I3Ny1mYzAzLTQzNjAtOTM3Yi1jOTUxMTliMmNjOTEifQ.LzMSfhYudSxEvKgUuKqBQpVZl0LrEhulIHUsfkZtZEo' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guy idea war move easy.","maxScore":69,"minScore":22,"description":"Tell dream sell myself address record. Expect treat agency collection almost type sure. Art receive turn letter. Win look choose its down.","previewFileId":"70314dbe-cdae-4765-905f-18f2872f49da","estimatedTime":"2 weeks","createdByUserId":"e976cb77-fc03-4360-937b-c95119b2cc91"}'

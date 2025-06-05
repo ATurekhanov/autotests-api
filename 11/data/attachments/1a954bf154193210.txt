@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjEwOjQ4LjQ0NjExMyIsInVzZXJfaWQiOiI4NjE1NzdmZi1lMjljLTRjMjktOGM1MC1hODhjMzFjNjBlNTMifQ.wXT93p566T2ywg622pG0R3cqecUYU40zJmmp2Coi--E' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Candidate senior another remain special.","courseId":"59a3a501-93b6-4839-b90e-caff1b7803ee","maxScore":62,"minScore":25,"orderIndex":79,"description":"Not security they necessary activity. Nature meeting loss old.\nAuthority difference good perform. Choose too this picture.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjEwOjQzLjk0OTU0OSIsInVzZXJfaWQiOiI4YTE1OWU3Mi0xNWM1LTQzMDYtYWE2ZC0xNjRjZWUyMWYyNTgifQ._GO-rnXPLBa0umMf70eTOKsYcxqXVy8mmNDSEN-Ce8o' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine dark sometimes threat those coach.","maxScore":93,"minScore":7,"description":"Night town available for. Five reach fear across.\nDown mother able important see. Sometimes add radio final Republican them pick. Chair rest about opportunity value travel.","previewFileId":"f522a356-426c-404f-b289-3f6830de5aea","estimatedTime":"1 weeks","createdByUserId":"8a159e72-15c5-4306-aa6d-164cee21f258"}'

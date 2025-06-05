@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDA0OjEwOjQ0Ljg0NzQ3MyIsInVzZXJfaWQiOiIyNjMwMjBiYy05YjdmLTQ2MGEtYTRjYS0zMjA4NTAxZTU1MjcifQ.OT9-L_G6jVsJlCdkJ-7m-7GGkHKrC7MRaJSJ3PTTfuU' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay growth all.","maxScore":58,"minScore":25,"description":"Exist white recognize century record. Of could become source peace where. Former upon growth be. Many prove evidence daughter age throw serve.","previewFileId":"ef355b92-e505-4851-ac74-5d195deb9c5c","estimatedTime":"9 weeks","createdByUserId":"263020bc-9b7f-460a-a4ca-3208501e5527"}'
