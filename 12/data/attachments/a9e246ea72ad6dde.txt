@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjEwOjA0Ljc3NTI3MSIsInVzZXJfaWQiOiJjMjc4MDhlMS04ZmMwLTQxMGUtODJjYS0zM2M4YjdkNDA3ODUifQ.xxAQjB2TJZJJpBfGGVQVdmN6AOSwV0fe14jM6TYeZDs' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leader tonight city pressure blood ever doctor.","maxScore":56,"minScore":25,"description":"Near nature expect watch act bank. Oil find nothing.\nMedia say decade box investment floor. Cultural interest tax right visit. Two opportunity glass black.","previewFileId":"c7174ebe-14b4-4b03-922b-a125eb096bd4","estimatedTime":"4 weeks","createdByUserId":"c27808e1-8fc0-410e-82ca-33c8b7d40785"}'

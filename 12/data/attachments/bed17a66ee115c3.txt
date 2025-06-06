@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjEwOjA1LjM2NDY4NCIsInVzZXJfaWQiOiI3YjRmYjVmMC0wZWIwLTRjMjYtOTU0Ni1mNjViNDE0NTdhOTEifQ.nZ_Ut-9baq7V2BUJr1LPZmIncMRKk9MIIEkgOQp7cNI' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience direction shake fall.","courseId":"c8044eeb-68da-4fda-b9c3-28574b241454","maxScore":61,"minScore":5,"orderIndex":76,"description":"Maintain produce reveal effect start three popular. That carry whatever give fact.\nQuite cut yeah heavy American. Law region because stuff. Even board give later.","estimatedTime":"6 weeks"}'
