@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjQ4LjkxOTAyNiIsInVzZXJfaWQiOiIzYjM5MDhiOS01MGFkLTRhYTMtYTJjNC1mMjY1OTIwYTQyNDcifQ.GRLHXGkr4aqOhi4hcGf6d0L8Unm6-9yt2prQ6I81Xq0' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Half speak firm budget break.","maxScore":95,"minScore":2,"description":"National they world perform heart. Blood hotel put interest wide conference to. Store social TV employee issue.\nGreat season since home like. Interview figure easy mother friend.","previewFileId":"12ff9def-aa7b-42a9-92ba-20638191f2d6","estimatedTime":"10 weeks","createdByUserId":"3b3908b9-50ad-4aa3-a2c4-f265920a4247"}'

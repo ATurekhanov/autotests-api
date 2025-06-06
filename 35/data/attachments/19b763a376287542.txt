@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjUxLjU4MTk1NSIsInVzZXJfaWQiOiJmODhkODEyYi05OTUxLTRmMjAtYTAzMi1mYjE1NzkyOTlkMjgifQ.s-XQH6nrOmCW3EK3_Xa0EeJmSeUVjHPd_M3GheWdrpo' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career move natural body operation.","maxScore":70,"minScore":7,"description":"Role administration special whatever apply strong director. Herself short off last center day hope.\nYour agree add real receive. Point treatment listen friend admit nearly condition.","previewFileId":"ecbd6a3b-7c5f-45b9-a704-28eac2bdd1bf","estimatedTime":"1 weeks","createdByUserId":"f88d812b-9951-4f20-a032-fb1579299d28"}'

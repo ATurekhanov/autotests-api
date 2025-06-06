@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjQ5LjgyMjIxNiIsInVzZXJfaWQiOiIyNDI5NDQyMy0yNDkyLTQ4MTktYjhlZS0wYzViY2U0ODNmZTcifQ.EBgCusf_Pc-xDMi--K-G9uL1EiDDEocxoo_UszR9G9M' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon camera letter safe reality every race.","maxScore":100,"minScore":3,"description":"Drop authority strategy rock drug. Difficult any international especially I kind.\nReal if church. Hair hand at wide despite. Wife federal toward enter huge during key.\nStart agent per.","previewFileId":"ffe3ee95-7d5f-41ec-9423-a20c8175e3a3","estimatedTime":"3 weeks","createdByUserId":"24294423-2492-4819-b8ee-0c5bce483fe7"}'

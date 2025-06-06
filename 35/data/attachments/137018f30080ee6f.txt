@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/3f332257-55b2-4db6-956e-953d94de97b6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjUzLjQxOTM3MSIsInVzZXJfaWQiOiIwMzFkMjFjNy05MDg2LTRhNjAtYjE5Yi05ZmM1NDU4NTNhYzYifQ.SU3U9Krqobe69uFXqAcZKMPb8m_FHREWzbJ7DlPfA64' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat animal weight.","maxScore":95,"minScore":1,"orderIndex":84,"description":"Finally role economic effect answer gun reduce generation. Section forward step ability great attention. Something cold woman respond almost.","estimatedTime":"2 weeks"}'

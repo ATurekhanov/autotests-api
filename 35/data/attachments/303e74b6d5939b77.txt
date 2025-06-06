@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjUyLjE3MjkzNyIsInVzZXJfaWQiOiIxN2U5YTQ5Ni0zNjRlLTRkZTUtYTk3MC1iY2UzZTQ2YTNkMDgifQ.2J5ipldCew2MMmLfdRhFQl9Y4M2VdIwp3yK3T8Iyenc' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Notice expect not.","maxScore":91,"minScore":25,"description":"Resource affect behind in best. Green during know job drug push. Director adult change live project.\nAmerican computer court thousand blue physical. Cold book I onto happen near let every.","previewFileId":"4184e777-e567-4e74-8dcc-3c972a7a938e","estimatedTime":"5 weeks","createdByUserId":"17e9a496-364e-4de5-a970-bce3e46a3d08"}'

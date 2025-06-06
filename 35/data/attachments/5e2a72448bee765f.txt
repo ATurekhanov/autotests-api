@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjUxLjU4MTk1NSIsInVzZXJfaWQiOiJmODhkODEyYi05OTUxLTRmMjAtYTAzMi1mYjE1NzkyOTlkMjgifQ.s-XQH6nrOmCW3EK3_Xa0EeJmSeUVjHPd_M3GheWdrpo' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Believe lawyer fill office.","courseId":"6c195da8-5a80-4031-858e-8fce84407927","maxScore":98,"minScore":27,"orderIndex":50,"description":"Relate politics enjoy against guy owner simply boy. National first in owner sell hard expert.\nAgent series clear star. Direction outside institution program true.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjUzLjQxOTM3MSIsInVzZXJfaWQiOiIwMzFkMjFjNy05MDg2LTRhNjAtYjE5Yi05ZmM1NDU4NTNhYzYifQ.SU3U9Krqobe69uFXqAcZKMPb8m_FHREWzbJ7DlPfA64' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Statement impact center thousand training.","maxScore":75,"minScore":9,"description":"Drop response usually assume.\nDemocratic determine student expert. Ready compare laugh. End project discussion result.\nSociety special author early should same say.","previewFileId":"5267a61b-2d5f-4aa5-9bfa-c40433267613","estimatedTime":"5 weeks","createdByUserId":"031d21c7-9086-4a60-b19b-9fc545853ac6"}'

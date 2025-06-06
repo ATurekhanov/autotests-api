@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA2VDA0OjMzOjUyLjgwMTM1MyIsInVzZXJfaWQiOiIxMDhmODUxMi1mM2E3LTRiODUtYTU5NC00ZDk4NWRmOTY2OWIifQ.WT5sx6XofRXa81v3I7p0HqDpe8DxIZ8gMI1hSvQOmHc' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything camera prove new every western.","maxScore":96,"minScore":24,"description":"However class fear garden receive.\nPersonal natural real model establish. State night admit turn national arm responsibility. Party agreement player foot on stock. Level media human night also.","previewFileId":"551b4b15-542d-4153-9bf6-4b592dc62ddc","estimatedTime":"9 weeks","createdByUserId":"108f8512-f3a7-4b85-a594-4d985df9669b"}'
