@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDA0OjA3OjM4LjIzNjY2NiIsInVzZXJfaWQiOiJlMTMwOTQyMi1iODc0LTQzNzUtYjQwZS0xN2FkZDExZTNmYmQifQ.H55BXxxI6FdN13ovZ2i_CyyUKUWiHaEeTszBTdDKOZM' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seem relate stock.","maxScore":97,"minScore":6,"description":"Fact set record dinner. Catch speak investment view adult.\nNature tend model player remember. Into like miss rest conference far write. Television wall world nearly chair wrong.","previewFileId":"a61d98a2-adfb-4500-b2a5-a464af46879f","estimatedTime":"3 weeks","createdByUserId":"e1309422-b874-4375-b40e-17add11e3fbd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDA0OjA3OjM3LjA1ODI5MSIsInVzZXJfaWQiOiI3N2ZmNGFjMC0yY2MyLTQzYTQtODA3ZS03YTg0Y2ZlNmRkNzgifQ.UqTELQ5fR2cOsghL_qceo6NqQysIpqY0PN0iZAojqKc' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just suddenly chance for.","maxScore":83,"minScore":19,"description":"Effort cold debate court painting nothing ahead. Eye more modern travel.\nKid enjoy loss organization live stuff remember. Anyone minute black should.","previewFileId":"bd648729-c25c-43a3-ba8d-c81f45a54ea3","estimatedTime":"10 weeks","createdByUserId":"77ff4ac0-2cc2-43a4-807e-7a84cfe6dd78"}'
