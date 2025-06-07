@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDA0OjMwOjQ5LjIyOTY5NiIsInVzZXJfaWQiOiJkMGJlMWVkNy0zOWU1LTRhNjYtYjMxZS1kMTRiODkzMWU4NjMifQ.qRMXd-69VlH3qpXBvT5tstKdUHmFUEQ8-msr9xRUVtQ' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teach step less certain.","maxScore":91,"minScore":8,"description":"Charge medical hot hotel. Investment enter special model sport both above.","previewFileId":"37693819-6e7e-4c49-8721-da9fcba97b95","estimatedTime":"10 weeks","createdByUserId":"d0be1ed7-39e5-4a66-b31e-d14b8931e863"}'

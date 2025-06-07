@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDA0OjMwOjQ5LjIyOTY5NiIsInVzZXJfaWQiOiJkMGJlMWVkNy0zOWU1LTRhNjYtYjMxZS1kMTRiODkzMWU4NjMifQ.qRMXd-69VlH3qpXBvT5tstKdUHmFUEQ8-msr9xRUVtQ' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four listen start industry what able.","courseId":"98a3c00c-84b4-4149-970f-8d5c4bc64b6f","maxScore":82,"minScore":22,"orderIndex":53,"description":"When require five whether plant per whom at. Check my enjoy agree success. Put war product exist free. Buy more peace such consider ability.","estimatedTime":"10 weeks"}'

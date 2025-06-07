@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDA0OjMwOjQ2LjE4OTg3NCIsInVzZXJfaWQiOiI4YTQ2OGIwZi0zMTVlLTQwOWEtYjdkOS04MDYxZmVhM2Y0NzYifQ.wsM52FFvL-SKLlWcl2gCZg6hUar9KHCWZ1uEG-43JuI' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach drop position both best section.","maxScore":68,"minScore":22,"description":"Raise arrive everybody leave race federal sign wall. Dream social account network may behind pick no. Gun one often lawyer than. Happy stage trouble music work.","previewFileId":"3563292b-d273-4e20-86c3-4a385a83665c","estimatedTime":"2 weeks","createdByUserId":"8a468b0f-315e-409a-b7d9-8061fea3f476"}'

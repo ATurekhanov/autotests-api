@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDA0OjMwOjQ0Ljc3MTI5OCIsInVzZXJfaWQiOiI2YTIzZDE3NC1hZmY3LTQyOWEtYjdmZS1iMjRlMzFhZTcwZTMifQ.7dVLFoBiyDHbwXsjcm9gcfGwTAQQbVczH_47NnX8J0Q' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return recognize they present exactly.","maxScore":77,"minScore":4,"description":"Social thank near scientist. Ask he animal card.\nFly their for unit. Across author political look soon answer. Environment cold range.","previewFileId":"9ccb964d-7ea5-4fdc-b1ee-cabc54f45a1b","estimatedTime":"1 weeks","createdByUserId":"6a23d174-aff7-429a-b7fe-b24e31ae70e3"}'
