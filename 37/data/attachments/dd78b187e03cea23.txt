@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjEyLjcwMzUzOSIsInVzZXJfaWQiOiIyZTYzOTEzYi04ZDUwLTQxMzctYjMwZC00M2YyMDhmZjZhMmMifQ.8hpR-1o5wGRpdV3ScPSpZqSQyL2tLI8K6kH8zpfIyL8' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly someone kitchen prevent common.","maxScore":61,"minScore":12,"description":"System this rich. Energy last as break lose. Night former arm scientist machine guess account.","previewFileId":"91efedc9-bfc1-4a31-8232-840d8918c4ce","estimatedTime":"6 weeks","createdByUserId":"2e63913b-8d50-4137-b30d-43f208ff6a2c"}'

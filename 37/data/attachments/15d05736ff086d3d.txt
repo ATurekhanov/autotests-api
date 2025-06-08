@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjE0LjEyMjAwNCIsInVzZXJfaWQiOiJhNTM1MGM3ZS1iNzlmLTQ4N2YtYTQwOC02YTMxYTZlZTlkMWYifQ.qzlOe0UMGkaRqkz3ITpqNxQS4bi-kmoh9_EQ8g5YR3o' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Onto story start religious in girl arm.","maxScore":82,"minScore":4,"description":"Red citizen then one sometimes city.\nResult use cost president style civil position letter. Evidence month this pretty keep.","previewFileId":"b0a330ec-906a-404d-9163-865da40a4cc6","estimatedTime":"2 weeks","createdByUserId":"a5350c7e-b79f-487f-a408-6a31a6ee9d1f"}'

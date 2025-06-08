@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjE2LjUzODAyNCIsInVzZXJfaWQiOiJlZjlhYWI4Yy1mZDAyLTRiYTMtYmE5YS0zZmQ4YWQyNzlhZTAifQ.TTld-UICn3y_OPrSai50dQ6y9WfwgCXHWT1UHnS86n8' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less success player.","maxScore":82,"minScore":2,"description":"Behavior practice home cultural million heart spring practice. Design help off PM.\nCondition issue travel since former most. Quite rather possible sister teach late.","previewFileId":"0b609856-6c57-4a5d-95d4-66b61527f9f3","estimatedTime":"2 weeks","createdByUserId":"ef9aab8c-fd02-4ba3-ba9a-3fd8ad279ae0"}'

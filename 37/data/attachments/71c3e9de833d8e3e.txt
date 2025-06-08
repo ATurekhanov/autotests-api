@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjEzLjg0ODg4NCIsInVzZXJfaWQiOiI1NDgzMWZjZS0zZTNhLTRjNzQtODc4ZC0yY2IyMjdiOGM5MDkifQ.2SKMiIXFG4S9rrWiAjwd7wAn-sxXHLqn5TWVYQlZGTY' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm make site provide.","maxScore":55,"minScore":25,"description":"Order choice he process. Just despite central political. Down say military police than animal account.\nStandard any grow help name under shake. Expert sea foot at. Gas stay size dog.","previewFileId":"94dc5c27-55ac-41d5-b221-8ff286d838ec","estimatedTime":"6 weeks","createdByUserId":"54831fce-3e3a-4c74-878d-2cb227b8c909"}'

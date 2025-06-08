@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjE2LjUzODAyNCIsInVzZXJfaWQiOiJlZjlhYWI4Yy1mZDAyLTRiYTMtYmE5YS0zZmQ4YWQyNzlhZTAifQ.TTld-UICn3y_OPrSai50dQ6y9WfwgCXHWT1UHnS86n8' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Company song sort.","courseId":"e75f7dd6-0b4e-4856-8198-78c029dc747a","maxScore":55,"minScore":21,"orderIndex":34,"description":"The system individual draw.\nBeyond material different almost industry quickly system.","estimatedTime":"2 weeks"}'

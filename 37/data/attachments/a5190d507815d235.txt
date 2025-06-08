@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjE1Ljk0NDQ4NyIsInVzZXJfaWQiOiI5Yjc3ZTBiZC03MDdiLTRiY2MtYWU2MC1jNzRlZmY1NzdmNjEifQ.TE6TscFLbGgadsoBFLInFbe1XKjAkmJdTp43Rguh5XA' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difficult TV deep blood market.","maxScore":59,"minScore":21,"description":"Why pick skill expert. Voice ok individual rock research buy can common. Number cup short pattern really hand.\nMajor religious also live process vote. Happen explain government raise surface.","previewFileId":"71968c15-11bc-4046-a358-7ce29cb033dd","estimatedTime":"4 weeks","createdByUserId":"9b77e0bd-707b-4bcc-ae60-c74eff577f61"}'

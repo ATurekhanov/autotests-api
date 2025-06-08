@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8dca4c9f-c321-499e-b619-f8aff503d524' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjEyLjcwMzUzOSIsInVzZXJfaWQiOiIyZTYzOTEzYi04ZDUwLTQxMzctYjMwZC00M2YyMDhmZjZhMmMifQ.8hpR-1o5wGRpdV3ScPSpZqSQyL2tLI8K6kH8zpfIyL8' \
+  -H 'content-length: 214' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview few weight field use seat.","maxScore":75,"minScore":7,"description":"Rule turn picture cause within.\nInvolve language sit face nearly them. Buy site recognize talk.","estimatedTime":"6 weeks"}'

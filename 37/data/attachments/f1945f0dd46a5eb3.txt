@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjE3LjEzNTUxMyIsInVzZXJfaWQiOiI5YTJjOWY1MC1iZGUxLTQxZDItYWRjOS1lOWVlMjdhN2RlYzYifQ.ZLMfGXVDVNazDsHJpUTHH6OdXpF96SCCbbNvgtv9PAI' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water baby sometimes because success tell.","maxScore":55,"minScore":2,"description":"Next civil stop official. Candidate purpose anyone consumer however. Perhaps box live game place mouth city.\nRoad they happen chance would reason this want. Choice across American finally whatever.","previewFileId":"78a899f1-5ac5-451d-bc0a-871be7f0b6a2","estimatedTime":"8 weeks","createdByUserId":"9a2c9f50-bde1-41d2-adc9-e9ee27a7dec6"}'

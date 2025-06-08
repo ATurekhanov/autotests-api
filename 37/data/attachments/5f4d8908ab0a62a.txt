@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjQ4OjE1LjI5ODQ1NyIsInVzZXJfaWQiOiIyNTMwYmY4ZC03MWM5LTQ2NDItYTIxZC0wZmYyZTJmZjcyNTkifQ.dhJr1MyG8ttjc9ZZ23Rn977xKtVSj3cu-lqCwLR5M-A' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Almost up real key.","maxScore":67,"minScore":20,"description":"Congress measure fight approach despite. Draw site team employee. Down question especially war television brother.","previewFileId":"e470dd67-5897-4077-835c-e86084aaf693","estimatedTime":"9 weeks","createdByUserId":"2530bf8d-71c9-4642-a21d-0ff2e2ff7259"}'
