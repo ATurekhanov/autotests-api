@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjE1OjI4LjUxMzE3NiIsInVzZXJfaWQiOiJiMjcxMmVlZC04NmUzLTQ0ZmYtYjUwMy0yMmIxZWJlOTA1ZjIifQ.SVFZBEpyyJFenbb5aueFV2wYMYe7AlgfTje4c0ayLmM' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Price turn wind few.","maxScore":65,"minScore":7,"description":"Official respond focus actually through. Care easy tree statement political.\nWell address space. Defense involve parent hit and.\nSomebody capital down worker spend strategy. Society happy agreement.","previewFileId":"3d31b308-b76b-4783-8d87-6d66e36dc1e3","estimatedTime":"7 weeks","createdByUserId":"b2712eed-86e3-44ff-b503-22b1ebe905f2"}'

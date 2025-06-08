@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA4VDA0OjE1OjI3LjgzNTc2NCIsInVzZXJfaWQiOiIzMjFhMmM0ZC02MjYzLTQyNWMtYWU5NC00NWE5NzY2NmE4OGYifQ.p_yA-G9KipWLRoa90D5mB-iZP_pXVoV7s4i-RJdKZvE' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney reveal sell mind article worry station.","maxScore":93,"minScore":21,"description":"Middle executive cell one part cut morning. Exist call partner into here here process ok. Him item lot understand hotel property teach sea.","previewFileId":"e635f25a-1612-4099-acd8-4a3b6250f57d","estimatedTime":"1 weeks","createdByUserId":"321a2c4d-6263-425c-ae94-45a97666a88f"}'
