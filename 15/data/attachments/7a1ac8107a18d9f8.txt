@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjE1OjEwLjQ3MzgxNCIsInVzZXJfaWQiOiJkZmFhOTJlYi05Y2UxLTQ5MDItYTgxYy0xYzY0OGQyYTllMWIifQ.HT-RvhT0qPDGIwXVeN9YfgZOAKKFw24c5mxrPbtpZKc' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interesting prove young research determine father foot.","maxScore":99,"minScore":26,"description":"To once record become reality money. Thought debate woman set. Which sit something treat near.\nNational then subject light race thank quickly. Especially factor house student each anything.","previewFileId":"05a7d92f-39fe-4c38-b4ba-e72df563ccd1","estimatedTime":"8 weeks","createdByUserId":"dfaa92eb-9ce1-4902-a81c-1c648d2a9e1b"}'

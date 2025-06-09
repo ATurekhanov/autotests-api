@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjE1OjA4LjcxOTI4NSIsInVzZXJfaWQiOiI4YTUxOGQ0Ni1jMmQxLTQ1NzctOGJhNS01MTVmMjlhYjgxOGYifQ.y4VtrNeCNrhjijtQhLP-r3JhHk9-ZXnJov7NvYJDv6c' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View when sea law behavior himself.","maxScore":86,"minScore":6,"description":"Southern become husband but difference.\nMusic describe what Democrat voice. Sport better form ball table sometimes carry.","previewFileId":"9427171c-a0ca-496a-ac91-294f4f8ffa01","estimatedTime":"9 weeks","createdByUserId":"8a518d46-c2d1-4577-8ba5-515f29ab818f"}'

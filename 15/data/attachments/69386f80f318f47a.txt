@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7b994e4f-e206-4f0a-99fb-e8e0e17b269f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjE1OjA3LjgxNzM3MCIsInVzZXJfaWQiOiI0ZjdjY2MwOS1hZWI1LTQ4NTItYTYwMi0wM2MyYzNiYTVhOWQifQ.DOb8i8X9GbVjyrek1UeqLzluOedIkeM83q3fQvfiLco' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe fill when road.","maxScore":76,"minScore":7,"description":"Blood Mrs benefit finish. Production water subject director research usually.\nAnimal rich north phone step. Benefit leave discuss his home public simply.","estimatedTime":"4 weeks"}'
