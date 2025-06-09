@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjM5LjU0NTQ0NiIsInVzZXJfaWQiOiIwNDNhMWQ0OC1kZDNjLTQzMzQtOGUzZS0wMTk0MTYyOWMwMWEifQ.kuJdmPsDzVEYB8DAm4Z2EOmMLrqKmPREJzTpM7WUKiQ' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even time significant different.","maxScore":80,"minScore":25,"description":"Attorney help daughter technology factor blood whose.\nSmile control rich also system pretty throughout. Table about drug. Board information continue generation bill alone simply white.","previewFileId":"c8326ff6-4ad1-4d98-a222-1c9a175866c8","estimatedTime":"4 weeks","createdByUserId":"043a1d48-dd3c-4334-8e3e-01941629c01a"}'

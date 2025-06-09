@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/4d887378-48ee-453a-bc93-805f3a71e376' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjQwLjc5NzYxNyIsInVzZXJfaWQiOiIzNTc1MWUzNS1kZjE1LTQwMGEtYWU4OS03YjcwZGM0Yjk0ZGIifQ.7FF6tMU-H4EvgCZFa6u5XTTx3fdZBksoPWWfx1uz_j8' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Three similar soon word church.","maxScore":77,"minScore":25,"orderIndex":94,"description":"Media network outside important maintain apply.\nFormer generation yourself between another especially enjoy PM. Enough stock staff. Sister factor author that north low.","estimatedTime":"10 weeks"}'

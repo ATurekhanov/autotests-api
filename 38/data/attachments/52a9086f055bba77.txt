@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjM3LjQ0NDYwNCIsInVzZXJfaWQiOiI2MTc0MDMxZS00ODk0LTQ0MDItYjYyMy1hNjcxNjJiNjczNGUifQ.9HsQILKoSlcfUh3M-DBZQHRDCtWthKoYtPNV_-lLmO8' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hot fine increase daughter idea also they.","maxScore":91,"minScore":4,"description":"Relationship soon protect wear interesting. Scene issue practice protect. Herself after light first big add.\nRepublican contain region thousand. So bring fight woman. Animal program blood why.","previewFileId":"dd9908f8-d1b7-495e-ad99-9f4afa89eb29","estimatedTime":"6 weeks","createdByUserId":"6174031e-4894-4402-b623-a67162b6734e"}'

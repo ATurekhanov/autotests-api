@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjM3LjcxODU1MiIsInVzZXJfaWQiOiJmYjMzOTc3MC03NjIyLTQwODMtOTZjNy01ZGExYzlmNGY3YjYifQ.aA_WAeNQogj47y9Fyt8TsIAuE-GhKc4eVDfVt0fbLqY' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry Republican old instead son still.","maxScore":76,"minScore":30,"description":"Tonight bit accept national ground but fire. Authority recognize medical.\nCultural degree leave create quite attorney since accept. Best enter hand as especially. Ask future nice unit.","previewFileId":"862343e9-8ba1-45c9-8f93-578e5d822fda","estimatedTime":"1 weeks","createdByUserId":"fb339770-7622-4083-96c7-5da1c9f4f7b6"}'

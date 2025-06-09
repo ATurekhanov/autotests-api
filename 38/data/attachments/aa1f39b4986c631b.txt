@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjM5LjU0NTQ0NiIsInVzZXJfaWQiOiIwNDNhMWQ0OC1kZDNjLTQzMzQtOGUzZS0wMTk0MTYyOWMwMWEifQ.kuJdmPsDzVEYB8DAm4Z2EOmMLrqKmPREJzTpM7WUKiQ' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Character be likely mention approach.","courseId":"5143b362-b8be-4692-ac27-08e56338a7d4","maxScore":58,"minScore":23,"orderIndex":15,"description":"Society cut several those pull cultural. Say process agency I.\nGive daughter official guy offer. Economy child example sell air family.","estimatedTime":"1 weeks"}'

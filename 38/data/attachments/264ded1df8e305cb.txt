@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjM4Ljg5NjExMSIsInVzZXJfaWQiOiJlZjVlNmI0Ni1kM2I1LTRlZmEtYmM3Zi01ZDlkZGUzNjhjZjEifQ.hv-k_oFPiEivWALrjtZHpk801g6jkXhxDs0DJYi9PJo' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rock arm national still shoulder information investment.","maxScore":98,"minScore":2,"description":"Decade impact worry rise admit attorney. Occur list score close improve family room.\nSing want another news everyone. Relate safe along process body trade.","previewFileId":"6962ea10-a442-48aa-933c-3d4a3b1f5832","estimatedTime":"1 weeks","createdByUserId":"ef5e6b46-d3b5-4efa-bc7f-5d9dde368cf1"}'

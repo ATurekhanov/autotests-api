@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0fb9f6a4-6d73-479f-aeef-7ffc0cbdeaae' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjM2LjI4MzkzMSIsInVzZXJfaWQiOiI3NzA5NjRjNC0zYjA4LTRlNDYtOTRkNC0wOTVjZTM4ZDU5NmUifQ.PQ-hPSYuvpISpkYdc4rdGYT0zzRjY8TXsPm4ki7UtC0' \
+  -H 'content-length: 215' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Catch two charge fear under.","maxScore":60,"minScore":21,"description":"Base off he nice process stand mouth. Identify glass certainly charge. Story claim event kitchen begin.","estimatedTime":"10 weeks"}'

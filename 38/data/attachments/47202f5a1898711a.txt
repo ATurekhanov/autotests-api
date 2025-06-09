@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjQwLjEzMzY1NyIsInVzZXJfaWQiOiIyZjRiN2U5YS0zM2M5LTRhN2EtOGM3MC1kZmY2YWRkMjlhNDUifQ.VneO0caIY3VdKG5TECu337kg2T_kNyzPDx9QLajHzMI' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worker up work everybody according.","maxScore":74,"minScore":19,"description":"Modern memory gun strong ready garden. Degree yard feeling good other stand need.\nProject population huge sign clear. Gas for travel few see cost. Foreign determine budget.","previewFileId":"85b12bf7-7500-4c2f-86e0-e206e293724b","estimatedTime":"7 weeks","createdByUserId":"2f4b7e9a-33c9-4a7a-8c70-dff6add29a45"}'

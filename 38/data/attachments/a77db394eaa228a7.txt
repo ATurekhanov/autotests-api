@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA5VDA0OjQ4OjQwLjc5NzYxNyIsInVzZXJfaWQiOiIzNTc1MWUzNS1kZjE1LTQwMGEtYWU4OS03YjcwZGM0Yjk0ZGIifQ.7FF6tMU-H4EvgCZFa6u5XTTx3fdZBksoPWWfx1uz_j8' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who way soldier story serve.","maxScore":57,"minScore":23,"description":"Light effort certain economy term game. Film among something task writer way manage.\nMovie glass here continue. Easy science rather position either agreement work.","previewFileId":"a41de630-abfb-4a22-b7fc-303e1c90470b","estimatedTime":"9 weeks","createdByUserId":"35751e35-df15-400a-ae89-7b70dc4b94db"}'
