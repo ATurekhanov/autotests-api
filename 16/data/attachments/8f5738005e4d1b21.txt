@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjExOjIyLjU2Njg0OCIsInVzZXJfaWQiOiI5MWJiN2M1Mi1iNTc1LTQ4YWEtYWM4NC01YzZiZjliZWYyOTIifQ.01jMPBBRAhk7aGlRyPv0Zdmkx9Pc6wsdZQHz7IK8Rbw' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight pressure cell record than.","courseId":"cc0ae11e-9d0f-434f-9f8f-ef69b3df5e13","maxScore":76,"minScore":5,"orderIndex":52,"description":"Order successful amount. Family try young money.\nReal billion city my. Court imagine agree buy art open daughter.\nSound play beat structure true tree unit.","estimatedTime":"10 weeks"}'

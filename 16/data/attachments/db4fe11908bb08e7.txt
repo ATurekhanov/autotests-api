@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/b0eff018-9323-4151-9717-1e7fddd52693' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjExOjI0LjcxNDk5MiIsInVzZXJfaWQiOiIzMzQ5MzZiNy1hOWY1LTRhZDMtYjYzOS1lNTUzNTJmZmJiOWYifQ.2KZmMKAf2NA3BDir8AsN_z6PJ55FRmxB-xw9GamthGE' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant boy recent.","maxScore":94,"minScore":19,"orderIndex":74,"description":"Star away bring friend main. Animal space while open open.\nCentury learn political join. Top some today dark. Anyone according meeting.","estimatedTime":"9 weeks"}'

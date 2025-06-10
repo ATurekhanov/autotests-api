@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjExOjI0LjA2MjY2MyIsInVzZXJfaWQiOiJmN2RlZGU0MS1kOTdiLTRkY2UtYTZmYi00ZTA5OGZhZmEzODAifQ.tOuipW9VGvkl6QVHFVZba8qoJ_UITmHxgWAXsE7stQ4' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including challenge could later.","courseId":"4e0b4d3a-d73e-4fd1-94d8-b2143b2b2ee1","maxScore":83,"minScore":26,"orderIndex":55,"description":"Yard report ahead decide decision answer modern. Nothing impact season artist pretty.\nMusic those number note prevent unit country. Southern data character contain wrong least.","estimatedTime":"8 weeks"}'

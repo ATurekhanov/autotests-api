@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjExOjIxLjM4MjI1MyIsInVzZXJfaWQiOiI2NjM2NjFjNC0zODUwLTQyYzktOWFhOS1lMzc3ZTA1YzU2ZTUifQ.0d-3kQHH7DZJ_8Q4YXnwKRbv8SL2N7JZ4UgvxVkTdWg' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor trial stop hair base you.","maxScore":59,"minScore":17,"description":"Civil federal page cell military floor. Reach increase develop tough. Call beyond mouth pick remember pressure gun.","previewFileId":"0f39efe7-2ac0-482a-8aa2-9d1a806aeea7","estimatedTime":"3 weeks","createdByUserId":"663661c4-3850-42c9-9aa9-e377e05c56e5"}'

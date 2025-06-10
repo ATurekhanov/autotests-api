@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjExOjI0LjcxNDk5MiIsInVzZXJfaWQiOiIzMzQ5MzZiNy1hOWY1LTRhZDMtYjYzOS1lNTUzNTJmZmJiOWYifQ.2KZmMKAf2NA3BDir8AsN_z6PJ55FRmxB-xw9GamthGE' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy ground reality from employee item commercial.","maxScore":75,"minScore":6,"description":"But four rest. Development market must contain summer. Soldier bad method new financial town natural.\nSix firm husband home organization. Exist task ten agent open service tax.","previewFileId":"933c2d39-4b45-4ae0-a4d7-f8d0d7272bb9","estimatedTime":"6 weeks","createdByUserId":"334936b7-a9f5-4ad3-b639-e55352ffbb9f"}'

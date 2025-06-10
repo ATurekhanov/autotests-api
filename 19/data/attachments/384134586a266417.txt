@@ -1,8 +1,0 @@
-curl -X 'GET' \
-  'http://localhost:8000/api/v1/files/79b88805-c29b-45a9-b1dc-f63f37903372' \
-  -H 'host: localhost:8000' \
-  -H 'accept: */*' \
-  -H 'accept-encoding: gzip, deflate' \
-  -H 'connection: keep-alive' \
-  -H 'user-agent: python-httpx/0.28.1' \
-  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDE3OjA3OjM2Ljg4Mjk1NSIsInVzZXJfaWQiOiIzZWVhMjZiYy00Yjc1LTRmNWUtOTBlYy1iZDdiYzZlYmViMWEifQ.JWzFN6IH80kG289OXOkc99n0IYj0Nq5XZ1vo6gJj8IA'
