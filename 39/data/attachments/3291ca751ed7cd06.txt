@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjQ1OjI1LjM5MjA3MyIsInVzZXJfaWQiOiI0MzQ5YmVkNS00NmMwLTQ3MDAtOWI0MC1hNTlmZGQ5Mzc1MTkifQ.VlAwyrAtDGcZIXBlNgIsuKcp2pO0RoMUDcF7Q1AByK4' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stay can car every concern.","maxScore":94,"minScore":3,"description":"Behavior past bed around city plan population course. Cup cost newspaper pattern they.\nTrip key continue glass catch. Notice carry experience lose news foreign. Once word quite case just.","previewFileId":"8df979a2-64a4-41fc-b952-4239cdf17a48","estimatedTime":"3 weeks","createdByUserId":"4349bed5-46c0-4700-9b40-a59fdd937519"}'

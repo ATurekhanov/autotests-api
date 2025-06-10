@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjQ1OjI3Ljk5NTY3OCIsInVzZXJfaWQiOiI4MWVkNjQ3Ny03MWRhLTQ1MzQtYmZmZS0zYjk1YWE4ZGI2YmUifQ.ylVPhlMEc8A04XFQYyNa4Zn_Mm4pW1pdmrbuqzDKF44' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Threat laugh which build notice.","maxScore":65,"minScore":14,"description":"Tell build mention glass station window upon light. Wrong change rate include. Seem heart entire still present along.\nEye series and.","previewFileId":"56b3dfe0-cf2a-4bdd-bf5a-c989d7c01372","estimatedTime":"5 weeks","createdByUserId":"81ed6477-71da-4534-bffe-3b95aa8db6be"}'

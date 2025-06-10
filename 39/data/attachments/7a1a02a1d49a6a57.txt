@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjQ1OjI2LjU0NjYxMSIsInVzZXJfaWQiOiI2NDgyOTA1MS0yMGNlLTQzNTAtOGVmMi0zMTRkMDc2YjIzMjkifQ.y9yBeErgqBij4zDfUxIllnn_yUad5ZdmmjjikbbaMqI' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sport go like speak radio.","maxScore":70,"minScore":24,"description":"Car let think network. Herself account when real discover politics why.\nRace decide base window best true. City eat material.","previewFileId":"dec3aad4-fb75-4927-abd9-f57f17debf26","estimatedTime":"3 weeks","createdByUserId":"64829051-20ce-4350-8ef2-314d076b2329"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjQ1OjI5LjIxOTg0NiIsInVzZXJfaWQiOiJmOGU2YjllOS1kMzFjLTQyZjEtYWY4Yy1kOTU3Y2M0YmM2MzkifQ.BnbvWOYWqKKLkEBTxl0wD5LHdWumZFeUFSPLJEgw8sE' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard well author.","maxScore":97,"minScore":5,"description":"Matter support social people. Stuff from enter blood nice. Itself accept seek direction parent make everybody rise.","previewFileId":"c119bb35-d419-4793-b02c-f01171754a69","estimatedTime":"10 weeks","createdByUserId":"f8e6b9e9-d31c-42f1-af8c-d957cc4bc639"}'

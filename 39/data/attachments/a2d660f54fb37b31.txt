@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjQ1OjI5LjkwNTIwMCIsInVzZXJfaWQiOiIzZTljMTg3Yi1hZWU5LTQ5ZjctYmZmMy1jYTNiNTE1NGQwOWMifQ.CBVf7OZadlNLwKeaO9uJc_aX9-mQDjSD-O0X50xprQU' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Production wife any doctor which safe then yard.","maxScore":80,"minScore":12,"description":"Sister oil since business wait. Point then court fine majority. Around happy seat crime cost. Participant though fact fly southern.","previewFileId":"65e826a6-1679-47bc-9c6a-cd95c0310622","estimatedTime":"1 weeks","createdByUserId":"3e9c187b-aee9-49f7-bff3-ca3b5154d09c"}'

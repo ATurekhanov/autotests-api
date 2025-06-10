@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEwVDA0OjQ1OjI2LjgyMDg5OSIsInVzZXJfaWQiOiIzYThhMTI2Zi1kOWZiLTQ2MDgtYTI2MS1mMzYyZGVlODBkOWIifQ.e6P5aicpFNFuXczLiIiN8xhaVhYbhWJdnj7U0weFkKk' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Newspaper film face each item room just.","maxScore":83,"minScore":15,"description":"Time still set time include clear decision. Control where certainly key cause space.\nWhile involve network particularly seem. Eat contain wife reality thus become.","previewFileId":"0be86012-20b1-469e-9dec-ab667a735468","estimatedTime":"4 weeks","createdByUserId":"3a8a126f-d9fb-4608-a261-f362dee80d9b"}'
