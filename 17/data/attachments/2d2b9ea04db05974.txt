@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjExOjEwLjg3NjYzNSIsInVzZXJfaWQiOiJhM2FjOTE0OS1jMzEzLTRmZTgtYmU3MS1mM2ExNmMxN2RiODcifQ.YJ0SlbjyVEwXVevH_HGNAl6YzTRb6a2AxCTJxZNKdQQ' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Method tax prove require pressure hand about child.","maxScore":74,"minScore":16,"description":"Arm age often project. Decision experience character own especially center today some. Ask themselves concern shake group your side.","previewFileId":"5353ee10-ac3b-4023-b4b6-08bd1db7b4dc","estimatedTime":"10 weeks","createdByUserId":"a3ac9149-c313-4fe8-be71-f3a16c17db87"}'

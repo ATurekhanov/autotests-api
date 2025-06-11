@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjExOjEwLjYwMzYxNCIsInVzZXJfaWQiOiJiMjAxYzJhYi00YmNkLTQwYzUtOWJkNC00NzBlYTk2ZGZmNjgifQ.xqPNT_0qY_4NXeztybqzZRqhTdmk3aVctUHu6L50FbE' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fund garden everybody step likely.","maxScore":68,"minScore":27,"description":"Style worker career know deal offer performance western. Staff near laugh billion society cold.\nHave physical account wind front necessary. Her field list. Determine century option their star I.","previewFileId":"09a87d7b-9114-4877-9ec3-3ea2249c969a","estimatedTime":"6 weeks","createdByUserId":"b201c2ab-4bcd-40c5-9bd4-470ea96dff68"}'

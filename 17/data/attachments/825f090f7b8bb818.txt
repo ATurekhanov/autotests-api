@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjExOjEzLjk3MDkzMCIsInVzZXJfaWQiOiI4MWExYTE3Ny03ZjAxLTRiOTgtOTMzYS1kMDczOGZlMWMxZDYifQ.HGeowzQwy3fKusm6ENVP4ON6KwK79lfw33dQaBcYpJA' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throughout resource that series many.","maxScore":55,"minScore":25,"description":"Than trial much. Decade cause painting. Stuff direction market follow card. Foreign meeting big hot image decide law she.","previewFileId":"6163be6d-014e-4004-8f24-d4e2ee7863f6","estimatedTime":"8 weeks","createdByUserId":"81a1a177-7f01-4b98-933a-d0738fe1c1d6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjExOjEzLjMxMjEzNyIsInVzZXJfaWQiOiI5ZmRjMzEzZC05ODY5LTQ4ZjUtODljNS0zMjRlYTFjNGE2ZjAifQ.jeyjAHD8agHDHzwRZ-RfsxHy8DEqpZeJJ2vdEOpKxoc' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stuff long fight guess social.","courseId":"430d893e-6e89-4a40-9dc3-db51fd9dde5b","maxScore":75,"minScore":24,"orderIndex":98,"description":"Statement get loss long. Million election class arm minute cause though. Leg soldier television across charge year alone organization.\nFocus on than focus. Option politics wait might again receive.","estimatedTime":"1 weeks"}'

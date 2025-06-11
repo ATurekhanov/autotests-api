@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjExOjEyLjA3Nzk4OSIsInVzZXJfaWQiOiJlMzhmNDZlZC1lNjkxLTQ4MGEtYWVjNC1lNjk0Y2E0NzY0YTAifQ.NW9579I0_0Cs_ZE37Z8z0C8P5RDHqbP4aJHC_a9sfsM' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large five hit memory send.","maxScore":68,"minScore":16,"description":"Beat material respond feel condition cup teach. Class race time of clear. Quickly exist vote cause. Change compare fight clear set explain small.","previewFileId":"7269a9f4-a4fe-4498-9e6d-70619bccf7ad","estimatedTime":"4 weeks","createdByUserId":"e38f46ed-e691-480a-aec4-e694ca4764a0"}'
