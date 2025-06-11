@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjQ2OjA2LjY4OTc4NiIsInVzZXJfaWQiOiIzN2Y1NTQ4YS04OTMyLTQzZDEtYmE3YS1iODA4NzIyYjA4NWYifQ.eJaoyejYIRlq_30AqYlFkapvMsI8ZLmy5ftmEd2IzRI' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Letter together begin event officer people.","maxScore":86,"minScore":28,"description":"Memory along tough side discuss either step cultural.\nAt food individual enough safe something. Seat sort population discover national. Loss hear everyone establish a heart outside.","previewFileId":"fe5ea555-6881-4848-82ae-3d7924beb9c8","estimatedTime":"7 weeks","createdByUserId":"37f5548a-8932-43d1-ba7a-b808722b085f"}'

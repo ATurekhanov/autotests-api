@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjQ2OjA2Ljk2MzY3MiIsInVzZXJfaWQiOiJkY2ZjMWY3Yi0wYjQ2LTQzZTQtYTc5Ni0yNzcyNjBiYzJjN2YifQ.uRFiKzXE4yoqkn91GxTMEF-JVS_5udqkJHkx9_SQhis' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental service control help term.","maxScore":99,"minScore":15,"description":"Chair easy manager sing their why. Finally start feeling leg town. Admit seem question official along left nature.","previewFileId":"c097043d-a1b8-4b42-b151-7178b1e2fdc2","estimatedTime":"10 weeks","createdByUserId":"dcfc1f7b-0b46-43e4-a796-277260bc2c7f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjQ2OjA5LjM4MTg2NyIsInVzZXJfaWQiOiJhYzg2OWQwMS1jYjExLTQ4ZTgtYTI2MC1hNWU1ZDc5MjA5NWIifQ.tWTUJ6pirvVg_x1-F6h9D-Y0h7cFtSQuoXzzj9yRKro' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend Congress firm side dream nothing.","maxScore":92,"minScore":21,"description":"Medical almost relate adult computer gun of. Beat today practice it energy. Idea million federal dark letter put.\nPressure any present enjoy over put. Look front bit example address.","previewFileId":"917b5398-369a-4a39-a194-583a4c453a3d","estimatedTime":"3 weeks","createdByUserId":"ac869d01-cb11-48e8-a260-a5e5d792095b"}'

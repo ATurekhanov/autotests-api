@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjQ2OjA1LjU0MDk0NyIsInVzZXJfaWQiOiIzNWNmZGRiMi0yMGVmLTQ0NGMtODVjMS1lYzI0Zjk3Zjc0Y2MifQ.UkMME16sCP3koaoL7btHYDFKjWNioRcRxicpSGdC0Qw' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consumer those performance.","maxScore":71,"minScore":28,"description":"Director sign this history begin. Image around leader understand majority.\nTurn large study health. Thank season arrive and room. Dinner role prevent spend machine member too.","previewFileId":"f6ab9c44-1be7-4abb-b7d7-78e3077c7657","estimatedTime":"10 weeks","createdByUserId":"35cfddb2-20ef-444c-85c1-ec24f97f74cc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjQ2OjEwLjA0NTYxMyIsInVzZXJfaWQiOiJkYTlmOWNiZi1jMWFkLTQzODgtOThlMC03M2VmZDA0NTM2OWQifQ.zDBLUKHi_Co-WsfziObeyTG5NawuhQhutV61_vqVFnE' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wear board kid whatever scene far cut.","courseId":"9a860c10-12c1-4bcc-8188-88ccdd042efa","maxScore":85,"minScore":2,"orderIndex":45,"description":"None impact industry attention unit fear cause. Return owner serious space address local. Between son little us.\nHelp around gas court. Agent affect admit hope end. Whose center since the.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTExVDA0OjQ2OjA3Ljg1NTQ2NyIsInVzZXJfaWQiOiIzMzRhNDkzMC1kOWRjLTQ3NzctYjk5NC1jMGEzOTY2MzYyODAifQ.yMf5OoZo6_uMZ6UKFBaQhjsIrgg6H_qo7eVEOkn9q1A' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother offer concern machine executive whether skill product.","courseId":"98033050-159f-4c86-9971-7ddb2f2bacf4","maxScore":86,"minScore":14,"orderIndex":84,"description":"Hot wall together nearly. Student win available natural guess thing.\nUs sound affect window. Push determine someone sometimes final.","estimatedTime":"5 weeks"}'
