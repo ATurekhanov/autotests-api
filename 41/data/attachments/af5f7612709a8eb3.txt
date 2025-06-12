@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjM0OjQwLjk4NzI3MyIsInVzZXJfaWQiOiJmMzlhNTM0OC04NjdmLTRjYTAtYTcwYy1kNTFjZTJmYjRmYzgifQ.aAzlQxbAGMfTW9iYWYbHtAt7RtBHJK12qasgDXynUkg' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Join rule player better hard agency remember.","maxScore":66,"minScore":16,"description":"Court represent design sing four. Buy energy yes bad whether impact within. Interest send claim there direction wrong be.\nToward benefit firm after writer success.","previewFileId":"489770a6-f10d-4358-bf72-dadc40a2ea48","estimatedTime":"7 weeks","createdByUserId":"f39a5348-867f-4ca0-a70c-d51ce2fb4fc8"}'

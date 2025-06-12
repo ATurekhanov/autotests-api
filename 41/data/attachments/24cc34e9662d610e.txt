@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0a1af92a-58b1-4c98-8cc0-d31f5be66957' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjM0OjQ0LjM0MDY4MyIsInVzZXJfaWQiOiI2Y2I4NzhkNS04NzQyLTRlZDMtOTVhMy1jYzQ4N2IyMjdlMDQifQ.bVcyujZaMGtUNGURfFeAw85kSpZ7p037XRyTKRcQCMU' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend decade community dream.","maxScore":61,"minScore":21,"orderIndex":86,"description":"Accept fact natural miss whatever. Participant join speech page specific. Large everything pull concern study a fight which.","estimatedTime":"1 weeks"}'

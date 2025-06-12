@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjM0OjQzLjA4ODU2NiIsInVzZXJfaWQiOiJkZjhkZWE1Ni1mMzExLTQyMGMtYmNiMC1mZTE0YzQ0ZDJiODUifQ._ks1qB8C-MEPvtDWCgS-npUMLDHTOuTUovkOkUYt8Nw' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Three art buy power soldier resource ten.","maxScore":88,"minScore":1,"description":"Heavy until but country structure record interview. Interview they task trade recognize. Situation bring experience view cause hospital.","previewFileId":"24119450-e0c9-4d3d-9b2b-f1ed1d2c75b1","estimatedTime":"4 weeks","createdByUserId":"df8dea56-f311-420c-bcb0-fe14c44d2b85"}'

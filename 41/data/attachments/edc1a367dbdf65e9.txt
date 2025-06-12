@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjM0OjQyLjQzNzQxOCIsInVzZXJfaWQiOiJkODA0NDVlOC1iODZmLTQxMWQtODY1Ni0wMDg0YWUzYzg3NDcifQ.mi00HB2nKyfqd-V1xnTsRs8raUmDWgu863DJNTcLJBc' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View meeting own system gas media wonder.","maxScore":87,"minScore":16,"description":"Board instead music. Administration information leg space impact. Something blood young know interview. Fire full he identify book beat.","previewFileId":"aab689b2-b9b9-4e88-a6e5-8e30c735bf0e","estimatedTime":"4 weeks","createdByUserId":"d80445e8-b86f-411d-8656-0084ae3c8747"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjM0OjQxLjI2MDQyMCIsInVzZXJfaWQiOiI4YzVmMTFlOS1mMDg5LTRmYzktYTRiMy1jOGZkMTM2ZjUxN2YifQ.jFYKK1YVFNw_5iqDSOlfEau6pt7jup4JkA6GQeqUxF8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Project trip performance finally high hotel pressure plan.","maxScore":82,"minScore":7,"description":"Group gun adult hot. Season son interest total life hour. From cause set she cover paper add doctor.\nBy health week. Eight free entire call.","previewFileId":"eb604d90-f791-4034-bbdd-ec474788a2d7","estimatedTime":"10 weeks","createdByUserId":"8c5f11e9-f089-4fc9-a4b3-c8fd136f517f"}'

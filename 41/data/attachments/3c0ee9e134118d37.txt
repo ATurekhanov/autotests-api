@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjM0OjQzLjY3NzAwMCIsInVzZXJfaWQiOiIxNzY2NzMwYy03MzNkLTQzYTctOWViNC1mN2ZkZDA2MTg4NDEifQ.fvwQDftyL4q67Djc0gG0PR-l95QWymB4ygFmJtvVhtg' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor young class mission.","maxScore":81,"minScore":13,"description":"Air cover cause similar relate.\nHold affect career. Necessary including knowledge entire. Way simply institution truth less visit conference.","previewFileId":"42aaf35e-61a0-4f32-8a2a-ef500db1a824","estimatedTime":"6 weeks","createdByUserId":"1766730c-733d-43a7-9eb4-f7fdd0618841"}'

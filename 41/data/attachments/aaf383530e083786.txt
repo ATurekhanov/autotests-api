@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjM0OjQzLjA4ODU2NiIsInVzZXJfaWQiOiJkZjhkZWE1Ni1mMzExLTQyMGMtYmNiMC1mZTE0YzQ0ZDJiODUifQ._ks1qB8C-MEPvtDWCgS-npUMLDHTOuTUovkOkUYt8Nw' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Culture sort wife.","courseId":"ce4e6802-4a29-4c63-80ac-5f1a3e447171","maxScore":59,"minScore":1,"orderIndex":42,"description":"Republican people knowledge. Trouble threat recent action machine serve only. Prove sound class stage attention north federal short.","estimatedTime":"10 weeks"}'
