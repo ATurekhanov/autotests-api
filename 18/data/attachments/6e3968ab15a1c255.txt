@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjEwOjE4LjE5ODM3MCIsInVzZXJfaWQiOiIzNGYxMDAyNC05MmFkLTQxNTUtODIyNi0yYWM0MTAzODZiOTcifQ.73ONQ7nOfsh0SLatOa86x7lABWBVciVRks0hcgvHtJk' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"To capital American then political have.","maxScore":50,"minScore":20,"description":"Do value what affect. Spend style interesting center involve the.","previewFileId":"133aae14-d9b7-4dfe-9dba-a33476e5e740","estimatedTime":"5 weeks","createdByUserId":"34f10024-92ad-4155-8226-2ac410386b97"}'

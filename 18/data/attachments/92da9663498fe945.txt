@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjEwOjE5LjQzMzIzNiIsInVzZXJfaWQiOiI1MDUyOTQ1OS1jNGY2LTRiNDctYmQyNS0wYTZlZTIwN2Y2MTIifQ.AN6hsFfinaqmVyvgFtttA8TPbSkwLi5ugg59nryzDc0' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant clearly ask century agree.","maxScore":53,"minScore":23,"description":"Fast dinner employee direction investment sort nice game. City southern light difference. Event garden never coach success. Claim similar exist remain news whose reduce.","previewFileId":"d3303644-2427-4287-bb08-444233a1ac63","estimatedTime":"4 weeks","createdByUserId":"50529459-c4f6-4b47-bd25-0a6ee207f612"}'

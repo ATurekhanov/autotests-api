@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjEwOjE4LjE5ODM3MCIsInVzZXJfaWQiOiIzNGYxMDAyNC05MmFkLTQxNTUtODIyNi0yYWM0MTAzODZiOTcifQ.73ONQ7nOfsh0SLatOa86x7lABWBVciVRks0hcgvHtJk' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Office indeed despite bag.","courseId":"a0a545c4-1057-46d4-99fc-362907d9f7d6","maxScore":51,"minScore":16,"orderIndex":26,"description":"Chair minute here she forget tell. Item up visit family training property Democrat.\nBar plant decision view unit. Girl teach newspaper story hour avoid ten keep.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjEwOjE4Ljg0NDUyOSIsInVzZXJfaWQiOiJlNDRkNTYyMS0xY2Q3LTQzNGYtYTAzNS1jNDliNmE3YzQ4ODcifQ.ruPVOpKkeEAncJB2fs_G9JZ-ESTnp5QFdBOjxY-MM5o' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pressure matter project former hair interest.","maxScore":94,"minScore":24,"description":"Community get security discussion sit goal week. Front religious without.\nCulture effort movement. Can establish direction race interview weight. Especially discussion baby.","previewFileId":"c724ceff-16c1-470c-a1df-9a62dd792c1b","estimatedTime":"6 weeks","createdByUserId":"e44d5621-1cd7-434f-a035-c49b6a7c4887"}'

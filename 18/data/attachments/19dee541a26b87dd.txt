@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjEwOjE3LjAyMTc4OCIsInVzZXJfaWQiOiJiZmZlMzQzNy0xNWUyLTQwMDctOTk1MS01OGMwMWZmZDIyZDMifQ.QO9WbhUuKu3W-mcS92SRLo-iX1qHCVzcH0-cpuuylrk' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mention yourself executive across by point play.","maxScore":86,"minScore":29,"description":"Choose life wait road actually security. Nothing point decision suffer fish everybody raise. Share field chair wish along often research.","previewFileId":"ec3b3f72-705a-42aa-ad0d-689aacc4b3dc","estimatedTime":"10 weeks","createdByUserId":"bffe3437-15e2-4007-9951-58c01ffd22d3"}'

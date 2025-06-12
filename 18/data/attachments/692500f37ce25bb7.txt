@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDA0OjEwOjE3LjkyNTQxMCIsInVzZXJfaWQiOiJiOWY1ZTdmNy03ZDY3LTQ4NjctOGUwNi05NmM3ZTJhMjc5ODEifQ.4yAx4YXI4wWVyYWhEQrfOD9S2XEqFWTB2euUps8q074' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stuff color evidence image.","courseId":"9b5d934c-a713-475f-8ffc-41c16ff162ca","maxScore":69,"minScore":23,"orderIndex":54,"description":"Debate whole consumer ground down top tough. Here scene hold with. Challenge cold quality modern.\nSure professional become site executive. Leg break school have run best between.","estimatedTime":"1 weeks"}'
