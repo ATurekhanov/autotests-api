@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjM0OjU3LjM0OTg1MyIsInVzZXJfaWQiOiJkZmU0M2IwOC03ZDNjLTQ0ZTQtYTA5Ny01Y2M2MjY3OGJlYmUifQ.CKGCABzTUFbrqYHiGA9WTRnUO9RLFeijJ-9_tXwyw10' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Admit after type plant.","courseId":"8002e01f-171f-4480-90ea-8f70aab38ec8","maxScore":77,"minScore":7,"orderIndex":9,"description":"Ahead process reach movement. Other instead artist time wait agent. Professional human according red case.\nTrial provide race medical.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjM0OjU3LjYyMjU0NCIsInVzZXJfaWQiOiJlMjk4Zjc5Mi1mNmQyLTRmOGMtODA2Ni01ZDM3MWEzZjFkYjUifQ.4vI3V5mkYz2cRJdaFRZiXh7MXKHwWJLDoa5bPADOeu8' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must people already reflect everyone care treat.","maxScore":59,"minScore":10,"description":"High time tonight travel somebody event.\nSchool investment wall campaign crime. Director democratic support describe public.","previewFileId":"7d71cbb7-bd43-4f4e-97c4-41befc3640aa","estimatedTime":"8 weeks","createdByUserId":"e298f792-f6d2-4f8c-8066-5d371a3f1db5"}'

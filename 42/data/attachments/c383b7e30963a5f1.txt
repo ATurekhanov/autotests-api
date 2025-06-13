@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjM0OjU3LjYyMjU0NCIsInVzZXJfaWQiOiJlMjk4Zjc5Mi1mNmQyLTRmOGMtODA2Ni01ZDM3MWEzZjFkYjUifQ.4vI3V5mkYz2cRJdaFRZiXh7MXKHwWJLDoa5bPADOeu8' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone simply develop coach become believe what.","courseId":"7c71b9b4-2521-41c7-b1c1-7a95bc55e9d9","maxScore":84,"minScore":15,"orderIndex":69,"description":"Career challenge bill ten better. Remember yet main then tend information. Back message face. Within agreement left.\nRise compare feel become man decide. Past economic key ever.","estimatedTime":"5 weeks"}'

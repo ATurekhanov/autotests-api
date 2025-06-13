@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjM0OjU4LjgzODIxOCIsInVzZXJfaWQiOiIzMTUxNWExOC0wNjljLTQ1ZjctYmI5Mi1mZTIzNDEwMjc0NDUifQ.9VB4tcdwZSL2NKYQArawsYHO35Hjo92JYm93XBGk5zA' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say like guess south man feeling more term.","maxScore":97,"minScore":20,"description":"Develop police answer body himself. Yes treat always window might.","previewFileId":"c817a2c7-972c-40ce-b01b-83b5c790a35e","estimatedTime":"2 weeks","createdByUserId":"31515a18-069c-45f7-bb92-fe2341027445"}'

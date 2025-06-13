@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjM0OjU4LjI1OTIzMyIsInVzZXJfaWQiOiI5MjBlMzE0Ny0wODkwLTQ3YjQtOTJiMi1mYmEyNDZiMTRlN2QifQ.IV9KisUBu16QIynquWUAELwMSRqD3buhuB42LVB9oNI' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Woman concern amount fund.","maxScore":65,"minScore":3,"description":"Information good option support fine. Alone road purpose article. With few news trip project bank.\nGround behind necessary evidence.\nSimilar education evening since.","previewFileId":"63b16d6c-cbae-4852-8089-dc4ec00edcbc","estimatedTime":"8 weeks","createdByUserId":"920e3147-0890-47b4-92b2-fba246b14e7d"}'

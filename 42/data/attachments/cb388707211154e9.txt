@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ff113db9-dc21-4543-8e22-d0a8a43182d5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjM0OjU1LjAyNzM5MiIsInVzZXJfaWQiOiI4NzQ3ODcwNS1iNWIzLTRkM2EtODM2Yy1jMThjMDA5ZmJlZTYifQ.no-5Ni7eBSkrMFyFzNzoTE-GbrttvUEtbhxxyrhCLc0' \
+  -H 'content-length: 237' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food cause we hotel million if describe phone.","maxScore":61,"minScore":28,"description":"Real argue level measure administration. Under public tax bar relationship. But four car leader development.","estimatedTime":"3 weeks"}'

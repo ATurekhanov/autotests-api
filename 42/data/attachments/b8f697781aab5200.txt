@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjM0OjU2LjQ0MzEwMiIsInVzZXJfaWQiOiI0YzE3OGZmMC0zZjY5LTQzODAtODkxMS1jNWUwODMyNjA5ZTkifQ.MvCQUzuQnzeOoERrfDwVDqhs-VwqEhhjeeLRWB-piWQ' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"City stock task stage light.","maxScore":51,"minScore":29,"description":"Board partner operation modern really north I spring.\nFollow nature born law local little. Forget eight actually do. Card serve anyone compare song remember history.","previewFileId":"94c0664d-1ede-4fb8-b57f-ce609e9eb6dd","estimatedTime":"8 weeks","createdByUserId":"4c178ff0-3f69-4380-8911-c5e0832609e9"}'
