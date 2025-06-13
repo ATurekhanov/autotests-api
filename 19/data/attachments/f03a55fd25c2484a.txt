@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjExOjI0Ljk2NDQyNSIsInVzZXJfaWQiOiJlNjk5MDEwMC1hMDQ4LTQ4MTMtODVkZS04MjkxMmYwNGEzMTUifQ.DdYYJM9TCXVwTMoYGuT34KyW_6NURzQ1tRlZa4ySviA' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Health box interest author claim.","maxScore":84,"minScore":5,"description":"Activity represent both share lot bed myself single. Our free send center official outside. Politics order like off country. Summer will call later figure.","previewFileId":"b09d869c-5d28-42c3-9098-0f2c4aa8342f","estimatedTime":"1 weeks","createdByUserId":"e6990100-a048-4813-85de-82912f04a315"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjExOjI3LjA2NjYzMiIsInVzZXJfaWQiOiIxM2QyNmFhYy1jM2IwLTRhYTYtYjE1YS04YjBmZDA5NmRjMzAifQ.cG8yasOz0z0KLeKejW47ql0k2PfPeoKn4vjGmI-IaeM' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent seven to.","courseId":"4ffe9d6d-9917-4fa5-a44f-04c4c9343527","maxScore":89,"minScore":12,"orderIndex":30,"description":"Why condition loss present. Subject security alone center. Myself information difficult discover.\nIt though for national. Although unit play occur.","estimatedTime":"7 weeks"}'

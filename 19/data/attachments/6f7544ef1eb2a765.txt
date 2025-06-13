@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjExOjI4LjMxMDgzMSIsInVzZXJfaWQiOiJhNmU4MDI2NS05YTc4LTQ4MDEtYTUwZC1lYzE4MjhlZjk5N2QifQ.aGv-X0-3hWFSNh6_nSNLw7jP5518DT1jhS6oqE5kQNY' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Country model it less benefit.","maxScore":95,"minScore":12,"description":"Kind state own send wonder tree risk.\nChance home social administration management ready final. New huge respond door hold establish.\nArgue between thing price. Heart reveal send collection pay with.","previewFileId":"a257406a-0989-46e4-befb-7cf10910e34a","estimatedTime":"10 weeks","createdByUserId":"a6e80265-9a78-4801-a50d-ec1828ef997d"}'

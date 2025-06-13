@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDA0OjExOjIzLjgwODE3NCIsInVzZXJfaWQiOiIyYTNhZDg4NC01ODU0LTRmMTctOTVhMi02YzJlNzgzZjI2NjMifQ.OujL19AlPjrSCfbAFBpqv-hDFSCM7oN0suAdD3DUTDY' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White surface she similar trouble similar serious.","maxScore":59,"minScore":10,"description":"Meet just assume personal office he play. Easy key hour radio air. Left lot feel education fire baby fast.","previewFileId":"f686a143-999a-4fe8-b2cd-352361ab558d","estimatedTime":"9 weeks","createdByUserId":"2a3ad884-5854-4f17-95a2-6c2e783f2663"}'
