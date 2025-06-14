@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjA3OjA0LjM4NDgxOSIsInVzZXJfaWQiOiIxNmIyNWUxNi1hOTgzLTQ2YTYtYTJjZi04NDAwMzE2NWMwY2UifQ.9RGcy7cOWINGi50tbFTujwdIm8yRO-U8U8pgRxfF6jk' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"For pressure down chair someone.","courseId":"714a1e21-f500-4974-9688-2130dee9c582","maxScore":60,"minScore":14,"orderIndex":90,"description":"Wall yard available song add keep full. Least left possible kid challenge fast ready.\nCamera western prove follow. Energy mean teach without. Bank main speech each information enough.","estimatedTime":"10 weeks"}'

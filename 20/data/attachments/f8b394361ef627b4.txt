@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjA3OjA0LjM4NDgxOSIsInVzZXJfaWQiOiIxNmIyNWUxNi1hOTgzLTQ2YTYtYTJjZi04NDAwMzE2NWMwY2UifQ.9RGcy7cOWINGi50tbFTujwdIm8yRO-U8U8pgRxfF6jk' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fact that part fact mouth.","maxScore":74,"minScore":13,"description":"Nor relationship TV. Reflect start class government American paper.\nSpend network help water agreement. School half large plant will price. Anyone perhaps employee worry into investment hear agree.","previewFileId":"1cb485a1-bd9f-48e0-9913-c09d6e450067","estimatedTime":"4 weeks","createdByUserId":"16b25e16-a983-46a6-a2cf-84003165c0ce"}'

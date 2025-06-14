@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjA3OjA1LjYwOTM5OSIsInVzZXJfaWQiOiIyY2Y5MGFiMS0xZTg0LTQwMDgtYmNlYy0wNWRhN2FiNTYxZjEifQ.8dNTsET-Ce8svkJhQlMwi2BNj9mUFU4DU5UgelJIT3U' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scene young every join kid many music.","courseId":"a5a738e2-f098-4f4c-979f-06f3f6be538f","maxScore":73,"minScore":29,"orderIndex":45,"description":"Baby future study hotel result look responsibility federal.\nCouple true we. Account trial civil far blood. Compare half eight government someone name worry.","estimatedTime":"6 weeks"}'
