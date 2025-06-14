@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQ1LjY2MDM2NSIsInVzZXJfaWQiOiJkN2VhM2EzOC1hYzc0LTQyYmMtOWYwYi1hZWEyNmQ3ZTViNGUifQ.3IQMcheysxHk0AmXvzSXWuWowL21crYb8ug41XndzE0' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"System conference crime start feel believe computer.","courseId":"d3defdc0-19ca-421e-9c29-36fa31a6be00","maxScore":94,"minScore":29,"orderIndex":85,"description":"Bag evidence after marriage director attack. College still soon whole name budget add total. Long see on popular force set attention.\nKey choice sit between lose.","estimatedTime":"9 weeks"}'

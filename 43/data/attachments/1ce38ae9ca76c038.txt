@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQ2LjMwMTcxMyIsInVzZXJfaWQiOiI5ODVhZDM0MC1kNjc4LTQzYWEtOWYzYy05MGRkZTg4MWRlNTgifQ.eAimr2sJ87BvQcPVjsnIXiiEWsNseXSQ6OU6g-5Cv0Q' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar computer first under material the century.","maxScore":96,"minScore":3,"description":"Human ground option team available these. Check more mission begin group.\nMost tough much husband.","previewFileId":"3086ddbe-2918-4171-9364-f10f283d2fdb","estimatedTime":"6 weeks","createdByUserId":"985ad340-d678-43aa-9f3c-90dde881de58"}'

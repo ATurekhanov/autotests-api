@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQzLjA2NjgyNSIsInVzZXJfaWQiOiIwNDVkMzAzYi02MzYzLTRhMTctYjkyNi01YWRlNGIxY2I4MTUifQ.wtFMoR0tr3zx3SpfO4xo-8OdIo_YM6DTSKWvtgRwe4M' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Type media hotel specific line her.","maxScore":73,"minScore":4,"description":"Set space visit. Per agreement detail star face. Gas likely knowledge chance happy health.\nEnvironment yeah month number president defense some note. Cost music picture memory probably top.","previewFileId":"1cee97b2-90b8-4ea4-9f68-c88265a0698a","estimatedTime":"2 weeks","createdByUserId":"045d303b-6363-4a17-b926-5ade4b1cb815"}'

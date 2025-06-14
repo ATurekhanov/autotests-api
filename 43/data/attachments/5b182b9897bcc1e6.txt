@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQ3LjU0NTE0OCIsInVzZXJfaWQiOiJiOWU1ODM3Yy1jZmM3LTRhNWYtYTY3OS1lOTQ0MDEyMjkwYzgifQ.LH3mx0aXmQL0x5u-NOhgjit_jfo-oFRBXKUvy193BA0' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Record pretty main remember claim.","maxScore":88,"minScore":7,"description":"Name whatever phone continue. Federal resource nation international. There argue generation however similar very. Four no mission walk if close.\nImagine situation ball lose article development.","previewFileId":"3a321ee4-b84e-478d-89b4-f0ce433d1043","estimatedTime":"3 weeks","createdByUserId":"b9e5837c-cfc7-4a5f-a679-e944012290c8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQ0LjQ4ODkxNyIsInVzZXJfaWQiOiJiZDdlN2E5NC0zMmRkLTQ2OTMtOWEwMS0zYjY5NDRiMDAxNDMifQ.eie59-PAn49dGKt8tbOFG75I4371D1J7O-Z7-cx52ug' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In able become modern international available.","maxScore":77,"minScore":14,"description":"My recognize type news give office. Bad to listen. Clearly lead policy newspaper ball evidence.\nSimple community relationship check then tell professional. Environmental direction nearly skill that.","previewFileId":"dbe32bdb-3aa1-4e7a-bcd5-df313f991b25","estimatedTime":"8 weeks","createdByUserId":"bd7e7a94-32dd-4693-9a01-3b6944b00143"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQ3LjU0NTE0OCIsInVzZXJfaWQiOiJiOWU1ODM3Yy1jZmM3LTRhNWYtYTY3OS1lOTQ0MDEyMjkwYzgifQ.LH3mx0aXmQL0x5u-NOhgjit_jfo-oFRBXKUvy193BA0' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought interview program oil field.","courseId":"ec5c8a29-6db1-42d9-80fb-3a2722cc5f38","maxScore":76,"minScore":10,"orderIndex":25,"description":"Institution everyone buy company people return. Begin while pick agent occur way quickly. Arm else government.","estimatedTime":"10 weeks"}'

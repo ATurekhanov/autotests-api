@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQ1LjY2MDM2NSIsInVzZXJfaWQiOiJkN2VhM2EzOC1hYzc0LTQyYmMtOWYwYi1hZWEyNmQ3ZTViNGUifQ.3IQMcheysxHk0AmXvzSXWuWowL21crYb8ug41XndzE0' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Three evening hit claim last.","maxScore":92,"minScore":23,"description":"Option strong yes argue decision Mrs minute reach. Involve must one seven.\nThey democratic suffer whose. Collection eat stage might send room. Management cost raise set time term full.","previewFileId":"25c441cf-6801-410a-896d-8626821c1d13","estimatedTime":"1 weeks","createdByUserId":"d7ea3a38-ac74-42bc-9f0b-aea26d7e5b4e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDA0OjMwOjQ0LjIxNjQ5MiIsInVzZXJfaWQiOiJiYzAxMjgyZS0xYmQ5LTRmMWYtYWJiMi1hMzZhNDE2N2IxYjQifQ.nfcbyA_jqTbUpEBAG3bcfZRebhu-OUsm2ZcBLmL94As' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Civil of situation floor activity kid those.","maxScore":57,"minScore":26,"description":"Relate machine development room.\nSignificant interest yet who information with ball. Still individual radio direction actually who authority. Subject light less day.","previewFileId":"fb44c058-b169-4fa8-b9a9-04709538fd53","estimatedTime":"7 weeks","createdByUserId":"bc01282e-1bd9-4f1f-abb2-a36a4167b1b4"}'
