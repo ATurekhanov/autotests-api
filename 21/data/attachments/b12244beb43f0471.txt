@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjE1OjE5LjQxNjUyNyIsInVzZXJfaWQiOiI2M2Y5NGY0ZC02NTU3LTQ3NGQtYjcyYS1mNTA2ZmQxN2QyNzIifQ.w5LLQVrdvSJDfbQuXHnSjdnTrJ0R7W7zmnqMKEOKP60' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area particularly attack Mr.","maxScore":53,"minScore":8,"description":"Fine day matter him material financial happen. Whole office bad list. Defense attention down kitchen exist very.","previewFileId":"caff976b-f1e9-490b-9278-998915d5c1a8","estimatedTime":"2 weeks","createdByUserId":"63f94f4d-6557-474d-b72a-f506fd17d272"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjE1OjE3Ljk1OTQ5NyIsInVzZXJfaWQiOiI2MmExZDQ5YS1hZWJhLTRhNWMtYjVhMi00ODIwNmRmNzM3NDkifQ.2bdo5MlPpB3O3_3jdOaMosAtncpeaGYZ6duYItHiT4c' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star bank civil travel meeting practice peace believe.","maxScore":86,"minScore":11,"description":"Democratic serve reduce task. Option list since real sense. Most score fight station play change clear.","previewFileId":"5c4fd648-f0d6-4fd5-84cc-7ea2067ef480","estimatedTime":"1 weeks","createdByUserId":"62a1d49a-aeba-4a5c-b5a2-48206df73749"}'

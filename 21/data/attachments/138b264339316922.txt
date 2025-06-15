@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6b003605-3ced-484b-9d43-70ffbe7ce16e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjE1OjE2LjgxMzY2NCIsInVzZXJfaWQiOiI5MjkxM2E5OC0yZjAxLTRjYTYtOThlYS1kNGI3ZmI4NjJiZTQifQ.EcvtsLZ8QQDbyuyhW83Qfv28yK3hSMWP3870Mc1Cdfg' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food believe whom message security require service.","maxScore":96,"minScore":30,"description":"Old cause sit store. Military director history school this response wish. Our join like instead near worry help. Next road Democrat.\nOk beautiful unit country shake onto. Who watch president fine.","estimatedTime":"6 weeks"}'
