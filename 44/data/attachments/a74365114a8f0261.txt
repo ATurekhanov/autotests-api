@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjQ2OjUyLjQ0NTczMiIsInVzZXJfaWQiOiIzMjlhOWMxNy0xYjBiLTQwYzItYTBkZS1kODNlNjg3ZTQxMzAifQ.tV6DwOiYCrmJhPfUUmQHIksFjuj_1ut35cjEGMt1Bg4' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Performance station effort one drive.","maxScore":53,"minScore":18,"description":"Offer history drop official piece. Daughter wish light skin method chair.\nGarden garden character. Data want consumer old account. Laugh fine camera between close right.","previewFileId":"52351bfe-d729-4804-8854-1d6bcaf97571","estimatedTime":"10 weeks","createdByUserId":"329a9c17-1b0b-40c2-a0de-d83e687e4130"}'

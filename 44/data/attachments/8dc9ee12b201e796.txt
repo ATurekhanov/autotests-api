@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d3c27df4-42e9-4fe0-b852-5faf4b698449' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjQ2OjQ4LjYyNTY4NiIsInVzZXJfaWQiOiJlNmIwZDU4YS1iNjE1LTQxM2MtYWE2NC1hNzYxMDA1NzdmZmQifQ.bpbClJfHHEJkuF4NvhJ3Lh3BGtxEIL4DIsTZi7dwnXw' \
+  -H 'content-length: 162' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Science parent on.","maxScore":82,"minScore":30,"description":"Fly maybe relate pressure. Generation population institution.","estimatedTime":"9 weeks"}'

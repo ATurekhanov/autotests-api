@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjQ2OjUzLjEyMDE4OSIsInVzZXJfaWQiOiJmN2MzNzEwYy01MGMwLTQ2MDctYjY1Ni00NWRhYzc0NDYxNTYifQ.avmfGaTgjLOniHpIiC3VyrReHv09m3ZUCTh34ggEBIU' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year available lay race decade win.","maxScore":54,"minScore":13,"description":"Ability bit buy answer difference energy child. Talk light this enough life water fall. Time maybe walk economic benefit.\nDevelop their over. Involve bill and clearly responsibility democratic.","previewFileId":"54d5df71-5898-4856-b416-b40922bf9d36","estimatedTime":"3 weeks","createdByUserId":"f7c3710c-50c0-4607-b656-45dac7446156"}'

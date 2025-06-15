@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjQ2OjUzLjEyMDE4OSIsInVzZXJfaWQiOiJmN2MzNzEwYy01MGMwLTQ2MDctYjY1Ni00NWRhYzc0NDYxNTYifQ.avmfGaTgjLOniHpIiC3VyrReHv09m3ZUCTh34ggEBIU' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"History question term protect.","courseId":"33ea123b-56a3-45a7-880e-20558fce2652","maxScore":86,"minScore":26,"orderIndex":60,"description":"Note build policy game control police be like. Purpose return traditional PM grow.\nPick less water officer use ever. Marriage change language first.","estimatedTime":"7 weeks"}'

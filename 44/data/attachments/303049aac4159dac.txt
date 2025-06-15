@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE1VDA0OjQ2OjUwLjA0OTMyOCIsInVzZXJfaWQiOiJlN2UwNjhjMi05OTc1LTQwY2MtOTBjOC1iN2RkYzQ3MDJkNjYifQ.JS1z8NttBbUufC1mhY28g_NLvzMaxyi0tcQ9FwiUPeY' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Answer TV either and agency course.","maxScore":92,"minScore":15,"description":"Parent time usually edge. Into senior among east response.\nAlong instead many because really theory theory.\nNorth might star rock if try that happen. In news decide theory final media Mrs.","previewFileId":"84339956-db90-49ae-b723-96f86307eac7","estimatedTime":"9 weeks","createdByUserId":"e7e068c2-9975-40cc-90c8-b7ddc4702d66"}'
