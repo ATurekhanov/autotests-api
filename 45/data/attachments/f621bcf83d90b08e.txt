@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjIzLjYxNTA1NSIsInVzZXJfaWQiOiIzNjA0M2ZlNy04NWI2LTRhZmYtYjBmNS02Y2YzNDgzYzBjOTcifQ.MMUaCiRi7avZXTlJuMScUSJ3pMewWOMrD7-ni1EGG9g' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Glass performance several next able less.","courseId":"3d1db04a-9163-426c-9f67-f7180b66f13a","maxScore":90,"minScore":2,"orderIndex":68,"description":"Market benefit into approach agree table back. Impact Republican believe position.","estimatedTime":"9 weeks"}'

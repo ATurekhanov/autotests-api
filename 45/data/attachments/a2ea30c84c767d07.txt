@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8f3c7b72-ac02-4708-8041-d402b568c9b3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjIxLjI2OTk2NCIsInVzZXJfaWQiOiJlNDZmZTAzNy1jZTAzLTQ0NzYtYWYxNS05Y2EyNjMyNjRjZDIifQ.RRSLxHE4JoIorY9E6H7zfZpK1GIOBf6JBgH4qifux1M' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Best each clearly student number.","maxScore":99,"minScore":9,"description":"Each cost newspaper eat. Information fund box prove hand sing social.\nStep fire later music. Group course drug against. Rich fly each significant scientist.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjIyLjQ0NTEwNiIsInVzZXJfaWQiOiIzMzhkMzQ1Ni04ZTE4LTQyZTEtYjRlZi02M2QyNmJmOWQ4NWUifQ.QklCvUKndoApgumURbKk4JGMHpFlyqeECrjEvyXqBqU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change bring answer five process bag.","maxScore":63,"minScore":22,"description":"Allow maintain this song billion. Everyone report yourself nation. Anyone speak single hear statement image.","previewFileId":"d9e1d2f4-b0b3-437c-a97d-8bab265f1ed7","estimatedTime":"7 weeks","createdByUserId":"338d3456-8e18-42e1-b4ef-63d26bf9d85e"}'

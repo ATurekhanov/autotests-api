@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjI1Ljc4MDM3NiIsInVzZXJfaWQiOiJjYWU3N2ZmNy03ZmNiLTQ0OTctODYyOC1iM2QwOWJmNDI2ZTAifQ.fJMCA1xoa3D-ZhHtms1mCsF0t-67NpRYqxOzRE2ur_0' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother service election.","maxScore":100,"minScore":15,"description":"Seem whole key then. Under capital American own return.\nWithout case who nation card.","previewFileId":"70369ff7-eb2f-4d59-ac43-aee90dd7dccd","estimatedTime":"8 weeks","createdByUserId":"cae77ff7-7fcb-4497-8628-b3d09bf426e0"}'

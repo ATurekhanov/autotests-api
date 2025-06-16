@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjIyLjcxOTY0OCIsInVzZXJfaWQiOiIwYmJjNTZhYS0wOGJmLTRlZTUtOWRlYi1mYjA1ZjdmMDZkN2IifQ.ohdfPE6N7XjJLeb6eW3VKlu4PC2ZKH_m3HUOYPncxuc' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Realize management itself include coach couple.","maxScore":77,"minScore":20,"description":"Believe you generation mouth floor. Government study want west. Away likely often improve pattern. Finally campaign fund myself simply behavior.","previewFileId":"e9906c9a-d46d-4e60-9483-620e481c0009","estimatedTime":"1 weeks","createdByUserId":"0bbc56aa-08bf-4ee5-9deb-fb05f7f06d7b"}'

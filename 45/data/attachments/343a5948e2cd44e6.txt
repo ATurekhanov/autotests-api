@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjIxLjI2OTk2NCIsInVzZXJfaWQiOiJlNDZmZTAzNy1jZTAzLTQ0NzYtYWYxNS05Y2EyNjMyNjRjZDIifQ.RRSLxHE4JoIorY9E6H7zfZpK1GIOBf6JBgH4qifux1M' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Personal most may nearly certainly.","maxScore":66,"minScore":4,"description":"Why head daughter region. Ball dream situation impact through free pass finally.\nClearly much continue plan water behind.","previewFileId":"0d0dda50-4100-4c16-8d7a-88a4cbe5bcfb","estimatedTime":"2 weeks","createdByUserId":"e46fe037-ce03-4476-af15-9ca263264cd2"}'

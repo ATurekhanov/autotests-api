@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjIzLjg4ODkwMyIsInVzZXJfaWQiOiIwNDBjNGQ0YS0xZGY4LTRhMGMtYTVhNC05ODM1MzY5OTY3OTAifQ._vvmWQGVX9KjBAiwXFwJyG2-1nee3Pl_gMujtIl9_Xk' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just amount site course month physical part while.","maxScore":87,"minScore":21,"description":"Arm deal smile board those range leave treatment. Toward beyond stock onto reveal simple.\nStop administration seat center.\nExpect size lead participant difference present. Page crime adult artist.","previewFileId":"ab590751-d533-4cf1-bf80-5612ee1d565e","estimatedTime":"8 weeks","createdByUserId":"040c4d4a-1df8-4a0c-a5a4-983536996790"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjI1LjEwODQ3OCIsInVzZXJfaWQiOiIwZTNhN2VlYi01MmNhLTQwNWMtOTcxYS04MTI4ZjVlNzUwMGYifQ.4SLsoyzO3VSpNZpHkP4ETyXH-lroK_K836WRZW8L2YA' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone evidence name they practice during.","maxScore":57,"minScore":30,"description":"Same choose lot report brother box fact. Score one he.","previewFileId":"b4fae247-b7d7-4fd4-8e5d-3c7793cea9e2","estimatedTime":"8 weeks","createdByUserId":"0e3a7eeb-52ca-405c-971a-8128f5e7500f"}'

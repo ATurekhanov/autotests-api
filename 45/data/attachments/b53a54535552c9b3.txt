@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Change bring answer five process bag.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Allow maintain this song billion. Everyone report yourself nation. Anyone speak single hear statement image.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to d9e1d2f4-b0b3-437c-a97d-8bab265f1ed7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 338d3456-8e18-42e1-b4ef-63d26bf9d85e
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

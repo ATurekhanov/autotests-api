@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjQ5OjI0LjUyODUzMiIsInVzZXJfaWQiOiI1ZjRlODg4Yi0zZTE0LTRhMjQtYjZiMS1hOGU5NzAyYWJjNTAifQ.AXrv7J6fFFixM4BNP_mdRTjMISd7W_WyMwzScE0lwho' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Few real different like avoid effect station.","courseId":"ef77fe64-84c3-4768-96c7-c04e0bda2b93","maxScore":75,"minScore":2,"orderIndex":70,"description":"Main to mission admit force light. Participant consider light beyond month right.\nLike player imagine rich fire particularly will sport. Mind source political.\nThere they sport three under let.","estimatedTime":"6 weeks"}'
