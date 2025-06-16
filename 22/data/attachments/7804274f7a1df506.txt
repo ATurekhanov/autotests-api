@@ -1,0 +1,16 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Including particularly forget art.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 5e1bc1b0-8ee4-404e-a9b1-74ae242db560
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 34
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to A American among pattern beat thus after. Crime find pull next family. Miss man among course rich. Type billion stop town tonight them political.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

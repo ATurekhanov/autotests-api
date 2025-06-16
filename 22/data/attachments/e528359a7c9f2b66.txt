@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjE1OjU0LjQ2ODQ2NyIsInVzZXJfaWQiOiJlMzBkYTc1ZS0yNTc3LTQxNjItYWIxOS0wZGVhZGI1NTgzNDcifQ.DunhLK8FMEOOUdsRii79uIinvlvVNfkv6iDl4eVgDUY' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Here moment early process.","maxScore":76,"minScore":11,"description":"Head media successful small man natural reach. Approach knowledge local.\nGrowth paper compare fine sense. Environmental weight change station tax daughter sport. Few couple especially.","previewFileId":"4cefc4ec-ee78-4974-8533-0a7023b2c168","estimatedTime":"5 weeks","createdByUserId":"e30da75e-2577-4162-ab19-0deadb558347"}'

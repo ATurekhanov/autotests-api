@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjE1OjUzLjIzNzk2NiIsInVzZXJfaWQiOiJjMzYyZTA5MS1jNjliLTQyMzMtYmQzZS1iYzRlMzQ2Nzk3YjMifQ.cWz49AdngRYUlV9MG4gi3VRBECF_ESrmfxC3nqbeWWQ' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decade part wind mean family now.","maxScore":100,"minScore":21,"description":"Little maybe tend meet. Party subject new from different hair. Compare run themselves final leave foreign statement.\nQuality cut indeed each study worry friend. Nice machine quite hope.","previewFileId":"214956a6-1f04-4b83-b242-4c65440c9f2a","estimatedTime":"2 weeks","createdByUserId":"c362e091-c69b-4233-bd3e-bc4e346797b3"}'

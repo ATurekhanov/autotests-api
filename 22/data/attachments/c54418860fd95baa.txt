@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Hold might peace cold worker.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Matter prepare generation choice yourself wall various. Question building white similar whom.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to 2a018992-6097-43f5-80fc-8ff7310491e7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 156fb1ce-377b-436e-984d-2c8dcdb8dfa1
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjE1OjUzLjg4MzAwMyIsInVzZXJfaWQiOiIxOWJlZWZmZC0yZGE1LTRmN2EtOGMyNC1hMjA3YzEzMDkzNWEifQ.8u7oRWjwxUCRDJSrG9iBv0LN6UJJ0gBeP18JnPfWYMQ' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Growth bank protect site thought.","maxScore":54,"minScore":24,"description":"Look above move second our mouth national. Feeling use seat color show save civil.\nSource they student down. Attention good bank low figure condition. Particular crime up language speak ahead.","previewFileId":"7b2c390a-c060-47ba-8216-fd9c95e41d39","estimatedTime":"3 weeks","createdByUserId":"19beeffd-2da5-4f7a-8c24-a207c130935a"}'

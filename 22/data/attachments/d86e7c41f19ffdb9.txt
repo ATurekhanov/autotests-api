@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjE1OjUwLjY1Mjc3NiIsInVzZXJfaWQiOiI3MGE4MGI2OC03ZWY0LTRhNjgtYTQzNS05YjdkODY5NzVjOWEifQ.rr0b0OOjYEaieDOfhjMidT35qnDE-eDZHy-Z-Gxe6CM' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Woman wrong local real.","maxScore":56,"minScore":11,"description":"Cold meeting politics. Simply heart break beyond beautiful. Set chair player the tend. Especially authority budget throughout parent.\nSon surface guess glass many. Simply size offer yet.","previewFileId":"a21d5e5b-a9f1-496c-85ad-006fc5761861","estimatedTime":"4 weeks","createdByUserId":"70a80b68-7ef4-4a68-a435-9b7d86975c9a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE2VDA0OjE1OjUyLjk2NTUyOCIsInVzZXJfaWQiOiJlNDNkMmIzYS1iYzI5LTQ3MDItYjI2Ny1kNTJhMDBhODc0M2YifQ.iBgf55zZcOp7hDDmxyyhb35d7KAOV2J-v9nNfzYmljg' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including particularly forget art.","courseId":"5e1bc1b0-8ee4-404e-a9b1-74ae242db560","maxScore":90,"minScore":15,"orderIndex":34,"description":"A American among pattern beat thus after. Crime find pull next family. Miss man among course rich. Type billion stop town tonight them political.","estimatedTime":"9 weeks"}'
