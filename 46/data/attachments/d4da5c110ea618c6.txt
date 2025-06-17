@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDA0OjQ1OjUxLjY3MzUyNyIsInVzZXJfaWQiOiI1N2MyOTczZi04MjBmLTRjZjctOTc0Ny1iMDc4YTE0NzE4NjcifQ.QiPb2YCKZjUBZKgTn8tZpxT3eQMCDBWetHU_28dscJ8' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change young century sometimes case.","maxScore":68,"minScore":17,"description":"Herself significant serve somebody few indicate. Response sort son no woman Congress music. Lose various phone team process measure.","previewFileId":"cbad79ce-962d-4019-899f-02c76a2c5bf2","estimatedTime":"7 weeks","createdByUserId":"57c2973f-820f-4cf7-9747-b078a1471867"}'
