@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDA0OjExOjE4LjMxNTMyNCIsInVzZXJfaWQiOiJjZGUzYjA0My1hZTQ0LTQzYzUtODdlNy0zMDQ1MTZlNmYwYjUifQ.dz4kw-0v0-w4OwseWeYCWGY_rXZQ6fGexdXWSPYBpbc' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything onto open sister herself religious attack record.","courseId":"88e5ac46-2086-4e67-8598-bd9a6bb924c0","maxScore":60,"minScore":7,"orderIndex":75,"description":"Risk commercial agent per. Pay rock he approach animal. Court beyond figure analysis know list. Compare door because put chance keep.","estimatedTime":"8 weeks"}'

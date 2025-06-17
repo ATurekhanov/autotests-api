@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDA0OjExOjE1LjcxODA2NCIsInVzZXJfaWQiOiIyYTA4YzJkNC1iNTJlLTRkNGQtYTVlYy1hZmE2YjNkOTFjMWEifQ.JPnTwDoY7_K-0pES0TrHChCk7MkWw6_9YsNz7s42p3k' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Marriage important effect commercial customer attorney issue.","maxScore":86,"minScore":10,"description":"Edge more opportunity right build.\nThree safe deep happen. Thus travel bit summer try. Clear base after quite. Water three language chance court natural.","previewFileId":"7ef3f9b7-73db-4c4d-8cdd-2fc45978260f","estimatedTime":"6 weeks","createdByUserId":"2a08c2d4-b52e-4d4d-a5ec-afa6b3d91c1a"}'

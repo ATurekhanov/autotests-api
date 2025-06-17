@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDA0OjExOjE4Ljk2NDE3MCIsInVzZXJfaWQiOiI5Yjg2YzVkMS1jMDBjLTQ4ZmMtOGE5My0yMGJjN2MwMzYyN2EifQ.0XCLgMKhJNhr2m0yAQPDcazzIRyEkNMhJHTD-Pmuov4' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Push approach help none.","maxScore":54,"minScore":21,"description":"Year painting feel network far family. Town middle view. Build pay organization point where.\nPick show employee travel. Movement approach start do. Someone either but spend shoulder remain task.","previewFileId":"a0648562-a5cc-4d32-9630-dd77e558acbd","estimatedTime":"7 weeks","createdByUserId":"9b86c5d1-c00c-48fc-8a93-20bc7c03627a"}'

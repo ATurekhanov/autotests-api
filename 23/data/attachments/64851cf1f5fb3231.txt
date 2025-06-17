@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8b8921c4-7eae-4206-b4e7-94fd722ca17f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDA0OjExOjIwLjIxNTM5NCIsInVzZXJfaWQiOiJhMjgxY2QzYi05MmZhLTQ2NTctOTMxMi0wMGJjOTZmNzUxOTYifQ.Eca4IC6DftHkZWRoIM5C4btclatRaYMVnhRteIpOLkI' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive school religious add.","maxScore":75,"minScore":19,"orderIndex":65,"description":"Window where check. Partner conference public reach remember. Moment music floor pay decide myself fine risk.\nMy although one no bill ago week. Prepare sell energy open.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDA0OjExOjE4LjMxNTMyNCIsInVzZXJfaWQiOiJjZGUzYjA0My1hZTQ0LTQzYzUtODdlNy0zMDQ1MTZlNmYwYjUifQ.dz4kw-0v0-w4OwseWeYCWGY_rXZQ6fGexdXWSPYBpbc' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simply capital firm gun cover call itself shoulder.","maxScore":50,"minScore":19,"description":"Local task dark far. Ago reason this step official some.\nTend how whom north mouth see tend. Mind listen return month.\nWhich need bill identify follow right. Four cultural station let type.","previewFileId":"fe3dc79f-642f-44e2-bcae-ca7c6fdc69e2","estimatedTime":"8 weeks","createdByUserId":"cde3b043-ae44-43c5-87e7-304516e6f0b5"}'
