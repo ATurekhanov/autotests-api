@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE4VDA0OjQ1OjQ5LjE1OTU2OSIsInVzZXJfaWQiOiIxYWZkYzQ1NS1jMmI0LTRiYjMtOTZkNy1lMWUwZDIzYmQ0NWYifQ.PE7LRLtefIofAQGHVlsoA9IEH6CG_1d2hEVvHG5vKRM' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foot drive think simply along agent.","maxScore":98,"minScore":17,"description":"Everything all machine rock service. Lead nearly hotel fact member body city.\nChange pick treat heart. Probably body music one break.\nNearly old establish. New let better whom reach.","previewFileId":"1b9f7d51-9586-417a-baae-9b6671fa6cab","estimatedTime":"2 weeks","createdByUserId":"1afdc455-c2b4-4bb3-96d7-e1e0d23bd45f"}'
