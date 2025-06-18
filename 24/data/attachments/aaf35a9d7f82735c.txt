@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE4VDA0OjEwOjU5LjAwNzUyNCIsInVzZXJfaWQiOiJlNjA2Y2Q4OC0wNjMxLTQwOTEtOWZlOC1jMmNiY2Q0YmI4NjYifQ.3SCyQZ85NNXHJ55XAJudYjoQjTN-T1nu4Z7HmXB-F-0' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four memory war clearly together ready education.","maxScore":78,"minScore":11,"description":"Cost care catch left development. Yet structure short listen try lay. Line firm other fear interesting often send.","previewFileId":"95e23080-4122-436d-8b91-cd9917cd2938","estimatedTime":"5 weeks","createdByUserId":"e606cd88-0631-4091-9fe8-c2cbcd4bb866"}'
