@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE5VDA0OjM1OjMzLjIxNTcyNiIsInVzZXJfaWQiOiI5YmM5YzUxNS02MmE3LTQ4MzMtOTEzMi0zNmMyZTFiOGMyNGQifQ._5Rrt5rGJAFIkdm-wSGVOj712R6jAAtxyZC7hlBlUBQ' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality finally dinner today on.","maxScore":56,"minScore":13,"description":"Firm garden himself policy item area. Drive both stop report second resource standard try.\nMy coach image will treat race themselves staff.","previewFileId":"1b7c5a6d-8557-4dac-b0ec-6dd4112eea7a","estimatedTime":"1 weeks","createdByUserId":"9bc9c515-62a7-4833-9132-36c2e1b8c24d"}'
