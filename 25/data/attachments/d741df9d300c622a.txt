@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE5VDA0OjExOjEyLjY2NjgxNiIsInVzZXJfaWQiOiIyZTdkMTgwNy00ZmMwLTQyZmMtOTlhMy00OTE3NGI0Njg1NDkifQ.eGgQ6UulFQwS1lPqSeen-y-7oBtWoD59LpWUGP0XvYY' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move enter hope employee team.","maxScore":100,"minScore":3,"description":"Ever above stop seek six. Window skill for worry light direction series enjoy.\nTen hot none approach. Tree must star trade off social street. Matter whatever situation poor however particular.","previewFileId":"f975d234-e263-4419-a255-9b166233f681","estimatedTime":"8 weeks","createdByUserId":"2e7d1807-4fc0-42fc-99a3-49174b468549"}'

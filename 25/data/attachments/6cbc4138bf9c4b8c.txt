@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=de62b41e-7a00-48da-a749-d9cc0b226276
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/courses?userId=de62b41e-7a00-48da-a749-d9cc0b226276
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:105 Check course
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to a866ab4f-be33-417f-943c-069183f87861
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Blood perform picture drive notice network.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Reason become once use control sometimes itself.
+Blood crime director control. Pass the president those employee. Appear series phone name detail course fill. War house spend course ever could off.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 10 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 75e34a4f-0091-4599-912a-8ae88f813a23
+INFO     BASE_ASSERTIONS:base.py:39 Check that "url" equals to http://localhost:8000/static/tests/e693ff2e-ddcf-4fc9-ac16-4cdf3cf9c7f9.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "filename" equals to e693ff2e-ddcf-4fc9-ac16-4cdf3cf9c7f9.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:37 Check user
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to de62b41e-7a00-48da-a749-d9cc0b226276
+INFO     BASE_ASSERTIONS:base.py:39 Check that "email" equals to rosslindsay@example.com
+INFO     BASE_ASSERTIONS:base.py:39 Check that "last_name" equals to Peterson
+INFO     BASE_ASSERTIONS:base.py:39 Check that "first_name" equals to Bruce
+INFO     BASE_ASSERTIONS:base.py:39 Check that "middle_name" equals to Amy
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

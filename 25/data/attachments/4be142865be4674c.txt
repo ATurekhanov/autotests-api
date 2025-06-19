@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Else happy natural fill stage along kid.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 86e4f28c-aaa8-4bcb-a100-e4663c854f7d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Important treatment trip large improve everything receive. Into skin any body. Such walk hour final. Give community one where could indicate company ball.
+Wait project front project. Out south point.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
