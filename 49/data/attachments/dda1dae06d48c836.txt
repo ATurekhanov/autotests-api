@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjM0OjM1LjU2OTY4NiIsInVzZXJfaWQiOiI5MTAwNTI4ZS0wNDdiLTQyZDItODliYi0zZGVlNTBmNWE4Y2EifQ.T--KoS9MX5AGq_p18_sSWEO9MdIUMrJ2RjCqCfdqFwk' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Face decide whose positive manager look.","courseId":"6d18b624-9fcc-4673-b765-d85877109de5","maxScore":93,"minScore":1,"orderIndex":46,"description":"Yes reach measure. Spend price politics. Least hospital nor former focus understand. Toward establish Mrs pressure treat fill.","estimatedTime":"3 weeks"}'

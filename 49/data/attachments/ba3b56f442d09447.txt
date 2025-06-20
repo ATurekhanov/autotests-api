@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjM0OjM3Ljk5OTEyNSIsInVzZXJfaWQiOiI0ZWVkOGQyMi05NDIwLTRmYTQtOWRiMC1mYTJiYzY1NTU5OGQifQ.A6m5KJYyD8HwiblqQy-rWKhsx5b6LsajLZyhwri8anc' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young unit leave security admit.","maxScore":65,"minScore":3,"description":"We save nature. Then class state report.\nEconomic test order low possible. Body save always letter. Growth toward hope.\nKitchen let themselves while. Whatever sea arm theory top back.","previewFileId":"f231d77a-a980-4159-b7ee-45fb9c2b3e91","estimatedTime":"4 weeks","createdByUserId":"4eed8d22-9420-4fa4-9db0-fa2bc655598d"}'

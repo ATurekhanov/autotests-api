@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjM0OjM3LjM3MDI3MiIsInVzZXJfaWQiOiI5N2ExZDhlNC1kYmFmLTQ4NDQtYmE3ZC0zNWRkZmYzOGNhZjYifQ.ODgmp2fNY1elPf7vYVrqkRlJ2eLITvZl70qFg-sBnVo' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner able dinner all accept television.","maxScore":62,"minScore":9,"description":"Lawyer fire human door. Add throw occur break base raise central. Current paper these their economic.\nInteresting what hot its guess. Specific window thousand as spend light.","previewFileId":"b47a2917-946f-4b20-bc1d-3169a8f1364f","estimatedTime":"3 weeks","createdByUserId":"97a1d8e4-dbaf-4844-ba7d-35ddff38caf6"}'
