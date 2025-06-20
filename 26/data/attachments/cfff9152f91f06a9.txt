@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjEwOjI2LjM0MzE0MSIsInVzZXJfaWQiOiJlYWVmNGU2MC05ZWVkLTQ0ZGUtODk3ZC0wYmUzM2UyMjE3N2MifQ._sY6SiMnGkCGE3jnbMqemP8PNfPrH694t0NOC9zt6ek' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop growth example without win.","maxScore":85,"minScore":25,"description":"Instead card reach yard. Enjoy staff health school.\nManagement participant maybe home wish she development culture. Black woman cause pressure.","previewFileId":"4798fda5-f003-4c0a-a1cf-a2a32be6de9e","estimatedTime":"7 weeks","createdByUserId":"eaef4e60-9eed-44de-897d-0be33e22177c"}'

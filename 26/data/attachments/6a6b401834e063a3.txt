@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjEwOjI0LjUxODE5OCIsInVzZXJfaWQiOiI4OGE5ZDU3OS03YmJkLTQ5N2ItOWYyMy03NTY0NWZmMTRjNWMifQ.Dr2L1FMvsUjifM-Fvp83jkQjEj4zgt06QcaCrPYR4xM' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Child man election national black them check.","maxScore":99,"minScore":29,"description":"Allow season book too could. I begin street stock. Pm indicate to.\nControl next pick hotel five.\nFall hot body cover baby. Ground just education society eight.","previewFileId":"ba57c144-aded-4fc2-a775-a1e23dc07948","estimatedTime":"6 weeks","createdByUserId":"88a9d579-7bbd-497b-9f23-75645ff14c5c"}'

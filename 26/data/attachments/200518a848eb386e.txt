@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjEwOjI3LjU4NDkzMSIsInVzZXJfaWQiOiJjZjlhNDY4ZS0yY2YxLTRlYTgtOWQ5NS1hMTM4NGQ3NmEyNjEifQ.dUbj5CEMM8wuwe087sy-afNpmw5PBMd8Y6A-klXdjaY' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now first place military base south.","maxScore":50,"minScore":11,"description":"Check body phone soldier great her quite. Bag speak central ground always. Election that in benefit.","previewFileId":"d217acdb-6233-41ce-9769-8a1ac93fe59a","estimatedTime":"5 weeks","createdByUserId":"cf9a468e-2cf1-4ea8-9d95-a1384d76a261"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjEwOjI2LjkyNDEwOCIsInVzZXJfaWQiOiIwNTYzNjczYy02MGU4LTQ3MjEtYmIyNC00M2FjMjg2Y2ZiYzMifQ.uW9ISoKINXr1bpDE8bDiRaC9Y4qq94Ix0vRZlNWdWWY' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Into visit east.","maxScore":61,"minScore":12,"description":"Real fine about strategy call. Sister the international which pretty medical. Institution the among stuff.","previewFileId":"f5b54a6a-cc53-4d0d-b495-8b687710f50f","estimatedTime":"5 weeks","createdByUserId":"0563673c-60e8-4721-bb24-43ac286cfbc3"}'

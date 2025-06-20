@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjEwOjI1LjY5Mzc4OCIsInVzZXJfaWQiOiI4Y2JjZDAyZi0yZTk0LTRmY2UtOGU2Yy1mMmU2NTNjMTQ5MDkifQ.Cp51yIVAVUf_JO6h0LgzQCtPYCrySjkRyyuZxQvehLI' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low central defense more.","maxScore":50,"minScore":9,"description":"Theory before your look. Writer ok magazine stand tax.\nStart drug whatever break nation can affect. Discuss two past mission manager. Anyone up less doctor.","previewFileId":"cab1da51-06b8-46fb-8189-a723b61f15de","estimatedTime":"1 weeks","createdByUserId":"8cbcd02f-2e94-4fce-8e6c-f2e653c14909"}'

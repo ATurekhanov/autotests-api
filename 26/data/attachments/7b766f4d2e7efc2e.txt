@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIwVDA0OjEwOjI1LjY5Mzc4OCIsInVzZXJfaWQiOiI4Y2JjZDAyZi0yZTk0LTRmY2UtOGU2Yy1mMmU2NTNjMTQ5MDkifQ.Cp51yIVAVUf_JO6h0LgzQCtPYCrySjkRyyuZxQvehLI' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Never meeting sit bar carry worker thank.","courseId":"61ce3bbd-eaf2-44e6-9606-82c862ec19bd","maxScore":86,"minScore":23,"orderIndex":9,"description":"Stuff campaign another degree particular throughout good. Up avoid other network performance ever sometimes.\nCrime we dream nice. There mention real member officer foreign wonder.","estimatedTime":"7 weeks"}'
