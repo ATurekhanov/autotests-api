@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/96e2f375-d3ab-443e-bac1-b78da938871c
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/96e2f375-d3ab-443e-bac1-b78da938871c
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 96e2f375-d3ab-443e-bac1-b78da938871c
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Leave put significant can future exactly.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to c997b25a-ca0e-4357-8569-5ea86e675464
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 74
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Scene exist hard early plan. Now assume effort husband. How want other because production career.
+Practice blood answer. Toward spend size whether science them.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

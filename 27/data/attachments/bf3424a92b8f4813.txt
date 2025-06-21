@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDA0OjA4OjA4LjA1MTQzNCIsInVzZXJfaWQiOiJmMmUwODEwNC04YjUzLTRlOTctODlmMy1iMTlmYmQxNTc5YzEifQ.3NVmsFvYhNtItwqr8YVA1uHx3KNVOZthjEEdikGPzMo' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large country chair also charge professional some she.","maxScore":93,"minScore":10,"description":"Try fight threat baby account since feel. Operation list finally executive movement nation result.\nLess moment five hundred system next how college. Themselves official range process buy cup.","previewFileId":"d1a84b64-18e5-495b-84c0-3900c204577a","estimatedTime":"1 weeks","createdByUserId":"f2e08104-8b53-4e97-89f3-b19fbd1579c1"}'

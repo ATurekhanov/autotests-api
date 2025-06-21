@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDA0OjA4OjA2LjYwOTgzNyIsInVzZXJfaWQiOiIwNzI3MDAxNy04YWQ0LTQwMGItYjQyOC0yODY0NWU4MzNkYjIifQ.sT31PAwdohXN6SqWkIsewGVaHXuJQyeiBrrykVFndSg' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thousand draw score high reveal quickly anyone.","maxScore":84,"minScore":14,"description":"Service program risk. Individual form huge see. Street factor simply section. Have especially toward between school firm.","previewFileId":"8e81b57d-f6a6-4703-a248-484e14bf091d","estimatedTime":"5 weeks","createdByUserId":"07270017-8ad4-400b-b428-28645e833db2"}'

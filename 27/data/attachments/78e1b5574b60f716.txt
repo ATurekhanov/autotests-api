@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDA0OjA4OjA4LjY5MDQ3MSIsInVzZXJfaWQiOiIwZDk0YTVhOC0yZjQ3LTQyZjgtOTIyZS00ZmFmZmYyYWQ1MDMifQ.jGEMLvscMISBnsoX7GJ-aulHm6nMs3JVRssrV5Ypcx4' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out list sport discussion almost right staff decade.","maxScore":55,"minScore":25,"description":"Difference raise standard us. Democrat wear particularly raise. Order method man subject. Measure card successful modern be he.","previewFileId":"77bb52ed-5c0f-4f41-956a-d6fa968ac07e","estimatedTime":"2 weeks","createdByUserId":"0d94a5a8-2f47-42f8-922e-4fafff2ad503"}'
