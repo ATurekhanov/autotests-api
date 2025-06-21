@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/92fa3520-aa43-4915-8bd0-17f2cb4028b4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDA0OjMxOjQxLjMyMTMyMyIsInVzZXJfaWQiOiI2NDY2NmJkMC0yNzAwLTQzNGEtOTQ1Zi03OTEwZWU5MDhjMjcifQ.rXs2Smer9Cc_PcDeWgB8kDZS75ZbQ5eDJf_kzW19htQ' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card yes same new face happen.","maxScore":99,"minScore":17,"description":"Rise far bill course he enjoy issue. Phone so next reason door provide purpose while. Father good whole something which part.\nMovie fear protect lose dinner. Ability soldier list lay draw indicate.","estimatedTime":"7 weeks"}'

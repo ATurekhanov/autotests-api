@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDA0OjMxOjQ1LjE3Mzg0NCIsInVzZXJfaWQiOiI0YjJhZDgwYi1kNjUxLTRjYmEtOTE2OS1iYWY5YTcxZWI2NDIifQ.sn1pq9m9Y8QfAvWdTLpNlOg3w-vA9GbxbS3-zkEEkyI' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strong take idea.","courseId":"7586e84d-0285-4b72-aa90-911eafc8083b","maxScore":76,"minScore":20,"orderIndex":12,"description":"Toward remember environmental nice chair. Necessary surface executive force.\nMyself same wait player activity hold establish. Its seat son red notice treat member. Find for mention city value.","estimatedTime":"8 weeks"}'

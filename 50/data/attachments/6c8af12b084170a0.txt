@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDA0OjMxOjQ1LjgyOTgzNCIsInVzZXJfaWQiOiI1YWEyN2ZlNy0xNjUxLTRkZWItYTNmOC1lOGYyZDIxZmM5ZGMifQ.pK2ir2JB_4IzJy8lZXR3tjQTWHA_10ehJbtYZXY5Gxc' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything probably reflect above improve condition girl understand.","courseId":"6b05deb2-beec-494d-a530-2878fcd037e0","maxScore":67,"minScore":15,"orderIndex":37,"description":"Clearly win business hotel season standard.\nFace government parent national brother. Front eight woman popular. How finally rock modern force word foot.","estimatedTime":"7 weeks"}'
