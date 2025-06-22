@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjQ3OjU1LjkyNzkzNiIsInVzZXJfaWQiOiJmZWUwMmZjMi03ZDg0LTQxMWEtYjEyZi1kNDhjMzQ3N2ZlNmEifQ.lM9u-8nDJI6fh3_A22l1rUC2P_qod6XAasxg65gHLW0' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society effort admit ever firm really among.","courseId":"d63cac3a-eb6e-46a5-8ad1-5770ac83377b","maxScore":84,"minScore":15,"orderIndex":97,"description":"Girl hit exist day interesting too writer. Market hundred off.\nMost office certain movie. Production bill institution by though. Interview his there grow road party.","estimatedTime":"7 weeks"}'

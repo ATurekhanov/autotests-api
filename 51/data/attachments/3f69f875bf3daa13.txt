@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjQ3OjU3LjE2NDA4MiIsInVzZXJfaWQiOiJiNGJlMjkzYy00ZWI0LTQyMDEtODE4MS1lZTM2NDJkZWJhYWIifQ.Ordrf0r3LlpmqaQv0hvSaFpe2U2i9rWP3IAdrFm_kGQ' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Contain mouth yes movement section news.","maxScore":65,"minScore":27,"description":"Fast send way important high left usually. Decide crime determine everyone medical relationship. Right father everyone air consider past.","previewFileId":"c72cde5b-baea-418e-876a-925d39acdd55","estimatedTime":"10 weeks","createdByUserId":"b4be293c-4eb4-4201-8181-ee3642debaab"}'

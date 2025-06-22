@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjQ3OjUzLjMzNzA0NyIsInVzZXJfaWQiOiI3OTMyMDM2ZC05YzE4LTRmM2YtYjU1NS1mYjhlNGYxZjEwNjEifQ.4_qUoh6PF2BZ0JtWqInVJ_7ryLgEhk2UBxDycNQW9AQ' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog evening daughter do common look.","maxScore":97,"minScore":5,"description":"Generation thank your mention set. Anything civil property end hot want suggest news. Value medical live finish role relate dog.","previewFileId":"ea6227ba-4a0d-4479-8c9a-200b6dcac853","estimatedTime":"8 weeks","createdByUserId":"7932036d-9c18-4f3f-b555-fb8e4f1f1061"}'
