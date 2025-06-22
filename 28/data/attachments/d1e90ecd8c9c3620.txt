@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjE2OjUzLjg5NjExNCIsInVzZXJfaWQiOiJhYTdiZjY2Ni05Y2I4LTQyYjgtYTIyZS1hNDg1YTM2ZjQxMTYifQ.xw5ZyRPS9-PWIWeOwTvwTOG4RHgxZiAUBR1-g3mXiYc' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report fight buy young.","maxScore":95,"minScore":12,"description":"That program however man treatment.\nStatement smile art price add line future. Recognize country peace price. On security campaign financial.","previewFileId":"7b372555-18c3-4356-acf6-e4461e6df775","estimatedTime":"8 weeks","createdByUserId":"aa7bf666-9cb8-42b8-a22e-a485a36f4116"}'

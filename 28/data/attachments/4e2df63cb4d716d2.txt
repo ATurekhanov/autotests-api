@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjE2OjUyLjY1MTIzNSIsInVzZXJfaWQiOiI1MzJlMDMzOS1iZDY4LTQ1ZTItYTZmNy0xY2M5NmUyY2QxYzEifQ.5AMNBZ999gzow5tNYXdyv8SvmJjk_NiMcwBrg9n7jwE' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Future professional ask successful key newspaper.","maxScore":87,"minScore":20,"description":"Claim wind state matter research particularly. Argue weight some back.","previewFileId":"b9e04b28-41d0-4f89-9183-f3284bc46dfc","estimatedTime":"9 weeks","createdByUserId":"532e0339-bd68-45e2-a6f7-1cc96e2cd1c1"}'

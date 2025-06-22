@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjE2OjUxLjczNzI1MCIsInVzZXJfaWQiOiIwOTRmNmRiNC02NWZjLTQxOTMtYTUwMS05OWJiYTBhOTEwNGUifQ._foahnCyuIHZ36_bGSFtzY9aCVgQxTX--hAyHVfyX_4' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement scientist upon bring mother.","courseId":"69f0c517-23a4-4b77-ae76-4b8c9656bf1f","maxScore":53,"minScore":6,"orderIndex":13,"description":"Sport walk deep few however indicate smile. None space might contain or.\nSchool business easy local reduce market subject.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjE2OjUwLjU2MzI0MyIsInVzZXJfaWQiOiJkODViOTU3My1lYjdkLTQyNWYtOWM1ZS03MDYzMWFkN2QwNzMifQ.lyLGrQYqFcQ96XAxWlx1COuB3RYQfvuJd47kywPNlUg' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"National eye tough.","maxScore":96,"minScore":25,"description":"Sense off explain trouble. Play democratic no suddenly market face wife.\nSafe also thing recognize. This though air deep.","previewFileId":"2f4ea42e-d8ed-4be8-9080-616431818f91","estimatedTime":"7 weeks","createdByUserId":"d85b9573-eb7d-425f-9c5e-70631ad7d073"}'

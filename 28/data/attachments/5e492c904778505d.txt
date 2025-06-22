@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8e4ff05b-2848-484e-a405-6ce39b05cb31' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDA0OjE2OjQ5LjQxMzE3MSIsInVzZXJfaWQiOiI3ZGViMjFmYS05ZjJhLTRiMjMtYTM4OC1hNzFiNTkwYzA2YTIifQ.haHnArR3k6md9_cHKek48CCdpjp2TYntFr0VSFJ3KA0' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Today agency threat begin born.","maxScore":100,"minScore":8,"description":"Share property story economic answer less. Art team probably business lawyer.\nExpect attack newspaper again. New fire movie and something able. Around training high interest science.","estimatedTime":"9 weeks"}'
