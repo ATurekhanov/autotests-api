@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjE5OjI0LjEwNDcyMCIsInVzZXJfaWQiOiJmNTY3MDZhZi1lZDVkLTQ3ZjAtOTc2OC00OTViZTExZWUxZmEifQ.6tr3Afd8TLka65WePJUZN-Co5Wl-w71lnUeNF54bhiM' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive catch compare material card.","maxScore":58,"minScore":29,"description":"Total sign however spend. Support walk environment. Yard window computer safe food election mission evening.","previewFileId":"4bbbd957-d7eb-4aac-801b-38aa8a7a250d","estimatedTime":"10 weeks","createdByUserId":"f56706af-ed5d-47f0-9768-495be11ee1fa"}'

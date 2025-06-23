@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjE5OjIxLjA2Mjc2MCIsInVzZXJfaWQiOiJmYTE0YzA0NC03ZGI0LTQ4ZDItOGM0MC03ZTY5M2RlYjA1MzkifQ.Q42zWLAPwf2CFGOuPzTRwPqhUGEfg0qN8-Fk5Gw60RU' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View catch month see floor from within east.","maxScore":98,"minScore":30,"description":"Voice film create necessary agency. Miss day lawyer material season project. Try character local our. Tonight attention drive arm.","previewFileId":"23590dad-0d81-4b32-8935-4baf56c738c0","estimatedTime":"6 weeks","createdByUserId":"fa14c044-7db4-48d2-8c40-7e693deb0539"}'

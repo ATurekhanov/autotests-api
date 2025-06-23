@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjE5OjIxLjk2Njk2MCIsInVzZXJfaWQiOiJiNmM3MmM0NC03ZDhiLTRiODAtOGUzNy1iZWNkZmE0MGFmNzQifQ.I7vSoP_5V5i5XmNXlJu4ZGRjJejogw87jjDJhHRpo34' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Your image out former.","courseId":"1e2c8862-96ef-41f2-9fb1-59800c27e439","maxScore":71,"minScore":9,"orderIndex":21,"description":"Image few black bank line individual light. Herself drug describe nothing step. Market after five contain feeling.","estimatedTime":"9 weeks"}'

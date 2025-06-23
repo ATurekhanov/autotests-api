@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjE5OjE5LjYzNzgyMyIsInVzZXJfaWQiOiJlZmJlY2I2MC1kODMzLTQwMGItOTgzYi1lYjFhY2Q3MmM3ODAifQ.GW6NHYl2xOFplYtFBMp95emD9lFktVzII_qWIIKI7DY' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simple dinner happen bed special world.","maxScore":92,"minScore":5,"description":"Various trip involve notice resource lose. Door situation view since.\nSimple million decide. Result high buy bill.","previewFileId":"3d9d359c-8ae5-48e0-80bb-2318c0930ac2","estimatedTime":"4 weeks","createdByUserId":"efbecb60-d833-400b-983b-eb1acd72c780"}'
