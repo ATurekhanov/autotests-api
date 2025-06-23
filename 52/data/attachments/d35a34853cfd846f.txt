@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjUwOjU4LjU0OTI0MyIsInVzZXJfaWQiOiJhMDdjY2Y0MS03MTI0LTQwNjMtOWZjYi0zMDgzN2JmNTEwNTcifQ.sRGueNUIDDw_2WSJKaZP0LY_G35_lcrBNWVqidZ8fKE' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member alone own research visit college beautiful.","maxScore":83,"minScore":8,"description":"Reduce condition suggest seven. Deep west world movement join expect. Reveal commercial buy western create participant which.","previewFileId":"3a4cbfea-a6d1-495e-82d8-fed0ee126deb","estimatedTime":"5 weeks","createdByUserId":"a07ccf41-7124-4063-9fcb-30837bf51057"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjUwOjU1LjQ3NTE2OSIsInVzZXJfaWQiOiIxMWQzMWIzMC0xMzJmLTRiNWMtOTdkZi0xNjE4NjU0MTNkYTMifQ.MaWmfipjPDP6IrVsdJ8CWuxDDIB_Nsj4UYYW1SVI5-Q' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among instead throw contain or lawyer weight.","maxScore":85,"minScore":6,"description":"Section hit chair while party agreement. Always grow if field bill clearly.\nSignificant later ago course move.","previewFileId":"49ee774d-d31f-4fce-abbf-eacd15d5a17e","estimatedTime":"4 weeks","createdByUserId":"11d31b30-132f-4b5c-97df-161865413da3"}'

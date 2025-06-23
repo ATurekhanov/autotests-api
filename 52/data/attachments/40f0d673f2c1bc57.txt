@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjUwOjU3Ljg4NDEyMiIsInVzZXJfaWQiOiJiYWYwMThkMy04NDhlLTQzOWEtOTUwMy1jM2ZmMTcyZDFmODAifQ.94HRr3lKOAmk8f58GkpzKcabS2pgXe_RMJ5h_qbuIB4' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay more catch cup before.","maxScore":79,"minScore":20,"description":"Difficult dog author discussion question suddenly cause. Sea seat among forget nearly. Identify kid however seem political.","previewFileId":"6f67954d-8c21-4220-95b9-cab5c0f3f3cb","estimatedTime":"5 weeks","createdByUserId":"baf018d3-848e-439a-9503-c3ff172d1f80"}'

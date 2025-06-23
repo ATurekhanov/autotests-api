@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d60a1b1e-3be3-4740-bb73-08a9fdc837cc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjUwOjU0LjA1NTc5NCIsInVzZXJfaWQiOiI0M2JiMzQzYy0zNGZkLTQ1OWEtOWFjNS1iYjM4MDI3NTg0ZjYifQ.zIDTCjFqmXAvNt6hhWk17IjFpQojeKIzNUMe86iy8dk' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Outside size clear each impact campaign speak drop.","maxScore":89,"minScore":20,"description":"People a car project agent since. Family his free tend structure.\nIts itself because produce. Green create leave. Responsibility mother government yourself.","estimatedTime":"2 weeks"}'

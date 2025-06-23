@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDA0OjUwOjU2LjY1MzYxMiIsInVzZXJfaWQiOiIyY2NkYjJmOC02MTU2LTQ3NjQtOGFmZC04YzQxNDY2N2E1ZTIifQ.6EQSUdwhgPhf2VPS0DJjMFMzOJQgwz5Mp93rNEVwNXE' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner trial citizen general.","maxScore":73,"minScore":23,"description":"Suffer loss natural artist instead. Decision spend itself know long.\nHelp doctor interest couple particular wait toward usually. Range write protect amount into to.","previewFileId":"7ce7b0c6-2acb-4c9c-968b-41ddee0d6e54","estimatedTime":"8 weeks","createdByUserId":"2ccdb2f8-6156-4764-8afd-8c414667a5e2"}'
