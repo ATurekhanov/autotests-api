@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjQ2OjU4LjY2MTU0OCIsInVzZXJfaWQiOiIwYTg3ZjZhMy0yMjFjLTQ1ZDItYjlkNy1mZWYzNDdmNjA5YWEifQ.lGhNU6MiFc1pnJAgePO2NY_B1ZXwXA8RZJIFVkUsdMY' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front race step.","courseId":"ff9351c8-893e-4557-8538-7b8ef0d2db88","maxScore":70,"minScore":5,"orderIndex":12,"description":"North later indeed necessary admit this. Pay growth another keep majority. Strategy particular thus read onto.","estimatedTime":"4 weeks"}'

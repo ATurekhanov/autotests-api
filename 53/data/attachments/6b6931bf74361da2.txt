@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/1ceb8ebd-4a54-4c8c-842e-8fbe89732f17' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjQ3OjAwLjU1OTMyMiIsInVzZXJfaWQiOiI2MzZhMTJmNy01ZDE1LTRiZWUtYjcyNy02MGYxNjA0YTI3OWYifQ.42YBAQP-fC600WTp6kAwJr1ZgIzoafTyHsDQCB-R3_g' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare east describe.","maxScore":81,"minScore":17,"orderIndex":75,"description":"Lawyer election even lot them item. Teacher mouth meeting. Out become participant so. Instead dinner respond half few company.\nMaterial provide notice plant.","estimatedTime":"5 weeks"}'

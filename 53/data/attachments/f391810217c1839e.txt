@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjQ2OjU3LjQ4OTQwMiIsInVzZXJfaWQiOiIwZDYyMWQwZS05OTFkLTQ2YzMtOTg0Yy0zM2FmMTNlZmZlMDMifQ.8nj2G-dzL2gq-cE3A6aIKjfqfdOKjF9R0I9cOxBWQ7w' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Age treatment throw tree.","maxScore":50,"minScore":13,"description":"Heart practice evening house put style box. Mother song any surface friend may.\nAnd animal oil only born. Yet any and most after. Would agent six area.","previewFileId":"a4b41396-f5df-4bde-b7a1-5626c23704e4","estimatedTime":"9 weeks","createdByUserId":"0d621d0e-991d-46c3-984c-33af13effe03"}'
