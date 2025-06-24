@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjEyOjMyLjkwMzMyNyIsInVzZXJfaWQiOiI2NGMwZDk5Ny01YWY2LTRmYzctOTE0NC1jYTgyN2RjZThhNjQifQ.JMQQqz8Nvd-FFBS0JwOMy0EFXuzQu2PVb_EX3DplbLo' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If large best gas professor himself fast.","maxScore":62,"minScore":28,"description":"Large speak alone budget.\nDream civil late beat yes democratic good business.\nDemocrat focus whole member better. Talk religious result let need wait.\nGo network hotel cup that magazine.","previewFileId":"d97eaf42-c1c6-4bc0-ad03-6a52a3a171e1","estimatedTime":"3 weeks","createdByUserId":"64c0d997-5af6-4fc7-9144-ca827dce8a64"}'

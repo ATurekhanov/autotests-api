@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjEyOjMzLjU1NDg2NyIsInVzZXJfaWQiOiI4ZjA4ZWMxOC1kNDhiLTQ5YjAtOGZkYS1kMTBiNjA4N2VlMTYifQ.V35zXWvhEZP36LOKNFvSF4Ep_mwcHQqTvDfJg3L5siM' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happen follow peace anything.","maxScore":77,"minScore":29,"description":"Artist star different. Film than music shoulder science. Stand improve Mrs president writer scientist.\nPoor effort each reveal avoid growth available. War subject morning maybe part. Trip play more.","previewFileId":"0ae19202-eb2e-4a03-be28-42990f871180","estimatedTime":"5 weeks","createdByUserId":"8f08ec18-d48b-49b0-8fda-d10b6087ee16"}'

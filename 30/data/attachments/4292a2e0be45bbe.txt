@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjEyOjMyLjkwMzMyNyIsInVzZXJfaWQiOiI2NGMwZDk5Ny01YWY2LTRmYzctOTE0NC1jYTgyN2RjZThhNjQifQ.JMQQqz8Nvd-FFBS0JwOMy0EFXuzQu2PVb_EX3DplbLo' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every security girl again suddenly give commercial.","courseId":"c36a1c8e-f57b-42ae-8c17-f665fe4ea0d6","maxScore":71,"minScore":28,"orderIndex":26,"description":"Realize hit size who. Usually ask but method policy who. Here news push while real five last.\nMessage once attention receive table eight. Able attention happy father. Get skin account picture.","estimatedTime":"8 weeks"}'

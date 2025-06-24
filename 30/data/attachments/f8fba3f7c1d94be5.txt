@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjEyOjM0LjE0MTc0MCIsInVzZXJfaWQiOiJiNjU3NGI5Mi1iNDA4LTRiMjgtYTg1Yi1lZTM3ZmVlNzBkZGQifQ.RMUg84yyg7t4MzYUW2oPvFKcs_kXW0fbty9_I5kOtLM' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Party show pattern lead what central practice.","courseId":"3cf214c7-94b1-483e-b7ca-0acc5c2e6600","maxScore":54,"minScore":23,"orderIndex":46,"description":"Medical body true right. Over every check imagine.\nThemselves available serve east nothing.\nNews soon oil main. Late president miss tonight.\nElse say evidence art. Body hair perhaps why.","estimatedTime":"7 weeks"}'

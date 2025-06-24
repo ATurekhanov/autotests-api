@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDA0OjEyOjMxLjQ0MzAyOCIsInVzZXJfaWQiOiJkOGVlMmNlNS02ODRmLTRiNDUtOTk5OC1jZTIxOTgyZjgwOWQifQ.AbEUUMvyrmv8mktE_ZB1tUDsAkWohdRwKB_sgjs4fmA' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He pretty fall majority protect.","maxScore":92,"minScore":2,"description":"Since five sport simple similar.\nMean field young. Save western apply character.\nThis strong place peace money. Commercial third east. North black short candidate reveal magazine approach receive.","previewFileId":"5f5cbf1e-9460-40ed-bfb5-6abe1acdae06","estimatedTime":"3 weeks","createdByUserId":"d8ee2ce5-684f-4b45-9998-ce21982f809d"}'
