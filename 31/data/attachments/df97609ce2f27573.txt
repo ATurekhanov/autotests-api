@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI1VDA0OjEzOjU5LjQ5Nzc2NyIsInVzZXJfaWQiOiJlNjQ3ZjkyOS1hOTVjLTQ5NDUtODYwNC0wOTUyNDBjMTMzNTUifQ.2N8B_ovNYu4d_3UUlLOJ0gzUtqjoDUlmNWSxRLCQn-4' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None trouble when rise site nothing interesting artist.","maxScore":68,"minScore":15,"description":"Room develop may pressure other technology including series.\nParent team discussion my green rise measure. Them concern watch mother page rather. Staff bank well pick hit.","previewFileId":"711b4deb-7246-4ca7-8dbe-5ce7094cfb8a","estimatedTime":"8 weeks","createdByUserId":"e647f929-a95c-4945-8604-095240c13355"}'

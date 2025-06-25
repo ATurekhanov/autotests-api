@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI1VDA0OjEzOjU1LjY4NTA0OCIsInVzZXJfaWQiOiI4ZWUwZmMxNS1lNjMyLTRjYWUtOWYxYS1iMTU2YzUxNWY1NDAifQ.dYGwPKuOvlUS16rYMvXQ0Ps2ve5fzl8pOQONXOzsI8o' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Present race after standard.","maxScore":57,"minScore":23,"description":"Green mind realize statement cause research. Keep seat pattern win.\nCampaign hit actually political grow argue speech. Moment lay consumer stay example recently.","previewFileId":"987c1575-a3e0-4196-8629-686af64c5dc9","estimatedTime":"1 weeks","createdByUserId":"8ee0fc15-e632-4cae-9f1a-b156c515f540"}'
