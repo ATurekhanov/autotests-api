@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI1VDA0OjQ3OjU3Ljk0OTM5NSIsInVzZXJfaWQiOiJjODMzNTZlNC0zNDAzLTQxYjYtODRlOS1hNjMwMDMxNDY2MTUifQ.aO6EqM0TSwLdiGD-2kAJY0qLfVNx1RtM4wO6Buvps5U' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When condition bed position onto.","maxScore":96,"minScore":16,"description":"Page family sort many. Well public space less long store statement. Clear power goal TV generation onto someone. Night character director movement.\nNearly agent partner level by.","previewFileId":"b58587fb-1d75-4db5-a2c7-215c742129c5","estimatedTime":"7 weeks","createdByUserId":"c83356e4-3403-41b6-84e9-a63003146615"}'

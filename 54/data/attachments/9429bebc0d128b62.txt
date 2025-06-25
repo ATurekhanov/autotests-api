@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI1VDA0OjQ3OjU4LjYyNDg4MCIsInVzZXJfaWQiOiI1MDM0MGRlNC1kYzNjLTQ4MDQtODJiOS0yYWE1NmM5ZDhlZDUifQ.cCs2ZBE7hcX40565eFp6GRbceT9HXqJGBM4RX4EHSvY' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guy goal decade ten guess per.","courseId":"21cb7ea5-3b85-4ba7-ba02-821ef870636d","maxScore":90,"minScore":7,"orderIndex":69,"description":"Beautiful no part wear work toward. Social build media be next full. Allow realize evening board middle worry.\nWhom do hard compare.","estimatedTime":"10 weeks"}'

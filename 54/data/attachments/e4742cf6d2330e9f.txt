@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI1VDA0OjQ3OjU5Ljk4NzY1MCIsInVzZXJfaWQiOiI3MzFiMGUzYy1lOWFjLTQxNjItODE3NS1mYTBhMzQ4ZTUxNTkifQ.AdSxWrQ1s9lwNvAXqD_YWjfiPNef6_c8JuhZfdOH_bg' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enjoy quality wife impact begin.","maxScore":81,"minScore":22,"description":"Not model option price inside both here. Operation sea toward nearly real adult per. Girl step four sort hotel experience.","previewFileId":"95a37e07-0cb9-4900-b5c4-f295e2859ab8","estimatedTime":"3 weeks","createdByUserId":"731b0e3c-e9ac-4162-8175-fa0a348e5159"}'

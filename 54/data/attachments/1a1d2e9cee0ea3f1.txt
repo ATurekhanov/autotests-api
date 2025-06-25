@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/648940ee-8b40-4b0c-92b7-a007ebcef3fe' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI1VDA0OjQ3OjU1LjE3MzQwMSIsInVzZXJfaWQiOiIzMDUwMmQxZi05YmExLTQxOTItOGE5Ny1kMTM0ZTA4OGRmYzUifQ.RhsUyyx4AtOUHcpVaknI9hRwH8NgoAtNPejJBrwIacM' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enter whether high range really require.","maxScore":81,"minScore":17,"description":"Range reach Democrat usually choose mention chair. Kitchen field fish knowledge spring miss.\nChallenge threat interview threat. Serious military good theory. Friend some source sea.","estimatedTime":"7 weeks"}'
