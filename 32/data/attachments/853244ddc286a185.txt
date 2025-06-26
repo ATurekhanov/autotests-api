@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDA0OjEyOjE0LjU4MTY3MiIsInVzZXJfaWQiOiI5NzVhMjgxYi01ZWYzLTQ4MTYtYTg0MC1jY2M0YjIxZDgwMDEifQ.GTCuw4Bv-t42vxoeuZKL_ju7TivsR3rNHY22k0F7T90' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Couple let care party.","courseId":"7bcd757f-fd0d-4304-a939-b6cf252928bf","maxScore":96,"minScore":19,"orderIndex":26,"description":"Number husband million six. Happy arm player age us five listen.\nChild animal knowledge large that something. Surface yet bring yourself.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDA0OjEyOjE2LjA3MTY1NSIsInVzZXJfaWQiOiIzNWVjMjJhYy1hNzAwLTRiNDktOTQyOS02NjA0MTU2YzVkZjgifQ.pptw9kt0i_jggG88zDIIUVD0VwgJxFwfzNhAjxEK5ZY' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out red chair rise war there almost.","maxScore":62,"minScore":27,"description":"Imagine part born go hope. Possible public space successful TV. Recent employee theory Mrs.\nOrder grow old responsibility degree. Community attack so where exactly.","previewFileId":"eda32247-4aac-4830-83f1-f34c50ecda1e","estimatedTime":"10 weeks","createdByUserId":"35ec22ac-a700-4b49-9429-6604156c5df8"}'

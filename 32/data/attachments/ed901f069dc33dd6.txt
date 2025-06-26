@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDA0OjEyOjE2LjczOTkwNSIsInVzZXJfaWQiOiIyMjMyMzBhNi0zZTE5LTRkM2UtYjVhMC01ZWVkZmViY2M0Y2MifQ.USoXxbbs_W4Wn9iwZ-JRaXxc_iAw2erSs7WNUlJu-oY' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything teacher coach television.","maxScore":54,"minScore":27,"description":"Property let home vote direction. Western live position break carry.","previewFileId":"33632248-2b13-4e12-bc2b-2192953a6ab5","estimatedTime":"7 weeks","createdByUserId":"223230a6-3e19-4d3e-b5a0-5eedfebcc4cc"}'

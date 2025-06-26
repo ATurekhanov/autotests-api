@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDA0OjEyOjEyLjI2MDM0MCIsInVzZXJfaWQiOiI4YzAxYjM4Ny1lYTBmLTQ5NDQtYmQxZC0yZTVjYzQxOTUwODMifQ.e30LxG4ADEMEZ_rFMEi5zp1paIb3-6II3K5YYvt-qq8' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair one article guess matter summer.","maxScore":93,"minScore":6,"description":"Write option method pass total staff.\nMust part explain budget sister. House catch attention whether. White coach stuff attack market under.","previewFileId":"6ac54e19-6e73-4a20-8ea6-69b78e6842e9","estimatedTime":"10 weeks","createdByUserId":"8c01b387-ea0f-4944-bd1d-2e5cc4195083"}'
