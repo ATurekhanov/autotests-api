@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDA0OjQ2OjEwLjA0Mjk3NSIsInVzZXJfaWQiOiJjMzM3ZWJhMS05ZTQyLTRlYjUtYTk2Ni1iNzNiMzU0OWQ4NDAifQ.d4pmCkNdcacuv9DI6USfsGTLDNt26GxZfjYirT829jU' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Themselves lawyer skin talk along.","courseId":"e8b1fb94-655c-4682-85b5-4ca95f3f7f34","maxScore":53,"minScore":25,"orderIndex":4,"description":"Vote up ball amount. Tonight professor plant stuff leg. Actually spring trouble responsibility.\nHappen later interest most attack opportunity security. Project explain expert.\nCenter subject whole.","estimatedTime":"10 weeks"}'

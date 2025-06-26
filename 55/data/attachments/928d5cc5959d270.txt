@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDA0OjQ2OjA3LjM2NjI0OSIsInVzZXJfaWQiOiJlNmI3NDEzNi1mMWExLTRkMDctOTg2NS1jMzJlODI4OGViMDEifQ.3vvVZ19z9miRbHSFO6Yn_KJwhozXeHJx_zsGfBxxKGA' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"For possible like walk cut.","maxScore":72,"minScore":21,"description":"Think prepare little. Message such however enter glass. Response win feel fact support.\nSuccess reduce actually ability. Environment newspaper country ball member speak authority within.","previewFileId":"740b2837-400c-4bb6-9fc6-465e0e7d1d8f","estimatedTime":"10 weeks","createdByUserId":"e6b74136-f1a1-4d07-9865-c32e8288eb01"}'

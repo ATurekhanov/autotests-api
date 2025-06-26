@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cd20ef9b-c7b4-4a19-aac7-0e79c3efb0e3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDA0OjQ2OjA2LjIyMzU4MyIsInVzZXJfaWQiOiIwMDBmZmJhNi0zYzNmLTQwOGEtYjI3YS01Yjk0ZDJmZTY5OTkifQ.1rk8u60LFuwnGT1dU8ZXCJDU8zNc16mhCXBxEnwmt0M' \
+  -H 'content-length: 229' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime collection one.","maxScore":96,"minScore":10,"description":"Can seek economy appear act once. Explain mission close federal same learn energy past. Off western I election bank sit land.","estimatedTime":"5 weeks"}'
