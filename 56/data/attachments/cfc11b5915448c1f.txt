@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjQ2OjAxLjM1MTkyOSIsInVzZXJfaWQiOiIwZmJmZjQwMS1hMDRhLTRjOGMtOGQyMy0wYWExYjE1OTNiMDIifQ.YF4S9qVsMsPLWAMyGBLQMWH4Ot8Qla4vYZbHBYmMZ7Q' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy already step during.","maxScore":69,"minScore":13,"description":"Number everything sea thought record stand. World nice knowledge that system wear appear kind.","previewFileId":"bc812a01-7c9e-44fc-aba8-5ca8bcbf338b","estimatedTime":"9 weeks","createdByUserId":"0fbff401-a04a-4c8c-8d23-0aa1b1593b02"}'

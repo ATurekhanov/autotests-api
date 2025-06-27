@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjQ1OjU5LjIyMTQ3NiIsInVzZXJfaWQiOiIwMzRhN2Y3MC00MGMzLTQwMGQtYWYwZi0zMmJmNTM1ODY3MmEifQ.7CqGjsmQjNMYpXbm7urPZOMLclEDhb3FMS2GlZYAnAc' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leader rock laugh real computer not ten.","courseId":"76090d9b-472e-43a5-8584-fe8254ef5fb9","maxScore":73,"minScore":25,"orderIndex":84,"description":"Save sell forget indicate push program away eat. Well grow inside report manage alone risk.\nRecognize able ago home. Actually director western.","estimatedTime":"6 weeks"}'

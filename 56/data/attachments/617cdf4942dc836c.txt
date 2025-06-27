@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjQ1OjU5LjQ5NDM4NSIsInVzZXJfaWQiOiJkYzhhM2RjYi1iNzE0LTQyMTgtOTIwNi0yYWY0NTFjNDc1MzEifQ.4kjNswC_oi3wU1oKQ5m_3CXGQryR1CWSe4xnerPzs50' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But arm property pick fund.","maxScore":54,"minScore":23,"description":"Hand certain your. Moment standard forward government.\nCell measure hotel today cost. Note medical important attack long.","previewFileId":"da0b3ad7-ee11-4cfb-a70e-9be3b0d1ae52","estimatedTime":"9 weeks","createdByUserId":"dc8a3dcb-b714-4218-9206-2af451c47531"}'

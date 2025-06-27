@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3f591d1f-56e8-48ab-9848-92674b8d9bf2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjQ1OjU2LjkxOTIxMSIsInVzZXJfaWQiOiI3YjQ1NmZkMS00MTZkLTRiYzItOWUxYy00NGRlOTM3OTBjOGUifQ.NDol-xJDdU1ecpqmC7ndu5tKi8lcs9qGWHNC0e0yptM' \
+  -H 'content-length: 248' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court family girl feel subject side box.","maxScore":55,"minScore":11,"description":"History skin fact. Most trial teacher painting church.\nTraditional must nice start. All watch car follow difference society.","estimatedTime":"2 weeks"}'
