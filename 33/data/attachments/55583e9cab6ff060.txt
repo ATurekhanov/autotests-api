@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjEzOjI4LjczOTE4MSIsInVzZXJfaWQiOiIzYjQ2MmM3NS0yYTQ2LTRhNWEtYWQ3Mi0yNTQwMjc0MDRjNjIifQ.pAC6qRU3CwkyWoyIaL4hDN-oIscTI2qsIiPMmGzWPKY' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank risk short gas.","maxScore":58,"minScore":26,"description":"That election best dog sense soon. Try herself case system.\nBy set prove leg. Tonight idea game similar quality almost.","previewFileId":"27255bb2-ff2a-41a4-995f-d235a1704630","estimatedTime":"5 weeks","createdByUserId":"3b462c75-2a46-4a5a-ad72-254027404c62"}'

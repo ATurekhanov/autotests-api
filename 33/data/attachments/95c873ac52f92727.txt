@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjEzOjMxLjM0MDIyMiIsInVzZXJfaWQiOiJjMDZhOGQ4OS1iYWQ2LTRmMzQtOTRjNy0zOWNlZTA1MTZmYmQifQ.bnORHR83_e3INjKj5mcFSu3JntCeN1Kuf4DJD7QfC7o' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern system student.","maxScore":92,"minScore":9,"description":"Drive general head produce floor. Standard senior once plant while everything particular.\nMedical design all.\nEnvironment turn off grow provide. On short his owner.","previewFileId":"f7ade901-4ddf-4061-aecb-d43052008a06","estimatedTime":"9 weeks","createdByUserId":"c06a8d89-bad6-4f34-94c7-39cee0516fbd"}'

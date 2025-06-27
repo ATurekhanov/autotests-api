@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=ef1c5c60-d7f1-48f2-ae1e-1eafe12efd4d
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises?courseId=ef1c5c60-d7f1-48f2-ae1e-1eafe12efd4d
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 1c5fc8ce-5cb0-4d8b-8279-2c4d7c1a46f3
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Call big child those easy worry somebody successful.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to ef1c5c60-d7f1-48f2-ae1e-1eafe12efd4d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 99
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 72
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Season parent financial factor structure movie walk. Relate group green charge will change move list. Arrive sure detail.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

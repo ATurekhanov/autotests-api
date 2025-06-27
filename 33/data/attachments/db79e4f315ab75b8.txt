@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjEzOjI5Ljg4NDczOSIsInVzZXJfaWQiOiI3ZDZiYTY1Ny00NWMwLTQ4NmQtOTBjOC1lMTkxNmRjMjM5OWYifQ.ZxeYfRudPPdiMSco2tI9EVP_krG_x8lyYWFWNTCZqD8' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Church minute dream generation above position include.","maxScore":85,"minScore":6,"description":"Guy evidence accept impact you ten. Color send throw hear over adult throughout.\nYou wind drop whose only. Heart current race town try fear firm. Such former word city cost surface what memory.","previewFileId":"d3099f5d-0173-4d9d-ad14-40636dd06b36","estimatedTime":"4 weeks","createdByUserId":"7d6ba657-45c0-486d-90c8-e1916dc2399f"}'

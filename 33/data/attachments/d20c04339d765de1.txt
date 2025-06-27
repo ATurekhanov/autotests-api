@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f65e68f5-227b-46d8-a4e1-4861dc82d247' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjEzOjMzLjIxODE3NiIsInVzZXJfaWQiOiI2Y2U1MTg1Mi0wMGI2LTQyNDctOWRhZS1jNDYzNzY0YzgyNTQifQ.xjTprYfRjlQzkzwer7t4G909oKkmPz88GAdqYaGLn54' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Factor four president method reveal another five.","maxScore":70,"minScore":9,"orderIndex":71,"description":"Above hot scientist though PM best personal right. Thing garden my treat population movement. The find marriage interesting employee door but.\nOver create risk. Try son look scene wall first.","estimatedTime":"4 weeks"}'

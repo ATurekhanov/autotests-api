@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjEzOjMyLjU2MzU3MyIsInVzZXJfaWQiOiJjZDNjMDEwNC1iYzkwLTQ4OTAtYmZhOS01YjM3M2FjZjM4NzgifQ.ytTGYT55PgOYktgiBf1_vJexTdmnV7h2GJbs_v2uypA' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Central player option onto side.","maxScore":53,"minScore":18,"description":"Remember begin news tell that tough magazine thank. Tonight already mind play argue write.\nCapital beat about now side. Family marriage then range impact prevent.","previewFileId":"db482ef4-f023-4aff-be21-9b05acd276dd","estimatedTime":"1 weeks","createdByUserId":"cd3c0104-bc90-4890-bfa9-5b373acf3878"}'

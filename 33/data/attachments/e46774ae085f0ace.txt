@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDA0OjEzOjMxLjk3ODA2MiIsInVzZXJfaWQiOiI0NTQxN2QzNy0wNTdiLTRmMDYtYWQzYi05YWQxODc1ZmU0ZDIifQ.RNJTn3Jl0YV3CFNW85BvbpU7aKadoPZD2cmPGVcu190' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black store really kid.","maxScore":73,"minScore":13,"description":"Your medical sea together film drop. Allow bad author bad cut.\nResponsibility people down will southern rock speak human. Wide for effort foreign. Entire final boy attention.","previewFileId":"f7fe9e41-9b83-4527-aacb-9c1fcef112ee","estimatedTime":"9 weeks","createdByUserId":"45417d37-057b-4f06-ad3b-9ad1875fe4d2"}'
