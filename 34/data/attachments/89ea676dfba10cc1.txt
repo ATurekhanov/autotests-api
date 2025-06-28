@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a22f7911-f9f2-450b-b3be-a610ab2e45ab' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDA0OjA4OjEzLjU0OTk0OSIsInVzZXJfaWQiOiI3YzBlZmU5ZS1lZDVhLTRkODktODhiYi0yZTU0YmQ4OGNmYzQifQ.BkdwzxaobXR_Y74MR_gA0iXEI0PZLWXv5Z1xsXmwtME' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Away able knowledge yeah.","maxScore":59,"minScore":2,"description":"Final little during social energy house. Hit minute both miss modern will despite compare.\nNot authority less source.\nFirst large day carry high win. Stuff situation popular long.","estimatedTime":"5 weeks"}'

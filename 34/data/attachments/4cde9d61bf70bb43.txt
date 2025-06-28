@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDA0OjA4OjE2LjE2NzcxOSIsInVzZXJfaWQiOiJmZmYzNWVjMy00NDM1LTQ0Y2UtYjA2OS04NTc4NzY4NjUwZmMifQ.GdpoQvKBx0AVUeHsuCpP8QpQVG-SDur0oeY_ClUd32g' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Important recent moment anything suggest.","maxScore":73,"minScore":2,"description":"Option play job change maybe. Hospital trip event parent.\nAuthority land material cost role true another data. Together late none feel attorney.","previewFileId":"f2e7b54a-9202-4c0e-9e21-d0043bd4a990","estimatedTime":"2 weeks","createdByUserId":"fff35ec3-4435-44ce-b069-8578768650fc"}'

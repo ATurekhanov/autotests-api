@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDA0OjA4OjE2LjE2NzcxOSIsInVzZXJfaWQiOiJmZmYzNWVjMy00NDM1LTQ0Y2UtYjA2OS04NTc4NzY4NjUwZmMifQ.GdpoQvKBx0AVUeHsuCpP8QpQVG-SDur0oeY_ClUd32g' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert occur father car agree wind along.","courseId":"806b286d-0aab-40f3-8902-1c3c2d8f3669","maxScore":86,"minScore":18,"orderIndex":52,"description":"Pass entire front the talk skin turn car. Image eight reason because watch building.","estimatedTime":"4 weeks"}'

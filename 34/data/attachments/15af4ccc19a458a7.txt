@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDA0OjA4OjE4LjA2ODY0OSIsInVzZXJfaWQiOiJmNjM1ZWExZC01MmIyLTQzNzMtODMwZi1hZTNkMzgxYzk3ZWMifQ.879HScB4hb4N-Il9VDnV4bX-EpRRK3TIC4oS1qPTux8' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wonder nearly address south.","maxScore":79,"minScore":28,"description":"Modern maybe difference. Be box born data. Catch woman knowledge wonder represent perform against. Send present point work.","previewFileId":"19812308-55da-4470-81f6-0be69e2cb895","estimatedTime":"10 weeks","createdByUserId":"f635ea1d-52b2-4373-830f-ae3d381c97ec"}'
