@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDA0OjMxOjM4LjYzMTQ1NiIsInVzZXJfaWQiOiJlNzNhZjcwZC1iMzQwLTQ4NzItYjNhNi0yOTNlOGMzMjMyYTgifQ.aHC35V3qFH_89E9ISwqpTr4yx4EDF1WJUE_uXBVl9J4' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly would participant year.","courseId":"af3e1c19-36d6-4e61-8d78-4ccf79058fb3","maxScore":78,"minScore":25,"orderIndex":47,"description":"Few material safe career power.\nNever maybe fish other church organization. Another involve perform public nothing.","estimatedTime":"7 weeks"}'

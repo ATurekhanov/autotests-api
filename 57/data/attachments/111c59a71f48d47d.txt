@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/0f872e33-c742-462c-869a-a09607d63ef5
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/0f872e33-c742-462c-869a-a09607d63ef5
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 0f872e33-c742-462c-869a-a09607d63ef5
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Bar model people space great.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to b4ae4851-8faf-406f-8ddb-d3831d4f7452
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 79
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Care thank threat try power theory nothing. Music structure card own government keep apply. A natural tonight law skin analysis.
+Increase painting team according or. Key common century.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

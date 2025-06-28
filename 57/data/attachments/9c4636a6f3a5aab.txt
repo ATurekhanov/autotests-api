@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDA0OjMxOjM0LjE1NjI3MiIsInVzZXJfaWQiOiJiODQ3OTI4My1kYjZhLTQ2ZDEtOWM1YS1lMzA3NzM3YTYzMGMifQ.NJevOrT-U7rLAdItS6zzpuQd4RreHS3NqPOjbqgXy8E' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fact family firm set.","maxScore":55,"minScore":19,"description":"Peace everything actually likely wrong appear health. Throughout onto owner. Manager situation piece hard poor large section black.","previewFileId":"d24e6f32-30ae-4ee5-8438-10f8822e5c9d","estimatedTime":"3 weeks","createdByUserId":"b8479283-db6a-46d1-9c5a-e307737a630c"}'

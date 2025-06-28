@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2c96dbb2-c2d1-40b6-abc5-fb30bc9b36a3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDA0OjMxOjM0LjE1NjI3MiIsInVzZXJfaWQiOiJiODQ3OTI4My1kYjZhLTQ2ZDEtOWM1YS1lMzA3NzM3YTYzMGMifQ.NJevOrT-U7rLAdItS6zzpuQd4RreHS3NqPOjbqgXy8E' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final represent season position president reveal against.","maxScore":76,"minScore":10,"description":"Society low draw item each hotel begin. Understand pay indicate worker never drop.\nAssume account most research. Good benefit view hope most. In newspaper week outside bad.","estimatedTime":"4 weeks"}'
