@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI5VDA0OjIxOjI0Ljg0Njg5NSIsInVzZXJfaWQiOiJlNWYwY2FiNy1hMTlkLTRiOTAtYWY4OS1kZDg4YWI0YmE2NmEifQ.6gaE1hH9AIL570hCpCmNqfdCN7epXICF-n5nPZcw94Y' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth finally society purpose.","courseId":"0ccdfa0f-592e-4254-a539-cfc30a188b5f","maxScore":84,"minScore":5,"orderIndex":67,"description":"Much discussion Congress method know. Religious set effort push today.\nConsider share Democrat economic level affect. Fight plant what yet. However yard appear business truth air.","estimatedTime":"10 weeks"}'

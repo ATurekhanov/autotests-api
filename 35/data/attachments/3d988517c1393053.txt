@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI5VDA0OjIxOjI2LjA3NTI4MSIsInVzZXJfaWQiOiJlODU0Nzc2NC1mMDNhLTQ2ZmUtODU5Zi05M2FlYjI2MWFlOGIifQ.VbMifh21vEX4wasFDQLVFjj0amwFgYujSQNadiM2Wt0' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive whom may which while.","maxScore":90,"minScore":15,"description":"Indeed lose bank full involve condition. Nothing citizen Republican relate poor. Evidence collection write attorney.","previewFileId":"7a5294a0-ad33-44cd-8baa-6816c6ffa48c","estimatedTime":"2 weeks","createdByUserId":"e8547764-f03a-46fe-859f-93aeb261ae8b"}'
