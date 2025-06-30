@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/84c88617-5658-4151-a2fc-75e85b59b018' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjUwOjIyLjgwNzM5NiIsInVzZXJfaWQiOiIwY2YwMWIyNS00ZWI5LTQyYTItODlmYy0yZTBiYzdiYWRhZWIifQ.OjcaC6VOTwoLFBfQllgX3K3NDwxyjtE0Yn5_JxgPwxA' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street teacher use would.","maxScore":75,"minScore":9,"description":"Gas different its join drug. Soldier front Mrs economic imagine eye health minute.\nTo break admit fine culture push million yes. Painting war hair. Weight his production life down whom along the.","estimatedTime":"6 weeks"}'

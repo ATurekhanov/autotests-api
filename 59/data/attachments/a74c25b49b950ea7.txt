@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjUwOjI3LjMwMDA2OSIsInVzZXJfaWQiOiJlZTQ0ODRhNy1kOWQzLTRiYmItODNjMi03MTBkOTVlZDQ2MWEifQ.S20XsmnuY6sLZBTU-DmetC-IConQR8G7bB1YA03cmFQ' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure future film cell hand.","maxScore":75,"minScore":9,"description":"Ground strategy bed nearly drop finally maybe. Forward shoulder win picture her.\nAccording paper especially program maybe growth result safe. North social teacher leg moment.","previewFileId":"dc6ac949-98ae-45b0-adfe-0e419a700945","estimatedTime":"4 weeks","createdByUserId":"ee4484a7-d9d3-4bbb-83c2-710d95ed461a"}'

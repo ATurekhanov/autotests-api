@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjUwOjI2LjA0OTMzMiIsInVzZXJfaWQiOiIwZDZiZWJjOC0yNDQ3LTQzOWEtODUzOS1kZDhhYTBiMTYzOTIifQ.vNweHlgXSQoKlxc1VmqTWkzKNt5ifUuBzQjXwig2Wks' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bag whether agree every.","maxScore":59,"minScore":13,"description":"Executive style people contain sing write wonder himself. Board beyond charge until. Sure serious firm forward above better.\nPm road couple cost receive. Same night use particular million project.","previewFileId":"1901c800-7215-4856-96f5-06a014319d70","estimatedTime":"5 weeks","createdByUserId":"0d6bebc8-2447-439a-8539-dd8aa0b16392"}'

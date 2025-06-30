@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjUwOjI2LjYzMjMwMCIsInVzZXJfaWQiOiIxNmNkNjRiZS01ZTU2LTQzZmEtYmIyMy1kYjUwOTBhY2RjMTAifQ.ekZjoE7C7NgjOR2G8gfKHn90QqvYWGJZIdWvKhn1rP0' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Result without perhaps woman white.","maxScore":86,"minScore":6,"description":"Conference lose official himself leave body. Including large draw well impact after.\nPopular pretty account parent field. Throughout pretty hotel whatever. Environment apply her cup.","previewFileId":"bf22503c-461c-41b2-adbf-078439c20878","estimatedTime":"4 weeks","createdByUserId":"16cd64be-5e56-43fa-bb23-db5090acdc10"}'
