@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjE4OjU3Ljg5NDM2MyIsInVzZXJfaWQiOiIzZDVkYWE2Yy1mM2IzLTQ4ZTMtOTI3NS05MTA5MWE1ZWE3MjQifQ.EOq7nhJ091mdhDifUVUcxVbeBzOl-z7N4CabDwYSXTg' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then country budget bad wall physical measure individual.","courseId":"f5376136-643e-4e4e-90f6-735e973e1ab3","maxScore":70,"minScore":8,"orderIndex":86,"description":"Both think even difficult administration hold. Different glass price guy.\nSend himself course rock bank. Call assume race treatment in painting provide. This pick new course already.","estimatedTime":"6 weeks"}'

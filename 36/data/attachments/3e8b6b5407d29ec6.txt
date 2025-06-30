@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjE4OjU4LjUwMzc3MiIsInVzZXJfaWQiOiJlNzVhODhhOC1jZGY0LTRjZDEtYmE3OS1jODZhMGY5NjhkYTEifQ.x6zar0-wqiV5J28-DQe2eXMb1xHsvv_RN-Jpy-TiPh0' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine trial child forget security girl property peace.","courseId":"90ad24cc-787f-4bcc-9787-8d9f56ad28bc","maxScore":87,"minScore":20,"orderIndex":11,"description":"Several family pretty citizen into grow while by. Nearly response prepare recently much medical. Commercial Mr impact nor wall seem large. Local social poor language address statement answer.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/600daf99-4fcf-43d1-89fd-d41106789bee' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjE4OjU0LjAxNTMxNyIsInVzZXJfaWQiOiIwNzViNzdiNi1mZDVhLTRjZDUtYjRhZS1hMzE2NzczODFlZmUifQ.udyHjkim5LqRRj37zzN4lCh2240QeaK4k6fd2_4F6tM' \
+  -H 'content-length: 188' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Let she decision.","maxScore":78,"minScore":21,"description":"Ready certain before concern food issue agent. Grow they heavy nation goal teach effort.","estimatedTime":"6 weeks"}'

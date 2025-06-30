@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjE4OjU4LjUwMzc3MiIsInVzZXJfaWQiOiJlNzVhODhhOC1jZGY0LTRjZDEtYmE3OS1jODZhMGY5NjhkYTEifQ.x6zar0-wqiV5J28-DQe2eXMb1xHsvv_RN-Jpy-TiPh0' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century organization cut cup.","maxScore":52,"minScore":21,"description":"Executive development week safe paper piece. Pass record natural space hair laugh act. Minute goal leader wide.\nProduct control brother benefit scene. Street individual over office exist.","previewFileId":"a7e54bc5-9fae-4def-a3d1-44e8dbecce4e","estimatedTime":"4 weeks","createdByUserId":"e75a88a8-cdf4-4cd1-ba79-c86a0f968da1"}'

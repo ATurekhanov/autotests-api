@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjE4OjU3Ljg5NDM2MyIsInVzZXJfaWQiOiIzZDVkYWE2Yy1mM2IzLTQ4ZTMtOTI3NS05MTA5MWE1ZWE3MjQifQ.EOq7nhJ091mdhDifUVUcxVbeBzOl-z7N4CabDwYSXTg' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Current off seek western better moment.","maxScore":58,"minScore":26,"description":"Education none group something. Dog story positive be. Protect service usually they magazine fact full those.","previewFileId":"6a075a8f-15ac-4f22-8fcb-06d2d52db493","estimatedTime":"2 weeks","createdByUserId":"3d5daa6c-f3b3-48e3-9275-91091a5ea724"}'

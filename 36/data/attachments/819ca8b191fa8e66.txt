@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjE4OjU1LjUwMzc3MiIsInVzZXJfaWQiOiI3ZjQxNTVmMi05ZmUzLTRhNDgtYmVlMi00N2ZmYzkyMjMyMDAifQ.J-KaR4zA21Z6XKDWwmbYpAc2DciHpPHwi7B1JErKzaY' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Special read whole happy.","maxScore":93,"minScore":8,"description":"Serious tax authority. This sometimes speak type wall sell. Myself event everyone bag.\nSuffer activity send recognize. Modern performance piece price early. Stop writer lose particularly.","previewFileId":"72fe55f3-d8b6-4fba-8ba7-bba5b2b6218f","estimatedTime":"8 weeks","createdByUserId":"7f4155f2-9fe3-4a48-bee2-47ffc9223200"}'

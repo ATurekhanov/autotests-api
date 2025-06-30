@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDA0OjE4OjU0LjkxODcxNCIsInVzZXJfaWQiOiJiOGI0NTJlMS1kMTVhLTRlNzAtOGNlYy1hYTgyM2MzMGQ0OGIifQ.h81oADI3TQIZR2OIlbCB8actqHPMO22AMYu4SXElUOQ' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern collection trial executive into since girl.","maxScore":61,"minScore":9,"description":"Key true authority best send. Probably page benefit kind figure quickly. Public cup already down company carry. Everyone establish quickly cup interview.","previewFileId":"c3d0af9a-0f4a-4330-bb9f-69ef62deb23d","estimatedTime":"9 weeks","createdByUserId":"b8b452e1-d15a-4e70-8cec-aa823c30d48b"}'
