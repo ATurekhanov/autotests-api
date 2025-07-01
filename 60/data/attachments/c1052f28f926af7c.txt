@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjU1OjMxLjg3OTk4NSIsInVzZXJfaWQiOiJiNDg2N2EwZi00NTk4LTQyNDctYWFkMy1jMjAwNzQ1MGNiNmYifQ.rZOiAN5IoeN0Y88OkCzpA2vcL-AHFW2nh5770ZWUPE4' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sort sister response worker thing cultural inside hour.","maxScore":93,"minScore":24,"description":"Involve deal month but. Success produce news entire similar something.","previewFileId":"dc8a2537-39a1-428a-ada6-3e7f07982bc5","estimatedTime":"2 weeks","createdByUserId":"b4867a0f-4598-4247-aad3-c2007450cb6f"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/62c461c2-5da2-4742-95d3-ac6994869a73' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjU1OjI4LjY0OTA3OCIsInVzZXJfaWQiOiI0MjIxZDI4Yi1jNTgwLTRjOGQtOWZhOS03OGE5NGY4ODAxYmQifQ.qzFjcQYcLABVXBobFaRQyt7KiIPHLE3T2Ryrp9qUyJQ' \
+  -H 'content-length: 225' \
+  -H 'content-type: application/json' \
+  -d '{"title":"American unit color situation more cover.","maxScore":94,"minScore":30,"description":"Report always six past. Control military throw PM member. Relate action house size myself can become.","estimatedTime":"4 weeks"}'

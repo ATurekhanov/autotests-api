@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjU1OjI5Ljc5MDQ5NiIsInVzZXJfaWQiOiJmMzNmMDk3MS02YTdlLTQwYTMtYjU4MS1mMWZiNDI3MzUwNDYifQ._0-60K_VMDV9wp0CcwfTNF8iqnYVvuV9pguWXa5_1LI' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nearly thing marriage myself better between day.","maxScore":50,"minScore":4,"description":"City property skill hit improve it let.\nSpeech whether institution share prove economy project. Building clear seek above individual food data walk. Society marriage information.","previewFileId":"6662510a-e813-494d-b074-0f9ba105a1a4","estimatedTime":"8 weeks","createdByUserId":"f33f0971-6a7e-40a3-b581-f1fb42735046"}'

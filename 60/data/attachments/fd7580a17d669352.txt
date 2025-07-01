@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjU1OjMyLjQ3NDAzMSIsInVzZXJfaWQiOiIwZTg1NmIzMi1lMjI0LTQ0NTItOGI1Ni0wYTRjNWM0Y2U5N2YifQ.8FDZYUp9QPoz4u1f2YLgZ328oReQVb7xto_5EPXSKPo' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According be sense.","maxScore":94,"minScore":29,"description":"Religious will nice guy nation record could. Affect significant practice learn senior life race.\nSuccessful compare happy child camera which pretty.","previewFileId":"a5181da7-3ca6-48d4-95fe-20f82bf558d3","estimatedTime":"8 weeks","createdByUserId":"0e856b32-e224-4452-8b56-0a4c5c4ce97f"}'

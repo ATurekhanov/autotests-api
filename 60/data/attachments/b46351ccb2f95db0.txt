@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjU1OjMxLjIzODczMyIsInVzZXJfaWQiOiJkNTcwOTMzMy05YjlkLTQzZWEtYjZhYS1lM2FiZTY5OGJjNTcifQ.irhpvnM74fZMOjta7gwvTnsJHlZWsrtWLd97EvshQUQ' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lawyer send moment peace.","maxScore":55,"minScore":23,"description":"Cause think short son yourself. Success section off drop people realize. Participant sit easy hold government player actually.","previewFileId":"c45bfb88-d370-4c8b-b369-759409e3381a","estimatedTime":"7 weeks","createdByUserId":"d5709333-9b9d-43ea-b6aa-e3abe698bc57"}'
