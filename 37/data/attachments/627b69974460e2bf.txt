@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjI0OjQ0LjYyOTIzMiIsInVzZXJfaWQiOiIzN2I4NWY4OS00ODBmLTRmZWYtOWUxYi00ODc0ZDY1MTNkN2MifQ.MT7XhozEG6Qzd_8Ljm--TUwdwCx-0Vc-5tYu7Cr-W6I' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Else really all raise rise.","maxScore":92,"minScore":12,"description":"Month city learn. Start be the large require. Pay thank together agreement build record.\nStuff so look positive before. Then road turn report break.\nBetween question story deep wait key present.","previewFileId":"db81d5ed-ddab-4185-9137-52a01c2d9650","estimatedTime":"5 weeks","createdByUserId":"37b85f89-480f-4fef-9e1b-4874d6513d7c"}'

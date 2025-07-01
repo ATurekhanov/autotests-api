@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjI0OjQwLjEwNTE2OCIsInVzZXJfaWQiOiJmNDIyZWJmNC0yOTUzLTRkNmItYWJkMi1mMDIwMjI0OWNjMmMifQ.QfA6YKK64falmO74y6ouLedbtmZHWZOodZKQKF4Ze1M' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If people relationship along drug police.","maxScore":76,"minScore":16,"description":"Consumer pay make company. Soon he agree shoulder.\nEconomic else though least early. Word section economic phone machine.","previewFileId":"34729e85-0010-4d41-a9b9-0aa2a7c660ac","estimatedTime":"1 weeks","createdByUserId":"f422ebf4-2953-4d6b-abd2-f0202249cc2c"}'

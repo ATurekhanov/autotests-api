@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjI0OjQzLjM1MTY4OCIsInVzZXJfaWQiOiJhNmFmZTU2Yi1mOWZjLTRmNmYtOGExNy1hMGJjYmNmZWVmZmMifQ.i3qV2m8J_zrA8U2um--Qu8VmeSP3E7jyDUQIFvYMieY' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hear increase break.","courseId":"d6f611ce-17ce-4137-8093-9835a19163bc","maxScore":86,"minScore":17,"orderIndex":26,"description":"Gun man structure read member leg politics act. Issue trial view. Which together budget artist next skill smile.","estimatedTime":"3 weeks"}'

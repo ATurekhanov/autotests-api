@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDA0OjI0OjQzLjM1MTY4OCIsInVzZXJfaWQiOiJhNmFmZTU2Yi1mOWZjLTRmNmYtOGExNy1hMGJjYmNmZWVmZmMifQ.i3qV2m8J_zrA8U2um--Qu8VmeSP3E7jyDUQIFvYMieY' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just human bag reflect walk member dream.","maxScore":69,"minScore":23,"description":"To sort language nearly really think institution. Too most style piece animal.\nDegree example store like. Dream person season politics never standard. Congress us audience.","previewFileId":"cf486569-ec17-41cb-816f-1637c60de181","estimatedTime":"7 weeks","createdByUserId":"a6afe56b-f9fc-4f6f-8a17-a0bcbcfeeffc"}'

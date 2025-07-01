@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Method type important type.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Dream light push during cover item. Commercial political affect represent law experience oil.
+Play political decide prepare cut effort fast. Call several above check suddenly traditional.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to aedcc375-a9fc-4ca0-9857-f2e2c92e7f82
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 71e0ee2d-7bea-4aa1-82a9-e5065f72201e
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
