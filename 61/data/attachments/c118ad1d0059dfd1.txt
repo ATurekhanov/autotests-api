@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAyVDA0OjQ3OjMwLjkyODAwMyIsInVzZXJfaWQiOiI4YzA0MGEzNS1iYTcyLTQ3MGEtOWM3Yi05ZDhjMmQ1ZGExMzQifQ.XnnQdSGXcw4jajyg4egfnWd812IvKhncobzbnE8jFxo' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court until conference region allow conference majority.","maxScore":97,"minScore":13,"description":"Real sea food outside itself draw result. Adult Republican PM play appear rest. Fear society all.","previewFileId":"41949f84-aab5-46d8-ada7-fb59706f9d9b","estimatedTime":"3 weeks","createdByUserId":"8c040a35-ba72-470a-9c7b-9d8c2d5da134"}'

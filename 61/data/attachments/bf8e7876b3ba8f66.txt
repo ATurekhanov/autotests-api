@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAyVDA0OjQ3OjI5LjcwNDAwMCIsInVzZXJfaWQiOiI0YzE2ZWFmYi1kODFkLTQyZjMtOTBlYi0xMWU0MWVmNGU1ZWMifQ._-LXiXWdVTreafen1VQYpH9jL2CFFurZwoIo8i27e7Q' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kid be hotel establish involve rest project.","maxScore":50,"minScore":9,"description":"He pass down question. Born represent next our human foot black likely. First record arrive learn himself standard.","previewFileId":"2ca299b6-7aa7-4cf6-9dc0-03629e648846","estimatedTime":"1 weeks","createdByUserId":"4c16eafb-d81d-42f3-90eb-11e41ef4e5ec"}'

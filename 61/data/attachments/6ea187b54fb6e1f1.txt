@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAyVDA0OjQ3OjI4Ljc3NjE2MyIsInVzZXJfaWQiOiJlMDA5MWVmNy03YmU1LTQ2YjYtYWNmYy1lMTU3NDUwNDI2YjkifQ.4fSG8zCwv7MjgmgyYVrlq3soyH01zoJ5S1H2qeozHSw' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Candidate race outside memory news big itself.","courseId":"b1e4cec8-160a-4163-bffa-fbdab0bd0c1d","maxScore":52,"minScore":5,"orderIndex":30,"description":"Purpose lot majority better. Project actually worker effort. Else identify start down.","estimatedTime":"5 weeks"}'
