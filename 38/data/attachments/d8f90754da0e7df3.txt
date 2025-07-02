@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAyVDA0OjE0OjEwLjMwMTc3NSIsInVzZXJfaWQiOiIxNDQ1MzMwZi0zMTk3LTQwMWItYWM0Yi1hMDk3Zjk1ZjY2NjMifQ.vqI9BPYGlXJU7Dj7lvhKX6uyvH0JFDOxMUSlaDbmWZ8' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four table enough all lose particular.","maxScore":98,"minScore":5,"description":"That carry past door. Including bit market success ten movie arrive. Laugh final run middle.\nBreak effect including character. Weight face couple from president some special.","previewFileId":"b16e4713-5baf-4649-a955-006c3414eb6f","estimatedTime":"5 weeks","createdByUserId":"1445330f-3197-401b-ac4b-a097f95f6663"}'

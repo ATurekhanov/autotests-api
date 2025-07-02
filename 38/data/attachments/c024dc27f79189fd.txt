@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9eeca750-4dfc-4f20-8db7-8d9a29ae5ccd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAyVDA0OjE0OjA2LjQ0Mzk5NCIsInVzZXJfaWQiOiIzZWIwMmNkNS02ODE5LTQ1NjAtYjVhNC1jMGMwZjBkZTBhYWEifQ.30b0IQpGMOduCvIu5c_fBUlDclCV2NrpVXsZXcOfMhs' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough finally least treat power see community.","maxScore":85,"minScore":20,"description":"Air herself understand computer matter send medical. Act thought tonight need. Lay cause life since collection them keep.\nFall possible despite. School color hand particular day.","estimatedTime":"9 weeks"}'

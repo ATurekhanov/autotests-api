@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAyVDA0OjE0OjA5LjA4MTEyNiIsInVzZXJfaWQiOiI5ZmYxM2ZlYS01ZGFhLTQ0M2ItOWE5Ni05Y2M3YWUzZTg4OTcifQ.nkbJaK8LEMY7en0fdn-p0A-9b1WqQwtGIyFx1Jf64pk' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final now third protect condition write game.","courseId":"998f86f9-c4d2-45ad-a6b2-ba18976a89c3","maxScore":96,"minScore":30,"orderIndex":48,"description":"Type receive and do professional. Most read give response.\nHowever resource north week seat whatever. Quite from room according skill mission.\nNational exactly method actually too possible test.","estimatedTime":"6 weeks"}'

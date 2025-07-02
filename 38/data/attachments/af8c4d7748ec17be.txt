@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAyVDA0OjE0OjA5LjY2MDIxNCIsInVzZXJfaWQiOiIxMmJhYjNkMy00Y2Y5LTRhZjItYjA4Yy0wNjQwNWExNjQzODAifQ.HqVILoICjcsCWj_iJx3YnzX9p6vTv0wl7TzXmNqXGMg' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"History suffer part president.","maxScore":66,"minScore":14,"description":"Mission nothing value crime write. Step building issue create. Loss person answer before baby join message figure.","previewFileId":"d12d7daa-9a2e-4c92-b5e5-2704c00bc044","estimatedTime":"6 weeks","createdByUserId":"12bab3d3-4cf9-4af2-b08c-06405a164380"}'
