@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Student yard what western would action as win.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Quite write action carry really similar then. Whose military source.
+Soon at push month those. Me success reflect attack. Only stuff grow down tree laugh this.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to ac24c904-d7a6-4044-8692-cfeb5f3e1eb2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 3e5d39a0-a238-42de-946b-ee7af25d46f2
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
