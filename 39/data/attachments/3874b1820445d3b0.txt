@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDA0OjE1OjIzLjU5NzY4MyIsInVzZXJfaWQiOiI0MWEwNTkwYi0zZGE0LTRlYjAtOTdiMC0yZDdiOTFlZTQ1NWEifQ.4yLfJzeaFPNLLrxiSD3bgQ-SZ6zXLSNFmNH-XpE1Vd0' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Grow rest investment choice play necessary.","maxScore":53,"minScore":9,"description":"Imagine remain help across gas soon leave.\nMillion entire maintain. Thank find avoid black itself. Hair item mouth. Property less analysis senior a rather leave husband.","previewFileId":"fafcf6e2-a6a9-49cb-bdde-1142a61adb3b","estimatedTime":"10 weeks","createdByUserId":"41a0590b-3da4-4eb0-97b0-2d7b91ee455a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDA0OjE1OjIzLjAxNjgwNyIsInVzZXJfaWQiOiJjMjcwYWM2ZC01NDRjLTRhNDYtYTk3Zi1iZGRjYmIxY2JhNjgifQ.hTF98Kle0-AxuKVa8g_jWX_PQ337nEiqJy6pwvm-pOc' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel network name describe major source send business.","maxScore":59,"minScore":2,"description":"Of fire energy perform design.\nHelp situation professional month go a. Maintain quickly finish remember. Dark manager unit these.","previewFileId":"208e48d9-d137-44d0-97b9-f3d39dc25b44","estimatedTime":"5 weeks","createdByUserId":"c270ac6d-544c-4a46-a97f-bddcbb1cba68"}'

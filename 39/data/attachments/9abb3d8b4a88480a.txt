@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDA0OjE1OjIyLjM2MjEyNiIsInVzZXJfaWQiOiI4ZGExMDMyMy02YjRjLTQwOGEtYmQwMi02MTk2Mzc5NmI1Y2YifQ.__oIjiHuge0sxEV6IPG-vcwU7ERhzP4YzSqlqLtIk1Y' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Listen student amount country spend group.","maxScore":94,"minScore":1,"description":"Establish boy particular us she. Democrat plan pass others. Democratic radio next.\nQuality bank deep instead trouble night source. Reduce sign happen present.\nBeyond less me Mr she. Join the try.","previewFileId":"6392f966-c1df-48a4-85e4-e3b5fa0d640a","estimatedTime":"6 weeks","createdByUserId":"8da10323-6b4c-408a-bd02-61963796b5cf"}'
