@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA0VDA0OjEyOjI5LjI1MzQ4NSIsInVzZXJfaWQiOiIwOGFmN2UyZS1jNDMyLTRkZGYtOGIxYy1hZWExODIzNThmZTUifQ.JyvDnAUpn8_oCrdunkk_LZ8u0wTulbWzA-PsGvB9e4M' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Type show foot above pattern even.","maxScore":95,"minScore":1,"description":"Condition teach all parent. Century make hard. Worry medical level management.\nOn town car speech between. Thank example rich kind institution. Many join if worry perform model.","previewFileId":"a5993284-49de-4ca3-a64a-f9cc399c9999","estimatedTime":"5 weeks","createdByUserId":"08af7e2e-c432-4ddf-8b1c-aea182358fe5"}'

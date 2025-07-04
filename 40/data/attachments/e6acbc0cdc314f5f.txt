@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA0VDA0OjEyOjI2LjE5NzIxOSIsInVzZXJfaWQiOiI2NWE0MTM3Yi04ZDYxLTRkY2MtOGU0Yy1kOGY5YzlhMDJmOGUifQ.J-W0xoDN0zOERHTa6jXuSjWf4_OUXLyuhGCzLXXLXn4' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song but night art coach.","maxScore":54,"minScore":22,"description":"Toward whose sometimes their least.","previewFileId":"906a57bb-d769-46fa-80ed-6f9548b33481","estimatedTime":"6 weeks","createdByUserId":"65a4137b-8d61-4dcc-8e4c-d8f9c9a02f8e"}'
