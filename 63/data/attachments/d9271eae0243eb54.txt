@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a6a089fb-4601-4adc-8283-6d0530358b66' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA0VDA0OjQ2OjM5Ljc5NTIzMyIsInVzZXJfaWQiOiI4MzdiODNmYi0zZWYzLTQ3NzktYjM3My05ZTVhZjVhNTkyNDEifQ.TAK3gqJp3fBPZYYsv3B0RGkItPognux-KXSvYHtEcTc' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each whether three dog involve visit.","maxScore":95,"minScore":27,"description":"Choice final contain well. Land under environment various according. Body ready step continue season claim activity in.\nLearn there appear. Cell face under.\nEye step six not.","estimatedTime":"6 weeks"}'

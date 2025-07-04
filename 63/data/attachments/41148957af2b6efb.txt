@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA0VDA0OjQ2OjQwLjk0NDM2NyIsInVzZXJfaWQiOiIyZDY3YWVjYi04YmIxLTQ4YTktYTUyYS0zNjY3NTQzODQzYWYifQ.trQPH2uoXecZeiChzd_I7s-aJjKzj4zosUf5pwC0VEs' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation music experience us rather four.","maxScore":60,"minScore":6,"description":"Site together memory have minute structure.\nMember bag sometimes memory anyone would agree. Fight decide keep church. Culture pick if well imagine trouble. I region candidate give about.","previewFileId":"e4b5bab3-178c-4ced-870f-e9c4edbf8f78","estimatedTime":"5 weeks","createdByUserId":"2d67aecb-8bb1-48a9-a52a-3667543843af"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA0VDA0OjQ2OjQyLjM5NDE1NiIsInVzZXJfaWQiOiI5NWFmNWUyNy04YzZiLTQwMzUtODhjZi0zNDg4MzUxZDY2NDIifQ.TLYzWs0J0gBXB84YnhP3LY5ssvqAjDaqwd3W2bJfl4M' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According raise lot few Mr.","maxScore":74,"minScore":24,"description":"Decade fine son left lay service. Become more line pattern.\nOwner smile direction a family especially. Cell themselves go become develop.","previewFileId":"697a4cf3-73cc-4d8d-9bcd-36c3d1d808f9","estimatedTime":"8 weeks","createdByUserId":"95af5e27-8c6b-4035-88cf-3488351d6642"}'
