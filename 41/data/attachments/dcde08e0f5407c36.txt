@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDA0OjA4OjM1Ljk5ODg2MyIsInVzZXJfaWQiOiI5N2EwYTRkZC1iNmVlLTRhNmMtODdmNS05MzQxYmM0NjEwNzIifQ.GxRysR5NDpeYVqYML2r4xYvaMVoZOjivXSxKrxYgK40' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Collection together sound performance.","maxScore":90,"minScore":6,"description":"Unit word interesting. Everything age after four.\nBrother these by second focus. Various drive provide.\nWestern structure method successful card. How similar still. Million quickly it city area TV.","previewFileId":"900e59dc-4ff7-4fad-a20a-bf6b8cf52530","estimatedTime":"8 weeks","createdByUserId":"97a0a4dd-b6ee-4a6c-87f5-9341bc461072"}'

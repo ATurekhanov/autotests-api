@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDA0OjA4OjQwLjQ5NzE5MiIsInVzZXJfaWQiOiI4ODhjODNhMS00MDA2LTQyMmUtOWQzNS05YmY3NWFlYmZjOGUifQ.EXsW9-xAN4Ujz8gjiJ3NJ7FVaTt1xBJG5CAUiDNuivI' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bit present usually cost body show.","maxScore":67,"minScore":17,"description":"Easy fill heart community teacher enter. Role these admit raise boy up color. Thing order source.\nCharge product control far sell clear computer. Tough market this month since.","previewFileId":"eb0c6b52-ec31-451d-89cd-2a19c09047ac","estimatedTime":"4 weeks","createdByUserId":"888c83a1-4006-422e-9d35-9bf75aebfc8e"}'

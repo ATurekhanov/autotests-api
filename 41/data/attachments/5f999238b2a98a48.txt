@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDA0OjA4OjM3LjQxOTE0MCIsInVzZXJfaWQiOiIyZjlhZGVjZC02M2MyLTQzY2ItOGQxZC1jOGUyMTRhZTM0ZjQifQ.uxnIb1qhC9l7l27xuJbCQSgtDIjMjDCXgQ5roU-FaCI' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Detail several quite ask grow.","maxScore":75,"minScore":27,"description":"Fund coach live else. Decide close per unit.\nRoad time year. Else reality lawyer article health do either. Room education camera on structure total western. System serious site stop enjoy mother.","previewFileId":"624e12f9-e9fd-442d-985c-3a91de26ba8c","estimatedTime":"1 weeks","createdByUserId":"2f9adecd-63c2-43cb-8d1d-c8e214ae34f4"}'
