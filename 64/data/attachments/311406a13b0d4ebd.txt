@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDA0OjMyOjU2LjM0MzQ1NSIsInVzZXJfaWQiOiI2OGI4MDMzMC05YmQ5LTRmMmMtYTFjNi0yZjA5MzY2YThmNWUifQ.X96517RUpis4jAnDc5dC_mOXfXLNZQR0ZMcrMwCqU8Y' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become easy whole through raise management.","maxScore":70,"minScore":2,"description":"Sometimes situation movie prove according want. Bad car base hotel operation easy form.\nSeries structure on forget. Weight some dark bed.","previewFileId":"46bacf3b-02f3-4e3f-9491-6014eb5281de","estimatedTime":"4 weeks","createdByUserId":"68b80330-9bd9-4f2c-a1c6-2f09366a8f5e"}'

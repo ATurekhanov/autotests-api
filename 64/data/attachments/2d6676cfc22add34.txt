@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDA0OjMyOjU2Ljk5MTUyNCIsInVzZXJfaWQiOiI5MzZiZmIxYS1hY2JkLTQ4NjMtOGFlOS01NTUxODdmOTRlN2UifQ.lIBqHRNJ4xp_Xh3F6IsLHbLXx7ZITBQYz6w1FJp3ovk' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large store such carry shoulder field.","maxScore":99,"minScore":17,"description":"Present down yard put water send. Effort firm guy defense arm knowledge public. Firm turn research school choice. History side couple energy agent protect manage career.","previewFileId":"ea25d1d7-9ab2-4ff9-8132-71faf06077b1","estimatedTime":"4 weeks","createdByUserId":"936bfb1a-acbd-4863-8ae9-555187f94e7e"}'

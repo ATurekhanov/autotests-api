@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDA0OjMyOjUzLjcyNzE1OSIsInVzZXJfaWQiOiI0NTFmOWE2OS03NmIyLTQzMzQtYjRjYS00NmZjY2FhMGEzNjAifQ.e3xBZqZNR-A7I58NQhLIiW8MGYteCP9msykDLibNloU' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foreign fill laugh beat.","maxScore":89,"minScore":10,"description":"Lose him prepare moment new stop. Real accept worker interest area policy.","previewFileId":"0ed812ea-352a-475b-82e4-04e690813ed5","estimatedTime":"3 weeks","createdByUserId":"451f9a69-76b2-4334-b4ca-46fccaa0a360"}'

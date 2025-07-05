@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDA0OjMyOjU2Ljk5MTUyNCIsInVzZXJfaWQiOiI5MzZiZmIxYS1hY2JkLTQ4NjMtOGFlOS01NTUxODdmOTRlN2UifQ.lIBqHRNJ4xp_Xh3F6IsLHbLXx7ZITBQYz6w1FJp3ovk' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card system a exist view forward.","courseId":"e9b3cdf9-9d58-4bed-b7e8-d52b3d43c6d8","maxScore":74,"minScore":10,"orderIndex":17,"description":"Money then our professional interesting condition. Continue heavy pass control yes.\nForce half once as teach reflect easy. Worker everybody mother my employee black attorney. Daughter us town door.","estimatedTime":"5 weeks"}'
