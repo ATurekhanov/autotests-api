@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjE5OjQ1LjA5NDczNCIsInVzZXJfaWQiOiI1NTExMTY5ZS1iNDgxLTRjNzQtYTJjOS1kNzAwOWQxYTcwZDkifQ.68YNQLoC3lDK1ACHUYYdUZM5SWi8zidPaHfYUhCiNpU' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign task production trial practice.","maxScore":91,"minScore":15,"description":"Science sister item where. Dog heavy blue left bit thought house. Decision expert write still exist personal determine.\nFull whether American those skin herself. Interview training see production.","previewFileId":"8a40fcdd-28fd-4964-836c-f2ed236525c0","estimatedTime":"2 weeks","createdByUserId":"5511169e-b481-4c74-a2c9-d7009d1a70d9"}'

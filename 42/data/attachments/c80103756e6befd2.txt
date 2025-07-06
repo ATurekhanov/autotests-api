@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjE5OjQ0LjE4MTA2MyIsInVzZXJfaWQiOiI2OTUyYjNhZS02ZjMxLTQ2NTYtYjk0My1mOTdjNmMxNzgyODEifQ.VcRyGxP43Rea9LyFAFjn0n8M5f8AWechMlU6XzSXcH4' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say important wait company.","courseId":"67f24bac-7228-4bbc-9df8-affb466d2118","maxScore":93,"minScore":29,"orderIndex":46,"description":"Among consumer couple recognize draw trial. Record hot fact always great woman present animal. Week organization however science. Size sure night case none radio successful.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9042c682-bc29-4045-9358-33b1416b1b7b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjE5OjQ2LjMzODA1MSIsInVzZXJfaWQiOiI4YTExYThjYi00MDYyLTQzOTEtYmNlMS1hZWY4YjE3ODNlYzAifQ.ontj5AO3CyckUhiCci4YXZqO6Wz2C9rRieczzvSjgiE' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recent story lead item whole must southern.","maxScore":90,"minScore":2,"orderIndex":81,"description":"Get common dark begin environmental final. Last manage significant very data why.\nHuman entire value across. Minute power around program card develop senior.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjE5OjQyLjk5ODQ4NiIsInVzZXJfaWQiOiI0MWNjN2VjNC02NjU0LTRkNjgtODM0Ny03M2NjY2M3NjFiOTAifQ.l0hx6p7D7umIINPt7rIp6iCgLFfCaohg832ApLJIE-M' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Begin somebody need adult sound manager.","maxScore":79,"minScore":30,"description":"Threat just out cover reduce south. Food people market around why.\nKnowledge attention mention general doctor compare. Glass after bring fire arm appear glass.","previewFileId":"774e1112-642e-4155-9f4d-c4b027f09f30","estimatedTime":"8 weeks","createdByUserId":"41cc7ec4-6654-4d68-8347-73cccc761b90"}'

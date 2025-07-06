@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5dcb7f7f-187b-4653-ba56-4dac7af4e254' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjE5OjQxLjg1MjE5NSIsInVzZXJfaWQiOiJhYmZjMjdlNS0wNmI5LTQ5N2QtYjQ5MC00MGYyM2JiM2MxOGMifQ._OaWPLs2TsbCzobsc1q5FO0Ll26sZIb515Qvs6P1Y14' \
+  -H 'content-length: 237' \
+  -H 'content-type: application/json' \
+  -d '{"title":"What red hundred option series.","maxScore":85,"minScore":10,"description":"Often authority how. Wait season space letter husband. Fast present success change. Recently sit what person of court care.","estimatedTime":"9 weeks"}'
