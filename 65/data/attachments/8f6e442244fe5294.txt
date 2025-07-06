@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjUwOjIyLjQ4NTUyMiIsInVzZXJfaWQiOiJhZWMyNTZhNS03ODQwLTQ1MTMtOThjMC04MzYxMzc2OTBiZmEifQ.MpKO0aDrxu1jl_8EHq-BdVj-457It7OZABiPorhF2Fc' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"History without week dream.","maxScore":81,"minScore":9,"description":"Rest start training quality. Left state activity begin sense great exist.\nMoney admit walk wind prepare. Treat throughout reason.","previewFileId":"e1ebfbdb-e0d0-449f-87ab-731826cf5f3c","estimatedTime":"7 weeks","createdByUserId":"aec256a5-7840-4513-98c0-836137690bfa"}'

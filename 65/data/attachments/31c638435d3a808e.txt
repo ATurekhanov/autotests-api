@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjUwOjIzLjkzNDI4NCIsInVzZXJfaWQiOiI2N2UzZDFmMy1kNmU1LTRjNTUtYmE4Ny1mZGRmNGFkZTkwNjUifQ.4xSdfcz_PZFuG7QGzCyWbYFUE2006ONq6AwNBaJgZDk' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive miss would environment continue.","maxScore":81,"minScore":30,"description":"Bill country tell without course get peace. Price generation as certainly truth. List audience include coach tough yet provide want.\nRadio center language pressure generation. Growth address anyone.","previewFileId":"94510b1b-e5e4-4c40-b289-e062232ec97e","estimatedTime":"5 weeks","createdByUserId":"67e3d1f3-d6e5-4c55-ba87-fddf4ade9065"}'

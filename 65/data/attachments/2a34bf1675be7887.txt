@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c2cccb0b-2d16-4afb-9fa8-3e1121ba1795' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjUwOjIxLjMzODczMyIsInVzZXJfaWQiOiIyODdkMDUzYS1iMDcwLTQ0YTUtOGVhZS04ZDE0ODkzN2ZkODEifQ.ueNBY54zzz_RE83PNnAjGYyZ5TcuM4mkFzsdSRQT8_0' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide support effort everything company leader country high.","maxScore":88,"minScore":30,"description":"Key eat idea company pay. Common energy walk popular figure defense his can. Food recognize participant culture open. She within treatment pretty indicate take defense student.","estimatedTime":"3 weeks"}'

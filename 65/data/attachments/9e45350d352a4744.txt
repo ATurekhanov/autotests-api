@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA2VDA0OjUwOjIyLjc1OTA0MSIsInVzZXJfaWQiOiJjOWQwNGMxMC0xODE4LTQ1ZTMtYWQxMS1kZGYzMTlmOGIyOTAifQ._sAOhL7Du2xqAOw1UbGnC4HCdV49TauqbJPAQXnDFUM' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Save song owner time glass.","maxScore":56,"minScore":2,"description":"Hard possible throw former surface trip several. Arrive someone environmental television PM election. War song wind cultural.\nDecade task thought modern effect threat drive. Meet case beat off pay.","previewFileId":"93822379-9f8f-4a83-b643-b5a04b16e2c9","estimatedTime":"2 weeks","createdByUserId":"c9d04c10-1818-45e3-ad11-ddf319f8b290"}'
