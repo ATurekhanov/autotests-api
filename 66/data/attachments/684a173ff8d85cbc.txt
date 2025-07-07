@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjUxOjE3LjUwMTQyNyIsInVzZXJfaWQiOiIxNTdlNTlhNS1hNmVlLTRmMDEtYTcyYi1lMjAyZWVlZTYzNDIifQ.GVTsIuBn8AXtoLEYUtiVLmcqUe-YONMPXznAUU8XA_0' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean important five eight important.","maxScore":54,"minScore":22,"description":"International laugh wait even leg support. Page can admit mission treat.\nDemocrat expert official lead. Receive Mrs among reveal test product yeah.","previewFileId":"ac4c15c6-eae7-4818-afe2-95b267ab8909","estimatedTime":"3 weeks","createdByUserId":"157e59a5-a6ee-4f01-a72b-e202eeee6342"}'

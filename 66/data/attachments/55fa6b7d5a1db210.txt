@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjUxOjE4Ljc0Nzk3NCIsInVzZXJfaWQiOiI3MjE4NzE2OS02YWNmLTRiYjMtYmE3ZC1mN2IxNDk5ZTEzMTQifQ.wlx1xlxm00r6Or5PkaOjOpo16tIKjtie8B4aZREhQeA' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each make others language.","maxScore":69,"minScore":24,"description":"Receive pick pass again. Heavy there gas. Maintain anything possible recent simple message rule. Listen bit food much.","previewFileId":"f5a18a69-3781-42b2-8cc2-b6aaf868ab9b","estimatedTime":"8 weeks","createdByUserId":"72187169-6acf-4bb3-ba7d-f7b1499e1314"}'

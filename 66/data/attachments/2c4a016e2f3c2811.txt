@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjUxOjE2LjA1MzAzOCIsInVzZXJfaWQiOiJjNmM4MDYzNC04MzFjLTQxNmEtYTU0OC05N2IyNTNkODgwNDQifQ.011IIfPKgntlgOvC59BCred4-FHzl6BL5Cl0pqiCkJ0' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"City relate himself marriage.","maxScore":77,"minScore":20,"description":"Decade agree agree when nation late. Mouth no do real will region.\nPoor news attention concern drive everybody. For activity party anyone decide. Month success simply.","previewFileId":"7bb21735-f7c1-45a9-ba9c-ca3c52572acd","estimatedTime":"8 weeks","createdByUserId":"c6c80634-831c-416a-a548-97b253d88044"}'
