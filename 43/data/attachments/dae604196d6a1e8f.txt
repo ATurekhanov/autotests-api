@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjE5OjE1LjQ3NzA1MSIsInVzZXJfaWQiOiJlNmFiZGQ2NS1hY2RkLTQ3NmEtODlhNy05Yzc1M2JmMzM2MmIifQ.u7JoH1wkU72L6hbwVEgggd1xJX12E6wgNQTm-uEiGbU' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Case along minute.","maxScore":59,"minScore":14,"description":"First middle though white little visit. Go house phone open usually boy family.","previewFileId":"ea5fa561-063c-4617-b7db-dfa93f5fa882","estimatedTime":"8 weeks","createdByUserId":"e6abdd65-acdd-476a-89a7-9c753bf3362b"}'

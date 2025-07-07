@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjE5OjEyLjIzNzMwNCIsInVzZXJfaWQiOiIyYjc5NmMxZS1kMzBkLTQ5YzAtOGMyNC02NTA2YzIzZTJkZjUifQ.X4ywTKK_7SGLTBVyiOZc97lkvdiIxFAGSvUDExScinM' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall trip trade direction free whole nothing.","maxScore":95,"minScore":10,"description":"Born trouble by plan else. Form range general. Pm child break computer.\nManager recently side what expert. Could actually manager movie.","previewFileId":"078b601a-bc61-4807-840c-3d1283003eb5","estimatedTime":"5 weeks","createdByUserId":"2b796c1e-d30d-49c0-8c24-6506c23e2df5"}'

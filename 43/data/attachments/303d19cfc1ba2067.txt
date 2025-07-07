@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjE5OjE2LjcxNzIzNiIsInVzZXJfaWQiOiI4YmIwOGIwOS1jMDBmLTRmZmEtOThkNS0wMTI4OGQ2ZTFlMzQifQ.2gNA2SGl3HlSxTpAb8_JGCIfcZhkVijbch65NC7tuEc' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certain consider authority voice sense drive next.","maxScore":94,"minScore":14,"description":"Early understand summer however study. Require ask financial. Against next finish.\nPhone big military memory sister. Source baby address hair employee kitchen own.","previewFileId":"2a0eab9e-6501-4844-a6f1-0b767cf23cd0","estimatedTime":"8 weeks","createdByUserId":"8bb08b09-c00f-4ffa-98d5-01288d6e1e34"}'

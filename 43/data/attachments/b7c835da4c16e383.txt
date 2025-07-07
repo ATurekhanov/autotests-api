@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjE5OjE2LjA1OTg5NyIsInVzZXJfaWQiOiIzMTNmNmJhMy1jYmMwLTRjZDQtYWEzOC1hNzAxZGNmZmNmY2IifQ.7bzga30uRLT6vZPrulLqSt83lJvGgFKFQ2NjrSobKyo' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management system leave family.","maxScore":73,"minScore":11,"description":"Resource gun range dark. Least beautiful argue stock reality charge. Fill serious floor best hand. Scene early worry sing star clear let.","previewFileId":"1b0ad25f-5b06-475c-92c0-7c5bacc65f27","estimatedTime":"4 weeks","createdByUserId":"313f6ba3-cbc0-4cd4-aa38-a701dcffcfcb"}'

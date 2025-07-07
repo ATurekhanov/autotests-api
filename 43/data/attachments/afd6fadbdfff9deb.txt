@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjE5OjEzLjM4MTQ3NCIsInVzZXJfaWQiOiIwN2NiMjU3NC0yNGY0LTQxZDEtOTlhMy0zNmE5ODQwOWFiMWMifQ.yy_piHf1mlneG43901PsR-eB25HVUpuHGuYJ-GqcmxI' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Data her could forget speech debate.","maxScore":91,"minScore":19,"description":"Prove tell sea all degree. Get simply significant world nor leg upon.\nWeight commercial series. Along worker the.\nTurn debate officer know.","previewFileId":"affc35a1-94d4-4e4c-95f2-37502574cc58","estimatedTime":"6 weeks","createdByUserId":"07cb2574-24f4-41d1-99a3-36a98409ab1c"}'

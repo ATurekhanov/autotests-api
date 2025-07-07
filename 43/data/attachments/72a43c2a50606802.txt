@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA3VDA0OjE5OjE0LjgzMTg3NCIsInVzZXJfaWQiOiI2YTRiMzVhZi0zNDM2LTQ5NzgtODNiYy04ZjVjOGEwZGUzNzAifQ.OnsDaV3pLitFS9Qzwg4ng0CaMVyjeOSpViCtioD9pNY' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law five product east right best grow.","courseId":"9659281f-99cd-4c84-9239-717de9998ca2","maxScore":94,"minScore":13,"orderIndex":79,"description":"Rest example enter special total serve stand. Practice edge energy. Lot final product daughter today learn.\nPopular response you note sing. Alone certainly make fire.","estimatedTime":"7 weeks"}'
