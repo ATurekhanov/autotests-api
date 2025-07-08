@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjE0OjI1LjAwMTQwNSIsInVzZXJfaWQiOiJmZWQ1MTE5ZS01NjZkLTQ0MzEtYThiYy1hNjQwNjEzMmNjYmQifQ._ZfwO4aB74SKNPANWJOd2kFABMeplPWFZ3M9Y1Cl2_o' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening line pay central operation a address.","courseId":"8b0ed5ed-6a87-4da2-83d1-e143a709dcfd","maxScore":75,"minScore":5,"orderIndex":18,"description":"Everybody pressure protect occur social. Price friend traditional chance get again. Entire dog plant send.\nLaugh next likely out. Fill method scientist anything hope front treatment enough.","estimatedTime":"3 weeks"}'

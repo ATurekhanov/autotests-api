@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c3bc7803-d312-4c8b-8d50-cfea62b2e644' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjE0OjIxLjc0MzYxNiIsInVzZXJfaWQiOiI3YWQzNDZkMC0zYjcxLTQ2YWMtOGFjZS1kNjkwNGVkNTA1YjQifQ.-fh-wkPUqNsQ1xwumdi1kQb7n4ZBvRzl93GoShP3wCM' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve style manager but.","maxScore":88,"minScore":25,"description":"Purpose hundred brother ready cut although reflect. Possible resource court official long soon police.\nOpportunity often exactly like. Hand star century debate.\nBuild bring how. Check too a.","estimatedTime":"10 weeks"}'

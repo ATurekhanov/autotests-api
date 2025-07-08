@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Garden structure anything push.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 7b8ca764-ce56-4d5e-9299-cff9567932ba
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 80
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Feeling identify manage score accept arm. Decade fly away.
+Scene one case deal. Stock dog movement choose. Second conference board matter lot significant thus in.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

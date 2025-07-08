@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjE0OjI1LjU4NzQwOSIsInVzZXJfaWQiOiJiOTZjY2MxOC03Yjk1LTQ0OWYtOGRjNS0zNTJlZWMyYjRmYWUifQ.MgrnP45BaNXaHYXlo3TZxrRbZGNXAG9kHMhdWWl_uJ8' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait actually television yourself per local often oil.","maxScore":89,"minScore":6,"description":"Center nature rate probably. Value poor little week turn.\nMagazine southern early day statement.\nLand receive challenge. Cost human star month particular. Choice dream economic say.","previewFileId":"941ddfbe-dfe6-4ebc-96d1-039d3280cfba","estimatedTime":"8 weeks","createdByUserId":"b96ccc18-7b95-449f-8dc5-352eec2b4fae"}'

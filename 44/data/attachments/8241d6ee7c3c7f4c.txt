@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjE0OjIyLjkwMjI3NyIsInVzZXJfaWQiOiIyOTZiZDUxMi1iMjNiLTQ1OTQtYjg3Ni1jYzY2MDg2NTlkM2YifQ.N9qtbNAP48GWwvc76dveNOoIEhGDTxkw9Ks0VTafrDQ' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show day yes toward.","maxScore":100,"minScore":4,"description":"Get shake buy today risk. Share top same cultural visit gas. Sport help reduce pull sit accept. Run serve base serious politics.","previewFileId":"0d4e931e-def6-4ef2-9af8-5ccd80d67cf8","estimatedTime":"5 weeks","createdByUserId":"296bd512-b23b-4594-b876-cc6608659d3f"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8994972c-5ccb-4bdc-b901-710d508a070f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjE0OjI2LjI2NzE4MiIsInVzZXJfaWQiOiIyNjdhZTAzZi1jZGEzLTQ2ZWMtYTY5OS0xMzExOGYxOTE5ZDIifQ.uszd7lw-ODV90JobENKJ_CHdpLD0MbIeZ5JOYSxTnL8' \
+  -H 'content-length: 228' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prove ball quite star woman hard build.","maxScore":60,"minScore":1,"orderIndex":64,"description":"Guess wish nice most movie however police let. Option friend provide build customer animal.","estimatedTime":"2 weeks"}'

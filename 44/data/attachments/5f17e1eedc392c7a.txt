@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjE0OjI0LjA3OTU4NSIsInVzZXJfaWQiOiI4YmRjMTUzZS0wMTZjLTRhODgtOWYzYy02MzdlMWY2OTgyZTYifQ.ae8BYZZbephO501VV4peq7AlRO-UnAV98lsP4AEir7A' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden structure anything push.","courseId":"7b8ca764-ce56-4d5e-9299-cff9567932ba","maxScore":50,"minScore":15,"orderIndex":80,"description":"Feeling identify manage score accept arm. Decade fly away.\nScene one case deal. Stock dog movement choose. Second conference board matter lot significant thus in.","estimatedTime":"7 weeks"}'
