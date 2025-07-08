@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjQ3OjQ2LjA2MTc4NyIsInVzZXJfaWQiOiI2NGI3Mzk5Yi1mY2FiLTQ1ZjQtOTFhMy0xYTAzNTllYTljNTAifQ.y0COVfZmIws3RWyZ_vteG_JzE4lOP7ex47jcGqPM61k' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular position ahead figure him performance enjoy.","maxScore":66,"minScore":11,"description":"Dark face wonder hotel attack. Land wear before police statement keep prevent. Network develop exactly. Owner their within world.\nNotice book ability control design official bad final.","previewFileId":"29b7bdd7-66a1-432c-9da3-40b08d50dac3","estimatedTime":"4 weeks","createdByUserId":"64b7399b-fcab-45f4-91a3-1a0359ea9c50"}'

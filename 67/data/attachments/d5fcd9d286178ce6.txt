@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjQ3OjQ0LjgzODk3MiIsInVzZXJfaWQiOiI3ZGYxYThkMi05MjgxLTQ1OTUtODIwMi1iYzgxMjcxZTczZmIifQ.k0_eCJftB7ALGcxcgpiqh16TPRNltuN3igfpVV3Ph4o' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Western worker from population sense.","maxScore":74,"minScore":18,"description":"Music professional lead senior budget take specific. Tell ever surface notice religious way. Husband this make today join along.","previewFileId":"ff7bb9a9-bd79-4270-afff-9e5cda60fe19","estimatedTime":"1 weeks","createdByUserId":"7df1a8d2-9281-4595-8202-bc81271e73fb"}'

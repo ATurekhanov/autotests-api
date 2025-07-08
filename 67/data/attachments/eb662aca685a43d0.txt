@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjQ3OjQzLjY2OTM2NCIsInVzZXJfaWQiOiIzY2M2MGI4Zi1jMjU5LTQ4NjMtOTJiYi1mYzUxM2IzYzBiNDYifQ.f1-u1rHJvfgHerX0yKX2lUdXXj77q9Ea0XWvAfB5aiI' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Own land contain discover dream.","maxScore":72,"minScore":14,"description":"Tax many against leader adult. Every television story dinner whose represent.\nAgency part maybe cut. Interesting choose in.","previewFileId":"dd8a2af8-fe78-48eb-b013-e305e2ea2c53","estimatedTime":"5 weeks","createdByUserId":"3cc60b8f-c259-4863-92bb-fc513b3c0b46"}'

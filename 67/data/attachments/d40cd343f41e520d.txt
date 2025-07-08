@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjQ3OjQyLjI2MDIwOCIsInVzZXJfaWQiOiJmNjQzZTNiMy01YjA2LTQ2NzktYmRlMS00MGYxMjE4YjUyMjUifQ.7ntmiUpEQq7pKRQeCHOvhYZWulIJI6idLVjD0mGfs6U' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blood yet area guess.","maxScore":78,"minScore":4,"description":"Pick conference ready hand benefit finally provide. See pass step discover claim wind.","previewFileId":"37e7f653-6e60-45e8-81c0-3284111ecd63","estimatedTime":"1 weeks","createdByUserId":"f643e3b3-5b06-4679-bde1-40f1218b5225"}'

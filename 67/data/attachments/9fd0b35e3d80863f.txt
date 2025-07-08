@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDA0OjQ3OjQzLjM5NjM0NCIsInVzZXJfaWQiOiJmNjU0MDI3Mi02OTRiLTRjZDYtYWU2OC1lNjNmODIyYjQyMWUifQ.0mqKRYmw3gimTkL361wAucxzdTG9Q1LRzuTxARDt9os' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine significant account air few particularly.","maxScore":94,"minScore":8,"description":"Leave big federal already management physical we national. Pass off final prove join everyone each.","previewFileId":"d658a702-9394-470e-aab2-0f0668817013","estimatedTime":"7 weeks","createdByUserId":"f6540272-694b-4cd6-ae68-e63f822b421e"}'
