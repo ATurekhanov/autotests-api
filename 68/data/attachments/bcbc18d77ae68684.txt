@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA5VDA0OjUxOjAxLjY1MzYxMiIsInVzZXJfaWQiOiI2ZTRkYmQ4ZC04NDg3LTRkMmItYmJmYi1hODM1MjM4Y2Y2YTAifQ.z3xQWLdAAk0lyczGpJjwZ56PRL4o-li4d2B0yIz9ceo' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure ever six decide whether senior season.","maxScore":95,"minScore":20,"description":"Compare reach to wife born when interview. Rule difference far a act street.\nShould individual moment marriage focus many write value.","previewFileId":"a51f2171-6210-4e3d-8220-f528304fef14","estimatedTime":"5 weeks","createdByUserId":"6e4dbd8d-8487-4d2b-bbfb-a835238cf6a0"}'

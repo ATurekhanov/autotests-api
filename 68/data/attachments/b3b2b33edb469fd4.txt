@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA5VDA0OjUwOjU5LjA2MTcyMyIsInVzZXJfaWQiOiJjOTI5ZGNiYi1kNWY4LTQxNWEtYWNmYi1mMjIwYmFiYTBiNWEifQ.EwE0ahqHNdVi6E1kJj5pER1GkeedHIyiR6tR10ghKHk' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner southern wife create.","maxScore":77,"minScore":5,"description":"Degree whether father whatever western standard we. Would treatment watch indicate foreign.\nWhile test place point exist scientist. Carry than card itself key language time onto.","previewFileId":"fb7323f0-a0e3-4400-96b7-173555fb9cc4","estimatedTime":"8 weeks","createdByUserId":"c929dcbb-d5f8-415a-acfb-f220baba0b5a"}'

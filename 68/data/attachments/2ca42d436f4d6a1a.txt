@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA5VDA0OjUxOjAzLjU0OTYwMyIsInVzZXJfaWQiOiJhMjg5NmEyNy1jZjBiLTQ3YjItYjk2OC1hZWU1NTJkYjIwODcifQ.Gcjb-dZcSnWLfFpkg_h9otEjLMMWuyNlQjzjr_xtNxE' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring with cold site.","maxScore":98,"minScore":23,"description":"None clearly treatment task simply assume very. Positive realize boy executive. Benefit likely today agent whatever none ability one.","previewFileId":"de819b09-f8d7-405d-a58d-9f8d0091ce3b","estimatedTime":"7 weeks","createdByUserId":"a2896a27-cf0b-47b2-b968-aee552db2087"}'

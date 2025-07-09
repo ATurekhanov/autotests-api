@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA5VDA0OjUxOjAwLjQ3ODM5NSIsInVzZXJfaWQiOiIyZTNjNDY4Mi00Y2RmLTRhY2QtYjVjMi03ZjQxNzVjOWM5OGYifQ.GU9rfxEtbpmOF0nInjUOb66qQnkGiXA1NgMV-APz6DE' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin positive member effect.","maxScore":82,"minScore":20,"description":"Baby benefit level report capital certain talk. Rich grow either everyone white brother.\nSpecial space happen religious authority teach. Information question chair series off.","previewFileId":"3f029c4d-bf5d-4ab9-9fc0-ba63959b8e14","estimatedTime":"1 weeks","createdByUserId":"2e3c4682-4cdf-4acd-b5c2-7f4175c9c98f"}'
