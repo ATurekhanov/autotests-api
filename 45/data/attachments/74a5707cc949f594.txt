@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA5VDA0OjE3OjI0LjEwNDk3NiIsInVzZXJfaWQiOiJhMDU3NjI4OS01OTkzLTQ4ZDItYTBiYy01NjUxMTk1YTJjNjEifQ.LLLrnyglLiBuEw73fVlmXYmiIFU6gyhC6L-K8eJXjFM' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"About officer happy six task.","maxScore":91,"minScore":3,"description":"Reveal animal radio campaign. During approach affect piece professor happen risk. Defense true mother establish especially listen.","previewFileId":"871c9853-0cc7-423a-be42-dea5bd5369fd","estimatedTime":"5 weeks","createdByUserId":"a0576289-5993-48d2-a0bc-5651195a2c61"}'

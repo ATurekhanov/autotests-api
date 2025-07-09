@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA5VDA0OjE3OjI2LjE5MzY0NiIsInVzZXJfaWQiOiIwMDFiNjJmYy0yODkwLTRjMmItYmI4Zi05MDU2ZDc0YTdjMmQifQ.-czcMc8sWeOHwh42rUmPggORZ8cXEFkor1XJFOPOhRg' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair beyond address economic she.","courseId":"f962215c-4a88-4946-9bf1-e545d5ab11d0","maxScore":67,"minScore":16,"orderIndex":32,"description":"President audience partner identify property civil. Total while fish say wish set return shake.","estimatedTime":"2 weeks"}'
