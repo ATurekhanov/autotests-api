@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDA0OjE2OjI5LjA4NjExMSIsInVzZXJfaWQiOiJlYWRhNDk3Zi0zMDBiLTQxYzgtYjVkYy1mMjc2YzU0ZjUxZTgifQ.mZ8bjTe26L0T3tN3fo_oqD-ll26_iAtHfON0CCfQ4Zc' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economic chair they.","maxScore":65,"minScore":23,"description":"Clearly order out since. People modern popular water use. Card first firm out.\nSkill let mouth so make investment subject.\nWho gun able section. Through total door pretty need officer relate any.","previewFileId":"69d03ef7-da6f-44e7-8c7d-c31309e51022","estimatedTime":"8 weeks","createdByUserId":"eada497f-300b-41c8-b5dc-f276c54f51e8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDA0OjE2OjMzLjU2MzUyMSIsInVzZXJfaWQiOiJlNmJkYzhjZC02M2VkLTQzY2QtYjg1NS1jYTY4ODY0YzYwNzIifQ.t4hbXLu81ZdMwR6Sigk66KhXTE9Eyq_r-o02-hzCyAU' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Contain young job public walk mission.","maxScore":58,"minScore":23,"description":"Artist skin close product. Television this leader financial public four. Radio born common arm. Physical factor sound throughout feeling act everybody.","previewFileId":"5b17daa6-0da0-4550-9a28-c532902a5b36","estimatedTime":"4 weeks","createdByUserId":"e6bdc8cd-63ed-43cd-b855-ca68864c6072"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDA0OjE2OjMyLjMyMjQxMCIsInVzZXJfaWQiOiI3NjA4MWJmNy03MzA2LTRjMGItOWFkNi03NDI3YWY2MDQzOWYifQ.ToBdxgmtz7SDo_DHjgZthcR3GnUxXf49HQto7_Ty-Fo' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long answer population her investment reflect election process.","maxScore":50,"minScore":3,"description":"Involve mother imagine. Picture anything I civil. Contain speak fall similar.\nProgram purpose sea career ahead individual technology. President mother push stuff meeting right.","previewFileId":"fc176005-84e4-4101-96af-670606cd3948","estimatedTime":"10 weeks","createdByUserId":"76081bf7-7306-4c0b-9ad6-7427af60439f"}'

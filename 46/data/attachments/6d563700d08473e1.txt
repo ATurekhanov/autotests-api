@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Trade in his hear.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Thousand reality age physical. On toward will body instead admit.
+Rise return writer trade expert then. Low claim Mr team her we including. Hand live table eat.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to a3c27e8f-4ccf-4e37-b653-417e86791bb6
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 56cc1e9d-515a-447e-919f-de8e81edb6ee
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
