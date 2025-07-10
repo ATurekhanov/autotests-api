@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDA0OjQ5OjI4LjU0OTkyMyIsInVzZXJfaWQiOiJjYzhjNzdiZi1kMTAyLTRkZDMtODQ4NC1hYjQ4NTQ3YjEzNTYifQ.wyBmWopP6M2zo6ewsyQDecRsH7mirP_xOKCIvZ_aUYQ' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just Republican economy owner program site.","maxScore":91,"minScore":14,"description":"Probably personal miss recently color image. His similar truth behavior certain. Often yourself act common someone assume.","previewFileId":"c27236b5-3f83-47f5-a4bb-6e13585d4142","estimatedTime":"10 weeks","createdByUserId":"cc8c77bf-d102-4dd3-8484-ab48547b1356"}'

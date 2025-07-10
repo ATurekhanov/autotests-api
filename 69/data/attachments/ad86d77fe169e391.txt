@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDA0OjQ5OjI2LjcyNjkxNyIsInVzZXJfaWQiOiI3Y2E2ZDJmNi02MGJmLTQ1N2YtYWI4Yi0zYjI3MWFjMTdhODUifQ.BUX-OPL3gnt68SkesOeLj2y-FiW0nE9-cDdQwEp80c8' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thing guess effect skin nice treatment.","maxScore":97,"minScore":15,"description":"Learn experience citizen whatever family. Chance tree thought four. Figure environmental mean condition require.\nLive foot physical inside much research. Analysis test ready voice church writer.","previewFileId":"5686cf30-864b-4864-b18b-82d17604f39e","estimatedTime":"9 weeks","createdByUserId":"7ca6d2f6-60bf-457f-ab8b-3b271ac17a85"}'

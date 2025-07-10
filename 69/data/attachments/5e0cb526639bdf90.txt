@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fc0a75c9-5f21-4d6f-857d-339c148b8197' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDA0OjQ5OjI1LjMwNTk1MSIsInVzZXJfaWQiOiI2OGNjYzBmNC0xNDM0LTQ2YzgtODY2Zi1jMmY0NjY5ODYzMDEifQ.0_rTG4QHk11Ourss5fYXlXx_FvclrISC-_T6gZBENHE' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then hundred culture doctor machine.","maxScore":63,"minScore":15,"description":"Evidence full particularly sea kitchen. Wall say score oil. Same hot man provide.\nNeed section sister. Road take three human significant offer senior analysis. Box shake home around.","estimatedTime":"1 weeks"}'

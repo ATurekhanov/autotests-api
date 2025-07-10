@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDA0OjQ5OjI5LjE0MTE1NiIsInVzZXJfaWQiOiI3MTM3NjhhZS0xNDU3LTQ0ZWItOGNlMy01ZDExYTJkZGQzYTkifQ.b_bcU1fsUcVNl9614o-TLNE6_CUcNgt_d3csvwMX7_k' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific institution coach push project space.","maxScore":82,"minScore":13,"description":"Mention tax describe education training four people. Save include need then. Discuss less happen against spend.\nRock voice challenge decision. Could now thing test I. Five night push way.","previewFileId":"2af8635e-de75-4933-bcf1-d983d3a2bc4d","estimatedTime":"10 weeks","createdByUserId":"713768ae-1457-44eb-8ce3-5d11a2ddd3a9"}'
