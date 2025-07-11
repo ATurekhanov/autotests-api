@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjUzOjMxLjczOTAyMyIsInVzZXJfaWQiOiJlYTI1ODc0ZS00ZWIxLTRlYmMtOThlZi1jYjJmZWE1MmNmY2YifQ.z2g2QjQIIKGDgBcw-ri9R9kEGU1tcr8YOSDjSAEHw0E' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Good young reduce resource same.","maxScore":74,"minScore":25,"description":"Receive focus court.\nDespite item agree group scene do.\nAdministration woman lay fight activity air executive. Partner his experience economy. Laugh throughout occur free south name six close.","previewFileId":"e1742496-82d6-4dfc-bde3-070c524cb6ba","estimatedTime":"8 weeks","createdByUserId":"ea25874e-4eb1-4ebc-98ef-cb2fea52cfcf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjUzOjMxLjA5NjgwMCIsInVzZXJfaWQiOiJjZmJmYjdlMS1kNzFlLTRkZjItYjAzYS00ZjYyN2Y3ZDlkZjkifQ.arViNl34KOD6ei11tLy7BhQ9RD-14nFC6JKr7hTnvmM' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney center goal energy.","maxScore":88,"minScore":13,"description":"Pay operation husband. International thing how item million. She season majority water.\nHigh traditional line at. Water guess need. Building natural least happy wear ball take smile.","previewFileId":"16d6c0d3-7a03-4f1c-960f-ac97ca682e90","estimatedTime":"5 weeks","createdByUserId":"cfbfb7e1-d71e-4df2-b03a-4f627f7d9df9"}'

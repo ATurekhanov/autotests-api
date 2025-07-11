@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=e272f10f-d414-4b00-8f61-8dc3ca9742b1
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/courses?userId=e272f10f-d414-4b00-8f61-8dc3ca9742b1
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:105 Check course
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 38854be5-d06b-43ba-91d5-628ca6f03e56
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Maintain animal just possible write individual yeah their.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Race none treatment quickly. Network note partner rock determine or. Apply recently property their.
+Entire dog receive develop positive. American and themselves. Practice long such view age.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 6 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to a78374a1-257d-4b53-8da5-977ff83cc9ca
+INFO     BASE_ASSERTIONS:base.py:39 Check that "url" equals to http://localhost:8000/static/tests/88bb55b8-3e3e-4adb-9a4f-87358075e17d.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "filename" equals to 88bb55b8-3e3e-4adb-9a4f-87358075e17d.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:37 Check user
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to e272f10f-d414-4b00-8f61-8dc3ca9742b1
+INFO     BASE_ASSERTIONS:base.py:39 Check that "email" equals to lisayoung@example.com
+INFO     BASE_ASSERTIONS:base.py:39 Check that "last_name" equals to Hartman
+INFO     BASE_ASSERTIONS:base.py:39 Check that "first_name" equals to Paul
+INFO     BASE_ASSERTIONS:base.py:39 Check that "middle_name" equals to Brian
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

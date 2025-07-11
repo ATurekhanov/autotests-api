@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjUzOjI4LjUwNTcwMCIsInVzZXJfaWQiOiI4MmU1MWNlNi1mMDNlLTRiZDYtYTk5My1hZmNhYTc1YjJjMjEifQ.qMjev7M6Zq_CERsdIMbeERGHMZOFaZuyEsJD4nakaVk' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rich what prove television.","maxScore":94,"minScore":29,"description":"Short film maintain again quickly. Size dark language ten realize that.","previewFileId":"d1e64834-996d-4298-9723-7f3f5eb6234d","estimatedTime":"1 weeks","createdByUserId":"82e51ce6-f03e-4bd6-a993-afcaa75b2c21"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/1f4350d2-01d0-48da-ad6b-3b744ac3c323
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/1f4350d2-01d0-48da-ad6b-3b744ac3c323
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 1f4350d2-01d0-48da-ad6b-3b744ac3c323
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to National before culture own meet.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to dd7656b5-94db-4856-a077-952b6f8c0e81
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 6
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Oil weight hour manager. Mrs father program give cup speech hear language. Son bag rise pretty able.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
