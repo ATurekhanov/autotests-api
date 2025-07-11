@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjIzOjA5LjcwMTU0MiIsInVzZXJfaWQiOiI4M2YzMmI2OS1iYjA3LTRkNWEtYTJlOS0wZGFmZDgxZTI5MmYifQ.caXlwqa9QKqPs8ZXC4GzX3drIUpvNmXWF17H0cqI1-c' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who through effort save blue happen not who.","maxScore":51,"minScore":11,"description":"Impact she material fast we situation. Civil some keep his history four.\nSix east mention. Simple single particular style which society task factor. Easy walk defense apply case person.","previewFileId":"a3f1fb37-6a59-4374-bba9-9dd85f7c5732","estimatedTime":"2 weeks","createdByUserId":"83f32b69-bb07-4d5a-a2e9-0dafd81e292f"}'

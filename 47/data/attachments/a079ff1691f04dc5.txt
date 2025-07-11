@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjIzOjEwLjk0NDg0NSIsInVzZXJfaWQiOiJkMzVkMDkxZC05MDA0LTRhYzgtODRiMi03ZDFjZjI4MjM1NjcifQ.rcLnbzLcr_FMlYRXnIod5nYrVmUFsswGf8JDRWCyw44' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure if type.","maxScore":90,"minScore":13,"description":"Understand hour not me. Card author and.\nNetwork upon fly sound. Phone then need. Operation fish sometimes.","previewFileId":"0346c4eb-763c-4bdd-9375-19df707120e1","estimatedTime":"4 weeks","createdByUserId":"d35d091d-9004-4ac8-84b2-7d1cf2823567"}'

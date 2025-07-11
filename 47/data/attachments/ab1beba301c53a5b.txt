@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjIzOjA3LjEwMjEyOCIsInVzZXJfaWQiOiJhMDEzNTRhNi0yZTA0LTRkMjctYjRjZC02MzFiNTM3NGU1MzUifQ.sca0BRA65X_HJWN1Q3XH31sheTsf_kJGDM3qVwRHuzg' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer wear red need clear lead similar.","maxScore":82,"minScore":12,"description":"Manage law along view. Concern detail modern if front sometimes. Check could statement however. Loss represent race hold.\nMarket life oil data why. Bring may down religious set.","previewFileId":"9a6d8bf2-8d6f-45d5-b824-15db8a4b2790","estimatedTime":"7 weeks","createdByUserId":"a01354a6-2e04-4d27-b4cd-631b5374e535"}'

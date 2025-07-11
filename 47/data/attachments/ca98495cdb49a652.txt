@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjIzOjA5LjcwMTU0MiIsInVzZXJfaWQiOiI4M2YzMmI2OS1iYjA3LTRkNWEtYTJlOS0wZGFmZDgxZTI5MmYifQ.caXlwqa9QKqPs8ZXC4GzX3drIUpvNmXWF17H0cqI1-c' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century skin during school I.","courseId":"4a270d94-86ab-4b8e-8cce-1619f548b459","maxScore":76,"minScore":17,"orderIndex":67,"description":"Break land security knowledge everything Democrat pressure. Long best why myself yourself choose some. Bag author recognize toward evening put catch.\nCompany well institution. Offer western white.","estimatedTime":"6 weeks"}'

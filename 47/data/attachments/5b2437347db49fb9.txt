@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/618c3200-9b68-4c06-a1eb-f87eaf5f7af8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjIzOjA3LjEwMjEyOCIsInVzZXJfaWQiOiJhMDEzNTRhNi0yZTA0LTRkMjctYjRjZC02MzFiNTM3NGU1MzUifQ.sca0BRA65X_HJWN1Q3XH31sheTsf_kJGDM3qVwRHuzg' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare game decision game ball.","maxScore":90,"minScore":15,"description":"Hope choice bar fill hair theory happen inside. Color player civil kid prevent see.\nRest television product may. Billion design least candidate.","estimatedTime":"4 weeks"}'

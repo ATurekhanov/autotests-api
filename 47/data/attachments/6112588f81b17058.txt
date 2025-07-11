@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTExVDA0OjIzOjA4LjUyMTM2MCIsInVzZXJfaWQiOiI4NTA0YTE1Ni02OTk1LTRkYWMtOTc2Zi03MzVmMWNiZThlY2MifQ.iG8pyFZkaKPScfZ1ouswZQIM9U8KmcZo9vATxAAMKnU' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just probably watch what affect.","maxScore":64,"minScore":13,"description":"Agreement respond center discussion. Mission how design decide.\nTravel yet behavior focus. Sound front husband which should. Away nice fast when local.","previewFileId":"c0e48037-162b-4177-96ef-d0de4eb21aff","estimatedTime":"1 weeks","createdByUserId":"8504a156-6995-4dac-976f-735f1cbe8ecc"}'
