@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/bcc671a0-c4b8-4ed3-a430-5b675e7a27fe
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/bcc671a0-c4b8-4ed3-a430-5b675e7a27fe
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to bcc671a0-c4b8-4ed3-a430-5b675e7a27fe
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Present official respond long.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 6fd88c66-7a28-4d37-84bd-dfdabe7607c7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 62
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Consumer move range. Trip share culture policy husband argue. Second one public speech can view season control.
+Own single arm sound.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

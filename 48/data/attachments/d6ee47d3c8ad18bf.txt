@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/afd3245b-a42a-4f16-8a59-475f1d84b37e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjE4OjAzLjA1MzczOCIsInVzZXJfaWQiOiIzODNjYzcwNi1iM2Q5LTRkYTEtOWVlZC0yYTYzZjdkY2ExODMifQ.s0NYsFEyyFJzIdKX_Or6A7xN3QxOD-Tmr46sN6yYHJM' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Set relate production not large protect.","maxScore":53,"minScore":17,"orderIndex":29,"description":"These technology price need put money this. Speak surface give why hold wish. Bring start avoid part consider any mission.","estimatedTime":"6 weeks"}'

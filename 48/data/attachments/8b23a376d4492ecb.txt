@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjE4OjAxLjE2MDc5MiIsInVzZXJfaWQiOiI2YmIyNTAzYi00ZTE5LTQ3NjktYmFkZC02MTcwODU1M2E4YjYifQ.awEypyPlnkn468MGDAfbQEWXg-tBo8oKrEb-i6EzAw8' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lead heart high.","maxScore":69,"minScore":12,"description":"Agreement glass hot indeed. Poor push after. Entire eight somebody work draw.\nBall apply as notice audience she what resource.\nMother reflect good. Cell television suffer movie.","previewFileId":"9e0145ea-f86a-406a-8ff2-77d9534cd6be","estimatedTime":"6 weeks","createdByUserId":"6bb2503b-4e19-4769-badd-61708553a8b6"}'

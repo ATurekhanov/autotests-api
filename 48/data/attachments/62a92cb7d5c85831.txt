@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjE3OjU5Ljk4MzU0MSIsInVzZXJfaWQiOiI4ZDdiOTI1Ny04NmE5LTQzZjQtOTk4YS05YmY5MmFjZjRkYzIifQ.xBafBsovJFbRW8mqbQ9XysM42m7OhhKzPbX1xQRLWkc' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone time make significant risk.","maxScore":59,"minScore":11,"description":"Director experience raise.\nCar direction ready yes. Adult laugh everyone ground president. Trip read around process past right shoulder.","previewFileId":"9cd02063-569b-4c74-b811-1a7fe67edf24","estimatedTime":"7 weeks","createdByUserId":"8d7b9257-86a9-43f4-998a-9bf92acf4dc2"}'

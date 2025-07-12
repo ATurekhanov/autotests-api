@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjE4OjAxLjgwNTE0MyIsInVzZXJfaWQiOiJkZGZhZmY0MC04MTkwLTRkMmUtOWVkZC1kYzg1N2IwZTA3Y2EifQ.SFCZ6X2Srm_RNjvN-k6Ds4juyLmsPBGB5Ok958fHyYw' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Present official respond long.","courseId":"6fd88c66-7a28-4d37-84bd-dfdabe7607c7","maxScore":58,"minScore":23,"orderIndex":62,"description":"Consumer move range. Trip share culture policy husband argue. Second one public speech can view season control.\nOwn single arm sound.","estimatedTime":"10 weeks"}'

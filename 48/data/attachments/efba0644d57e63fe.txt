@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/55a08790-0b58-4a1c-8acd-4f253ba6031d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjE3OjU4LjU2MDk1NiIsInVzZXJfaWQiOiI2YjBmNWRmNC00ZGRmLTRiOTktYTU2Ni1kMTI5NmIwMzNhODAifQ.g9QH7w6B4THzCeBzdTCAnB5Le_C9d7N0Ek9FDX6ALTc' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"As another any daughter soon.","maxScore":65,"minScore":30,"description":"Goal expert within able force. Material despite happen pressure why himself. Continue employee light administration should. Season watch sometimes.","estimatedTime":"3 weeks"}'
