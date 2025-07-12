@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjQ4OjMyLjMxMTA5NyIsInVzZXJfaWQiOiIyYzkwMTdkNS1mMWNiLTQ2NTItOWVhOS00ZmViYThmMzYyMTAifQ.7orOItuDN9pUauQfZn4Gdjw0_VK95asS0LyE22XR6GI' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head public the support child light candidate.","maxScore":76,"minScore":20,"description":"Better region toward perform. Mention as call energy card.\nPlay national hour discuss. Ask pretty bag movement series value fine. Support professor live measure last behind.","previewFileId":"6b0dd035-6f79-4fe8-b823-13eae186d5b7","estimatedTime":"8 weeks","createdByUserId":"2c9017d5-f1cb-4652-9ea9-4feba8f36210"}'

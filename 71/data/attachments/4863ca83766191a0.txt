@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjQ4OjM2LjE2OTYxNyIsInVzZXJfaWQiOiJjZTIzMjAyZS0zYjIzLTQ3ZjQtYjk3Yi05ZThkZDU3MWM4NDQifQ.Q3ruq2TTh6mxET_PCywVdQdyAz72s53ZclXUYpf1S6I' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill senior nice reach marriage ten economic.","courseId":"9c679eb5-4ece-4f5b-86c3-7be8204861b4","maxScore":77,"minScore":19,"orderIndex":94,"description":"Present civil reality role. Partner pretty special vote agree dream have. Organization early thank policy.","estimatedTime":"4 weeks"}'

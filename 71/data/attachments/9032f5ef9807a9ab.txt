@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjQ4OjM1LjUzNjYwMSIsInVzZXJfaWQiOiI0ZDQ4NDE0ZC00ZDFhLTQ0NzUtYTQzNi0yNGVhNWJkNGFjMDgifQ.U0f65P9Ot8gdF-9qqf84HNwMPHCBho3IM8NR1VoNT6E' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"General like state recognize.","maxScore":98,"minScore":3,"description":"Less tough go still agency. Process assume develop chance which successful.\nShort hour team among price perhaps like yet. Remain sell join their enter.","previewFileId":"ad36cdf0-4372-4ec8-a6ec-ed9bb1f2eb76","estimatedTime":"5 weeks","createdByUserId":"4d48414d-4d1a-4475-a436-24ea5bd4ac08"}'

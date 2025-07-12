@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDA0OjQ4OjM0LjM3NTY1NSIsInVzZXJfaWQiOiIzN2QzMTNmNi01NDg2LTRlM2UtOWViNy1iY2NlN2Y3MTQ1NjUifQ.-xCLT6nKmPpnFopzinA6-MsoO-kOtPZLS4M5OsEfp8Q' \
+  -H 'content-length: 249' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group draw brother hot organization view.","courseId":"b86758c9-92a2-4d81-b135-8689905962e2","maxScore":81,"minScore":3,"orderIndex":34,"description":"Need church serve test. Outside practice television pass me.","estimatedTime":"4 weeks"}'
