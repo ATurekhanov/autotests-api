@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjI1OjEzLjI0ODg4NSIsInVzZXJfaWQiOiJmM2JhZGNjNy02NmI1LTQwOTgtYWI5Yi00MGYxOTc5MTI3YzcifQ.Tvm3SonRahV5SySSg8h2C3SOYnYdTivEaXAuou4oczw' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Well employee issue pass task.","maxScore":89,"minScore":2,"description":"Everything live air for activity. Can peace clearly moment commercial.\nChoice theory be such popular.","previewFileId":"e1ad81f3-5911-4239-a1c4-1e74e85e4d87","estimatedTime":"6 weeks","createdByUserId":"f3badcc7-66b5-4098-ab9b-40f1979127c7"}'

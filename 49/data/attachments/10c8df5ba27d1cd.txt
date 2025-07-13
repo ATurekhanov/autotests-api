@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjI1OjEzLjg2MTAxMCIsInVzZXJfaWQiOiI4MzQ2ZDYzOC02Mzg5LTQ2MzEtODdhOC1iZDgzNmZlZWZlZmQifQ.C5a0IrsP-qfdQappqhpo8XiNQJGY_lEXJN6SeOAViQ4' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High benefit develop likely beyond.","maxScore":92,"minScore":2,"description":"Bad member smile white get eight. She pretty decision road president allow though. Smile data skin hope human.","previewFileId":"3dc4e4c3-89a8-4118-ae1c-90a070211800","estimatedTime":"10 weeks","createdByUserId":"8346d638-6389-4631-87a8-bd836feefefd"}'

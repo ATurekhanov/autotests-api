@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjI1OjEyLjAyODc0NiIsInVzZXJfaWQiOiIxYTNlNGI2NS05OGM0LTQzYmQtYmY3Yi1lNDQwNDIxZTY5YjIifQ.j5xTLdlwiIemqvxpaGY0WwOxyXYLn_te4dQS7Qtm_HM' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every cultural discuss week executive energy stay.","maxScore":78,"minScore":18,"description":"No although address. In per growth police someone. Focus assume air.","previewFileId":"6628497c-e496-40f6-9dcb-7576e86d5ff7","estimatedTime":"2 weeks","createdByUserId":"1a3e4b65-98c4-43bd-bf7b-e440421e69b2"}'

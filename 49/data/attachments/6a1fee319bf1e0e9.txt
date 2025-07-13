@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjI1OjA5LjM4NzkzNiIsInVzZXJfaWQiOiJhY2NjNzVmNi1jMGJhLTQzZDEtOWRiMS00YzEyZDE2Yzc0ZjAifQ.w5R7JcsMW2jt7uyr_IhI2kUax6af0mJpXycd5fY5laQ' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise adult focus art next free activity.","maxScore":52,"minScore":24,"description":"Century impact woman rich include. Research relationship last weight third feeling.\nRegion general agree special. Its gun her. Develop its season. Position paper still although can only style.","previewFileId":"4334f9f6-8339-4082-91b0-8c491cdd60cc","estimatedTime":"10 weeks","createdByUserId":"accc75f6-c0ba-43d1-9db1-4c12d16c74f0"}'
