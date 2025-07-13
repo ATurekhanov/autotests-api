@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjU1OjA3LjM5MzgxNSIsInVzZXJfaWQiOiJlYjZkOTI1Mi0wODBjLTQzZTQtOGY1NC04MDdjNjQwOGY3MDcifQ.gDmQJCd_Fqg6jWmh7W4EL3uxE569V_wCPSJu_UUoIUc' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father project church analysis.","maxScore":95,"minScore":17,"description":"Computer sense south wish. Ability wonder miss character security yet.\nUnit back democratic last bar.\nSupport consumer food. Beat public per detail anyone no try her.","previewFileId":"2b8498bb-073a-45b1-956d-b038bc8023e6","estimatedTime":"10 weeks","createdByUserId":"eb6d9252-080c-43e4-8f54-807c6408f707"}'

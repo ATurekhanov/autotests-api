@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjU1OjA1LjQ4NTcxNiIsInVzZXJfaWQiOiIxNzQzMDAzNC0wNTQ3LTQ1MDItOTZlMi0yNmE4ODRjZWE0ZWYifQ.ul1-Erw7u55haBzI8OB516INvEOlXEOoumGaEV7JgeA' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Network international do there environment now.","maxScore":65,"minScore":4,"description":"Become early better night seat. Here fight answer allow pressure. Stand time probably this.","previewFileId":"2fefab60-6e1c-488f-a5cf-954311c72543","estimatedTime":"5 weeks","createdByUserId":"17430034-0547-4502-96e2-26a884cea4ef"}'

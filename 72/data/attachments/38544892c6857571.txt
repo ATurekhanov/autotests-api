@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjU1OjA0LjAyNTkzOCIsInVzZXJfaWQiOiI1OWZhN2MxNS0yYTA4LTRhNjEtODg3ZS1jZjUwMjIxNGQ0ZDcifQ.i7RXvWbuOFj1nYpYrITRj3U0BBy5fTFA3o3_uY0s9yo' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kind technology imagine still fear available.","maxScore":74,"minScore":25,"description":"Address kitchen health expect company up.\nThey kid hospital police letter. American become activity hotel fund. East write analysis scientist eye.","previewFileId":"580ed88b-6edf-4b41-9368-aa8b738e7d61","estimatedTime":"9 weeks","createdByUserId":"59fa7c15-2a08-4a61-887e-cf502214d4d7"}'

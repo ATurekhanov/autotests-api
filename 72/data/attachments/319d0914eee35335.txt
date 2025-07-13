@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjU1OjAyLjg3NjA5OSIsInVzZXJfaWQiOiI3Mjc3YjNiYy1lMTE4LTQ0MDQtODg5Yi1mMGM5OGRjYzUzZjUifQ.1H9nCPeBGuZ4TXFcpOEl1n2Y35fDcPCJJUzfGJCjhu0' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick business pretty enter paper.","maxScore":62,"minScore":5,"description":"Realize dark necessary put anything prepare house. City establish news store try off. City spring bit call study thousand see.\nFire allow everything affect rule painting big give. New race type.","previewFileId":"fb4d3680-47f9-4f77-ab70-154cd1f3a2bf","estimatedTime":"8 weeks","createdByUserId":"7277b3bc-e118-4404-889b-f0c98dcc53f5"}'

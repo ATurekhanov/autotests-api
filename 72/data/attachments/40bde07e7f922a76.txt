@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEzVDA0OjU1OjA2LjcyODI0NyIsInVzZXJfaWQiOiI3OWQ0ZTJjYy0wMmFjLTQ2YTUtYTNhMC0zM2U5MDUzMGU3ZjkifQ.4YsbldA2wET8ZgVizTekmFO3bGFKxrJ0oQn96lnS3ds' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Own hotel management physical owner cultural.","maxScore":84,"minScore":12,"description":"Leader doctor whether vote education word rather election. Structure dark mother catch order take boy address. Finish product young price pass.","previewFileId":"d4b0196a-845d-4ef5-95a1-9728e88c19a5","estimatedTime":"7 weeks","createdByUserId":"79d4e2cc-02ac-46a5-a3a0-33e90530e7f9"}'
