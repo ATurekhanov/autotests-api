@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDA0OjU5OjI5LjE0NTY4MSIsInVzZXJfaWQiOiIyODg2NGM1Mi1jZTU2LTQ1NjktOTVmZC1mNWRjODdlMTdmOGEifQ.zVSN6Mbl2TfBa1DBw52SELoYbjZe_wnSOAucKGejqU0' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You ten lose.","maxScore":53,"minScore":13,"description":"Growth religious necessary woman speak discussion. Hotel wait natural finally on thought.\nOwner sport turn believe. Nation effort house truth radio. Herself while production travel.","previewFileId":"79f9f347-3ee7-4a66-81b6-eced7e1b3c16","estimatedTime":"6 weeks","createdByUserId":"28864c52-ce56-4569-95fd-f5dc87e17f8a"}'

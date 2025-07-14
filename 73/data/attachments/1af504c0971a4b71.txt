@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f344d091-38d2-435c-b71b-f6a6c8ccf711' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDA0OjU5OjI0LjY3NzE3MSIsInVzZXJfaWQiOiIzMGUzM2NhYi0xMWI2LTQ2ZTEtOGI2YS1kODk5MDM1NDc3YTIifQ.j9InJEgbsfAScFjE-4-mPoIJuKHYbAuQVEhLenoslAU' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We stage performance large green TV all.","maxScore":65,"minScore":17,"description":"Left media media. Challenge together remain item.\nControl hour risk. Perhaps appear in morning.\nSong increase real.","estimatedTime":"3 weeks"}'

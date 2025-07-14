@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDA0OjU5OjI2LjA5ODI3NiIsInVzZXJfaWQiOiI4YzE0Y2YzZC04ODAwLTRhOGYtODk5MC1mZDYwYzlkYjk1MjYifQ.AgtJnQZWr9bx3Si43SaNYKkXE2Mo-5xh3g9XleQTF2M' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product plant within ten.","maxScore":79,"minScore":27,"description":"Participant each ask various near others analysis. Now outside pick news cold lawyer.\nWestern group address evening beautiful summer loss training. Market short top political inside.","previewFileId":"4e78b58e-1aba-473d-b2f4-44ad14f43fa2","estimatedTime":"10 weeks","createdByUserId":"8c14cf3d-8800-4a8f-8990-fd60c9db9526"}'
