@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDA0OjI3OjI5LjM1MTg1MSIsInVzZXJfaWQiOiJlOTNjOGQyOS1iOTc3LTQ4YmItOTI1Ni1lZTcwZjZiYWQ1YjQifQ.iNzevPx8KFYZNor11rfQb4n47GapLNrgCH5szBmEiLs' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Back glass six not crime season indicate.","maxScore":58,"minScore":4,"description":"Ability feeling around. Customer director dinner too company. Shake say determine throughout wife some better.\nAdministration ground behavior public hot office. Down American decide purpose under.","previewFileId":"3eecc3af-6ac6-4ba3-8e3a-d483e91800f9","estimatedTime":"6 weeks","createdByUserId":"e93c8d29-b977-48bb-9256-ee70f6bad5b4"}'

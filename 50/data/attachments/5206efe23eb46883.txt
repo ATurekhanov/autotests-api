@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDA0OjI3OjI5LjYyNjE5MSIsInVzZXJfaWQiOiJjMzU5NGUwYi0xNzUwLTQ5NWMtYTIzYi0zYzAyMWE5ZmRhMDIifQ.Tuwe_L1lrm_-sVRPxGMHbIurd3rrZrJH7CrY1McjbvU' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head man man kind.","maxScore":68,"minScore":30,"description":"Want one around fast business part spring stuff. Maintain time parent firm speech red. Still father security level.\nCollege hospital close indicate former positive.","previewFileId":"f3de489d-5076-432f-b8ec-fe0bbc9ed384","estimatedTime":"6 weeks","createdByUserId":"c3594e0b-1750-495c-a23b-3c021a9fda02"}'

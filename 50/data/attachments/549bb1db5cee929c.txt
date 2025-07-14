@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDA0OjI3OjMwLjgwMTc5OCIsInVzZXJfaWQiOiJkZGJjYTJiNS0xZWMwLTQ5MWUtODYxYS0wMmY4ZTU1NzUyZGEifQ.WY0xLNpHMbVgDJlmyso8DX-eGdoQc-gimsDr78Kc6RM' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Road describe agency short very buy explain act.","maxScore":94,"minScore":7,"description":"Sea small grow. Protect describe focus next over.\nUse arm several art. Ball the often very mention suddenly. Size administration throw training case think whole deep.","previewFileId":"ba72d05c-c8d4-46fa-afda-92eb62528a56","estimatedTime":"3 weeks","createdByUserId":"ddbca2b5-1ec0-491e-861a-02f8e55752da"}'
