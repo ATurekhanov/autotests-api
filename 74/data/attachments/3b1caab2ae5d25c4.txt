@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjU2OjEwLjQ2MjcyMCIsInVzZXJfaWQiOiJhMGMzZGY2Yy0zMDQzLTQ2NGUtOGI1YS1jZDE3Y2NlMDFkYzgifQ.uT1KBKf0rY_0wYdIcBA8EQDGglEp_FbH4Op2ZHqYySg' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Almost beautiful wear special bring everything north.","maxScore":93,"minScore":8,"description":"Could anything commercial dog true. Lay adult record impact brother necessary power. Avoid somebody Democrat black young win short five.","previewFileId":"aa7343d7-1b3d-42f2-bdf9-13bdab9deb25","estimatedTime":"8 weeks","createdByUserId":"a0c3df6c-3043-464e-8b5a-cd17cce01dc8"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bed94f24-ebcf-4f39-8e61-203b05483546' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjU2OjA5LjMxNDM4MiIsInVzZXJfaWQiOiIzNmQ5YmE5My1iYmJiLTQ1MDAtODBmMy0zMmQyYzJkZjkzOTEifQ.GOi7BnANppis6agADZiS0w7H0TV0-idrhDnQ_kPW0AE' \
+  -H 'content-length: 209' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody focus present beyond step.","maxScore":51,"minScore":23,"description":"Garden president save move whose. Some institution peace page. Other color yard executive.","estimatedTime":"3 weeks"}'

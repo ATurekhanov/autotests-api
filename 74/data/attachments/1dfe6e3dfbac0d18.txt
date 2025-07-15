@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjU2OjEwLjczNjcyNSIsInVzZXJfaWQiOiIwZDE3ZmIzNi0zY2RkLTQ5NmMtYWJkNi00NGEzMmU4YmJjZTMifQ.LpbgNxs3FXyLwB9GOEKrcNlYhhY4ocR16JLGCK-M8xs' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Research language window hard art feeling.","maxScore":96,"minScore":13,"description":"Pm actually point high leader return.\nAppear relationship bank or. For fine clearly range measure theory ahead.\nProject then subject little. Music of whether report tonight edge present.","previewFileId":"6739010c-6a92-454c-9cd8-06a035aff8c4","estimatedTime":"1 weeks","createdByUserId":"0d17fb36-3cdd-496c-abd6-44a32e8bbce3"}'

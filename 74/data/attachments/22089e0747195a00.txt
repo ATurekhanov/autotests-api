@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjU2OjEzLjE2MjMyOCIsInVzZXJfaWQiOiI0MTY3M2QwYi1mMmIzLTQwZGMtOTRiYS01YmVhMTE2NzA1NjQifQ.Y4Mntefx_F-WEvnxET8olfYlZbU1vfM_MZ0rQjchkxM' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Part face picture reflect table.","courseId":"914a8d05-c1ac-43e1-9090-346cdb014f27","maxScore":82,"minScore":3,"orderIndex":9,"description":"But brother evidence course. Song chance experience. Article human receive.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjU2OjA5LjMxNDM4MiIsInVzZXJfaWQiOiIzNmQ5YmE5My1iYmJiLTQ1MDAtODBmMy0zMmQyYzJkZjkzOTEifQ.GOi7BnANppis6agADZiS0w7H0TV0-idrhDnQ_kPW0AE' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure military everyone marriage couple.","maxScore":84,"minScore":10,"description":"Knowledge practice behind fire follow. Place stay blue. Position capital seem court help not site.\nAct film window through. Art physical wife pretty.","previewFileId":"d976851a-4597-4416-afa1-d43d8d80829e","estimatedTime":"5 weeks","createdByUserId":"36d9ba93-bbbb-4500-80f3-32d2c2df9391"}'
