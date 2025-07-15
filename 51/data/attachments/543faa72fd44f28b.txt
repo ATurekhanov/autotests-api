@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjI0OjI3LjM2NzY2NyIsInVzZXJfaWQiOiI1NDVmODEzNy05ZDUxLTRiYjEtYTQ1Yy02YzI0ZDU5MTg1OGEifQ.CwnQupnk8F66k8LlnS7-WdcjModsD4cGdz3izLBVXsI' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"The teacher medical medical.","maxScore":76,"minScore":28,"description":"Garden late hear tonight state dream suffer war. Agree guy money sound job least. Cover particular hundred where story have.","previewFileId":"dc99e134-7449-4261-8094-a9a99286db61","estimatedTime":"1 weeks","createdByUserId":"545f8137-9d51-4bb1-a45c-6c24d591858a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjI0OjI2LjE0OTcxMyIsInVzZXJfaWQiOiJmYTFhZDBkZi01NDg4LTQ3ZWEtYTM0MC1mYjU0YmZmZGIxZWQifQ.4iSy7uRZUe1bnr128-Sfv3LSWxjghqrMkYiuyHmFwIM' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Other what central open box card conference.","maxScore":99,"minScore":20,"description":"Reach why much interest well relationship game. Too style building tough hour.\nWho produce matter great. Never lead Republican ball others. Consumer much federal fight bill.","previewFileId":"b346a5dd-2ec7-4baa-9ecc-06760e42275c","estimatedTime":"7 weeks","createdByUserId":"fa1ad0df-5488-47ea-a340-fb54bffdb1ed"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/e3469e94-4b65-427f-bcd3-122364d76af4
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/e3469e94-4b65-427f-bcd3-122364d76af4
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to e3469e94-4b65-427f-bcd3-122364d76af4
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Baby help assume share fund attack may ok.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to c5c70884-a54a-4499-9a00-337b619d324c
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 71
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 35
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Indeed member hard room fear pattern. Congress base buy develop most. Car beyond along nature charge minute practice. Fill from determine image city those.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

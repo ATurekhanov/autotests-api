@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDA0OjI0OjI0Ljk3Nzg5NiIsInVzZXJfaWQiOiI2NzVlN2VmMy01YTM2LTQ3MjctYWE5MS1mZDkyZmNlNjY3ZTYifQ.PQO30ScZzODhiOdq-77zPw2Sr2xccMQxvDj_t76YGsU' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Civil speak value data agree.","maxScore":66,"minScore":11,"description":"Later surface lot relate. Grow threat option attack majority despite can. Include third upon seek cold. Investment forget probably leg respond.","previewFileId":"59aa11bd-39a8-4174-a23d-85f99f0ef5df","estimatedTime":"4 weeks","createdByUserId":"675e7ef3-5a36-4727-aa91-fd92fce667e6"}'
