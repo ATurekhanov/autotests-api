@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjU0OjQ1Ljg5MTg5OSIsInVzZXJfaWQiOiIzNGM3M2Q5NS1iZTk1LTQ3MGMtYTBiYi05M2I1Y2ZjYWNhYmEifQ.EutvJRYYI4ZHCyLdyfFCdPZGa9_M815913bkLeJd5H0' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Huge well approach computer can light social somebody.","courseId":"72e49738-c69b-4647-b035-2a6158b53185","maxScore":84,"minScore":22,"orderIndex":20,"description":"Against finish might happen. Law black response production rather perform old.\nCard mouth alone subject. Despite food right hit amount stop evidence. Feel company act opportunity car.","estimatedTime":"8 weeks"}'

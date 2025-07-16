@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjU0OjQ0LjcxMTk5MSIsInVzZXJfaWQiOiI2ZWYyMWZhOS1kYTFjLTQ1NjQtYWQ5NS1kZmRmNTc0YjA4MzAifQ.84hz9EW-CDSjYwtbtk1jBxtgs44gcdzFJd7aJswEpl8' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Admit daughter store sign two kitchen fast.","maxScore":83,"minScore":12,"description":"Series defense thought he all. Then can live data answer agent. Enter two or avoid hair summer. Executive president whether cup both ask present.\nNew response which perform. Career day serve there.","previewFileId":"42412d9f-2248-4d88-bde7-5c3ccbb90b31","estimatedTime":"2 weeks","createdByUserId":"6ef21fa9-da1c-4564-ad95-dfdf574b0830"}'

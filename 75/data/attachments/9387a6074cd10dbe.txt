@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjU0OjQ4LjA2MDU1MSIsInVzZXJfaWQiOiJhOWM2YTM4NC1kMjk5LTRkN2ItOGI1Mi1iZWFkOWJiZDhkNWYifQ.doCAh9S0wCnf8_cLiQZijiz4XLZ8Tr4HQd5VJAEBmRU' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wife board physical just.","maxScore":62,"minScore":19,"description":"Design may five artist sort notice yourself. Reason stock late environmental mind cell.\nAnother staff option turn. Air people soldier system show wrong who. Somebody way suffer bring.","previewFileId":"ff4c3aa7-e925-469f-aa89-9c8c3154296e","estimatedTime":"3 weeks","createdByUserId":"a9c6a384-d299-4d7b-8b52-bead9bbd8d5f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjU0OjQ2LjE2NDc3OCIsInVzZXJfaWQiOiI2YWJkM2RmMC00NWMxLTQ5YzItOTgwZi02ZDY4ZGFmYjI4OTgifQ.JyH2rJyQwm0YtjY0TYk7WhPrLber9HEac_CmPDfnJv4' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Early point strategy assume door.","maxScore":57,"minScore":5,"description":"Send especially side federal list free professor. First heavy foreign cost newspaper less. Positive part health down day majority wonder.\nWear food senior oil us. Tax discover artist.","previewFileId":"065c4724-cfae-427a-b5a5-ba3e49382237","estimatedTime":"9 weeks","createdByUserId":"6abd3df0-45c1-49c2-980f-6d68dafb2898"}'

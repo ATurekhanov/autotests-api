@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjU0OjQ0Ljk4NjY2MyIsInVzZXJfaWQiOiJlNzVhYTU5Mi02NjIwLTQwOWMtODhhMC1jMDA1ZGZkNTBjMGMifQ.NiBDbXegEFBlKzdDfv9Lepx7-UgRdViioG8rqKlm4Kw' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wear serious night better bed star wrong less.","maxScore":97,"minScore":22,"description":"Themselves specific available her government. Floor wind buy game man.\nLeave try life owner south public.","previewFileId":"f0b01602-b52b-4a3f-8e83-16da80f4b4ac","estimatedTime":"1 weeks","createdByUserId":"e75aa592-6620-409c-88a0-c005dfd50c0c"}'
