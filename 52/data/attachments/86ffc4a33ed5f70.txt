@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjU1LjkzMzc1NCIsInVzZXJfaWQiOiIwNTlmYTJhYS1lMzAyLTQ5YTctOWYzNC02ZWFmNTc5NzY0MDcifQ.FurwB5meGcQy7KQcKBlYAotp0neiRPEs2dlpWwknNeM' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window home weight southern my kind amount.","courseId":"a8ded7d7-632f-4da8-9b9c-4f5af0644eb6","maxScore":98,"minScore":20,"orderIndex":93,"description":"Government Democrat process television relationship group full PM. Current sister read approach. Century simply head population increase.","estimatedTime":"3 weeks"}'

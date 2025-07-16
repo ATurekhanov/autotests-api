@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjU1LjMxNzc5NyIsInVzZXJfaWQiOiI4Zjg3MmY5Zi02NTQ2LTQ2ZjEtYTFhYS04MGQwNTRlNWVlMWMifQ.zYOK1q4gUVSTSK7QnM5OV-Jv7lGmYHBJNLSuy1iog8Y' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another end less whom blue.","maxScore":79,"minScore":23,"description":"Produce surface want bed produce beat. Since near rest box tax soon process. Wrong doctor peace mean response. Ready cell suffer until.\nInteresting letter situation argue help.","previewFileId":"0527fb75-595f-469f-a895-5871bfaa6eea","estimatedTime":"10 weeks","createdByUserId":"8f872f9f-6546-46f1-a1aa-80d054e5ee1c"}'

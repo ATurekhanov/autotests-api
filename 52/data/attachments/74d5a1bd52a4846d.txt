@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjUyLjkxODEzNCIsInVzZXJfaWQiOiI5YjQ4MTllMy0xYzkzLTRjNGQtYjkyYy1jM2Q1OWUyNDc1ODYifQ.CE68p4dU7NoYVAJaMp-nUXnkcp-9KRMS9rjtKs85dxM' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"School food public special free.","maxScore":71,"minScore":16,"description":"Set help where poor here long main cost. Create six reach reflect local prevent. Clearly environmental mean hotel.\nLong safe anything case blood where sort. Window tell suddenly tough light.","previewFileId":"aa07d6eb-f020-4ab0-9be0-2002f03a49aa","estimatedTime":"5 weeks","createdByUserId":"9b4819e3-1c93-4c4d-b92c-c3d59e247586"}'

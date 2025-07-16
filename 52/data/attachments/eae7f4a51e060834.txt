@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjU1LjkzMzc1NCIsInVzZXJfaWQiOiIwNTlmYTJhYS1lMzAyLTQ5YTctOWYzNC02ZWFmNTc5NzY0MDcifQ.FurwB5meGcQy7KQcKBlYAotp0neiRPEs2dlpWwknNeM' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Natural image other recent cup.","maxScore":83,"minScore":18,"description":"Week I security eat. Area determine exist before red. With laugh look no movie benefit help hard. Score view owner reduce writer matter arrive.","previewFileId":"10708b35-5464-4c53-9486-8b679c4573d9","estimatedTime":"6 weeks","createdByUserId":"059fa2aa-e302-49a7-9f34-6eaf57976407"}'

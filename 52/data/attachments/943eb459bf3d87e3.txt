@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjU0LjY3NzI2OSIsInVzZXJfaWQiOiIxZDZhNDAyYy1hZTQ4LTRjZGEtOTRkMy1kOWQwMGU2Y2IzMzgifQ.CJhLZdAhHOiMazNryNDRvMkeynIjm98GTNfi-5_aBNw' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fire win today us age wife.","maxScore":100,"minScore":26,"description":"Sea finally gun exist partner teacher ability many. Big although decision top upon million south. When blue cause clearly enough race.","previewFileId":"ca6a8cfe-b8b5-46a7-82c5-9819b0b781ad","estimatedTime":"9 weeks","createdByUserId":"1d6a402c-ae48-4cda-94d3-d9d00e6cb338"}'

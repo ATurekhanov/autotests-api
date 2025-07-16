@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjU0LjA5NDE3MSIsInVzZXJfaWQiOiIxZDY2YjE3Mi1jOGRmLTQyMTUtODg0YS1mMzlmNGNmYWQxMDAifQ.br5w3TYFMPwRn9hcq8T9snokiq4rdqwT2aMt_tNiNic' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which most reflect thus crime.","maxScore":95,"minScore":21,"description":"Believe herself magazine rise. Purpose run ready best common field lay.\nOld occur parent answer better. Expect team family. Writer kind already.\nCar consider political prove. Case teach find town.","previewFileId":"1d0f45db-cd46-4872-a76d-bf5269d247b4","estimatedTime":"4 weeks","createdByUserId":"1d66b172-c8df-4215-884a-f39f4cfad100"}'

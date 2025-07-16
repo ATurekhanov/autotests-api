@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0aed5b06-fd57-4737-9ee0-ba7c3d8954f2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjUxLjQyODg5NSIsInVzZXJfaWQiOiI3ZWMzYzljOC00NWQ4LTRjNWYtODVjZS1mYzgyNDkwZmRkNTcifQ.ECoMh7IiBZfRqen6WopYLNuu1nj1TjMXr7tiW6AEt-k' \
+  -H 'content-length: 244' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now yet upon without national.","maxScore":57,"minScore":24,"description":"From save some save various determine. Agree treatment experience heart stop loss. Plan summer loss indicate management onto power.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE2VDA0OjIyOjU0LjA5NDE3MSIsInVzZXJfaWQiOiIxZDY2YjE3Mi1jOGRmLTQyMTUtODg0YS1mMzlmNGNmYWQxMDAifQ.br5w3TYFMPwRn9hcq8T9snokiq4rdqwT2aMt_tNiNic' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like record staff air join audience.","courseId":"3c957569-f02d-430f-89ed-86db07288e32","maxScore":96,"minScore":25,"orderIndex":82,"description":"Sell world recent trial organization. Institution report manage memory sure return find. Already dinner live prevent.\nDecision training chance way. Fill thought candidate purpose.","estimatedTime":"5 weeks"}'
