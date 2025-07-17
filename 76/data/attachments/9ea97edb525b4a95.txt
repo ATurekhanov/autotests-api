@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Energy foot there dark.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 99
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Call room executive assume. Detail few continue him lay goal color ever. Short chance question another song investment skill growth.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to a782b175-8fca-4f80-818a-df1d1993eaa1
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 3562f2a8-6389-4b98-b9d7-8658ac6c19e3
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

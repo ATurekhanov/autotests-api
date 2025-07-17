@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDA0OjU0OjE0LjA4MzE3NyIsInVzZXJfaWQiOiI3YTBmODU0OS02MmY0LTRlZTAtYjNmZi0zYzg0YTM1M2NjNGIifQ.Um1h_G2towmCrnbxkZuCce_2fP4sBBObVxiQbnG_SYk' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Appear explain what success.","maxScore":100,"minScore":6,"description":"Second student specific real just statement. Subject may religious.\nPush two figure including because board blue. Record sing modern key. Indicate ground mean thus benefit.","previewFileId":"e9438d6c-c37f-4900-aa53-4f0f15e13919","estimatedTime":"10 weeks","createdByUserId":"7a0f8549-62f4-4ee0-b3ff-3c84a353cc4b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDA0OjU0OjE2LjUxNjk3OSIsInVzZXJfaWQiOiI5Y2Q1ZTgzYi01YzRmLTQxMjctYTUxYy0xNDUzZjg3NjdmZDAifQ.Gg7aUvlHJVf9QlTfZAet26lVS0YnjmsSFecn3NFZoK0' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Play wide home particular.","maxScore":66,"minScore":25,"description":"Democratic manage day measure pattern. Road out later message artist reality Democrat scene.\nInto task simply yard. Total everyone either others move.","previewFileId":"4c3cc76e-a816-49a3-b09e-0af62e998266","estimatedTime":"3 weeks","createdByUserId":"9cd5e83b-5c4f-4127-a51c-1453f8767fd0"}'

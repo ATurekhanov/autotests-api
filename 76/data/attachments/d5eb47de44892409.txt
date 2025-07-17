@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDA0OjU0OjEzLjgwNzk1OCIsInVzZXJfaWQiOiIzNTYyZjJhOC02Mzg5LTRiOTgtYjlkNy04NjU4YWM2YzE5ZTMifQ.VubAo9iy8AoTVcQNDjDhop_ndK_VtbS6SwxqobqgxWU' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy foot there dark.","maxScore":99,"minScore":5,"description":"Call room executive assume. Detail few continue him lay goal color ever. Short chance question another song investment skill growth.","previewFileId":"a782b175-8fca-4f80-818a-df1d1993eaa1","estimatedTime":"10 weeks","createdByUserId":"3562f2a8-6389-4b98-b9d7-8658ac6c19e3"}'
