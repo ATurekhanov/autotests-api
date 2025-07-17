@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDA0OjIyOjI5LjQ5MjgwNCIsInVzZXJfaWQiOiJmNDZiZWE1ZS00ZWIzLTQ5Y2QtYTk1Ny0zMTI5OGY5ZjFkNGMifQ.QrnQ-jFJi2wpO9m0-Vxe_wFB0uFHJxCqllQrwFOE2qk' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw newspaper job prevent maintain religious media.","maxScore":54,"minScore":12,"description":"Remain heart hot brother simple right already. Live according here garden.\nMajor eye travel billion draw. Suggest risk company respond manager writer year.","previewFileId":"23238630-c4fb-4b20-bccb-252dd3c1fcb6","estimatedTime":"9 weeks","createdByUserId":"f46bea5e-4eb3-49cd-a957-31298f9f1d4c"}'

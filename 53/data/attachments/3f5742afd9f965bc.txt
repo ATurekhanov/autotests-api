@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/fe015356-5a1b-42f7-9416-acbfc0877cd0
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/fe015356-5a1b-42f7-9416-acbfc0877cd0
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to fe015356-5a1b-42f7-9416-acbfc0877cd0
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Another at bag sense.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 0dd28cea-598d-48d0-895a-61b9bb016466
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 100
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Every level question seem. Among when include truth always music.
+Relationship lose three. Other bank specific little edge national. Behavior agency threat chair reflect.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

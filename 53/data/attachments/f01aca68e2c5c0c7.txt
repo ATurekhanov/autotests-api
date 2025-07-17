@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDA0OjIyOjI2LjgwNTkxMyIsInVzZXJfaWQiOiIzYmE3YzAxZC0zZDdhLTQ4MzktOGE4OS1kMDNhZWRmZTBmZDYifQ.xnBAWuBfSjoj1IIjy9nHDseajFP9AmZkugj9qbaxxUA' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Really reason college step.","maxScore":60,"minScore":11,"description":"Agency car assume reason executive say. Garden quality property build.\nPlay evening ready red sit me. Five raise near day turn Democrat.","previewFileId":"d4e55a1d-c550-43ec-9c3b-206233f72a9b","estimatedTime":"8 weeks","createdByUserId":"3ba7c01d-3d7a-4839-8a89-d03aedfe0fd6"}'

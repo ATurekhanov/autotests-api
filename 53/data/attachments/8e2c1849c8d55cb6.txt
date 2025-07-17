@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDA0OjIyOjI3LjA3OTAzNSIsInVzZXJfaWQiOiI4YjAwODU3ZC03YmY4LTQzNzQtYWRiMS0yMzM0NWFlYzYxMWUifQ.4DK9L8MSka5HJTKe2cO6qDPJR6ORtDzHzeL-aEkw688' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock subject attack listen give response ago.","maxScore":87,"minScore":18,"description":"Themselves practice sing clearly very professor yourself. Money trip read event must tough.\nThemselves thing program sport practice nearly fear. Section mention people sea woman time close.","previewFileId":"67ec63c7-70a6-4243-8a4b-d4cfccd161f6","estimatedTime":"9 weeks","createdByUserId":"8b00857d-7bf8-4374-adb1-23345aec611e"}'
