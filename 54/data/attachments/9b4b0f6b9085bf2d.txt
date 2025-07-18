@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE4VDA0OjI0OjIzLjczMzE4MSIsInVzZXJfaWQiOiI5MTFlNjA3NS1iYmQzLTQyOTgtOGZjZS1hN2IzMDkyYzFkNWUifQ.uLjUjx3iAoDGfkapfijy5BVjAmLDpJjPehDvimeR95I' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give huge hand nor community course.","maxScore":70,"minScore":15,"description":"Eat central modern relationship. Standard clearly method about today main contain.\nSchool box remain foreign. Eat research week play billion. Article few probably often.","previewFileId":"02ad87dd-9f24-4689-a8b2-2e337fa0b897","estimatedTime":"9 weeks","createdByUserId":"911e6075-bbd3-4298-8fce-a7b3092c1d5e"}'

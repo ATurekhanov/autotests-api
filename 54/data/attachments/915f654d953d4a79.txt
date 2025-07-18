@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE4VDA0OjI0OjI0Ljk4NDYyOSIsInVzZXJfaWQiOiIwYjQwYjEzNi1mNzNhLTRmN2EtYmUzMi01ODIzYmY1YTg4YWQifQ.d1zSr0OCwQQDKPC-YHshxiKNEMWjk92b_ukIQyhIi2Q' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interest air often forget.","maxScore":90,"minScore":1,"description":"Now trial myself. Common enough behind would wonder quite body. Shake vote trade report mean.","previewFileId":"03e306da-058f-4d58-8c6c-b16a5c0f009d","estimatedTime":"9 weeks","createdByUserId":"0b40b136-f73a-4f7a-be32-5823bf5a88ad"}'

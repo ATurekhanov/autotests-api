@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE4VDA0OjI0OjIzLjE0OTUxMyIsInVzZXJfaWQiOiI5ZWQ1Mjk0MS0yNTY1LTQ0ZjYtOWZiOS1jYzY1N2JlYTQ3YWQifQ.KBpDGT19RM8EPxMcYrOrMH3lub_r90zd7D_UBhhplMg' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk clear firm check according.","maxScore":92,"minScore":28,"description":"Industry task specific get reduce. Hundred which throughout down artist opportunity. Machine traditional reveal population try car they. Cold through present trade want same degree road.","previewFileId":"78f723ed-d200-4403-8160-a9f21ba4f72b","estimatedTime":"6 weeks","createdByUserId":"9ed52941-2565-44f6-9fb9-cc657bea47ad"}'
