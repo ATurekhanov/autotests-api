@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE4VDA0OjU2OjAwLjIzNzIyNyIsInVzZXJfaWQiOiIwN2QyZTAwMi04MGUwLTQ1ZDAtOTA4MS0zMDFkMDBhYzg5NmMifQ.ae1N64DHnv4Cp0fbw-8M3-jKe2geLdfW1lDyO7CSOyU' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait talk recently.","maxScore":64,"minScore":29,"description":"Simple base then model entire. Able action live like trouble have mention. This detail for sea vote care.","previewFileId":"06ccfa77-e75f-45d6-83b3-47d3714b3ff2","estimatedTime":"4 weeks","createdByUserId":"07d2e002-80e0-45d0-9081-301d00ac896c"}'

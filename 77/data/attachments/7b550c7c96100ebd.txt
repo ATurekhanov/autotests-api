@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE4VDA0OjU2OjAxLjY4NDU1NyIsInVzZXJfaWQiOiIzOGFkMWNlYi0yZjg1LTQzNjItOTNiNS03YmMyODkyZTQ4OGMifQ.0uoajaL8igu9L_NFxSon4BZZjLsH7Dg1e3nMYc-Kh8k' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary which report grow loss step.","maxScore":72,"minScore":24,"description":"Quality imagine person somebody executive attorney. Generation because bed control. For explain former.\nAuthor maintain popular lead phone police instead.","previewFileId":"0df598e0-3fa7-4db2-9b76-9d1b766893df","estimatedTime":"3 weeks","createdByUserId":"38ad1ceb-2f85-4362-93b5-7bc2892e488c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE4VDA0OjU2OjAyLjMyMTg3MiIsInVzZXJfaWQiOiI3NDIzMjJmMC1hNGE3LTQ4OWItYTBjMi1kZWYwNDkxOTkwNWUifQ.ML-jXbKeBjZyZ3wDVqj4HUHCtNHePbKQJYJaLE0hl9s' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Practice magazine choose.","maxScore":88,"minScore":26,"description":"Opportunity cultural dinner peace yes million former. Six third owner lose return.\nBack short message what television result thus. Home thus feel agent team give.","previewFileId":"f14fb51d-f13d-4d1a-bed5-d0ed00c9e12e","estimatedTime":"3 weeks","createdByUserId":"742322f0-a4a7-489b-a0c2-def04919905e"}'
