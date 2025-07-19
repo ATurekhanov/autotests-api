@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjE2OjQ5LjA3MzI2NCIsInVzZXJfaWQiOiIxOGE1Yjk1Mi1kZDI5LTRiMzYtYjMxMi1jZjM0OGIyODZmZjgifQ.ukBfV7sTbBFutglLfhKT8By7XLstkzKuz70xkchwvtY' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kid employee protect kid.","maxScore":55,"minScore":21,"description":"System democratic participant computer. Discover challenge even edge approach treat thank. Seat one place add able.\nRule agency major need receive name scene. International east big trip kid speak.","previewFileId":"753e8039-fb32-448c-ad39-3fa90b85980d","estimatedTime":"4 weeks","createdByUserId":"18a5b952-dd29-4b36-b312-cf348b286ff8"}'

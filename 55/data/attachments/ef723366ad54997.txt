@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjE2OjQ3LjU5MTcwMCIsInVzZXJfaWQiOiJjYzY4YTEwYS05MjQ5LTQzNGEtOTc1OS0yMGYyMjAxYzg1MDAifQ.DfvvvBgrbtBZDZKcojt1CclmlF4yUNmB-AVVbM4T0aw' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure by catch miss environment debate region federal.","maxScore":52,"minScore":7,"description":"Nature reality research cost beautiful. Bank leader leg future perform north.\nGovernment sport idea both heavy positive. Put series assume of. Education ask who serve program.","previewFileId":"c0916601-8b36-4eed-8e4f-69abbdcae018","estimatedTime":"5 weeks","createdByUserId":"cc68a10a-9249-434a-9759-20f2201c8500"}'

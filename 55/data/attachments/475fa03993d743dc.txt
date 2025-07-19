@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjE2OjUxLjQ2NTEzMCIsInVzZXJfaWQiOiIwOGM5ZWQyNy04ZGE5LTQ5ZDMtODdlNi01MWEyMmZhYjdhMjkifQ.obnPLslqRcZbhTkyK0B5Sf-Zuo2D597zXTjrtunbuAE' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Almost wish scientist.","maxScore":92,"minScore":21,"description":"Congress amount significant fight. Business blood partner including early.\nTown claim take lead ever research building. Side me hope.","previewFileId":"cd96a162-b8e4-4b81-9680-500eb000da1b","estimatedTime":"2 weeks","createdByUserId":"08c9ed27-8da9-49d3-87e6-51a22fab7a29"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f3c56b69-ff9d-46ea-9a94-035aeef2ac63' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjE2OjQ3LjU5MTcwMCIsInVzZXJfaWQiOiJjYzY4YTEwYS05MjQ5LTQzNGEtOTc1OS0yMGYyMjAxYzg1MDAifQ.DfvvvBgrbtBZDZKcojt1CclmlF4yUNmB-AVVbM4T0aw' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Imagine him reveal head significant than.","maxScore":100,"minScore":23,"description":"Section quickly agreement front every. Country without hold agency detail matter long.\nDiscuss former deal start well. Set doctor important sign suggest job yeah space.","estimatedTime":"8 weeks"}'

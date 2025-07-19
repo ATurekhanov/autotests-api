@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjE2OjUyLjA4MTQ2NSIsInVzZXJfaWQiOiI0MDFjYmFkYy02ZjEzLTQ0MGEtOGNkOS02MmE5YTRkMjUwMGUifQ.Rntjl0HXrDopyOlFkNo-Qpzm6_4xpHBCLG77gDlJP9M' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four something law commercial and mean although.","courseId":"901a410e-7775-492f-8336-030543ae6ee6","maxScore":54,"minScore":17,"orderIndex":10,"description":"Center offer most order industry. Rather majority mouth soldier.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjE2OjUwLjgyOTU0OSIsInVzZXJfaWQiOiIxNTZmYTgyNi05Mzc0LTQ3NGUtODk1Zi1kM2Q0NzQ4YjhkZWEifQ.XN06SSMMybXI7KLFasuLk889tfjo8TVt1VZccGGQWfo' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner across subject phone school it nearly.","maxScore":60,"minScore":19,"description":"Will trouble series door. Outside keep show generation. Happen yeah three dark summer world.\nToday PM someone be add. Tax employee call use agency house per now. Oil girl fill good above debate side.","previewFileId":"12bd06f6-6b73-4a55-95d2-3af482681d0c","estimatedTime":"1 weeks","createdByUserId":"156fa826-9374-474e-895f-d3d4748b8dea"}'
