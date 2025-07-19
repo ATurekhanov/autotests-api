@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjQ4OjAyLjE4MjIzMiIsInVzZXJfaWQiOiI4NDE4MmM0ZS0wMWIxLTQ2YTMtYjM0ZC1kZTJkYjMwZDAwMDkifQ.zLUtBGLu1Vn4XXTheHr8gN-ewZLI_itMc2m06Cc2NEo' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late international right.","courseId":"f41a42af-b161-4df6-9c18-0d13c5cd1259","maxScore":50,"minScore":25,"orderIndex":58,"description":"Alone stock next industry every. Need then if color.\nWrite situation lose think imagine level quality current. Those cut know election as work cause. Effort customer lawyer night.\nPart blue enough.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2c140b6b-349c-4a15-89fc-e328a2229cb2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjQ3OjU5Ljg2MDg4NCIsInVzZXJfaWQiOiI5MDE2ZTNlMC1lZGI5LTQ2ZWUtYmExNy1hYTc4NGE1YjdlOTcifQ.JLhCTTMDXvdwE6bbvUI67yblDGUVdvONBhSpDYEBjhY' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Information tree address piece house record fine.","maxScore":72,"minScore":10,"description":"Necessary sea so alone lot cup serious. Apply when discover piece measure. Employee when perhaps reason soldier note.\nStore various win add spring executive.","estimatedTime":"4 weeks"}'

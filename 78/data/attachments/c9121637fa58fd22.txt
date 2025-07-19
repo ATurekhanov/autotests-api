@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjQ3OjU5Ljg2MDg4NCIsInVzZXJfaWQiOiI5MDE2ZTNlMC1lZGI5LTQ2ZWUtYmExNy1hYTc4NGE1YjdlOTcifQ.JLhCTTMDXvdwE6bbvUI67yblDGUVdvONBhSpDYEBjhY' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son than purpose sea list professional.","maxScore":84,"minScore":23,"description":"Organization summer near. Single hundred allow ground. Myself learn relationship challenge tell. Practice realize south trade rock walk.","previewFileId":"4c5a1187-f907-4af7-820f-692d0fe49b25","estimatedTime":"10 weeks","createdByUserId":"9016e3e0-edb9-46ee-ba17-aa784a5b7e97"}'

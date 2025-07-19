@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjQ4OjA0LjM0MzY2NiIsInVzZXJfaWQiOiJlMDhkMDRmOC0yOTAzLTRjYzctYWZlYS0yNTQwZDEyNDgzNDUifQ.wcxnQTOk0ezbsl6BYCTwLpGROvzyODYz0UchA5hF3l0' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole up scene.","maxScore":53,"minScore":19,"description":"Wrong woman including young operation social degree. City seek sit very spend month.","previewFileId":"5a876f1e-98b3-4edc-9925-9da03c4259e4","estimatedTime":"4 weeks","createdByUserId":"e08d04f8-2903-4cc7-afea-2540d1248345"}'

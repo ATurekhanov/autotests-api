@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjQ4OjAzLjY4NTAzMiIsInVzZXJfaWQiOiJiYTY3Yzk0OC02ZjA0LTRmYjAtODlkMS05ZDgxOGRjYzVmMGMifQ.vCJFTXn_iHPhpt6RX-ZLEOEDbbUzQF3oPa92D8uVUco' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole full put like.","maxScore":59,"minScore":1,"description":"Approach let various guy quite. Product interest someone child. Happy since program hope act.\nRecent relationship sound couple. Follow least anyone rest bag.","previewFileId":"80181c37-a5e2-4016-955a-c2cd81f93580","estimatedTime":"8 weeks","createdByUserId":"ba67c948-6f04-4fb0-89d1-9d818dcc5f0c"}'

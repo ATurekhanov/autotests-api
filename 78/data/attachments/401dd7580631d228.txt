@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDA0OjQ4OjAyLjQ1NzQwNCIsInVzZXJfaWQiOiJjZTk2ODAyNS01MTZmLTQ1MjgtOTliOC0yNDU2YTNlOWI0ZTQifQ._x1qAUW2y7bar2Po2c6mhaUwbdfSG1kEdmE7PMC39QY' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Include media section right year ok hundred data.","maxScore":88,"minScore":12,"description":"Democrat professor worker school reveal international boy.\nReligious too boy open benefit begin. Bill make bring early morning this break. Democrat capital instead fear paper.","previewFileId":"31f265dc-2937-45a3-8058-aee54ee9837c","estimatedTime":"4 weeks","createdByUserId":"ce968025-516f-4528-99b8-2456a3e9b4e4"}'
