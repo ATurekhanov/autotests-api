@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/99066a50-2fa5-4537-bf53-ac6122814db7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIwVDA1OjAxOjM0Ljg0MTc5NSIsInVzZXJfaWQiOiJkZmUzODFkNi1jMWNjLTRhZjEtODI0ZC1lYzcxOTI1ZTg0M2QifQ.q9nB0Dllz6g-ZuL1MY5zEluRb5Uty6p2iCsaPs9LbhI' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase city hospital no your beyond medical.","maxScore":69,"minScore":12,"description":"Become bar last own his identify nice. Role fund human example and.\nPresident create general put perform eye when. Figure long grow recent dinner member.","estimatedTime":"2 weeks"}'

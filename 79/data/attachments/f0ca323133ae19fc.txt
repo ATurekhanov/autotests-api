@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIwVDA1OjAxOjM5LjMzMDYyMCIsInVzZXJfaWQiOiIyMDVlNmM1Ny03NWU2LTRhYmUtYTk3My1jMmJlOGI3YThkN2UifQ.EkJt4ryJwb3Lx0QIv44bbB1Jr5_1XZhZx3zM9JSRoU0' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College step religious within time rule boy contain.","maxScore":80,"minScore":10,"description":"Tv take matter plan of. Travel choose true indeed star in. Ability evening change available total laugh.","previewFileId":"9bed554c-32af-4b1b-a01b-e7e2e3df1436","estimatedTime":"4 weeks","createdByUserId":"205e6c57-75e6-4abe-a973-c2be8b7a8d7e"}'
