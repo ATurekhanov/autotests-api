@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIwVDA0OjMwOjAyLjI0NTg1NiIsInVzZXJfaWQiOiIzNTNmNWUxMS02YTQyLTQ3ZjUtOGZiYi1mZmM2YWRjMWU2MDYifQ.H84wJj00M44a9RXr3PPADvPZ70xm5C7Fqpf1ESGDgDo' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above trouble eight sport.","maxScore":51,"minScore":25,"description":"Instead like physical economic time. Year executive smile operation.\nAgo half religious network pay Democrat drive. More treat personal really Republican wrong threat.","previewFileId":"377b2741-1a95-41bc-a0d7-836fbec93268","estimatedTime":"2 weeks","createdByUserId":"353f5e11-6a42-47f5-8fbb-ffc6adc1e606"}'

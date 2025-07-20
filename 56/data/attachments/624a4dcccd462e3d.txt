@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIwVDA0OjMwOjA0LjkyMzg1MCIsInVzZXJfaWQiOiJkODFjMWIzZi1hMzUzLTRjYTktODhhNC0zODlmMWYzNGE0M2QifQ.u2bfW6_AYRqvaaIJCd21u0N54cioiKoctxuoMjlB5hM' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perhaps probably myself improve major dark or let.","maxScore":69,"minScore":4,"description":"And sell nature short big. Guy coach face magazine.\nWait some issue effect mission away. Mission line compare woman close decision address.","previewFileId":"aebeabca-ef91-4849-9612-7a653fa98c06","estimatedTime":"2 weeks","createdByUserId":"d81c1b3f-a353-4ca9-88a4-389f1f34a43d"}'

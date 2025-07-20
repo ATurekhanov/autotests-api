@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/75c45419-11c1-42b0-a987-c8c6e4e5a3e3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIwVDA0OjMwOjA2Ljc2OTU1MSIsInVzZXJfaWQiOiJiYjA2NWZjYy00YTdiLTQzMDUtYWU5OS0yMDNkYTBlMTc0NmEifQ.xW7R2SlW3pHrVzQQzJbHEe7qgfg7IQmHF0pdztqocKM' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home knowledge along let.","maxScore":54,"minScore":1,"orderIndex":83,"description":"Smile however friend brother late shoulder. Manage discussion still beyond far.\nRadio deep each could. Candidate eight not brother really magazine.","estimatedTime":"2 weeks"}'

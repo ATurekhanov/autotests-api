@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIwVDA0OjMwOjAzLjc0MzQzNyIsInVzZXJfaWQiOiI2MTJiOTAwZS01Njg3LTQ5OTUtYmM1Yy1kYzgwMmZlMWMxYTIifQ.ZMioD1nPdXNdQu7WdYLAs9Z806AEPEaFBvSFJFVxmu0' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Training report last mother tonight itself source.","maxScore":73,"minScore":6,"description":"Medical hard trial girl. Generation ahead ago story.\nPower nearly energy law collection it. Chance sure rule feel. Sing management kid throw artist.","previewFileId":"a2499ced-cf84-4a89-8c07-d885a7ef2c7a","estimatedTime":"7 weeks","createdByUserId":"612b900e-5687-4995-bc5c-dc802fe1c1a2"}'
