@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA1OjAyOjAxLjgyMjYyMyIsInVzZXJfaWQiOiJmMDQ2ZThmYS05ZWE3LTRmM2UtOTE5ZS1mZDI0YmM1YTY2NmYifQ.HRoPMS8LsS1K6vSwpnG8CHQGbZzk5S931kz_sY19EJU' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Action hand food box.","maxScore":58,"minScore":20,"description":"Tend eat learn chance. Care computer whatever attack small ask chair it.\nAvoid southern fact single law. Line teach join. Wind tell ten because. Our place she money anyone its believe.","previewFileId":"229fed4e-d34e-4484-8e6a-336733c1c3eb","estimatedTime":"8 weeks","createdByUserId":"f046e8fa-9ea7-4f3e-919e-fd24bc5a666f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA1OjAyOjA0Ljc5MDY3NyIsInVzZXJfaWQiOiJiNTBjMzgzMC1hMzFiLTRmMzktYjM2Ni0zMDlhYmQwOTYzMDAifQ.qd1lPZGcfGdaMAoMB8zJhoJk4isDxbnGreGyTXbswFU' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Performance ready pull strategy.","maxScore":69,"minScore":1,"description":"Else world mother already pull. Same magazine black chance operation office opportunity. Always door rich analysis while officer.","previewFileId":"7ac51f38-70c0-4da6-8e2c-e891b76072aa","estimatedTime":"4 weeks","createdByUserId":"b50c3830-a31b-4f39-b366-309abd096300"}'

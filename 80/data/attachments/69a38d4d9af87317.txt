@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA1OjAyOjA0LjE1NTcwMiIsInVzZXJfaWQiOiIzNWRjMWZiOS0xZmIxLTQ3MGYtOWM5MS1hNGJhODEzNDA5ODQifQ.2OJ5_gAYBlAoSHQJwZaqypXusCDLC4dHXdaGj0oI9K0' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consumer single series.","maxScore":62,"minScore":27,"description":"Sure those any cold bar.\nWin team wish call run. Activity tell man central different word piece.","previewFileId":"f101a8fd-2adf-4dfe-9a5b-bf68d02d3694","estimatedTime":"6 weeks","createdByUserId":"35dc1fb9-1fb1-470f-9c91-a4ba81340984"}'
