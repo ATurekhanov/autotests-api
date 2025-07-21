@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA0OjI5OjI1LjYzMDg4MCIsInVzZXJfaWQiOiJjODI1ZDFkYi0xYWNiLTQ0NDMtYjYwZi0zNWRlOWUyMTEwNzcifQ.DAazKHpg7Rs1Bsvh0JMl_5D0_BLvmj7OiZwWaAfUOIk' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead image film blood science maintain.","maxScore":55,"minScore":2,"description":"Create fish best religious model one. Sure goal evening development response song. Receive reality fight mind son.\nDrive military letter term him short. Agree project structure system.","previewFileId":"297412bd-0761-4952-ace4-ef6ba1a7bb15","estimatedTime":"6 weeks","createdByUserId":"c825d1db-1acb-4443-b60f-35de9e211077"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c898de23-8737-4ea9-bf63-a89cb2074f8b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA0OjI5OjI0LjIwNzY0MCIsInVzZXJfaWQiOiI2YzE4YTI0Ny02NzZjLTQxMjItOWZkYy04YjFkODU0ZTBmMmUifQ.IvRYZ9pMI3HAh-A6bubTf4UdFTbOU-wAPyo1wwqE1w4' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Grow hold alone teacher.","maxScore":93,"minScore":7,"description":"Save share public parent. Child special news hot father class.\nHigh just relationship maintain special model. Especially technology president who.","estimatedTime":"5 weeks"}'

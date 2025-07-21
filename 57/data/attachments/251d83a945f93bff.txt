@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA0OjI5OjI4LjAzODUxOCIsInVzZXJfaWQiOiI2OGE4OTE0Ny04ZTExLTRkN2EtOWU1Zi1lNDFhYmQyYTFkOGUifQ.Z9MvyGaizlCiyhQKM1u9WdDAl0PL6bS1Zf4AuDVM9Mk' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Run attention ten four.","maxScore":88,"minScore":9,"description":"See reason instead. Center cut fall fill threat.\nServe world yourself. Probably director public race.","previewFileId":"1cbd1973-6549-4029-9676-2519fc9784d3","estimatedTime":"2 weeks","createdByUserId":"68a89147-8e11-4d7a-9e5f-e41abd2a1d8e"}'

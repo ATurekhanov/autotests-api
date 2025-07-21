@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA0OjI5OjI3LjQ2MDExMCIsInVzZXJfaWQiOiI3OTNiYWYwZS0xNzQzLTQ0MmYtYmVkYy03MWM3NDE5MDI2ZDUifQ.bDMxPv3VHIsEFTJBEMamd72UihX6KAuKB3vnlB74CME' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"First budget street woman network.","maxScore":80,"minScore":4,"description":"Network notice someone. Be act speak exist they. After act whole everything.\nSpecific box close leave. She court police rise kitchen official. Condition there push thought.","previewFileId":"f3e8948c-2fb8-49a7-9d70-93520d849e4f","estimatedTime":"2 weeks","createdByUserId":"793baf0e-1743-442f-bedc-71c7419026d5"}'

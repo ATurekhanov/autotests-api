@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Sound goal ahead dream information high wife.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 67
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Coach than hit between then produce. Short trip together smile.
+Avoid beat owner almost why. Resource model structure morning dream shake protect. Window part however now decide board property.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to a5095a15-ab41-4b52-8b16-351c376b9150
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 56b1cd9f-cd26-4fd8-bbfa-1fed95ef6a0e
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

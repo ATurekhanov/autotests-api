@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIxVDA0OjI5OjI1LjM1NzcyOCIsInVzZXJfaWQiOiI1NmIxY2Q5Zi1jZDI2LTRmZDgtYmJmYS0xZmVkOTVlZjZhMGUifQ.K9QK-GkKYK1JVmnSQDSgjWBXo6IDgc0QGbo9dxFg2xc' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound goal ahead dream information high wife.","maxScore":67,"minScore":25,"description":"Coach than hit between then produce. Short trip together smile.\nAvoid beat owner almost why. Resource model structure morning dream shake protect. Window part however now decide board property.","previewFileId":"a5095a15-ab41-4b52-8b16-351c376b9150","estimatedTime":"4 weeks","createdByUserId":"56b1cd9f-cd26-4fd8-bbfa-1fed95ef6a0e"}'
