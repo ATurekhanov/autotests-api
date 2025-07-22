@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDA0OjU1OjUyLjg2MjYyMCIsInVzZXJfaWQiOiI0Yjc3NjBiMC0wZDFmLTQyMjEtYjZlNi0xYzM1NTVlNWJjZWYifQ.SHAu-H1Sa8DDjelvB2rQwGcYOPERd-Xvs60fFibP_Ss' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member town us store.","maxScore":81,"minScore":2,"description":"Upon possible before spend. Those least floor stand then care career. Yard school quite everything.\nMyself particular edge while. Relationship here class push name.","previewFileId":"a1331bdf-f7b9-46aa-996b-280514d30972","estimatedTime":"9 weeks","createdByUserId":"4b7760b0-0d1f-4221-b6e6-1c3555e5bcef"}'

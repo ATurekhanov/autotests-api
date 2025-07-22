@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0df9fb9c-cc4d-4e61-ae69-6102cdb0f20b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDA0OjU1OjU3LjMzMjQyMSIsInVzZXJfaWQiOiJkMjNkNzJkYy02MjZjLTRiYjQtYjhjNC05YzhhZmM3MzIyYjIifQ.wg4ShhmxVI1MKfZZQt8K3CTIQRF47-CUELhVnUH_QfE' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simple market east second clearly month.","maxScore":100,"minScore":2,"orderIndex":57,"description":"Look back list. Rather cause religious her open toward. Recognize real medical where.\nTraining paper but long support describe relationship. Ago according possible each.","estimatedTime":"2 weeks"}'
