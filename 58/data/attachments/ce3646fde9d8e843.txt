@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDA0OjI0OjIwLjk4MTE1NSIsInVzZXJfaWQiOiIxZDVhZTc2Ni05Y2JmLTRkMmItOWVmMS1jNTRhZjQ1OTRjMDYifQ._eNs2554k5UL5dyiILbnlSK64PnYvNU2qZdF_WqluSA' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Color old dream miss to manage.","maxScore":95,"minScore":5,"description":"Fly difficult allow across here better. Smile whether last drop arm deep.\nRun strategy state become.","previewFileId":"c4f26b6f-a540-46a2-b936-0fb48941e49a","estimatedTime":"3 weeks","createdByUserId":"1d5ae766-9cbf-4d2b-9ef1-c54af4594c06"}'

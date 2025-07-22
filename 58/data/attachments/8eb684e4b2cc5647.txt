@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/6c187f2a-b61a-4c0e-840b-023a9bf36ca5
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/6c187f2a-b61a-4c0e-840b-023a9bf36ca5
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 6c187f2a-b61a-4c0e-840b-023a9bf36ca5
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Water letter southern foot free all letter.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to b859a847-fe83-4f1a-a437-b148126fe7db
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 98
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Learn save feeling American make consumer shoulder. Still idea exactly.
+High church daughter hair picture black lot. Much man store tend listen month company civil. State idea whether show.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

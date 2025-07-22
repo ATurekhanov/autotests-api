@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDA0OjI0OjIyLjc5MzQ2NSIsInVzZXJfaWQiOiI5MDE2Yzc5OC1mN2NlLTQ4NDUtYTdiMS03Nzc1ZDc1YWQ2MTEifQ.QsKjk0Ed7n3gOjKu1QjpMFTkmy2tmlrGzd1DDQFTm5I' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Phone mission board ask medical yes responsibility.","maxScore":55,"minScore":1,"description":"Maybe her hope guess quite dog another win. Film wide move former man energy current raise. Must oil experience lawyer medical stop.\nProduct light group item. Candidate power around way run.","previewFileId":"a3f83c21-d8b8-4493-be93-dc57547cc231","estimatedTime":"7 weeks","createdByUserId":"9016c798-f7ce-4845-a7b1-7775d75ad611"}'

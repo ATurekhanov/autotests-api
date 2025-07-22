@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDA0OjI0OjI0LjAwODgzNCIsInVzZXJfaWQiOiJjMjQ2MzkxMS1hZmQ2LTRkMGYtYmMyOS1hNTUxZDFhYmU5ZWUifQ.qCmZfkY9BOSKe0eCg9K3e8Z4nKMnfEf9w7QEf26JsLU' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Against natural adult.","maxScore":74,"minScore":20,"description":"Particularly someone tax turn into opportunity. Method front your event tax born five. Goal future other computer.","previewFileId":"f1b13aae-5498-46c1-b6f2-3cd9dd85cefe","estimatedTime":"7 weeks","createdByUserId":"c2463911-afd6-4d0f-bc29-a551d1abe9ee"}'
