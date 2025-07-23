@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjI1OjMzLjQyNDIzMCIsInVzZXJfaWQiOiJjZjAwYjBhNy1mYzg4LTRlMzQtYjk3Zi01YjVjZTQ2MGM2ZDUifQ.zoSXuBB_mHKLNkbeh_DF7pnT2hlxjGoaT8608dc7UhI' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card lot seat star wonder defense.","maxScore":59,"minScore":30,"description":"Imagine control woman so fall people measure.\nBag walk evening air poor interest film example. Pass across air recognize. Summer mother seem significant east.","previewFileId":"ad93be78-ada6-49f4-b94c-2a313a5aa8f7","estimatedTime":"5 weeks","createdByUserId":"cf00b0a7-fc88-4e34-b97f-5b5ce460c6d5"}'

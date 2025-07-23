@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3f97bbb8-c1e5-41c1-bb8e-14b8d660730b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjI1OjMwLjgxNjk2NSIsInVzZXJfaWQiOiJkZjU2YjQxZi1jZjg0LTQ5ZGEtOWI3NS0zZTg3Yzc0ZGQyYzAifQ.-WUX6x3sp4CPtmStz_qcQ5nFu0XYNCLWlZitwzbB7JE' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person into last morning blood child.","maxScore":62,"minScore":21,"description":"Study drug paper exist ask or reality. Television some become each during.\nTree speech provide would goal. Thank idea entire art toward yard. Law movement health world Mrs entire down.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjI1OjMxLjk2NjAyOSIsInVzZXJfaWQiOiIwZTcxNDVlMC02ODk4LTQ3ODQtOTkyNS0yNjZjZjg1MTY4OGYifQ.KzO6_XTHzvNgyZErHhqrlfGSk-FdOuDLbOew0hdLNQU' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shake stay degree garden.","maxScore":58,"minScore":13,"description":"Tree tonight stop necessary. Cold big finish south either model action.\nEnvironment yet same common brother hotel idea. Well letter meeting meeting once.","previewFileId":"480b078e-0dca-4932-b995-873420719e81","estimatedTime":"8 weeks","createdByUserId":"0e7145e0-6898-4784-9925-266cf851688f"}'

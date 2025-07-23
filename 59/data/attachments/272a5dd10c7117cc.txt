@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjI1OjM1LjMxNTk4NiIsInVzZXJfaWQiOiJhZDdjYWQ1MC1iMDYwLTRiNGMtYTI1OS1iMmUzYmZiMGI1NDAifQ._UD6hJuNUQgPrtjEOjdYQ8OO5c2123WyhG0GR3zCwYk' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before agency rather each team accept.","maxScore":82,"minScore":7,"description":"Seat whose Republican price tell. Central point manage note heart data bring. Thought to carry.","previewFileId":"443e96f9-f9ac-4c4e-86e0-75ce69b9dec6","estimatedTime":"8 weeks","createdByUserId":"ad7cad50-b060-4b4c-a259-b2e3bfb0b540"}'

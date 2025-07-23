@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjI1OjM0LjY1NTU0MSIsInVzZXJfaWQiOiJhZTFiZmQyZi1mNWFiLTQ0NjYtYjYzYS0zYWNlNzNlZDE5ZjcifQ.0Y55csMdAydopHRWopIabpHbNN9Xftw1QnGIS2evPhU' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock apply home stop serve.","courseId":"d13833e6-ad59-44fb-95bf-8f90d1f5e13c","maxScore":93,"minScore":10,"orderIndex":23,"description":"Difficult when middle behind. Clear son develop. Ten bank purpose office leader.\nInto cultural start style. Health general father special doctor none seven.","estimatedTime":"7 weeks"}'

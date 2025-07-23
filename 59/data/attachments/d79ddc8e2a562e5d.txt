@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjI1OjMwLjgxNjk2NSIsInVzZXJfaWQiOiJkZjU2YjQxZi1jZjg0LTQ5ZGEtOWI3NS0zZTg3Yzc0ZGQyYzAifQ.-WUX6x3sp4CPtmStz_qcQ5nFu0XYNCLWlZitwzbB7JE' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area between party draw.","maxScore":79,"minScore":9,"description":"Production stay sound benefit. Have if loss produce. Image receive decade garden.","previewFileId":"78dc8a0c-358e-433f-8934-153879686533","estimatedTime":"9 weeks","createdByUserId":"df56b41f-cf84-49da-9b75-3e87c74dd2c0"}'
