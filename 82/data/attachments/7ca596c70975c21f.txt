@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjU3OjQ0LjgxOTM4MyIsInVzZXJfaWQiOiI4OTcyZWU1OC04Y2Q1LTQzYjctYTdiYy03ZmMxMmM5YTVkMTMifQ.bFE6EioWkiMxLCeMvOb4kfFQGXVZ_oCfdTufc5VLzck' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe study do.","maxScore":99,"minScore":10,"description":"Situation community agency mean believe enter. Strategy here that nearly available. Point station democratic go along hand.\nPresident accept now behind suddenly. Positive art receive.","previewFileId":"48c0deac-b1b9-46af-8b4f-03095a99e435","estimatedTime":"10 weeks","createdByUserId":"8972ee58-8cd5-43b7-a7bc-7fc12c9a5d13"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjU3OjQ2LjU2Mzc0NCIsInVzZXJfaWQiOiIxNGE2YzA3Yi1hZmI1LTQ5ZmMtYjIzOC05NWFjN2QxYjI4ZjUifQ.2ujGnl2ygLV2jJGuzkQR2iNQi1jXj8tkYnIKQC1tpTo' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hand I read anyone service news owner cup.","maxScore":81,"minScore":7,"description":"Six interesting picture left teach specific call. Middle situation similar reduce. Upon home shoulder environmental skin stay.","previewFileId":"59f2ec39-eda8-4f04-801b-04444d60e885","estimatedTime":"4 weeks","createdByUserId":"14a6c07b-afb5-49fc-b238-95ac7d1b28f5"}'

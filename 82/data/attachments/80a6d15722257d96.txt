@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDA0OjU3OjQ3LjE0ODE2MyIsInVzZXJfaWQiOiJhZTMyYjViMS1lZGZkLTQ2YzItYmZmZC1iZjQ1MTA1Yzg4Y2IifQ.tSAFp0LK4sVeUJNRFNGdf1e-fzk6RGUe_8gEH9WJFVU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Future charge shake nearly animal.","maxScore":98,"minScore":13,"description":"Spring develop local during child soldier else. Eye million inside focus person share. Stand various land part.","previewFileId":"12cb4a65-75e4-4754-9261-ed8857b49c41","estimatedTime":"4 weeks","createdByUserId":"ae32b5b1-edfd-46c2-bffd-bf45105c88cb"}'
