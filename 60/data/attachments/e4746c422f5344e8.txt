@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjI0OjM3LjY3MzIxMSIsInVzZXJfaWQiOiJjZmNiNTcxOS05MDg0LTQ3NmMtOTM1Ny1lZmVjZWI3NTg4YTAifQ.g7v0NtMGqqGGCdMlznvdrHx4kkODP3_Xop18TiBgylo' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"American including sister because fast his.","courseId":"1183913e-2b74-4154-b804-d09dda6c9fde","maxScore":89,"minScore":29,"orderIndex":43,"description":"Sure admit sister. Choose tax learn be wind two.\nBecause most them thought. Study support conference answer attention strong at.","estimatedTime":"10 weeks"}'

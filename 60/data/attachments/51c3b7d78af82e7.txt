@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjI0OjM1LjU5MjIzOCIsInVzZXJfaWQiOiIxMjZmMGY4Yy03ZjhhLTQ5NTktOTM3OC0zMWJlMDM0YTgxODkifQ.Fh59XLCs9E-sdjwxO5AYcE83LXCSlCZClceAAiQPq_w' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard remain notice trouble level consumer defense.","maxScore":80,"minScore":13,"description":"Truth me factor list official.\nThrow support close believe success. Oil you sense.\nConcern performance sell agency item must thus.","previewFileId":"edf34d6f-be52-4f7f-beac-e83cc4a581b5","estimatedTime":"2 weeks","createdByUserId":"126f0f8c-7f8a-4959-9378-31be034a8189"}'

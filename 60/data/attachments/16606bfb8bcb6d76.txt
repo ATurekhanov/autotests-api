@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjI0OjM2LjQ5ODYyNSIsInVzZXJfaWQiOiI0MWQ3MTAxOC00ZmJiLTRjZDAtYjUxZS1hNjVmYjk0MTc4MjUifQ.7vSoi-O-zRidLY2GhDyWVO3cK3li86b9PffK9-gYLAE' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perform all money threat.","maxScore":97,"minScore":18,"description":"Cost without few law message. Not six support several however. Successful president few assume American lawyer.\nSoldier travel detail.\nNotice want account. My travel despite professor half.","previewFileId":"59e82a1f-e8b9-4287-abe4-b6a0537e2031","estimatedTime":"10 weeks","createdByUserId":"41d71018-4fbb-4cd0-b51e-a65fb9417825"}'

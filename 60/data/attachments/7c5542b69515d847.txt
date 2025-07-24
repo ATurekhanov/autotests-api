@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjI0OjM5LjQ3MjU3NSIsInVzZXJfaWQiOiIyNWQ0ZWEyMi05OTE2LTRhNGQtYjM2Ni0yNzczYzhmYWYxNjcifQ.rxlCGV-k0xu7fN7JSH9PNl5I0b-qF2ncn7NWcPopz3Y' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indicate cover glass movement director operation score.","maxScore":86,"minScore":4,"description":"Mention against wait few important range administration stand. Walk reduce lawyer specific PM. Animal visit growth heart when.","previewFileId":"270faaaa-274d-4920-947c-adaea0af91f9","estimatedTime":"8 weeks","createdByUserId":"25d4ea22-9916-4a4d-b366-2773c8faf167"}'
