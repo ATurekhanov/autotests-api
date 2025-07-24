@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/67d7ef0e-3f7d-4958-b1c7-b58251703252' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjU2OjI2LjQyMTE1NiIsInVzZXJfaWQiOiI1NjJjYTJmNy1jZjlkLTQ0N2ItYmViMy1hMzZkZmYxMzE0ZGEifQ.oCTEy7v9tVTAbBt4nn89wzLG8R0roS5STklCylkvbJ0' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Miss paper break relate card there culture.","maxScore":100,"minScore":8,"description":"Agent office prevent from music. Nice simply describe situation however whatever different. Method lose Democrat cause month bit.","estimatedTime":"6 weeks"}'

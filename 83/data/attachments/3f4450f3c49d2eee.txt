@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjU2OjI5LjAxMDc5MSIsInVzZXJfaWQiOiJiMWNiZGZkYy0zNTRhLTRjOGQtOTQ3OC0zNzJhNzdmNDAwZTgifQ.S5jm5-nyxg11fvp-8BJfJLSDISsdFZqMyNMbxZM8Lug' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Marriage sign company according young explain.","courseId":"1562bde9-0dae-46db-bb3b-ccdf400d0bea","maxScore":62,"minScore":24,"orderIndex":56,"description":"Whom bad peace people process quite. Himself technology address night avoid type space. Rest general since physical help.\nBehind and doctor mission describe. Chance hour bring within.","estimatedTime":"8 weeks"}'

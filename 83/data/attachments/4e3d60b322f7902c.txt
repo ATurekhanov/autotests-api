@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjU2OjMwLjkzMDI2NiIsInVzZXJfaWQiOiJjNjg3NGUzNC1lODIxLTQ2MWQtYTRhYS03YTczMjZlY2VlZTUifQ.YcsAf-97qSpC5JvT_qbhfSYqpFUJuKKnA6k1WWLV8eU' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member agency manage close.","courseId":"f8e5500a-6409-46e6-8bed-a83c2e0f2898","maxScore":76,"minScore":7,"orderIndex":60,"description":"Industry choose through trade wait represent recognize. New sit what how word. Administration it hard foot include allow billion.","estimatedTime":"8 weeks"}'

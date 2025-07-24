@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjU2OjI3LjU2NTEyNyIsInVzZXJfaWQiOiIxYTAzZDQwYi1lMDZiLTQyMjYtYjU2NS03MjI2MWVhMmM4ODEifQ.Q62cSGNT0HqRlKEbEIDyFKtBL6cU-zaejhaRFHpxOto' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Television choose popular generation.","maxScore":52,"minScore":1,"description":"Computer decision sense thing fine determine sometimes. Why help plan agreement third feel main.\nFactor history fish past. Next level reason physical grow take.","previewFileId":"13f4411a-acfb-4b76-862e-f45ab4e41efc","estimatedTime":"7 weeks","createdByUserId":"1a03d40b-e06b-4226-b565-72261ea2c881"}'

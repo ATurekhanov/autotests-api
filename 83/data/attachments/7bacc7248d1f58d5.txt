@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjU2OjI2LjQyMTE1NiIsInVzZXJfaWQiOiI1NjJjYTJmNy1jZjlkLTQ0N2ItYmViMy1hMzZkZmYxMzE0ZGEifQ.oCTEy7v9tVTAbBt4nn89wzLG8R0roS5STklCylkvbJ0' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item way economy building religious especially.","maxScore":82,"minScore":6,"description":"Career general someone during rather off. Nation agent thousand anything international race. Place seven apply something.\nPage everyone image cultural take city office. Why trade record newspaper.","previewFileId":"000ea510-959d-4a2d-8966-afb4693fc8a0","estimatedTime":"6 weeks","createdByUserId":"562ca2f7-cf9d-447b-beb3-a36dff1314da"}'
