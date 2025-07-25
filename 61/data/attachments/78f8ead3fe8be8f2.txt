@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI1VDA0OjI0OjM1LjQ3ODg2MSIsInVzZXJfaWQiOiJkMDE4NTgzYS00OTE3LTQxNzAtOGZkYy0zMDRkYzk3ODMxODYifQ.uIBV8pM-EnIIUy0XxBNjJQlAb9ctloUD32qEZ83pGHU' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority garden but old course radio.","maxScore":58,"minScore":10,"description":"Network door until election force capital everything tax. Child catch movement reduce cultural dog treatment. Amount within so property teacher off think. Safe behind certain person.","previewFileId":"e45b0aae-dffe-4517-921d-ea44d7792978","estimatedTime":"5 weeks","createdByUserId":"d018583a-4917-4170-8fdc-304dc9783186"}'

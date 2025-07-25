@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8efe39f6-1980-4f21-9f0a-449b91813479' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI1VDA0OjI0OjM0LjA2MzI3NSIsInVzZXJfaWQiOiIzN2RmZTY4OS0xN2FiLTRlNzUtYTM0YS0wYWFkOTIxMjc0NTgifQ.F6D628TDgKuMdPKzKe1-weg62unMmhJhrgpP1fmncT4' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feeling middle trial chair down more wonder.","maxScore":65,"minScore":22,"description":"Citizen message artist painting tend mouth. Either usually live even attack. Ball foot defense size catch rate recognize above.","estimatedTime":"9 weeks"}'

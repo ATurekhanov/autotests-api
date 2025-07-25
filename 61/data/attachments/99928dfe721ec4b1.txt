@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI1VDA0OjI0OjM2LjY1ODkyMCIsInVzZXJfaWQiOiIzZTljMDA3ZC0zZDViLTRkMzctYTdjOC00YmMzNDExNWY4ZmUifQ.wKRCzNZu4Qe-Lmmilufd4qF4777JegOY2cbeG2XtcLE' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return PM education write reach force.","maxScore":66,"minScore":26,"description":"South adult PM source you yeah discover. Which beautiful each all. Easy ten office among by style budget growth.","previewFileId":"82749df3-8107-45d5-bb4f-45fbb9e864cf","estimatedTime":"4 weeks","createdByUserId":"3e9c007d-3d5b-4d37-a7c8-4bc34115f8fe"}'

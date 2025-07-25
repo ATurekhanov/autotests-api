@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI1VDA0OjI0OjM3LjMwNDYwNyIsInVzZXJfaWQiOiI3MWY2MzA4Zi1jOGFlLTRjYTAtYTEyYS03ZWM1MTNjYTZlY2EifQ.RG-mr8uMqYadTzLInIAMsWeUXNc8KOW63-ZTqGWEFiw' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agency sell learn scientist minute read level.","maxScore":99,"minScore":26,"description":"Long case task. Blood smile southern.\nReport anything social almost simply event goal. Pass company price order letter fight.","previewFileId":"e6a9bee3-ebc4-45c6-8ecc-838c39d15feb","estimatedTime":"9 weeks","createdByUserId":"71f6308f-c8ae-4ca0-a12a-7ec513ca6eca"}'
