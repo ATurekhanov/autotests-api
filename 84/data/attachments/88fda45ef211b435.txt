@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI1VDA0OjU1OjQ2LjYwODM3MSIsInVzZXJfaWQiOiJjYmY5YzE3OC1jZmRiLTRhYTYtYjkwNy0yMGRhNjg2YTI0YjEifQ.u1u-MTsNHVQXbqITmXw6TcMdTjJ8ZU2TIBDJC2PH9Is' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give now why.","maxScore":83,"minScore":13,"description":"Build industry main indeed action production federal. Able catch sometimes film simple well.","previewFileId":"c610f667-be70-4014-b3b5-a22c1640e4b5","estimatedTime":"8 weeks","createdByUserId":"cbf9c178-cfdb-4aa6-b907-20da686a24b1"}'
