@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI2VDA0OjIyOjA0LjYwMjMzNSIsInVzZXJfaWQiOiI2MGRhZTZiNC0xMzcxLTRiMTctYmY5ZC0wODdkMzJiMjA0MWYifQ.1aZoLW20gHXCEQchdprTHpmZQ6ULkVyKBAyU9tdQmoo' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now whole admit huge town even.","maxScore":85,"minScore":24,"description":"Say including east focus reflect word how. Can recently our reveal.\nWar executive let leg treatment really that. Enough live you country. Listen us be stage worry. Customer smile arm company station.","previewFileId":"67672e64-da7b-4c97-8109-642ad0d48597","estimatedTime":"10 weeks","createdByUserId":"60dae6b4-1371-4b17-bf9d-087d32b2041f"}'

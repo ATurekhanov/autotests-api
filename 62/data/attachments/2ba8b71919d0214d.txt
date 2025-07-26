@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI2VDA0OjIyOjAzLjQyOTQ0MCIsInVzZXJfaWQiOiI2MWJjMzkyYy1lZTAxLTRmMTQtOGE2Yy1kZWFhY2MzNDFjYzMifQ.6BUZNPZmoyYQIo3EAgVfwOi0C-_3h3SJklUOxgktyac' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born stock save number rich.","maxScore":75,"minScore":14,"description":"Sometimes middle maybe view fall professional. Low member play fill spend company.","previewFileId":"467c0bee-5be8-41ec-b452-1ba11a318476","estimatedTime":"10 weeks","createdByUserId":"61bc392c-ee01-4f14-8a6c-deaacc341cc3"}'
