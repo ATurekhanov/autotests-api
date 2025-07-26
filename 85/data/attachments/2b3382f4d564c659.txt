@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI2VDA0OjUxOjQ5LjAyNzE4OSIsInVzZXJfaWQiOiJmOTEwMDEzMi1jNGIzLTRmMDAtODUyOS1hNDM0OTNlODU3NzQifQ.Pz8WbmdaZTNtEgi-BAr3kD-8GJvhN9c66a_3mj0r8OI' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious range chair.","courseId":"02dfa5af-13d8-4650-93ff-e130620b4178","maxScore":50,"minScore":6,"orderIndex":66,"description":"These stay property force water tax success. Think campaign everybody tree natural.\nDog entire event difficult president about grow.","estimatedTime":"8 weeks"}'

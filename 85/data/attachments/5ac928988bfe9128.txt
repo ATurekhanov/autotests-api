@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI2VDA0OjUxOjUwLjUyNjk1NyIsInVzZXJfaWQiOiJiNDE0OWQ5OS00NTY5LTQ2MDctOGYxYi0wMWNmNTQ2MGZmNGQifQ.zbP-RzTwk8rAqKZaQngVCKNFtZBVIWlwqV80mzgm7Cc' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card sign yeah join personal.","courseId":"36a65f70-81e7-41ff-8fe6-4d6541af8b43","maxScore":69,"minScore":27,"orderIndex":43,"description":"Magazine effort design rest economic. Radio share run question small mother.\nNo education friend leave current show. Example draw spend why present including.","estimatedTime":"5 weeks"}'

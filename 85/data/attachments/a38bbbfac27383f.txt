@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI2VDA0OjUxOjQ2LjcxMTczOCIsInVzZXJfaWQiOiIzYzViZWIzMy1kOTFhLTQ0ZWUtOTIxMi1iMmExMDM4MGFlODMifQ.tCJDplRWfKefldTFjJvldJ9yL6kp6YsPsvqVj_NiVVc' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reduce animal a hair language.","maxScore":85,"minScore":4,"description":"Single spend collection. Discussion southern smile city whose fund save.\nColor husband decide court we.\nWho pull history tree able produce civil. Win easy site eat themselves.","previewFileId":"7f1b34bf-46cd-469e-9ef6-fc01a0db1769","estimatedTime":"8 weeks","createdByUserId":"3c5beb33-d91a-44ee-9212-b2a10380ae83"}'
