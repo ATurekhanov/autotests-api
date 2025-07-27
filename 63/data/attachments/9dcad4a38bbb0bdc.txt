@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA0OjMxOjE0LjI5MDAwNSIsInVzZXJfaWQiOiJmNDk3YjdhNi00OTg2LTRiYzAtYWYyMi1lNzMwNzc4OTA3MWYifQ.otjbIRUlS8HcceQjFZUba7Hfw9ekt6oU0XSxowTYKTQ' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create would model player term special.","maxScore":80,"minScore":20,"description":"Cut sure research happy. Bad American find identify later now may free.\nWish wear trade moment world. Stand laugh voice others win. Fill toward nation such itself imagine better.","previewFileId":"b3fbb73f-feca-486b-9b9c-ae8d07258c52","estimatedTime":"3 weeks","createdByUserId":"f497b7a6-4986-4bc0-af22-e7307789071f"}'

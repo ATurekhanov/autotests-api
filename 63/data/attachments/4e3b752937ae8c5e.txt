@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA0OjMxOjEzLjY0NDg2NSIsInVzZXJfaWQiOiJlNGQ4OWJjNy1hMjU0LTRkMjgtOThkNi1lZjI1NGE5Y2YwMjMifQ.mobVYealA2OaN9PPfDrRD3nHtQ0-VMN42aLOEJgiS2U' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular win traditional cup others activity.","maxScore":64,"minScore":29,"description":"Seven boy plant statement theory loss health. Then ever dog year.\nFirm four miss region agency cell beautiful.\nOperation shake happy program federal note seem. Win against answer then play.","previewFileId":"613dcd3c-0b27-415c-9af5-85ab86af4890","estimatedTime":"8 weeks","createdByUserId":"e4d89bc7-a254-4d28-98d6-ef254a9cf023"}'
