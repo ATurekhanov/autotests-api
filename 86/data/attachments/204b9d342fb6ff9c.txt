@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA1OjAyOjQ3LjA3Njk0NCIsInVzZXJfaWQiOiIxYTQ5NzNiYS0wZmViLTQwY2MtYjg1Zi01N2Q4OWU5MGQyMjQifQ.z7fSf_9d2FBXRr6NkhkeqhwdDZc7bwJD2oLj1GwOVxk' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Own force loss reveal.","maxScore":61,"minScore":10,"description":"World fact man glass remain trouble.\nActivity easy knowledge relate senior continue human. Hair how care discussion stuff wear phone.","previewFileId":"d9df3355-2a2d-40ca-b5e5-f546f11d29e8","estimatedTime":"6 weeks","createdByUserId":"1a4973ba-0feb-40cc-b85f-57d89e90d224"}'

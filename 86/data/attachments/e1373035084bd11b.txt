@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA1OjAyOjQ0LjAxMjIyOCIsInVzZXJfaWQiOiI4MDJmZGZmYi1jNWFkLTQ2NTctOTIzMS04NzQxM2JjZDVjZDkifQ.oJGkQN3HSiY9FXnqwvYu4IeuBUncIiLMBxu79qBK-cM' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recently feel move popular.","maxScore":66,"minScore":8,"description":"Human statement he. Seek which allow girl ability without wife. Strong reason clearly station.\nWhat hand short international guy evidence approach various.","previewFileId":"3ca0a4c9-f486-44c0-9c0e-dab09c878476","estimatedTime":"4 weeks","createdByUserId":"802fdffb-c5ad-4657-9231-87413bcd5cd9"}'

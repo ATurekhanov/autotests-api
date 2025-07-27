@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA1OjAyOjQ1LjgzNjEyMSIsInVzZXJfaWQiOiIwYmM0MTM2My0xNjQyLTQ0ZDktOTkxZS1hODk3MWRiNTAwY2EifQ.p0Pqcd_AbkY7bJAgaMd17pS-l5tr1A4QRJEiCK_znPA' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before race side stay record son happen.","maxScore":62,"minScore":18,"description":"Defense prepare my peace true again. Their one guess help scientist agreement plant four. Live recent rule operation lose lead say.","previewFileId":"3461c018-ee39-4ca3-b0fe-c9a1f94fa46f","estimatedTime":"4 weeks","createdByUserId":"0bc41363-1642-44d9-991e-a8971db500ca"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ad8da1b1-eaf2-4fa8-8e5d-32589ffe3e8d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA1OjAyOjQyLjYwMjA4MCIsInVzZXJfaWQiOiJjMzYwMGJmYi0wMjM1LTRiNjUtODZjNy04MWIwM2RiNmM4ZWMifQ.bee0M5k1aS7pOH_UZRW_uxIs1JobG75vxKm8MUG_mQI' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reveal tree similar vote group those.","maxScore":73,"minScore":1,"description":"Relate across also. Production special respond door fast program. Alone blue ahead mouth course.\nInformation hair parent key others only manager. Clearly item deal site worry we.","estimatedTime":"1 weeks"}'

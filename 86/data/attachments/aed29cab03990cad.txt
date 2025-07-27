@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA1OjAyOjQ1LjgzNjEyMSIsInVzZXJfaWQiOiIwYmM0MTM2My0xNjQyLTQ0ZDktOTkxZS1hODk3MWRiNTAwY2EifQ.p0Pqcd_AbkY7bJAgaMd17pS-l5tr1A4QRJEiCK_znPA' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fund cultural body.","courseId":"1d7fa5a7-e6f7-44a6-8b7b-7e73006d5072","maxScore":89,"minScore":12,"orderIndex":35,"description":"Around option white individual. Quickly clearly speak rest pretty. Keep floor political statement beat there.\nAllow detail administration.","estimatedTime":"2 weeks"}'

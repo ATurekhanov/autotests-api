@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI3VDA1OjAyOjQzLjc0MDM3MSIsInVzZXJfaWQiOiJhN2UyMTgyNC00ZGY1LTRjMWItOTI2NC01YjIyMTlhOGFmMDgifQ.F-MIX4un7oLmbGXs9SjDP_yc3It4s2isWCxnchohIjQ' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In order total major.","maxScore":78,"minScore":16,"description":"Language what red itself. Stage might moment whether unit open travel beat.\nBlue writer laugh organization catch. Heavy democratic prepare past deal animal.","previewFileId":"7dea4beb-cb79-4eff-95e4-021d61f116bd","estimatedTime":"10 weeks","createdByUserId":"a7e21824-4df5-4c1b-9264-5b2219a8af08"}'
