@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI4VDA0OjMwOjM5LjM3MDU5MSIsInVzZXJfaWQiOiJiYWY4NGY4ZC05ZjA5LTQ5MDEtYjMxZC03MmUzYzMxNTMxNzQifQ.AJ14mH44jnT3h9PzVkABlc8xwHCtEV-MRL2lete35fE' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Itself couple idea stop machine sit.","maxScore":93,"minScore":15,"description":"Family better lawyer my. Behind herself environment training control single person. General especially light.\nConference while form light. Sign several factor thus.","previewFileId":"620724f1-9119-4edd-b1c5-3bcd8d5951b5","estimatedTime":"6 weeks","createdByUserId":"baf84f8d-9f09-4901-b31d-72e3c3153174"}'

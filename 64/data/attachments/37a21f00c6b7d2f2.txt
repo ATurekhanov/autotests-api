@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/94acee85-dccf-464f-97dc-b0f9f0cbac35' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI4VDA0OjMwOjM5LjM3MDU5MSIsInVzZXJfaWQiOiJiYWY4NGY4ZC05ZjA5LTQ5MDEtYjMxZC03MmUzYzMxNTMxNzQifQ.AJ14mH44jnT3h9PzVkABlc8xwHCtEV-MRL2lete35fE' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture certain last same else matter easy.","maxScore":82,"minScore":2,"description":"Whatever and student certain likely own PM. Expert course choice nice dog concern course century. Brother hand place policy like month face less.","estimatedTime":"7 weeks"}'

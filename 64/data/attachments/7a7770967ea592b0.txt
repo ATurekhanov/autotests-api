@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI4VDA0OjMwOjQwLjc4Mzk4OCIsInVzZXJfaWQiOiI3MDMxZDQ2Mi04MDA2LTRhZGEtOWMzOS0yMzM2MGQwYmI4OTAifQ.xCOcw3hB0hnhs6wJmMC4Ue5kVcl9LovV_ZLo2IJGPCI' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area even sister.","maxScore":57,"minScore":15,"description":"Power song develop thousand only whole. Budget tree read team. Right night yet dog.\nArrive outside lawyer or. Much at she career.\nList prevent rate cup call. Management never sign marriage baby upon.","previewFileId":"9b0756b3-fe74-4734-91b4-d8db24857fc5","estimatedTime":"7 weeks","createdByUserId":"7031d462-8006-4ada-9c39-23360d0bb890"}'

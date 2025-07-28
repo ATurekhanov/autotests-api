@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI4VDA0OjMwOjQzLjE5MTY2OSIsInVzZXJfaWQiOiI3NWJkNzEyMC05Y2M0LTRlYmMtOWJmYS04N2QzZmNjNmQzOTYifQ.cni320b5zgq78RoqJ0oOzgRsa-S9sWPdzsbFpZcaXyM' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style begin high relate country.","maxScore":98,"minScore":27,"description":"Somebody response book claim yourself consider table team. Pass approach figure high fill law top.","previewFileId":"b6000e12-a544-4ad5-9fd9-85fe430115aa","estimatedTime":"7 weeks","createdByUserId":"75bd7120-9cc4-4ebc-9bfa-87d3fcc6d396"}'

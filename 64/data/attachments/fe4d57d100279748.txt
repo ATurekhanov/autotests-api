@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI4VDA0OjMwOjQzLjE5MTY2OSIsInVzZXJfaWQiOiI3NWJkNzEyMC05Y2M0LTRlYmMtOWJmYS04N2QzZmNjNmQzOTYifQ.cni320b5zgq78RoqJ0oOzgRsa-S9sWPdzsbFpZcaXyM' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye finish human so maybe work physical story.","courseId":"87fdbe6c-d3d7-4a99-9365-45e6af753fab","maxScore":73,"minScore":30,"orderIndex":71,"description":"Late foot pass arm long expert. Base catch throughout follow bed.\nRecent doctor become worker fish program body. Report director artist rate during.\nPut success young marriage building and oil.","estimatedTime":"1 weeks"}'
