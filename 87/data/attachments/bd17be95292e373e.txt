@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8e954688-2db6-4d04-88e3-e5c1e679c604' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI4VDA1OjA0OjI3LjcwODEzOSIsInVzZXJfaWQiOiI0MGJjNGVmYi05YzY0LTQwYWEtODg5Yy03NDM1NTBhODQ2NWUifQ.A3O1s5oUR1t6ACYF2AH2EEJ9Zcb9VcwWRJ3h4rD9HhM' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive news thought bar development already artist.","maxScore":90,"minScore":8,"description":"His bit ground simple. New mind activity knowledge reflect. Team the him technology occur. Professor color from possible thousand book.\nMovie candidate fill win good weight over. Eye later up she.","estimatedTime":"6 weeks"}'

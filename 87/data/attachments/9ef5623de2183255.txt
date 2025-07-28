@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI4VDA1OjA0OjMwLjM4MjA0MiIsInVzZXJfaWQiOiI3MGI4ODQwYy1iZWZhLTQzNWUtYjExNS1jYTgyZWFlYjU3MWMifQ.lJbhspiIGic9VqnecxiWkFn1a4Wlw40j5HyGxkjnSyA' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Use argue toward control eye.","maxScore":97,"minScore":17,"description":"Not person opportunity popular may turn increase. Every sign section day. Truth material now knowledge plant. Into people could finish cause these sit enough.","previewFileId":"4f4a4eb9-2bdf-4262-96d7-4395b920a0a1","estimatedTime":"6 weeks","createdByUserId":"70b8840c-befa-435e-b115-ca82eaeb571c"}'
