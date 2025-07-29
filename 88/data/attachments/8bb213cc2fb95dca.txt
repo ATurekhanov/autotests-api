@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDA1OjA2OjM2LjQ1MjEwMyIsInVzZXJfaWQiOiJiYWYwYjE4ZC01ZDQxLTQyMmUtYjllZi0zOTdjYmQ3MzUyMjkifQ.DSeVQ7Bl9r1ojEz1UI8kJRaZugwycSW1_8zceE-2lcE' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard federal spring ahead.","maxScore":85,"minScore":8,"description":"Worker piece pretty Republican.\nGreat girl win real feel type play. Yes international charge hot number huge party. Author that student walk.","previewFileId":"e5c2a9ad-3e14-4eba-8bad-a92365fd3ccf","estimatedTime":"4 weeks","createdByUserId":"baf0b18d-5d41-422e-b9ef-397cbd735229"}'

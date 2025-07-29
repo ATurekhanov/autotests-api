@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDA1OjA2OjMzLjc4Mzg3OSIsInVzZXJfaWQiOiIwNzczZWM0Mi03ZjljLTQ3MjctYTMwYy05Y2UxNTBiNGE1ODMifQ.49m0SeM7QcS3hpWj2s0nKOyyg-9jtiSkyTgHamPjETY' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fire sound throughout cut success.","maxScore":68,"minScore":24,"description":"Reach option center step write road pretty. Seven age success hotel interesting get education.\nSocial maintain section during partner. Including clearly ever half effort law pass.","previewFileId":"e499da69-f97e-4bed-a2c2-fda031091afc","estimatedTime":"1 weeks","createdByUserId":"0773ec42-7f9c-4727-a30c-9ce150b4a583"}'
