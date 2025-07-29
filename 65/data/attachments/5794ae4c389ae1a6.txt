@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDA0OjMzOjA3LjE0NDM5OSIsInVzZXJfaWQiOiJkZGNhNTE4My1iZWFmLTQ5NzQtODQ1ZS1hZWE3YTM4OWEzMTkifQ.nkswR5OybwMImIhGmOVDdEwTonNb2tvuTQdylPr5X1s' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand strategy top age approach environment.","maxScore":75,"minScore":20,"description":"Including hold give early. Body because drug. Simply determine establish.\nResponse pattern save prepare occur range. Discover success break quality relate behind letter.","previewFileId":"917c48e9-70cc-48c3-80fb-bffb3b4d8ed6","estimatedTime":"5 weeks","createdByUserId":"ddca5183-beaf-4974-845e-aea7a389a319"}'

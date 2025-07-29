@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDA0OjMzOjA1LjM0NTAwMiIsInVzZXJfaWQiOiJkMjU0YjQ1Yi1jNTVjLTRmNDctODczNy05MWUyYTVlOWVmNGEifQ.Tn9vxFNcNyMtvUKtFZCw5qKtmtLWI6rmOQ4px1ArldM' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Line win compare watch over significant movie state.","maxScore":76,"minScore":24,"description":"Individual a real near race middle. Media wall set scene. Effect late road answer likely machine perform.\nWe however make southern leave run. Officer every play decide.","previewFileId":"5b541af5-509f-4434-8341-0bea059dfacb","estimatedTime":"3 weeks","createdByUserId":"d254b45b-c55c-4f47-8737-91e2a5e9ef4a"}'

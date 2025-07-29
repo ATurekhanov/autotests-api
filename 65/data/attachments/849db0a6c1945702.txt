@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDA0OjMzOjA2LjUwODQ2NCIsInVzZXJfaWQiOiI4ZGI3NGE2Yi1hMmE2LTQzODEtYmJmNi1iMDZmYTQ5ZjFlNTcifQ.HYWkDLb6B1trmDuVlcZSr0alv3sGPOYkP368bC6eIqE' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin help write.","maxScore":91,"minScore":24,"description":"Line become protect person throw. Find fund property feel agreement. Bar others kind performance commercial.\nEye face out nature future. Yes explain laugh later. Keep remain street police.","previewFileId":"d6c0e042-5d9d-452e-b803-d687f07c7179","estimatedTime":"1 weeks","createdByUserId":"8db74a6b-a2a6-4381-bbf6-b06fa49f1e57"}'

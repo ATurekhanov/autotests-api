@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDA0OjMzOjA3LjE0NDM5OSIsInVzZXJfaWQiOiJkZGNhNTE4My1iZWFmLTQ5NzQtODQ1ZS1hZWE3YTM4OWEzMTkifQ.nkswR5OybwMImIhGmOVDdEwTonNb2tvuTQdylPr5X1s' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure author base behind.","courseId":"0ccdf2dd-5771-4d09-987f-500b3086af6c","maxScore":81,"minScore":27,"orderIndex":15,"description":"Alone crime control sort fund name. Trial behavior friend.\nBegin writer let animal either fly together. Evidence general send once dog allow.","estimatedTime":"10 weeks"}'

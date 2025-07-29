@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDA0OjMzOjA4LjMzNDM0NCIsInVzZXJfaWQiOiJkMWYxNjkyOC00Nzg1LTQ5YmMtODk3ZS0yYjg3NzQ5YTkxODkifQ.gOEfl_N_vqY4eQeaHh3LUn1FzuoTsa46bUthXq_aDFs' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feeling father what receive four poor life.","maxScore":80,"minScore":17,"description":"We side try single international. Instead exist learn same see air better.\nMost soon put plan ok my check. These general style ask among lose sound drop.","previewFileId":"e337f1af-3276-4479-acf1-c502653c2ff5","estimatedTime":"6 weeks","createdByUserId":"d1f16928-4785-49bc-897e-2b87749a9189"}'
