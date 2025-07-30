@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA0OjI5OjEyLjA3NTI3NCIsInVzZXJfaWQiOiIxMTc5Y2FhOS00MzBjLTQ5MWItOGE1NC05YjNkMjQyMmU2NmYifQ.BBLAjNhx5F7Cqa1sSyxIqiUHqfjR3yz0yW5lcO-YMTc' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Employee environment computer Republican can involve discussion.","maxScore":88,"minScore":29,"description":"Miss possible message maintain meeting detail. Indeed something matter individual friend for half. Outside only fear pick production.","previewFileId":"ce801f7e-6ce8-4de0-a0d6-3545108466f4","estimatedTime":"6 weeks","createdByUserId":"1179caa9-430c-491b-8a54-9b3d2422e66f"}'

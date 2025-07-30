@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA0OjI5OjExLjQzNTU2NiIsInVzZXJfaWQiOiIyM2U4ODEyNS1hYjNhLTRmNWYtYjE5Yy1iY2ZmZjU5YTZhZTYifQ.P_ATOG6NdIDNzc6rkb9a-gjxv2kbQ0Oop4lWAOVPXUU' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Camera myself open sure and.","maxScore":68,"minScore":4,"description":"Home line decade full look. Discuss challenge process computer.\nAsk couple make ask itself many. Center practice to beyond cup training available. Remain successful avoid need heavy realize.","previewFileId":"8d6e5375-1323-4faa-a012-a95cbd999072","estimatedTime":"10 weeks","createdByUserId":"23e88125-ab3a-4f5f-b19c-bcfff59a6ae6"}'

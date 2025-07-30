@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA0OjI5OjEyLjY1NzE4MSIsInVzZXJfaWQiOiJmZDQ3Mjk2ZS03MjdkLTQ0Y2YtODIyNS02OTM2Y2VjMzlmNjcifQ.znGLePOrfx73-2evoiW3Cea486k9IODPJ7Enj_r2eEo' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large page laugh American ability ground write.","maxScore":86,"minScore":22,"description":"Economic trial management enjoy social marriage foot. On pull current peace step require home. Number especially detail either.","previewFileId":"12141536-b859-4b33-9f6c-562b834172b6","estimatedTime":"8 weeks","createdByUserId":"fd47296e-727d-44cf-8225-6936cec39f67"}'

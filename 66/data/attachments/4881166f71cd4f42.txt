@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA0OjI5OjExLjQzNTU2NiIsInVzZXJfaWQiOiIyM2U4ODEyNS1hYjNhLTRmNWYtYjE5Yy1iY2ZmZjU5YTZhZTYifQ.P_ATOG6NdIDNzc6rkb9a-gjxv2kbQ0Oop4lWAOVPXUU' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow that leg will make cup.","courseId":"f632f054-affe-485e-979c-8c41d3078844","maxScore":86,"minScore":19,"orderIndex":51,"description":"Act common simply chair. Relate live ask wrong. Although professor partner attack Republican number reason. Travel national interview edge fall.","estimatedTime":"1 weeks"}'

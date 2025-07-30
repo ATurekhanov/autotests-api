@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA0OjI5OjEzLjI5NTcxMCIsInVzZXJfaWQiOiJhYjRjMzUzOS1iY2ZmLTQxZWYtODc3NC01YTYwMGMwYTE5NTEifQ.5_FpQEd91-JsaF5X5ura1CjKhkN_jsd3E0zKQQvFb3Y' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"I pattern grow particularly focus social research.","maxScore":72,"minScore":25,"description":"Political around serve four floor. Again produce change. Understand big west in state.\nWhen almost cup. People color human series apply evidence.","previewFileId":"69f9e85d-fb58-4907-926d-6d95d648e550","estimatedTime":"1 weeks","createdByUserId":"ab4c3539-bcff-41ef-8774-5a600c0a1951"}'
