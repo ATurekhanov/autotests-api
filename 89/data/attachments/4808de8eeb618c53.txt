@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA1OjAxOjQyLjkxODI2NCIsInVzZXJfaWQiOiJlZGY2YjI0ZS01OTNhLTRhYmYtOTE3MS05OGZkMTI1OTA1MjEifQ.grTqvGvEQc20Dst-MVp5f_K15DrF0V7gsYQUh1KMw54' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Into occur week property add without.","courseId":"2b017a18-af13-4b6b-a341-882674d715de","maxScore":71,"minScore":6,"orderIndex":57,"description":"Customer read west whether style sell together. View thing television modern as gas I might. Ground sea later central then set blood bring.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA1OjAxOjQxLjA2Njg3NiIsInVzZXJfaWQiOiI3MWMzY2QwNC0wN2ZlLTRlZTMtOWMyOS0xMDY0OGNiNjI2YTMifQ.iDQdLdYD4yADdWya4HJlFtUBs-QisQzl40Knr3s3zs0' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Similar specific husband grow federal.","maxScore":99,"minScore":27,"description":"Product four peace moment continue. Serve unit bar local moment carry. Letter during police group offer here up maybe.","previewFileId":"3311192c-cfb3-4bc3-95a9-6d0db4b6ca28","estimatedTime":"6 weeks","createdByUserId":"71c3cd04-07fe-4ee3-9c29-10648cb626a3"}'

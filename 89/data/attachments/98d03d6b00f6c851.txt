@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA1OjAxOjM5LjMxMzQ0OCIsInVzZXJfaWQiOiIxMTExYWY2YS0xYzE2LTQwZGUtYjk2NS04YmNkMGI0ZjU5OTQifQ.yyeIteuun68CoIUxYavUE_g38J2wVzPz7ZzuSBbjBTY' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Top nor particular go.","maxScore":96,"minScore":2,"description":"From simple he agreement decide me. Detail why subject subject pass head.\nKnow break easy prove scene the entire. Fight prevent yard listen want. Rate others individual model.","previewFileId":"844c6ba5-89e6-4fdd-b54a-a5cf4e0894f0","estimatedTime":"2 weeks","createdByUserId":"1111af6a-1c16-40de-b965-8bcd0b4f5994"}'

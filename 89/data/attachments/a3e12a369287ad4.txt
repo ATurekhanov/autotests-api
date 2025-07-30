@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA1OjAxOjQyLjkxODI2NCIsInVzZXJfaWQiOiJlZGY2YjI0ZS01OTNhLTRhYmYtOTE3MS05OGZkMTI1OTA1MjEifQ.grTqvGvEQc20Dst-MVp5f_K15DrF0V7gsYQUh1KMw54' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discuss determine above project dog blood result miss.","maxScore":71,"minScore":7,"description":"Few deep front democratic. Drive throw care tax against. Girl find heart always.\nCourse guy food share plant ago. Public beyond night peace. Human reason professional.","previewFileId":"7488d827-738b-4ae5-a769-5162e361b70f","estimatedTime":"7 weeks","createdByUserId":"edf6b24e-593a-4abf-9171-98fd12590521"}'

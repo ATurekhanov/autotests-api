@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA1OjAxOjM5Ljg5NTA4NiIsInVzZXJfaWQiOiI3MDQzNjQwYy1hYjlhLTRhODItODY0Ny1hNTAwNzM2NjBkMDcifQ.T7uVZBe0z_-uGNd4ql_62PSACBlnsYg0jG27DOyTSiE' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same may mean later.","maxScore":60,"minScore":1,"description":"Finally wrong forget into focus. Wonder bill technology begin. Response at should fill pattern yourself.\nResource site provide hair majority five. Already throw let serve.","previewFileId":"cf918c8d-6990-4551-a3b0-97a6ee169faf","estimatedTime":"6 weeks","createdByUserId":"7043640c-ab9a-4a82-8647-a50073660d07"}'

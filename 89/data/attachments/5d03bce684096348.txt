@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMwVDA1OjAxOjQxLjY1Nzk5NSIsInVzZXJfaWQiOiJkOTExNjIwMC1lZWZkLTQyODEtOWJjZC02ZWFhNDY1ZWNhMTAifQ.62Pb2pJlHt3GBzYVOGa81PPr7V0q67E8-iSvasSYxRU' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source building small assume never blue.","maxScore":97,"minScore":10,"description":"Him must man my so. Choose effort magazine sometimes medical beautiful or standard. Sign television scene.","previewFileId":"54f931d3-b0ad-43d0-adc4-39c8785c8164","estimatedTime":"9 weeks","createdByUserId":"d9116200-eefd-4281-9bcd-6eaa465eca10"}'
