@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDA1OjAwOjAwLjY5MTg4NCIsInVzZXJfaWQiOiIwMzNmYWYwOS1jOTc1LTQ4NWMtOTY2MS0wZjE3YTc0YzRmMjYifQ.-LkWljI2Zmq9TDZLgMLMAl40tXFl93osyitaaMR2LPo' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go strong population like reach.","maxScore":55,"minScore":18,"description":"Little finish skin old. What next accept product month consider.","previewFileId":"8f3fd8ef-6b7d-4f0c-8ef9-ee46e49c48b4","estimatedTime":"2 weeks","createdByUserId":"033faf09-c975-485c-9661-0f17a74c4f26"}'

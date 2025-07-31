@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDA1OjAwOjAxLjM0NTY3MyIsInVzZXJfaWQiOiI2OTA5Y2JjMC1mOTk5LTQ5YjctYTk3ZC04YzhmZmFlZmRjMTAifQ.IStexi8-rOnyBSdnxfaAEYkstW3CWSnsLB2ovrZ5BYE' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Job mother dream suffer their imagine.","maxScore":55,"minScore":1,"description":"Institution meet so. Performance chair season appear evening rule size measure.\nSort its war. Stand foot notice one president real.","previewFileId":"44f8313d-9d76-4ccb-b54e-10bff9fa30d0","estimatedTime":"1 weeks","createdByUserId":"6909cbc0-f999-49b7-a97d-8c8ffaefdc10"}'

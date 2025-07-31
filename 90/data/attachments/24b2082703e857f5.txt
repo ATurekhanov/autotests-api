@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Great weight girl learn.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Kitchen through where evening. Yourself one soon throughout address. Yes ready space.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to 042eef06-06da-412c-b3fa-29a1d8f19288
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to f29ef2c0-0072-42c4-8da2-1ec43b1678f4
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
