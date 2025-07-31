@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/e155d7e1-1b1c-4aa6-8473-9e92020a8e86
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/e155d7e1-1b1c-4aa6-8473-9e92020a8e86
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to e155d7e1-1b1c-4aa6-8473-9e92020a8e86
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Girl production garden by age treatment carry ask.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to ac830cf2-fad0-4d30-bf92-01f001162aa4
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 62
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Already military western well explain. Include onto important far local plant family. Produce look with room television.
+Bring explain late window. Though debate deep might give after.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDA0OjI4OjI0LjkxNzY5NSIsInVzZXJfaWQiOiI5NWQ5ZjM5ZC00YWYzLTRjMTItOTM4Ni04ZWU1MGNlMzk4MDUifQ.mZJ0vKMmGwNphS5rXoafLfmEn8ssOznFV9HoiMUsjQs' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"See else evidence picture.","courseId":"e9e49e7d-4df2-4933-9d51-6ab9e143d9d6","maxScore":94,"minScore":10,"orderIndex":71,"description":"Choice seven light room last out. Somebody expect front grow much Congress name. Shake similar course sense design they close.\nAbility science research without.\nProfessor design in career note.","estimatedTime":"9 weeks"}'
