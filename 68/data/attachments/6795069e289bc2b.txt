@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e80c7a96-b1ee-400d-8fb7-dad75e8d0361' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAxVDA0OjM5OjE1LjkzOTI1OCIsInVzZXJfaWQiOiI2OTVmMmIyNS1kOGUxLTRiODQtOTlmZS02MzAyNDdiNWJiMTAifQ.GDMrrxd-4b1hPXI3ceS7orrhynyx0t0Sftc5f4Fiqak' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Probably offer democratic all away throw center.","maxScore":53,"minScore":21,"description":"Cell station so. Indeed loss less offer population. Listen this star.\nWorker to attorney oil shake author memory. Always past term resource law cover Mr.\nFund society if near. Purpose follow myself.","estimatedTime":"7 weeks"}'

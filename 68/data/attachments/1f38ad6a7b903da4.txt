@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAxVDA0OjM5OjE5LjE4OTExMCIsInVzZXJfaWQiOiI4Y2E4ZTJjYS1hMzFiLTQ1NjItOTA4ZC0yYTRkZDI4YzNjMjQifQ.IcvD3k0eb4pta_2RoZXED49azhPhlYZAUYTfdC8DYZA' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Event fill military democratic home commercial factor.","maxScore":84,"minScore":20,"description":"Need oil level. Foot worker minute result. Without firm pressure.\nPick thank arrive example. Nice hotel life play very newspaper. Participant between street remain mention drug bed important.","previewFileId":"dea50dc0-3487-43b3-8d10-d1867c1c7784","estimatedTime":"10 weeks","createdByUserId":"8ca8e2ca-a31b-4562-908d-2a4dd28c3c24"}'

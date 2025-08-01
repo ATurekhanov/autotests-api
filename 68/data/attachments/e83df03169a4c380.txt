@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAxVDA0OjM5OjE5LjE4OTExMCIsInVzZXJfaWQiOiI4Y2E4ZTJjYS1hMzFiLTQ1NjItOTA4ZC0yYTRkZDI4YzNjMjQifQ.IcvD3k0eb4pta_2RoZXED49azhPhlYZAUYTfdC8DYZA' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase police million week require relate.","courseId":"00d526ff-f83a-4447-8222-b7e66a0ee7e1","maxScore":75,"minScore":5,"orderIndex":11,"description":"Accept recently again. Investment watch indeed minute resource anyone name. Pm capital military prevent international.\nMajor exist drive sit ok her top.","estimatedTime":"9 weeks"}'

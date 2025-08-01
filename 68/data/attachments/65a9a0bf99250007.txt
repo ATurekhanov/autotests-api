@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAxVDA0OjM5OjE3LjA4Mjg5MiIsInVzZXJfaWQiOiJiY2RlODZkOC1lNzhiLTRjNTItOTMwZS02NGY1ZjRhNzY3ZjEifQ.3WnMtuIgML-_DzrNsu8cvuTRJhoUCvyJPOJP2K-BqpE' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay other four sell middle involve you.","maxScore":77,"minScore":20,"description":"Check conference agency claim forward maintain report. Middle manage old population unit.\nMeeting it it rate responsibility better. Key suggest provide charge like class.","previewFileId":"f9b1bc47-1422-4d9c-9c36-1e050d742951","estimatedTime":"2 weeks","createdByUserId":"bcde86d8-e78b-4c52-930e-64f5f4a767f1"}'
