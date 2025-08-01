@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/94a6f554-f2dc-4e71-83c5-8ef3bd614f05' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAxVDA1OjEyOjIxLjYxNzAxMCIsInVzZXJfaWQiOiJmMTljM2JkNS1jZTc2LTQ3MGQtOWE4MC0zOGNmMTEyYjE0NzIifQ.R7sNAia6sMLj6Txsf81RHclzfbDdigiD2W66-b7P2UI' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Set note forward article eight television.","maxScore":54,"minScore":18,"description":"Claim nearly find mission bad. Detail certainly new trial hospital number.\nShort sister term. Young some newspaper anything him space.","estimatedTime":"1 weeks"}'

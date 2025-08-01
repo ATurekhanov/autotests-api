@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAxVDA1OjEyOjIzLjk2MDE1MCIsInVzZXJfaWQiOiI4Yzc3NTg1MS0wYzY2LTQ3ZmUtYmFjMS1hMWU1ZGRkMDc0MGIifQ.yl-KQR05SPxnF076Ag9l8MxCr3rhq0raXnoWJcwl-6A' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay election win course story full.","courseId":"1fff0087-ca82-4052-9e29-5c913370563a","maxScore":98,"minScore":13,"orderIndex":38,"description":"Stop artist should bill father. Hear something enter son however any.\nNone collection perform teacher ball. Station other cold strategy charge sister.","estimatedTime":"1 weeks"}'

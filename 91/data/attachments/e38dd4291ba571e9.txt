@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAxVDA1OjEyOjI0LjIzNDY0MSIsInVzZXJfaWQiOiI3NTY5NTFjYy03YzhhLTRlMTktOTBkNi1lMzZiNDE3MmE4M2MifQ.Q0JjJ3ovsfsAYEHIIKnrzP7VKgpeqIZ7qn2dT0Sa_Yo' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural task crime.","maxScore":87,"minScore":4,"description":"Claim success value machine end hospital history. Receive smile than miss at fast. Affect fly view investment remain type prevent relationship.","previewFileId":"cf5311b2-bfe9-421e-a3c3-2446ec083640","estimatedTime":"7 weeks","createdByUserId":"756951cc-7c8a-4e19-90d6-e36b4172a83c"}'
