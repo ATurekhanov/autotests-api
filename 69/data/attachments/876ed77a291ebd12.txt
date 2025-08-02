@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjIwOjI1LjM2MjU4NCIsInVzZXJfaWQiOiI0N2MwM2JmMS00YzAzLTQzOWEtOGY0Yi0wMjg0MDMwODY3N2EifQ.LQ59CqRu9QngiWOtkyn0GJFQM1x4bbaWcuOChpGNF58' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do write full shoulder the high skin.","maxScore":87,"minScore":3,"description":"Girl inside make reality. Bag since chair stay learn most skill. Model respond same third they.\nAccount work why east. Everyone whatever explain design knowledge.","previewFileId":"0864f30e-4d45-421a-9e8d-c8359c34c856","estimatedTime":"7 weeks","createdByUserId":"47c03bf1-4c03-439a-8f4b-02840308677a"}'

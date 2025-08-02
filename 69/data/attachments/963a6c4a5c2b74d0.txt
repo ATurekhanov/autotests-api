@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/14718648-9e2d-431c-bc22-2fd0024e0d38' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjIwOjIyLjc4NjA4NyIsInVzZXJfaWQiOiI4NjIyZWI2Ni02MmY1LTRhNjQtYjJmNC04NTJlYjYzODYwM2IifQ.DpFMIC3WP7rDPwMMLzJWEQOgaFnCysljyAF59npfmpY' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career hard understand can explain simple suddenly.","maxScore":74,"minScore":12,"description":"Dinner experience TV down subject. That fly loss man impact trade involve.\nFactor drop final upon. Prove every because college bill find message. Study paper as practice.","estimatedTime":"10 weeks"}'

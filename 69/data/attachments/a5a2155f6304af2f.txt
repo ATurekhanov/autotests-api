@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/b51159a4-b4ed-4930-9c7d-23e4224a17c8
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from PATCH http://localhost:8000/api/v1/exercises/b51159a4-b4ed-4930-9c7d-23e4224a17c8
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Much resource candidate need adult whatever.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 47
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to People education too trade increase network standard. Skin those break base week meeting.
+Catch particular change explain maybe. Require move light view though let. Might policy service his build.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjIwOjI2LjAwMzIzNCIsInVzZXJfaWQiOiJhNTM1Njc2NS1hYWM1LTQ3YWItYWI5MC00MzNkYjYwZjBiOWIifQ.k4uPi1GBxFz2wYvSk4BHIpb_oUm7E_4aNZu0b_sjXYw' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Door with dog girl.","maxScore":97,"minScore":18,"description":"Outside project much six. Hundred understand floor street practice create top. About send that activity big.","previewFileId":"2fab4ddd-18ee-4124-acae-f5d0a02b38ad","estimatedTime":"1 weeks","createdByUserId":"a5356765-aac5-47ab-ab90-433db60f0b9b"}'

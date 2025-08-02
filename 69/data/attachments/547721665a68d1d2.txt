@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjIwOjI0LjE5OTE1MCIsInVzZXJfaWQiOiJjYmMwOTlkOS1hN2JhLTRiYmItYTA0Mi00NjE0NDNmZWE2N2MifQ.0i8Jck4ePDuA_d293GpjDP62QCqNk1b7KHwAD07DItY' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone third television girl.","maxScore":77,"minScore":28,"description":"Property team oil. Matter threat worker former speech lawyer always.\nThough chair understand Republican. Old gun who current.\nMove spend light safe economic.","previewFileId":"5af2b17a-770d-4511-a729-965b0b9ecc96","estimatedTime":"8 weeks","createdByUserId":"cbc099d9-a7ba-4bbb-a042-461443fea67c"}'

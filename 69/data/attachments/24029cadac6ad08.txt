@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/52ee4975-eae2-4237-a289-170c3e139084
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/52ee4975-eae2-4237-a289-170c3e139084
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 52ee4975-eae2-4237-a289-170c3e139084
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Not argue never month he.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to bbf67396-3713-4961-92b6-e0edfb0afb06
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 75
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Suffer art until service serve.
+Down power break seven billion buy certain friend. Of tax cut.
+So traditional television role. Toward stay treatment seem.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
