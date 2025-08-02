@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjUxOjQxLjc2MDk3NiIsInVzZXJfaWQiOiIyYmQ4YmEwNy02MDFmLTQxNTQtYWQ4Yy1jNWI1Mjk0NTI5YzgifQ.iYDd-nERByBnfL3brrRGD-_VtNmUPi68OdPRC149I-c' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give continue fall green family.","maxScore":94,"minScore":10,"description":"Relate policy smile enter day boy. Strong instead contain ever accept theory. East go build reality since save. Age social husband end fire value.","previewFileId":"7354c7bb-15dd-4003-9c38-acc1ac920689","estimatedTime":"7 weeks","createdByUserId":"2bd8ba07-601f-4154-ad8c-c5b5294529c8"}'

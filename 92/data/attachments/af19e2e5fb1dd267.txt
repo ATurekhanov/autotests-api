@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/bc84617f-2d08-4f37-9535-d14562030fc8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjUxOjQxLjc2MDk3NiIsInVzZXJfaWQiOiIyYmQ4YmEwNy02MDFmLTQxNTQtYWQ4Yy1jNWI1Mjk0NTI5YzgifQ.iYDd-nERByBnfL3brrRGD-_VtNmUPi68OdPRC149I-c' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Top join happy form start view.","maxScore":87,"minScore":13,"orderIndex":16,"description":"Business itself argue store tax. Act stock religious within happen boy poor.\nIt realize these relate dream practice. Throw current someone rule.","estimatedTime":"8 weeks"}'

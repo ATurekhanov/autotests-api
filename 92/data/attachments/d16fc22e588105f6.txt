@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjUxOjM4LjA4ODc0MyIsInVzZXJfaWQiOiI0MmIwNmRkMS0yN2M1LTRhMGEtYmI3My1mMmI0NTMxYmU2MjYifQ.8O7AWE2Toz6PKsWzeV4GeMyCrStdd28VcMjlIUCDedM' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Minute thus arm candidate late research.","maxScore":78,"minScore":17,"description":"Reflect open result hotel recently happy subject. Still research specific anything tell easy product yourself. Reason along fine situation present. Hundred land ten reduce us discuss gun.","previewFileId":"73c2cc0e-eee3-4371-94da-e88989dcfe8f","estimatedTime":"10 weeks","createdByUserId":"42b06dd1-27c5-4a0a-bb73-f2b4531be626"}'

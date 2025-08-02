@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/62a2a6e2-e114-490f-bd3e-18bdeba8ee27' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDA0OjUxOjM3LjE3NjU1NCIsInVzZXJfaWQiOiJmMDk3ODUyMS1lZmQzLTQ5ZjQtODk3MS0xNWZjOTIxZTJkY2EifQ.zxXF5nZOcSNPwtdqx05uybeK0cVIJAj7JMFjlhBsUPk' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Campaign defense administration total itself consider often.","maxScore":82,"minScore":24,"description":"Speak mission road write blood remain glass provide. Mission they city minute religious when similar. See service again.\nQuite story month per. Should word make.","estimatedTime":"4 weeks"}'
