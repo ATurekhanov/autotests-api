@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA1OjA3OjEyLjYyNjA5NiIsInVzZXJfaWQiOiI5YmFhZDU4MS1kNzY1LTQxZjItYjRiMC04MmI2MDJiNzRmYmIifQ.IwTMr6Lob4_CTiqUh3jGfKOUhnRC48ClwQR3DfHvwcw' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry tell family food eat gas.","maxScore":62,"minScore":17,"description":"Discuss attack forget trouble. Military positive summer thought common.\nResponse Democrat happen indeed later. Former guy now require impact theory service threat. Explain audience bag total.","previewFileId":"d4e7c053-994a-46ff-9ae9-7afeca5b6b52","estimatedTime":"1 weeks","createdByUserId":"9baad581-d765-41f2-b4b0-82b602b74fbb"}'

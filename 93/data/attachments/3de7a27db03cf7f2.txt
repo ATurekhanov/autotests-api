@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA1OjA3OjEzLjI4NzM4OSIsInVzZXJfaWQiOiIwMWFkYTFiMC1mNmJjLTQwNjYtYmM4Yy0xYjk1MDY1OTQzODYifQ.zD-PpZ_KYDXig_fMs4DSF9VDqL0_YljsLNwIRppl8mk' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Government condition better case.","courseId":"ac6c635b-35e8-4a24-abda-3364e55582f2","maxScore":73,"minScore":14,"orderIndex":62,"description":"Difficult moment pick yourself production necessary she. Must cover top measure enough baby. Fast notice statement break half red response.","estimatedTime":"10 weeks"}'

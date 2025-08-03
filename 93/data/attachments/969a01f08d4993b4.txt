@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA1OjA3OjA5LjkzMjc2MCIsInVzZXJfaWQiOiI0ODJkNDI0ZC0zYjQ4LTQ0MzItYmIyOS05ZTQwMGZmYzc3ZGMifQ.Oa2THusZ4X8Eqv2OvxFAzteWxEyCLt7n_M5KqzLbpZo' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Common back magazine employee real away.","maxScore":83,"minScore":28,"description":"Understand throw yard nature white voice shake dream. Lose rich mouth week teach lot.","previewFileId":"2cfe5836-bcf8-40f2-b397-5c012b2b6fe9","estimatedTime":"1 weeks","createdByUserId":"482d424d-3b48-4432-bb29-9e400ffc77dc"}'
