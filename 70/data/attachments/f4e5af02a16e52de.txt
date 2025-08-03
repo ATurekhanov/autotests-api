@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA0OjM0OjU5LjQ2ODcwOSIsInVzZXJfaWQiOiI2MDZiODI2YS0wMzc0LTQ0NDUtOTYzYS05YjkwOWE1OGYzNjIifQ.g2ptTWlvG4sXe5ecskT0WczwXN9ULT4RpRLBBeKgz-M' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Coach become capital former suggest role.","courseId":"0c8a3321-27c5-4dc2-a4dd-48924537a712","maxScore":100,"minScore":19,"orderIndex":73,"description":"Hear up PM floor company population talk exactly. His hear including school my as prepare.\nWall because without side skill help foreign.","estimatedTime":"8 weeks"}'

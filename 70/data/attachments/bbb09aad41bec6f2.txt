@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA0OjM0OjU4LjgxODM3MCIsInVzZXJfaWQiOiIwZWUxMjAyZi01NDA3LTQ0MjYtYjQ4ZC0zOTgyMTBmM2I4NTkifQ.29LgyqP7y6hn3hnJC0pxSJWiLL_ihVegfWWkz4xBkWo' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night send accept.","maxScore":96,"minScore":5,"description":"Community measure away news subject environmental reflect. Sign standard treatment rock wonder which ability.","previewFileId":"c38b826a-d634-4936-90ac-c4ea0b69f723","estimatedTime":"6 weeks","createdByUserId":"0ee1202f-5407-4426-b48d-398210f3b859"}'

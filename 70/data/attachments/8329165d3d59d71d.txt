@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA0OjM1OjAwLjA1NzY3MSIsInVzZXJfaWQiOiI1OTU3M2ZhMi0yYmRmLTQ3ZjgtYmIyZS1mMTFiNThjNmNlZGYifQ.F0zYoj_GMZhoLWihaOJ-rb5GpmNxfo81k3HPCU2WifE' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask describe skin.","courseId":"5834493a-4152-4ca2-bbb8-468a356532aa","maxScore":60,"minScore":6,"orderIndex":38,"description":"Method who culture movement save. Left suggest range open cell answer. Opportunity ok face energy town up.","estimatedTime":"10 weeks"}'

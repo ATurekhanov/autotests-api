@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a8246415-6e49-4253-bdea-cd6f7465f77e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA0OjM0OjU2LjIxNTQ2NyIsInVzZXJfaWQiOiIzMTVkMjJjNC0zNWIyLTQxNDAtYmUyZS1jZDY0MjdkZGJlMWQifQ.Pu5xxIMVTM3wukrm3D2ol2v3U5NQcGd_VHOWOzvlRlY' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Per hotel trip improve.","maxScore":95,"minScore":10,"description":"Charge speak still my. Item director century road until claim.\nEverything dream like bed whole experience. Speech about tonight wait.","estimatedTime":"2 weeks"}'

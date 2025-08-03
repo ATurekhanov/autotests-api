@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Item house dinner ago any responsibility.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 7793d7d9-7ca8-4c00-ad87-fb1cedefca74
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 34
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Own member speak social note work address.
+Sound across have authority his hour agent. Market hotel painting voice animal tree cost. Fall for during view per.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

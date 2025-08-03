@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAzVDA0OjM0OjU2LjIxNTQ2NyIsInVzZXJfaWQiOiIzMTVkMjJjNC0zNWIyLTQxNDAtYmUyZS1jZDY0MjdkZGJlMWQifQ.Pu5xxIMVTM3wukrm3D2ol2v3U5NQcGd_VHOWOzvlRlY' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major myself mouth any identify citizen American play.","maxScore":68,"minScore":13,"description":"Continue Republican military. Measure foreign firm since.\nCase religious top. Whole manager discussion budget else. Do or important boy tonight account.","previewFileId":"9d378f41-9a87-48bc-a842-b531200498bc","estimatedTime":"1 weeks","createdByUserId":"315d22c4-35b2-4140-be2e-cd6427ddbe1d"}'

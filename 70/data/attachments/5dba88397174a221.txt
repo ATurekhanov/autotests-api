@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/e474eaf0-aa54-4f1b-888c-7b18771bfda4
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/e474eaf0-aa54-4f1b-888c-7b18771bfda4
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to e474eaf0-aa54-4f1b-888c-7b18771bfda4
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Coach become capital former suggest role.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 0c8a3321-27c5-4dc2-a4dd-48924537a712
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 100
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 73
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Hear up PM floor company population talk exactly. His hear including school my as prepare.
+Wall because without side skill help foreign.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
