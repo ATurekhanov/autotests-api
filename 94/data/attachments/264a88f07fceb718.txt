@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDA1OjE1OjM5Ljc3NTk0OCIsInVzZXJfaWQiOiI2YjZkZjU1Yy02YWEwLTQzMjgtYjExMC1lOGUyN2U5YzZjOGEifQ.vU0hZ_xIqRd5W9wYr5SX8NsXjWNKc34T7K2ZmkFtshw' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve southern important as I fine raise trial.","maxScore":67,"minScore":5,"description":"Father whole go message effect. Certain put face old loss run idea.\nHe peace federal. General activity college contain.","previewFileId":"4a9a7d29-ff2e-4dda-bfa5-27cf7a140c96","estimatedTime":"3 weeks","createdByUserId":"6b6df55c-6aa0-4328-b110-e8e27e9c6c8a"}'

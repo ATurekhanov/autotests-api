@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDA1OjE1OjQxLjAwMzY5MiIsInVzZXJfaWQiOiJmNTc5MTY1NS03MWZlLTQ0ZTItOTkxMy03MTMyYjllYjE2MjYifQ.gSC0oujXSChBi_yUuVa9CxFNAkiHTevW_USKq_y8SJ0' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fear rise will because very always past.","maxScore":65,"minScore":21,"description":"Attention level firm be word support.\nNews push prepare management opportunity. Travel brother party debate any responsibility affect rule. Continue accept election.","previewFileId":"92e2d452-1bcc-4dd5-806b-4dc5804f2372","estimatedTime":"6 weeks","createdByUserId":"f5791655-71fe-44e2-9913-7132b9eb1626"}'

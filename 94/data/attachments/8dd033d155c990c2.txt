@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ae9afaac-fb91-4862-96f2-70c0e37f8726' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDA1OjE1OjQxLjYyNTMyNyIsInVzZXJfaWQiOiI0NGIzZDQzNy1mZDMwLTQ0ZWItODI1ZS1kMzFlOTRiZDkyNmEifQ.ka4ln1yX1MgE42pfIGPTDWRZ6EJo7atkMlaYy0zcHuE' \
+  -H 'content-length: 242' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue common report produce hour back production.","maxScore":68,"minScore":7,"orderIndex":8,"description":"Everyone court through citizen apply little. Employee need political. Itself bed speak white.","estimatedTime":"1 weeks"}'
