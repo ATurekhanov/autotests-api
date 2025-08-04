@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9d272de1-1feb-46fc-bb1b-b169ac231abb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDA0OjQwOjQ3LjA0NDA1MiIsInVzZXJfaWQiOiIwNTIyMTRjMy01MjQ5LTRjNTgtOTMwMS04NWI3YTBiNzlhNTQifQ.5OEw0ywQ-yi4ZTESH84E66MsP-4oV3D3dFWgS5j80N4' \
+  -H 'content-length: 235' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr boy particular save thing.","maxScore":64,"minScore":21,"description":"Share really include. Test despite attention. Chair media policy child piece fund. Money street wish simply expect out low.","estimatedTime":"3 weeks"}'

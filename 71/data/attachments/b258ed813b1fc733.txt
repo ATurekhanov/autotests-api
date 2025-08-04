@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDA0OjQwOjQ4LjUyMzU0NSIsInVzZXJfaWQiOiJhOTA5ODM2MS1iYmEwLTQyYTEtOWY3Zi1jNzU2N2Y4YzEwYjYifQ.gA7eBmcUyejD2GgyBKrPtjaDWGtibxUFQJ9JpaXBe70' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"House world chair dream middle business first never.","maxScore":74,"minScore":14,"description":"Seat production in remain say. Next practice check call stand.\nEnd daughter prevent season no good. End hope attorney usually hit rise. Agreement sport such.","previewFileId":"ce6848d1-c0b4-41a9-8a52-591a60c96ac8","estimatedTime":"3 weeks","createdByUserId":"a9098361-bba0-42a1-9f7f-c7567f8c10b6"}'

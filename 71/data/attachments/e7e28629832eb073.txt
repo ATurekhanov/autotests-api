@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDA0OjQwOjQ3LjkzODUwMCIsInVzZXJfaWQiOiJhZTljZWZiZS03MGZiLTQ1M2UtOTVkMi02ZDYwN2JiYTk1MDIifQ.gJxeuyk9Ovp6a80lPM_ix07DCPEfuf7nib1Od0Dg8bY' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Myself century themselves economy able reason.","maxScore":86,"minScore":24,"description":"Series always scientist this far suffer yet democratic. Single likely TV produce.\nSeat wide little statement upon. Soldier service husband why technology though.","previewFileId":"a547ca9c-2200-4934-bbb4-eac263fb2bdd","estimatedTime":"4 weeks","createdByUserId":"ae9cefbe-70fb-453e-95d2-6d607bba9502"}'

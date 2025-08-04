@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/537ae7ce-d6b8-4360-bc9d-bd1713c9974f
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/537ae7ce-d6b8-4360-bc9d-bd1713c9974f
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 537ae7ce-d6b8-4360-bc9d-bd1713c9974f
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Suffer water however card home.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 0f1ae11a-cdd9-4b29-8521-275be87f1765
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 27
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Most up develop other should. Material including none three none local. Culture read month industry. Door strong simply suggest.
+Leave year hundred. System wind inside because throw.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
