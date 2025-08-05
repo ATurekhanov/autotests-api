@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA0OjMyOjQwLjk3Mjk4MSIsInVzZXJfaWQiOiIwNmEzOTkzNC1jMTYyLTQ4NjktOGEzNC1iYTY0NjljNjBlOTgifQ.qAtMDiT-r2ur1ldshiPPg4OzaxDEDboMI1ZgdMi3x6s' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century bar health despite area check trade scene.","maxScore":66,"minScore":29,"description":"Evidence surface yard tax over. Lawyer voice successful top crime new marriage final. Challenge main value wear despite different court sport. Commercial attack effort effort work watch.","previewFileId":"9bb7ba65-726b-43ba-9052-5214dceef943","estimatedTime":"8 weeks","createdByUserId":"06a39934-c162-4869-8a34-ba6469c60e98"}'

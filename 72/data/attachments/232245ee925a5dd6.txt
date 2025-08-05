@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA0OjMyOjM3LjYxNjYxOSIsInVzZXJfaWQiOiJkMWNlZDNiNC01OTUwLTRkMjAtYWQ0MC0zNzk2MGRjMTRiN2MifQ.Qh6KmYjA-6IvpdD6qGP2IlY3_VtSoj8JkB87-ic5URA' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hard whole our third different.","maxScore":63,"minScore":22,"description":"Ahead continue run car. Base once history speak whole shoulder. Against edge radio wait organization several writer put.\nScene success piece set. Movement girl rule who new walk must.","previewFileId":"e9270776-461b-430a-8b22-0bd9f187be60","estimatedTime":"4 weeks","createdByUserId":"d1ced3b4-5950-4d20-ad40-37960dc14b7c"}'
