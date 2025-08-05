@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA1OjA2OjQ5LjgzMDgxMSIsInVzZXJfaWQiOiJiZTljN2ZjZi02OWZjLTRjM2ItYjM5ZS01ZDBjYTlhN2M3ZTgifQ.U2WLieCehAXX9dpD862zSETO28Pb_4dHyKTBtowzjuY' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season red successful notice national production however.","maxScore":74,"minScore":11,"description":"Court interest energy. Range chance space. Will citizen may surface discover camera subject.\nLook sign second tree suggest themselves. Democratic interest hard land.","previewFileId":"58dc7201-fdfd-4c7a-9263-1bec6a68b63b","estimatedTime":"10 weeks","createdByUserId":"be9c7fcf-69fc-4c3b-b39e-5d0ca9a7c7e8"}'

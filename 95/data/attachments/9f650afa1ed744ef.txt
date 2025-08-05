@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA1OjA2OjUyLjQzMzIwOSIsInVzZXJfaWQiOiIwMmUxY2M3Ni0xMDg4LTRkOTctYjIwMi02OTkyYzU1ZjUxZDQifQ.dayEQ2kSjvflVO_vRx2P6zeoHvMBvHAWBh4EA0Eo38g' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter yes side special modern enter.","maxScore":87,"minScore":12,"description":"Standard whole under current answer individual crime. Pressure rock perform.\nMan ground lay science just project. Military senior win heart traditional protect.","previewFileId":"ae589647-9498-4ae4-b749-390fbcaa42e1","estimatedTime":"4 weeks","createdByUserId":"02e1cc76-1088-4d97-b202-6992c55f51d4"}'
