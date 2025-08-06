@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA2VDA1OjAzOjM0Ljg2MDg0NiIsInVzZXJfaWQiOiIyMGJhMDliYS02MTI5LTRkOWMtYTZlMS04OWRiNzdlMWY5ZTEifQ.j0J3DghqXQ3cGp-e3nCBHiUm8MyRh2PASidjNdWlDbU' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip yourself bag consider traditional.","maxScore":78,"minScore":9,"description":"Trouble us use maintain bag stuff drive. Sing foreign argue paper speak owner.\nNot couple stand about treatment design father. Be store him also.","previewFileId":"5e5e3f5c-679c-4e47-8c51-a43fc98ea187","estimatedTime":"8 weeks","createdByUserId":"20ba09ba-6129-4d9c-a6e1-89db77e1f9e1"}'

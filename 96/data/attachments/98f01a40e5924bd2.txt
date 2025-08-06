@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA2VDA1OjAzOjMxLjYwNTk3NiIsInVzZXJfaWQiOiIyNDE2ZWRjYy1iOWEzLTQ1YmUtYTY1MS00MGU0ZTUzNGZkMjcifQ.SY3yv_2lfv7mYVtBn5WjxEsfy9pVsFfINjk9NDuL1Cc' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk start or soon continue picture.","maxScore":85,"minScore":3,"description":"Natural within say hand person unit beat. Management mother current finally. Share together natural although.","previewFileId":"dcb9181d-7373-4b28-8360-e36a4c52b1df","estimatedTime":"5 weeks","createdByUserId":"2416edcc-b9a3-45be-a651-40e4e534fd27"}'

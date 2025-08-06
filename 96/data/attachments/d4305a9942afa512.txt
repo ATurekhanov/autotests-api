@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA2VDA1OjAzOjM0Ljg2MDg0NiIsInVzZXJfaWQiOiIyMGJhMDliYS02MTI5LTRkOWMtYTZlMS04OWRiNzdlMWY5ZTEifQ.j0J3DghqXQ3cGp-e3nCBHiUm8MyRh2PASidjNdWlDbU' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Door whatever can although parent cost onto.","courseId":"cf5898a8-1c49-4fc9-bc07-e0b03ec7fe66","maxScore":63,"minScore":18,"orderIndex":76,"description":"Standard notice state nation. Cell trial low in watch attorney take.\nOpportunity attorney plant education my. Baby military interview.\nGo season he discuss continue base. Wind eight try.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA2VDA1OjAzOjM1LjQ0NTAwNSIsInVzZXJfaWQiOiI4NTM4Y2E0Ni0xNWRhLTQxZjItYWE0NS1lZDNkY2Y5ZmIxZDMifQ.zj1c-2vyeiGIciNUQhmT_gvTQOmAcvGpvnSChFkX7zA' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment difference sell for research.","maxScore":74,"minScore":22,"description":"Fund between forget control production agreement relate class. Ahead add network air natural big camera.","previewFileId":"efce72e0-4fba-497a-a29c-2a3e81413118","estimatedTime":"1 weeks","createdByUserId":"8538ca46-15da-41f2-aa45-ed3dcf9fb1d3"}'
