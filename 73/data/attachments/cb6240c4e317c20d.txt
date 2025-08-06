@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA2VDA0OjMwOjAzLjg3MDA1MCIsInVzZXJfaWQiOiI4NGE3YmZmNC0wYzVhLTRiNjctYTM4Ni05ZWYwNDFiMzg0MmUifQ.jLPoTvVCl6qwQnXMLDZoV762A646gVz8aIH90_KbGFs' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment how back us.","maxScore":89,"minScore":16,"description":"Without news family fire. Themselves couple recent business future course.\nWalk together end hand young. Dinner manager politics plant community suggest. Compare example name major late.","previewFileId":"e493eda7-47a3-404d-ab9d-5f8e12af796f","estimatedTime":"6 weeks","createdByUserId":"84a7bff4-0c5a-4b67-a386-9ef041b3842e"}'

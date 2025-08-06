@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA2VDA0OjMwOjA4LjM1ODYzNSIsInVzZXJfaWQiOiJmNDgzZWQ5MC0yNTZhLTQzN2MtOTYzYS1hYzhhOWJiODdjMTgifQ.TFIsu2TdqisSVEVpNJXI9TwPWyjLbIKrq2sbY5yo1fQ' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Best outside tax director reveal magazine capital.","maxScore":62,"minScore":1,"description":"Social official knowledge many raise field first rise. Project same chair several sport major tend. Friend candidate wall ask politics thank region.","previewFileId":"b0cb07e6-db4b-41a5-b518-6947c594a1e4","estimatedTime":"3 weeks","createdByUserId":"f483ed90-256a-437c-963a-ac8a9bb87c18"}'

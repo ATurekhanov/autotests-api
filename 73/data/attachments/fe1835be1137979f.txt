@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA2VDA0OjMwOjA1LjI5NTIzMSIsInVzZXJfaWQiOiIyZTA5MjExMC04Y2Y3LTRmMTUtYjgwOS03MmI0OGFjZGZiMjAifQ.6VJImWNbCCJIzvzldpzhscZEtjrZlY4IPJeH7oebiIg' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone age eat safe senior onto.","maxScore":83,"minScore":8,"description":"Start new election interview fine again just. Religious present partner him impact every. None sport light. Power among pressure card one one despite.\nWould should social enjoy relate.","previewFileId":"33ac8d4c-4d97-4b47-9972-3e61f929a3ed","estimatedTime":"9 weeks","createdByUserId":"2e092110-8cf7-4f15-b809-72b48acdfb20"}'
