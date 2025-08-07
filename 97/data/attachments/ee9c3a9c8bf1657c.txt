@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA1OjAzOjE5LjYxOTg1OSIsInVzZXJfaWQiOiIwNDk2MDFiZC04MmFiLTQ1MjEtYTA0Yi0wODEzYTI0ZGVlODYifQ.yVisAspiddJyM273MomWHp1Qo7Ekgqsa_l_ISklps4o' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official hope able remain source wrong middle.","maxScore":50,"minScore":7,"description":"Tough environment approach attention represent network manager.\nMonth condition order member number billion little. Future miss least consider no collection point population.","previewFileId":"5e76d212-462a-46a3-8ed3-886865ca9d70","estimatedTime":"6 weeks","createdByUserId":"049601bd-82ab-4521-a04b-0813a24dee86"}'

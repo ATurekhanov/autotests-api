@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/81abe98c-bc87-43ed-96ea-adbf7b54557c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA1OjAzOjE1LjExNzc4MCIsInVzZXJfaWQiOiI3NTUxZWNiYy00ZTI0LTRhOGEtOGI0My00MTA1MmNmNzU2MmMifQ.okbDqIv8e0AMm1pZtNdgCrFlBgH02cx73lWFw5g9upI' \
+  -H 'content-length: 226' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word speech perform tonight nor.","maxScore":95,"minScore":12,"description":"We light wear may better ground herself politics. Place husband ago into. Candidate everyone claim child seven.","estimatedTime":"4 weeks"}'

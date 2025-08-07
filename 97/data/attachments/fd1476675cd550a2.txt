@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA1OjAzOjE4Ljk1ODQ5MiIsInVzZXJfaWQiOiJjMWM5NDY1MC1hZWE3LTRkY2EtYWJjMS1lZGFlNDdmNDdiNTgifQ.cUhXZ0hHUsK4GJoE7JpkWJBbSml_9kud7ktltYkQKAI' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney especially paper fire whole someone.","maxScore":56,"minScore":9,"description":"Attorney face nothing test administration our. Also performance sit wait method civil. Responsibility window tax church.","previewFileId":"e1f84bbc-cc03-4944-a3b6-e846378c16a7","estimatedTime":"2 weeks","createdByUserId":"c1c94650-aea7-4dca-abc1-edae47f47b58"}'

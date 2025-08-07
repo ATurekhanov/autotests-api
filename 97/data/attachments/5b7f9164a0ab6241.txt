@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA1OjAzOjE3LjcyMDQ5NCIsInVzZXJfaWQiOiJiMjUyNjlmMi00MmEzLTRlY2ItOTg0MS0yODEzMWZkNzZhNWIifQ.LuxAkU-DXW1MqtsVSq4HsVtI8dZ6duvlxh54ADos3g8' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound receive look attack note too herself system.","maxScore":99,"minScore":28,"description":"Opportunity meeting threat. International commercial unit game better seat. Admit two other yourself. Thank east upon soon officer although.","previewFileId":"4f44b8ce-f5a7-4af7-b770-009c9b2273fd","estimatedTime":"7 weeks","createdByUserId":"b25269f2-42a3-4ecb-9841-28131fd76a5b"}'

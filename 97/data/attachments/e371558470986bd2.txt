@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA1OjAzOjE4LjM2ODk1MiIsInVzZXJfaWQiOiJiMmUzMzYxOC04MjcxLTQ4MWMtYTU2Mi05YjBmNmNiMzQ0ZGYifQ.016CsfWD-cy6d-ufhJHOM8Rd0DG7MtvYnJXm1R3ylv0' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs term amount personal sell own.","maxScore":64,"minScore":23,"description":"Ask shoulder nothing study image design. Rich cover note issue. Rich TV himself occur Congress behavior several.","previewFileId":"570786f7-788a-44d6-b178-4fe1c532b6bc","estimatedTime":"1 weeks","createdByUserId":"b2e33618-8271-481c-a562-9b0f6cb344df"}'
