@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA0OjMwOjAwLjc4MTc3NCIsInVzZXJfaWQiOiI2MDM0MWU4MS02NTU0LTRjNWQtYmNhNi02ZDRlNGMwODI5MDgifQ.85h1nWSw0kOuupSdv0wRNliaopIEsLwKm2bSAXlopdY' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Morning all pay process.","maxScore":97,"minScore":4,"description":"Several ability our light culture. Newspaper avoid energy we two south threat. Society employee out follow director hair all.\nFinancial very charge manager best follow. Want total argue.","previewFileId":"5d4cf7ee-6310-49ea-adb1-b1ffcd91c042","estimatedTime":"3 weeks","createdByUserId":"60341e81-6554-4c5d-bca6-6d4e4c082908"}'

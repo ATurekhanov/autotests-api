@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA0OjI5OjU2LjI0ODY0NyIsInVzZXJfaWQiOiIzMjc4ODFjMy04ZWNlLTRkZTYtYjk1Ny0yNDFiNzIxMzgwYjkifQ.VsDljGUec4MfF2bJ0u4REQRzfpiDogB36pCYHQmjQZI' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Such memory either operation opportunity.","maxScore":99,"minScore":10,"description":"A rather many small much friend. Range order make report letter. Wear soon without both. Thank day part sit trip Mrs tend.\nFour bit team. Pattern report occur avoid.","previewFileId":"0e3bfeb4-303f-4c0b-96f9-6828f50bdeb2","estimatedTime":"10 weeks","createdByUserId":"327881c3-8ece-4de6-b957-241b721380b9"}'

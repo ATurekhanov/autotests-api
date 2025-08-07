@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA0OjI5OjU4LjU4NzE3MyIsInVzZXJfaWQiOiIzZjdjNGRhMy0zNTM1LTQ2NzgtOTc4MS0zZWU0OGQxZjA4NTAifQ.GOeqz2Qk7PUYcoHIXZT9K4bnpdjV-XU-WvUCl1Gpg8I' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"I guy everyone draw suffer lead respond discussion.","courseId":"3e840ecb-e2a6-4d90-8a2d-c398ab7cfd41","maxScore":91,"minScore":8,"orderIndex":95,"description":"Range defense interesting. Policy newspaper either represent son. Boy bar right hear.","estimatedTime":"4 weeks"}'

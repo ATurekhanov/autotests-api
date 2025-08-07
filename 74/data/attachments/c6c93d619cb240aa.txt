@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d58ada31-68eb-4fb6-b3ca-468bf1d6e70b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA0OjI5OjU2LjI0ODY0NyIsInVzZXJfaWQiOiIzMjc4ODFjMy04ZWNlLTRkZTYtYjk1Ny0yNDFiNzIxMzgwYjkifQ.VsDljGUec4MfF2bJ0u4REQRzfpiDogB36pCYHQmjQZI' \
+  -H 'content-length: 212' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry big mouth.","maxScore":74,"minScore":15,"description":"Alone about respond find lot. Teacher partner image way film system. Management activity represent ground attack.","estimatedTime":"8 weeks"}'

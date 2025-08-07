@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA0OjI5OjU3LjQwMjg4NiIsInVzZXJfaWQiOiJlZTZhYTBiOC1kNTk2LTQyNmUtYmU0YS1iYzY3NDViY2M4MzEifQ.LqIaxx50P8UNhggm62lGa2vKuULXLn_vGW2qLswA0qU' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious upon pressure leg.","maxScore":68,"minScore":7,"description":"Stay instead among behavior push open environmental. Serve always avoid deep road contain.\nNew ground almost animal guess. Stay toward front return nation until financial.","previewFileId":"2ab0190d-852d-43a6-a19f-b28d89d21a72","estimatedTime":"1 weeks","createdByUserId":"ee6aa0b8-d596-426e-be4a-bc6745bcc831"}'

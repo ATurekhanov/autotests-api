@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDA0OjI5OjU4Ljg2MzY0OSIsInVzZXJfaWQiOiIzOGUxMmJkNC04ODdlLTRhY2ItYWE3MS04YWQxNjM3M2JkMmMifQ.MS337m5-B6c0j5iu9maDxn1HvNJvCPx9QNO8qTpf_eg' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player focus poor early follow explain.","maxScore":63,"minScore":29,"description":"Man above seat career reflect expert maybe recent. Nor shake pressure face turn task. Gas buy agreement cultural on imagine while. Huge list civil rule catch.","previewFileId":"5bcb1482-494f-48fe-a0a2-7e2c752d61be","estimatedTime":"4 weeks","createdByUserId":"38e12bd4-887e-4acb-aa71-8ad16373bd2c"}'
