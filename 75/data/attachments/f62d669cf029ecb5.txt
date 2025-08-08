@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA0OjI5OjUzLjczMjgxMCIsInVzZXJfaWQiOiIxMzRiYzNlZC1mYzgzLTRkN2EtYTI1OS1mMDU5NmM3MTM1MTgifQ.wT5YPW7ApYBLzQEV2edYIcXsPsCzUsZTQiQiP0LZoLw' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Entire affect seven lot receive fight.","maxScore":61,"minScore":2,"description":"Keep would through national imagine soldier. Skill either property state computer. Suddenly field exactly region.","previewFileId":"e0c2e221-ddf5-4735-9a86-001357bdcbee","estimatedTime":"7 weeks","createdByUserId":"134bc3ed-fc83-4d7a-a259-f0596c713518"}'

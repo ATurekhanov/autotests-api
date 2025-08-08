@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA0OjI5OjUwLjc2NjQ2OSIsInVzZXJfaWQiOiI0NjdkYWUwYi0yNGM2LTQxNDItYTg2Ni00OTI0MzM4ZWRmMDYifQ.ZFxHsugl5bmD5pq8B6XuGxUv3tyZ2WUxhFz05rNrKj8' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His business man term indicate civil memory.","maxScore":96,"minScore":21,"description":"Cup turn brother case accept contain sure exactly. Quickly worker particularly method suggest manager later.","previewFileId":"417412ba-6ed6-46d2-8ab7-1593ed8014ea","estimatedTime":"2 weeks","createdByUserId":"467dae0b-24c6-4142-a866-4924338edf06"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA0OjI5OjUzLjczMjgxMCIsInVzZXJfaWQiOiIxMzRiYzNlZC1mYzgzLTRkN2EtYTI1OS1mMDU5NmM3MTM1MTgifQ.wT5YPW7ApYBLzQEV2edYIcXsPsCzUsZTQiQiP0LZoLw' \
+  -H 'content-length: 230' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank affect himself.","courseId":"bc1b7516-9326-45ac-a5f0-fd9d96b13244","maxScore":65,"minScore":23,"orderIndex":38,"description":"Deal follow value apply home race.\nSound form stage relate.","estimatedTime":"3 weeks"}'

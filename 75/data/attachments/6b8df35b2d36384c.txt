@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA0OjI5OjUyLjUxMzc3MyIsInVzZXJfaWQiOiJiYmE4NzA2YS02NjIxLTQ2NTAtYTE1Ni1mNTk0MDNmYzk4ZDMifQ.CYsm_22F4z4TdNxhIhgtxOvI5aTZYbVz4At-EU6W6FA' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch magazine above other bad suddenly.","maxScore":70,"minScore":21,"description":"Who camera you sign everything once current fine. Lead inside bed Mrs experience. Budget will magazine response wait seat accept.","previewFileId":"acc290f7-d8ce-4ac4-83ea-4abe49b592c1","estimatedTime":"4 weeks","createdByUserId":"bba8706a-6621-4650-a156-f59403fc98d3"}'

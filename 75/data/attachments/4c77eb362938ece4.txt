@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA0OjI5OjU0LjMzOTcwOCIsInVzZXJfaWQiOiI0MzBiYjBmZS0zZjA2LTRlZmItYjdlOS1kZWRmMGE1YWViMGUifQ.1WTGWAUUF93_1hLk0Qf0X9gxM1j9GLhH6apMOo-II7s' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wear seem eat decision couple face then.","maxScore":58,"minScore":6,"description":"Front itself total fast. Law rule through expert environment right care. Try pattern plant hand watch likely.\nVery range responsibility change southern benefit. Save friend level PM.","previewFileId":"d219a7f8-37fa-4f8a-b9f6-981342bc6e84","estimatedTime":"6 weeks","createdByUserId":"430bb0fe-3f06-4efb-b7e9-dedf0a5aeb0e"}'
