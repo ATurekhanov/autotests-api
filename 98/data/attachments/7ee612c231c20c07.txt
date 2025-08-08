@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA1OjAyOjUyLjAyOTcwOCIsInVzZXJfaWQiOiJjODc2OThhYS02NDY5LTQ4NWUtOWJlMC0xODMxMWYyYTI4ZjcifQ.RkDOO3iUR_1mp0yA86JQBWVgJRSgprM8By3cAFD7tZs' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Service team Democrat class return.","maxScore":93,"minScore":20,"description":"Down tend Mrs degree say test table industry. Assume most brother thank couple. Interview woman door effect but money explain.","previewFileId":"d1adfe2c-88f4-4bfc-afa7-fd9fdfeffa0a","estimatedTime":"4 weeks","createdByUserId":"c87698aa-6469-485e-9be0-18311f2a28f7"}'

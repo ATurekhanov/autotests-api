@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA1OjAyOjUxLjEyNjk2MiIsInVzZXJfaWQiOiI4OGQ1NjM4Yy02NjQ1LTQ4M2QtOWVjMC1iNWYwYWYyYjE5YmYifQ.uY_QXt5--O-JYmCzN3UUeQPf-D_dQ4iYcWZWAoUhk0w' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often water green system.","maxScore":64,"minScore":6,"description":"Model exist painting gas seven glass four. Fly student accept include eat direction he.\nBenefit exactly nor often their ball teacher. Fast course girl society sing sound.","previewFileId":"9d373072-ab42-4043-a874-15afcf446e65","estimatedTime":"9 weeks","createdByUserId":"88d5638c-6645-483d-9ec0-b5f0af2b19bf"}'

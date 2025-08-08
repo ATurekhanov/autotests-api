@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDA1OjAyOjUzLjc3Mzc0MiIsInVzZXJfaWQiOiI4MmIxOGY1NC1mOWUzLTRmOWMtYmZlYS05YjcxZTk3ZmRjOWUifQ.fXE1bH8V_s-Xn4YZ4hv1XKKYGZ8z0dE_A4bm5BJUuW0' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"War stand move truth child ahead always.","maxScore":77,"minScore":15,"description":"Size race agency discover sort see where. Whether about before while remain game. Buy evidence young alone rule little soon.","previewFileId":"cba5bcf4-d395-489c-9e59-a794592432e0","estimatedTime":"5 weeks","createdByUserId":"82b18f54-f9e3-4f9c-bfea-9b71e97fdc9e"}'
