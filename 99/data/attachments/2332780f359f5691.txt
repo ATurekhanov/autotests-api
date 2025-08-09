@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjQ2OjE0LjI2NjA0OCIsInVzZXJfaWQiOiI0MmYxNDNmZi00OWE5LTRiMDAtOGRjMi1lNTQ2ZTJiYTEzY2MifQ.7INcgbXhjwxHMgdikkeVSilp_M1qF3V3QnZN0fVHM3M' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Toward leg east hundred beyond risk.","maxScore":91,"minScore":15,"description":"Live local source low and generation probably must. You you direction deep support half.\nCharge Republican current indeed.\nMarriage site believe sure. Social those song there.","previewFileId":"b8c52b35-900e-4cb3-9829-774a644364dd","estimatedTime":"2 weeks","createdByUserId":"42f143ff-49a9-4b00-8dc2-e546e2ba13cc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjQ2OjE4LjA5NzkzOCIsInVzZXJfaWQiOiI3Mzk1MGNlYS0wM2YxLTRmODItOTAyNC1hYTNkMzRhYjlhMmIifQ.3UxSQaBIQimc6cHHLRGtQ8Dp85VyEs325DUNpzGVPMM' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Investment toward business step what prevent.","maxScore":57,"minScore":5,"description":"Smile drive high agree order city.\nHalf nor among. Environmental plan game exactly away white perform head. Many probably reflect concern people would audience.","previewFileId":"7fe50add-562b-4cae-899b-3d89e6e70eb6","estimatedTime":"9 weeks","createdByUserId":"73950cea-03f1-4f82-9024-aa3d34ab9a2b"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/0020ad93-4b4a-48cc-874a-99ad24687655
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/0020ad93-4b4a-48cc-874a-99ad24687655
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 0020ad93-4b4a-48cc-874a-99ad24687655
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Picture market half.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 99b73a73-4801-4bc8-87c7-48130372cd9f
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 25
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Place sea service plan seven financial. Discussion however throw dream newspaper. Speech field beyond news life.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

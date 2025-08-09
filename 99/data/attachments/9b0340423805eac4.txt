@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjQ2OjE2Ljg2MDE5NyIsInVzZXJfaWQiOiJjOTIyMDc5ZS1jY2NkLTQzOGQtYTY2Yi03YjJmMmUxYzdkYWMifQ.GQQcG9obidKiPte63yV98N1rPYY8M1CUhLt0w1_xpO4' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Memory tough modern dark.","maxScore":96,"minScore":7,"description":"Contain travel there into generation cultural may street. Join decade take set. Test professional focus increase his onto.\nLevel management his drop third remain since. Us north next her.","previewFileId":"3d866b27-de62-421a-8ec8-c8c1efc9e28b","estimatedTime":"9 weeks","createdByUserId":"c922079e-cccd-438d-a66b-7b2f2e1c7dac"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjQ2OjE4Ljc1MzgyMiIsInVzZXJfaWQiOiJhMmQzYWZmOS1iYzg5LTQ5Y2ItYTFhOS03M2NkZjk5YzM5ZDIifQ.4uHOJRi0WsmFmCk6lm1mkhFisd9llPaYvNA4DnbjAyw' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor production enough actually.","maxScore":96,"minScore":14,"description":"Feeling car computer campaign. Adult sit fish away.\nNo whose cultural test soldier.\nReason family pass offer none music. Bed say care quality that.","previewFileId":"052c9a22-8b4e-4bd0-955b-6cc5d4663d1e","estimatedTime":"5 weeks","createdByUserId":"a2d3aff9-bc89-49cb-a1a9-73cdf99c39d2"}'
