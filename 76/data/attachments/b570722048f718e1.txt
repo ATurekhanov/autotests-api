@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjE0OjAwLjQyNzIzNyIsInVzZXJfaWQiOiJiMmFlOTA5MC02YmVkLTQyOTctYTc0ZS0xMTEwMGJhNjFmOTAifQ.e1S-NDFdyolIg2BtwLXDEqCyEk_Z1_ipfl_9KVg2TDc' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice early clearly as once.","maxScore":56,"minScore":20,"description":"Successful lay work third response yard. Education try even base. Despite majority agent support knowledge. Lose money majority.","previewFileId":"06d9fc00-b6b6-42c1-b4df-e152209db082","estimatedTime":"2 weeks","createdByUserId":"b2ae9090-6bed-4297-a74e-11100ba61f90"}'

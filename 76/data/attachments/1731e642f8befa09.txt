@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e3bd584d-d2b2-44bd-9e50-aefdc034d653' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjEzOjU2LjU5NjA1MSIsInVzZXJfaWQiOiJiODdhYmE2ZC1mOWFlLTQ4MmMtYjlmMi01OThkMDRhNjBlZWQifQ.XpH8N3OqIwT35lMGYXejXhmb2jQKRJ0j7noqqsIiEHg' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment upon claim either.","maxScore":99,"minScore":22,"description":"Why property smile need let.\nSpace ready think physical road.\nBeautiful gun suddenly. Item particularly include reason when election. Truth lose film.","estimatedTime":"9 weeks"}'

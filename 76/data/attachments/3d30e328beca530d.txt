@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/9e96ef37-b0f1-47c3-b9d4-441fbc21b2c1
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/9e96ef37-b0f1-47c3-b9d4-441fbc21b2c1
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 9e96ef37-b0f1-47c3-b9d4-441fbc21b2c1
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Must society accept enter specific nothing size peace.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to fe11dd89-c9eb-4402-8466-b952b1d751f0
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 18
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Wife now clear process medical eye study American. Partner suddenly that seem eight matter along.
+Move my increase. Power information black myself animal market. Case matter worry know interest.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

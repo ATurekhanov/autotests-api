@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjEzOjU5LjE5Nzc4OSIsInVzZXJfaWQiOiJjMWQzM2RiNS01NTQ3LTRkZjItYThjMS02Y2ZlYTRjMDk1MmYifQ.OXqGH1C4HYPp5H7zgE_0hOsuC_F1GJXryWSPUwC9PgM' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Subject deep law require use.","maxScore":78,"minScore":24,"description":"Write individual act clearly he current. Yeah response vote course every financial.\nTotal water it. Big wife child culture require. For week think.","previewFileId":"5134629e-a89d-465a-a861-03ed68017d4a","estimatedTime":"6 weeks","createdByUserId":"c1d33db5-5547-4df2-a8c1-6cfea4c0952f"}'

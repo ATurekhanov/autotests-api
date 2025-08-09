@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjEzOjU5Ljg0NzM0NyIsInVzZXJfaWQiOiJiY2YxZTA3NC1mNzBlLTQ4NDktOGY5Ny1jZWEwNjY1NDViN2IifQ.Lvl2rSWvYSFRs5olCoH3mzv7yUbW5EFNH_n8aKFzxP8' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must society accept enter specific nothing size peace.","courseId":"fe11dd89-c9eb-4402-8466-b952b1d751f0","maxScore":60,"minScore":4,"orderIndex":18,"description":"Wife now clear process medical eye study American. Partner suddenly that seem eight matter along.\nMove my increase. Power information black myself animal market. Case matter worry know interest.","estimatedTime":"10 weeks"}'

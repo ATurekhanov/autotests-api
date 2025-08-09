@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjEzOjU3Ljc0NDU3NyIsInVzZXJfaWQiOiI0NzZjZmQ3My01YmExLTQzMDEtYTViNi0wMDg3NDFkYTQ0M2MifQ.PBHRnmXd8W9CiPuH83oFZSE-riAex41BEIrBQ5REOPQ' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"About goal you example cause relate create.","maxScore":51,"minScore":8,"description":"Senior current final room you again table. Sell keep blood.\nProfessor whose worry true few church sort. If member shoulder spring my rate.\nFly such guy their line. Win report magazine year.","previewFileId":"4e020e12-9b6c-43c5-9663-6b2652ff3b82","estimatedTime":"5 weeks","createdByUserId":"476cfd73-5ba1-4301-a5b6-008741da443c"}'

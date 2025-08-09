@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA0OjEzOjU2LjU5NjA1MSIsInVzZXJfaWQiOiJiODdhYmE2ZC1mOWFlLTQ4MmMtYjlmMi01OThkMDRhNjBlZWQifQ.XpH8N3OqIwT35lMGYXejXhmb2jQKRJ0j7noqqsIiEHg' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical serious lose rich item mission can.","maxScore":84,"minScore":21,"description":"Congress improve company including really. After sing current where old picture.\nStreet mission herself plant its. Always law late as audience station push couple.","previewFileId":"0f9c8bf9-2f57-42c0-865d-61cae78eab40","estimatedTime":"9 weeks","createdByUserId":"b87aba6d-f9ae-482c-b9f2-598d04a60eed"}'
