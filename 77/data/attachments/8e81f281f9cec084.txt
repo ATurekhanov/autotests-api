@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjI4OjM5LjY2MjE4NSIsInVzZXJfaWQiOiI4OGM1YzliOC02MzNjLTQzZjAtYWNkMy1kOGNjMWQ0ZjcxZGYifQ.aKzTU1vbM9D9CSzLvjqVFC6e11jakx5uNcG-bKXetJU' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary part tend itself white party.","maxScore":66,"minScore":18,"description":"Close who identify not. Age black president use herself person. Visit interview third back hear.\nBeat theory term. Show drive consumer investment.","previewFileId":"8e1bf775-3479-4d74-bce6-2d629dfe10c8","estimatedTime":"5 weeks","createdByUserId":"88c5c9b8-633c-43f0-acd3-d8cc1d4f71df"}'

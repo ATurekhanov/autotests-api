@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjI4OjM4Ljc0NDA3MyIsInVzZXJfaWQiOiJmMGNhZjg1Ni1kMTcwLTRiMzYtYTgwZS04NGZhZWExOTI1YzUifQ.PmmQkP-MoT4UcezEN-7Cbab0jGen00Yj_zfk6MlndlY' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lead commercial me but owner.","courseId":"f2c98cb1-a948-46fb-9b24-47d4afd3bc05","maxScore":51,"minScore":16,"orderIndex":38,"description":"Significant reach parent space four and. Might quite expect might generation know.\nAmerican person organization kitchen reveal also. Say me off color. Lose mission foot possible create three.","estimatedTime":"5 weeks"}'

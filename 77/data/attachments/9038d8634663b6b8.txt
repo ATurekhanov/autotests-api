@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/449ead1b-b015-42b1-bdef-6214caf38147' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjI4OjQwLjkyNjcxOSIsInVzZXJfaWQiOiJmZTI5N2E5NS1mNTViLTQxOTctYWU1MC0wZmQzMjA3MmNjZTQifQ.LJwDIgO5JaY3flmTElVxUK97Q1tX4pmKyNWK3s8o_cw' \
+  -H 'content-length: 238' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High cover buy strong all some health.","maxScore":91,"minScore":16,"orderIndex":12,"description":"Apply matter them somebody these. Require better per care house gas. Operation student whatever plan.","estimatedTime":"4 weeks"}'

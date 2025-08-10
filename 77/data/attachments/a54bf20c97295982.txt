@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjI4OjM5LjY2MjE4NSIsInVzZXJfaWQiOiI4OGM1YzliOC02MzNjLTQzZjAtYWNkMy1kOGNjMWQ0ZjcxZGYifQ.aKzTU1vbM9D9CSzLvjqVFC6e11jakx5uNcG-bKXetJU' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also section think hair live.","courseId":"a65eb4c9-1789-4d33-a0ac-c065e8ad6e62","maxScore":97,"minScore":25,"orderIndex":98,"description":"Include may treatment I treatment writer task vote. Behind big finally rich. Pm rather shake someone house end capital.","estimatedTime":"6 weeks"}'

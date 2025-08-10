@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjI4OjQwLjI0NTIzNyIsInVzZXJfaWQiOiIxYzczMzBkOS04OTM0LTQ4MGQtYjQwMy05OTQ2NDFiZmY1ZGIifQ.52-U7CHe_JZlqeOxGCOPoLZqiMmieyDhIGh6CDLm0L0' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At four feeling product thing itself lawyer.","maxScore":57,"minScore":17,"description":"Ask approach issue direction watch partner. West budget Democrat society simple. Leg computer above plant inside.\nTrial reflect low quality it put stop. Action mind tell special course.","previewFileId":"37132c3f-a0e7-47d5-b78d-24f79fd18a51","estimatedTime":"5 weeks","createdByUserId":"1c7330d9-8934-480d-b403-994641bff5db"}'

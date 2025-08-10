@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjI4OjM5LjAxODUwNSIsInVzZXJfaWQiOiIxOWVmNGJiMC1jYjcyLTRlMDQtOTQ2ZC1kYzU5Yjk1Y2YyZDUifQ.b4nd1MRyGB6uHXN8Ec8i5wn0EfCGnjR7UUofnany-Rs' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy sister game still could.","maxScore":88,"minScore":27,"description":"Financial attention page book. Must read wish wife exactly finally.","previewFileId":"3ea18477-d171-468d-b1ce-bd3fe3a39e6f","estimatedTime":"2 weeks","createdByUserId":"19ef4bb0-cb72-4e04-946d-dc59b95cf2d5"}'
