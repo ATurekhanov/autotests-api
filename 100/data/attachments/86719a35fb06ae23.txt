@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/88d61165-c4d0-4fd3-8a3c-df6ed34c3747
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from PATCH http://localhost:8000/api/v1/exercises/88d61165-c4d0-4fd3-8a3c-df6ed34c3747
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Church color finally everybody wall fact win.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 77
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 65
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Other interest before rest. Sing plan article example best inside. Style discover nearly.
+Successful position meet magazine. Machine good small raise animal.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjU5OjA2LjgyMzg3OCIsInVzZXJfaWQiOiI0ZTdiNmU5Mi05NDgwLTRkZGItOTUwZS00NWNkNGU5NmNjOTUifQ.16g-n4uevHtapQRCs7p-c-jvclN3EbiI5PRPJW_xUys' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Public do fire music away what month economic.","maxScore":56,"minScore":18,"description":"Nature situation because until.\nDinner language remember method tonight. Partner any candidate let. End girl possible animal.\nResource computer score security himself together. Western chair leg.","previewFileId":"d6c2df2c-1ff0-46aa-ae22-12c17f7f27a9","estimatedTime":"10 weeks","createdByUserId":"4e7b6e92-9480-4ddb-950e-45cd4e96cc95"}'

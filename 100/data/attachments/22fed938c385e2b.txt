@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjU5OjA0LjczNDQ5OCIsInVzZXJfaWQiOiJmMmM4MjljZi0yZDk1LTQ2OTYtOTI3Zi02NjQ1MjQxMWJlZTYifQ.1xRbQTBZen7rdA_a2oWSkWNZ9XU8efgt1rhGsNDI6ho' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seat admit short inside create finish hold.","maxScore":79,"minScore":4,"description":"Table culture wonder finally pattern class want. Third body change behind believe everything. Drive along develop actually most fire.","previewFileId":"943f3235-6b75-443f-9921-be24246fd12f","estimatedTime":"6 weeks","createdByUserId":"f2c829cf-2d95-4696-927f-66452411bee6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjU5OjA4LjA1NTc0OSIsInVzZXJfaWQiOiI2YTdmMzc3Mi1kMDAwLTRkNzYtYjNjYy1mMjYyOGEyNTNjMmIifQ.1vbkaCbEHYu8MkFK5M_HTUJ4Fhay74fXeDPQB6r-qzQ' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Coach wear into in never later.","courseId":"e54b1f1e-a0b7-4e9d-9ca6-7e6a3194ad27","maxScore":63,"minScore":29,"orderIndex":77,"description":"Mind enough fact account fly story many. Reflect or air across hit thought. Itself much during trial name any front.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEwVDA0OjU5OjA3LjQwMjk3NiIsInVzZXJfaWQiOiIxMGRjZjI5ZS04MWViLTRkN2EtYjQzMC03NzZhODM5NTJjN2YifQ.W6HHoox-0lHgCGHns6AxoiYJiRSbGe5Zi_J6Rhm3zkM' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner word sing.","maxScore":50,"minScore":19,"description":"Range respond appear they. Many close bag age.\nHundred place TV. Bar fine national tax.","previewFileId":"f6484d19-d0d1-4f7f-8fcf-130df979fb15","estimatedTime":"9 weeks","createdByUserId":"10dcf29e-81eb-4d7a-b430-776a83952c7f"}'
