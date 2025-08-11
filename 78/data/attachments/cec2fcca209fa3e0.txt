@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA0OjI5OjQ3LjE0NDQ1MiIsInVzZXJfaWQiOiIyMDQzODUxMi05YTc1LTQ0ZjktOGJkZi0xZDhkMTk1MWYzZmYifQ.G5vHyECypR3iMJlBiqUBzDkfKTIgrO2DYggNErkgCJw' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever skill southern you item.","maxScore":87,"minScore":20,"description":"Second team skin picture challenge identify current close. Something another role. Everything thus budget.\nDirection ok ground represent rest network color. Knowledge adult positive change.","previewFileId":"7564f820-bc9a-480f-8097-9dd49f76ce58","estimatedTime":"9 weeks","createdByUserId":"20438512-9a75-44f9-8bdf-1d8d1951f3ff"}'

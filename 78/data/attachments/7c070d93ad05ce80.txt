@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5b62f96a-c06d-4a85-8928-fdac0e143b60' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA0OjI5OjQ2LjE0MDQ3NiIsInVzZXJfaWQiOiI0MTZhNWE0MC1jZDk5LTRlNTctYWZiMi03OWVkODczMWZlMWIifQ.-o7NQMqFEAv-5qoAVQnXl0fp1Z53U0Vs58H_xZxsv5g' \
+  -H 'content-length: 198' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe ready society cost expert why grow.","maxScore":80,"minScore":4,"description":"Hour bit partner team Republican shoulder. Store financial special open.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA0OjI5OjQ4LjQzMjg5MyIsInVzZXJfaWQiOiIwMTExZDkxYy02MTk4LTQ5OGItYjQwNi0wODVkODUyNjNhNmEifQ.GoqLV12V_5UM5WqPC-dp9j_wVmaj1254xJokSL96-NM' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense close plant summer loss course agent.","courseId":"913e4e5f-16ba-4255-9977-a7808ea44f2a","maxScore":63,"minScore":7,"orderIndex":72,"description":"Experience relationship purpose investment bring. Color growth almost area bad management sport.\nLike story east vote. Tree organization unit tonight product money from.","estimatedTime":"8 weeks"}'

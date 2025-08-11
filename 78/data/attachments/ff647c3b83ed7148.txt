@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA0OjI5OjQ5LjcxNDA4OSIsInVzZXJfaWQiOiJlMTNlNTAzMS0yMWY2LTQ1NWMtOGVkMi1jNGIwNzg5NGFmYTgifQ.WYseN361MYbAfPZKjARJdiDM8mm1iSdOfVYm1NnzKLo' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok former close century read organization.","maxScore":72,"minScore":2,"description":"Cut class offer job campaign court could. Arm really cultural light road less generation. Throw next leave yourself recognize group idea.\nBase increase along. Seek own author pull.","previewFileId":"6dd12ead-36d7-42f3-9d4d-156cde12aa96","estimatedTime":"10 weeks","createdByUserId":"e13e5031-21f6-455c-8ed2-c4b07894afa8"}'

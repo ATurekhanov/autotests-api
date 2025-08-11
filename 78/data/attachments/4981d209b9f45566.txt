@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA0OjI5OjQ2LjE0MDQ3NiIsInVzZXJfaWQiOiI0MTZhNWE0MC1jZDk5LTRlNTctYWZiMi03OWVkODczMWZlMWIifQ.-o7NQMqFEAv-5qoAVQnXl0fp1Z53U0Vs58H_xZxsv5g' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume increase himself data.","maxScore":60,"minScore":12,"description":"Enjoy range above.\nShort debate street sell. Expert class compare make purpose all.\nCultural card bad body. Evidence record tax sport.","previewFileId":"ef66c17f-f81c-4c04-a80d-d5faea7866ff","estimatedTime":"2 weeks","createdByUserId":"416a5a40-cd99-4e57-afb2-79ed8731fe1b"}'
