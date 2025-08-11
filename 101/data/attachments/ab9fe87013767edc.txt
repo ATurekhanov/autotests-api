@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA1OjAyOjA1Ljk5MjAwNCIsInVzZXJfaWQiOiI2MmUxOGRjNS1kOWUzLTQyNzctYTJhMi05NDk0MTNkNDA3NzAifQ.NqtTug6BMve16HPWCGTab6IJCLFm_3l1v6XBasCqIGQ' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nation themselves pull visit nearly.","courseId":"d1115b76-d2b9-498d-bb21-e622dcbc9dae","maxScore":80,"minScore":9,"orderIndex":73,"description":"He financial dinner either do agent car far. Explain already data option animal community. Practice cut whether alone bag strategy alone property.","estimatedTime":"3 weeks"}'

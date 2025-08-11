@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA1OjAyOjA1Ljk5MjAwNCIsInVzZXJfaWQiOiI2MmUxOGRjNS1kOWUzLTQyNzctYTJhMi05NDk0MTNkNDA3NzAifQ.NqtTug6BMve16HPWCGTab6IJCLFm_3l1v6XBasCqIGQ' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then form various up sound light.","maxScore":85,"minScore":9,"description":"Sound minute that bank that evidence education. Former girl kid edge real. Mother maybe address all.\nFar suffer general to goal. See his along create couple Mr.","previewFileId":"2d79f13a-808c-455a-bbc3-d51188e75a2c","estimatedTime":"8 weeks","createdByUserId":"62e18dc5-d9e3-4277-a2a2-949413d40770"}'

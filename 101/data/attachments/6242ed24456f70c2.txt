@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA1OjAyOjAzLjg5NjAxMCIsInVzZXJfaWQiOiJmZjI4NzQ0ZC0yNTUyLTQxYzctOTY3My05NGMzMzhjZjQ1ODIifQ._rF1jE8Ytlz77_2TXHeUlGaCxnkRcs8xfo3NFHDuZhk' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand rock well speech.","maxScore":96,"minScore":29,"description":"Animal city power behind couple hospital still building. During well plant mission life enter.\nMore rock those break occur.\nOpen wonder may child wear action player.","previewFileId":"093465a5-016d-40f1-b75a-8f91fbe4009d","estimatedTime":"7 weeks","createdByUserId":"ff28744d-2552-41c7-9673-94c338cf4582"}'

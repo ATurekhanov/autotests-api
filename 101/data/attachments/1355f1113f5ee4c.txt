@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTExVDA1OjAyOjA1LjM1MDIyMSIsInVzZXJfaWQiOiJiZjFhMTU2MC1jYTg0LTRlYjEtOGY1Ni1kMWJkMzAzMDU5ZGYifQ.hag-Kd9XmY5wWxLA1WECNQyBUfumJAFiLZfMrQy76Fs' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Conference mean because say thank school the.","courseId":"05818fc9-6b69-408c-b4a3-9682f59378e3","maxScore":84,"minScore":17,"orderIndex":64,"description":"Nearly resource enter truth then change. Or air people read. Type purpose daughter ability open company take.","estimatedTime":"6 weeks"}'
