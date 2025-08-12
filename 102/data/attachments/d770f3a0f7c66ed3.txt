@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDA0OjM1OjU0Ljk4MjUxOSIsInVzZXJfaWQiOiIzYTVlY2Y0NS00YWNiLTQ5N2EtYTVkMS03ZWRjODIwY2RjYzMifQ.GcbqFJM9zl_FlbDMJ0it4ZKTlcD01KCQlLtbxowTEZE' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According month at strong.","courseId":"99ac925e-64bf-4295-8c5f-9245b57c2235","maxScore":70,"minScore":29,"orderIndex":40,"description":"Science call deal condition. Mind also check education down once. During find movie small onto.\nScore federal big ability still. Something consider than million network.","estimatedTime":"5 weeks"}'

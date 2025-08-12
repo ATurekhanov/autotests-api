@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDA0OjM1OjU2LjIyMzQzNiIsInVzZXJfaWQiOiIyZmIzOTAwOC1mMTQ4LTRjZmEtODlmNS04M2IwOWM2Njg5NzcifQ.4HLErB7q8kyAO5AINULrDkFplYXqDrJeJQUr5CrYGnI' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank work deal challenge particularly.","courseId":"e8f0aa34-a824-4f34-866f-08c91089d3aa","maxScore":52,"minScore":14,"orderIndex":49,"description":"Class nothing professional maintain good various create. Available teach particularly sound someone main central.\nWord than stock discussion age their. Current help may perhaps water sea forward.","estimatedTime":"4 weeks"}'

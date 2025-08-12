@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDA0OjM1OjUyLjg5MTkyNyIsInVzZXJfaWQiOiI0ZGJjY2FhYi1lZGU4LTQ0MzQtOWNmYS0wNzU4MDkzNzA1YjUifQ.NWmAnsrezlzh-ezYm_Gd0b-FcxV86iDc_5OMQNaszyo' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow push almost keep most.","maxScore":80,"minScore":15,"description":"Thus sense husband knowledge. Appear space board our fly owner mind. Ready door American several.","previewFileId":"dba66855-0db1-44ef-911a-44d73a5ca4ec","estimatedTime":"4 weeks","createdByUserId":"4dbccaab-ede8-4434-9cfa-0758093705b5"}'
