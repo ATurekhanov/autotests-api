@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDA0OjEyOjI3LjYxNTA0MyIsInVzZXJfaWQiOiJlZDdiNzQ0Yy0xOWZlLTRmZWEtYmEyMS05NTNjMTgwODdlMTYifQ.rnItgmf-mrszaXeKuvknVvMo2jHoQ8YPTDa1k7mCV8w' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Week billion on hotel all.","maxScore":90,"minScore":5,"description":"Talk little sell administration major move nice prevent. Nothing soon also.\nCompare everyone fact system. Eye likely five beyond eat. Should area determine lose real explain expert.","previewFileId":"ded3780c-6ff0-4d3e-8e19-be5e2130de62","estimatedTime":"5 weeks","createdByUserId":"ed7b744c-19fe-4fea-ba21-953c18087e16"}'

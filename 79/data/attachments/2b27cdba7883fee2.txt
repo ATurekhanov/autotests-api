@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Hair level white language usually stand.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to d9cd2d60-edc7-4de9-8a8e-416d7fd39825
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 77
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Fact floor way majority. Avoid single rise be.
+Purpose member he speech will. Example employee from owner while general.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

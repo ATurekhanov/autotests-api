@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/01f2083f-7100-4a94-a156-86e129ca6b57' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDA0OjEyOjIzLjczOTkyNCIsInVzZXJfaWQiOiJlMzMyYzBlNC1lYTYwLTRiYzgtOTFiMi1jNDVmOTNlNTNlMGIifQ.Aoi0DOc6yPsgWO-ITO15RPPqd2mvhLgiIXHlyxab5MM' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim shake city from per candidate.","maxScore":90,"minScore":16,"description":"Full bill place finally. Hit out smile write sound knowledge.\nDecision that factor decide late pick question its. Course health west weight.","estimatedTime":"5 weeks"}'
