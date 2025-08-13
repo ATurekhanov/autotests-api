@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDA0OjE0OjIxLjcyMDg5MyIsInVzZXJfaWQiOiI2Y2M1MjU0NS0yYzJjLTQ1YTEtOTcxNS0xZjJmYThiOTRlMjEifQ.kGzmIrIFjbA8Kjcdg9Oz72OXG2UOJXtrHN_5JFG1_v0' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly remember role after green responsibility.","maxScore":96,"minScore":24,"description":"Appear month receive figure arm. Everything move end great skin hard.\nWant sister thus form edge owner. Reduce own relationship call.","previewFileId":"f894b3ee-43e7-44ee-8bf5-55c73e1a2250","estimatedTime":"4 weeks","createdByUserId":"6cc52545-2c2c-45a1-9715-1f2fa8b94e21"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDA0OjE0OjIyLjg2ODM1OSIsInVzZXJfaWQiOiJkNGE2MjJhMy1iMzY1LTRiNDctYWJmNi03YzA0ODI0NjBhYzEifQ.qNZAt2b7W4i5ZwRr_GTPnBwWFKZC5HHMihNRxstoXnY' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw avoid reach happy trial indicate move.","maxScore":61,"minScore":29,"description":"Bar produce half. Stuff positive energy treatment.\nCentury offer activity goal firm stock. More seat my industry. Indeed program difference baby lawyer position.","previewFileId":"8369dcea-8868-4ec4-b943-ba25161d7de1","estimatedTime":"8 weeks","createdByUserId":"d4a622a3-b365-4b47-abf6-7c0482460ac1"}'

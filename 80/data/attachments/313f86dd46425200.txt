@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDA0OjE0OjIzLjE0MTc3NiIsInVzZXJfaWQiOiI1MzVmMzIxNy0wNmU2LTQxYjktYTdlMS03YmNlMDA2NzgyNDcifQ.9V8sn2ixZHxtzYCuOXjMclluoVXSWmAengzmLNQbpMI' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do into or only.","maxScore":64,"minScore":29,"description":"Answer meet enough cup old always find. He only seek sing. Executive of energy budget born conference chair thing.","previewFileId":"f9e64348-993b-4c7e-9c62-f2072f1be1ca","estimatedTime":"9 weeks","createdByUserId":"535f3217-06e6-41b9-a7e1-7bce00678247"}'
