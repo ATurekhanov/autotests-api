@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDA0OjQ3OjQ1Ljk5NDIxNiIsInVzZXJfaWQiOiI3YmVkYmIyNS00MWU5LTQxZTYtYmNlOS04MjM3OWY5MTZkMmQifQ.0wULyPJiVq_yBZofRmAxiQtdkpf2Z7xxs6eKV2tRS4c' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model information account material.","courseId":"1a2f4235-9954-41e5-bdaa-a944450a7c43","maxScore":89,"minScore":3,"orderIndex":41,"description":"Your single its life owner. Still remain case add star too.\nScore scientist network forget wait campaign nearly. Power sea feeling wall from.","estimatedTime":"7 weeks"}'

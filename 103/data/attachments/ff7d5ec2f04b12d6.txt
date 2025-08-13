@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDA0OjQ3OjQzLjMyMDc1MCIsInVzZXJfaWQiOiIzODlkOTJiYi1mM2MxLTQzY2EtYmE4Zi0zM2Y2NDJlM2VmZmQifQ.jB6hVRlBlGFM6tPPBtANJcQltUyu7sWANhhdgy6q4yM' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet way card bring may discover right.","maxScore":69,"minScore":1,"description":"Get benefit morning four issue yet three.\nReturn somebody information yourself gun. To stage continue beat available side itself. Particularly everything agree ground discover report.","previewFileId":"8421eb73-8add-4caf-a82c-9ac4b157a8da","estimatedTime":"4 weeks","createdByUserId":"389d92bb-f3c1-43ca-ba8f-33f642e3effd"}'

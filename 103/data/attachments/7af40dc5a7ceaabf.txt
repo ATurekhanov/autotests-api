@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Low full turn summer.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 3ce4e03a-0e07-4e75-93b5-97180d465f1a
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 14
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Indicate me bill reality. Theory watch hold man prove community its finish. Old turn population fight no can.
+Cause among teach visit. Personal ok become there attorney.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

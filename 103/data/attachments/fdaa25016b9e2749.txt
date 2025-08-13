@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDA0OjQ3OjQ0LjgyMTEwNyIsInVzZXJfaWQiOiIyOTBhN2VhYS00NzFhLTRkZTgtYWUxNC05MTA3NjYxMzUwZjUifQ.NtNue3lmLMFJoEbNrjFqyAgRsvsrpB9TWSKQWiY_Lbo' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Your peace within learn wait learn.","maxScore":55,"minScore":9,"description":"Push go truth thank. Report official hair perform section dark.\nWhatever more down speech form. Drive really against understand total someone road.","previewFileId":"96390b8a-68c1-484c-a455-32e1cf4c829d","estimatedTime":"5 weeks","createdByUserId":"290a7eaa-471a-4de8-ae14-9107661350f5"}'
