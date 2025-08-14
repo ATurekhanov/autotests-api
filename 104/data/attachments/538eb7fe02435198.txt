@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA0OjQ3OjE2LjA5NTg3MyIsInVzZXJfaWQiOiJkYmZmMTE3Mi01NmVlLTQ1ZDctOWZmOS04NjExNjEwOTBlNTUifQ.evmAamjyCVSRQR25Jiow4Ccu9_TcTtRGvvq4ujFrM14' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Away ever price dark try race newspaper.","maxScore":90,"minScore":22,"description":"Everybody push tell similar. Indeed whom yeah speech factor concern stay.\nStand focus recognize people whose.\nChild arm get certainly hair series. Any from trouble college report result blue no.","previewFileId":"71a2ce02-3135-4c6f-b5ac-fc08c9a6b4b0","estimatedTime":"8 weeks","createdByUserId":"dbff1172-56ee-45d7-9ff9-861161090e55"}'

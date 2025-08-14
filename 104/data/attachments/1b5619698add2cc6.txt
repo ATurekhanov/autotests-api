@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA0OjQ3OjE1LjE3NTgzNCIsInVzZXJfaWQiOiI2NjM2Mjk5Yi0xMWUxLTRlMjQtYjA0MC1mNmQ3ODc0NDQxYzcifQ.mMiqgJzewiZ7-RNPt-Ao22CKr83yGIfG6tkbzuJdDok' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin think budget first daughter.","courseId":"9537eb92-170f-46aa-892c-86b50ab5cb8c","maxScore":60,"minScore":24,"orderIndex":80,"description":"Simply bank pay save stage. South many once often.\nWord interest staff clear health. Wall face challenge pull.\nSchool help be low above exist tell economic. Commercial measure nothing stuff free.","estimatedTime":"3 weeks"}'
