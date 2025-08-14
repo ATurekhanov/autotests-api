@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA0OjE0OjU2LjAyMzk0MyIsInVzZXJfaWQiOiI0OTM1ZGUzZS1iYTQ4LTQ2NGUtOWJiYy1kOTAyNzU2YmViNTYifQ.l8lkvwl2iA8zTlfN_JN8_uqwJSs-8a59woIS1NR0k-s' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Traditional specific around by current national.","maxScore":54,"minScore":2,"description":"Officer sense skill conference six event. Bad point ask money over into. Book eight sound down eight. Page box how final something state than.\nEver also event thank. Good evidence forget owner.","previewFileId":"1a86fc82-0927-4a9d-86dc-f6942c1d5b12","estimatedTime":"4 weeks","createdByUserId":"4935de3e-ba48-464e-9bbc-d902756beb56"}'

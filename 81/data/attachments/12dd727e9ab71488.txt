@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA0OjE0OjU0LjEyMTI1MSIsInVzZXJfaWQiOiI0MDhhNGQ1ZC0zZjBlLTRlNjQtOTVhNS0zYWJmNDgxMGNkNGYifQ.Ct1iCVgFDfFvWLcWvRHT8pRNWUfc157AcyGRObns0vw' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Here him method various avoid can middle until.","maxScore":96,"minScore":1,"description":"Around very particularly administration. Our ability off hot.\nKnow require war case very perhaps range. Investment work company front. Provide civil south again bill improve.","previewFileId":"859be3b0-7ee6-49b5-8e87-bcc89b67c133","estimatedTime":"4 weeks","createdByUserId":"408a4d5d-3f0e-4e64-95a5-3abf4810cd4f"}'

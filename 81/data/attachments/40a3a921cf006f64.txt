@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA0OjE0OjUxLjQ5OTMyMCIsInVzZXJfaWQiOiJlZTk3NTZjNy03MmM0LTQ0ZjktOGJlYy0yOTU5NWRmN2VjNWMifQ.5eoEZSHcYeSxXGS4hzCLKgV-rUE4Lk89L7hAZ1PncdY' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just serve break mission.","maxScore":90,"minScore":18,"description":"Game method right. Perform think everybody shoulder difficult manager research.\nWant hard very instead where. Resource happen toward spend.","previewFileId":"82e268d0-71cd-47ec-9171-9b059142a162","estimatedTime":"8 weeks","createdByUserId":"ee9756c7-72c4-44f9-8bec-29595df7ec5c"}'

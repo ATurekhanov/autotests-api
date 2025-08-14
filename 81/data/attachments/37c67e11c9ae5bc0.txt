@@ -1,0 +1,16 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Add tax full though approach attack explain.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 64b5d3d1-bc4f-413d-a916-bc8ab927992d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 63
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Join body could test less. Tend book when situation idea them rest administration. Worker billion fast want feel sing deep.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
