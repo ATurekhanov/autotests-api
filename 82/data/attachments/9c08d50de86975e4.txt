@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8f925d5b-a383-4dae-b7cb-79ab8fa8b578' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA0OjE1OjQ5LjY3ODk3MyIsInVzZXJfaWQiOiI0OTA1ZjQ4My01MDNiLTQ3YTQtOTg0Ni1kYWZkYzhlZjQ3YTcifQ.YcX11lM97T9qFy4oPKCCe4kDxJk0YWzMI8CV5m1ilTQ' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Total thought view thus city scene.","maxScore":94,"minScore":14,"description":"Bring song create quickly left. Man deal on physical.\nSite hard speech where nice no cause. Budget impact truth whether. Form bar return help either.","estimatedTime":"9 weeks"}'

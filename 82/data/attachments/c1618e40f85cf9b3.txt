@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA0OjE1OjUwLjgxNjk5NCIsInVzZXJfaWQiOiI5MmVlYzg2OS00ZDIwLTQ4MWYtOWYyNy1mNTA4MjVlNTk0MmUifQ.raadgobVraG5gPaTGHAI2fUglcw5hnpAduU5QT7fe_0' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Level laugh let term relate rate.","maxScore":85,"minScore":16,"description":"Follow without sure view condition. Agree though before speech employee citizen paper. Move true series PM apply course put field.","previewFileId":"94ddb036-9edf-4881-82e9-ead1adca9456","estimatedTime":"8 weeks","createdByUserId":"92eec869-4d20-481f-9f27-f50825e5942e"}'

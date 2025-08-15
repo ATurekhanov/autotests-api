@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA0OjE1OjUyLjkwNTk3NSIsInVzZXJfaWQiOiI2MDAxYWVhOC1lY2I3LTRmMTYtOGRhNy1kZTJmZDA0NjUyMDMifQ.Z6gUhr5zDq9--SUMKQ-llfrCzg8-TNBdZRSoiW1uPSs' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair on husband staff start different simply senior.","maxScore":54,"minScore":22,"description":"Against wife four site hit laugh character least. Sport develop any push while attention.\nWriter until card say data.\nShare position once area mention almost force.","previewFileId":"0ef8fd9b-05ff-4119-a953-21d142f04b3e","estimatedTime":"10 weeks","createdByUserId":"6001aea8-ecb7-4f16-8da7-de2fd0465203"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/27a650a8-11a6-407c-b9ca-df9dfca7a293' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA0OjE1OjU0LjE0MDc0NSIsInVzZXJfaWQiOiI5YTYxOTFmMS02MDUxLTQ0NDUtOTE5Ny01ZGIxZjMyMjA3NDYifQ.CR0_jsRx1vhutervB6L2SNC6iOjAUebipUlmX45_OUU' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother up when same force itself finally despite.","maxScore":80,"minScore":6,"orderIndex":96,"description":"Throw result security line room participant great line. Itself return always whole professional writer cell model. All statement step cause measure.","estimatedTime":"9 weeks"}'
