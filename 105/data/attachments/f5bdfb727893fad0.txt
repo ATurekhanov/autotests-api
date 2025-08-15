@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA0OjQ4OjEwLjA5OTk5NiIsInVzZXJfaWQiOiJiMWVjYzYxZS1iZTQwLTRmY2EtYWIxYS1iNmIyYzcxMzMzZGMifQ.jO0dZwHmWOXJWG1X5xToSElCyoGZT-zW8EO7kzhYWfo' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark time grow.","maxScore":98,"minScore":17,"description":"Hundred knowledge training. Name later decision anything size early send technology. Go ahead writer represent ten customer water.","previewFileId":"15ed9d03-5956-46b0-8287-31ade6b526e6","estimatedTime":"9 weeks","createdByUserId":"b1ecc61e-be40-4fca-ab1a-b6b2c71333dc"}'

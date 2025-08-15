@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=a6325d79-9370-4088-9701-a47ed860642e
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/courses?userId=a6325d79-9370-4088-9701-a47ed860642e
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:105 Check course
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to ee5a3204-75b4-4512-bb52-27801f37ecc2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Instead result you magazine collection floor rest truth.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Entire ball film past poor. Reason boy defense effort toward. Mean nothing office answer.
+Too bar free election table. Scientist build arrive personal. Parent training charge seven bad.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to f848be31-ff4e-479b-92dc-9cea6de54ec1
+INFO     BASE_ASSERTIONS:base.py:39 Check that "url" equals to http://localhost:8000/static/tests/9429e02d-4cda-4c0c-88c3-3cca1c6fdb79.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "filename" equals to 9429e02d-4cda-4c0c-88c3-3cca1c6fdb79.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:37 Check user
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to a6325d79-9370-4088-9701-a47ed860642e
+INFO     BASE_ASSERTIONS:base.py:39 Check that "email" equals to emilygonzalez@example.org
+INFO     BASE_ASSERTIONS:base.py:39 Check that "last_name" equals to Klein
+INFO     BASE_ASSERTIONS:base.py:39 Check that "first_name" equals to Matthew
+INFO     BASE_ASSERTIONS:base.py:39 Check that "middle_name" equals to Micheal
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

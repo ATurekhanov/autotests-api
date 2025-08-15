@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0ed26f48-8625-47fe-9121-201492997b5b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA0OjQ4OjA2LjIwNDk3MSIsInVzZXJfaWQiOiJmM2M1ODFlMi1lMzc5LTRjZTYtOWY5MC1jYjVkYjhlMzM0MTUifQ.dqhX5_KadVvveR0k3H1bz8QD4a7MNXHVmraOCHeXgfg' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Write she character property rest not including.","maxScore":57,"minScore":21,"description":"In summer event go its study. Concern early understand what son. Sometimes still despite although.\nRoad contain reveal different.\nChurch institution many. Own add would over owner smile front.","estimatedTime":"8 weeks"}'

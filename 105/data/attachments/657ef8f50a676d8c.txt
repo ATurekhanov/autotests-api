@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA0OjQ4OjEwLjcxNTM3NyIsInVzZXJfaWQiOiI4NzZiNzg3Yy01MDM4LTQ5ZTYtODlkNi02ODM3ODA5MTAyZDUifQ.DGDqjn28H7ZqjhJxQ_d9ChQS2FrVNETGKKQ7Az3_NV4' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Us pressure sit white condition address.","maxScore":52,"minScore":3,"description":"Professor them politics wait place. Camera toward future report billion. Wrong yes whole item.\nFormer positive school writer measure realize write option. Step build about else poor.","previewFileId":"f57fc0fa-c1a2-4f98-919a-db9919d94800","estimatedTime":"2 weeks","createdByUserId":"876b787c-5038-49e6-89d6-6837809102d5"}'
