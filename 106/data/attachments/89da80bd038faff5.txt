@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjMyOjM0LjI0MDE3MyIsInVzZXJfaWQiOiJkYTI0YjhhMC02NjIxLTQxODUtOWJkNy1iMzM5MDA4NDRmMmEifQ.uMUUHFnTXfgaFzH2CQcSY3p-hscwrzSLFUGpsxgVbKU' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern stay the design there benefit leader style.","maxScore":59,"minScore":16,"description":"Hair real story cut later billion. Professor this land. Listen ball much war trade easy. Cell opportunity community dark.","previewFileId":"d52d5215-8c11-4485-9027-abdcf186707b","estimatedTime":"3 weeks","createdByUserId":"da24b8a0-6621-4185-9bd7-b33900844f2a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjMyOjM2LjgyNjEwMyIsInVzZXJfaWQiOiJmZTI2NjBkNy01NDhjLTQ2MTUtOGYwMC05ODUzNWVhN2U3MWMifQ.EEPynqqzU6itRYMJRUgV9PftvpE4oYkFwhlH6_6t8GM' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already author born option positive.","maxScore":53,"minScore":22,"description":"Theory its health message spend enough. If catch understand article perform green. Explain according its month theory available.","previewFileId":"6b28499a-5d90-4697-ac6c-82deac013ee3","estimatedTime":"10 weeks","createdByUserId":"fe2660d7-548c-4615-8f00-98535ea7e71c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjMyOjM4LjcwMDU1MCIsInVzZXJfaWQiOiIxMDNiNTQyOS0xYzMwLTQ3YzgtODBiZS1hZjFiMzJmZmNkZDAifQ.gspn62jaBsuLBRI3w8S483ip1rKhX-dNviyU02YLeMM' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pretty of material make dog court chance.","maxScore":65,"minScore":15,"description":"Account culture his age can space fight lay. Should real push as billion whole. Particularly positive against tell knowledge.","previewFileId":"e80849d4-2d5d-4bbc-a52a-c5579d7c7987","estimatedTime":"2 weeks","createdByUserId":"103b5429-1c30-47c8-80be-af1b32ffcdd0"}'

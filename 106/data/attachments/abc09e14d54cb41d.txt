@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5df65da4-0e15-49cb-922a-19c0091d0876' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjMyOjM0LjI0MDE3MyIsInVzZXJfaWQiOiJkYTI0YjhhMC02NjIxLTQxODUtOWJkNy1iMzM5MDA4NDRmMmEifQ.uMUUHFnTXfgaFzH2CQcSY3p-hscwrzSLFUGpsxgVbKU' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Weight already bring fire per.","maxScore":57,"minScore":15,"description":"Meet area consider low. Congress society fill. Example former final compare interest perhaps military direction.\nEarly radio across mouth technology bad. Interesting day wall open question however.","estimatedTime":"9 weeks"}'

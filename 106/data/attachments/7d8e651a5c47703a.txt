@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjMyOjM2LjU1MjU3MyIsInVzZXJfaWQiOiIyYTJlYTdiMC1iYmFjLTQzODEtYTU2ZS1hYTdkMGYxZWJkZTcifQ.-p-yz7pMUUErDXiIDMy2IYTQdp5uZuLM1hMF5AfhnMc' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide whole night citizen throw side.","courseId":"32ad65da-98fb-44ee-8d33-4fcd13207a21","maxScore":81,"minScore":5,"orderIndex":38,"description":"Friend measure because station thus. Though determine teacher support table ago. Man value later left activity.\nSimilar save those dinner lawyer him trip say. World particular hear. Share with feel.","estimatedTime":"8 weeks"}'
