@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjA5OjI4Ljc3ODI2OCIsInVzZXJfaWQiOiI2ZmI4ODJiYi03YTMwLTQ3NGMtOGMzMy01YWMxZjIxNmJkMjcifQ.YitvdXVq90X4Meq_GOLgCtLBFKriPirhIYi_Ra6M4C8' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Close camera director go point benefit.","maxScore":72,"minScore":26,"description":"Well language vote none could design. Pressure public believe enter wife.","previewFileId":"6cebc385-602a-4eeb-8e8a-e059fe462252","estimatedTime":"10 weeks","createdByUserId":"6fb882bb-7a30-474c-8c33-5ac1f216bd27"}'

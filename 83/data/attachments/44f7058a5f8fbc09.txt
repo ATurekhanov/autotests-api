@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjA5OjI2LjM2Nzc5NiIsInVzZXJfaWQiOiI0YzQ5MmI0MS0zMjI2LTRhZDktYTdlYS0wMDVmNzAwYjJlMWUifQ.uMtA0UzVP4NrOREFcNtnOxTkHS6iw0vrqH-nSllSb8Q' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board level simple really campaign song current on.","maxScore":60,"minScore":6,"description":"Evidence trial social all dog her. Decision individual generation why prepare school.\nCould turn campaign wear doctor. Fish ok model sea kind build. Cause hit range low show opportunity north.","previewFileId":"dd51fbdd-df42-448c-b48b-d9514ffdd055","estimatedTime":"9 weeks","createdByUserId":"4c492b41-3226-4ad9-a7ea-005f700b2e1e"}'

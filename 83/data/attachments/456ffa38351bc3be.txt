@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDA0OjA5OjI0Ljg3MTg5MiIsInVzZXJfaWQiOiI5ZDM0ODMzYS04MDhjLTRmODItODIxYy1jNGNkOWEzMGFkOGMifQ.6wrVhq_8YOXpeTCjGrOyA5bjhW9PQVYHlJC1nA8rQok' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task mention discover easy energy already.","maxScore":82,"minScore":12,"description":"Do rich argue close. Final treatment wish opportunity quickly newspaper produce. Son boy contain.\nSay rest across. Tough east sell.","previewFileId":"54e3d457-75c7-4e60-8a93-973720eabb4d","estimatedTime":"5 weeks","createdByUserId":"9d34833a-808c-4f82-821c-c4cd9a30ad8c"}'
