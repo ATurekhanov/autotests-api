@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5d85c0f7-1a2e-4061-bd62-3e7f87948b3b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDA0OjQ5OjMyLjQ4NDMzOCIsInVzZXJfaWQiOiJiY2I3MWMzYS1lN2RkLTQ2MDEtYmM4OS0zMmY3Zjk3MTA3ZmYifQ.OTCKR-f0S4f2Vs5u63wmySHLE9XUUIZ-kimeHOK-YaA' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Different strategy term best hot figure.","maxScore":74,"minScore":2,"description":"Affect staff letter work me determine from. Six expert wait budget both certainly agency.\nSituation little ground industry technology drive. Citizen there less enter size bank degree.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDA0OjQ5OjMzLjYzODQ5NyIsInVzZXJfaWQiOiIwMjUxODY0MC1hNzQ3LTQwZmUtYTVjYy05ZWI4OWNlODJkZjMifQ.8o-VzOhdjqzXmAMw2oy5LY02_f-PzkYEoMv-O903AqI' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"They but follow mother Democrat.","maxScore":94,"minScore":1,"description":"Call provide north sign role military. Join language success time if least.\nFocus only apply program. Week option pressure. Couple Congress goal produce official.","previewFileId":"dd97913a-9d6f-441a-8193-474365fa6f35","estimatedTime":"1 weeks","createdByUserId":"02518640-a747-40fe-a5cc-9eb89ce82df3"}'

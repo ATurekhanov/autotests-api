@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/aef98ccc-8420-4524-bdc4-f5ae6885cbdf' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDA0OjQ5OjM2Ljk3MzAzNCIsInVzZXJfaWQiOiI2YzRhNWZiNy03MzVjLTQ4NDctOTRlOS0xMDU1MjQ3ODQyMjEifQ.VtlCnCU4nC45lssIC5NXg7rqY5GLV9Tgd3dljsR7ouM' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decade people room speech pass.","maxScore":89,"minScore":21,"orderIndex":57,"description":"Offer him talk sell happen put even live. Should music drop against budget PM.\nFire alone popular possible himself. Likely attack whom sure speak ready. Majority while player school stay life.","estimatedTime":"9 weeks"}'
