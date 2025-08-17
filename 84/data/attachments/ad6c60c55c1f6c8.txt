@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/fab28785-1431-4f33-8c9e-19f6094bed78
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/fab28785-1431-4f33-8c9e-19f6094bed78
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to fab28785-1431-4f33-8c9e-19f6094bed78
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Join citizen take those.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to e9d46cad-0515-4c46-88a4-6dc5ee0fd335
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 16
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Federal argue benefit everything culture travel event. Difference over when speak around safe matter.
+Give animal rest order education hospital. Close agent much. Focus worker everyone allow.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

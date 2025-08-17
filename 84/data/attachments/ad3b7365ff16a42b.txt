@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/384d0350-4018-43f0-8d1d-d60d62d17ace' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDA0OjE5OjE4Ljk3NTE5NiIsInVzZXJfaWQiOiJlZmIxYjJmYS02NGY0LTRiNmQtYTMxZi02MjM4N2JiYWFmZTYifQ.Ai7GwqN-zH50Fgqso6MwRsyeaGuDLnDb6t7I7gg53vQ' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal among sound them dinner score sit stuff.","maxScore":70,"minScore":5,"description":"Media himself notice next cause. Painting strong teacher between. Floor outside necessary task.\nLeave rest resource eye. Past approach throughout record.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDA0OjE5OjIyLjIyMDUyOCIsInVzZXJfaWQiOiI1M2FkOTRmNS1iNzQzLTQ1NmMtYWMwNS04YWUzMGNjYTk3MWIifQ.KHTQ7a_sTXpK4knKnbgKLB97zP0bC7hv-BKCx4ACjsY' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Join citizen take those.","courseId":"e9d46cad-0515-4c46-88a4-6dc5ee0fd335","maxScore":59,"minScore":2,"orderIndex":16,"description":"Federal argue benefit everything culture travel event. Difference over when speak around safe matter.\nGive animal rest order education hospital. Close agent much. Focus worker everyone allow.","estimatedTime":"4 weeks"}'

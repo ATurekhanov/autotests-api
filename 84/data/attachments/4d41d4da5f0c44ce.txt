@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDA0OjE5OjIzLjQ1NDE2MyIsInVzZXJfaWQiOiIyMTM3NWI5ZC00Mzg2LTQ0OTctYjFkYy0xMTgwZjViMmY3NmUifQ.lJyaxgkbWe0jOMzFDW8eK86e1Q3TCfQBvYXfcLyVsvw' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Story bed ball night popular.","courseId":"403181fa-4cff-4b85-bdd4-4d0b3ae312b5","maxScore":78,"minScore":11,"orderIndex":95,"description":"Better project specific clearly term evening. Meet job should seem trade third. Fall foreign newspaper low ball.","estimatedTime":"2 weeks"}'

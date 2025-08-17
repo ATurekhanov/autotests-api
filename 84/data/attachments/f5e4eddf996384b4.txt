@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDA0OjE5OjIwLjM5MTUxMyIsInVzZXJfaWQiOiI2ZTA3ZWE1ZS01NzQyLTRjMzgtOTY1Ni0yZWM3ZDdhYzg0ZjAifQ.pAMMrgwO5n1ZQGqtIdmJbrMpGPmRJg9ji8t42dtryL4' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell trouble when use operation.","maxScore":57,"minScore":8,"description":"Should live cell day above moment record. Radio chair exist it investment skill.\nRock peace become stop ready beautiful check. Ok season first figure water several central.","previewFileId":"50716c6b-4346-4bbd-8693-df8961022729","estimatedTime":"1 weeks","createdByUserId":"6e07ea5e-5742-4c38-9656-2ec7d7ac84f0"}'
