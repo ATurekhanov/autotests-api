@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjI2OjA3LjAyMTg1OSIsInVzZXJfaWQiOiIzYTM2MTdkNC1lMTIxLTQxOTQtYThkNS0xYjBkYWQyNWJiMzEifQ.A1ZCNfOES8K-TzoDwaP-he0RhxDYfPcd4UYGlVTjcFI' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality drive reason.","courseId":"729a039c-290b-4264-8be8-4cf2abd4000d","maxScore":70,"minScore":6,"orderIndex":57,"description":"Appear laugh body. Trade really move pattern night. Increase explain instead example very standard.\nCharge radio court degree. Avoid story role fish side.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjI2OjA0LjYxODU4NSIsInVzZXJfaWQiOiI3ZWRmMmMwMi1hOTMyLTRlMTEtODA5ZC1kY2ZhYTU0NjBjNTMifQ.ZuaRS0_nG9x1qAxDt9d7I5vPzpFdBWKiMVlgEXwOuDM' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Process rule media until down develop maintain.","courseId":"27964f89-5cc3-47e6-9171-084730e04d5d","maxScore":85,"minScore":27,"orderIndex":59,"description":"Official coach culture knowledge individual region through sort. Thus hundred before together. Focus operation space act natural far then follow.","estimatedTime":"10 weeks"}'

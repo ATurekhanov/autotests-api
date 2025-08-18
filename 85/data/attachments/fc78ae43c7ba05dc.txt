@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjI2OjA1LjIwMDI1OCIsInVzZXJfaWQiOiIzYzIxN2UyZC1hNWVjLTRiNGEtYjExYS0xYmQ4ZjliNmVmYTkifQ.qqyqugiUgHBjRMaXhyOSv6hbYZDgmY_SGqje9xMhN2g' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rich college recognize serious forward others nothing.","maxScore":92,"minScore":15,"description":"Owner become measure series.\nWait might word Democrat wear small. Power discussion any contain mention reach experience.","previewFileId":"40766f8c-2f85-44b4-b817-b7af6091380e","estimatedTime":"10 weeks","createdByUserId":"3c217e2d-a5ec-4b4a-b11a-1bd8f9b6efa9"}'

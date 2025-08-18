@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjI2OjAzLjQ0NDgzOCIsInVzZXJfaWQiOiJmOTllZGZmNy1mMzY0LTQ4MmMtOTBkZi02YmJlMjZkMzUwYWUifQ.deNz_-hGzaKoF0vUhzEbCKHnVt63CwJuZEwtEPuAqoA' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay start often house property.","maxScore":66,"minScore":9,"description":"Hour result score group become truth. Will let project agreement young. Include learn father measure try product.\nSpring could understand I economic store.","previewFileId":"215dafff-811d-4fa9-ad3f-dcde64db3a9a","estimatedTime":"3 weeks","createdByUserId":"f99edff7-f364-482c-90df-6bbe26d350ae"}'

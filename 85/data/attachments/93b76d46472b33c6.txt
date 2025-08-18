@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjI2OjA1Ljc3OTU4NCIsInVzZXJfaWQiOiJmMTgzZjFmMy05MjBkLTQ2NzQtYjNhZi1jNThkYmQ3YWNjZmUifQ.TOW-WO78fpphukMxwX00djjJ1wSh0ZWaB4aK6XrsUIc' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank meeting need second east pick defense.","maxScore":83,"minScore":22,"description":"Certainly reveal debate rich government. Woman certain article right hotel Democrat race. Region throughout theory time number employee. Subject would cup rather consumer few.","previewFileId":"85bb8a93-b809-46ab-93ed-373c3e3df959","estimatedTime":"4 weeks","createdByUserId":"f183f1f3-920d-4674-b3af-c58dbd7accfe"}'

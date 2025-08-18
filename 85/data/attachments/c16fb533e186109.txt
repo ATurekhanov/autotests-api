@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjI2OjA2LjQxNTExOCIsInVzZXJfaWQiOiI5ZGNkM2E3Ni1iZTdmLTQ3OTUtODY5NS00NDk4ZDJlYzY5OWUifQ.rFTNgs2z8EFcebuFUaRbxKX0oBap_xuhmue-p24mEhU' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reality produce series between writer appear practice.","maxScore":88,"minScore":19,"description":"Teacher north water surface hold continue. Together not last example. Public month consider case agency table difficult.","previewFileId":"3ef52f2e-6f61-4a12-81fa-e5293c9c3b26","estimatedTime":"10 weeks","createdByUserId":"9dcd3a76-be7f-4795-8695-4498d2ec699e"}'
