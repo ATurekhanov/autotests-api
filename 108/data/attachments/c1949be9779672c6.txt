@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjU1OjU3LjcwNTU5OCIsInVzZXJfaWQiOiI1YjhhYjdjNS1jYTIzLTQyMjUtYWRhZS0wYTAzZjQ1NjljOWIifQ.FVmq0M0aNM8qyGaMRLLyFPOXFQ05bl915NR3_cKQ9Rk' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option education red.","courseId":"5ccace41-97d9-48ab-bb6d-1fb371a0c59b","maxScore":89,"minScore":6,"orderIndex":40,"description":"Yard guess rise his office trouble worry. Control approach lose goal production pick project.\nEdge leg responsibility information couple.","estimatedTime":"6 weeks"}'

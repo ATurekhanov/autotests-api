@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjU1OjU3LjcwNTU5OCIsInVzZXJfaWQiOiI1YjhhYjdjNS1jYTIzLTQyMjUtYWRhZS0wYTAzZjQ1NjljOWIifQ.FVmq0M0aNM8qyGaMRLLyFPOXFQ05bl915NR3_cKQ9Rk' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule risk other thought.","maxScore":70,"minScore":15,"description":"Fill plant good product. Myself clear view organization policy. When as place whatever perhaps situation red.\nPrice part practice after left.","previewFileId":"86627230-f2f7-4fb7-87e9-4888d9b7e09b","estimatedTime":"8 weeks","createdByUserId":"5b8ab7c5-ca23-4225-adae-0a03f4569c9b"}'

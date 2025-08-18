@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjU1OjU4LjM0NDg0NyIsInVzZXJfaWQiOiI2MWE1N2VjYi1mZGY0LTRiMjMtOGQ1ZS0wYjljODMxMDVkMGMifQ.fOMSjr9_BqO99EaZvYasQJ-RRHXS9-0IN5wxnyoAacs' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Success serious join owner management skill.","maxScore":58,"minScore":11,"description":"Land light picture wrong once available involve opportunity. Left crime fight tree everybody. Up statement late.","previewFileId":"18829d93-296e-4545-bfc7-08e96740b4ff","estimatedTime":"4 weeks","createdByUserId":"61a57ecb-fdf4-4b23-8d5e-0b9c83105d0c"}'

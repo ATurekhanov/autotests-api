@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjU1OjU3LjEyMTk0OCIsInVzZXJfaWQiOiIwY2Q2MGIyNS05ZTBhLTQ4ZWMtOTU5MS1hZjViMWMwMWMwOTQifQ.8nheybmuixWYm3rfy59lQDEGStXEV4UTD412PekjDRA' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College within action single Congress number sense.","maxScore":89,"minScore":1,"description":"Partner bad world off trial development entire. Couple nice same camera. Here painting service catch try under push.","previewFileId":"a8e6e23f-4d00-431f-9188-fb22da7fae18","estimatedTime":"10 weeks","createdByUserId":"0cd60b25-9e0a-48ec-9591-af5b1c01c094"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDA0OjU1OjU0LjQ2MDcwOSIsInVzZXJfaWQiOiJlZGExMWQyOS0zZTQxLTQ4YzEtOWIxNi1hMjYwNWE4NDQwODkifQ.H0pD9NeazD1a10TUqNI0Cp0YERhR9tGhrT3OSvPrlGw' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper scientist become identify explain.","maxScore":95,"minScore":20,"description":"And radio perhaps recent control risk whose. Everything itself animal visit by method soon. Enjoy contain value term why north.","previewFileId":"24c1b72a-c245-4b3f-9de9-bbb0d1c844d4","estimatedTime":"8 weeks","createdByUserId":"eda11d29-3e41-48c1-9b16-a2605a844089"}'
