@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjI5OjUxLjQzNzU1NCIsInVzZXJfaWQiOiI0ZmI0MTQxMi00Y2I5LTQ0NGQtYmZiYS1jYjIxNDJhNzg5OGYifQ.DyazZnhXE06In7HSk_GNOwp9dbJLT15ip28opRN8978' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Election particularly hand year.","maxScore":93,"minScore":6,"description":"Save anyone body. Think argue different air us.\nPopulation but manager. Leave government discover character. You even when behavior than real. Set rule president food particular big.","previewFileId":"3519a6e7-12fb-4bfa-a970-bc91b22960ff","estimatedTime":"7 weeks","createdByUserId":"4fb41412-4cb9-444d-bfba-cb2142a7898f"}'

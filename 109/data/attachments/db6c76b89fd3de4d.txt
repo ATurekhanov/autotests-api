@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjI5OjUyLjkyODI1MyIsInVzZXJfaWQiOiIyYWMwMzhhMi0xMjRjLTRhMDgtYTdmZi0yN2IyMzI5NGNlMjAifQ.t5R6ILM0JQpxzoSyspdoOy0-VHg27PYvkAACt6LPCbQ' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready learn speech new team very situation wear.","maxScore":97,"minScore":20,"description":"Suddenly apply opportunity identify occur. Sign talk staff parent heart best. Itself behind offer ahead pressure claim. Account all young.","previewFileId":"e70a77a2-9310-4059-ac64-b1d1dc019d90","estimatedTime":"1 weeks","createdByUserId":"2ac038a2-124c-4a08-a7ff-27b23294ce20"}'

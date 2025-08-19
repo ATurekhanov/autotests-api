@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjI5OjUyLjMzNjMwNSIsInVzZXJfaWQiOiI1YjJlNDhiMy1hODIyLTQ1ZmYtYmE5Ni1hMDY0N2IzMzYxMTIifQ.FvaLHb93ZPyAAh5Q4gN-WTigyoc6Jzpw2MswtkPjoVc' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build suddenly brother be.","maxScore":89,"minScore":7,"description":"Someone still public per about page last. Add much exactly approach others main.\nYes early two strategy tell hour. Official business born easy brother task skin. Be usually wait task.","previewFileId":"733eb0a2-4fc5-49d2-8566-6793d5187240","estimatedTime":"6 weeks","createdByUserId":"5b2e48b3-a822-45ff-ba96-a0647b336112"}'

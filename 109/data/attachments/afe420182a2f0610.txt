@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjI5OjU0LjA5NzE5MiIsInVzZXJfaWQiOiI0MDRkZTBiMi1mYmJmLTQ2YTgtYWE2Yy1hN2I1ZjBkNjkxZmUifQ.W8pfBC1-eAnDa5oMHwe-rsSxd6pelsDUcGvQW3G2CKU' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Day his those factor institution.","courseId":"063f8940-9488-4b7e-9f37-35015ba2e4c0","maxScore":86,"minScore":17,"orderIndex":60,"description":"Phone model effort great affect.\nSecond whose always. Home personal mouth newspaper. Part no walk specific break last.","estimatedTime":"1 weeks"}'
