@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjA1OjQ5LjQxMDYzMSIsInVzZXJfaWQiOiJjNGUyZGU2Ni05YmU0LTRiZDQtOGE5NS05YzMyNjgwZTE3NDIifQ.KDK2axGY7EmIgqRiZhz1psHJ_E-1raht2BmWYTzW1SI' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Order wind worry exactly politics reason.","maxScore":59,"minScore":7,"description":"Quality nearly parent keep. Seven manager rather music imagine begin.\nAccording citizen face family third service professional.","previewFileId":"3e3e77ab-e64f-4a7b-8311-8af27717a6f6","estimatedTime":"10 weeks","createdByUserId":"c4e2de66-9be4-4bd4-8a95-9c32680e1742"}'

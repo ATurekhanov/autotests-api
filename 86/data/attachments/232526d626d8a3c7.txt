@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjA1OjUwLjk1Njk0NSIsInVzZXJfaWQiOiI5YTJjNjA5Ni03ODc3LTRkZjUtOThhNS01YjBmOTlmNGU4MzQifQ.McEScZzMyQMkOr5gGr361AX0r0mRLBwIB6X1Fa6mit0' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But act concern determine protect piece economic.","maxScore":67,"minScore":7,"description":"Show process I do rule sometimes establish. Drop trade through often father support choice.","previewFileId":"164754b8-22a2-4bc9-a84b-2a848ffdadd2","estimatedTime":"5 weeks","createdByUserId":"9a2c6096-7877-4df5-98a5-5b0f99f4e834"}'
