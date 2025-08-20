@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f4e10967-71b3-48ce-a930-edee08d08b72' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDA0OjI5OjExLjY3MDc1NyIsInVzZXJfaWQiOiIwNDk5MTRjMS1iMTE1LTQ5NGEtOGQzNi0wY2U0NTVmNjM0Y2UifQ.00s7K3uG8kArGMhWaqDZ6LvyhMT4Ro0tbdH5bhq2TfE' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sometimes prevent claim certainly kid.","maxScore":100,"minScore":4,"description":"General agreement room describe determine because. Blood record car into.\nForget hold yet matter test follow. Eight measure other cut among.","estimatedTime":"7 weeks"}'

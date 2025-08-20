@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDA0OjI5OjEzLjA5MTQyMiIsInVzZXJfaWQiOiJhNjJlMzM4MC1hMzA4LTQyMGEtYjg5NS1mYzdlYzk1ZGQ1MDEifQ.wrKBOn8w3XBHqpI7twSl_-q4_Yz-4Ug9DPzZN6CB2Mw' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount appear marriage whose agent walk past.","maxScore":89,"minScore":3,"description":"Now blue especially later. Indicate keep worry tell discuss capital affect.\nPm hear attention he offer probably. Hospital indeed school sign.","previewFileId":"03b8c2da-53c5-4ce4-9fe2-77b1a08faf32","estimatedTime":"6 weeks","createdByUserId":"a62e3380-a308-420a-b895-fc7ec95dd501"}'

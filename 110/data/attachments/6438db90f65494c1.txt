@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/4ab0bd6c-a475-46a3-8c85-3d9b6835c060
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/4ab0bd6c-a475-46a3-8c85-3d9b6835c060
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 4ab0bd6c-a475-46a3-8c85-3d9b6835c060
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Look street cut.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 7c418f30-4c37-4ef3-959f-f148d3fadd6c
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 67
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 29
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Management ok yet word.
+Training begin family fast north discover. Feel over include course weight without. Free expert consumer responsibility. Scene they clearly police fine pull.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
