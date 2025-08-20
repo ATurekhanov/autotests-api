@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDA0OjA0OjQyLjE0NDc1NSIsInVzZXJfaWQiOiJkOWEwYjY0NS0zMWQ1LTQ1MWQtYWIwYy1jN2YwMWRkYWY0ZmEifQ.CMicwb1ZQpgMQQQQCe5geBSTqlfc9P3KOtC3uTsziTY' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Statement drive right money simply sing.","maxScore":63,"minScore":26,"description":"Exist water turn fight read. Pm reduce face woman check. Indicate door interest produce plant.","previewFileId":"8d3be01b-2932-4f4b-9408-887f186eda2a","estimatedTime":"3 weeks","createdByUserId":"d9a0b645-31d5-451d-ab0c-c7f01ddaf4fa"}'

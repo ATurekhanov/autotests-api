@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDA0OjA0OjQ1LjE0MTE0NiIsInVzZXJfaWQiOiI5MTdlZTZkYy1iMDliLTRlNzMtODQzMi05YmVhODRhNDhkYWMifQ.GSqXJFlSc7Yj6xl5D-cmYSF75kTgyde-ADTBW9euxJU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High check star foot.","maxScore":83,"minScore":19,"description":"Half show along seat rule occur. Fast what watch those may society.\nKid call dream give. Head to win deal thank miss white.","previewFileId":"7c64b574-7a70-43bf-936a-58d4c59824e8","estimatedTime":"4 weeks","createdByUserId":"917ee6dc-b09b-4e73-8432-9bea84a48dac"}'
