@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/a0eb0219-0954-444f-a2cf-9990df028430' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDA0OjI4OjU3LjYwMDgyMiIsInVzZXJfaWQiOiJjYzgwYzA1Yy1jZWJiLTQ3NGEtOTI2OS1lNTZiZWFiYTc5NDUifQ.TWR5oV7tavxQcwp4TSD_lhcQgme44tqQf7oYCKNyUJs' \
+  -H 'content-length: 215' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Affect standard part.","maxScore":75,"minScore":15,"orderIndex":18,"description":"Believe admit describe road. Into east produce agree let. Account mother note tax feeling pick.","estimatedTime":"3 weeks"}'

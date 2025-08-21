@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDA0OjI4OjU2LjM1MjQyNyIsInVzZXJfaWQiOiJiZGNlNDA4ZC1kMmYxLTRjZTUtODUzNy0yMjI5ZGMyZTE4ZDQifQ.3QTc9igjJupFfmA_ufQII46_KLicKd_eIAByeiVaBOg' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation difference protect top call last.","maxScore":54,"minScore":23,"description":"Arm no response out think put my soon. Allow machine foreign also detail work. Memory today lose figure because so.","previewFileId":"ed08b7d1-a84e-4808-b779-d8de7d11d689","estimatedTime":"8 weeks","createdByUserId":"bdce408d-d2f1-4ce5-8537-2229dc2e18d4"}'

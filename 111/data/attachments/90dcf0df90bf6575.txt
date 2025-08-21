@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDA0OjI4OjU0LjI2MDg5MSIsInVzZXJfaWQiOiIzMjU2ZTIwMC1lY2ZjLTRjMWYtOGIwNi05NDViYmUxZTllZmIifQ.XGKvDotfSsZte64hJpzj_fajwzAJOchJaGDqWpw2mZw' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scene cut quality beautiful operation maybe democratic.","maxScore":53,"minScore":5,"description":"Young within guy friend how. Season official position moment become agree result.\nBaby name lay fight travel. Mr detail each fall chance travel. Sit way thousand.","previewFileId":"69f52516-b807-4d57-b6c9-2212d4146d9c","estimatedTime":"10 weeks","createdByUserId":"3256e200-ecfc-4c1f-8b06-945bbe1e9efb"}'
