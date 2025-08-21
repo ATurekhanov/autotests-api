@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDA0OjAzOjUxLjQyNzk2OCIsInVzZXJfaWQiOiJlNzU3NTMyYS0zODU2LTRmZWItOWIwYy02YzczZDY1MTliYjMifQ.eORMwk58E46omiOjJ3BvH92tFjobmqv1Jc2BPYh-Uik' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"South develop quality best.","maxScore":51,"minScore":8,"description":"Position some they significant card window thus. Ability deep certainly although every fish. Treatment now protect prepare science place ten.","previewFileId":"09abfdee-6e95-4d08-a89b-f30acfaf4d8c","estimatedTime":"3 weeks","createdByUserId":"e757532a-3856-4feb-9b0c-6c73d6519bb3"}'

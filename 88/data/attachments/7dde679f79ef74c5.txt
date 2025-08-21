@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDA0OjAzOjU0LjEwNTg5NiIsInVzZXJfaWQiOiI5YmVjMDY0OS1hZjEwLTQzNjUtODg4ZS0yMDU3YTg4MDg4NzEifQ.N4vXSE3IkFGx4F4CjCr26Fs0aUBC50N6ysdSjtY-QLg' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Look run wonder.","courseId":"fe0c3b99-87c4-4b46-b01a-3283aacf6932","maxScore":88,"minScore":14,"orderIndex":86,"description":"Memory interesting under half say stop feel. Cup marriage yes big. Special issue possible bar fall.\nCharge usually inside trade ahead. Pattern network wrong. Huge end and.","estimatedTime":"2 weeks"}'

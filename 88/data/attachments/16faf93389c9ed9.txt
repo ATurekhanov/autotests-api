@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4a119146-b2a6-4980-aae5-624a3bec5c95' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDA0OjAzOjUwLjI4NzM0MiIsInVzZXJfaWQiOiI5MTRiYmUzYy00M2ZlLTQ5ZjYtOWQwMS0xZWI4YzdjN2UzYzQifQ._J6JqDsBv4glkfnORTzySk87mWmWW4SdDGWRJySmg-A' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democratic however result successful.","maxScore":82,"minScore":17,"description":"General world second hospital big smile pattern. Social house increase standard. World fight resource as.\nPerform upon sit arrive.\nThan help mission among environment cold fall.","estimatedTime":"6 weeks"}'

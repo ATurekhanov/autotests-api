@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDA0OjAzOjUzLjUyMjU2MyIsInVzZXJfaWQiOiJmZjIxNmM2Yy05ZGU1LTQ1MTItOThhOS0zOTUzNmIyMjBiYzUifQ.H2aMQmT_lC-cw8vMD_lnIT9rkDSTwQLi5VenwMvigGo' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style read worry Democrat.","maxScore":50,"minScore":6,"description":"Appear tell else meet. Claim artist behind you thing than. Leader ahead commercial her.\nHowever they there class here. Voice scene air spend response also police same.","previewFileId":"1a924e1d-ca41-4c03-bc2f-2e07322693bf","estimatedTime":"6 weeks","createdByUserId":"ff216c6c-9de5-4512-98a9-39536b220bc5"}'
