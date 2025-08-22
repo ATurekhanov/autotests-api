@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIyVDA0OjI4OjM0Ljk1ODk5MCIsInVzZXJfaWQiOiI5MmUyZTNjMi1hNjliLTQ2NTgtODE4OC1kMjE0ODkyMWU0MWMifQ.SwdRCZjHjlnWKHlppY-luTX0lxhxFR6-TzN0ttvG-Zw' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Case game next area individual leg.","maxScore":83,"minScore":1,"description":"Measure beyond kitchen teacher voice radio no. Among certainly evidence air remember pick.\nExecutive product arm. Government question visit study science attack many else.","previewFileId":"a4dc2a1b-3fd9-47b4-923d-30eecf39c092","estimatedTime":"8 weeks","createdByUserId":"92e2e3c2-a69b-4658-8188-d2148921e41c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIyVDA0OjI4OjMzLjcxMzg3NyIsInVzZXJfaWQiOiJhZDU0ZTVjNy1iZjA2LTRhODgtODM5ZS04ZGJmYzY2MThkOWEifQ.288_Jw6IUaw4xJUDbKUY4H9YuxEBzKN8uXGPUjJ8Ts4' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability alone trouble project your imagine.","maxScore":92,"minScore":11,"description":"Buy child international. Report add describe clear interest expect animal.\nStep professional share west whole work.\nElection and direction before represent. Exist adult street then.","previewFileId":"af357b6b-328e-43a3-baeb-b54c7fe23000","estimatedTime":"2 weeks","createdByUserId":"ad54e5c7-bf06-4a88-839e-8dbfc6618d9a"}'
