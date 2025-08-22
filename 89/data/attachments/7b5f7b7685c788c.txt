@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIyVDA0OjA0OjI1LjUwMTAyNiIsInVzZXJfaWQiOiI4NzgxNzAyNy0xZWIwLTRmZjQtYmIzOC01YjU5NmZjNzA1NDYifQ.MudD6PGXiLrpX-F0hjrh6R3mOPmJwEpbPnGIHBmLg4w' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Admit yourself war quickly defense.","maxScore":85,"minScore":5,"description":"Cover understand stay decade. May issue article become issue. Writer science prove allow. That trial about.","previewFileId":"7b4b64ee-69ac-476a-b55d-a26dc1c43867","estimatedTime":"10 weeks","createdByUserId":"87817027-1eb0-4ff4-bb38-5b596fc70546"}'

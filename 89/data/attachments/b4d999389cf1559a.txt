@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIyVDA0OjA0OjIyLjUxMTk4OSIsInVzZXJfaWQiOiIzYzdlYjA3YS03MjRkLTRhY2QtOTYyOS0wMjcxNGQ2ZTgzMjcifQ.qZ4K20qm635kAQxZnLrFzyXcVL7bTxMgPzNACwk0ES8' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less food something choice.","maxScore":96,"minScore":1,"description":"Bank key person still night major. Lose spend street course four.\nMajority four figure law. Trial garden rest hand method authority senior reality.\nPart cup whether let expert soon.","previewFileId":"06000291-7494-40c6-836c-c7313a34ee22","estimatedTime":"2 weeks","createdByUserId":"3c7eb07a-724d-4acd-9629-02714d6e8327"}'
