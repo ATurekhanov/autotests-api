@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDA0OjI0OjU2LjgxNjQyMiIsInVzZXJfaWQiOiIwYmI1YmUyNS1jOGVlLTRiMmQtYjgxZi0wMjkzZWQ4Yzk4ZTEifQ.J4ePZv2rUIbVdncDFJVLQTXi3E4ioypzAVBHssL088I' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change must answer already.","maxScore":100,"minScore":9,"description":"Never may call stop natural rest. Fly idea important provide guess capital occur growth. Relate realize financial green dog tree.","previewFileId":"087cfe55-056b-406b-9ed4-6f3b48fd1048","estimatedTime":"9 weeks","createdByUserId":"0bb5be25-c8ee-4b2d-b81f-0293ed8c98e1"}'
