@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDA0OjM0OjE4LjgxNDY5MSIsInVzZXJfaWQiOiJjZTllNTgxZC1hNjM0LTQ2ZDctOGJlZi1lZjYwYjJkMTdhYjgifQ.kWBWMRLpDEFQ-lzMVlv11k3zyBoKcx8DDWkPjQGonFg' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High buy term air debate agreement organization.","maxScore":56,"minScore":1,"description":"Pattern free spring PM challenge suffer. Before enough remember individual. Themselves everyone two anything.","previewFileId":"d936ca4c-a445-47b6-b86a-5c5bf02a3492","estimatedTime":"4 weeks","createdByUserId":"ce9e581d-a634-46d7-8bef-ef60b2d17ab8"}'

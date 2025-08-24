@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDA0OjM0OjIwLjAzMzYwMiIsInVzZXJfaWQiOiJmYWZlNzVkYS03OWJjLTQxNWEtOGE1ZC0xMjQwOWQzY2Y2OWYifQ.15sDer1QXTvV_hliXKu0G6mYVZCVaoaDnYt2KcQmavE' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Service design stop win serious physical my.","maxScore":62,"minScore":29,"description":"Main heavy then. Result sing treatment among nice pretty. Care nice check ask ask idea.\nHuman none indeed mind magazine language green. Tend different speech my.","previewFileId":"ec61252e-eb55-4638-ad84-8d0a35ed6aad","estimatedTime":"9 weeks","createdByUserId":"fafe75da-79bc-415a-8a5d-12409d3cf69f"}'

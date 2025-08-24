@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9449b61f-a6a7-433b-8a5f-1cad8c3b8e66' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDA0OjM0OjIwLjg2NjA4MyIsInVzZXJfaWQiOiI0YWVjZDNlNi1kMWI3LTRlODMtYWQxMy1kYWU4ZTU2ZmRlZmMifQ.Ho4errwvCcF9aMR5j1LFpnFuENnMaxE3q43fiOuCK5k' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Event exist body knowledge Republican serve energy.","maxScore":93,"minScore":2,"orderIndex":95,"description":"Sit education lead through none goal success. Religious include west wish.\nYes need short manager sing phone. Meet indeed morning inside maintain resource win four. Man why nor.","estimatedTime":"1 weeks"}'

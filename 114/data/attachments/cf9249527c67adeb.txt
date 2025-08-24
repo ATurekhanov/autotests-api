@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDA0OjM0OjE5LjQ1MDAyNCIsInVzZXJfaWQiOiI0MGJlM2MxYy0yMDEzLTQ4NDUtOTJjZS00ZmY5M2QwNDhkYTEifQ.qycC0Ae9SJxB--7lGQ2-DAPH1mMaeTovFBFZ1_bRCLE' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Girl study one particular modern.","courseId":"7ce76fe4-5b1a-4786-946d-901d948dda0f","maxScore":77,"minScore":13,"orderIndex":97,"description":"Prevent light federal occur security. Prove agency these interview culture fear mission.\nGarden stand box could. Feeling remember weight central.","estimatedTime":"1 weeks"}'
