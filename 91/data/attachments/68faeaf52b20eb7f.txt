@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a9ee782d-c344-4645-adc0-1f351958475c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDA0OjExOjM2Ljc3NjI2MCIsInVzZXJfaWQiOiI3NWRlOGZiOC1hMTczLTQyODgtYjI5YS0yNDY3NzJjNmU1YTIifQ.YgEADHGymFgh63ZMNFs7oNkrfAstXTZb6vngodD5xEY' \
+  -H 'content-length: 182' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whom fight kind remember avoid.","maxScore":71,"minScore":16,"description":"Approach treatment thing ok ground. Identify wait board serious one.","estimatedTime":"1 weeks"}'

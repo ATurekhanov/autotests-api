@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDA0OjExOjQwLjAxMTQ3MiIsInVzZXJfaWQiOiI4MjYzOWRiMC00ZjgzLTQ5NDItYjIxNC1kOGVjYmU1YzVjYWQifQ.92cRlxcbs3lGVp61L1ZyJU-OxRsdZuv0KeSyGfehmRk' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy it once let their various read.","maxScore":60,"minScore":22,"description":"Ten letter voice. Program truth involve individual. Mother environment candidate attack boy eat operation. Learn everything fall become.","previewFileId":"bb017c77-c751-4b9b-8d9c-491e5826ef50","estimatedTime":"5 weeks","createdByUserId":"82639db0-4f83-4942-b214-d8ecbe5c5cad"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDA0OjExOjQxLjI2MDc4MCIsInVzZXJfaWQiOiJiMmRkOTlhYy04M2ZlLTRiNjgtOWRlYS0yMzFlYzdiYThkNzkifQ.xs0gyozZusHKCgbKUuh9h527Qdhtn8D8W-TWBiPwE1g' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank maintain happy just trade computer religious newspaper.","maxScore":52,"minScore":11,"description":"Dark into factor the. In mention other lead hope example design low. Involve north military degree build behind.","previewFileId":"2e1ee253-9d96-4767-8fb7-8d600d0bca2b","estimatedTime":"9 weeks","createdByUserId":"b2dd99ac-83fe-4b68-9dea-231ec7ba8d79"}'
