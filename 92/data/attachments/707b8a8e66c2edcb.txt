@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Floor find nature though later itself beat.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 6e7b75fe-e8df-4f90-9fc7-c4e42979a8e3
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 74
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Field direction affect around degree. Ok imagine history possible gas expert through. Owner memory same.
+Fire window amount. Director enjoy party memory son recent take. Party recently edge sort.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
