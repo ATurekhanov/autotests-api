@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI1VDA0OjMzOjQ1LjIzODEwNSIsInVzZXJfaWQiOiJlZDZjYjkyMS1lOTEyLTQ2ZTMtYmZjYS05MzcxNGJkODZjNzUifQ.kb3o5OtEPpUse8Vj7blvQUHw_Sv6ccwvNa_HZzfdygY' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper figure in speech appear.","courseId":"a83759ae-416d-4608-9266-9a828089a754","maxScore":66,"minScore":25,"orderIndex":64,"description":"History their clear discover second total.\nFire over structure case eat doctor ten various. Simple think show too girl beyond recently participant.","estimatedTime":"9 weeks"}'

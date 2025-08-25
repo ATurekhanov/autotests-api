@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI1VDA0OjMzOjQyLjkyODU1MyIsInVzZXJfaWQiOiJhNWU2OGJlMi1mNjE1LTRjNTYtYWE3My1iYzc5ZjhhMDlkZDIifQ.T3KkIRIqNr81r6fG4JAJkR95CA26a2P9LS-lx_-a1Rc' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A use young part.","maxScore":87,"minScore":3,"description":"Focus color chair everything education own describe. Left yard quickly pick unit scientist.\nNo whatever skin live arrive son fall name. American business teacher age hundred go piece region.","previewFileId":"b64680c8-3db5-4722-9fb0-78c73562e81c","estimatedTime":"2 weeks","createdByUserId":"a5e68be2-f615-4c56-aa73-bc79f8a09dd2"}'

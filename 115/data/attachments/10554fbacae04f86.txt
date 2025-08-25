@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI1VDA0OjMzOjQ1LjUwOTYyMSIsInVzZXJfaWQiOiI3YThjMzcyNy1mYTRjLTRiMDQtOWM5ZS03ZDMyNmJhYzI4N2IifQ.seGnAipRVlEcLcF9uLaCBmjFnNRIyiOHzwJRjh89wO4' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Because pressure past off city happen.","courseId":"a3a33ba9-b7c3-4c09-9f83-65213bd2a29f","maxScore":86,"minScore":9,"orderIndex":84,"description":"Much someone wife writer. Couple public money source subject piece each.\nNatural politics enjoy economic throughout.\nWhose lawyer time allow common. Public beyond game you news PM start.","estimatedTime":"4 weeks"}'

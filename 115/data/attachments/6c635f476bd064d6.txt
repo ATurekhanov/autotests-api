@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI1VDA0OjMzOjQ0LjA2NjM0NSIsInVzZXJfaWQiOiI1ZmM4MjdhMS05OTc0LTQ0NTgtYjAxZi02MGZjNTc5OTM2OWEifQ.qouN5j7OM44dJRk795Cm04GJl_CR4CZvsiGG1TfQ65I' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low top accept.","maxScore":63,"minScore":15,"description":"Raise east system put popular experience. Section although shake actually.","previewFileId":"7a9e48a3-697c-45a5-8a82-801303786be2","estimatedTime":"8 weeks","createdByUserId":"5fc827a1-9974-4458-b01f-60fc5799369a"}'

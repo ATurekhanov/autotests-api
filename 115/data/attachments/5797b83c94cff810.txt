@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI1VDA0OjMzOjQ1LjUwOTYyMSIsInVzZXJfaWQiOiI3YThjMzcyNy1mYTRjLTRiMDQtOWM5ZS03ZDMyNmJhYzI4N2IifQ.seGnAipRVlEcLcF9uLaCBmjFnNRIyiOHzwJRjh89wO4' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You machine defense one.","maxScore":97,"minScore":29,"description":"Light prove cell message set fire until. Discuss rate whatever return more pressure hot.\nColor husband leader. Interesting positive affect wear remain high stand.","previewFileId":"673553e5-e719-47d4-8dc6-d6c551cbf1e6","estimatedTime":"8 weeks","createdByUserId":"7a8c3727-fa4c-4b04-9c9e-7d326bac287b"}'
