@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjMwOjA1LjM5NjcyMyIsInVzZXJfaWQiOiI3MTZlZjQyMC1iZjVmLTQxZDEtYWVlZi03ODgzMzMwN2VlMTUifQ.pSe3gs_Meo9smvvmYNmbDP_sUZUXJDglsfhSLm1d2HY' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Child sing keep offer.","maxScore":94,"minScore":25,"description":"Key season mouth sea buy skill instead trouble.\nMedia million project employee option teacher face. Last however notice hit. Part its American say officer.","previewFileId":"4a2014f0-e441-4990-ba93-025e472587e3","estimatedTime":"6 weeks","createdByUserId":"716ef420-bf5f-41d1-aeef-78833307ee15"}'

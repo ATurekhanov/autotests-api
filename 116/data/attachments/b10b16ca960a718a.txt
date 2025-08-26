@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4d6fafdc-a869-411f-a86a-941c1513ef2f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjMwOjAxLjUxOTEwOCIsInVzZXJfaWQiOiJkN2NjZDIxMS04YWJjLTRjMWEtYjNkOC0xMzA2MTJhMTRkN2QifQ.mM2xzTev0TvUbAUtVH9059KXojNxAUGuaupp23iUcDQ' \
+  -H 'content-length: 230' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge discussion contain rate up the north standard.","maxScore":74,"minScore":28,"description":"Necessary thing month through usually traditional front. Show value decide everybody probably.","estimatedTime":"8 weeks"}'

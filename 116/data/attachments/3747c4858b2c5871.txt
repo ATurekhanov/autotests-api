@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjMwOjAyLjQxOTkwNiIsInVzZXJfaWQiOiIwYjgyNzZiYi1jYTljLTQxN2QtODE4Yy01ZTYxYjUwY2RmMmQifQ.AY8K7ST51A2dZL8PebOtWMP6VhdjIHLPU8tLdgS4tjA' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack style candidate positive watch box.","maxScore":96,"minScore":15,"description":"If sort analysis it. Down teach training purpose become.\nSupport movement evidence with. Matter science job director purpose. Use number executive.","previewFileId":"de1d203e-2d2f-410b-b857-234d08fa227c","estimatedTime":"1 weeks","createdByUserId":"0b8276bb-ca9c-417d-818c-5e61b50cdf2d"}'

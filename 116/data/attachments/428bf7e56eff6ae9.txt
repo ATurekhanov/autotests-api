@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjMwOjA0LjE3NjI3MiIsInVzZXJfaWQiOiIxMjBhYjNkMS0xMjMyLTRkZWQtYTQzZi1lOTNiY2JhOTUwMTgifQ.CasX1B1BbKZz8-cuKHVE9NeRxrEv6OnWEUPdaDgefRU' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever available operation natural well book.","courseId":"523fbace-5b11-4e84-b82b-38403ab13b72","maxScore":77,"minScore":25,"orderIndex":26,"description":"Line myself parent important morning board. No medical sound today public require. Street college from region room break site. Particularly at soldier state.\nWithin leg walk such court letter move.","estimatedTime":"8 weeks"}'
