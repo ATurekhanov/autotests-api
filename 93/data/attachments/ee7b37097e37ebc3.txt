@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjA1OjE1LjcwNDU3MSIsInVzZXJfaWQiOiJiM2ZjZTQ3Ny1lNDgxLTQ0Y2QtODU1Ny0xZWNkNmZhMDFhMWQifQ.HowNxfz4T7jRJSJC-4Y7FG0Ww3M7ia59k02gzPlYyEU' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Know recently defense maintain hit stage.","maxScore":95,"minScore":16,"description":"Source hold military business there. Fear TV evidence just politics these. Development imagine threat prevent while.","previewFileId":"d3affee9-fac0-4957-9ed1-f250349309cf","estimatedTime":"8 weeks","createdByUserId":"b3fce477-e481-44cd-8557-1ecd6fa01a1d"}'

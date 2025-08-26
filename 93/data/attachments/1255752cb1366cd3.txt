@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c68fd5b8-f754-4a31-a231-ad937654fd75' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjA1OjEzLjEwNzkwMSIsInVzZXJfaWQiOiIzNTE0N2U2MC0wNDA1LTQ1YzYtYWNiYi1hMGYwNjU3N2M3ZWYifQ.IshuOu7nQmDMPuyxk8D87-6aRSZIKaebZj2ccCDdK5w' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Find term begin argue statement appear.","maxScore":60,"minScore":24,"description":"Education mention will research play maybe vote activity. Let ever available score minute. Left you loss week turn.\nElse theory mind future it. Statement travel top teacher commercial sea.","estimatedTime":"2 weeks"}'

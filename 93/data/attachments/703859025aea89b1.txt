@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjA1OjE2LjM0MTYyOSIsInVzZXJfaWQiOiJjY2Y3ZTc0NC1kM2EzLTQ2MmUtYWYzYy0zMjVhMzI4MjUzMTkifQ.PNfIYxHxJGpyu4xsnKEssj9bMDuL2eoSInxw97UpXM8' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Probably rock thing mission election ask difficult.","maxScore":51,"minScore":15,"description":"Television near art avoid. All look really present somebody majority. Sport believe song against research similar technology.","previewFileId":"eb981eda-8d8d-4320-bd76-091ab2b5ce90","estimatedTime":"3 weeks","createdByUserId":"ccf7e744-d3a3-462e-af3c-325a32825319"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjA1OjEzLjEwNzkwMSIsInVzZXJfaWQiOiIzNTE0N2U2MC0wNDA1LTQ1YzYtYWNiYi1hMGYwNjU3N2M3ZWYifQ.IshuOu7nQmDMPuyxk8D87-6aRSZIKaebZj2ccCDdK5w' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later Democrat long play do policy.","maxScore":69,"minScore":30,"description":"Hand to property down. Wait day garden while one show until.\nUntil design off blue try. Measure visit box play key. Five important tell window my.","previewFileId":"690f34b2-7c1a-4333-9d3e-c4fa54ae6120","estimatedTime":"2 weeks","createdByUserId":"35147e60-0405-45c6-acbb-a0f06577c7ef"}'

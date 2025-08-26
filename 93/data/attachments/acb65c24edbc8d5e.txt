@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Decide run education minute story mother nothing.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to ee6d8115-4623-41d9-90f6-b84807b9c920
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 91
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Score single soldier yet member carry describe. Service prepare reflect necessary operation expert young.
+Five clear without leave family answer box citizen. Player cultural show Republican write.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDA0OjA1OjE0LjUzMDc3NyIsInVzZXJfaWQiOiJlZTUwMTA0My04MWI4LTQ2MjItYWY1ZS0yMjVmZmUxZWIyNjUifQ.WHeKkdwuRJchi6FSF9eIDPFORgVdLOTFeuupHo_JuJI' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often billion front to son.","maxScore":92,"minScore":24,"description":"Task any act world quality not above drive. Edge far cell gun north responsibility not. Involve degree provide sometimes top then there.","previewFileId":"fddfefdb-1f32-4949-b4ce-b2a49bd777b9","estimatedTime":"1 weeks","createdByUserId":"ee501043-81b8-4622-af5e-225ffe1eb265"}'
