@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDA0OjI0OjUxLjE3OTgyMCIsInVzZXJfaWQiOiIyM2RkODdjNC03MTNmLTQ2YWMtYTM1NC1kNzc2OTc4MWFhNGIifQ.A6fnlZVKMn7HPlF5Qx9twXXpT8h2Oah_N7FHGvF0T8U' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show economy personal manager.","maxScore":53,"minScore":25,"description":"Bad receive whole dinner military benefit. Local unit north hot upon sound knowledge daughter. Build despite attorney factor could.","previewFileId":"7aeb22fe-a52c-4fea-9c5c-8d07b37be201","estimatedTime":"3 weeks","createdByUserId":"23dd87c4-713f-46ac-a354-d7769781aa4b"}'

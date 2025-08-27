@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDA0OjI0OjQ2LjY5MzE1MyIsInVzZXJfaWQiOiJiOTJhODhhNy0yNDhlLTQ2MDctODNlZC1iMjcwNWMzYzg4OTMifQ.ZvJkajU3jHMZ_17hZEMmDK0f_nf4eRgyl9KXFar5wgM' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A former ok many media accept.","maxScore":92,"minScore":10,"description":"Continue listen front factor. Institution argue administration environmental ask sport with purpose. Piece read Mrs must level foreign.","previewFileId":"4d503a45-6e6d-4e6c-b124-12eb24c661fc","estimatedTime":"1 weeks","createdByUserId":"b92a88a7-248e-4607-83ed-b2705c3c8893"}'
