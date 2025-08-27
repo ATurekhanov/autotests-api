@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDAzOjU4OjI1LjE5NzgzOSIsInVzZXJfaWQiOiJlMWQxNWRmNi0xMGMwLTQyM2QtYmYwMy02Y2VlNGY3NTMwNzAifQ.WORqy4yG3TRGswh8Ko9vhquyVI5I8bsePckhp9zcVUo' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Method foot network organization man.","maxScore":58,"minScore":24,"description":"Everyone science rest stuff interest eat you fill. Outside pass natural instead main. Remain maybe special you weight cup apply.","previewFileId":"f4306b74-8657-44bc-89f0-a797d9612c03","estimatedTime":"2 weeks","createdByUserId":"e1d15df6-10c0-423d-bf03-6cee4f753070"}'

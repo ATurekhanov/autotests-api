@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDAzOjU4OjIyLjEyNzU0OSIsInVzZXJfaWQiOiJkNmYyZDEzOC1jM2E4LTRjMmMtYmQ5NC05NjhjY2Y0YjhjZjQifQ.sP1cBHj17E4lXNk4KeoKYl9SE1zV6hFYlF19Ne1UDcM' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer weight song believe page bit change.","maxScore":74,"minScore":24,"description":"Look you view season share. There read well vote deep expert. South color impact bag full.","previewFileId":"88cd6b28-2ddd-4be4-8f93-66008a024167","estimatedTime":"3 weeks","createdByUserId":"d6f2d138-c3a8-4c2c-bd94-968ccf4b8cf4"}'

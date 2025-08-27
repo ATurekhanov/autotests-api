@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDAzOjU4OjIzLjMwMTMzOSIsInVzZXJfaWQiOiIxYzE3ODk5NS0xNmQ3LTQ4Y2UtYjYzYy1hNTBjM2EwNzU0OTAifQ.F7n18R189mC_4zyNgzbWPGUlkSud_r73ogCuhusgxXM' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message technology western live.","maxScore":83,"minScore":20,"description":"Time wonder project room. Any president color firm approach. Kitchen program write at. Pull space key.\nNumber Republican PM model after shoulder ask. Life central room.","previewFileId":"8fb6bb43-7db6-4eb9-b99d-e8c7ed2366fb","estimatedTime":"4 weeks","createdByUserId":"1c178995-16d7-48ce-b63c-a50c3a075490"}'
