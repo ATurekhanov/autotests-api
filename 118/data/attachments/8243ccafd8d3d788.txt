@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDA0OjI0OjQ1LjU1NTU3MSIsInVzZXJfaWQiOiIyYmU4NGRmZi1kODIwLTQxYzUtOWNhOC02OGNkMWM2NmM5NmYifQ.w4J1dE0IF9qwXzifh_k_4vdsStw49dcx3l-u_GIHj5A' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Authority region floor.","maxScore":85,"minScore":4,"description":"Few will pressure group. Poor cover southern newspaper. Soon stay pull painting. Everyone bag inside send indeed.","previewFileId":"d806559a-7f58-4074-a1c2-bbf67377e4f1","estimatedTime":"4 weeks","createdByUserId":"2be84dff-d820-41c5-9ca8-68cd1c66c96f"}'

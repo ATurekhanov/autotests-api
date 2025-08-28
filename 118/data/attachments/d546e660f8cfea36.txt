@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDA0OjI0OjQ2LjIwNTUxMSIsInVzZXJfaWQiOiIxYzliOWVhMi1jZWUxLTRmYzItOWUwMC1jNTBkOWI2ZTQ3YTgifQ.k568ZilXjJYDKI0Xg7znZPTOoJHX_vcv6-pz3bkneoc' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Course rule cut produce activity born.","maxScore":94,"minScore":24,"description":"Environment interesting how. Risk thousand arrive democratic government.\nRole force here yourself. State run life tree under chance serve.","previewFileId":"c3e45972-f9ce-4e47-bae8-e4d01e99d380","estimatedTime":"6 weeks","createdByUserId":"1c9b9ea2-cee1-4fc2-9e00-c50d9b6e47a8"}'

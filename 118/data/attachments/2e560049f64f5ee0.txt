@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9d3676ad-af54-4461-99da-619e0f4c7272' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDA0OjI0OjQyLjk1Nzc2MCIsInVzZXJfaWQiOiI3MTIyMTliNi1lYWUzLTQwY2YtYWM2ZS00NjFjN2UxZDgwOTYifQ.BdTHRX7W20-YD9jhABj8uIfP2Wr2vO7yEUzOaxIed-s' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration agency from upon.","maxScore":57,"minScore":26,"description":"Positive store blood move himself fine skill. Break eat nature benefit.\nPlay actually behind sound. Party now life. Financial manage fly certainly.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDA0OjI0OjQ3LjQ2MjAxMCIsInVzZXJfaWQiOiI0Y2Q5YzYzMC0yYzQxLTQwODEtOTM4Mi0wNzliMTY5NmM1ZDkifQ.BMLWY1THeCUEjUHeBJPFOm1uA90cAdRbKV4djHlIekU' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"North capital clear security finish lose.","maxScore":62,"minScore":9,"description":"Close drop authority above lose network ability. Sound night parent goal. Question exactly treat his man foot radio.\nSociety one at will. News everyone family it month.","previewFileId":"98f033a7-88c6-47ad-857f-487988cfff12","estimatedTime":"8 weeks","createdByUserId":"4cd9c630-2c41-4081-9382-079b1696c5d9"}'

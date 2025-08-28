@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/68bb1ed8-243b-434e-8656-b5f4fe55a8b5
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from PATCH http://localhost:8000/api/v1/exercises/68bb1ed8-243b-434e-8656-b5f4fe55a8b5
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Better career church table.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 44
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Thing kind bit should want central. Teach but mission woman score camera.
+Other possible shoulder either. Believe impact town nearly inside partner pressure.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDA0OjI0OjQ1LjI4MjgwNCIsInVzZXJfaWQiOiJlNjU3ZDcwNy00Yzg1LTQyZjktYjQzNC00NjVmOGJiMGQxNjEifQ.P17q0Mq-qfEoLSzQabnkq8kaKelU73cK3-YSjPp_0K0' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Both election score easy phone beautiful.","courseId":"f991eb28-396a-4fdd-9761-07f08bc5ebed","maxScore":50,"minScore":21,"orderIndex":49,"description":"Hour authority summer money enjoy. They chance feel.\nSystem manage military sea year affect we. Employee both amount option task answer they. Course coach quite dark woman.","estimatedTime":"8 weeks"}'

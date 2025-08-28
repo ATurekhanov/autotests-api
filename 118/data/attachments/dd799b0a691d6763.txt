@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDA0OjI0OjQ2LjIwNTUxMSIsInVzZXJfaWQiOiIxYzliOWVhMi1jZWUxLTRmYzItOWUwMC1jNTBkOWI2ZTQ3YTgifQ.k568ZilXjJYDKI0Xg7znZPTOoJHX_vcv6-pz3bkneoc' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"North water computer himself budget follow tough area.","courseId":"2413dfea-d9d6-4ea6-8e60-b7d207a76877","maxScore":71,"minScore":14,"orderIndex":3,"description":"Pressure child summer make pay human author. Program evidence similar skill computer still. Picture could nearly range approach eye.","estimatedTime":"9 weeks"}'

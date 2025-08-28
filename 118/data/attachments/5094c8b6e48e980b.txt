@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDA0OjI0OjQ2Ljc5NTQ1NCIsInVzZXJfaWQiOiJkY2YyMzg0OC1hOGU3LTQ2ZGUtODQ0NC1iZmYwYzZmNzA2ODYifQ.k_sSlSTnZ_zi4kq5OmaUtH8HgaEmVl6HjCGI9GZIw3w' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another network office never force television.","maxScore":66,"minScore":25,"description":"Quite quickly between others your trip. Standard create trade. Rock role central show current at either.\nPresent themselves democratic space. Either town government son. Local buy movie can.","previewFileId":"3cc8ffb2-6edc-4ba3-9382-49d4e889e7db","estimatedTime":"6 weeks","createdByUserId":"dcf23848-a8e7-46de-8444-bff0c6f70686"}'
