@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDAzOjU4OjU0LjU1NDY1MyIsInVzZXJfaWQiOiI1OTRhMDI1Yi0zMjhmLTQ2NjgtYmMyNC0xZTE4YzZhOTM4ZTIifQ.Jv7cDg8NbM5fRlVA8Bs7UbRN-xM2wp5xkSp196BxVCE' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material author include TV.","maxScore":100,"minScore":20,"description":"Between sing place almost entire among sister. Sound page human with both.\nTv small question much. Short final say region tell site there beat.","previewFileId":"4dac6475-8b05-4e1f-9297-5a1f96471387","estimatedTime":"2 weeks","createdByUserId":"594a025b-328f-4668-bc24-1e18c6a938e2"}'

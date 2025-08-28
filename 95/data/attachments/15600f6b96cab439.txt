@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDAzOjU4OjUzLjExMDMxMSIsInVzZXJfaWQiOiJmMzQwZmU4Zi0wYTZjLTQwNWYtYTY0ZC05ZDVkZDgwZGNkZjEifQ.d1ag9osNnKvuZjpTPiCrmrawJIx2ym_xGzaLJEbSnO8' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Against analysis my city benefit together.","maxScore":91,"minScore":20,"description":"Never star join challenge easy tree out. Gun white enjoy. Moment notice notice high various fear. Turn rest again rest budget institution network.","previewFileId":"30d62553-6fc1-4b1e-a611-5e76ae7d54e6","estimatedTime":"9 weeks","createdByUserId":"f340fe8f-0a6c-405f-a64d-9d5dd80dcdf1"}'
