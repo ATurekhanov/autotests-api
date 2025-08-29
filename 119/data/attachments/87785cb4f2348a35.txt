@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDA0OjI0OjQ1LjAwMjE0OCIsInVzZXJfaWQiOiI5ZWVhNmY2MS1mZjdlLTQxYjAtOGI3MC0yNDc2MzJmMDBhOGEifQ.Upa7BY6eg-l6EWmkv8qXi5Bf_mPyTpK2-IDbmErKtOU' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wear left real method marriage.","maxScore":54,"minScore":27,"description":"Child finally leg report church myself best life. Financial participant little building big thing. Music factor business.\nExpert send oil bar resource. First lot cause drop approach.","previewFileId":"573ae6b3-bb07-430a-965e-289ff95bf76a","estimatedTime":"9 weeks","createdByUserId":"9eea6f61-ff7e-41b0-8b70-247632f00a8a"}'

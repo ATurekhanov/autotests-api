@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDA0OjI0OjQ1LjU4NzIyMyIsInVzZXJfaWQiOiI5OWZmOGE5Zi1hMzQzLTQwYWEtYTBmMS1kN2E1YzNlMmM1ODMifQ.hJXYL4RMpCy3-tz5hS3hQS9K386jnOpNotARBTvJAHs' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry authority program.","maxScore":50,"minScore":30,"description":"Let suggest my prove everyone. Take medical bit difference paper traditional.\nShare above while. Later sport begin popular prepare often.","previewFileId":"a21153ad-2ae7-4249-af78-edbcfa5d6d64","estimatedTime":"4 weeks","createdByUserId":"99ff8a9f-a343-40aa-a0f1-d7a5c3e2c583"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDA0OjI0OjQ2LjIzNjQyNyIsInVzZXJfaWQiOiI1OTNhYjNmNi03OTdmLTRiMzktYWZhMi0yMWEyNDAwNWJmZjAifQ.EGxwqcDe6ceXUEfYSgjaNX25D9GTV1AFPsLZmTv4MdE' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have meeting best economic like.","courseId":"d18f89dd-571e-4171-9ef4-9a43a2805a7a","maxScore":86,"minScore":3,"orderIndex":21,"description":"Himself resource always opportunity become data good. Although friend within among eight. Road include sport culture whom though.","estimatedTime":"10 weeks"}'
