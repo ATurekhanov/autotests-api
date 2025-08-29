@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ecae916f-124b-4d88-ac22-2c7968302952' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDAzOjU4OjAyLjcyNzM5MSIsInVzZXJfaWQiOiIzN2I2MTRiNC0yNzBiLTQ5YjctODRiOC0zNjEyNGNkNDI0ODcifQ.cbtUQKeg0FrH3l2WwSVPilhwu1e2z8H7FDNsK2F9MRg' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board system bed couple TV.","maxScore":52,"minScore":26,"description":"Hour order collection hand. Mission operation but. Read then anyone in realize common little.\nTruth democratic participant. Scientist keep discussion part.","estimatedTime":"2 weeks"}'

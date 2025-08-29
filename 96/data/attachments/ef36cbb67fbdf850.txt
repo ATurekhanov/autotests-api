@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDAzOjU4OjA2LjU1NTYyNyIsInVzZXJfaWQiOiI0MTZjZjFmNS05ZTFlLTQ0ODUtYThmZC1kNjFkYzgwN2Q4M2QifQ.nf-v-OQm9A9tDvAYYRG25t0LgAj5dJzc3enS0szkA54' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Office year challenge crime identify avoid law.","maxScore":82,"minScore":1,"description":"Life region nature story side evening. Each out hit fund space likely raise.","previewFileId":"421b7d89-6e86-4e53-987a-53839da140f5","estimatedTime":"10 weeks","createdByUserId":"416cf1f5-9e1e-4485-a8fd-d61dc807d83d"}'

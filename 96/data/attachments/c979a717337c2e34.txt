@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDAzOjU4OjA0LjE0OTIwNiIsInVzZXJfaWQiOiJiY2I5NDlkNS02ZTMxLTRhNTgtYjE4MS00ZGE2Y2ZkYjVhNzUifQ.Cabu5BCAIWeDftByKJc6DBeg0DyaoICaTgrDpvhqqfc' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother senior realize early pass step.","maxScore":92,"minScore":6,"description":"Debate choice democratic door. During ever allow produce his beautiful. Myself blood between order space.\nWonder everyone fine foot ten culture environmental. Court trouble life list drop.","previewFileId":"0c6a0a04-ecc7-4938-8fe1-889beec135fc","estimatedTime":"1 weeks","createdByUserId":"bcb949d5-6e31-4a58-b181-4da6cfdb5a75"}'
