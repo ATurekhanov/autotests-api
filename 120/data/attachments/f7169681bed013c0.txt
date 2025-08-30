@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDA0OjIxOjU3LjA4NTk0OCIsInVzZXJfaWQiOiI5YjllMmY2ZC0xMTA2LTQzYmQtOTZlNi00N2UyNzI3YzE3ZGEifQ.N6xB9N6Wz25aSuK_iw6d0xSt5W7L2aT73FgH-EuyZ2k' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Play firm list far play director deal.","maxScore":79,"minScore":23,"description":"Address sit director others plan. Right people century recognize different. Back look might require.","previewFileId":"a0a1b094-a161-4965-a872-eb8c5c69b652","estimatedTime":"2 weeks","createdByUserId":"9b9e2f6d-1106-43bd-96e6-47e2727c17da"}'

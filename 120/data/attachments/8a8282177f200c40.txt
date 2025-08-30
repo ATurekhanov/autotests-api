@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDA0OjIxOjU5LjE5MzE3OCIsInVzZXJfaWQiOiJkYmIwOTk3Zi1kNDBmLTRlOGYtOGZiMC0zMzk5OGJlY2Q5M2EifQ.tABL88bm__5NXmxpEUJ-EscqSXlMimtS4YUOikk2PDo' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Population onto tonight another support bring its be.","maxScore":77,"minScore":5,"description":"Including treatment especially wife ago security rich. Memory nation almost require and. Significant western knowledge exactly low issue the.","previewFileId":"2fcbb9b1-c8ea-4013-a879-9632d9196a6b","estimatedTime":"8 weeks","createdByUserId":"dbb0997f-d40f-4e8f-8fb0-33998becd93a"}'

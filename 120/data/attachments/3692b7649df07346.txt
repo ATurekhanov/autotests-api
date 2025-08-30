@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDA0OjIyOjAwLjQ0MjkwNCIsInVzZXJfaWQiOiIxODcwODZmYi00MmIzLTQ2YTQtODZjNS1jZDM3YWFiNzc1ZWYifQ.k4GCSTgxyosTkYUJapq677GuCoTYwAkJ05XuvJQ0EKo' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper thousand officer worker.","maxScore":56,"minScore":29,"description":"Along decade author ability send. Always can energy lose.\nShare can not letter.\nPresident this here. Kid have north research. Eight manage worry notice.\nTown book near. Hundred run note word mission.","previewFileId":"55b3ccc1-846c-46ab-bfed-f52d509afa19","estimatedTime":"1 weeks","createdByUserId":"187086fb-42b3-46a4-86c5-cd37aab775ef"}'
