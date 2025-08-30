@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/20e80292-a8e0-49ff-b4a6-7f72a0222e37' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAzOjUyOjMwLjM2MDI3NCIsInVzZXJfaWQiOiJlYmI4NzE2YS05OWNjLTQyNmYtYjZhMC1jOWEyZDkyOTExZTMifQ.nmlKyT5AEilQkzTEXFXCzzIuUn5HAWd3gmKccxd7070' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Good down focus change small coach.","maxScore":82,"minScore":16,"description":"Pick conference animal because hold strategy fund. Star including them watch.\nAgain star itself less. Develop sometimes land consumer point.","estimatedTime":"10 weeks"}'

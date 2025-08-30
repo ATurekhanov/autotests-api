@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAzOjUyOjMxLjI1ODYyOCIsInVzZXJfaWQiOiIyMjkzODdmZi00ZGU3LTQ2MDgtYTk5YS0yMTY4ZmM2MGJlM2MifQ.CabxWA7xRPi8_z17KA-WnUEC1g6Nf2veiMSoN_Ej_Gg' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney arm school staff life attention.","maxScore":94,"minScore":18,"description":"Policy move upon especially analysis. Position condition smile yeah condition evening.\nThem body sure tend give teach response.","previewFileId":"22a619b5-3e28-407b-bb66-841b1f28ad8f","estimatedTime":"5 weeks","createdByUserId":"229387ff-4de7-4608-a99a-2168fc60be3c"}'

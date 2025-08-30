@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAzOjUyOjM0LjI0MzAyNSIsInVzZXJfaWQiOiIxNDQ0YmQwYS03OWJkLTQ0MjEtOTBjYi0zZWQ5OWQyYTgxNzQifQ.SuIWw_qyqXRjxMBXCfn_Tq4hq1x4Gb3-xxGOTWhRojs' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice buy before become throughout indeed involve.","maxScore":69,"minScore":15,"description":"Voice single half clearly idea million whatever hair. White despite service person wind market decision. Focus particular argue such keep.","previewFileId":"b0d6f6d7-27c7-4292-9062-8241aaf0847f","estimatedTime":"10 weeks","createdByUserId":"1444bd0a-79bd-4421-90cb-3ed99d2a8174"}'

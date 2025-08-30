@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAzOjUyOjM0Ljg0MTk5OSIsInVzZXJfaWQiOiIyNDIzZjgzZS04M2ZmLTQ5NjQtYTczMC04Y2YxNmE1NmQ4YTYifQ.82UImIvWIdQguGgup27Gm7N5Lc6MAquGtY3trx6MRcg' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fish sometimes another character modern my.","courseId":"2d9781d2-4db9-4e58-bd8f-518a8f3c889f","maxScore":57,"minScore":3,"orderIndex":8,"description":"Firm same business general sort. Couple look suffer task five challenge attorney. Fly drug billion man hope move.","estimatedTime":"4 weeks"}'

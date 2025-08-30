@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAzOjUyOjMzLjYwMzIzOSIsInVzZXJfaWQiOiI1OTkxMzg4NC1iZmJmLTQ3MDYtODkyZS04MDc3MzQzMDZjZmMifQ.wndTpYYsKIuOsnHGx77Gj-HDgnlD0Yokty0MwH5q2Wo' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"End thought project city entire.","courseId":"d052a317-8d15-4d84-b2e8-47b239103c5b","maxScore":94,"minScore":30,"orderIndex":17,"description":"Tree difference cut city difference. Any event enjoy military evidence officer.\nHeart political perform enough. Drop its tell tend anyone continue wait.","estimatedTime":"8 weeks"}'
