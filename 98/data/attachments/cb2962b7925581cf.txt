@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjAxOjAxLjc1MjM4NSIsInVzZXJfaWQiOiIzMzc2N2M3NC03ODcxLTRjNDAtYWZjMS03MzhlZDczZWQxOTQifQ.HY7y6v5-N8OtVWGHAfOjqBHkZbVjueypmNhdrxXFyBc' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense budget blood anything election.","maxScore":93,"minScore":1,"description":"Painting its husband whom federal. Citizen worry present vote.\nStage however however fact among first.","previewFileId":"df7d1c5e-2329-4b36-8b69-7a1435b88469","estimatedTime":"9 weeks","createdByUserId":"33767c74-7871-4c40-afc1-738ed73ed194"}'

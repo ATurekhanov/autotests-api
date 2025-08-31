@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjAxOjAxLjExMjE5NiIsInVzZXJfaWQiOiJkNzg0YzY0Zi0wOThhLTQ1ODktYjMxNi1iNTZiY2YyOWM1MmUifQ.E5M5cG0yAN3nNic__i9ZHSyxls9q-OgKfxacD3MoBXM' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start child gas a image.","maxScore":88,"minScore":24,"description":"Tv star heavy foreign argue four get. Experience attorney try career often. Fly loss beat your half building law.","previewFileId":"c519cfea-e213-4b25-9503-50fceea09ae7","estimatedTime":"7 weeks","createdByUserId":"d784c64f-098a-4589-b316-b56bcf29c52e"}'

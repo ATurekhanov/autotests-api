@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjAxOjAyLjM1OTA0OSIsInVzZXJfaWQiOiI4NTk5MTBmMS05ZGVmLTQxOGItODM5My1kMmQzMWZjZWFiOTAifQ.0UWdbjh6o_RW3UQL47bIE9trGnPZFs_5ijG3ztptsnQ' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"General late enjoy student site.","maxScore":90,"minScore":6,"description":"History return pretty dream. Enjoy various unit party. One commercial care daughter left must.","previewFileId":"84f1ae59-72f0-4c94-9c7a-78713925cedf","estimatedTime":"10 weeks","createdByUserId":"859910f1-9def-418b-8393-d2d31fceab90"}'

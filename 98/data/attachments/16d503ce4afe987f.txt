@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/03e390b4-b3fc-470c-9678-0f9ac1530bb0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjAwOjU3Ljg1MDQ2MyIsInVzZXJfaWQiOiI3ZTllYTk2OC1jZjM5LTRkMzMtOTRmMy00ZDJhMTNkMmQyZGEifQ.LBi9b1U3P5XnWGg0DYJQmmws5dbvmT9sYL1_GY9W15w' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Part treat measure would.","maxScore":94,"minScore":23,"description":"Own real American chance structure run son. Institution little by class less central soldier.\nDifferent least which owner describe world provide. It idea short knowledge.","estimatedTime":"3 weeks"}'

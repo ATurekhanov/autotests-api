@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjAwOjU4Ljc1OTQ5NSIsInVzZXJfaWQiOiI5MmQ5NDQ2NC0yYmU1LTRkODMtYjNjYi00MTBiNmU0N2Y1ZGIifQ.cSZk36OS_RwcBLT051YCXcEQQcGfZoYz8mWSEx5FZlg' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Until explain three hear although be claim.","maxScore":94,"minScore":30,"description":"Throughout of perhaps option last probably. Environment only relationship play fly great interview. Officer toward parent available left church front.","previewFileId":"e9ded4fd-ad5e-4d6b-98b4-89323ec8d420","estimatedTime":"2 weeks","createdByUserId":"92d94464-2be5-4d83-b3cb-410b6e47f5db"}'

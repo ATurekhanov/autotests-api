@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjAxOjAwLjUzMDAxMiIsInVzZXJfaWQiOiI1MzgwOTFmMy1hYzc4LTQ0YzctOTE4ZS01ODRmMzk4YWNkMWYifQ.ZGXeyNRJXzq44uvn3zqIioqfi1ETpbUtnmIr1AKaPmg' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon the since perform.","maxScore":70,"minScore":4,"description":"Account news official control. Artist find somebody third really few. Tonight idea you create place than despite.","previewFileId":"6bb284fa-2523-49b3-a0ef-b44e7b2d3d37","estimatedTime":"3 weeks","createdByUserId":"538091f3-ac78-44c7-918e-584f398acd1f"}'
