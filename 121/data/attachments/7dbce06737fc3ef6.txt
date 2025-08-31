@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjI2OjAzLjM0NjI0OSIsInVzZXJfaWQiOiI0M2E5YzViZC1jYjA3LTQ1NzUtYTE3MS1hNGFkZjczN2QzODIifQ.xwcAHXLokDN3DQbXCd5oKJJIYrYhwtJ-hvKvqpEBt1g' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card recognize focus sea stuff until worry image.","maxScore":89,"minScore":5,"description":"Card a investment suddenly hand. Personal into number side class. Statement officer force charge.\nDecide boy couple moment. Small miss number financial hope try. Fly plant home person.","previewFileId":"0e442280-d03b-4e12-8424-80b579c3b43d","estimatedTime":"2 weeks","createdByUserId":"43a9c5bd-cb07-4575-a171-a4adf737d382"}'

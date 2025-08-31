@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA0OjI2OjAwLjI2NzQxOCIsInVzZXJfaWQiOiI5YjliOGM0Zi00MzAwLTRiODgtOWJkOC0xMzVlN2M4N2FjNWYifQ.YOFEYtb--dYULdf8hlZxW5LJUIRTyfnFeKSHpX7AXnU' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least finally group author name instead involve arm.","maxScore":82,"minScore":27,"description":"Offer their window style ball green he. Page crime concern best world represent mean.\nAgent here chair new number never. Hear high specific program would away strategy.","previewFileId":"8357eeb2-cd82-44c4-9bce-c289faa4ec36","estimatedTime":"6 weeks","createdByUserId":"9b9b8c4f-4300-4b88-9bd8-135e7c87ac5f"}'
