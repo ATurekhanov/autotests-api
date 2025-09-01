@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6ea0726f-21a1-493e-b8cf-ab7925462ae7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjQ2OjU4LjkzNzI1NCIsInVzZXJfaWQiOiI4MDA3NzVjZi0zMjcxLTQ4NDAtYWU2Mi0yOGRmN2ExYTEwZjQifQ.fK3txcL_YpmpuMGB5Nww04fUmNZ1VfhHohEaxHMaKz0' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Conference rock owner minute service wonder.","maxScore":85,"minScore":7,"description":"Pressure bit itself real fight recently. Million rich student director. Professional tough side stuff prevent loss. That order method.\nBegin name minute identify product marriage bit.","estimatedTime":"3 weeks"}'

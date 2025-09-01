@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjQ2OjU4LjkzNzI1NCIsInVzZXJfaWQiOiI4MDA3NzVjZi0zMjcxLTQ4NDAtYWU2Mi0yOGRmN2ExYTEwZjQifQ.fK3txcL_YpmpuMGB5Nww04fUmNZ1VfhHohEaxHMaKz0' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recently see though simply I ball prove.","maxScore":88,"minScore":12,"description":"Treat trip wear environmental note ask source leg. Control upon half human provide difficult. Deep street staff later outside. Food military man political.","previewFileId":"12ff000f-fb34-46fc-9521-b2d008ab7e92","estimatedTime":"2 weeks","createdByUserId":"800775cf-3271-4840-ae62-28df7a1a10f4"}'

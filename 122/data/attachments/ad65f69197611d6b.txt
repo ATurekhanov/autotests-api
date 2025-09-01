@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjQ3OjAwLjA5MDE0NyIsInVzZXJfaWQiOiIyOGUxNmNhNy1iODliLTQxNzMtYTg4MS1iZWM2MmJmM2M0M2EifQ.d0PtAR04yH3B0Ty52v8i2-r-0XIpNwigpYwko3iH1qc' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final sea minute follow weight around heart also.","maxScore":82,"minScore":2,"description":"Hospital picture receive hear plant never see ok. Actually sign light since wish interest hotel. South trial glass clear election sport hand.","previewFileId":"1e2406d2-ea9c-4601-a92d-6a6e61769472","estimatedTime":"4 weeks","createdByUserId":"28e16ca7-b89b-4173-a881-bec62bf3c43a"}'
