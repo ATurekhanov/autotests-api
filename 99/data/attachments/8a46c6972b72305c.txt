@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjE0OjU3LjY2NjI4MyIsInVzZXJfaWQiOiI3MzY5ZjYxYS0zY2Q2LTRhOGMtYjMxNS1lYTM5YTljMWFkMGMifQ.b3COP5Y_xoSyZacNq-lWAk1Z6ZeVS6Dm9rKFI2PCm3c' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Space rich scientist ready recognize everyone.","maxScore":97,"minScore":5,"description":"Long something energy one. Foot staff build particularly.\nRelationship theory agent baby able arm. Without remember significant person voice parent the.","previewFileId":"2d754b47-5020-45a7-8a08-c8d5889f4581","estimatedTime":"10 weeks","createdByUserId":"7369f61a-3cd6-4a8c-b315-ea39a9c1ad0c"}'

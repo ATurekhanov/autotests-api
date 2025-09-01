@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7d537695-8531-4fca-8777-94b7654f2da1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjE0OjU2LjUyMjg4OSIsInVzZXJfaWQiOiI2NGRiYWM1ZS0xZGIzLTQwMzItYjEzNS03MjcxYTA5YTUzOWEifQ.O_SzVXz2cSx0rf0fJreXddo14a59J65IGok31Iq_65o' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability dream movement often.","maxScore":50,"minScore":18,"description":"Often thousand lose. Answer though meeting hair.\nToo performance country with hope. Some college here international second final middle. Above turn position large on much business.","estimatedTime":"9 weeks"}'

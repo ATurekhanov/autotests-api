@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjE1OjAwLjMzNjU4MCIsInVzZXJfaWQiOiIxNmRhNWU1Yi01Y2EyLTQ3MDctOTc3Ny04ZTFiM2E1ZTg2NGUifQ.dLEs4I8hImTLNcfBaLi4BKWtfqPSeo7rGT9SKbWNZ4o' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trouble recent affect throw.","maxScore":92,"minScore":16,"description":"Experience spend read five base tonight. Stuff ever movement forward. Turn what best several fish red.","previewFileId":"3534e7c8-cfe8-45b2-befe-45cc8c5df849","estimatedTime":"6 weeks","createdByUserId":"16da5e5b-5ca2-4707-9777-8e1b3a5e864e"}'

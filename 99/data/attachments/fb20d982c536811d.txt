@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjE0OjU2LjUyMjg4OSIsInVzZXJfaWQiOiI2NGRiYWM1ZS0xZGIzLTQwMzItYjEzNS03MjcxYTA5YTUzOWEifQ.O_SzVXz2cSx0rf0fJreXddo14a59J65IGok31Iq_65o' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Raise amount then success air.","maxScore":92,"minScore":24,"description":"Democratic poor member wall improve nearly wait lawyer. Contain structure my bank message throughout lawyer.\nMatter begin dog still door bar such. Camera name measure charge similar common try again.","previewFileId":"37f2abe8-e99a-4de3-b82c-fe3e13fdbc32","estimatedTime":"9 weeks","createdByUserId":"64dbac5e-1db3-4032-b135-7271a09a539a"}'

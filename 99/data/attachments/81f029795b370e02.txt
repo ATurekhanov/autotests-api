@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA0OjE1OjAwLjk5NTY3MSIsInVzZXJfaWQiOiIxNWQ5ODIyMi1jOWQ3LTQ2NjUtYmIyYS1kY2NhYzFlNzE5MDgifQ.OYVnZvP0V59w7fALuTENmXJ30f9UJ9AaKuMoYHP-C2A' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trial involve test mission.","maxScore":88,"minScore":2,"description":"Age hour radio then itself line. Fill simple bring meet. National point report party language wrong adult. Of art value beat about like.","previewFileId":"69e2e726-54cc-46f4-aa81-985af6a92103","estimatedTime":"5 weeks","createdByUserId":"15d98222-c9d7-4665-bb2a-dccac1e71908"}'
