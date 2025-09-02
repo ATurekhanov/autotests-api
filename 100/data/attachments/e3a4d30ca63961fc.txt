@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjAyOjM3LjUzNjYwMyIsInVzZXJfaWQiOiI3ZWRkNThmZS00ZGJhLTRlZTgtYmJhNS01YWIzM2NmYjliYTcifQ.nsG550wQhw0kH1u5GYUJE4SF2XfnRo-Og9s2PzwuC9Q' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even himself address consider paper rise.","maxScore":85,"minScore":20,"description":"Will less speech person scene back. Book son fire power member others none. Hotel board image subject also before goal.\nAs language eight evening compare floor on.","previewFileId":"31754fee-b6d6-4a42-9471-ccfba40e773a","estimatedTime":"6 weeks","createdByUserId":"7edd58fe-4dba-4ee8-bba5-5ab33cfb9ba7"}'

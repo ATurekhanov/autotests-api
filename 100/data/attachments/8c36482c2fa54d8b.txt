@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjAyOjM4LjE3NjIxMiIsInVzZXJfaWQiOiJmNDQxMGJhZC0xNjljLTRkYWYtYWIxYy04ZjNjOWI2MzM3NjIifQ.quZu4RwSb-qpGibZzYX_IRxBthSyq8nNTFeg2X417sw' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President professional trial source trade.","maxScore":63,"minScore":12,"description":"Store at child wait list field rather brother. Production society describe rather customer green great.\nOwn media never wrong table cover before really. Drug seem generation site.","previewFileId":"3898740b-b71a-4222-8930-c5f946e5f4f5","estimatedTime":"7 weeks","createdByUserId":"f4410bad-169c-4daf-ab1c-8f3c9b633762"}'

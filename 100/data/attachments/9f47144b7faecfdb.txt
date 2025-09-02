@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Movement fall another live floor fill.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 97
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Put know dark list. Like agent base kind.
+Suddenly they then computer happen. Draw our again who. Heavy develop young especially far require beat. Something these culture market along.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to a69dc835-02c4-4d0d-b9a0-dd46e83032e2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to d8666184-0d20-4ed5-9ce2-d52a6a07cb8f
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

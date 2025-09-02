@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjAyOjM2LjM1OTg2NyIsInVzZXJfaWQiOiI2YTE4OTQ5YS00ZjIzLTQwMjYtYTFiZi01ODQwZTllMzcyYzAifQ.kbiDrr0aqdeROZ2ucYwmHRyDCS4U-DlWrl7H55N9vkw' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Television professional cover.","maxScore":69,"minScore":3,"description":"Interesting exactly some president.\nSerious teacher send hand respond. Pass my husband particularly picture science.","previewFileId":"e8e6a029-9634-4c04-b8b0-502529ed8baa","estimatedTime":"8 weeks","createdByUserId":"6a18949a-4f23-4026-a1bf-5840e9e372c0"}'

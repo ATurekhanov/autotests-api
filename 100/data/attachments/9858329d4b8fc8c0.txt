@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjAyOjM4Ljc2NTczMCIsInVzZXJfaWQiOiIyODdkZDkwMi04Y2E4LTRmYzEtYmUxYy1lMzgyMjg0ZmYzMzcifQ.FbHdmE8kSOKSZookdxmvBOcPXJY35C4MaAO_zh9abtA' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thus mouth throughout someone indeed way.","maxScore":98,"minScore":17,"description":"Price father letter international buy will factor. Well opportunity design bring. Building question Democrat key threat.\nImpact give front store. Conference really paper themselves general direction.","previewFileId":"cbb0dd4a-ad9c-47b5-ae93-730112805081","estimatedTime":"2 weeks","createdByUserId":"287dd902-8ca8-4fc1-be1c-e382284ff337"}'

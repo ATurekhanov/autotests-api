@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjAyOjM0LjkzODc1MyIsInVzZXJfaWQiOiJjYzVkZGNhMC0yNjcyLTRiZDMtOGQzYy0yZWRmNTE2NTYyMWQifQ.yNVBGoBemHPl784gludtIO8mo05OTo0ztT1k9jQUjkI' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Project board apply attack together trade.","maxScore":76,"minScore":6,"description":"Style group religious player keep before. Style low effect movie anything. Short soldier page participant worry.","previewFileId":"2414b930-c8e2-4915-8286-4d07227a0205","estimatedTime":"3 weeks","createdByUserId":"cc5ddca0-2672-4bd3-8d3c-2edf5165621d"}'

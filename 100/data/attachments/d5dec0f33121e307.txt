@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjAyOjM2LjA4NjM1MyIsInVzZXJfaWQiOiJkODY2NjE4NC0wZDIwLTRlZDUtOWNlMi1kNTJhNmEwN2NiOGYifQ.hruWuAfVu9NsWClucirdaYXlo6yX_dexCTcP0mRTbJk' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement fall another live floor fill.","maxScore":97,"minScore":6,"description":"Put know dark list. Like agent base kind.\nSuddenly they then computer happen. Draw our again who. Heavy develop young especially far require beat. Something these culture market along.","previewFileId":"a69dc835-02c4-4d0d-b9a0-dd46e83032e2","estimatedTime":"10 weeks","createdByUserId":"d8666184-0d20-4ed5-9ce2-d52a6a07cb8f"}'
