@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjI3OjEyLjU3NzgxNSIsInVzZXJfaWQiOiJhYzVkYWQ5NS1lZGM5LTRmOGUtOTliNi1lNDgxZjRmZjhhYWUifQ._26z8WsPWGX0XLMj8cucwe-qZ-F6QdgPntRswfsU5FA' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Against speak loss onto town mention.","maxScore":93,"minScore":7,"description":"Contain north building provide. Part size discussion week camera serve. Boy take into president.","previewFileId":"2291808e-5a1c-4b01-9797-99079434a73b","estimatedTime":"4 weeks","createdByUserId":"ac5dad95-edc9-4f8e-99b6-e481f4ff8aae"}'

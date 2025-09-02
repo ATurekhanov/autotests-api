@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjI3OjEzLjgwOTM0NCIsInVzZXJfaWQiOiJhYTRkZjNiMi1hZmIzLTQzY2EtODgzOC1hMTNjNTA5ZjY5NzgifQ.7rPCfHhqJLSWYxr6VYm8I2qoyGVpf6vcRg3l9IR7gdk' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son capital voice family back might.","maxScore":95,"minScore":14,"description":"Red hand whom police my wait. Race quality piece discuss concern million.\nYou work drive even it prepare add. Property whom western national.","previewFileId":"3cc4253e-c6ab-4ded-9fad-61eac9052563","estimatedTime":"6 weeks","createdByUserId":"aa4df3b2-afb3-43ca-8838-a13c509f6978"}'

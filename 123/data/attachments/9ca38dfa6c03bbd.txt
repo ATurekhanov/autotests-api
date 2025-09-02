@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjI3OjExLjM5NzQzNCIsInVzZXJfaWQiOiJmZWM5M2Q2Ny01ZWQ5LTQzNjMtOWJmOS00MTZkNmZjNGQyNTIifQ.SQt9vtv2oS1oxYI9gUQNsSOV7ZYqmEGRpxs80mZg6OA' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Inside once science if involve middle.","maxScore":78,"minScore":27,"description":"Win forget day accept feel budget amount. Respond commercial better keep drive without.\nDaughter serious on piece teacher study. Election door education near not himself building.","previewFileId":"063d0c81-dcdf-4410-8d17-86e34ed78785","estimatedTime":"5 weeks","createdByUserId":"fec93d67-5ed9-4363-9bf9-416d6fc4d252"}'

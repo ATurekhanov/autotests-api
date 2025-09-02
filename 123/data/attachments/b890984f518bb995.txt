@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjI3OjEzLjIxNTY5NCIsInVzZXJfaWQiOiIxYjdhZWQ4Ni1hODE1LTQ5MTEtYmJkMi01OWE3YmI1NTYwNmQifQ.VGZp_HoixZ0v06XyM6cVSerNCaDLMdpNmjt2n4x2o_Y' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word two enough lead various.","courseId":"3484756a-76a4-4e17-acd5-ce233d7bf001","maxScore":60,"minScore":22,"orderIndex":41,"description":"Kind miss treatment suggest. Wrong up service almost political method. Citizen figure indicate method product name reflect action. Student policy ask deal day.","estimatedTime":"5 weeks"}'

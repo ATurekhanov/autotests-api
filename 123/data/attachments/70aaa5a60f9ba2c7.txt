@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c99ba638-1a9d-4d5a-a195-14f0db74f661' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjI3OjA5Ljk4MDg2NyIsInVzZXJfaWQiOiJhNGFiZjJlNy0zM2Q5LTQxNjEtYTRmNy1lZDMxZTQwZjZjOTAifQ.B5tpE6jJcdceI9NRPFbtPFdikcNfOF7-VFxcLRKH0rg' \
+  -H 'content-length: 269' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Military result likely any.","maxScore":73,"minScore":28,"description":"Build police bed rate party. Listen mention boy single. Official create usually through director.\nSkill where common role. Appear boy home big animal he care.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/25755bcd-49ae-489b-9fd2-b61cf4048258' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDA0OjI3OjE0LjQ2NTE5NCIsInVzZXJfaWQiOiJhYWRhZDNhMS05MWE3LTQ3Y2EtYmNlMS1iMGY1NmRjMGJhZDgifQ.Iid9qYb_c0U7K3E1kgVjO7IkbBPy_h-aMIymr059qw4' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lawyer somebody catch middle.","maxScore":60,"minScore":29,"orderIndex":13,"description":"Entire cup team direction question job mission truth. Lose government generation. Bit pattern their store. Television source thousand military car end often.","estimatedTime":"1 weeks"}'
