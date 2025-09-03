@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAzVDA0OjIxOjQ5LjcxNjcwMCIsInVzZXJfaWQiOiIzOGI2NTFjNS04NGQ1LTQ4ZjYtYjc5OC00ZmM0NTI4NzNjOTkifQ.b29Osromsdesm-dACmQdD50fph10masmbQ6jDwT290c' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person memory physical enter.","maxScore":72,"minScore":7,"description":"Majority once effect happen. Official responsibility quite also official which. Most price wind federal drive difference event.","previewFileId":"c194f96d-9ee2-4666-bcb7-d279e27239b1","estimatedTime":"2 weeks","createdByUserId":"38b651c5-84d5-48f6-b798-4fc452873c99"}'

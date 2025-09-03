@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/023d0a43-782a-4d62-adf3-430388965445' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAzVDA0OjIxOjUzLjAwNzY2NyIsInVzZXJfaWQiOiJjYzQ4NzljOS03NTM3LTRmZmQtOTYwYy1lM2ViMzc5NTIxZDIifQ.OcU2gPTUOXgBzwNp9hWW7Gn9RhT73WEFT1v0l93xpF4' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly and lose ask admit reason purpose.","maxScore":73,"minScore":3,"orderIndex":64,"description":"Vote young price picture same defense. Simply factor blue strong ready. Lawyer heart collection foreign board.\nCost begin know system article seven television.","estimatedTime":"1 weeks"}'

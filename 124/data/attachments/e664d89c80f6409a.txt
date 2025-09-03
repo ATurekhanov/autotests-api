@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAzVDA0OjIxOjUwLjg5MTIzNyIsInVzZXJfaWQiOiIxODU5NWFjYi1iZmZkLTQwODktODk0MS0zMDY2MGVhNGUyNjEifQ.pClSuqOJqt2a0w-xqVeGH5FCuSsVADv3szynvJfAAiE' \
+  -H 'content-length: 242' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Under want easy need edge.","courseId":"49556bd6-3ad1-47a5-93f5-83c1e3fe0785","maxScore":61,"minScore":21,"orderIndex":63,"description":"Sit raise business left write others. Current us international why.","estimatedTime":"9 weeks"}'

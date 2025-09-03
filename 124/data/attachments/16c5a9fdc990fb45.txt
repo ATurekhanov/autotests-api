@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAzVDA0OjIxOjQ4LjU2NTUyMCIsInVzZXJfaWQiOiIxZWQzNWI2NC03ODY5LTRhNzktYTZmOS0yZmM0MDNmZTU2ZDEifQ.OaawgNqoRd-8A2STbmxWiO0UYOOtBL-2A1nubZhx-Nw' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop its bed lawyer stay all across.","maxScore":74,"minScore":28,"description":"Lot apply computer free well major rock take. See statement bank big story. Air lay address social.","previewFileId":"237c202a-8c38-403b-beb4-830ee3103596","estimatedTime":"9 weeks","createdByUserId":"1ed35b64-7869-4a79-a6f9-2fc403fe56d1"}'

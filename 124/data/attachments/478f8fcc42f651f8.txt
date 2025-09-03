@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAzVDA0OjIxOjUxLjE2NDMzNyIsInVzZXJfaWQiOiI3OTUwNjYxOC00YTdkLTQyNzQtYjc4MC0yNTMwNWExZDI4NGIifQ.0eqgJHIHntDgH2-4hrqNX4ClSYWhlIw9e1Zm05h3WYI' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Employee none choice thus simply represent agreement.","maxScore":81,"minScore":22,"description":"Paper before adult nearly land president. Why brother whom radio mission within truth. Spring early agree purpose yourself. Throughout camera town expect reason.","previewFileId":"95e57331-6f0f-4d10-ab8d-cb990b421d93","estimatedTime":"5 weeks","createdByUserId":"79506618-4a7d-4274-b780-25305a1d284b"}'
