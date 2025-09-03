@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAzVDAzOjUwOjAwLjg0NTA4NCIsInVzZXJfaWQiOiJhOGUwNWU4NC1iMzIxLTQ5NTAtYWRlYy00Njc4YzU3M2Q3YTQifQ.KiuXKCZykDuZX_e9-gn6igB6wQM8y9X3cf-g_bAly9k' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Field down firm PM while program.","maxScore":63,"minScore":28,"description":"Middle education much wide seat message. System high wind reduce when couple. Board stay home short majority development piece.\nSkill simple tell civil occur them need. Most war set stock.","previewFileId":"97c2b23d-9217-4aea-9fbf-9e1171d44be9","estimatedTime":"2 weeks","createdByUserId":"a8e05e84-b321-4950-adec-4678c573d7a4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAzVDAzOjUwOjAwLjI1ODQ4NiIsInVzZXJfaWQiOiI1ZWIyOGQzZS02ZDZiLTRkYWYtYWEyZC00ZGY0ZGEzYThlZDMifQ.ftOClPBAy9iGOgOs7nhfRmgGRhm4nPW_7JhRXhVxTR0' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek trial turn dinner whom science.","maxScore":99,"minScore":17,"description":"Deal current strong painting wrong area way. Window actually subject week officer school. Candidate billion later.\nFinish record business page watch. Ok leader hand day.","previewFileId":"f2eaff37-5d53-44a3-9727-e782a0e88a2f","estimatedTime":"10 weeks","createdByUserId":"5eb28d3e-6d6b-4daf-aa2d-4df4da3a8ed3"}'
