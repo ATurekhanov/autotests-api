@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDAzOjUwOjQyLjI4MDY3MCIsInVzZXJfaWQiOiI0ZDdhYjc1ZS1kOGNkLTQzNTQtOWQzYy0zMzUzOWIyNDY3OWMifQ.uz8-nKF6I2Dmm1TPcNkLZqtCPJ-FYsZnZdfl1Neu50E' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Edge point standard interest much wall.","maxScore":66,"minScore":5,"description":"Nation herself pick size where necessary. Candidate court according within.\nPractice future event. Ok anyone economic single environmental lot environmental. So rest region name little see operation.","previewFileId":"442f520c-d801-4aaa-bd71-a89706ac23c3","estimatedTime":"8 weeks","createdByUserId":"4d7ab75e-d8cd-4354-9d3c-33539b24679c"}'

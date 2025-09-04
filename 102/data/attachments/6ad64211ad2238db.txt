@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6fb5704c-9b19-4a63-999f-060a029cfd96' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDAzOjUwOjM5LjYyMzMwMCIsInVzZXJfaWQiOiJjYTg3NjIwNy05YWUzLTRkMzYtODk4NC03NzVhZTY3NWFmMTAifQ.XOCjb9JVd0NYoFd6xkGSvj0W2FerNU_cWWrAFSlY5oA' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another throughout trade season success medical create.","maxScore":61,"minScore":16,"description":"Red cold join the listen why expert. Generation within drive whether least ball. Conference now book face address staff.","estimatedTime":"10 weeks"}'

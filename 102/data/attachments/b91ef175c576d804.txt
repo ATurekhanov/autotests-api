@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDAzOjUwOjQyLjg2MjYzMyIsInVzZXJfaWQiOiJjYTcyN2M5NC1hMGFlLTQyNWYtYTFjOS02NWI0NWU1NzcxNmIifQ.ejaMurJF7hdgnfkCQFSxT151SAjcNR5R_nWncTCNAY0' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kitchen career walk nothing.","maxScore":84,"minScore":2,"description":"Time season pick play foreign record spend. Floor event work scientist start force.\nGroup sing challenge anything despite. Resource it police determine. Affect truth agency since.","previewFileId":"bba745aa-8ef2-46c9-a60f-ce09a7cba216","estimatedTime":"9 weeks","createdByUserId":"ca727c94-a0ae-425f-a1c9-65b45e57716b"}'

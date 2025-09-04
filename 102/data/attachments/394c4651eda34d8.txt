@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDAzOjUwOjQxLjY5NjE2MCIsInVzZXJfaWQiOiJmYzhkOTcxNC03N2RkLTRmYmEtYjc0MC1iMTYzNjlmY2YyODAifQ.94VjtkWqAPFm2S6VQn3fgh8Sv5ZOHHI37fbILHCIbGI' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy design perhaps moment personal.","courseId":"a10d8f96-3401-4069-8f56-e6bcad85d0f1","maxScore":100,"minScore":27,"orderIndex":62,"description":"Move serve bring safe animal. Third because economy still score become.\nHundred business voice gas scene. Population both great trade.","estimatedTime":"1 weeks"}'
