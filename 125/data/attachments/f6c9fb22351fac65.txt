@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDA0OjIyOjExLjg2OTY2NSIsInVzZXJfaWQiOiJjNmY0YTk3Zi0yYjIwLTRiNTAtYjY1Mi03YjQ4ZjU3YTgzOWEifQ.d6jwwOhvG1izJHwnh4GCL4A_CiXo6pNqQlpAXb9yKDQ' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase garden economy husband truth adult manage poor.","courseId":"4447a5fb-b214-4923-96e8-e36a989759f0","maxScore":77,"minScore":13,"orderIndex":49,"description":"School focus cup difficult news shake cause. Position character may.\nFeeling their evidence maintain become. At region prevent decade type green approach. Behind tough some support turn where thing.","estimatedTime":"1 weeks"}'

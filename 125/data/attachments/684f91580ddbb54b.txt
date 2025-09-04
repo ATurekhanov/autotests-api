@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDA0OjIyOjEwLjY5NDk3NSIsInVzZXJfaWQiOiI0N2MzODYwZS1hMzg2LTRmOTktOTNlMi1lY2I4YmZmNGM2OGIifQ.D5SGeYqV0iGhASYz2J0FZYMOU_ZMSQ2FyGbz5tkvhd8' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Record stage page style maintain become too face.","maxScore":60,"minScore":16,"description":"Out age group never. Ok wish finally left whole top.\nAffect have trade involve value science. Nation option now range sister machine culture. Will feeling miss live situation room.","previewFileId":"5571fd52-31a1-4978-b642-7caddfd8364d","estimatedTime":"6 weeks","createdByUserId":"47c3860e-a386-4f99-93e2-ecb8bff4c68b"}'

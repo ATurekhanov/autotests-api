@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDA0OjIyOjEzLjA5Njc0MiIsInVzZXJfaWQiOiIzNjBlZTNlZC1iYzllLTRmOGEtOWRmOS0yZDE1ZWZkMDY0ZDgifQ._jWRF-KMpMwe8T_vOYnv-f5AGyvaMWk8wrO2tRrn-Co' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold federal mission again station race attention.","maxScore":94,"minScore":10,"description":"Win from new information. During particularly include education blue reason place star. Human if sister player home husband follow.","previewFileId":"3bdf0dec-89db-43b4-b083-2f45348bffbd","estimatedTime":"8 weeks","createdByUserId":"360ee3ed-bc9e-4f8a-9df9-2d15efd064d8"}'

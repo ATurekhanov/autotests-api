@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDA0OjIyOjExLjg2OTY2NSIsInVzZXJfaWQiOiJjNmY0YTk3Zi0yYjIwLTRiNTAtYjY1Mi03YjQ4ZjU3YTgzOWEifQ.d6jwwOhvG1izJHwnh4GCL4A_CiXo6pNqQlpAXb9yKDQ' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular soldier lay apply rather country.","maxScore":68,"minScore":12,"description":"Dream defense tree girl garden sense explain. The save huge.\nCommon pay month. Son late reach get speech allow.\nThey girl management it. Door card recognize bed. Point base huge popular above.","previewFileId":"e1ce0066-0293-4b3c-8b03-8395cda5abae","estimatedTime":"6 weeks","createdByUserId":"c6f4a97f-2b20-4b50-b652-7b48f57a839a"}'
