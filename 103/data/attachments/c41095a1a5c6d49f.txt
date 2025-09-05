@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDAzOjUzOjU0LjEyMzQxMSIsInVzZXJfaWQiOiJiZTFhZjcyMS01Yjc5LTQ5MzYtOTU2Yy0wNDI4YWNlNWMwMzAifQ.vQAUR8YAG4RR9gUe1NsxwoYp9cthOWq30RptMWtZTiA' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need shake experience region involve however.","maxScore":74,"minScore":17,"description":"They protect commercial market ground bring. Despite fine be girl even civil cost. Concern TV win pass add value.\nControl everybody put tonight. So before budget person late west ask.","previewFileId":"d95b31d2-f9b6-4d18-8304-68b1d3511d2c","estimatedTime":"8 weeks","createdByUserId":"be1af721-5b79-4936-956c-0428ace5c030"}'

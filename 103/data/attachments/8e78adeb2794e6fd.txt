@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDAzOjUzOjU2LjIyNzY3NiIsInVzZXJfaWQiOiI4Y2YxNWZmZC0yMGE5LTRlMTUtYjJlMy0xMDM2MzJlMmI0ODkifQ.gN-ViPGYACEVUwLjR1olJx6vSffy0RSkHejTiGPPaFM' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity deal today behavior lay sometimes.","maxScore":84,"minScore":18,"description":"Under already beat common material society. At environment collection tax should down short. Range good onto onto play.","previewFileId":"17f0d0b1-060d-413e-9c4e-c81f7e77b307","estimatedTime":"7 weeks","createdByUserId":"8cf15ffd-20a9-4e15-b2e3-103632e2b489"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDAzOjUzOjUyLjk2ODI3MyIsInVzZXJfaWQiOiIxYWJjZThhOC0yM2QxLTQ0MDItODA2ZS1jZTNjODhlNmNlYmYifQ.z77YDSxHKoXL8i95ARjUbkpU84ilO1DNuPbMHXo0cNE' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build father happy lot grow tree.","maxScore":63,"minScore":2,"description":"Send seat take standard. Total later avoid picture practice become interest.\nName also dog affect treat social and. Onto reach may style third. Contain country ask establish ten economic magazine.","previewFileId":"4c78c0a5-8890-476c-8578-60dfc5389439","estimatedTime":"10 weeks","createdByUserId":"1abce8a8-23d1-4402-806e-ce3c88e6cebf"}'
