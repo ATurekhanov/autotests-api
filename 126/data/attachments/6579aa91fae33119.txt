@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDA0OjIzOjM4LjQ5MTQ3OCIsInVzZXJfaWQiOiIyNWJkNjhkMy0xOTA3LTQ1ODItYjYwYi1hNDY0MjY4YjM5NWIifQ.9AQ3IpwHtfK8C4XNyESOhWpirbjgftBGZM_DOB-SLEY' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difference often hold.","maxScore":82,"minScore":18,"description":"Spend result reduce important picture court thus. But meeting every. Force leg air pass upon letter.","previewFileId":"1404bb54-227f-4948-9133-fb1f92a6fa6e","estimatedTime":"4 weeks","createdByUserId":"25bd68d3-1907-4582-b60b-a464268b395b"}'

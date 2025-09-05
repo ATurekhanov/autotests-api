@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDA0OjIzOjM4LjQ5MTQ3OCIsInVzZXJfaWQiOiIyNWJkNjhkMy0xOTA3LTQ1ODItYjYwYi1hNDY0MjY4YjM5NWIifQ.9AQ3IpwHtfK8C4XNyESOhWpirbjgftBGZM_DOB-SLEY' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Country a return commercial.","courseId":"0afa16d2-7fe6-4298-b46d-0ca5ccf9c294","maxScore":72,"minScore":29,"orderIndex":98,"description":"Service trip leave soon. Visit summer fight defense huge down how.","estimatedTime":"7 weeks"}'

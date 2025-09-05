@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDA0OjIzOjM3LjI1MzkxMCIsInVzZXJfaWQiOiJhOTI2YTk3My02ZTI5LTQ2MmQtOWExNy1lZGJiMWYxZjAyNjYifQ.eFlG2vXl0ifRHA0RnJiCPa82jD8HgIr6SnVybuYvrR4' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive develop need without.","maxScore":79,"minScore":6,"description":"Miss process couple throw cell employee that age. Month wonder see young what behind imagine life. Her Congress form free current.\nDeal cultural south. Or tax cold long yard.","previewFileId":"24eb15bb-3e27-4956-b731-f656dce3a231","estimatedTime":"10 weeks","createdByUserId":"a926a973-6e29-462d-9a17-edbb1f1f0266"}'

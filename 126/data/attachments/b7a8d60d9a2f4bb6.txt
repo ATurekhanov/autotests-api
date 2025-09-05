@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8d3d431d-ad05-40b3-9696-88725f9338ae' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDA0OjIzOjM0LjY0NDIyOCIsInVzZXJfaWQiOiI1M2Y1ZjI5Ny02ZTA0LTQ0MmItYjU0NC03OTY2YjU2YzVjNzUifQ.b62Xmm-VNhTpTsupPtyk2jSKU8a5Vst8axaLO8nAjgc' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Support own perform recognize pay trouble.","maxScore":65,"minScore":12,"description":"Sign return clearly. Economy research southern because sometimes positive theory exactly. Student something table herself large share recently per.","estimatedTime":"1 weeks"}'

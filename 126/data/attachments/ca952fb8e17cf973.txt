@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDA0OjIzOjM0LjY0NDIyOCIsInVzZXJfaWQiOiI1M2Y1ZjI5Ny02ZTA0LTQ0MmItYjU0NC03OTY2YjU2YzVjNzUifQ.b62Xmm-VNhTpTsupPtyk2jSKU8a5Vst8axaLO8nAjgc' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden thought outside.","maxScore":91,"minScore":10,"description":"Seek sometimes establish investment authority. Employee here push current hour senior ok.\nExactly everyone western interesting. Speech move create try. While least form natural think begin compare.","previewFileId":"c1a0dda9-d3b8-48f4-ba74-0282b9b39443","estimatedTime":"7 weeks","createdByUserId":"53f5f297-6e04-442b-b544-7966b56c5c75"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDA0OjIzOjM2LjA3NjI2NiIsInVzZXJfaWQiOiJlNTNiNjM2MS02ZjdkLTQxZTYtYTQwNS00N2NlMzdlMDAyZTIifQ.tE9RPU4CgRywY2q51GMADbWhgq4YwStb8evBsTiDdjI' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive above manager.","maxScore":76,"minScore":13,"description":"Movie find seven hundred interest. Three morning white smile glass.","previewFileId":"d2e86556-226a-47bf-a636-299e12f0a1df","estimatedTime":"8 weeks","createdByUserId":"e53b6361-6f7d-41e6-a405-47ce37e002e2"}'

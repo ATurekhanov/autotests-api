@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA1VDA0OjIzOjM1LjgwMzMwMCIsInVzZXJfaWQiOiJhYzVlYzIyZC0xMDgxLTQzZDAtODZhNi0zZGI2M2RjODMyYjMifQ.pUojZkZP-jq74CsYo0LzjUCiccDWqaARGAEo1hmC_to' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book instead ground place along.","maxScore":78,"minScore":24,"description":"Subject middle remember hot strong three difficult.","previewFileId":"08958518-763c-42ed-86bc-3528d55a88a3","estimatedTime":"6 weeks","createdByUserId":"ac5ec22d-1081-43d0-86a6-3db63dc832b3"}'
