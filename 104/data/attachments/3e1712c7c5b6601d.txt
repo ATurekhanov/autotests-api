@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/60a6e10d-e4f8-4925-9123-f8a46586233b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDAzOjQ5OjE3LjQzOTAxOCIsInVzZXJfaWQiOiI2NTJiZGM5Zi00NjNjLTRkNzgtYTQ3ZS04YWVmYjY4MGQ1ZGYifQ.HjMkFh3Sq2Ei02IIIaFNHR1KBZSLQ4gVjbxyN1hXfco' \
+  -H 'content-length: 216' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate job middle rate state build.","maxScore":60,"minScore":18,"description":"Admit message player couple base. Respond television upon page. Them analysis note interest there.","estimatedTime":"6 weeks"}'

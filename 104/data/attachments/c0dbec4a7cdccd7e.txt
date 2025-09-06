@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDAzOjQ5OjE4Ljg1ODA3NCIsInVzZXJfaWQiOiJjOWQ0OWJmNi1mMzI1LTRmNTQtYWYxMy1iYWZlMmZlOGU2ZWUifQ.Buap8MyQSuXRmXknI_lseCgsS0h6m4SkVMcH2ZpustI' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There article probably TV skin.","maxScore":51,"minScore":7,"description":"Teacher can away card up. Full participant see group start guy suddenly. Less just dinner us quite number.","previewFileId":"9ac72b05-05ca-49d8-b9ca-414e8ce9798b","estimatedTime":"3 weeks","createdByUserId":"c9d49bf6-f325-4f54-af13-bafe2fe8e6ee"}'

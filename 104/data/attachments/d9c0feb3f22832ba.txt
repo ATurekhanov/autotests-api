@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Finish cultural direction watch now attention.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 8621c94c-7c20-4c2e-8bf9-c6517aaf1dee
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 34
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Boy kitchen national ball. Market high knowledge on history. News operation who quite themselves.
+Time religious ball. Total cup majority have.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

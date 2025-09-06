@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDAzOjQ5OjIwLjAzNjQwMSIsInVzZXJfaWQiOiJlOWY4Njg5ZS03ZTZjLTRiOTItYWEzNi1hNWIyYTM3ZDZiNGMifQ.Bh0nYqSKdS4-9G3Jgakg3s0Uqa5Baf0SiLYUfWKrsM8' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Morning remain everybody leg project Mr.","courseId":"d996e92e-3150-40b7-95c2-467823c39442","maxScore":72,"minScore":28,"orderIndex":13,"description":"Republican itself that. Nature buy seek foot beat. Community place suggest speak already affect against authority.\nInvestment be of space full perhaps sport body.","estimatedTime":"1 weeks"}'

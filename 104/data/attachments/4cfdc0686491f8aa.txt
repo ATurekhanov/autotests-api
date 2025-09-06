@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDAzOjQ5OjIxLjkxNzIxMyIsInVzZXJfaWQiOiJlOWFmOGZkMi1hZWE4LTRkOTQtOTNjZi03ZGFiMDE4MDhlYzYifQ._QCjeJ_LiszUVszAqYegBtJvbYsNbuML0qn3nZ7y2D0' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say reason industry cold already others after.","maxScore":88,"minScore":8,"description":"Especially probably morning majority responsibility speak. Occur result walk southern make. Land involve keep always consumer reason force part.","previewFileId":"d49c3e81-6ae1-44cd-8cfb-20dcea6d0a84","estimatedTime":"4 weeks","createdByUserId":"e9af8fd2-aea8-4d94-93cf-7dab01808ec6"}'
