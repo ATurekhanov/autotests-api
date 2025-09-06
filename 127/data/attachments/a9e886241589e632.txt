@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDA0OjIxOjQwLjk0ODIyOSIsInVzZXJfaWQiOiIxYjE1MjdiMy1lMDk4LTRlYjItYWZmYS01ZDEyMjIwNjEzOWQifQ.tmyvq2_UDT4Unc59Tnu66eRaDq_DYFnQsJMN0Or7Z3k' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Listen light war message debate choose.","maxScore":98,"minScore":11,"description":"Avoid tax sometimes.\nColor like learn away tough ready.\nIncluding stuff nice. Cover improve enter get. Among car spring key enough dark.\nGuess receive thought wrong couple maybe structure land.","previewFileId":"7d64d550-ba85-4fa3-9e46-7bc930cf266b","estimatedTime":"4 weeks","createdByUserId":"1b1527b3-e098-4eb2-affa-5d122206139d"}'

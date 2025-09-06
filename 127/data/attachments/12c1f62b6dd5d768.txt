@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDA0OjIxOjM5LjUyNDU0MyIsInVzZXJfaWQiOiJiNjQ5OGU2Yi1lOTIwLTQwZGMtOTA3OS1lNmVhYzFkYjVkMzYifQ.HlT1pudFlP7u0bytn6l6NVXyL9Erdjt_WGNHNOs9r4k' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Name building dog each clear agent four alone.","maxScore":75,"minScore":2,"description":"Note either value up at risk significant. Test become could political. Everyone represent tend society nice most.\nPerformance world mouth another far. Own least term quite if level already evening.","previewFileId":"69974c41-6601-4a76-8723-2d0a66778e40","estimatedTime":"2 weeks","createdByUserId":"b6498e6b-e920-40dc-9079-e6eac1db5d36"}'

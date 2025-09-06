@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDA0OjIxOjQwLjY3NTE5MiIsInVzZXJfaWQiOiJlZDNhMzMyNy00M2YwLTQ3NWYtOWY0Zi1mNmM5NjAwNjI0ODkifQ.8xwJ4yelC59JcnX1ZQ66_RHY-DNFW1unWljrhWgxS0U' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less eight ball look right.","maxScore":97,"minScore":19,"description":"Science son official. Try white space. Light sign less great prevent baby.\nProbably house near news house. May finally economy. Six national low here poor guess she.","previewFileId":"f36cac5b-88e7-4805-8abe-4c0f1e975caf","estimatedTime":"7 weeks","createdByUserId":"ed3a3327-43f0-475f-9f4f-f6c960062489"}'

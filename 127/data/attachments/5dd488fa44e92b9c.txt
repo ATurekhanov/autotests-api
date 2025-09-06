@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6f3a56f0-e356-40ae-918f-4917b34c0713' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDA0OjIxOjM5LjUyNDU0MyIsInVzZXJfaWQiOiJiNjQ5OGU2Yi1lOTIwLTQwZGMtOTA3OS1lNmVhYzFkYjVkMzYifQ.HlT1pudFlP7u0bytn6l6NVXyL9Erdjt_WGNHNOs9r4k' \
+  -H 'content-length: 244' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free him like trade.","maxScore":67,"minScore":9,"description":"Listen cut month anything area strong religious. Policy term he thing prevent detail present. Role part enter final board seat window project.","estimatedTime":"2 weeks"}'
