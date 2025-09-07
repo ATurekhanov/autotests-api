@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA3VDAzOjU2OjU4LjAyODAwMiIsInVzZXJfaWQiOiJhZTZiYzNmZC04NWZiLTQxZDEtODM5MC0xZjBmMzg3OGM5NTkifQ.ggTv_-S-dPen1MLfvMN7Kme-gcJbt1o0cRejXn_2qV8' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop determine use news authority.","maxScore":83,"minScore":27,"description":"Fight call cause character clear movie red onto. Deal write successful fight each girl only.\nPower already thought age maintain report bring sure. Focus either seem. Technology treat old.","previewFileId":"4a55c63f-1a80-4838-a4a8-9f4d2a286c8c","estimatedTime":"6 weeks","createdByUserId":"ae6bc3fd-85fb-41d1-8390-1f0f3878c959"}'

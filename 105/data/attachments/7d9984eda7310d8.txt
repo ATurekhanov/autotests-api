@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA3VDAzOjU2OjU2LjIwNTkyNSIsInVzZXJfaWQiOiJmNTQ0NTgyZC1iMTk1LTRhOTgtYWVjMC1hNzBkMjVkNzFhYTgifQ.R9Z94Pjmo0P39UXvheQPoNWu0SX9ByxFwDnW6Vlnedk' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than cold continue he thank decide.","maxScore":72,"minScore":21,"description":"You audience large huge type able. Cause Republican total machine process edge majority. Simply everything performance north.\nNews serious over key get ever.","previewFileId":"4fdfc5cf-3bf5-4bbb-a5f4-890f7288ba26","estimatedTime":"9 weeks","createdByUserId":"f544582d-b195-4a98-aec0-a70d25d71aa8"}'

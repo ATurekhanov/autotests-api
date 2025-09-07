@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA3VDAzOjU2OjUzLjYxNTc4OCIsInVzZXJfaWQiOiIzYmQzNmVhMi1hZmNlLTQ4MWYtYjNhZC02YTU1Yjk4OTY4ODIifQ.PINZqUZ3xsZoVzJRpev8Z7Qku6qOKndCsDqTYJpRDBo' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power plant other.","maxScore":62,"minScore":28,"description":"Report sometimes radio.\nCompany quickly hear seat. Hit instead begin visit hotel. Stock official other laugh simply.\nState imagine entire else. Conference computer four hotel relationship on.","previewFileId":"9f8ac6c4-67a8-4b92-bf5e-0bc9bb627fdd","estimatedTime":"5 weeks","createdByUserId":"3bd36ea2-afce-481f-b3ad-6a55b9896882"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA3VDAzOjU2OjU2Ljg0NTY0NiIsInVzZXJfaWQiOiIzODg5M2RhZC0zMDZjLTQwOTctOGNjMi1lM2FmODkwNzhkZGEifQ.uyQxD3Ujlo-e3RzkyC8w15Er1Mvzz-uONbJY490FD30' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manage perhaps environmental hair throughout you.","maxScore":63,"minScore":13,"description":"Low exist report. Respond television policy future. Leader yet toward every.\nType century here today many center industry. Expert determine course too forward decide. West senior pay main glass.","previewFileId":"9331e468-a341-41e7-895a-2606461b508d","estimatedTime":"2 weeks","createdByUserId":"38893dad-306c-4097-8cc2-e3af89078dda"}'
