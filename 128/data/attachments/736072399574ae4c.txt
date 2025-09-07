@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA3VDA0OjIzOjQxLjkxNTgxNiIsInVzZXJfaWQiOiJkZTdhOTY4Zi1lZTk5LTQ3ODktOGI4Ni0xOTc1Mjk5NDEzMTAifQ.n2vByEhHAGoQ7z5VVQpDCx9xUA8ZIuGa0Ot58oTueGg' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behavior position simple eat camera recent start.","maxScore":95,"minScore":19,"description":"Now along actually wish list perform. Imagine one alone purpose hair. Blue grow commercial while boy apply.","previewFileId":"428b5b51-547f-4bca-a595-1418244edcb8","estimatedTime":"2 weeks","createdByUserId":"de7a968f-ee99-4789-8b86-197529941310"}'

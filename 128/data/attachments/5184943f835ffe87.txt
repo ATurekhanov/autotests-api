@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/e5c40977-c542-4c90-9da6-360ca7fdc489
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from PATCH http://localhost:8000/api/v1/courses/e5c40977-c542-4c90-9da6-360ca7fdc489
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check update course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Serious thing eat east few.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Participant consider until write friend behavior short. Congress record seven leg. Painting create difficult decide tough always bring window.
+Can least read degree top money nearly.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
