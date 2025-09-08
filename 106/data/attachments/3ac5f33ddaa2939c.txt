@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a0160d8c-cfe0-4ce6-a354-5ad9e97ed8f2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA4VDA0OjAyOjQ3LjE1OTI3NiIsInVzZXJfaWQiOiJjNWRlMmJhZi1kNTQ4LTQyMGMtOTE4Ni1jYzI5NmU3ZGI5NWQifQ.M38d5oL23kLK5NKuJB3sxE3eZ40qkewxc_sIWTWkGvE' \
+  -H 'content-length: 231' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening break including although.","maxScore":66,"minScore":28,"description":"Let current film finally drive.\nStation share least provide summer never song. Peace majority I baby example than.","estimatedTime":"2 weeks"}'

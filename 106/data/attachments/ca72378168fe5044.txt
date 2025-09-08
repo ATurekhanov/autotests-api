@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA4VDA0OjAyOjQ3LjE1OTI3NiIsInVzZXJfaWQiOiJjNWRlMmJhZi1kNTQ4LTQyMGMtOTE4Ni1jYzI5NmU3ZGI5NWQifQ.M38d5oL23kLK5NKuJB3sxE3eZ40qkewxc_sIWTWkGvE' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion player late great test.","maxScore":64,"minScore":1,"description":"Free agency when yourself. Visit ago from wall but. Staff out do issue.\nRespond avoid blood between PM trouble alone. House word inside certain civil. Enjoy bed already win different catch these.","previewFileId":"9a337860-b786-4909-b969-0d9b6abf22ca","estimatedTime":"9 weeks","createdByUserId":"c5de2baf-d548-420c-9186-cc296e7db95d"}'

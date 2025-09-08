@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA4VDA0OjAyOjQ4LjU3NDI5NyIsInVzZXJfaWQiOiJkNWExMmNkNi04YzQ0LTRmOGMtODA4OS0zNmNiZWM5ZGQ1NTgifQ.N5BPR7pJD4gc5euS4erFHUntwdDDumQxl4rZdh2OAp8' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None just maintain ready.","maxScore":54,"minScore":8,"description":"Pressure life level everybody they like. Rate behind similar certainly up rate strategy. Be rich wall individual.","previewFileId":"f5bb24b5-694e-44a0-8a96-39dc9f51a1d7","estimatedTime":"10 weeks","createdByUserId":"d5a12cd6-8c44-4f8c-8089-36cbec9dd558"}'
