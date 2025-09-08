@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA4VDA0OjI2OjQwLjYzNzgwOSIsInVzZXJfaWQiOiI4YzdkODc3OS1kMzM5LTQxZmQtOGQ3Ny0yNzU4MThjODlkNjcifQ.9Cmx5gGmsoXzfXqzikaLzAsd5Sucm4O5zNJ0vP4FaLE' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member prove history job.","maxScore":59,"minScore":5,"description":"Heavy focus up peace. Yet trip there whose show whether call.\nFigure generation administration during since senior itself. Sound data act price foreign eye change.","previewFileId":"7ad58067-5237-4d4a-843e-c31915924650","estimatedTime":"6 weeks","createdByUserId":"8c7d8779-d339-41fd-8d77-275818c89d67"}'

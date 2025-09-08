@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA4VDA0OjI2OjM5LjM5NzA4MSIsInVzZXJfaWQiOiIwNDBlNDIwNi05ODhjLTQ3NjgtYTBkNi1kZDU5MjA0Njk4ZDQifQ.uO5eZQ8EE9BUdrSSZNL64tJbKHsJfSBzWLb0k8x6bFk' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sense stay not they though.","maxScore":88,"minScore":9,"description":"Effort ready box off. Mind upon improve trial professional often question.\nColor language system successful resource. Bag customer product fly across.","previewFileId":"8502d1a9-d7cd-4261-b729-b5932cfab9f2","estimatedTime":"6 weeks","createdByUserId":"040e4206-988c-4768-a0d6-dd59204698d4"}'

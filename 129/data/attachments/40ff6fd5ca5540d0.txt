@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA4VDA0OjI2OjM3LjkzOTUwOCIsInVzZXJfaWQiOiI5M2RmYTQzNS1lOTA2LTQwNjQtOTM1YS1kZWJjOGE0OWMyYjUifQ.Og9n0XyxRo7248owNvW5_inVCPrBB7WQ9iL2Ckt3HS8' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born own affect many.","maxScore":67,"minScore":14,"description":"Offer experience natural practice at. Newspaper today consumer suddenly series buy stage. After reason bank office. Material of official ever many around only.","previewFileId":"bda680af-efea-4fe1-8712-448551d29d80","estimatedTime":"1 weeks","createdByUserId":"93dfa435-e906-4064-935a-debc8a49c2b5"}'
