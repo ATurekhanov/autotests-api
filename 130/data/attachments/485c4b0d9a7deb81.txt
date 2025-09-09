@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjI0OjI0LjI4MjQ1MyIsInVzZXJfaWQiOiJiYjZlYmY0Zi0zNTJiLTRlN2MtYThlOC02ODBiNmNlZDVhNzAifQ.X1unJWtjrGPeLZF2LDPUfKXA9CK7Sv5S4RbnX83CJLM' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along its owner design those learn.","maxScore":50,"minScore":16,"description":"Them plant wonder bring help public shake. Their yes reduce traditional chair range.\nDevelopment treat consider best. Fill lose car building.","previewFileId":"e57a20ee-02aa-4c8c-b8ff-47c447345ed6","estimatedTime":"6 weeks","createdByUserId":"bb6ebf4f-352b-4e7c-a8e8-680b6ced5a70"}'
