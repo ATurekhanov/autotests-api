@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAzOjU2OjU1LjAwNjYxMiIsInVzZXJfaWQiOiJlYjcxOTljNC00ZjFjLTQ0OTUtOGQ3OC0wZTI2NzZhYzk0NDgifQ.0K8OyJZfN_zi6c_HMDa9O68z5PolL-kkrfJWgVQGxnU' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group sport tough doctor night.","maxScore":54,"minScore":7,"description":"Article nearly people strong simply. Truth yard coach.\nBetween standard product time employee seem add.\nAway affect soldier personal authority page. Ten plan moment happy education.","previewFileId":"1987b0b3-f591-4fb1-ae15-e132b6f40dc3","estimatedTime":"5 weeks","createdByUserId":"eb7199c4-4f1c-4495-8d78-0e2676ac9448"}'

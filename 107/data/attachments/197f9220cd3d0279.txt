@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAzOjU2OjU0LjExMTg4OCIsInVzZXJfaWQiOiJlYTEwZjllOC01N2FiLTQzMjItOGM4NS1iOWI2NTUzOGQ5OTkifQ.OsC0ts8-4cWsKpT9AdNO1SDcsVNjNEqF_uLneplT2dQ' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kitchen line a not have.","maxScore":92,"minScore":28,"description":"Suffer person each top. Mother nothing decision security his.\nFinancial organization free image likely watch exist. Begin same receive sea major real.","previewFileId":"03ad52a9-c9fa-43c6-8d81-ea571f56bcc4","estimatedTime":"2 weeks","createdByUserId":"ea10f9e8-57ab-4322-8c85-b9b65538d999"}'

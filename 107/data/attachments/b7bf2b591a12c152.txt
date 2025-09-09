@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e61464f3-037e-4ca8-a597-d363c2447be7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAzOjU2OjU0LjExMTg4OCIsInVzZXJfaWQiOiJlYTEwZjllOC01N2FiLTQzMjItOGM4NS1iOWI2NTUzOGQ5OTkifQ.OsC0ts8-4cWsKpT9AdNO1SDcsVNjNEqF_uLneplT2dQ' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"After but already toward teacher he work.","maxScore":74,"minScore":20,"description":"Wife particularly nearly media safe coach able. Much brother might federal officer. Sell animal your ok since project.\nThousand stage camera significant foot.","estimatedTime":"9 weeks"}'

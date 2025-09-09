@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAzOjU2OjU3Ljk5MDUwNiIsInVzZXJfaWQiOiI0NmY0M2MxYy0wMzZiLTQ2Y2UtOGQ3YS0zNzcwMjM2MTJkZWQifQ.XBcLaFNpNhmXdOGKS4zuy5dtgGPalewGhMvZg7OPGrE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enter ok fear development security foreign.","maxScore":76,"minScore":25,"description":"Attention wide they store set. Pass American fund agree.\nHome wait truth season. Social far job heart money. Case subject woman nice describe.","previewFileId":"7a068997-f76d-430a-89ba-c04f79ff798a","estimatedTime":"5 weeks","createdByUserId":"46f43c1c-036b-46ce-8d7a-377023612ded"}'
