@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/344b2abd-abb6-468c-a365-a48680006ef5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDA0OjIxOjIxLjY5NzQ5NyIsInVzZXJfaWQiOiIyNjAxYjE0Yi03MjA3LTRjMDctYTJmYi0yYjk2YzU4ZjM0NWEifQ.CU1wWneGkUUNhcobot-RcMXMM-_LbLZVpFcNIS9eXbQ' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability so produce art score plan production.","maxScore":56,"minScore":7,"orderIndex":13,"description":"Air exist million hard watch prove son.\nNor whatever blue break floor new. Yet improve so office get time fear.\nAlong actually small about push population.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to South risk effort main air form science.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Blood adult produce source play man natural.
+Only act doctor provide information citizen recognize. Either investment everything fill.
+Follow economic dog fire. Not weight beyond son allow his.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to d92e9f1d-c98e-4fd6-ad5f-45bec989f98d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 8393a56c-b718-4a86-a401-86268a35ea2c
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

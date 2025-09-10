@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDA0OjIxOjE4LjM1MTUxNyIsInVzZXJfaWQiOiI4MzkzYTU2Yy1iNzE4LTRhODYtYTQwMS04NjI2OGEzNWVhMmMifQ.m7kz6LnTYAgWEuE8NdXGBAiW_bA6cGhqNKSdCJou6wI' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"South risk effort main air form science.","maxScore":73,"minScore":3,"description":"Blood adult produce source play man natural.\nOnly act doctor provide information citizen recognize. Either investment everything fill.\nFollow economic dog fire. Not weight beyond son allow his.","previewFileId":"d92e9f1d-c98e-4fd6-ad5f-45bec989f98d","estimatedTime":"4 weeks","createdByUserId":"8393a56c-b718-4a86-a401-86268a35ea2c"}'

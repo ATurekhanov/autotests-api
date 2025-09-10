@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDA0OjIxOjIxLjY5NzQ5NyIsInVzZXJfaWQiOiIyNjAxYjE0Yi03MjA3LTRjMDctYTJmYi0yYjk2YzU4ZjM0NWEifQ.CU1wWneGkUUNhcobot-RcMXMM-_LbLZVpFcNIS9eXbQ' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish service door road long cut right value.","maxScore":63,"minScore":2,"description":"Position name boy purpose low. Thank hit else work conference. Account contain anything age.","previewFileId":"17d26ba6-0666-4935-9c00-0929cb1367f4","estimatedTime":"2 weeks","createdByUserId":"2601b14b-7207-4c07-a2fb-2b96c58f345a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDA0OjIxOjIxLjAzMDY1MiIsInVzZXJfaWQiOiI3ODQxMDJkMS0wNDAyLTQwMmYtOGYxNS01OWZhZGFhMDU5MjcifQ.MA9v6KBADevvMtjPRSyt53GRiAEiaOL239qgDsIro8k' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Under remain recognize attack news.","maxScore":55,"minScore":23,"description":"Meet plan road popular tell. Material sort people poor. Per attorney us hour task reach.\nFinancial three this one. Surface career spend bill. Thank environment bank beautiful administration.","previewFileId":"add2a0e2-a7ec-439b-984f-e9932950af3d","estimatedTime":"2 weeks","createdByUserId":"784102d1-0402-402f-8f15-59fadaa05927"}'

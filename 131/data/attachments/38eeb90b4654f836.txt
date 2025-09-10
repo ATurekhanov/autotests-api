@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDA0OjIxOjE3LjIwNTQzMyIsInVzZXJfaWQiOiI2ZmNiMjM5Yi04NjM4LTRlNzEtODAxYS0wMmUwYTBhZTFlZGQifQ.q9pWM6wcRzvbM9E-o1MWxx2-RGFFSgpYqJeCZn9aK7E' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Answer history section west blood under most.","maxScore":90,"minScore":7,"description":"Summer Congress charge green thus. Mrs administration issue culture body special.\nCongress discussion money key. Religious expert senior a. Person wind skill.","previewFileId":"23fafa10-02b9-4ec4-b98c-ad457380c4a9","estimatedTime":"7 weeks","createdByUserId":"6fcb239b-8638-4e71-801a-02e0a0ae1edd"}'

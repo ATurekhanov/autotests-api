@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDA0OjIxOjIxLjAzMDY1MiIsInVzZXJfaWQiOiI3ODQxMDJkMS0wNDAyLTQwMmYtOGYxNS01OWZhZGFhMDU5MjcifQ.MA9v6KBADevvMtjPRSyt53GRiAEiaOL239qgDsIro8k' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight step part.","courseId":"e1dc59e9-0be9-4cd2-9f4b-68a8d93a92a5","maxScore":57,"minScore":14,"orderIndex":72,"description":"Red animal side gun administration role. Cut loss their on writer mention.\nDespite stop detail. Deal method economy practice seat now. Business important hospital.","estimatedTime":"5 weeks"}'
