@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDAzOjUwOjA2LjkyNzY5NSIsInVzZXJfaWQiOiI2OTRmMzM1NS1hMTE3LTQzMjgtOWNjYy1mZmNhNzI0OGM3ODMifQ.yHhjkX_hM_1dXKPajTKdYEiO4rzhtu87p9sG33jvOnA' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr agency any bed.","maxScore":67,"minScore":5,"description":"Maintain what small. Number food street exist hold during.\nOld movie money. Everyone number thank certain send decision drop. Between my film bank trouble. Scientist difficult board service.","previewFileId":"3810b1e0-52b2-444f-8285-a2f967e4f06d","estimatedTime":"3 weeks","createdByUserId":"694f3355-a117-4328-9ccc-ffca7248c783"}'

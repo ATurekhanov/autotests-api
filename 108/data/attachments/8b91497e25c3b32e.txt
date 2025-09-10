@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d70d9a98-6e1c-4917-8882-8be811e06c04' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDAzOjUwOjA2LjkyNzY5NSIsInVzZXJfaWQiOiI2OTRmMzM1NS1hMTE3LTQzMjgtOWNjYy1mZmNhNzI0OGM3ODMifQ.yHhjkX_hM_1dXKPajTKdYEiO4rzhtu87p9sG33jvOnA' \
+  -H 'content-length: 249' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise choose heart.","maxScore":81,"minScore":5,"description":"Tonight argue able would beat they condition last. Forget trip international shoulder through change five. Choose structure fly you management stock.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDAzOjUwOjA4LjM0OTg3OCIsInVzZXJfaWQiOiI3NjQ4NjljMS1lZTg4LTRiZjYtOGVkNS1jNjgzZGJjZDE5MTcifQ.J08zTUJVzEtRCkU4P0jx4V5ebGOumgHEWlA4dbTsNbw' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain take specific kid candidate soldier.","maxScore":56,"minScore":9,"description":"Present military enough behind raise hope happen effort. Economy popular outside leave produce pick exist because.","previewFileId":"51cf65a9-b814-4f28-b729-11289fbd9873","estimatedTime":"5 weeks","createdByUserId":"764869c1-ee88-4bf6-8ed5-c683dbcd1917"}'

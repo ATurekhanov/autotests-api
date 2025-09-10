@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDAzOjUwOjA4LjA3NjExNCIsInVzZXJfaWQiOiI1ODJhNDQxOS1iNzBhLTRjYjctYjgxZi0wYTk1NTQyZDU5ODkifQ.Rpirl1QLoHPlpMvRom9IfKBjEdhLUzhQyyp8TZi97TI' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Life me language off.","maxScore":75,"minScore":12,"description":"With board everybody bag analysis family again. Next quality foot easy simply federal letter. Later away start mouth maybe where admit.","previewFileId":"91e856df-4604-41f9-b1eb-32281336fb33","estimatedTime":"3 weeks","createdByUserId":"582a4419-b70a-4cb7-b81f-0a95542d5989"}'

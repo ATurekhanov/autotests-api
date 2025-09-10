@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDAzOjUwOjEwLjc1NzMyOSIsInVzZXJfaWQiOiI2NmVlZWEyZC04OWNlLTQ0MDEtOWU4Ni1kMTExNmRkNjkxN2UifQ.F4MV50hDENYooSrI7v-uGo33h1iV_EPJ59U3HVLeMU0' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be machine white.","maxScore":81,"minScore":21,"description":"Admit program success. Leave produce general maybe size.\nArgue your community thought. Discussion through social half church.","previewFileId":"8ee53099-8dcc-435d-973d-f8a0b8d62012","estimatedTime":"9 weeks","createdByUserId":"66eeea2d-89ce-4401-9e86-d1116dd6917e"}'

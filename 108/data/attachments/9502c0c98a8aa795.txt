@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEwVDAzOjUwOjA5LjUzNDQ1NiIsInVzZXJfaWQiOiI5ZmQwNTg3Mi1lN2JjLTQyNTktYmVlNC0yMDc1OTkyYTExY2IifQ.z48B8RlRLUKp4kmBI3VtUt0H_8qqaEXcCaT8KN6O3d0' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Include treat red answer wonder activity amount.","maxScore":77,"minScore":26,"description":"Ok yet later receive career conference blue. Radio behavior exactly owner religious under. Season total executive type you debate one.","previewFileId":"4371a758-7230-40f7-b8ee-f44c9c9196d2","estimatedTime":"3 weeks","createdByUserId":"9fd05872-e7bc-4259-bee4-2075992a11cb"}'
