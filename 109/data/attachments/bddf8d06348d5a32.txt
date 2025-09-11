@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAzOjU1OjM2LjczMjU0NSIsInVzZXJfaWQiOiJiZjkyOTQ3YS05MGFjLTRjNDMtYjExOC0zN2JiYzVkZjg1MmUifQ.B0Jg9LodTmc_Mn_rUbMcH9FuIoJ7ZdhZWkCT4zu65NM' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have pressure according I win.","maxScore":98,"minScore":9,"description":"Bring about energy recognize. Alone somebody unit plant.\nMarket whether nation which give treatment grow. Leg understand coach threat whether.","previewFileId":"fb235827-6827-4c24-a351-5722ab9b0d07","estimatedTime":"8 weeks","createdByUserId":"bf92947a-90ac-4c43-b118-37bbc5df852e"}'

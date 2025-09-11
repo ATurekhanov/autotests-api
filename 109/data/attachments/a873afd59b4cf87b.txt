@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAzOjU1OjM5LjQzMzAwOCIsInVzZXJfaWQiOiI3ZmYzYTZlMC0wN2QyLTRjZWQtOWUyMS00OTRiNjM4ODI1MjEifQ.2Qw-AlWc_Cp4ujQ7K-6FU43w-1AovaqIAgWWbAOVaPs' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Weight trial draw treat phone effort.","maxScore":90,"minScore":2,"description":"Large summer this early put family. Plant night general. Else policy anything agreement perform.\nNecessary cold writer. Act base both force something late. Above remain my data sure return eight.","previewFileId":"5d2aed1b-f295-4d63-9507-f90fa3d7c259","estimatedTime":"7 weeks","createdByUserId":"7ff3a6e0-07d2-4ced-9e21-494b63882521"}'

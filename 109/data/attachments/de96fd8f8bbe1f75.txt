@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAzOjU1OjQxLjI1ODQyMiIsInVzZXJfaWQiOiIxOTUwNGUwMS1iZGMyLTQxNWItOGI5My0wYWI4YjBiMjVmMWEifQ.YewC7ja9eujyKFVBOFIi9jNRJ6quR4MXW_T2XDZ1SEo' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same land work inside who court participant.","maxScore":96,"minScore":24,"description":"Yard structure white my law quality information. Improve among help say parent during beyond single.\nExplain event bad successful. Movie beautiful leg director art such suddenly another.","previewFileId":"a44e0605-64b2-40fa-af6b-9824e3eed067","estimatedTime":"7 weeks","createdByUserId":"19504e01-bdc2-415b-8b93-0ab8b0b25f1a"}'

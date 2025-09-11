@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4ce88fcc-6c2d-4292-9502-20c7b6b36af0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAzOjU1OjM2LjczMjU0NSIsInVzZXJfaWQiOiJiZjkyOTQ3YS05MGFjLTRjNDMtYjExOC0zN2JiYzVkZjg1MmUifQ.B0Jg9LodTmc_Mn_rUbMcH9FuIoJ7ZdhZWkCT4zu65NM' \
+  -H 'content-length: 245' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Small fly food.","maxScore":57,"minScore":12,"description":"Pm camera writer buy site blood individual. Option sell west get.\nDeal budget I suggest unit. Music stuff according. Support raise beyond ability.","estimatedTime":"4 weeks"}'

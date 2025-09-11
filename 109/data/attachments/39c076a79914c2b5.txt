@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAzOjU1OjQwLjAxMzEzNCIsInVzZXJfaWQiOiJmZGMyZGViYy0yNDQ5LTQyNmQtYTc5NS1hYTJmYzdjYjQ1NjIifQ.C1kp2sYgGOhCZebg6ezx1xdQuDnmH-JuzpwAAvj_2Yg' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Theory term could concern opportunity sit.","maxScore":89,"minScore":25,"description":"Green summer loss edge everyone edge memory. Fear ago city form.\nThroughout quality response need spring production. Cover thing full article religious work hear. Administration and possible program.","previewFileId":"5c467cf6-998c-4f61-9cb7-8d42969cc74f","estimatedTime":"1 weeks","createdByUserId":"fdc2debc-2449-426d-a795-aa2fc7cb4562"}'

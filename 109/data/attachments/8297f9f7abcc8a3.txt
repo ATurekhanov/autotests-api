@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAzOjU1OjM4LjI2MDczNiIsInVzZXJfaWQiOiJiOTFhMTY5Ny02MGNiLTRjMjctYWIyMy0yODdiNmQzYzlmYWMifQ.VSMWS3MmsjCK14BpP3ayBNmmA9xUAamYHMhh7TKPaMM' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manage difference evidence.","maxScore":60,"minScore":11,"description":"Response institution risk special sell investment rather. Where speech couple write network. Mr all daughter admit team so mission.","previewFileId":"9afd9033-dc75-4198-a618-15fab2bad1d3","estimatedTime":"9 weeks","createdByUserId":"b91a1697-60cb-4c27-ab23-287b6d3c9fac"}'
