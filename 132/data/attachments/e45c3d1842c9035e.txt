@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjUxLjY4NDcxOCIsInVzZXJfaWQiOiI5ZjRjMzcxZi05NjhkLTQzZjMtOTEyNC02MWNjZjkwYTFiMzEifQ.prU8w_0tQ5k7KKwMXMf8DgrR5NCwmTiUs-UdlkkfMQY' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm reality boy gun weight.","courseId":"58352277-16a9-49ac-b1df-cdbdb200bd76","maxScore":91,"minScore":22,"orderIndex":47,"description":"Hour call over million later her. New medical level suggest type budget.\nNumber follow save system decide economy. Network side production will participant beautiful.\nUpon our firm of.","estimatedTime":"10 weeks"}'

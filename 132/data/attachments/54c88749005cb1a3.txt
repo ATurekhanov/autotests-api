@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjQ5Ljc5NTE3OSIsInVzZXJfaWQiOiI3OTI1ODRjNi00OTNkLTRhNzQtYmI5ZS0xMWRmZGM0ZGVlOGMifQ.9Q-DBBUSCzGpEALFcRU43zFcV_dyI1ALzEzsaGzoZFM' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"First each remember cost throw return board.","courseId":"bd3988e9-8e60-44e6-ad1d-1bd4d16e7ea2","maxScore":77,"minScore":6,"orderIndex":15,"description":"Guess across contain. Term enough health our less alone. Standard throughout dream remember. Condition deal long let only.","estimatedTime":"2 weeks"}'

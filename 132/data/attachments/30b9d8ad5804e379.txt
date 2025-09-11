@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjQ4LjM0MjgzNSIsInVzZXJfaWQiOiIyMTBmNzJmYi0xOTBiLTRmNmQtYmIzZi02ZjU4ZWI3ZGY2YzEifQ.yXnoMhg_GQkwk2Q5TRc31MV6zDJKqJrQ3d9p8MhbiG8' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Church factor nation away.","maxScore":82,"minScore":23,"description":"Choice decide wrong catch community. Gun first citizen usually. Career part while above.\nRepresent number expert scientist.\nFine technology sound speak most method social. May former and political.","previewFileId":"0670e8a8-8fb9-45a7-bfa4-84523bb9f89b","estimatedTime":"6 weeks","createdByUserId":"210f72fb-190b-4f6d-bb3f-6f58eb7df6c1"}'

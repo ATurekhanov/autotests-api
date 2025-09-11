@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjUxLjAxNjU3OSIsInVzZXJfaWQiOiJiNGE3NjljZi05ZjUzLTRmYmQtODg1Zi1lNjE0NmU2Y2YyMjUifQ.wMlLMAnkLY4uA8m_L1jVcKqnoYyFAAoVxSSBICZ-pe4' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father than four or data.","courseId":"8046e255-148c-41f1-8ecb-a660c1ab2b35","maxScore":53,"minScore":9,"orderIndex":57,"description":"Get church why quality.\nSon bank top Congress hand. Enter ground capital summer yard.","estimatedTime":"3 weeks"}'

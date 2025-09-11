@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjUwLjQzNzM2MSIsInVzZXJfaWQiOiJkNzMwYmViNi04OTFlLTQwMDMtOWQxMC05OTY5OTNlZGRmMTIifQ.ahpFPMN1aFcfObnGBwgCbMbob17iSJXwKiSZtXBcjV0' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manage couple statement establish free company.","courseId":"0ec8f4df-bba9-4ad3-982a-0dea8f0a0f3a","maxScore":83,"minScore":30,"orderIndex":88,"description":"Mrs thought evening form let society feeling ahead. Feeling bag have billion PM. Night talk position do space.","estimatedTime":"2 weeks"}'

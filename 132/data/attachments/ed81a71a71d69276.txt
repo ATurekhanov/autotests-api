@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjQ3LjIwMDIxNyIsInVzZXJfaWQiOiI4NGM3OTZkNC1hMDg4LTRjZjctODQ0MS03MzcyZDgyNWZkNGEifQ.iGpQDP4ocfXTCcep4Vd4KD08sV7st1l9r5vXpiRJoqQ' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish itself mission wife big.","maxScore":69,"minScore":11,"description":"Little most million list find.\nInformation reach dinner drop beautiful fill. Action piece end item personal someone.","previewFileId":"367bf3f9-113f-4466-b1bc-6bdf5ad1f3a1","estimatedTime":"3 weeks","createdByUserId":"84c796d4-a088-4cf7-8441-7372d825fd4a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjUxLjY4NDcxOCIsInVzZXJfaWQiOiI5ZjRjMzcxZi05NjhkLTQzZjMtOTEyNC02MWNjZjkwYTFiMzEifQ.prU8w_0tQ5k7KKwMXMf8DgrR5NCwmTiUs-UdlkkfMQY' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open his any three oil practice.","maxScore":99,"minScore":30,"description":"Help machine community college radio serve since. Deal security next others accept. Able development relate owner beyond store.","previewFileId":"9e836578-164b-4e47-a4df-fb227a3ac4dd","estimatedTime":"7 weeks","createdByUserId":"9f4c371f-968d-43f3-9124-61ccf90a1b31"}'

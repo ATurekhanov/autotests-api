@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/3e384010-928e-4682-bb80-4c1a56c11bec' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjUxLjY4NDcxOCIsInVzZXJfaWQiOiI5ZjRjMzcxZi05NjhkLTQzZjMtOTEyNC02MWNjZjkwYTFiMzEifQ.prU8w_0tQ5k7KKwMXMf8DgrR5NCwmTiUs-UdlkkfMQY' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy space federal affect choice build property shake.","maxScore":93,"minScore":5,"orderIndex":99,"description":"Reflect fine gun seat. Term participant whose long final friend.\nNot indeed above else.\nReach social fill kid recent.\nEntire ok stage. Small sing future say live thought its.","estimatedTime":"3 weeks"}'

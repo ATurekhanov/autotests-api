@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/3e384010-928e-4682-bb80-4c1a56c11bec
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from PATCH http://localhost:8000/api/v1/exercises/3e384010-928e-4682-bb80-4c1a56c11bec
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Policy space federal affect choice build property shake.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 99
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Reflect fine gun seat. Term participant whose long final friend.
+Not indeed above else.
+Reach social fill kid recent.
+Entire ok stage. Small sing future say live thought its.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

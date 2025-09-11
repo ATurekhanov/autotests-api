@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjUxLjAxNjU3OSIsInVzZXJfaWQiOiJiNGE3NjljZi05ZjUzLTRmYmQtODg1Zi1lNjE0NmU2Y2YyMjUifQ.wMlLMAnkLY4uA8m_L1jVcKqnoYyFAAoVxSSBICZ-pe4' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology benefit rich we.","maxScore":65,"minScore":18,"description":"Both top build take decade throw degree. Boy white new my wife.\nListen international generation late. Everything change three able technology. Page produce ahead according dog start family.","previewFileId":"0c2a3c53-50dd-4ceb-a2be-6cb869cfbe0a","estimatedTime":"9 weeks","createdByUserId":"b4a769cf-9f53-4fbd-885f-e6146e6cf225"}'

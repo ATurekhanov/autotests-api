@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjQ4LjYxNjU3MSIsInVzZXJfaWQiOiJiNzdhYmI4YS00ZGVlLTQzNWMtODA4NC1hNTJjYTA4MDRjMjQifQ.TbudedE6S8kOglo5GkzfrCUgJT4qbsrD9Z3ZlqhAGDU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm seem southern key garden lose job.","maxScore":69,"minScore":4,"description":"Pm miss gas allow. Sell and important last away skin decision.\nTheir interest party policy high animal the.","previewFileId":"872b6453-b387-4130-a035-e507e726e437","estimatedTime":"6 weeks","createdByUserId":"b77abb8a-4dee-435c-8084-a52ca0804c24"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIzOjUwLjQzNzM2MSIsInVzZXJfaWQiOiJkNzMwYmViNi04OTFlLTQwMDMtOWQxMC05OTY5OTNlZGRmMTIifQ.ahpFPMN1aFcfObnGBwgCbMbob17iSJXwKiSZtXBcjV0' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially court your attack.","maxScore":76,"minScore":25,"description":"Contain avoid statement. Appear view up choice career.\nUntil challenge evening fire. Student civil anyone yourself authority begin certain. Ability sport smile until land politics.","previewFileId":"7ea15fae-1edc-4d78-b45b-91e2ac6e132a","estimatedTime":"1 weeks","createdByUserId":"d730beb6-891e-4003-9d10-996993eddf12"}'
