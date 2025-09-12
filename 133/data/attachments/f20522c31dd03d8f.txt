@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDA0OjIxOjQyLjExMDY3NCIsInVzZXJfaWQiOiJiMzAzOWZhZi02NDJjLTRmNjAtYTNjMy04MWU4ZWFmZmM5MGEifQ.IaKCtCL-JjDUZ14uweDKpcyi7e2WpNsIGlS51NOIzqY' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare customer order door the take data daughter.","maxScore":80,"minScore":14,"description":"Determine piece society you already fund citizen. Would probably trade lose.\nMake indeed real such meeting. Drop Democrat take join political nearly friend I.","previewFileId":"9903ff4d-f759-4d98-9b4d-f19310885288","estimatedTime":"5 weeks","createdByUserId":"b3039faf-642c-4f60-a3c3-81e8eaffc90a"}'

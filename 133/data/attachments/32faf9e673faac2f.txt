@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDA0OjIxOjQ1LjM0OTkzNSIsInVzZXJfaWQiOiJlZWNmMjlmMi1jYjcwLTQ2NjQtYmMxYS04YTZiMDA1MTlkYTAifQ.f8r8k-nvBlOWrMO1I-STHVqXt5Ox1Rjl8THxS3N1xAM' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tend statement ready score than.","maxScore":83,"minScore":27,"description":"Suffer nothing adult sing. Newspaper same who little number the. Threat show field that against information man.\nStrong collection scene home key. Rock part total this sure cut magazine.","previewFileId":"4b7d59c4-301a-4136-b3bc-08ad608730f7","estimatedTime":"7 weeks","createdByUserId":"eecf29f2-cb70-4664-bc1a-8a6b00519da0"}'

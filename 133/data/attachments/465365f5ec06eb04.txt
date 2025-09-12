@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDA0OjIxOjQzLjUzMDUzNyIsInVzZXJfaWQiOiJlM2ZhYzVkZC05ZTkzLTRmMTEtODJkZi1kMDRmMWM3ZDQ0N2QifQ.cPoCXYOTO4DZw0fB_GEjjSfSH4glzHux0YNXsV6gZTE' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Health all know director.","maxScore":73,"minScore":9,"description":"Pattern dark return be dog their. As focus nor born why. Mr office unit son computer answer go.","previewFileId":"cb2d688e-6086-4e47-ab4a-2e652cd53893","estimatedTime":"6 weeks","createdByUserId":"e3fac5dd-9e93-4f11-82df-d04f1c7d447d"}'

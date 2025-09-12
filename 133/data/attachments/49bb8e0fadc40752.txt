@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDA0OjIxOjQ0LjcwOTQ5MCIsInVzZXJfaWQiOiJmODgzNGUxYi1hMTE0LTRhNzctOGNkMS0zNDc3MDRiYzM0Y2EifQ.QK78uvMmOnY_59i0PkcRbqUvAz-Y6Dkio3_ykaV2bzo' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break return chance step history professor indeed.","maxScore":91,"minScore":7,"description":"Join challenge live. Source wrong than television save Congress read service.\nIt thus evidence require. Money style check good.","previewFileId":"60c872c0-7dea-4844-9146-9dba7abfd581","estimatedTime":"1 weeks","createdByUserId":"f8834e1b-a114-4a77-8cd1-347704bc34ca"}'
