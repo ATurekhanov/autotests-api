@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDAzOjUwOjAxLjY2NTMxNiIsInVzZXJfaWQiOiI2YTkxN2Q2OS0xODAyLTRlMzAtYTI0Zi00NDE1ZGVjODE5ZDQifQ.Gyaw9EtxNzQJwckDJUXJInzMAgRSrPnd1DuXcrIwe08' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Service small machine take.","maxScore":100,"minScore":30,"description":"South order value career grow. Grow third between student consumer near. History inside half opportunity.\nHouse race land threat fish deal doctor. Pick hair outside soon true force able never.","previewFileId":"7f66e615-6e46-4c38-9c8f-78692a803512","estimatedTime":"1 weeks","createdByUserId":"6a917d69-1802-4e30-a24f-4415dec819d4"}'

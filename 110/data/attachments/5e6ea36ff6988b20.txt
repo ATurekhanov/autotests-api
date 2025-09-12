@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDAzOjQ5OjU5LjA2MDA2MSIsInVzZXJfaWQiOiI1YWNhN2NlMi0xOGI2LTQ4OWQtODQyOC1mNjcyMTU3NTk3ZmIifQ.an-FWIpyOmwRxWZuZkVQg61cq1S3IfeMpJXi-95psrU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also only issue.","maxScore":91,"minScore":20,"description":"Strong take design bar organization law. New decision the news decide. Character yourself affect perhaps message teacher eat no.","previewFileId":"ea0d28cb-0ee9-4573-84cd-26ef5f0cb617","estimatedTime":"10 weeks","createdByUserId":"5aca7ce2-18b6-489d-8428-f672157597fb"}'

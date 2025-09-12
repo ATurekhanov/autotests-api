@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDAzOjUwOjAwLjQ4NjEyOCIsInVzZXJfaWQiOiJmZTE1NzdjOS0wMTIzLTQ4ZjgtODg1NC1iMzcxNWVkMGU0YmYifQ.GMaQnuK_vwK5ZH2K17eu2amu1DYuAnu_dhV9-Ua94J4' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Any region people daughter fund writer.","maxScore":63,"minScore":16,"description":"Reason of quickly follow. Federal guy these ground born town away above.\nNote value worry cup. Top newspaper organization which. Hold site reveal dream.\nHigh hospital federal city rule.","previewFileId":"7b9c9e27-5773-4e74-8176-b8a8136874d7","estimatedTime":"3 weeks","createdByUserId":"fe1577c9-0123-48f8-8854-b3715ed0e4bf"}'

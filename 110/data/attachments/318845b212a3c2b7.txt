@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDAzOjUwOjAwLjIxMzE0OSIsInVzZXJfaWQiOiJjOTg4YjRjZS05NGNlLTQ0ODYtYjI4Ni04ZTcyZWFlMzk5YjkifQ.kYH6q_7hM6Hv5pen2KqWwqtwCa-U5X9sn7xBev0nYSU' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position option head plan body by.","maxScore":97,"minScore":23,"description":"Leader well security ok anything president market. Eat middle challenge as often single. Ever Congress region state face song make.","previewFileId":"ee993b78-efcb-4f25-b9c4-e3da7fc14d02","estimatedTime":"2 weeks","createdByUserId":"c988b4ce-94ce-4486-b286-8e72eae399b9"}'

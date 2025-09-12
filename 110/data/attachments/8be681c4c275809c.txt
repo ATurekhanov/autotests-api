@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDAzOjUwOjAyLjMxMzYyMCIsInVzZXJfaWQiOiI3NTRkNWEzNS1mMGY2LTQwZDMtYWFiMC0yNjZlODdjODUxYTQifQ.sNuH5Pbjf9GgOvWf6NQaMEQYj9Q6M1KNU-y_rvSmWiU' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Million meet finish participant close explain ground.","maxScore":97,"minScore":24,"description":"National see sport. Office give weight director kind least chair. What head cost brother control say.","previewFileId":"237db651-6d2b-4fd4-b36c-118746d667fe","estimatedTime":"6 weeks","createdByUserId":"754d5a35-f0f6-40d3-aab0-266e87c851a4"}'
