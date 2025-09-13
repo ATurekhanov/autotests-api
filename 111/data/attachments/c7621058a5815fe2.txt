@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAzOjQzOjE2LjkyNzU1OSIsInVzZXJfaWQiOiIwOWZlMTZjMC1jMTE0LTQ0OWMtOTkyMy1hYjYzZDViYjcwOGMifQ.7-7rBM-qpNMtbcs6kT_Fz0bSOheSHO_So8TWpGNmPyA' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical north watch window.","maxScore":50,"minScore":27,"description":"Example learn offer group fill perhaps crime. Him know budget often far.\nRich increase age nature. Light everything have magazine grow direction may social. Her everyone rate stuff able.","previewFileId":"eff39b56-8eff-4b70-bf57-24f9e9d2e81a","estimatedTime":"8 weeks","createdByUserId":"09fe16c0-c114-449c-9923-ab63d5bb708c"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b08c5b98-a66c-4f0e-8bf1-cd0d4dd0df26' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAzOjQzOjE1Ljc3ODA5MyIsInVzZXJfaWQiOiIzNjRiNTBiYi1iYjI3LTRjNWItYTU1MC1lZTQyMjcwOWFhYmYifQ.9VdrNTn6N3rs3rvr9KrTiyoXEqQ5C08k3x9Ox4idryU' \
+  -H 'content-length: 236' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Health thing seven great.","maxScore":98,"minScore":13,"description":"Trouble thought player school. Across television quite person develop wrong marriage. Down catch together pattern image factor.","estimatedTime":"10 weeks"}'

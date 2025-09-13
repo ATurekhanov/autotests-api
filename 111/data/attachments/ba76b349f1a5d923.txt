@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAzOjQzOjIwLjI3NTg0NSIsInVzZXJfaWQiOiI0MGEyZjBhYy0xZjg0LTRhNzMtOTE2MC01MDBlODhiOTM1MzIifQ.gIw4T2p8AmgWAxlrixln3TKKXHOHFr0Ze_QRqahCetk' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv ability such bad week poor.","maxScore":84,"minScore":17,"description":"Environmental they network speech.\nGeneral admit loss certainly true sound. Three expect huge model during. News PM tell event situation low. Wear raise Mrs really recognize return.","previewFileId":"12ec43b6-9466-4f79-a5d1-b5bfe5d1edbb","estimatedTime":"5 weeks","createdByUserId":"40a2f0ac-1f84-4a73-9160-500e88b93532"}'

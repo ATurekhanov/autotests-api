@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAzOjQzOjE5LjAzMzA0NyIsInVzZXJfaWQiOiIwODc1MzA5MS1iNGI1LTQ5NTEtOTgzMi0xYTQyZTY2MGI2ZGYifQ.g9gI_WBped8YXP0LoybJR7BmCvNsa95CeiQQ0aDE6bw' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve practice change letter much team.","courseId":"2282ef68-5b4a-4103-9236-bf5a5c7668a0","maxScore":90,"minScore":23,"orderIndex":61,"description":"Parent sit hospital friend wall. Home view reveal yourself consider institution visit. Process war old.\nRead join five them film.","estimatedTime":"10 weeks"}'

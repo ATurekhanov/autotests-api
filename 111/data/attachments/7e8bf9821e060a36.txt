@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAzOjQzOjE1Ljc3ODA5MyIsInVzZXJfaWQiOiIzNjRiNTBiYi1iYjI3LTRjNWItYTU1MC1lZTQyMjcwOWFhYmYifQ.9VdrNTn6N3rs3rvr9KrTiyoXEqQ5C08k3x9Ox4idryU' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Such point arrive edge.","maxScore":81,"minScore":25,"description":"Door writer skin. Girl never bad church.\nForm white trip easy think approach in. Certainly situation since someone third feel.\nFocus wind such goal herself nice. Blue policy office know.","previewFileId":"a3b6a85f-1e93-4a1c-9334-498e11bd9b89","estimatedTime":"1 weeks","createdByUserId":"364b50bb-bb27-4c5b-a550-ee422709aabf"}'
