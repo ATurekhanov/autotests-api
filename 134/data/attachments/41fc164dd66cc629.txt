@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDA0OjIxOjM4LjI0MjI0OSIsInVzZXJfaWQiOiI2ZWVhZTI2ZS1lNTg2LTQwZjMtOWM3OS05ZTFiMDYxM2E1ZWIifQ.qMA9toouTdIUWYh4zsz7-iByxjRY0d8J20f0InrKk7E' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move foot exactly wide control form.","maxScore":90,"minScore":14,"description":"Treatment sound there safe. Task tree activity wrong test. Wide why any conference item.","previewFileId":"cb08b032-dd79-446b-8c4c-cbec84f2826c","estimatedTime":"7 weeks","createdByUserId":"6eeae26e-e586-40f3-9c79-9e1b0613a5eb"}'

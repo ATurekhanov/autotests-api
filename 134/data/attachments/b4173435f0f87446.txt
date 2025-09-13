@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDA0OjIxOjM0LjQxODM2MiIsInVzZXJfaWQiOiJmOTg2ZDExZC1kMTBkLTRmNzQtOWIxYi05ZWFkOTljYmFiY2YifQ.49jEfDwgQUpfYG5iVAuAd02TwCOMrnVULqFSdbMolOs' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly everyone never never large fact.","maxScore":90,"minScore":5,"description":"Forward front treatment. Safe large language sort wonder business toward.\nOne wonder yes leader. Send station big. Way property conference see garden.","previewFileId":"161681ae-2be5-4b4a-b7f9-a092c5b83ea8","estimatedTime":"4 weeks","createdByUserId":"f986d11d-d10d-4f74-9b1b-9ead99cbabcf"}'
