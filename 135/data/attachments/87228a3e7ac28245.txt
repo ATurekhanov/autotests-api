@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5445f84f-eda2-4656-b0b8-86ea8adc76d5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDA0OjIzOjA5LjExMjc5MiIsInVzZXJfaWQiOiI0MWQzY2NkYi1mY2RhLTQ1NjMtYjM3My0xNzljM2JmMmQ0OTkifQ.jRamGQWanD0MHQqvp1oHRXVokjsF47_RrN4jGc9UMsA' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fish seven think view customer.","maxScore":65,"minScore":25,"description":"Early nothing trouble member particular. Reach control share boy side. Face important interest protect prevent.\nSister past yet charge. Project ahead collection this.","estimatedTime":"5 weeks"}'

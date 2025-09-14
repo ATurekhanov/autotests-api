@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDA0OjIzOjEyLjk1NDk3MiIsInVzZXJfaWQiOiJlZWI3YmNlNC1hZDUyLTRkOWEtYjcyMi0zZTdkYmRmOGZlMmQifQ.nYGFDE_iB22Yk_1nCR0dugeADfkbbuozASvV4u-ejWg' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official her son law bring degree eight.","maxScore":54,"minScore":24,"description":"Development tonight color throughout billion take reflect individual. Participant range herself inside affect. Effect relationship born short over large. Free stage remember woman.","previewFileId":"8c6393a3-dbf6-45c3-bc3c-547407d2f9cc","estimatedTime":"7 weeks","createdByUserId":"eeb7bce4-ad52-4d9a-b722-3e7dbdf8fe2d"}'
