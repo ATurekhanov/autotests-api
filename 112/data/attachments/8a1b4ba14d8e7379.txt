@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDAzOjU2OjQzLjgwMjM2NCIsInVzZXJfaWQiOiIyNDc3ZGNmNS0wNDA0LTQ2YzgtYjI4MC03ZjY0NWVkMTBjNzgifQ.aTFI-N8oMRWnQ9jO_hc3khwHmrj5YDTTaFKnpYdXy0w' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring charge suggest themselves today force must.","maxScore":69,"minScore":3,"description":"North maintain raise necessary wrong final consumer. Quickly movie stock yard speech. Ahead conference president.","previewFileId":"5b95fe3c-9b39-4ad6-b83a-4ab8cb00e8e8","estimatedTime":"2 weeks","createdByUserId":"2477dcf5-0404-46c8-b280-7f645ed10c78"}'

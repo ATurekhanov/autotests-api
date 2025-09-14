@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDAzOjU2OjQyLjYyMzA2OCIsInVzZXJfaWQiOiI1NjU0N2ExNS0zOWI1LTQ3ZTItYjA1OC1mMDJjZjBlZWE4MDAifQ.W66uGzRHv57FHXUhGBQ313FGt3mcyI3q3TjlLrOuOBg' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone poor little number name degree deep.","maxScore":77,"minScore":14,"description":"Current follow thought value year husband. Television either example throw. Toward year floor until catch.\nOffice end field middle. Wonder somebody play. Every cup hit other paper free.","previewFileId":"12e80649-e631-48c9-ae15-f9567fd64ae4","estimatedTime":"2 weeks","createdByUserId":"56547a15-39b5-47e2-b058-f02cf0eea800"}'

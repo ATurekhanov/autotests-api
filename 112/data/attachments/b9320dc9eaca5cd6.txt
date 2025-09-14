@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDAzOjU2OjQyLjM0OTgyMSIsInVzZXJfaWQiOiIzZTE4ZmUyMi02NWQ0LTQxMmQtOTIxMi0yZTQ1YWFiNTE3ZjIifQ.acT392JjqhFPeGqsUzjsRyqevIs7itTH8hY8t2QKK6U' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide suggest material environment style town participant.","maxScore":64,"minScore":7,"description":"Face personal answer degree issue. Seven bank name occur. Guess next view learn. Movement professor trial far environment provide.","previewFileId":"b7afb705-663e-46f7-93ab-0f427a2dba60","estimatedTime":"3 weeks","createdByUserId":"3e18fe22-65d4-412d-9212-2e45aab517f2"}'

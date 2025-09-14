@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/4a005f96-d9bf-42d9-a594-64ae3f597b57' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDAzOjU2OjQ1LjY5MDc5MSIsInVzZXJfaWQiOiIwNWI1MDVhOC03MTgwLTQ0YWQtYTgwOS03MzIzZGQ4NzBhNzAifQ.HaBt4UkT7OeecCYBZeRAyJk0ZPaqLMqjX7oVKvU7ZoQ' \
+  -H 'content-length: 246' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry image man cell floor available sister.","maxScore":89,"minScore":8,"orderIndex":83,"description":"Ever find third source own break thank. Crime sea conference watch. Total down suddenly thing side mind.","estimatedTime":"8 weeks"}'

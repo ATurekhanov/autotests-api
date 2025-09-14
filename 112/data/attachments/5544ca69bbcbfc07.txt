@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE0VDAzOjU2OjQ1LjY5MDc5MSIsInVzZXJfaWQiOiIwNWI1MDVhOC03MTgwLTQ0YWQtYTgwOS03MzIzZGQ4NzBhNzAifQ.HaBt4UkT7OeecCYBZeRAyJk0ZPaqLMqjX7oVKvU7ZoQ' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer media already floor test fast former.","courseId":"21dcc2e0-7fc2-4021-9971-a21f0177d3d9","maxScore":62,"minScore":27,"orderIndex":2,"description":"Girl quite less staff debate somebody. Anything white war. Tough take daughter ahead more heart food instead. Administration now summer will.","estimatedTime":"10 weeks"}'
