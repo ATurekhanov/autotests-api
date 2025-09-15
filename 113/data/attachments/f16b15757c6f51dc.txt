@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE1VDA0OjAzOjMxLjc3Mjg4NSIsInVzZXJfaWQiOiJlODMwN2VmMC1hOTY3LTQ1ZDMtYjI5Ni03ZmZmYmU4YmU5YmYifQ.rvjnZch6JQlLLsIAH0QGYq-pTQxdKWvN6gvqZGwqv38' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship investment smile even.","maxScore":65,"minScore":23,"description":"Throughout black professor not sure effect. Thousand organization discuss check collection fill. Political despite serious big believe citizen series.","previewFileId":"6f66e540-5824-4929-850c-d5631a55c1e3","estimatedTime":"1 weeks","createdByUserId":"e8307ef0-a967-45d3-b296-7fffbe8be9bf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE1VDA0OjAzOjMxLjQ5OTMyMSIsInVzZXJfaWQiOiJlZWRmZTNmOC00OGExLTQwOGEtYjllYy1kNjcxM2VlOTA4N2IifQ.79usjkkxDoWcayzMRBhAHcv08rXSbC1tR68ZAMDnXi4' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand a move home now draw.","maxScore":80,"minScore":14,"description":"Girl like southern edge view. Perhaps all policy place.\nReally executive these former feel. Get growth effort. Sound issue which action.\nRise whether without response enter.","previewFileId":"a459cae6-0e97-4355-9136-c34e01c13215","estimatedTime":"9 weeks","createdByUserId":"eedfe3f8-48a1-408a-b9ec-d6713ee9087b"}'
