@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE1VDA0OjI3OjMzLjIxNTAxMCIsInVzZXJfaWQiOiI2NDk1Y2VmYS00MjliLTRlMGItYjE2ZC0xZjEwNjU4MzIxMTkifQ.ojnrX7gvmkG2SQ9KljV6NP1anCnjg_ui48Zza5qkFmw' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing sound almost.","maxScore":72,"minScore":25,"description":"Receive maybe form way court. Him response media. Care national those teacher hand west.\nAgo recent public degree. Simply expect marriage detail hour thought. Road security century line produce say.","previewFileId":"2d5483e9-9c9a-41d7-8743-dff39f4a25dd","estimatedTime":"9 weeks","createdByUserId":"6495cefa-429b-4e0b-b16d-1f1065832119"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/00d4db65-b385-45b8-ba7f-1a856047e722' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE1VDA0OjI3OjI5Ljk3MzkwOCIsInVzZXJfaWQiOiJiZDA3NzZkNS1jNDA1LTQ5ZDEtYjkwMi1lNzdhYjdlNjAyZDkifQ.9i1x-Xd2syu1lNUxfw4mFZULIKDTce7BgeZgG82eLNg' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media author sign debate.","maxScore":56,"minScore":17,"description":"Same about price glass gas be agreement media. Design right adult pattern.\nReally young certain movie someone. Few civil learn. Wonder site best newspaper someone hundred.","estimatedTime":"2 weeks"}'

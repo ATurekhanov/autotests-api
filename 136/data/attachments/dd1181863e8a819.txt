@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE1VDA0OjI3OjMyLjU4MDQyMiIsInVzZXJfaWQiOiI3NmQ2OTYyYy00ODBkLTQzZDYtYjUzNi01MDVmYWY4NjJjNzkifQ.7csnMpzKRzs-cR6JPQUIN0FRMR8KXqHyPEP3-d5evbY' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beyond night paper arrive far environment.","maxScore":90,"minScore":15,"description":"Message society doctor increase food church matter. Begin college reduce experience marriage finally.","previewFileId":"949c816b-01f8-4213-aeea-f8fa0c71afcf","estimatedTime":"5 weeks","createdByUserId":"76d6962c-480d-43d6-b536-505faf862c79"}'
