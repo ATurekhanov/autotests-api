@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/361b6971-105c-474f-9b61-eda7e1cd6230' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDA0OjIyOjEyLjM1NjQ2NCIsInVzZXJfaWQiOiJhYmRkNTI3ZC1lZGVlLTQ2ODgtYWFjYi1kYWFlNzg1OTJhZDAifQ.3HTkEnS-oW3L9ubSmqoTh56KHzVmOn-9UzdDGkJy6js' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship him investment.","maxScore":68,"minScore":1,"description":"Heart better police consider check. Somebody finally boy eat sign pass. American start method person sense large investment teach.","estimatedTime":"1 weeks"}'

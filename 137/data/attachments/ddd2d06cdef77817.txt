@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDA0OjIyOjE0Ljk0NzkzNyIsInVzZXJfaWQiOiI4ODRmMmFjMi0wMTc0LTQ1MjEtYjU3Yi02ZDk5ZTFhYTY0MmUifQ.QvQ7kXVVbN6zIyLrlu8OFAXu57dnnT74Mt-Mh82-XJs' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cell foreign fly as our allow challenge.","maxScore":96,"minScore":16,"description":"Discussion read brother paper. Produce whether my he. Give more arm could art peace.\nEarly hour couple well yard. Half activity drive marriage two. Paper hotel worry respond agreement.","previewFileId":"9710d06f-c062-4f28-8866-825fdc79169b","estimatedTime":"8 weeks","createdByUserId":"884f2ac2-0174-4521-b57b-6d99e1aa642e"}'

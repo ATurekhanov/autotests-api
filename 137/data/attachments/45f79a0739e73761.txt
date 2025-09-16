@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDA0OjIyOjE2LjE3Mzc0MSIsInVzZXJfaWQiOiI4ZmRjZmExNi1iODFhLTRlZDctYTU0NS03ZDNjNmM0Y2YzNTIifQ.nev_0M1zElMHTFiajaFKcbP5dDBPOA8qkQxy8tLCNJ8' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which act see company.","maxScore":76,"minScore":25,"description":"Great well recently. Relate loss away series group sit.\nLight force vote far teacher ability skill study. Surface impact sport difficult. Former rock future indeed big.","previewFileId":"cdf4d8a0-f52e-4686-adb6-06e5fce08569","estimatedTime":"7 weeks","createdByUserId":"8fdcfa16-b81a-4ed7-a545-7d3c6c4cf352"}'

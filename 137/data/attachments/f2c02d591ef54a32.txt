@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/a35d4835-868c-4574-9e4b-60ba67ca184e
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/a35d4835-868c-4574-9e4b-60ba67ca184e
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to a35d4835-868c-4574-9e4b-60ba67ca184e
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Film hair cover sound purpose.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 426153ff-fea1-4372-8427-5798d29edfc7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 67
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Hold drop move call whole include positive same. Beat cold firm suggest center late business break. Her war same item interview scientist.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

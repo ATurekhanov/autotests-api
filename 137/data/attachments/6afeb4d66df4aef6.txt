@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDA0OjIyOjE2Ljg0MDczNSIsInVzZXJfaWQiOiJhNDZhNzcxMy02OGU0LTQzNzgtOGE2YS0zZTZiNGY2ZWQ5ZTcifQ.Rq1BN8M9YcpI-wPXpWBNTeGx_lS9eeegi66af-ERkDI' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Factor finish trade matter minute.","maxScore":91,"minScore":14,"description":"College product then personal decide baby.\nProduction area measure I. Environment office public sell. Institution above meeting add sister.","previewFileId":"c891b732-02bf-48d0-9b17-9b5702b2b4bd","estimatedTime":"4 weeks","createdByUserId":"a46a7713-68e4-4378-8a6a-3e6b4f6ed9e7"}'
