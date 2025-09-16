@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDAzOjUxOjU4Ljc4Njk4NiIsInVzZXJfaWQiOiI0MjUzMjdjMC0wNWU3LTRjNTEtOTJlOS1mYWU0YTQwNDUxNWIifQ.o7FoxwG4GlYT_5LSwF0jehgip6_HUn5haCUHp7u0U40' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Range work today week hit senior already.","courseId":"ad1b0989-b493-4a51-8e70-4da2d2bc3f1e","maxScore":81,"minScore":17,"orderIndex":40,"description":"Sure quality enter exactly couple. Notice room political data if other high table. Employee interview issue determine section arrive know.","estimatedTime":"4 weeks"}'

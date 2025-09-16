@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDAzOjUyOjAwLjAzMzUwNSIsInVzZXJfaWQiOiIwNTgxZDk5Mi1jYTBiLTQ0MTYtOGI5My1hMTM3NGY2ZmUwYjkifQ.B3om_5ngGkWiyEVYGATiiRw8jMAScE5GBMKye4STakM' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Coach officer open if news project.","maxScore":89,"minScore":29,"description":"Describe cultural cultural. Season suddenly security woman someone.\nPossible general day nearly reduce. Will stock feeling keep point year expect.\nSubject kitchen owner. Old similar job low maybe.","previewFileId":"2b5efdb1-2189-494c-8ec0-961c75400999","estimatedTime":"4 weeks","createdByUserId":"0581d992-ca0b-4416-8b93-a1374f6fe0b9"}'

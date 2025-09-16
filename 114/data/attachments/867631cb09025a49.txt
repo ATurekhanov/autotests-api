@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDAzOjUxOjU4Ljc4Njk4NiIsInVzZXJfaWQiOiI0MjUzMjdjMC0wNWU3LTRjNTEtOTJlOS1mYWU0YTQwNDUxNWIifQ.o7FoxwG4GlYT_5LSwF0jehgip6_HUn5haCUHp7u0U40' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wall away control ask professional together.","maxScore":64,"minScore":7,"description":"Chance hard set music. Human find popular away director. Hotel member office until.\nRadio ago offer whole themselves include still. Responsibility we analysis clearly gas lay range.","previewFileId":"b19b50b6-8c1d-48c0-9d49-a79c4b0de728","estimatedTime":"9 weeks","createdByUserId":"425327c0-05e7-4c51-92e9-fae4a404515b"}'
