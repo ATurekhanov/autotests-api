@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE3VDAzOjUwOjI4LjI0ODg5NCIsInVzZXJfaWQiOiJhOTg5YTdiYi0xZGU4LTQyMzAtYjRmYi1jOTVjNGFjZTViNTUifQ.ndDLRxEY3znrHjGKnbAWUW8H3DuBfqeGI4tWP0CkuNg' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner within left field today behavior reality.","courseId":"a49cb782-0481-4e68-94c9-68d307ff09c7","maxScore":59,"minScore":14,"orderIndex":97,"description":"Pressure huge feeling involve level activity.\nAlmost civil successful none economy. Bag we cell relate artist.","estimatedTime":"8 weeks"}'

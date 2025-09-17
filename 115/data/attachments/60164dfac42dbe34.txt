@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bcada594-9805-4da8-a993-788933cd06a3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE3VDAzOjUwOjI1LjAyNTg3NCIsInVzZXJfaWQiOiJlYTE2MmY3Yi1kMWVjLTQ1Y2QtYjhmZi1hMzZhYWM4YzZhYWIifQ.0D8TKjFEGQ0W9kRY3IZj9rG72l4_JTaCzFgCV5R781c' \
+  -H 'content-length: 244' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold perhaps draw industry guess.","maxScore":71,"minScore":20,"description":"Lot stop modern effort his plant. Of near paper party change reality. Play including weight car.\nStuff citizen difficult every.","estimatedTime":"4 weeks"}'
