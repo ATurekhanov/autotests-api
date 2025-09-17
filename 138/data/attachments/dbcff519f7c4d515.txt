@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE3VDA0OjIxOjIzLjc4Mzk0MCIsInVzZXJfaWQiOiJhYjZjZWFmMy05YTI0LTQ3NjMtYWMzZC03ZjAxNTZhNGRjYTUifQ.4G3SRlstGXQzQUTfsU9Xflc6TUNq0qkNeC5bpdgQjfs' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show road deal much government sport across.","maxScore":88,"minScore":24,"description":"Court natural education though well front. Will improve argue suddenly center debate.\nLead table eye item side hand car writer. Individual study direction focus cold tree item worry.","previewFileId":"6dc0ee3e-24b3-4488-b513-144ad7e4277a","estimatedTime":"1 weeks","createdByUserId":"ab6ceaf3-9a24-4763-ac3d-7f0156a4dca5"}'

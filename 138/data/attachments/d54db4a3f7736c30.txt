@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE3VDA0OjIxOjI3LjAyNTU4MCIsInVzZXJfaWQiOiJkMDUzNzlhYi1kMDcwLTQ2NjEtODUyOC1jMzBkMDQwZGZkMzkifQ.O_ZVnQW79ujGo4ZZf4On33089sQNJqc9ZVTEFTI_x84' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enjoy citizen special tough civil always discuss.","maxScore":60,"minScore":13,"description":"Teacher discussion easy. Director especially eight wait quality. Because if lose try then.\nPhone cup so million once war. Seem onto draw economy maintain.","previewFileId":"1c53f0cc-3d57-42ed-b720-b5c0e6874de9","estimatedTime":"9 weeks","createdByUserId":"d05379ab-d070-4661-8528-c30d040dfd39"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE3VDA0OjIxOjI0LjY4NTExOCIsInVzZXJfaWQiOiJiMWE4OTFjYy05NTA4LTQ3NjMtYjQ5NC1hMDFjMWY3YWIyMDYifQ.OG28uJi981m20RncUZNYvsqshQA1db_NKo_wfdvfDo8' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand well source very man.","maxScore":90,"minScore":2,"description":"Best factor soldier rather picture stage including media. End car garden drug strong.","previewFileId":"fabec407-89b6-4d18-aa0e-8a5563f0e5f8","estimatedTime":"10 weeks","createdByUserId":"b1a891cc-9508-4763-b494-a01c1f7ab206"}'
