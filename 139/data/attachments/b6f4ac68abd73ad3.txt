@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDA0OjIzOjU0LjU5MjM1NCIsInVzZXJfaWQiOiIzNGExMzFhMy0xOTQ3LTQ0MTEtOTJlNS1hZjY2MDcxZmMyZDkifQ.DwiJSyKtlP-Mui0dz67BXdrY5MbZyY5Ty4qCDIQ431M' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Computer activity American again PM reach card.","maxScore":71,"minScore":21,"description":"Across you describe purpose real beyond material. Never act develop political.\nIncrease yet think social condition yard. Kitchen study expect test address.\nWould between top.","previewFileId":"3da2da45-f31f-48b6-a64a-441dda103a15","estimatedTime":"9 weeks","createdByUserId":"34a131a3-1947-4411-92e5-af66071fc2d9"}'

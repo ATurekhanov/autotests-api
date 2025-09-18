@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDA0OjIzOjU1LjIwNDE5OSIsInVzZXJfaWQiOiJjMTI5YjVmNi0xYWI1LTQwN2QtODg3Ny1jOWJhNWI1MDY5ZmQifQ.psUMg-gi1nqr2fh5_S_rJnfduhZUEDchEg3MuzJIero' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Network successful whose hour drug whom well its.","maxScore":93,"minScore":16,"description":"Future visit station house role effort some white. Later never last together.","previewFileId":"4358baf9-868c-40bd-944f-de08d51caf8d","estimatedTime":"4 weeks","createdByUserId":"c129b5f6-1ab5-407d-8877-c9ba5b5069fd"}'
