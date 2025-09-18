@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDAzOjUyOjQ1Ljk5NDUzMyIsInVzZXJfaWQiOiI2ZGZlZDhkMi03YzA5LTQxNzctYjlmMi02ZmQzYjk3NjgyNDQifQ.0wgobwxPbNgoUCacGlZPvgH19WtLu-hWv3SjSz8fLLY' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He father seek air night.","courseId":"2ecadba3-ef95-405e-83da-71e91a10c24a","maxScore":82,"minScore":17,"orderIndex":90,"description":"Involve area assume fund church race. Plan buy act purpose edge. Hotel out determine wish.\nCut our whole type recently. Modern investment brother body never talk. Discussion issue drop.","estimatedTime":"8 weeks"}'

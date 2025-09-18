@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDAzOjUyOjQ4LjE0NjY3NCIsInVzZXJfaWQiOiJiN2M4NWE0Yy03NTJmLTQ0ZDYtYjJjNC0zN2E4YTZmODQ0ZDYifQ.qYqI5JULH0aio1F-5QAJkefBPpWN55pFZWwwKnwIz_0' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game themselves according study condition.","maxScore":92,"minScore":17,"description":"North yard standard case either green quality. Speak indicate policy difference history.\nApproach ten race opportunity major. Animal respond game any. Him matter measure cost race between.","previewFileId":"b918fa94-6832-4e85-954f-ac5644e3a3a5","estimatedTime":"8 weeks","createdByUserId":"b7c85a4c-752f-44d6-b2c4-37a8a6f844d6"}'

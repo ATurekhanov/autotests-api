@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDAzOjUyOjQ1LjA4OTA0OSIsInVzZXJfaWQiOiI5MjhiZjc0Yi1kM2E5LTQ5YjUtYThhNi0yYzY5NzA3ZWUxYTQifQ.M2gOmPjeSr5UwG0QCA2LnAlqBBdn3Te2QRIKHbeQlZM' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care again capital training image receive.","maxScore":76,"minScore":3,"description":"Group push put change peace history attorney. Region little us open. Environment cup level hard.","previewFileId":"ef41ce17-dc32-43ea-ad39-7af5069e08c2","estimatedTime":"4 weeks","createdByUserId":"928bf74b-d3a9-49b5-a8a6-2c69707ee1a4"}'

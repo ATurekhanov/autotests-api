@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDAzOjUyOjQ2LjI2ODYxMSIsInVzZXJfaWQiOiIyYjNjYmM2NC1iZjI2LTQ5ZTYtODBlNy1jM2FjYzI0ODA1ZDUifQ.SaFhqyeca6prS4wFgyvjRPkbDZF004l0SHrt9EY-YGY' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table wall interest town agency politics.","maxScore":96,"minScore":15,"description":"Night else seem out. After conference suggest worry generation. Ask plant available month allow marriage.","previewFileId":"29bd4206-aa7f-4742-83e8-af44805ae719","estimatedTime":"1 weeks","createdByUserId":"2b3cbc64-bf26-49e6-80e7-c3acc24805d5"}'

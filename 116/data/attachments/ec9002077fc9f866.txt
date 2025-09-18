@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDAzOjUyOjQzLjY3NDIwOSIsInVzZXJfaWQiOiJkMjVkZDM5OS02NjExLTQ1YTgtYWRhYy05NjJjMDNjOTJkN2IifQ.ntvdlCwWdMrVAIwAiQPecC0xd546h32sO7F-d57ibgs' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official tree generation benefit.","maxScore":62,"minScore":8,"description":"Though own important administration bank large southern. Table teacher least daughter notice these consumer.\nData than dinner any social. Fast couple which seat employee.","previewFileId":"7c68375a-60e4-4327-a55c-d555388b89a0","estimatedTime":"2 weeks","createdByUserId":"d25dd399-6611-45a8-adac-962c03c92d7b"}'
