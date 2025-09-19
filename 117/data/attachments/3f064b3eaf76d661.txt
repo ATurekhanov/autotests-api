@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDAzOjU2OjMzLjQ5MDkxNiIsInVzZXJfaWQiOiI3MmI4MGU3MC04MDJmLTQ5MGQtYmM2YS05NDJlZjZmYTYwM2YifQ.tMAeUtC0z_OAvETfAEWhLAcrWsNS03Xmv2UQFIJQ29I' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Raise decision politics state cell force explain water.","maxScore":69,"minScore":26,"description":"Huge same none necessary network trial trouble. Determine last stay church she director. Sure many before pressure career record. Law nothing deal professor decision task mention.","previewFileId":"b6db44fd-97e7-46d9-be4f-4e271e06ba02","estimatedTime":"1 weeks","createdByUserId":"72b80e70-802f-490d-bc6a-942ef6fa603f"}'

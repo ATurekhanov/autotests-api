@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDAzOjU2OjMyLjI2NDU5MiIsInVzZXJfaWQiOiJjYzg1Zjk3Yi01MmI0LTQ0MGUtYjNkNi1iMjRlM2RkNjQ5M2MifQ.XlZOuLoQKqssieytqo00_n-6I2KXrf8wChaz47uHSXI' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept series eye this but record.","maxScore":56,"minScore":26,"description":"Plant piece phone read. Factor save democratic pattern learn dog prevent.\nImportant remember hair report. Market decide everything south.","previewFileId":"1de388e6-69f4-4d70-a3fe-bcc308dc3340","estimatedTime":"9 weeks","createdByUserId":"cc85f97b-52b4-440e-b3d6-b24e3dd6493c"}'

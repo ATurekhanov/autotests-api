@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDAzOjU2OjMyLjI2NDU5MiIsInVzZXJfaWQiOiJjYzg1Zjk3Yi01MmI0LTQ0MGUtYjNkNi1iMjRlM2RkNjQ5M2MifQ.XlZOuLoQKqssieytqo00_n-6I2KXrf8wChaz47uHSXI' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example simple information improve that.","courseId":"1010a393-5278-4915-b43b-2aab83f0d122","maxScore":76,"minScore":14,"orderIndex":43,"description":"Better brother always time decade yes. Win form strong near successful as.\nDetermine soon move city control stand. Quality eat standard yourself final. Level boy work civil dream wait.","estimatedTime":"8 weeks"}'

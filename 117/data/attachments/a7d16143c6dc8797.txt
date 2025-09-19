@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDAzOjU2OjMxLjk5MTY2NiIsInVzZXJfaWQiOiJhZjY2NjU5NS00YmMxLTQ4ZTEtYWM2ZC00OTkwY2Q1NjM5NzIifQ.gss9d4zfjmH7gvZ7JpikoghKD4i3t8C6CYn6-1aFUtE' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least writer it represent report quality.","courseId":"65c9e43a-bdf1-49aa-8c16-299152b26e47","maxScore":79,"minScore":12,"orderIndex":79,"description":"Them enjoy student. Age leave political black.\nMovie former travel yourself which. Weight weight claim today our get discussion owner. Message wait sign federal moment evening letter.","estimatedTime":"2 weeks"}'

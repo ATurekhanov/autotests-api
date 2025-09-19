@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ff48e988-609c-4ca7-b408-79d1ffee9354' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDAzOjU2OjI5LjY1NzQyNyIsInVzZXJfaWQiOiJjYmE5MzJlNy0yNTM0LTQwZGQtYWNmMC0zMjU2ZTE2MjI5OWMifQ.QYAu8g2nPoVW3vEUVhZY2Ie5i9vHtXhjHhLpFDZytg0' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine administration section large.","maxScore":83,"minScore":7,"description":"Up hotel Mrs technology choice free. Play discussion tree.\nLight address understand at economic. Visit pretty political most fall. Benefit later lawyer until process car language.","estimatedTime":"4 weeks"}'
