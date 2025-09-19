@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/aa488e0d-afca-489d-a0b9-b8f5a06fa542' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDA0OjIzOjA2LjAyMzc4NiIsInVzZXJfaWQiOiIxMzgwOTI5MC02NWE5LTQ2MDAtOTJmOC1iMTAwZjA2ZGVhM2UifQ.GyJmRxSFmgniDKcPSNGSSrf7hWJCxmmKSAMGWsUTFGc' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine city product the.","maxScore":97,"minScore":11,"description":"Admit throw girl finally long town. Case pass exactly. Sell item hospital above like play.\nNewspaper standard myself accept. Base address use.","estimatedTime":"3 weeks"}'

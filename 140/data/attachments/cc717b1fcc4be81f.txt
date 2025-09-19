@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDA0OjIzOjEwLjQ2NTcxNCIsInVzZXJfaWQiOiJkNmQxODhkZS01OTFmLTRhN2UtYTJiOC05ZGEzOWU2YTUwNzAifQ.c6-H4Nww7C57FW9ZrAE-Vng9mrsDhAvEs7PVPkSD6zs' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Two successful arrive each to.","maxScore":69,"minScore":24,"description":"Doctor road safe item through moment. Summer southern like. Drug culture almost spring skill staff.","previewFileId":"a937064b-8b3f-40eb-aaf8-53cdb7c36e6f","estimatedTime":"4 weeks","createdByUserId":"d6d188de-591f-4a7e-a2b8-9da39e6a5070"}'

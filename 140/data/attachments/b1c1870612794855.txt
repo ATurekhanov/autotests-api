@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDA0OjIzOjA4LjYwNjI3MSIsInVzZXJfaWQiOiJiZDQwY2NiYi1iMmZkLTRjYjEtOGI5Mi1mYjgyYjZhMzg1MTIifQ.rCr9ESDeI84o3K2_L7CKuEWzEYAUg8kbkF_ADCRPLnI' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Alone only whom course idea despite different pull.","courseId":"50a4d40b-097e-46bc-8643-76fbadd91a87","maxScore":94,"minScore":14,"orderIndex":75,"description":"Sign responsibility direction yeah standard top interest. News rather I power bag. Either anyone stock know wrong movement.\nCitizen myself their throughout admit. Nice mind herself western never.","estimatedTime":"5 weeks"}'

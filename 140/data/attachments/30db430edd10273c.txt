@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDA0OjIzOjA3LjE2MjEyNyIsInVzZXJfaWQiOiIyZDcwMzc2NC1iYjNlLTRjOGYtYjc1Mi01ZjU4NWI2ZDVmYjgifQ.odD1adpHXycu6LJVpW86NTxowgAlTxYNEPec_7XdHyI' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim somebody dark run interesting sit list.","maxScore":74,"minScore":4,"description":"To try heavy. Difficult president our central clearly newspaper program. Consider follow west check.","previewFileId":"1b3029c2-0802-4245-b32a-31330169eef6","estimatedTime":"4 weeks","createdByUserId":"2d703764-bb3e-4c8f-b752-5f585b6d5fb8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE5VDA0OjIzOjA3LjQzNDY3MCIsInVzZXJfaWQiOiJjNjNhYTJiZi1mYTQ2LTQ0MDEtOTEzMS1kNWFkYjYyMzI3MDAifQ.AJ4sYtPLfzv35D0xJHS-eksbHkn5oZgBfO2OgUBw8PU' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity week occur stage move interesting.","maxScore":66,"minScore":4,"description":"Whose current answer. Newspaper hold front national talk minute kid. Party glass would whose soldier task.","previewFileId":"823b444f-e2fa-4b84-a9a7-738e6b991d42","estimatedTime":"2 weeks","createdByUserId":"c63aa2bf-fa46-4401-9131-d5adb6232700"}'
