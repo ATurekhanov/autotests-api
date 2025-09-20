@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAzOjUwOjA5LjQ3NjA1NyIsInVzZXJfaWQiOiI3YzIzMTQ5MS0yNWZjLTQwNTYtOWE1YS1lNDU5ZWZjZTM5YWEifQ.lyGc9UuvG1KZ2ZL2VRS3419xyB6xFPOp-yvd6zSToEg' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There within cover tonight main police ball.","maxScore":84,"minScore":19,"description":"Manager knowledge order the. Range thing knowledge security.\nTown time executive speech.","previewFileId":"da007b17-a2ab-4f82-ad3b-e76bd6d5ea79","estimatedTime":"4 weeks","createdByUserId":"7c231491-25fc-4056-9a5a-e459efce39aa"}'

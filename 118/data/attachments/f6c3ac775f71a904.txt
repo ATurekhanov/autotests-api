@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAzOjUwOjEyLjU0MTE2MCIsInVzZXJfaWQiOiJlM2U0ZGFkMS0zODVkLTRiODMtOWFhYS1hODUxMGVjNjNjOWMifQ.OEI-NoGYrdWXQMcj_LMTcnQlTq7e4qQpA20W3XQ3zXc' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hope pressure professional bag early happy.","maxScore":76,"minScore":14,"description":"Various out choice would piece. Success off feeling main our black according. Executive parent strategy page themselves.","previewFileId":"8d2fc145-9625-427a-9aa4-abe8abc1e939","estimatedTime":"3 weeks","createdByUserId":"e3e4dad1-385d-4b83-9aaa-a8510ec63c9c"}'

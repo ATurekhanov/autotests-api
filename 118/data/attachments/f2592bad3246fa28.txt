@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAzOjUwOjA4LjA2MzYwMSIsInVzZXJfaWQiOiI2MmFlOTFjMi02ZDBiLTRjMTItYTA2NC1kNmRkNjRhN2RlYzUifQ.LiPUyFhwn4v484p4lA9wIaH8Uy_AgQ81nzDOox9qCvc' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least thank early author value newspaper choice.","maxScore":68,"minScore":6,"description":"Population same movie identify product building. Their pay child go fear table prepare.\nAccount power grow through sound nice job difference. Little good perform sit cost.","previewFileId":"8a0578fe-00e3-4551-bdb6-d5073a3d19a1","estimatedTime":"4 weeks","createdByUserId":"62ae91c2-6d0b-4c12-a064-d6dd64a7dec5"}'
