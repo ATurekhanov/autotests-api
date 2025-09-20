@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDA0OjIxOjQ3LjE0MjE0MSIsInVzZXJfaWQiOiIzNmE5YjVhOS00YjgwLTRlNzctODc4Zi05MGEyYzI5MGMxYjMifQ.h_M9RMxXHvilDhnweh8GgCGKbDzSuZrTe76gTD7Cvak' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Risk her do treatment soldier hospital.","courseId":"f478e655-93d4-46f0-ba36-d469df351c58","maxScore":92,"minScore":4,"orderIndex":4,"description":"Series left down recently base space. Half gas bar next. Cold provide front pick test.\nPartner reality leader remain forward item. Case around daughter environmental.","estimatedTime":"10 weeks"}'

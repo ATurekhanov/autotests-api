@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDA0OjIxOjQ1LjA4NDU5NSIsInVzZXJfaWQiOiI5YWU0YTc5Zi02MmM4LTQ1NjEtOGE1YS0xYmNmMjJlYTU2ODkifQ.t2qIOd1r5N66oUBcZqtJvZxAsa60S22DIxa-BtfkhyA' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term son individual step.","maxScore":64,"minScore":5,"description":"According hear still point exactly generation their. Positive meeting sport of pay. History wall light check management rather politics.","previewFileId":"d7c9ac79-2f36-4eaf-9247-00c2807eb633","estimatedTime":"5 weeks","createdByUserId":"9ae4a79f-62c8-4561-8a5a-1bcf22ea5689"}'

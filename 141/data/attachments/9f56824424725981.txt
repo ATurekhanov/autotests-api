@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDA0OjIxOjQ3LjcyMjQ5MSIsInVzZXJfaWQiOiI4OGYzODZhMy02YzdmLTQ3OWUtODAyYi0yM2UxNDE1YzdkZjAifQ.DI_d2ZiJ0BidO5DLr9k9v62dhKde2DfOGWFvb1arOtM' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Believe company each money current PM out.","maxScore":84,"minScore":29,"description":"Inside kid be defense effort scientist free. Behavior describe magazine establish. Film newspaper painting if leg increase.","previewFileId":"86700df1-1b05-4343-9db4-88a33d70666f","estimatedTime":"9 weeks","createdByUserId":"88f386a3-6c7f-479e-802b-23e1415c7df0"}'

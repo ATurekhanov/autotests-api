@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDA0OjIxOjQ1Ljk4MDQ5OCIsInVzZXJfaWQiOiI2OWNiZDdhZi0wMjdmLTQ0MzItOWFmMC01MzZkNTczM2FmMzEifQ.xQk04nzEG8-0nTnljsur0MfsSuJOuoP39uiQvLQmc-4' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice plant music feel tend.","maxScore":66,"minScore":11,"description":"Building huge may clear not. Way simply oil challenge. Produce build doctor can blue.\nPractice floor fine business between lead politics offer. Toward different out cup wall.","previewFileId":"361744b8-9ee8-4a50-821f-ac84acf699d7","estimatedTime":"4 weeks","createdByUserId":"69cbd7af-027f-4432-9af0-536d5733af31"}'
