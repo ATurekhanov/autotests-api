@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjAxOjU5LjUyODI3NSIsInVzZXJfaWQiOiJhNWVmNzc3Zi02YzkyLTRlMDktYTBkYy1mZWRkYmVkOGU3YjMifQ.kJwFFjfIXiVcxNNrPVn7BcvfEfNoO8NTrIOdmy0FXtA' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spend lead law reality network.","courseId":"f865cf1e-54cf-44cc-9280-cdfe0e511f1f","maxScore":91,"minScore":25,"orderIndex":44,"description":"Opportunity rich improve choose note.\nStuff career short key almost natural finish attack. Operation down back stuff trade house. Section involve do.\nDark administration assume add.","estimatedTime":"8 weeks"}'

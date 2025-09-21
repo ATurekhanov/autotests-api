@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjAxOjU4LjM1MzQ4NiIsInVzZXJfaWQiOiJiZGQ1MWI3MC1jN2NhLTQ4Y2MtOGZjNC1kMDNiOGQzY2Y4NmUifQ.XLEQq7EVUi8_REX7Ucmytz5YmbGpqlZjuTxOsetxMOI' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole response challenge letter cup.","maxScore":72,"minScore":6,"description":"Rich including but author fund art. Huge exactly big sister. Nature participant else record half.\nKnowledge minute million involve crime effort. System role despite before.\nTrade stuff town.","previewFileId":"cfdaa4da-be05-4aca-ab8a-43cd1b4d1aa3","estimatedTime":"3 weeks","createdByUserId":"bdd51b70-c7ca-48cc-8fc4-d03b8d3cf86e"}'

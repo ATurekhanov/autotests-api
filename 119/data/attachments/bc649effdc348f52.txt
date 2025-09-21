@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjAyOjAwLjQ1NzI5MyIsInVzZXJfaWQiOiIwMzBmYjlhMC1kZTM4LTRhZWEtOWYxNi1mMWRlZDBjZGQ5MDcifQ.UFaIhL-KnaS2PhungTnz5u0VNumdYHmDRbl9pa75X6U' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense professional fund although technology.","maxScore":99,"minScore":4,"description":"Teacher size poor remain picture. Natural soon than particular church available.\nEven authority ever enter. Ball yeah surface herself learn image.","previewFileId":"9dfefd12-4a32-47cb-a709-878d97e78363","estimatedTime":"7 weeks","createdByUserId":"030fb9a0-de38-4aea-9f16-f1ded0cdd907"}'

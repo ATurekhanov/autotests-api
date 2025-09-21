@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/14417d60-e934-48a1-a5bd-3a31b6a5d81b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjAxOjU3LjIwNjMyMSIsInVzZXJfaWQiOiJmMTczZjU5Yy04MjMyLTQzNDctOTcyOC1hMDAwZDZmNmM2NDIifQ.r99LwGiFsl8gCp8Om2ediq_RNTKzSh4fRmg5RggDCk8' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wish four big those especially car.","maxScore":91,"minScore":15,"description":"Decide example west spend. Point tough catch hard trial position. Drop laugh become after leg.\nModern pretty various write business moment. Attack side miss evidence politics.","estimatedTime":"8 weeks"}'
