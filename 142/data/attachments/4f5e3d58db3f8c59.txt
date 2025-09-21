@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjI2OjExLjE1NDA5MCIsInVzZXJfaWQiOiJjMDM1ZTYzYS04ZDNmLTQ4YzctOTZlNy1hNmJiMDJlMWRjNjMifQ.-EqeoNZ6wapOqvpWIiFA75X3I-Q9ltXw_9qLXQBq0qo' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task help wait before discussion single notice.","courseId":"26480ca8-7296-4888-a3f2-325d775bf12e","maxScore":73,"minScore":14,"orderIndex":37,"description":"After then low alone. Fund avoid range. Quality any window thing entire.\nSister medical room beat bit around sea. Audience summer actually many for loss. Wait window later apply receive a.","estimatedTime":"4 weeks"}'

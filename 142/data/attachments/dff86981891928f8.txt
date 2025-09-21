@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjI2OjA4Ljk2OTc4MCIsInVzZXJfaWQiOiI0ZWI1ZTY1ZC01NTdmLTQyNWItYTg1MC1mMmYwZjJlNzBiODMifQ.zBK4Y41vKAxB2EKwpo9tiL4z9CukForvfpmFVnLDaXM' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century movement that only sometimes.","courseId":"4bf660bf-0c4c-4a88-b9ad-a5287abf8b6f","maxScore":80,"minScore":9,"orderIndex":67,"description":"Say room table during tend middle charge agree. Employee control continue. Say good school fine everyone who character.","estimatedTime":"8 weeks"}'

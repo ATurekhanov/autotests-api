@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjI2OjA5Ljg5NDk5NyIsInVzZXJfaWQiOiI5MzBlNzBjOC0xYjQyLTQ4NWItOTMwMC1jNzM0NWJkYjYzYzEifQ.kWIuh7plv2F3tPmMjQwOpqUKmngw7vYfjOSjTAQoddQ' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major firm brother feel.","maxScore":53,"minScore":24,"description":"Reveal wrong public card. Imagine wind play beyond stand. Loss cause station question risk phone. Benefit more near money.","previewFileId":"f79f2a18-09c0-4bb1-aedc-8f4ef74c5ebe","estimatedTime":"10 weeks","createdByUserId":"930e70c8-1b42-485b-9300-c7345bdb63c1"}'

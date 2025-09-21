@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIxVDA0OjI2OjA4LjA2Mzk1MCIsInVzZXJfaWQiOiJjZTQ1ZmMxYi04OTRhLTQxMGItODg3NS0zNWFjOTkxM2JiY2EifQ.wJ2U9nJrQ3nxR2Bu1BbCBv0kkx9CYKMXyHUkDPyiNPY' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect respond natural resource just defense.","maxScore":96,"minScore":24,"description":"Think whatever condition once. Great indeed tonight serve story reflect town. Soon serve since again.","previewFileId":"1c73c2d5-339a-4de5-a67f-ee74ae4424c6","estimatedTime":"6 weeks","createdByUserId":"ce45fc1b-894a-410b-8875-35ac9913bbca"}'
