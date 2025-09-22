@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjAyOjM3LjI0NDQwOCIsInVzZXJfaWQiOiJiZjVlYTkzYi1lZWM2LTRlNWYtODVjZS03ZGQzNjZkNGZhNTYifQ.EAKA2W4I9FP-cncIfj_z-tMhMTmQHYuFKakSmXDuubM' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among home everybody road.","courseId":"797531f0-8072-4776-a245-716b2237e437","maxScore":71,"minScore":3,"orderIndex":83,"description":"Like shoulder state. Fact instead beautiful drive old little new. Crime power front already various still. Nor black involve training outside might.","estimatedTime":"6 weeks"}'

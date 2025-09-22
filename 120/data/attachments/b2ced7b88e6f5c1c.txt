@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjAyOjM2LjYwMDU3OCIsInVzZXJfaWQiOiIzNDRjNzE2Yy04ZGRiLTQzMWEtYjRlZC02ZjQzYWFlNTk2ZDYifQ.SaWfrNVuRDuq_n4E218Nbg6S-dGtJ25N2AIMzjRCwyw' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"While area agree.","maxScore":93,"minScore":28,"description":"Your power under often charge. Art song arm. Require cell current hospital.\nFather pull evening with eat. Month wide born production could how any bank.","previewFileId":"0761ca44-e1b9-490e-88a5-4c4573be6c45","estimatedTime":"7 weeks","createdByUserId":"344c716c-8ddb-431a-b4ed-6f43aae596d6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjAyOjM4LjQ5MTIwNSIsInVzZXJfaWQiOiIzZGExYzViOS01ODQ0LTQyZGYtYTliNy0yODRjYTY3ZDllMzcifQ.lNICesP6yLVNbkiZtJn3-yUj81dYNdWFQvm3Yf9RBKo' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought work usually event.","courseId":"a7d5f07b-98e0-44af-8525-d909a29b6408","maxScore":59,"minScore":4,"orderIndex":35,"description":"Million exactly can anything. Pick rule vote the.\nStay arm soldier move computer fact reduce. No amount force this song. Management worker series consider method save area.","estimatedTime":"9 weeks"}'

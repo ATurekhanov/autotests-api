@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjAyOjM2LjYwMDU3OCIsInVzZXJfaWQiOiIzNDRjNzE2Yy04ZGRiLTQzMWEtYjRlZC02ZjQzYWFlNTk2ZDYifQ.SaWfrNVuRDuq_n4E218Nbg6S-dGtJ25N2AIMzjRCwyw' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly notice lawyer new improve never adult.","courseId":"12b63cc1-41d9-4c5d-af64-43761e87cd68","maxScore":91,"minScore":27,"orderIndex":78,"description":"House hard before evening I collection. Price front many off with.\nDifficult add section employee which. Leg allow individual hotel. Recently measure international and.","estimatedTime":"8 weeks"}'
