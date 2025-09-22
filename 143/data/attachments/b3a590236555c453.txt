@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a4079a4f-bb17-41be-89cd-0f2d3d31d3a6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjI2OjU1LjM4OTAzNSIsInVzZXJfaWQiOiJkMGQ0MjBjMC1kOWRiLTQ3OTctYTQzOS02YmViOTgzZjJkODMifQ.5lYCnAr7cmwLTIjsQAB-5t25_5evLo5O6pf-JZsLCGE' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization available collection series kitchen rich deep create.","maxScore":89,"minScore":4,"description":"Road watch visit in consumer culture shake.\nAge American else three trade house. Few person weight explain. Miss let remain a.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjI2OjU5LjIxOTY0NiIsInVzZXJfaWQiOiI1MjQwNDgwMS05YmNiLTRhZTItYjlkZC1mOTY4MTgwY2JkMzMifQ.6uAPqkMYZPU346yZ-79FBOjs3uk9NGNj8FEZVgRIbWM' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who appear former season pattern require hear.","courseId":"755b5dad-0dbb-4422-9a6a-71f0d3e4b911","maxScore":84,"minScore":3,"orderIndex":11,"description":"Institution book talk idea. Arrive bag official front.\nChild summer policy poor half staff movie nothing. Figure matter think matter high still show.\nArtist bring government.","estimatedTime":"6 weeks"}'

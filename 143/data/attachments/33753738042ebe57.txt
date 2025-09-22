@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjI2OjU4LjYzNTEwOCIsInVzZXJfaWQiOiI3NDlkZTM2ZC04MzMyLTQ3NjEtYjA5YS04MjkzYWM2ZmQwMGUifQ.Kb8cNgOKFQoedhwtI1cvohoGIJ4O5VKp4Zaql3Gajlw' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball be media effort party collection.","courseId":"b5d7f7b1-b4cd-4e13-99d7-cb357c0d99b7","maxScore":80,"minScore":28,"orderIndex":26,"description":"Reduce material realize same direction whatever prepare. Government national learn.\nServe agree speak his foot. Recognize nothing certain outside.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIyVDA0OjI2OjU5LjIxOTY0NiIsInVzZXJfaWQiOiI1MjQwNDgwMS05YmNiLTRhZTItYjlkZC1mOTY4MTgwY2JkMzMifQ.6uAPqkMYZPU346yZ-79FBOjs3uk9NGNj8FEZVgRIbWM' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Toward great bar white pattern friend south.","maxScore":60,"minScore":25,"description":"Movie international million kid us with set.\nCentury least young. Stage personal race. Product outside charge see chance.","previewFileId":"435e3a23-7891-41e2-977f-af65b781be20","estimatedTime":"5 weeks","createdByUserId":"52404801-9bcb-4ae2-b9dd-f968180cbd33"}'
