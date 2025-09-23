@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAzOjUzOjQzLjM1ODQwNSIsInVzZXJfaWQiOiJjNmJmZGJlZS1jMTIxLTQ3MDYtOTgwZC0xYmYwNGM2NDhmZDcifQ.rCM_XPWxalM5uvWad6sIkb-LAKtsLmIqM3uUuBXhn18' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go before ever professional.","maxScore":97,"minScore":9,"description":"Table science edge debate lawyer everyone weight. Change good of work thank son.\nWhat start win throw sort move into national.\nGreen former example buy since. Sing by green green point.","previewFileId":"99577660-80fd-4b42-af8a-770e90667c90","estimatedTime":"3 weeks","createdByUserId":"c6bfdbee-c121-4706-980d-1bf04c648fd7"}'

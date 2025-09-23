@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAzOjUzOjQ3LjE4ODY5OSIsInVzZXJfaWQiOiI0Nzg3ZWU1ZS1lOWQyLTQ5ODUtYTg5MC0wMjk5ZmVhMTA0ODgifQ.P_7obXTYAYaBzVkIWiRPFVLAOxhJ81gFIZOsUjJAxBc' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip beyond go then practice than.","maxScore":61,"minScore":16,"description":"Artist front benefit fact between significant. Generation only something miss then available.","previewFileId":"213d5295-13b3-4308-bf7b-0b18dc431d13","estimatedTime":"7 weeks","createdByUserId":"4787ee5e-e9d2-4985-a890-0299fea10488"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAzOjUzOjQ0LjUxMDUwNyIsInVzZXJfaWQiOiJlMjUyOTMwMC0zZWViLTRkZWQtOTU3NS1jNTIxMzZhY2JjMTgifQ.weqdcgyS6upyS2sm0PeMfqsFg64GW5Z6OkkmE59WZkw' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everything of dinner pay.","maxScore":73,"minScore":25,"description":"Me plan operation. Message hand compare boy plan want.\nPhysical south reality factor. Save around future enough. Range anyone ready relate go amount our. Pattern small thought until available.","previewFileId":"43d8fc19-dab0-414e-a52c-49380fcc8c4c","estimatedTime":"4 weeks","createdByUserId":"e2529300-3eeb-4ded-9575-c52136acbc18"}'

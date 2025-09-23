@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAzOjUzOjQ1Ljk1OTg4MCIsInVzZXJfaWQiOiJjY2E0N2IyYS0yNWEyLTRiYjgtYTY0ZS04NGU5ZGY1MGI0N2UifQ.nIhdpZpttIUWIJuMB7V9X4mhX5Ae0RWr6cBlrv3uB6Q' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Until wall respond.","maxScore":50,"minScore":11,"description":"Job by keep store. Risk who surface door memory happen form. Human hair task college hand.","previewFileId":"616ce14b-db85-447f-bdbb-0e960f684055","estimatedTime":"3 weeks","createdByUserId":"cca47b2a-25a2-4bb8-a64e-84e9df50b47e"}'
