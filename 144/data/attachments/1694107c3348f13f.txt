@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDA0OjIyOjQyLjg2Mjc5MiIsInVzZXJfaWQiOiI5YTJiMTFiMi01M2M4LTQzZWItYjY1YS05Njk0MDJkODdlYzYifQ.uG1COdrA1NkUJYf4EtAXdglphnBBZc4XqWnml3B1Q7g' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yes imagine growth step one book.","maxScore":62,"minScore":13,"description":"Seven successful create Congress. Authority tell hope night entire nation education. Explain include table think reality conference full agency. Enjoy number right lead able blue throw list.","previewFileId":"54ffc9b9-138b-4366-bc80-033aad85eb98","estimatedTime":"4 weeks","createdByUserId":"9a2b11b2-53c8-43eb-b65a-969402d87ec6"}'

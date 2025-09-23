@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDA0OjIyOjQzLjQ0NDYwMSIsInVzZXJfaWQiOiJlYWYyODM3OS01MThiLTRkMGEtOTAyMC0yOWFjMGU5ZjA2NDcifQ.PdjNKSVx9x3gFazjmCb61HUpmoZzpMxin6xbd6vLJsc' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Public special no song like.","maxScore":83,"minScore":12,"description":"Sure even off only. Doctor true today ball. Ever water miss challenge whether range.\nPhysical travel magazine than prepare audience administration. Game society although pull reality back.","previewFileId":"60298b00-8eec-4d81-8895-20c5abc7b510","estimatedTime":"3 weeks","createdByUserId":"eaf28379-518b-4d0a-9020-29ac0e9f0647"}'
