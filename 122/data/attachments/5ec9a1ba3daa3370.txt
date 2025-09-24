@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDAzOjU0OjUwLjEwNzE4NyIsInVzZXJfaWQiOiI4ODgxOWRlNi02ZTcyLTQ5ZGMtYjk3MS03Y2M5OTI4ZDIxNDYifQ.v7IWnUV0nOgl3bCyc2UBCbdpkRLVDC2dWD1Wo-wiU6c' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality sell marriage method surface door short.","courseId":"87e22ef8-e5b2-4ba1-8d01-fe4366677e8e","maxScore":52,"minScore":26,"orderIndex":27,"description":"Race office along language professor. Evidence often side stock after low.\nFull newspaper national Congress. Inside these long thousand maybe player none. Mouth majority Democrat purpose kind sign.","estimatedTime":"10 weeks"}'

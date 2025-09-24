@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDAzOjU0OjQ3LjA1NjgyNiIsInVzZXJfaWQiOiJjMTIzNjM5YS05ZGNiLTQ5ZjEtYjk4ZS1kYzk3MjRjMzY4MTYifQ.VLhARSgxnxZ13pRmJrHA_E_DjC1R3kXm4LV6z6iJYh0' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together social whether.","maxScore":87,"minScore":30,"description":"Case total accept speak science hear. Surface above pretty party reach. Recognize light join pattern table north onto these.","previewFileId":"9b00a457-9912-4526-b5e2-40b3bcbeb374","estimatedTime":"3 weeks","createdByUserId":"c123639a-9dcb-49f1-b98e-dc9724c36816"}'

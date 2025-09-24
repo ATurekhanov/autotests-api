@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDAzOjU0OjQ5LjQ1MjExNSIsInVzZXJfaWQiOiJjZDU5MjFmYS00ZmQ0LTRjODctYWJmZS02ZmFmN2VhMGY4NTEifQ.bSDEiC88oRXRVRcPwzV24zQeHUOrPvVT3wvTyxQ4sow' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce blue challenge sound charge look PM.","maxScore":97,"minScore":11,"description":"Compare western police voice. Seem house build at.\nMyself either for indicate entire.","previewFileId":"ebbbdcc7-9ecb-4467-8c3a-36b842a8ef0b","estimatedTime":"3 weeks","createdByUserId":"cd5921fa-4fd4-4c87-abfe-6faf7ea0f851"}'

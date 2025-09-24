@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDAzOjU0OjQ3Ljk1OTM4NiIsInVzZXJfaWQiOiJiMDMwNGY2Zi1lMjAxLTQyZGEtYTQyOS03NzcyMjJiM2M2YTUifQ._0RCcyzBHwz1mJX5BOBRUw4mr0cGArsxD3MePC0k3m4' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank black drug while foreign million effort case.","courseId":"4e91d5f1-96b9-45da-a86d-28f17baae33f","maxScore":79,"minScore":20,"orderIndex":6,"description":"Very especially service position low. Woman into resource would religious.\nArm compare authority head better step. Middle also this prepare try. Start relate necessary cost shoulder.","estimatedTime":"5 weeks"}'

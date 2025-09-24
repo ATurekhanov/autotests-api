@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDAzOjU0OjUwLjEwNzE4NyIsInVzZXJfaWQiOiI4ODgxOWRlNi02ZTcyLTQ5ZGMtYjk3MS03Y2M5OTI4ZDIxNDYifQ.v7IWnUV0nOgl3bCyc2UBCbdpkRLVDC2dWD1Wo-wiU6c' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speech night Mr wind.","maxScore":100,"minScore":4,"description":"Morning thought executive give car attention during example. Sport probably kid compare spring public. Word town take adult attack.","previewFileId":"dae1a365-d208-470e-9eb9-2c004ac89da5","estimatedTime":"1 weeks","createdByUserId":"88819de6-6e72-49dc-b971-7cc9928d2146"}'

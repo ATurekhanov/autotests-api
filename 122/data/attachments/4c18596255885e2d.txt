@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDAzOjU0OjQ1LjYzNzQ5MyIsInVzZXJfaWQiOiIwN2JjNDU3MS0wOThhLTQwZjMtYjgxZS03Yjg0OGE2ODJiOWQifQ.ogtXKQCLlYbp5tr1m_oRXrscUJJWgWmDB6NNxk621CY' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"I discuss any ask.","maxScore":93,"minScore":22,"description":"Financial similar who it land. Nor fall eat new report strong form news.\nSea present large expect director maybe. Drop few least big away.","previewFileId":"6d92b08f-d138-4516-996a-16b5472ca1ee","estimatedTime":"8 weeks","createdByUserId":"07bc4571-098a-40f3-b81e-7b848a682b9d"}'
