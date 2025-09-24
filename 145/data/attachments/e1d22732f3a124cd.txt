@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDA0OjIzOjEzLjg0Njc0MiIsInVzZXJfaWQiOiIyMTdhNjUyNS0xNTI3LTQwYWMtOTViNC0wZDUyMjdmYjZiYzUifQ.xQTPMrdKoLN4J4-Jj-vzWmUEZp-GgssDDshQYPccqdU' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third small serious song less.","maxScore":54,"minScore":17,"description":"Argue center watch prevent message chance newspaper. Admit happen trade worker.\nTraining above us large interesting. Suddenly speak condition.","previewFileId":"531952b1-457d-44eb-91cd-f40b14056f82","estimatedTime":"7 weeks","createdByUserId":"217a6525-1527-40ac-95b4-0d5227fb6bc5"}'

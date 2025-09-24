@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6f9b14cb-9470-4326-a694-c994530ba8d9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDA0OjIzOjA5Ljk0MTU0OSIsInVzZXJfaWQiOiI5MmQ4NDY1Yy01YmNlLTQzNjctYmRhOC02YzA0YjY0MTkxZWMifQ.h3erMRogzPulmCrLqsgTqZbiNHIjpkmTEi9Z5yKkdlA' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She force read law movement interview seek so.","maxScore":86,"minScore":18,"description":"Democratic record nearly agree. Professional majority set relate catch exist. Take speak hospital beautiful sell.\nPush field including chance watch. Easy owner window.","estimatedTime":"2 weeks"}'

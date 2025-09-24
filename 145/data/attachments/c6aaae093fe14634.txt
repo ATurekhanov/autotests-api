@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDA0OjIzOjExLjQzODk3MyIsInVzZXJfaWQiOiJhZGIyOGU4Zi00MDEwLTQzNTItYjNhNS00MTZjMTY4ZGUwZTgifQ.F7NRwSuoHaYV-M0nIMBR6-tH-wD0SX3y8V9Fu_U4jMg' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Save minute particular.","maxScore":50,"minScore":30,"description":"Generation maybe increase environmental yet ask. Management majority entire serious appear.\nNo discussion game agreement hope. Instead issue major. Future carry stop hold project.","previewFileId":"11c5ad3c-d0ee-403c-89a7-11da9ff5f05b","estimatedTime":"9 weeks","createdByUserId":"adb28e8f-4010-4352-b3a5-416c168de0e8"}'

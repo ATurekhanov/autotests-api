@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDA0OjIzOjEwLjg1NzM2OSIsInVzZXJfaWQiOiJhMjU0NzRmNS0xN2ZjLTQ4NWYtODgyMi0yMjJhYjhlYWM4MDYifQ.zu_DxQZY2dAU8zVt1VbrW7rGhqfezEt_uX2lKQh2K7k' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View capital affect option.","maxScore":89,"minScore":4,"description":"Serious accept single prevent culture at. Across director meet mouth recent word test. Rather half win.\nGas kid get conference family key. Sound list until throughout store strong.","previewFileId":"1de53810-21d0-4381-8881-455459ff704c","estimatedTime":"9 weeks","createdByUserId":"a25474f5-17fc-485f-8822-222ab8eac806"}'
