@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAzOjU3OjEzLjY3NjMwMiIsInVzZXJfaWQiOiIxOWQwNmUxNy0zNWRjLTRhMDItYjA2Ny00YTk0OWRiMjMzMGMifQ.LjYnjDgActLNHk0ucjslLUpXsxZZzzNCV_SvN5AgJaI' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Staff participant under light reason company.","maxScore":69,"minScore":23,"description":"Military clear TV marriage loss statement become. You artist forget include. Right join reason fact in young to morning.\nFear myself help.","previewFileId":"9d598542-0137-419d-b695-f0ccd78e348b","estimatedTime":"8 weeks","createdByUserId":"19d06e17-35dc-4a02-b067-4a949db2330c"}'

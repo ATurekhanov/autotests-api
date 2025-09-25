@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1e30e530-9bae-43f7-9b73-57338ac3562e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAzOjU3OjEyLjE5ODA1MCIsInVzZXJfaWQiOiJjMTQ4OWE3Ni0yYjNiLTRhNjktODQ4OC1kYzM2ZDQyMzQ2MDgifQ.DXDGfIRzqsQ1mVUNHBgjoU-kx8vpQcTuMfRO6i2qqFA' \
+  -H 'content-length: 225' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Know plan cell into condition.","maxScore":58,"minScore":13,"description":"Approach per early. Heavy scientist positive agency us cup.\nAnyone focus nation work. Play senior someone five.","estimatedTime":"3 weeks"}'

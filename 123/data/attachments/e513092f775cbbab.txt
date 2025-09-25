@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAzOjU3OjE2LjA2NDc1OSIsInVzZXJfaWQiOiI0Yzc2YjNmYy1kN2VjLTQwYTAtYTVhNS1lYzdhMmYyMzc5NmUifQ.v3fIY5bBwW9kLplbV7rUkVv0g-_F9mj7Cb5YGPYLV88' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lot prevent mean hair.","maxScore":61,"minScore":13,"description":"President treat positive majority need. My sit factor will benefit effort condition property. Value lead direction need. Idea room campaign much have especially manager.","previewFileId":"a21d09f8-8d22-466c-a90c-55e6953576a3","estimatedTime":"3 weeks","createdByUserId":"4c76b3fc-d7ec-40a0-a5a5-ec7a2f23796e"}'

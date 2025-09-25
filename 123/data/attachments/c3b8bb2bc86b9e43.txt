@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAzOjU3OjE2LjY2MDQ0NSIsInVzZXJfaWQiOiJkNDQ2ODk4YS01ZGI2LTQwN2EtYmRjOC1lOTAzZTY5M2UwNjMifQ.lWVmTa_2zGxsKPi8DCP169urijbVzq-JTgvjevIb_0M' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat charge call property business human cost.","maxScore":91,"minScore":26,"description":"To should indeed small social. Fund across cultural instead letter car state.\nForce likely modern language must sound wonder. Road exist soon according deep.","previewFileId":"44421ff4-641b-4516-8a7f-340219297ab5","estimatedTime":"7 weeks","createdByUserId":"d446898a-5db6-407a-bdc8-e903e693e063"}'
