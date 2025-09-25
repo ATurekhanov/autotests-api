@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDA0OjI0OjA1Ljk1MTk1OSIsInVzZXJfaWQiOiJjMmY5ZWRkNC1jZWE1LTRlZjItYWNiYS03ODk2NjE5MjYwMzAifQ.LZWmyV_R2KDuf583P4g4rJZhU6qMag_B-nB7aELCggo' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Various increase sell we interview unit occur save.","maxScore":78,"minScore":4,"description":"Officer whatever ago whose us. Ball can easy out staff strategy.\nAppear possible baby. Able certain statement small fear foot. Claim eight wide only author international.","previewFileId":"8de5135e-046b-456e-b3d4-09bfecb091b7","estimatedTime":"1 weeks","createdByUserId":"c2f9edd4-cea5-4ef2-acba-789661926030"}'

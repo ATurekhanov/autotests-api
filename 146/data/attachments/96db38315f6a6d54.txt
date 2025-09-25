@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/904f1bb0-306f-4fe7-949c-b04b175f7876' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDA0OjI0OjAxLjQ4MjE2NSIsInVzZXJfaWQiOiI5MGUzZWJmZC1kNjg4LTQxNzYtYTkzMi0xOTVlMzM2NzI2MWQifQ.PD4_VETsvGso7axuNtY9U48zKzkq3UkHd0dUNEHkZN8' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fast still policy street how week.","maxScore":71,"minScore":9,"description":"Kind manage front network yourself. Across cultural present degree challenge reason. Yet degree beautiful discover skin.\nPlan program on goal when group. Drug trip east.\nPoint me walk commercial.","estimatedTime":"6 weeks"}'

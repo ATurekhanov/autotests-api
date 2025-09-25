@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDA0OjI0OjA0LjA2OTMxNyIsInVzZXJfaWQiOiJhY2ZiYTZkZi0xNDA5LTQ0MjItYjcwMi0xMGZhMWRmZTI1NGYifQ.Ub7u703n9kfy8I-qU981ezvxii2jVBB---NSAkp2zF0' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop under message cup response itself.","maxScore":61,"minScore":23,"description":"Everything share analysis girl collection.\nSupport star west easy weight quickly. Program matter property agency social light.","previewFileId":"370f11d9-bca2-47a6-8253-0ea877eb81f8","estimatedTime":"10 weeks","createdByUserId":"acfba6df-1409-4422-b702-10fa1dfe254f"}'
