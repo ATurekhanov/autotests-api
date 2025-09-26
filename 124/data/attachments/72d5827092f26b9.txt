@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDAzOjU1OjIwLjY4MDUyMiIsInVzZXJfaWQiOiI5NGYxODMzYy00MDc4LTQxMzQtYjI3YS1jMDUyMWZmNmY3MmMifQ.0pCB5-0hYjfxBCkAGbu1YWFImFG8Se7aOcujfyPz_vE' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy together significant newspaper customer early two.","maxScore":78,"minScore":18,"description":"Red why professional practice. Return wind interesting quite start if some.\nLawyer deep far news each explain. Win language trial night. Size many under Mr prepare.","previewFileId":"2918960a-57cd-4607-94f1-08f5cc32f21a","estimatedTime":"5 weeks","createdByUserId":"94f1833c-4078-4134-b27a-c0521ff6f72c"}'

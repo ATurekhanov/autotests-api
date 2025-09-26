@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDAzOjU1OjIwLjA5NTMyOCIsInVzZXJfaWQiOiJhODI0NzRlMS0xNDAxLTQ1N2EtOGQ3Ni00Y2MxOTg0YmVjNWMifQ.9WYal26V6KT415ySzzxQ_WB9jYNjsi07cC0FSiBdBYQ' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Or what article identify the maintain.","maxScore":66,"minScore":11,"description":"Ago Mrs statement foreign television significant condition. Ground you despite here.\nCentral exist risk stage. Manage close concern many early onto.","previewFileId":"e3860cc9-0b04-41b2-a3f2-98de7cd8f7f3","estimatedTime":"3 weeks","createdByUserId":"a82474e1-1401-457a-8d76-4cc1984bec5c"}'

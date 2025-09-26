@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDAzOjU1OjIxLjI2MzU5MiIsInVzZXJfaWQiOiIxYzJjZGFiZC1lYTEyLTRhZDktYjA4MS00OTE2ZDUwMDc2M2MifQ.VruAvtSMBfHGyhrxCqqBBfTY6v-_Hgr40Rxaq52VtsU' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment ability may energy agent develop meeting.","courseId":"3c307669-aed4-4b5e-823b-d7d665e65ed2","maxScore":80,"minScore":20,"orderIndex":41,"description":"Edge else experience remember sport quality. Only ahead cause level.\nOpportunity green alone mother. Because office fly you give. Compare want skin case sister suggest room.","estimatedTime":"3 weeks"}'

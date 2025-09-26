@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDAzOjU1OjIzLjY2OTgxMCIsInVzZXJfaWQiOiI3MDgxYjc2MS04MjMwLTRlNTYtYTE5Mi1mNzZjZjUxZjk4OGQifQ.UmLc8tfQexNntlw3mZeine-GTC0PeQbnWJh6QjHNGDA' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each at imagine together same.","courseId":"92b00349-ee9b-449b-958d-aba48d83e5d0","maxScore":91,"minScore":5,"orderIndex":48,"description":"Subject wonder sea trouble officer our. National range fire onto.\nNetwork attention base best. Machine issue however trip. Outside miss top doctor hair owner democratic.","estimatedTime":"8 weeks"}'

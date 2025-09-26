@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDAzOjU1OjE5LjE5MzYxNyIsInVzZXJfaWQiOiI1Y2UxNDBiOC0xNjdjLTRlYjgtYTYxYS02OWMyZTZhY2IzNjEifQ.5b5Sa5uVkd1u2LEDcXsqHYDbRnvxursgZhyFNO27Z8M' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discussion film task air along.","maxScore":88,"minScore":15,"description":"Magazine wall current candidate beyond phone statement. Store senior development than anyone rise example.","previewFileId":"ba1c8391-75ba-4322-a91f-628e8ba6bc65","estimatedTime":"4 weeks","createdByUserId":"5ce140b8-167c-4eb8-a61a-69c2e6acb361"}'

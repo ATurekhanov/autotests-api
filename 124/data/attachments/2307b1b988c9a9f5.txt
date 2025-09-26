@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDAzOjU1OjIyLjQyOTY1MyIsInVzZXJfaWQiOiIzMjIxZDI1ZC05ODFiLTQxN2EtYjZlMC02YWYzNjBiYTU4ZjkifQ.feNysT4wQJ_fhjnnlGiY6vRhsvfsiTliS6DPdIFew_U' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spend within free blood.","maxScore":68,"minScore":1,"description":"Baby visit teach third close behavior ask. Summer center agree under question interview. Game hit audience end.","previewFileId":"51985ac8-8953-46fb-84ef-ce6235fafc1b","estimatedTime":"2 weeks","createdByUserId":"3221d25d-981b-417a-b6e0-6af360ba58f9"}'
