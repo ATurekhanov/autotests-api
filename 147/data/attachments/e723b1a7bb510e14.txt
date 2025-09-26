@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ff1188c9-ccbd-4dbf-a2a9-b5a942de8490' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDA0OjIyOjQ5Ljg0MzQwMSIsInVzZXJfaWQiOiIzMDUzZmIwYy1jMDc3LTQ4ZTItOTFhMi05OTQ4ZjMwYjZiNWUifQ.M8IaVHCt7J_qD7CIlvTPxRDkwzRSUnQAkdYUnJYzfM0' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law modern remember red avoid shoulder rest.","maxScore":65,"minScore":27,"description":"Hope safe garden. Dream about performance choose better so its.\nTreat thousand position travel friend hundred. Role crime free majority. Out left themselves perhaps.","estimatedTime":"2 weeks"}'

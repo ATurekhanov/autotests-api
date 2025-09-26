@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDA0OjIyOjUxLjI1NDAxMCIsInVzZXJfaWQiOiI1NzhjNzU4NS05YzQ5LTQ2YWQtODA0MC1kYzk1Nzc0MDA1NzUifQ.uE5ZVKEacuzHKeVgWXx0zfEgQB_-FAAczGhBg-3eiRI' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait compare though.","maxScore":75,"minScore":14,"description":"Although building their same election capital. Political suffer general skill special natural Mr security. Hospital pay about business wrong education.","previewFileId":"c4f650fd-478c-4345-856e-71dc45914d85","estimatedTime":"6 weeks","createdByUserId":"578c7585-9c49-46ad-8040-dc9577400575"}'

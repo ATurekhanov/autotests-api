@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDA0OjIyOjUzLjA3NDIyNiIsInVzZXJfaWQiOiJkZjk4OGEwNS1hZjFjLTRiNTUtODVkMC03MGI1ZGU5ZmUyMmIifQ.uMjrmDlfNE1NVb4ZbPKJ9zK23SU2k33S0-0AD60DAFI' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message talk environmental any production woman.","maxScore":83,"minScore":14,"description":"Democrat office law western physical fact across. Keep people foot green say expect view we.\nTrue he economy staff trade big. Statement year somebody anything north worker senior.","previewFileId":"09c77cc0-2217-4280-8fb3-54d0bae994f9","estimatedTime":"10 weeks","createdByUserId":"df988a05-af1c-4b55-85d0-70b5de9fe22b"}'
