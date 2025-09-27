@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e571d0ff-2242-4022-885d-cecb8fa57a10' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAzOjUwOjEyLjg2Nzk0NSIsInVzZXJfaWQiOiJkODI4NzFkMy1jOTlhLTQzNGQtOTU0OS1hMzVkM2MxMGQwMGYifQ.hKezCZUTOL4VTuGrHd6PmOoHg_s6dMgk2Z3rdB5x5yg' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy successful light arm range bed charge.","maxScore":62,"minScore":21,"description":"Election still once enjoy social network whom. Class send stop talk.\nEveryone room rate gun table kitchen everybody name. Course scene fact. News should hair sometimes.","estimatedTime":"1 weeks"}'

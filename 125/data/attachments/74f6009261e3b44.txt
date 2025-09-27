@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAzOjUwOjE1LjQ3MTg2NCIsInVzZXJfaWQiOiJiNWYzOGU0Ny03NGI0LTRlZGYtOWYzZS0zNmExN2NkYmY1ZjIifQ._WITN2XnRgwhrAtpJx9NnQNRduW1CFgQ5TkRXM7O2Rg' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Minute science call parent.","maxScore":54,"minScore":22,"description":"Politics through stuff cut whom physical animal. State ever base almost near.\nImportant family now mention. Show apply today effect them step coach.","previewFileId":"4fb333fc-2394-477c-af4b-4cb6cdbf7f41","estimatedTime":"10 weeks","createdByUserId":"b5f38e47-74b4-4edf-9f3e-36a17cdbf5f2"}'

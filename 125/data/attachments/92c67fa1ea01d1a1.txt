@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAzOjUwOjE0LjAyMzI4MSIsInVzZXJfaWQiOiJjZDhkMzQxNi00ODllLTRmMGYtYjk5Yy01NGRiM2RmZGU4NjkifQ.nrjCTMXSpiJ5-RysSGS1ZNRBfA5A6iAW8A1XsJiF_vk' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without rest whom Congress amount especially write.","maxScore":75,"minScore":14,"description":"Six still figure picture. Watch business those everything. Certainly somebody age past say environment.\nLay media movement property expect simply. Pass space inside small fast.","previewFileId":"319cc248-b521-4caf-b39e-79a324ade1e5","estimatedTime":"8 weeks","createdByUserId":"cd8d3416-489e-4f0f-b99c-54db3dfde869"}'

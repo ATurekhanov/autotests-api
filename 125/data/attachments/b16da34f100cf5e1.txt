@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAzOjUwOjE3LjM5NzE2MSIsInVzZXJfaWQiOiJhMjc1ZjRhNS1lYWM0LTRmYTQtOGNhYy0yM2VkZmI4NzQ2YWYifQ.-W-k3x1BR9w6381Jhw6kdP7PlAHhaLf4Qly89gisFN0' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exist like nothing rise us play serious.","maxScore":71,"minScore":12,"description":"Executive significant total away. Art night dog economic.\nManagement age television play.\nSpring foreign want something direction. Beyond how magazine baby young.","previewFileId":"9cd5b14e-ffa8-4e76-aa9d-a35ad1d9c39e","estimatedTime":"3 weeks","createdByUserId":"a275f4a5-eac4-4fa4-8cac-23edfb8746af"}'
