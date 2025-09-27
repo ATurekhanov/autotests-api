@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDA0OjIxOjUzLjI1OTMzNyIsInVzZXJfaWQiOiI1YTJkODJiNS1iMjI1LTQ2NWQtYTJhOS1mNTQwZmU0Mzk5ODMifQ.GRmMtfTmHXYVAa0MKZ8ix3vlgDGAC0xcPjA0y4AmRlE' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability federal culture various gun contain matter.","courseId":"cc73d306-571c-4f0f-864e-3762d47bea67","maxScore":67,"minScore":4,"orderIndex":86,"description":"Result read job executive box. Bit reason either deal laugh career.\nEast term life. Free class benefit. Commercial blood name well heart involve through.","estimatedTime":"10 weeks"}'

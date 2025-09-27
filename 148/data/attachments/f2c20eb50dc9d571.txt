@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDA0OjIxOjQ4Ljc1MjgzOSIsInVzZXJfaWQiOiIzNTA3YmIwMS03MzAzLTQ2YjctOTg4ZS1mNTU4ZjNhMTRjY2EifQ._tjGVYkwo1myiW8MSsNpWYVNX5MGio7dZXlXZ1qraQM' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry bank back where include.","maxScore":90,"minScore":4,"description":"Much military yard international score.\nFast agent occur investment focus pattern. Myself apply way suddenly certainly.\nProduction growth example. Water next top ago nation.","previewFileId":"135cb8cb-574d-4938-a22c-4dac076f640a","estimatedTime":"2 weeks","createdByUserId":"3507bb01-7303-46b7-988e-f558f3a14cca"}'

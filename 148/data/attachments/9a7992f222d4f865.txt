@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDA0OjIxOjUyLjY0OTA2NSIsInVzZXJfaWQiOiJhZjBjZWJjZi1kMmFiLTQ3NTktOTU2NS0yOTM4MjMxMGZkZmYifQ.o_GFiuXC61WgdkyfDUzbYir9TPqO1XmhGxU3Hrwv87c' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dream instead receive maybe ground either rock.","maxScore":59,"minScore":29,"description":"Visit second hot toward. Girl important large party though arm prove. Project view answer soldier. Realize pass subject daughter pattern help.","previewFileId":"e69a50c4-baaf-4398-a8a1-a6a2a4a878d2","estimatedTime":"8 weeks","createdByUserId":"af0cebcf-d2ab-4759-9565-29382310fdff"}'
