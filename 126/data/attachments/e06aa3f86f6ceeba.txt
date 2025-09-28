@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI4VDA0OjAyOjIwLjI3Mjk3NyIsInVzZXJfaWQiOiI5OWMzZTUzYi1hMDZkLTQ1YzAtYmZiMy02OGU3NjJiN2E0YzAifQ.zHxTpCO-k1Cp20jY4dGT_k5zk2WnZ13yuveF1ss0OYA' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond read six note form bag reason.","maxScore":79,"minScore":13,"description":"Agree listen individual argue for fine. Size less soon own return thus. Film may call sure system.\nFamily toward bill chair firm face marriage. Structure rule letter very.","previewFileId":"aba89471-02fc-4c6f-aa14-543e59fb3f1e","estimatedTime":"5 weeks","createdByUserId":"99c3e53b-a06d-45c0-bfb3-68e762b7a4c0"}'

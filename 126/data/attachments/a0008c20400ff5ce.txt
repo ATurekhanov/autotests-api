@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI4VDA0OjAyOjIwLjU0NjY4OSIsInVzZXJfaWQiOiI3MGUxNjY4YS0yZDJhLTQwODItOGM2YS1lNDZiY2I1MDlhNGIifQ.1O7Lq6JneB063ZeUmBKSblxbkNPFF760fAFhzpZyLvo' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay continue stay alone.","maxScore":94,"minScore":16,"description":"Including both window son also through thing. North up open body.\nPoor perform chair maintain seven whether. Toward those floor. Law edge stock hear table five play.","previewFileId":"e585a665-2ddc-4556-ab51-ac109b2514a6","estimatedTime":"10 weeks","createdByUserId":"70e1668a-2d2a-4082-8c6a-e46bcb509a4b"}'

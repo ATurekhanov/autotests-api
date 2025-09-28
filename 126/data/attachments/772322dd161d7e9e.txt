@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI4VDA0OjAyOjIxLjcyODM2NCIsInVzZXJfaWQiOiJmYWVmYmY2NS0yZWI3LTRmYTctYmRhNC00MDNiZTZiYzU2MzQifQ.GOhjjuKqKNV_U1Mptp0TdMi1Ah9MOqolTnQ3aSJSXrI' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power each my see where else.","maxScore":53,"minScore":25,"description":"Key data practice herself day. Policy floor per popular real goal. Buy travel full worry. Break economy real north indeed.","previewFileId":"26bccd8b-8269-40ed-be48-aaa7b38c14fe","estimatedTime":"2 weeks","createdByUserId":"faefbf65-2eb7-4fa7-bda4-403be6bc5634"}'
