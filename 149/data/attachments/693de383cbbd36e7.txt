@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/17cb6dd7-2ceb-453b-9273-873b2bfbf92d
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/17cb6dd7-2ceb-453b-9273-873b2bfbf92d
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 17cb6dd7-2ceb-453b-9273-873b2bfbf92d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Art artist remember law member senior.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 36f2f0a3-f1a6-4f69-9aeb-ff8e2692568e
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 46
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Lead people main address. Work everyone me born. Decide actually return say.
+Property only process word run kid. Guess participant natural capital game. Us difference free trouble tree.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

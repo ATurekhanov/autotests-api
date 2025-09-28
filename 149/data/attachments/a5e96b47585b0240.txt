@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI4VDA0OjI1OjQ0LjY3Mzg5NiIsInVzZXJfaWQiOiJlYjUwMmU1Zi1hYjQ5LTRjNTctODVjNy01MjVlNTY2OWJkYTIifQ.zEDD5sUMN-1oj_MkgOldf-BohZOQxJ3oZl2HHK7AJmQ' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern ask cover white.","courseId":"bd869e4d-6f5f-4642-99fb-051469fe152e","maxScore":93,"minScore":1,"orderIndex":71,"description":"Management middle story institution. Throughout toward class return. Perform central position avoid list last.","estimatedTime":"2 weeks"}'

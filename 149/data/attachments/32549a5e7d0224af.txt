@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI4VDA0OjI1OjQ1LjkwOTYxOSIsInVzZXJfaWQiOiIwZjM4NTlhNi0xMzNhLTQyY2UtYjE1ZC1kZGM2MWJkZjMzYzUifQ.FYSUdDLEB7jNhLhxDXG3N1Coq2md0FyfgLHD3Oe568E' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already hope argue against significant land door.","maxScore":96,"minScore":5,"description":"Peace show kitchen. Local people half lead onto. Expert mean listen American staff reduce.","previewFileId":"4e6b733f-e765-4442-83ec-c4b2b8306618","estimatedTime":"5 weeks","createdByUserId":"0f3859a6-133a-42ce-b15d-ddc61bdf33c5"}'

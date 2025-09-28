@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI4VDA0OjI1OjQyLjAxMzI3MSIsInVzZXJfaWQiOiI5NThkYTJlMC1iZWY2LTQ1MWMtOTk5YS0zMWMzOWQ2ZjQ2ZTAifQ.i-xHTGrKZEKMOITKndbFE0MNr-aYXyoZMNcJSJICtVg' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Phone keep professional above expect full.","maxScore":71,"minScore":14,"description":"Serious boy opportunity leader. Not page family beyond agency region TV. In ahead open cell bag present yourself young.\nNice today above thus.","previewFileId":"69376a6c-0b71-4665-9696-76a3254803f9","estimatedTime":"10 weeks","createdByUserId":"958da2e0-bef6-451c-999a-31c39d6f46e0"}'
