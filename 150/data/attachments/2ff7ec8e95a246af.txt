@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI5VDA0OjM2OjQ0Ljg1NzcwNiIsInVzZXJfaWQiOiJmMjQ2Y2U2NS03ZjExLTQ0NWMtYTRlMC1mMDUwNDAxY2MxNDYifQ.vd7oIzE_KMGhZ-k8qJskz2QUBDa-_7awQtYCj5CPNow' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now herself always per catch arrive order including.","maxScore":95,"minScore":7,"description":"Huge appear position four. President community available.\nThemselves manager performance long. Detail different large book along.","previewFileId":"e0759586-bf0b-4830-81f9-1af9bedd73d6","estimatedTime":"4 weeks","createdByUserId":"f246ce65-7f11-445c-a4e0-f050401cc146"}'
