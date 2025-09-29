@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/798a8744-3f8e-4f2f-80dc-a9c122451160' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI5VDA0OjAwOjU4LjQyOTAxNyIsInVzZXJfaWQiOiI3YTcwZDBjZi0xYzAyLTRhNDUtOWE0Yy0yZDU2M2MzMmEyOWUifQ.UrernijZmuRUVpTIWir0_7i87sWlaexGmv4CFXSh0XE' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry about continue hand.","maxScore":69,"minScore":30,"description":"Special experience finish local nice. Stuff treat expert various owner environment.\nDevelop huge up second deal sell age. Heart bag impact trade want thought suddenly.","estimatedTime":"5 weeks"}'

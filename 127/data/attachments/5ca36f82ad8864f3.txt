@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI5VDA0OjAwOjU4LjQyOTAxNyIsInVzZXJfaWQiOiI3YTcwZDBjZi0xYzAyLTRhNDUtOWE0Yy0yZDU2M2MzMmEyOWUifQ.UrernijZmuRUVpTIWir0_7i87sWlaexGmv4CFXSh0XE' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down skin people difference military society collection.","maxScore":59,"minScore":4,"description":"Compare happy million experience likely street town cover. Class resource fly rise.\nAlso himself smile. Head present central nice power wait.","previewFileId":"3ebe6efd-640d-4f6c-868e-626e71148cc9","estimatedTime":"1 weeks","createdByUserId":"7a70d0cf-1c02-4a45-9a4c-2d563c32a29e"}'

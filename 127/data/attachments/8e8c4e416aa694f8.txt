@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI5VDA0OjAxOjAxLjY4NzM4MCIsInVzZXJfaWQiOiJmMGM4YWY0MC1mODJmLTQ4NWUtOWVlZC1jNmZlMjI0Y2MzNDEifQ.NPNlM7qcXM3twe0_kwOCEJsq5Rg3AjvcEed97ff49ng' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suggest beyond former full collection level.","maxScore":89,"minScore":13,"description":"Perform civil person fine thank. Weight total he personal. Cause minute west list.\nTrial study address public herself decision. Nature wish nearly size report.","previewFileId":"20b17d11-a8d9-4ab0-b1b3-6563624b69a0","estimatedTime":"4 weeks","createdByUserId":"f0c8af40-f82f-485e-9eed-c6fe224cc341"}'
