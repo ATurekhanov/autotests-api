@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDA0OjIzOjE4LjA3NTI5OSIsInVzZXJfaWQiOiIzMTlkOWExZi00YTE1LTRmODMtOTI0Ni00Y2VlMmY1ZjdlNDEifQ.nJYTWwziJT5UMImSFCNcJq5d2IGVhnwsaJaAGrlOyXk' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together between effect short increase action class.","courseId":"fc18e83f-f5bd-4da7-8a7e-c5b63f24709b","maxScore":97,"minScore":28,"orderIndex":81,"description":"Open clear significant successful government really leader career. Seek wonder like anything great first. Suffer a general offer development both so.","estimatedTime":"7 weeks"}'
