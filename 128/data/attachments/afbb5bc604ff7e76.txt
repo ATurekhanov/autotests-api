@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAzOjU0OjI2LjQ2ODk2MiIsInVzZXJfaWQiOiI2YjYxMmFhYi0xZTc1LTQ0MGMtYmQzYy00NzQwODg4ZTVjOWQifQ.5A9PrGoZOY6UBCIV1345THAjkuIts7y5j-RFUWegAd4' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black simple as show worker state.","courseId":"f7af94ca-37e7-410d-8ab4-673a99134a37","maxScore":61,"minScore":7,"orderIndex":28,"description":"Than plant already marriage bag standard. Outside report return team significant cold field realize. Study reach medical few.\nChurch health partner clearly cut take. Child stop herself necessary.","estimatedTime":"2 weeks"}'

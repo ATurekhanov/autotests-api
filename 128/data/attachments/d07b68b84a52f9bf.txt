@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAzOjU0OjI1LjIxNDU4NiIsInVzZXJfaWQiOiJmNDMyOTc4Mi00ODRhLTRlOTEtOWQ3Yy0wNDE5OWQ5ZDZmMGMifQ.1FdP_9h_6M6SvB8GJNL7mj-TeU0kDliV35pLEJAk8eY' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean sort research seem play evening white.","courseId":"89613632-93ee-4cde-be3f-7c573a61ff16","maxScore":97,"minScore":9,"orderIndex":38,"description":"Large part the concern. Theory put before cause part good more. Outside present drug stage.\nAttorney analysis quickly trade whatever agreement range. Something raise police entire.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAzOjU0OjI0LjU2ODkxNyIsInVzZXJfaWQiOiI5YjVhNjhlZC1kMWE5LTQ2NGEtOTMxOS04ZmQ2NTkzOTBhZjcifQ.tRrMcs1m0P7O78DD-j3Ed1AVpiR8Fw_C2p62dpePDPU' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary article fly high especially face effort.","courseId":"fd9fcf6d-2ba2-459b-89a8-251513e034ad","maxScore":53,"minScore":20,"orderIndex":26,"description":"Whatever its piece old American challenge game base. Item loss magazine structure. Customer outside spring mention TV it.\nIdentify why recently without guess name. Security former that special which.","estimatedTime":"3 weeks"}'

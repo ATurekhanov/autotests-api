@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAzOjU0OjIzLjM4OTM4MCIsInVzZXJfaWQiOiJmNTZmNzBjNC04MTQyLTQ4ZDQtYjEyYS0yMmRmNDA3NTFlNDgifQ.f8ntyopTLsBQsKHNjx1XxB_GtBInTdzGUZbPDfVZKVw' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option group image though wrong.","maxScore":67,"minScore":16,"description":"Thousand behind personal act. Eye language believe weight military final.\nSort shake money mission necessary. For share dinner issue door someone idea again.","previewFileId":"9ce829df-06c4-49de-a433-3e628637a7a8","estimatedTime":"9 weeks","createdByUserId":"f56f70c4-8142-48d4-b12a-22df40751e48"}'

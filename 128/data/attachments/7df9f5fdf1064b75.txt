@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAzOjU0OjIzLjExNjUxNyIsInVzZXJfaWQiOiJmYmNmY2RjYy05OTgwLTQ1ZDktYTFhZi1hMGFmZmM1YWM1ZDEifQ.wwqDh-6V8nIWNp7xDKEEG67e50mEKjoHbXz81l7cj5w' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Want myself car painting well really want trade.","maxScore":58,"minScore":22,"description":"Challenge explain entire if. Up example billion them second arrive account which.\nLaugh career water build thus social performance far. Easy lot will prevent society cause.","previewFileId":"4ce9c972-164a-4c4a-b2de-de6059c66d75","estimatedTime":"3 weeks","createdByUserId":"fbcfcdcc-9980-45d9-a1af-a0affc5ac5d1"}'
