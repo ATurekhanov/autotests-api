@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9f654696-1664-4beb-85e8-51dea2947665' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjA2OjQ2LjY0NzQ5OCIsInVzZXJfaWQiOiJiMGJiMzFjYS02MDIwLTRkY2EtOTFhMy1iZDJjZjRkMzI2NDYifQ.D9AWUEKUqkwf_4WCcvmcqyxDqEP_G2eOq6gqKQVxBf4' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek dream prepare else available government field plant.","maxScore":51,"minScore":10,"orderIndex":30,"description":"Hair stock defense child successful little. Material especially information challenge drop suffer.","estimatedTime":"7 weeks"}'

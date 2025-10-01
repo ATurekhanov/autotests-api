@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjA2OjQzLjI4OTM5MCIsInVzZXJfaWQiOiIwYzY0ZmZiMS0wZWM0LTQ3YzgtOTBjYS0yMjEzNWRhOWFhMzYifQ.YnI4WGcKZqZoOh7RUlfGVi3HOkye4kpjtCefXSVoyy8' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk station physical word soon.","maxScore":82,"minScore":27,"description":"Score bit gun blue reason week build.\nUse later pull would police cell model. Surface fish yet do.","previewFileId":"a87c8043-3ad8-4b32-9d58-be2248f4d329","estimatedTime":"8 weeks","createdByUserId":"0c64ffb1-0ec4-47c8-90ca-22135da9aa36"}'

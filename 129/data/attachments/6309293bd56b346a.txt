@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjA2OjQ0Ljc0Njc3MyIsInVzZXJfaWQiOiIxNWNhYzI0MC0yZjIyLTQ0N2EtYjAyMi1jM2I5MmZlMzFiN2IifQ.u7VGAQU64Z755uv7I9zsrZkH89YlKGHpZmNRjqZh-dg' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break use challenge ready this pressure.","courseId":"d3a16df9-5f75-4d34-b504-849236bd3729","maxScore":67,"minScore":3,"orderIndex":56,"description":"Near low wear air power board. Own hope get crime full watch.\nGround knowledge yourself people film wear on. Action toward product nice. Meet prevent senior newspaper pick far.","estimatedTime":"8 weeks"}'

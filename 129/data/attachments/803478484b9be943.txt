@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjA2OjQ2LjY0NzQ5OCIsInVzZXJfaWQiOiJiMGJiMzFjYS02MDIwLTRkY2EtOTFhMy1iZDJjZjRkMzI2NDYifQ.D9AWUEKUqkwf_4WCcvmcqyxDqEP_G2eOq6gqKQVxBf4' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test old popular inside drive while.","maxScore":83,"minScore":5,"description":"Page serious possible memory. Maintain fall measure our.\nDiscover may raise skill treat decision second. Bad same nice when type local this enjoy. Upon throw early member security determine through.","previewFileId":"8c0f90c3-e41c-49e3-be9b-ff6ab6452c77","estimatedTime":"3 weeks","createdByUserId":"b0bb31ca-6020-4dca-91a3-bd2cf4d32646"}'
