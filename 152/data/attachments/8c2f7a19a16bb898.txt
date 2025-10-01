@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjI4OjQwLjg4Mzk2NiIsInVzZXJfaWQiOiIyMGIzYjViNS03ZmY2LTRjMTMtODQzMi03YTc2MGM1ZGFkYjAifQ.sw0gl5DWiuoqErp6adNGUSauIoutJSGbaVDiQ-8Ikzg' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss measure threat reduce fast.","maxScore":85,"minScore":3,"description":"Window would recognize fly from full operation. Leader contain culture reveal production degree indeed.","previewFileId":"2947f23b-bf8d-4ae5-a83c-8491e00fd1e8","estimatedTime":"10 weeks","createdByUserId":"20b3b5b5-7ff6-4c13-8432-7a760c5dadb0"}'

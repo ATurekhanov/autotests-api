@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjI4OjQ0Ljc5OTkzMCIsInVzZXJfaWQiOiI3ODVhMDQ2Zi0wNWNjLTRlM2QtOGMyZS04ZmQzZmJmYjIzYWIifQ.lbbvXChld9G_NtpVtLqK65IbLVtySKSo9tEuJJfVHUE' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business may draw thank process war choice hold.","maxScore":77,"minScore":4,"description":"Paper water forget pattern kid not candidate occur.\nLife hair push chair south but building. Charge city join sort bag subject sport unit. Official market mean course.","previewFileId":"5cdd6a4a-9c43-4285-a9e0-150ff1e22dec","estimatedTime":"4 weeks","createdByUserId":"785a046f-05cc-4e3d-8c2e-8fd3fbfb23ab"}'

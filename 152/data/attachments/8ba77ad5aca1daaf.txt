@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjI4OjQxLjc4ODIyNCIsInVzZXJfaWQiOiI2ODZhNzkyMC03MmQxLTQwZGUtYjgxMC1iZjFkNzNkYWE1OGIifQ.0o-YRCg1tcgTipba-V7e9-lwEF9obi1sqH9_89tLVfs' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None value community treat report.","maxScore":67,"minScore":17,"description":"Financial value toward response technology. Hold course doctor occur ready rule. Read just baby western after more evidence.","previewFileId":"8ffc9c19-5f04-4cfb-aad5-38caca8e05ba","estimatedTime":"10 weeks","createdByUserId":"686a7920-72d1-40de-b810-bf1d73daa58b"}'

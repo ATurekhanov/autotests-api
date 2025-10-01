@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAxVDA0OjI4OjQ0LjE0NzU2NSIsInVzZXJfaWQiOiJmNmVjNzQ0Yy0zMWQzLTQwNWEtOGRkMC01YjNmNGQ0Nzc1ZmYifQ.AaTTeXbK95DKXy2wEItsDJMW7WPkdH3CoxipwC_kMzE' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Money soldier result of allow.","maxScore":71,"minScore":16,"description":"Politics red politics wide president education. Not catch very social address TV billion.\nColor process player soldier evidence order prove however. Production during campaign skin.","previewFileId":"d5c9d5ba-8582-4fc2-83cf-32e78938a30c","estimatedTime":"3 weeks","createdByUserId":"f6ec744c-31d3-405a-8dd0-5b3f4d4775ff"}'
