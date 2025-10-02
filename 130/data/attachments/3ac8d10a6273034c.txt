@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAzOjUyOjI2LjQ0MDQ4NiIsInVzZXJfaWQiOiI3NjZkZjlmMC00ZTY1LTRlMmQtOWNhMS0yMDk1ZTA4NjRiZTYifQ.Rvir4d4hPldsthv9I74WaBu4kmdrxZFN7UwsnJTwbF0' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Population table standard hundred drug.","maxScore":55,"minScore":8,"description":"Husband site through son. Seek me left production.\nOutside study hot company. Establish degree decide several oil.","previewFileId":"3bfa682c-8eb9-4a52-96b7-1d53473aa9a0","estimatedTime":"4 weeks","createdByUserId":"766df9f0-4e65-4e2d-9ca1-2095e0864be6"}'

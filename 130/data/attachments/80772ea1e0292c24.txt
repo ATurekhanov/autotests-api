@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAzOjUyOjI1LjI2OTI3NSIsInVzZXJfaWQiOiI5YjUyMDI1OS02YzQ4LTQ0MGQtOTcxYy0zMDQ5NzIyY2ZmYmEifQ.1J4mWfrikQuKNR7jHDi5dYK7iG0zAuLURfIC8jAit8w' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kind test which morning source happen.","maxScore":76,"minScore":1,"description":"Arm sound star message. Perhaps dog out security appear she our. Fall government whatever product because team.","previewFileId":"7d504a31-cfef-4a5f-b91a-5e667da51820","estimatedTime":"7 weeks","createdByUserId":"9b520259-6c48-440d-971c-3049722cffba"}'

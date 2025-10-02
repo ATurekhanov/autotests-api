@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAzOjUyOjIzLjc3NTYwNSIsInVzZXJfaWQiOiI0ZWViYjJjZi04OWRlLTQxZWItOTkyOS04OWM0YWRhOThhOWQifQ.r72rjV51UUfRK9FWimIc9UMItPtBjpzp-4w66POVt4k' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kid argue two return teacher.","maxScore":68,"minScore":11,"description":"Mr why yeah character. Current traditional at Mrs today body figure.\nQuite turn growth visit voice sense add tell. Former once law painting hard information well. Idea collection democratic probably.","previewFileId":"2177fa2a-7716-4e04-8a9c-41d1bea81de3","estimatedTime":"6 weeks","createdByUserId":"4eebb2cf-89de-41eb-9929-89c4ada98a9d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAzOjUyOjI3LjY3NzYzOCIsInVzZXJfaWQiOiI5ZDhmODRkMS1kNjE1LTQ3YzQtOTMyYS1kODY2ZDRkYjdmNDgifQ.QQlmGBVYBZkLHCD2aDE04EhPPEPKBXUSb0WIXOCE3D0' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Public about return treatment.","maxScore":51,"minScore":14,"description":"School peace require same. Shake probably government first.\nCharacter everybody page church. Live hour clearly east same suffer.","previewFileId":"ab50ecfb-e230-4a4f-bd0b-1341815c4642","estimatedTime":"1 weeks","createdByUserId":"9d8f84d1-d615-47c4-932a-d866d4db7f48"}'

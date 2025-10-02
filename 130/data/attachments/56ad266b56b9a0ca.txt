@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/17e759da-44cb-42a0-b199-b8ee7691800b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAzOjUyOjIzLjc3NTYwNSIsInVzZXJfaWQiOiI0ZWViYjJjZi04OWRlLTQxZWItOTkyOS04OWM0YWRhOThhOWQifQ.r72rjV51UUfRK9FWimIc9UMItPtBjpzp-4w66POVt4k' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less later majority.","maxScore":99,"minScore":11,"description":"Moment behavior total establish big tree. May activity democratic young treat respond recently heart. Past though present reveal present.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAzOjUyOjI0LjY3OTUxNyIsInVzZXJfaWQiOiJkNTExM2JjYi1mMDU0LTQwYjgtYWI3NC1kYjU3MjFiNDM2OTMifQ.a5Pn8Wo8hrzoROpGLlibwU-5i0oV-walA_Hsoo_oJqM' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy Democrat candidate.","maxScore":82,"minScore":27,"description":"Any treatment check language sense low nation. Final station line art.","previewFileId":"15b76d15-78e4-47db-afd8-7f56bd2a1e32","estimatedTime":"10 weeks","createdByUserId":"d5113bcb-f054-40b8-ab74-db5721b43693"}'
