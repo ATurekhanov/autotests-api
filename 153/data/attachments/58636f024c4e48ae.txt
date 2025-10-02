@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDA0OjIyOjA5LjIwMTMzNiIsInVzZXJfaWQiOiIyYmRlZjE4NC1lZjAxLTQwZDUtOGZjZC1mNDdkMDQyMDM5YjYifQ.M_qXFGlCcnDTewirLAth_Az7EEDjQNqS5jNOKVrM6L0' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Both away food else reality security matter respond.","maxScore":79,"minScore":23,"description":"Language material explain.\nRule available may become air. Important head employee garden would military physical million. Both couple occur think him.\nMouth section trial guess. Low myself degree.","previewFileId":"5c7222be-f8dd-49f0-94e1-5fe95c230cee","estimatedTime":"2 weeks","createdByUserId":"2bdef184-ef01-40d5-8fcd-f47d042039b6"}'

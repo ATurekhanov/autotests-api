@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDA0OjIyOjA3LjMxNDQ1NyIsInVzZXJfaWQiOiI5YjBhM2E5ZC1hNWQ2LTQ5MzctOGY1Ny1jYzQzODM1ZmIwOWUifQ.hqRwqBhiusB--NdHrIrOYG0DpY87xjoPmtRqQDArScg' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign now southern carry data.","courseId":"f30b48a1-94bf-4c6c-8d46-e08c3ade2ffb","maxScore":90,"minScore":15,"orderIndex":60,"description":"Prepare letter report. Local color morning describe news behind.\nPublic skin idea laugh. None including hold apply. Item teacher suddenly go.","estimatedTime":"7 weeks"}'

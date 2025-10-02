@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDA0OjIyOjA1Ljg2NTgwOCIsInVzZXJfaWQiOiJkODNmODYxMC0wYzk5LTRkZDctYWMyZS04OGZhNGUzZWU5MGQifQ.yCGjcsuFklEhRzLUyptxQ30o3jrHKg1nrv6iCESdPLk' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv trouble claim serve within tend director.","maxScore":97,"minScore":23,"description":"Whose suggest every similar truth. Current newspaper a listen ok. Growth music daughter authority reality child authority sea.","previewFileId":"01db7243-34a5-4da1-9877-77c830665ad2","estimatedTime":"9 weeks","createdByUserId":"d83f8610-0c99-4dd7-ac2e-88fa4e3ee90d"}'

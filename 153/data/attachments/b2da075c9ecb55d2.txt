@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDA0OjIyOjA4LjU0Mjc5NyIsInVzZXJfaWQiOiJjYWQ5YTVhYS0wMGYyLTQ5NDktOTYxYy0yYmZlNzdiNDI3NDAifQ.lp4aJuJbmDdKsLpQdpod6HZ0lGn3aBV2sEULH6Eygfo' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Line recently article field.","maxScore":93,"minScore":2,"description":"Red up church whom either simple. Fact land bar keep degree expert. Culture big finally knowledge leave.","previewFileId":"df4bd8da-43b0-44b8-8f0d-6a5c7341e466","estimatedTime":"2 weeks","createdByUserId":"cad9a5aa-00f2-4949-961c-2bfe77b42740"}'

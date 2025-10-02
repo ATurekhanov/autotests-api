@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDA0OjIyOjA0LjcyMTY2NCIsInVzZXJfaWQiOiI4NjFmY2IzNi03ZDYzLTQzODUtYmE5NC0zOWZiMWRiOWQ5MDkifQ.Dw0zQJ2n-HUok0gWU_qvJAgfIVVMlYgNSTCkcuSXdqI' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil road important meet carry personal.","maxScore":60,"minScore":17,"description":"American drug strategy least discover onto machine road. Business pretty campaign view individual page challenge assume.","previewFileId":"21941c5b-a483-4d86-a440-04a0fd14a361","estimatedTime":"9 weeks","createdByUserId":"861fcb36-7d63-4385-ba94-39fb1db9d909"}'
