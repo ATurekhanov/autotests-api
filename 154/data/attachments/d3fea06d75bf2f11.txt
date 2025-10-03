@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDA0OjIxOjQ2LjY1NTc5MiIsInVzZXJfaWQiOiIxMjAxZDk3MC0xNzQ1LTRkM2ItYmQ5MS01NzU3MGEwNjM4MjQifQ.hbL4lYg4cX6H990w_1zeNlRSW8wlXZEZcNUkF2NW_7o' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market reveal city friend fish.","maxScore":88,"minScore":19,"description":"Military yeah power green. Budget federal choice fund letter then. Development less beyond surface fact will. Author wonder chair data.","previewFileId":"2e2419eb-2f36-415a-9d75-bc629c66afe8","estimatedTime":"1 weeks","createdByUserId":"1201d970-1745-4d3b-bd91-57570a063824"}'

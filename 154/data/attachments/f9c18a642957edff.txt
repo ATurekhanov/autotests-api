@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8aa35193-6be6-45c9-ab5f-9bff715d55f2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDA0OjIxOjQ3LjMxNzk1MSIsInVzZXJfaWQiOiJmYWIxYWJhZi03ZjhmLTRiMDItYjIzNi1lNDhhMTUzOWU2YTgifQ.eG3BSCC8HRZuJdmHqt_POZxnYdVepJSj30HkvB3mtkU' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Right suggest site.","maxScore":72,"minScore":10,"orderIndex":93,"description":"Treat amount bad thus writer. Another themselves herself nice scene skill necessary though. Treat cut group follow father.","estimatedTime":"1 weeks"}'

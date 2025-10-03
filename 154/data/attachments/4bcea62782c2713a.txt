@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDA0OjIxOjQzLjk2NjY5MiIsInVzZXJfaWQiOiIzNjEyMmVkNi01ZGViLTQ2NjUtYTQ1OC0yMDEwN2IyYjFmNTQifQ.H_ARexxaNCSAn5uMqRTqiq6CTwQOdSvxgu1jGeJMyU0' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Time easy parent ground apply whether six.","maxScore":95,"minScore":4,"description":"Develop action per center state.\nSpring language analysis strong send. Consider film green however contain blue to. Check land dinner skin west second full.","previewFileId":"8370f19d-9d5a-47bb-920f-0faef1ea7ae9","estimatedTime":"9 weeks","createdByUserId":"36122ed6-5deb-4665-a458-20107b2b1f54"}'

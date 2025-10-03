@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/18d9e03e-74de-4540-a7d6-744c16db391c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDA0OjIxOjQyLjgyNjE1NCIsInVzZXJfaWQiOiI1MTQyOTlhMS0yYzI5LTQ4ZWUtYjc0Ny01MzM2NjFiZTcyMmUifQ.w8SinF-yUzGeeh5K7cnt5-K84zcQ7FnMnfxA5dG8hKU' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Personal mother record recently space.","maxScore":58,"minScore":20,"description":"Star per a maintain standard. Country even doctor though the discover truth. Professor phone strategy pattern pay. Especially hair agreement less.","estimatedTime":"9 weeks"}'

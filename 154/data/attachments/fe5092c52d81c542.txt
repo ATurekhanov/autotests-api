@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDA0OjIxOjQ0LjI0MDM1MyIsInVzZXJfaWQiOiIzZDQ2NWNiOS1mNzBkLTQ4YmEtOTlkNC0wMTU3ZGI3OWM4NmUifQ.tGCD7lF6IBTRPEc8Va5SeA-0y7qDOQylhjaq-2CBw8M' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Factor walk boy coach well.","maxScore":98,"minScore":15,"description":"Take toward nation woman fire. Trip worker relationship success pay must.","previewFileId":"fed285b8-1287-454b-a350-1a2856cfc78d","estimatedTime":"4 weeks","createdByUserId":"3d465cb9-f70d-48ba-99d4-0157db79c86e"}'
