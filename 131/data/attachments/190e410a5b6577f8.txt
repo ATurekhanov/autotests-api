@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9b59e6d0-6a49-4368-833a-4667c9dad69b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDAzOjUxOjIwLjUwMzg5NyIsInVzZXJfaWQiOiI1ODJkMjIwNC1mOGVhLTQxYjktOTZjNC0xMWQwMjI2YjkyM2UifQ.D2XR6Rs9x7lPHDFO_R94ZETvSWasIgemyZpx-M3QBwo' \
+  -H 'content-length: 218' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table executive now charge fund table.","maxScore":72,"minScore":21,"description":"However large resource moment economic work. Speak while if couple. Appear fund like early teach.","estimatedTime":"7 weeks"}'

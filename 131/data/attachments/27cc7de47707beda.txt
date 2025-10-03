@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDAzOjUxOjIzLjExNTgyMyIsInVzZXJfaWQiOiI5MWYxZjIwYi0wZDdiLTQzY2UtYTViMy02ODZhMDhjN2IwYzcifQ.C2lOIhux6nvEjCEpNH5B_D0zaSaeShNxZdQXrR7njb4' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feeling election fight firm upon.","maxScore":79,"minScore":15,"description":"Dog drive I. Bring fine stock between reduce treat.\nSuch road company hotel inside we enjoy movement. Possible model risk. Make strong thank successful pattern hear factor.","previewFileId":"14ae7dd4-4908-48de-a89e-1dd3727230b7","estimatedTime":"1 weeks","createdByUserId":"91f1f20b-0d7b-43ce-a5b3-686a08c7b0c7"}'

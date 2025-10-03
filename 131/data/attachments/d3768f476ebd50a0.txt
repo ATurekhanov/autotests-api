@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDAzOjUxOjI0LjM1NzAwMSIsInVzZXJfaWQiOiJkOTlhYzMwYS1iNmEyLTQ3MGYtOTUxYy1lYTY1MTY4MGU5MDcifQ.gTqynuCz5MMh24l4yxJ_Axi-GTw-c6fCfpwt3hHnzXU' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room trade he official.","maxScore":54,"minScore":23,"description":"Bill time staff. Talk able fear song once policy.\nTreatment want itself myself seek decision Democrat. Fire here like couple agency result.","previewFileId":"ca9119b6-6ba1-467f-b6a3-cfd367dd76de","estimatedTime":"8 weeks","createdByUserId":"d99ac30a-b6a2-470f-951c-ea651680e907"}'

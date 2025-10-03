@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDAzOjUxOjIzLjc3MjE3MiIsInVzZXJfaWQiOiJjOWJkMTI5Yi0zODVkLTQ3ZGItOWFjOS00ZmY4YWU2YmI1MWQifQ.lVJYbH9VnrYiV5cIyPWXTJ9bk7R0jAIz37ANnKhrQCs' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially eight special reality seven.","courseId":"b5a17f69-3cd5-46ce-92ac-87cc0a4ea0a6","maxScore":97,"minScore":21,"orderIndex":43,"description":"Exist live rate cold song minute. Actually daughter yet continue soldier record almost. Prepare network knowledge piece action.","estimatedTime":"7 weeks"}'

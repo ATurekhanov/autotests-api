@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDAzOjUxOjIyLjg0MTQ4MSIsInVzZXJfaWQiOiJiMmQ0NzhiYS03NDZkLTQ3NjUtYjQ2Ni01MjE4MzRiMGMwYzIifQ.RK8UjnO9lw_UG8nrB_ApCANJLrBjIygK6D0aCZydFEc' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start necessary that people most.","courseId":"4b736e6c-8d6f-40e2-a118-206a73bab46e","maxScore":69,"minScore":13,"orderIndex":53,"description":"Themselves federal short last near. Rise appear operation hard.\nSuddenly positive budget history suddenly while music. Rock most great song. Stage student candidate matter than include.","estimatedTime":"5 weeks"}'
