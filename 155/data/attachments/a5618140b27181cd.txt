@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/025f4d6f-1037-4ba9-acd7-e4ba6a34fba0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA0VDA0OjIxOjIxLjQzNDk2NCIsInVzZXJfaWQiOiI5OTY0ZmZkYy0wMzliLTQ0MGYtOWUwNi0yMTM2ZjdkYjUxMWMifQ.Eo7kpAhtyFv8Mpv9C86dfW4oVGf60YD60QDh2kMxiow' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Time certain window fall party as probably dog.","maxScore":65,"minScore":14,"description":"Interest until particular service. Speak plan all manager both pass. There soldier piece body performance.\nPrevent simply their. School often car federal federal weight.","estimatedTime":"4 weeks"}'

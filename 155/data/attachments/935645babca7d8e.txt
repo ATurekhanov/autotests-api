@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA0VDA0OjIxOjIxLjQzNDk2NCIsInVzZXJfaWQiOiI5OTY0ZmZkYy0wMzliLTQ0MGYtOWUwNi0yMTM2ZjdkYjUxMWMifQ.Eo7kpAhtyFv8Mpv9C86dfW4oVGf60YD60QDh2kMxiow' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk mind begin new along director small.","maxScore":83,"minScore":30,"description":"Maintain bag watch. Quality describe citizen character without behavior.\nDark whatever always kid. Order bank word shake special my attorney.","previewFileId":"210b0675-635a-4c89-af76-4c3eeb1a9023","estimatedTime":"8 weeks","createdByUserId":"9964ffdc-039b-440f-9e06-2136f7db511c"}'
