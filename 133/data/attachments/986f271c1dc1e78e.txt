@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f559ba5e-4748-4c28-937e-e069d0e42d4b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA1VDA0OjAwOjAxLjQ5MDU4MSIsInVzZXJfaWQiOiI5NTZlOWZjZi0xNzgyLTQ2NGMtOGZhNS0wYTk0ZjJmYThlNzIifQ.5nsTeJEZDddaOvKdfyQ1BhDvuuiSvec7ojoSIBzJEiI' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management training employee wonder beat.","maxScore":72,"minScore":10,"description":"One political risk. Medical door happen fill film debate follow deal.\nRelationship community turn final. Interesting media without radio model heart.","estimatedTime":"4 weeks"}'

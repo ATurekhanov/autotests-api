@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA1VDA0OjAwOjA1LjMwOTg2OCIsInVzZXJfaWQiOiIzMmQ0NTdhMi03NDIzLTQzZjktYmE3OC05YWJmMmEzZWIxOTgifQ.-ozNvC5e2sZ6O9LbX0umCzZe3VyRXgQxaF3P-rCSDyk' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Second language society federal floor material old.","maxScore":60,"minScore":11,"description":"Each section window ok. Agree small young appear society.\nYourself tree see. Stand sign realize husband way.\nMe politics must time defense. Stay tend political middle very career myself rather.","previewFileId":"0313e8b3-c7da-4606-9c5b-e218d50d1192","estimatedTime":"10 weeks","createdByUserId":"32d457a2-7423-43f9-ba78-9abf2a3eb198"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA1VDA0OjAwOjA1LjMwOTg2OCIsInVzZXJfaWQiOiIzMmQ0NTdhMi03NDIzLTQzZjktYmE3OC05YWJmMmEzZWIxOTgifQ.-ozNvC5e2sZ6O9LbX0umCzZe3VyRXgQxaF3P-rCSDyk' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another six day much talk detail edge.","courseId":"3051aa83-c436-4358-ba84-234a2a2b3a81","maxScore":76,"minScore":2,"orderIndex":77,"description":"Real gas outside capital piece fly seem. Wall hour support region single.\nProvide minute paper hear clear north. Degree international decision trade short old.","estimatedTime":"2 weeks"}'
