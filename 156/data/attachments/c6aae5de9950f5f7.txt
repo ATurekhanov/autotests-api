@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA1VDA0OjIzOjEzLjcyODIzMyIsInVzZXJfaWQiOiJmMjE2MmUxMS00YTIxLTRmM2ItOTk1Ni0yOGZhYzM0MjliMTAifQ.MLlpbK9wz17lxPESighqqTpw5XsOZp4cly_blgs3vqs' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It wait treat arm consider.","maxScore":55,"minScore":10,"description":"Man front official window attention society true. Fact offer spring include least. Level blue age word ago.\nRemember me street speech mean employee end. Other fill yet fly sister field.","previewFileId":"231b6a9a-a1d5-4e1c-8770-375c78b9762e","estimatedTime":"7 weeks","createdByUserId":"f2162e11-4a21-4f3b-9956-28fac3429b10"}'

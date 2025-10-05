@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2d0f9083-8d30-4d79-99f9-cc68f502c20e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA1VDA0OjIzOjA5LjI0NzAwMiIsInVzZXJfaWQiOiI4YzM3OGZjMi02ZjhhLTQ1NDMtODBlMy03YTlhYmQxNTAwY2MifQ.rgY56DrLL5-2dvpaCjsec1ngJePEt0x3OFTFp4mLLXQ' \
+  -H 'content-length: 246' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw every reality capital article first.","maxScore":92,"minScore":7,"description":"Four feeling agree member. Crime guess mind eight.\nHold force light employee simple. Role experience describe hit choice.","estimatedTime":"7 weeks"}'

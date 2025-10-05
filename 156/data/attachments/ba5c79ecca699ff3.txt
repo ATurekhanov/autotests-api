@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA1VDA0OjIzOjEyLjQ5MTcxMSIsInVzZXJfaWQiOiI3ZDBhNWIwMy1mMTVkLTRmMjAtYWY3OC1mZTgwZWU2YmM1ZjQifQ.YVno4d2HSgE-8LTiiAv2gbznPyjb0SN2CWCNlP0KKe0' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Security raise me wall someone drug feel.","maxScore":83,"minScore":13,"description":"Answer himself main peace offer. Thing realize state very could.\nPower necessary small so. Draw read shake water almost. For shake thousand blood share other follow expert.","previewFileId":"12e215d7-2d4f-47ed-9aa3-db3f2ab9bce1","estimatedTime":"6 weeks","createdByUserId":"7d0a5b03-f15d-4f20-af78-fe80ee6bc5f4"}'

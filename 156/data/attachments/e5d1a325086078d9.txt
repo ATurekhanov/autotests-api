@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA1VDA0OjIzOjEwLjM5NjEwNCIsInVzZXJfaWQiOiIxYmNlYzIzZC05MzlhLTQ5YjItYWNjNi05ZDQ2N2E3Y2IzZDcifQ.kmrRIxTrG6EndnHWiqOGWi6Bwa2Mi-1KnxfVxzOz0sE' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Memory player cultural leg cover.","maxScore":84,"minScore":12,"description":"Morning black source keep design through. Push official provide clear road ground.\nProject establish line. Back detail world yard activity build bad.","previewFileId":"cae2adee-398e-4725-ae52-55fcd7a097f7","estimatedTime":"4 weeks","createdByUserId":"1bcec23d-939a-49b2-acc6-9d467a7cb3d7"}'
