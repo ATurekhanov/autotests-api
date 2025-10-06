@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDAzOjU4OjEyLjA5NDYzMCIsInVzZXJfaWQiOiJkOWY5OTcyMy00MzEyLTRlOTctOTcwMy0xNjAzNjU0YmNlODcifQ.-X4kbOhcvK91vpWEeWTKJyarghBc2Y_fp9u56ErtFoM' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Will feeling center too between wall art.","maxScore":55,"minScore":13,"description":"Community different indicate trial check. Check involve author material factor ago kid. Pull at nor point.","previewFileId":"24b106ba-30e6-41a1-8320-288d15fdb238","estimatedTime":"4 weeks","createdByUserId":"d9f99723-4312-4e97-9703-1603654bce87"}'

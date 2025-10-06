@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDAzOjU4OjExLjUwMzQzOCIsInVzZXJfaWQiOiI5MGM1MWE1Yy00MTViLTQzYmQtOGI1NS1kMTQyMTQ1MWYyNTEifQ.kxgR3-SKRPD1RvSSoyIHks0dVuR9hxeX3za8klFTf9E' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"And condition development.","maxScore":73,"minScore":29,"description":"Already little relate. Into finally rock back find you large per.\nLaugh phone in summer education yeah special. Note sort know plant eat. Quite natural west nothing Mr wind environmental.","previewFileId":"34e17030-03e1-4dab-9daa-47e12b950f2a","estimatedTime":"8 weeks","createdByUserId":"90c51a5c-415b-43bd-8b55-d1421451f251"}'

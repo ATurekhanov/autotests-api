@@ -1,0 +1,27 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=e21246d7-82ae-4440-b552-b2a5b4e04526
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises?courseId=e21246d7-82ae-4440-b552-b2a5b4e04526
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:90 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to cd78ade5-770d-4dda-9201-45d677039d66
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Tough Democrat address hit.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to e21246d7-82ae-4440-b552-b2a5b4e04526
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 89
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Road on clear fish.
+Attack surface another practice. Floor law old reach laugh discover speech. Meet city age then eat couple decide success.
+Your between seem. Center forget amount across.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

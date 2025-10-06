@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/57cc74ac-0f1b-436a-9f22-c00fa9ee76f8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDAzOjU4OjA4LjI3MjE4NCIsInVzZXJfaWQiOiIzNTY1ZmQ5ZC0xNjU0LTQwNzctYTZmNC01YTNjZjg1MjkzMWIifQ.uIjSQ4T1bCq1RE_6XPtdUxSI4CeQLTxRkjrjsAIBw04' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Why Mr candidate many.","maxScore":60,"minScore":15,"description":"Really some apply step two. Could realize training program. Report discover if.\nGrow lawyer deep glass. Arrive how each particular. One card peace wind computer.","estimatedTime":"5 weeks"}'

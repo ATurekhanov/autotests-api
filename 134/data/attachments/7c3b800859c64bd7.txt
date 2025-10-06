@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDAzOjU4OjA5LjY4NDg4MiIsInVzZXJfaWQiOiI5YTMxOTRkZi01ODYzLTQyZGQtYWQ0OC05MTliYTgxNmE1NDAifQ.lTaUZEdkF-dF0I8p4GapQUwL6lvbqTdTzFWwGlt3ufo' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Affect fact yeah worker memory region main.","maxScore":74,"minScore":5,"description":"Toward feeling environmental could item operation seem.\nSomeone history style again many school because. Of require guess.\nTraditional gun role short avoid huge another. Last assume change have lead.","previewFileId":"f55af33a-8553-4337-96ae-a2200e146c61","estimatedTime":"10 weeks","createdByUserId":"9a3194df-5863-42dd-ad48-919ba816a540"}'

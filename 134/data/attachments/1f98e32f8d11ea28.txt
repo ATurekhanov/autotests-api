@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDAzOjU4OjEwLjU4MzY5NSIsInVzZXJfaWQiOiI0MTE4MmQ5Zi1iZTUyLTQ3OTAtOThjYi0yNTE0ZjhkOGYwZWUifQ.IO35TVPX3f9w0uRUpSe4LbDefi_cIZUEQCDxfpYe7LM' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cup including quickly skill be economy.","courseId":"d1c0dca5-48da-4fcb-bd42-84aeb2563a9c","maxScore":77,"minScore":27,"orderIndex":21,"description":"Board whatever audience feel concern worry. General really speak partner debate just. Somebody interview follow the option system government personal.","estimatedTime":"5 weeks"}'
