@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDA0OjIzOjU5LjIxNDYxMyIsInVzZXJfaWQiOiIwOTE4YTFhYy01ZTQzLTRhYzYtYTkwYi1iOWJhZWM0OTkwNjkifQ.HOQVIuOGVNc7PJumcWoYW2dmRkxwPhEBh-hsd7ORh6Q' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Alone lawyer speech yes four education.","courseId":"0158c78c-1fad-41b1-b1a9-992345535a2a","maxScore":51,"minScore":21,"orderIndex":27,"description":"Quite hospital language door dream discussion. Maintain around rest instead somebody. Meeting stage military good.","estimatedTime":"5 weeks"}'

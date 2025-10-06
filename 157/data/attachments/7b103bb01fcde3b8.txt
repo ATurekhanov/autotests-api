@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDA0OjIzOjU5LjgwNjY5MSIsInVzZXJfaWQiOiJkMDBjMGRkNy04YmQ5LTRhZjItYTE0My1iNWIwN2NiNzczNjQifQ.2R_Kl4bsm56gWCaDFTHdVz5O7rVvdTeW8ue-4-8bChE' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm degree involve.","courseId":"e36acbdc-561c-4b95-9122-247c46e13c52","maxScore":67,"minScore":3,"orderIndex":33,"description":"There final member quickly play although. Involve trouble movie put ground.\nHotel keep husband brother top exist drug. Participant food traditional.\nSpeech police think unit.","estimatedTime":"7 weeks"}'
