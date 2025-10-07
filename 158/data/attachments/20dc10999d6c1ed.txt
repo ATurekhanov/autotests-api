@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDA0OjIzOjI5LjMzOTUxMiIsInVzZXJfaWQiOiIxZmFmY2ZmNy1jMjliLTQ0YmUtODM0Ni1kNmM4ZDg4OGI5OTIifQ.CO-2cZAKEZVY84zuD3TbpvVLINmaK8IanQf7hyjYaIU' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick state model join.","maxScore":55,"minScore":12,"description":"Point none statement smile act food. At guess computer front.\nLay cover method Democrat record direction ok. Eat hold relate agent television visit one.","previewFileId":"c7d3cd6e-d061-4091-be2e-f0db19284863","estimatedTime":"5 weeks","createdByUserId":"1fafcff7-c29b-44be-8346-d6c8d888b992"}'

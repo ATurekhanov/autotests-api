@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDA0OjIzOjI2LjczNDg0OSIsInVzZXJfaWQiOiI0YmIwOTE1YS05ZTdmLTRhYzYtODQzNS00M2YxMzgyYzNjMDUifQ.2LnXTT2yWu3yGz6fKr39TTIN7mNmsfore4cj0pgrCL4' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head laugh other force.","maxScore":94,"minScore":30,"description":"Look behind yes. Whom month national second lead.\nForget trade service shoulder page story service. Why early result carry respond wife especially.","previewFileId":"a85aa172-5835-488e-8569-a3e86863dc9b","estimatedTime":"2 weeks","createdByUserId":"4bb0915a-9e7f-4ac6-8435-43f1382c3c05"}'
