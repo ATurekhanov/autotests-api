@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f5118663-881e-4e35-8778-83f503f47cc0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAzOjUzOjQxLjI4MzE5OCIsInVzZXJfaWQiOiJkNDZkNThkYS1kNGE5LTRiMTYtYTYxZC1hNjllMWVhZWNiNDkifQ.K_qPcc8NnkU-Ci6uWaKqo0ypZTgCuzB21QhZFc1JXPo' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"News occur understand dark cover major ready.","maxScore":99,"minScore":10,"orderIndex":17,"description":"Environmental water very growth. Radio character I take four floor affect learn. Upon maintain election trade will evidence.\nAlong within safe can table. Main win church ever security southern.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAzOjUzOjQwLjA0NTMxMyIsInVzZXJfaWQiOiJjZTBhY2QxZi0wYTRkLTQwNDktYjM1NS1hM2VkZDU2M2Y1YjkifQ.8TK5vamHUaFLyO92CNX7LeDyFbah1gGXORvUC_txcz8' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget page let worry.","maxScore":77,"minScore":3,"description":"Marriage truth decide building guess whether great. Test shoulder particular body should glass PM. Gun budget word value talk between whatever.","previewFileId":"7694e6ea-9d34-4149-87ab-9eebf78d05a9","estimatedTime":"10 weeks","createdByUserId":"ce0acd1f-0a4d-4049-b355-a3edd563f5b9"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/79fce7e6-74e2-47ce-83f7-71c8db9e7d8b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAzOjUzOjM2Ljc2MzcwMSIsInVzZXJfaWQiOiI0NzdkNDFiNS01NmJkLTRhNGEtYWFmMC0xZTkwMWI0MTZmY2IifQ.HTN6warLFWc_tCLv0TeAzhLKVRP7MUfVS7TH8NX8ojs' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Couple late new season will Mrs my couple.","maxScore":98,"minScore":6,"description":"Meeting speak develop own represent any behind. Information make medical miss. Stop offer place maybe case.\nWorld such space those argue media right president. Culture positive take reduce.","estimatedTime":"6 weeks"}'

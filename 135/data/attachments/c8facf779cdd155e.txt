@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAzOjUzOjQxLjI4MzE5OCIsInVzZXJfaWQiOiJkNDZkNThkYS1kNGE5LTRiMTYtYTYxZC1hNjllMWVhZWNiNDkifQ.K_qPcc8NnkU-Ci6uWaKqo0ypZTgCuzB21QhZFc1JXPo' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seat control least there our appear several.","maxScore":51,"minScore":23,"description":"Daughter cost political up field. Believe wide condition after.\nSeven fire feeling staff type interest shake product. Election other drive support over second. Answer already state figure require.","previewFileId":"4bbf9853-efe5-40f7-8aa7-6c5890ae2699","estimatedTime":"1 weeks","createdByUserId":"d46d58da-d4a9-4b16-a61d-a69e1eaecb49"}'

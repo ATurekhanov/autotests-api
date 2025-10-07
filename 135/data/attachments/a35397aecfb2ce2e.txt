@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAzOjUzOjM3LjY2NDg4OSIsInVzZXJfaWQiOiIzZWMzMDk3MC0wNWFhLTRlMGQtODhmYS0xYTY2MTE2YTc1ZTgifQ.DQaoV2WIAutfGnWblhqULYMbcVg1NRK0QzL4CqRH1Qg' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reduce popular lay somebody this age not window.","maxScore":56,"minScore":26,"description":"Off big use little. Information technology cut allow show move. We evening public cold six past wait western.\nTotal wait Democrat card third rather. Firm across yard financial sign wind decide.","previewFileId":"f6e60e94-de72-43f5-880e-4b816f35393a","estimatedTime":"2 weeks","createdByUserId":"3ec30970-05aa-4e0d-88fa-1a66116a75e8"}'

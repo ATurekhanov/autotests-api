@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAzOjUzOjQwLjY3ODg1MyIsInVzZXJfaWQiOiIyNzcyZTdmOC0wZjgxLTQ3ZGMtOTBmMS0wNzhlMjE3ZGU3MzEifQ.VKls5deIGhHsf-L0jLyexOoEhBVsXTWBxEwEaGX4kGs' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Series bar difference time only customer difference.","maxScore":72,"minScore":16,"description":"Near personal media drop imagine. Both indicate question clear media soldier trouble.","previewFileId":"3239b4e6-ab3a-4193-9ba4-653e9476c884","estimatedTime":"4 weeks","createdByUserId":"2772e7f8-0f81-47dc-90f1-078e217de731"}'

@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Writer page man bed ask apply often major.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to f05fe765-35b4-4601-adba-1fa394e99994
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 27
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Charge remember guess short war. More year road experience attack should soldier.
+Science fine century Mrs look sport sort. Age his real reveal break almost. Large bar bad sea region.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
