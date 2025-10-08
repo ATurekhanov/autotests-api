@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA4VDA0OjIyOjQ3LjY3NjgwMCIsInVzZXJfaWQiOiJhOTM2ZTUxNS0wMTBjLTQ3MGUtYjc2Ni0zOTY2M2Q1YzI4ZGQifQ.1U2LewBpzQorIELOzpfHo6c7La-NOhs_5N-RLpCdR5E' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guess student recent per discuss.","maxScore":50,"minScore":14,"description":"Town amount country do second north specific our. Capital very good room.\nOne firm let real exist. Part ready dream leader purpose sister pretty. Two college fly.","previewFileId":"323a1bc4-0727-4f67-a60b-54215a8c0b1c","estimatedTime":"10 weeks","createdByUserId":"a936e515-010c-470e-b766-39663d5c28dd"}'

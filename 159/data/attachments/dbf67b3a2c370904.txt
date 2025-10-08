@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA4VDA0OjIyOjQ4Ljg0NzI4NiIsInVzZXJfaWQiOiI4NmY4MDdkYy04N2JhLTQ4NWItYTA4Ny1iNjNjOTEyMGNmNDEifQ.xqx5Xg_DNeYSGMLJTMJyfm-zV54B697_egcTccRjc_4' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard reveal hospital reality stop could painting get.","maxScore":99,"minScore":19,"description":"Various public management account pick. Action trouble try.\nNone small instead stock. Picture gun free would knowledge. At before cup write offer chair would.","previewFileId":"0e3934d8-bf72-4285-b432-1cf95ae067b2","estimatedTime":"3 weeks","createdByUserId":"86f807dc-87ba-485b-a087-b63c9120cf41"}'

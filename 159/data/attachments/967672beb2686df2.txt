@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f75a7936-d14f-4eb4-814f-43c86fd4ac2e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA4VDA0OjIyOjQ2LjE4NTI2NyIsInVzZXJfaWQiOiI2NWEyNWFkNi04NzliLTQ1OGItYjUzYS00Njc5NmI0YjMxMmUifQ.jMLT7oJOZd6S_KR4w6bDlHP1Bz9QpEVh4dBN3_gmdOg' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even central style cause fall candidate.","maxScore":86,"minScore":23,"description":"Us understand like according just international. Thousand group matter human music.\nDirector single must. Understand allow call several relationship especially.","estimatedTime":"6 weeks"}'
