@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA4VDAzOjUzOjA4LjIzMjIyOSIsInVzZXJfaWQiOiI4Y2JmOGMxOC03ZGZlLTQxMjktOTBiZi0wZGFlMzNmNzNlZDMifQ.ntT9h_JKCDEiVljQtQnFLFubA-zat958eu4jWsuSpoQ' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Staff more hotel someone determine bring throughout.","maxScore":53,"minScore":17,"description":"Owner various remain role. Enter democratic guess lawyer history assume.\nGovernment present bit car south church. Positive focus past himself have onto audience.\nYourself first military like.","previewFileId":"48452689-cf1c-4869-a261-9304ef0abb16","estimatedTime":"10 weeks","createdByUserId":"8cbf8c18-7dfe-4129-90bf-0dae33f73ed3"}'

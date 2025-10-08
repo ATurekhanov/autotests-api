@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/c571a852-6116-43bc-b6ed-59a2cdd3b1a7
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/c571a852-6116-43bc-b6ed-59a2cdd3b1a7
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to c571a852-6116-43bc-b6ed-59a2cdd3b1a7
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Bad wide hope cold environment send form.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 7e8fbc18-85d8-4b16-b2a3-c76cf136d57e
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 60
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Employee significant particular long right education despite. Partner Congress close stage dark key those.
+Recently war quite yeah wonder sometimes gun. Worker three traditional stand.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

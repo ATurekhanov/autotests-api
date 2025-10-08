@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA4VDAzOjUzOjA4Ljg2NjU1NCIsInVzZXJfaWQiOiI4MjM1YzFjYy04YzYyLTQzYzctOWI5OS00Y2ViMjg0OGVlM2YifQ.T1KZp7XI--Y-7c-qWSorXmlGDRWPFmb65NpkvuVIsQY' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break admit responsibility research word.","maxScore":53,"minScore":19,"description":"International huge drop together account machine. Car teacher just any Democrat student officer. Picture by though simple cup.","previewFileId":"b2be4b52-cfa1-4e61-8aec-ce84d044be73","estimatedTime":"1 weeks","createdByUserId":"8235c1cc-8c62-43c7-9b99-4ceb2848ee3f"}'

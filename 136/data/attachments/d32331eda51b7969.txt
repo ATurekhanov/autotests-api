@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/1e6da0b9-f479-4004-8da7-36a19f3272c4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA4VDAzOjUzOjEwLjA5NTc4NiIsInVzZXJfaWQiOiIzYmMwOWUxZC1kYWM3LTRmYTktYTM2NS1jY2MwZmUwMzEwZDEifQ.fkguO0kVntiY4vvagAYtE_oq7m3VdrFsl51VJqd8Xlo' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Different risk mind out use suddenly artist.","maxScore":88,"minScore":16,"orderIndex":64,"description":"Teach trouble art. Number short section realize. Different now fine now fact here community point.\nHim light ball various eat relate medical radio. Floor prove effort PM itself system away.","estimatedTime":"10 weeks"}'

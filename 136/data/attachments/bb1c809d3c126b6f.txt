@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA4VDAzOjUzOjA2Ljc4MzQ5OCIsInVzZXJfaWQiOiI0ZWE5ZGFiZC01NjZmLTQ0MjgtYWJjMy1kYmEzZDcyZWI5NWIifQ.Ch1zOE7QwA9Xj-N4yLW8e_iOfDfPx2TK1-1BIYUyArI' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity create suddenly effect.","maxScore":61,"minScore":23,"description":"Deal at hard or.\nOver method apply administration education blood more fish. Several wait blood start worker arrive. Plant customer management actually.","previewFileId":"66d7fd83-81ff-44bb-aec8-231b505bb360","estimatedTime":"4 weeks","createdByUserId":"4ea9dabd-566f-4428-abc3-dba3d72eb95b"}'
