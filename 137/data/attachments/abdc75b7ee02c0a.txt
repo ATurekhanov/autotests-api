@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAzOjU2OjA2LjI4MDg5MSIsInVzZXJfaWQiOiI2YTU1MmEyMC1kNzRjLTQ4YzctYjI0Ny04NDgzNGQwZmFjMGMifQ.s8WiJvThg2znKTik2ab62BVUvxK1JAqlr3cTUltVbbE' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Despite seek age section teach suddenly ability.","maxScore":77,"minScore":5,"description":"Suffer these mind civil matter old view. Bar bit ask account give meet. Less great during behind.\nYoung red customer another eat. First success at sound development.","previewFileId":"f81c86aa-133a-446d-9496-44efabfce3cd","estimatedTime":"2 weeks","createdByUserId":"6a552a20-d74c-48c7-b247-84834d0fac0c"}'

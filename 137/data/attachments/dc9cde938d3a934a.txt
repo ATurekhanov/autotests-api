@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAzOjU2OjA3LjczODg4NiIsInVzZXJfaWQiOiI0YWU1ZmVmYi01NzdjLTQ4ODctYmMzOC1hY2FmZWVhMjQwNTcifQ.eOrBfGbSq13PR9bmJqHr5r9TqVVDMpppjo8KbXlwnGs' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Risk market often long stop especially.","maxScore":85,"minScore":30,"description":"Bed author these project. Attention amount gun.\nLevel with pressure hour paper body. Trouble suffer behavior discuss everyone threat.","previewFileId":"7c93a13b-cc2b-4d24-a930-e4d7945b21bb","estimatedTime":"5 weeks","createdByUserId":"4ae5fefb-577c-4887-bc38-acafeea24057"}'

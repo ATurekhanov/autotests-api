@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAzOjU2OjA4LjM4MjIxMCIsInVzZXJfaWQiOiJiMTFjMWVmZC0wNzdlLTQzMTYtODg1YS1mOWI1NTllZDg5YjIifQ.-qxS-6OtD4AFoJKA8qg9GgbnRRdJpq-hQO4P8qGr7WI' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discussion own purpose talk.","courseId":"45fcf1fa-a080-44ce-9ce6-ac3140d8fda1","maxScore":66,"minScore":3,"orderIndex":7,"description":"Player school discussion place indeed main. Scientist car range book. Executive performance network nor turn you deal.","estimatedTime":"9 weeks"}'

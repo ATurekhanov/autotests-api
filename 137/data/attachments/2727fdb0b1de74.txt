@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAzOjU2OjA3LjQ2NTU0OCIsInVzZXJfaWQiOiI5YjZlMjNmYy0xMDkzLTQ4ZGItYmM2ZC1jOTUzMGMwN2VlZWYifQ.Yw-7h3mFssoIl-tOjjOO1TGIRxF67N7vdBa7K0Mw5nY' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary prevent feel.","courseId":"f2214df3-7964-4610-b438-4c5220c1ff48","maxScore":65,"minScore":2,"orderIndex":38,"description":"Environment some factor sister. Imagine yard stand though.\nCongress serious job last rather task card address. Source in evidence daughter. Kid amount land girl letter together charge analysis.","estimatedTime":"2 weeks"}'

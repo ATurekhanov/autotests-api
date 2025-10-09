@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAzOjU2OjA4Ljk2NDIwMCIsInVzZXJfaWQiOiIzYTQ2YmMwOC1hZDQwLTQ4ZGItYjIyNi1lNTU3OWYzMThmZjMifQ.kUiHccEQ1yIbVqSyuEotcvJRw9-SodQkhqK6SDdH5n4' \
+  -H 'content-length: 454' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source watch down environmental traditional meet executive.","maxScore":61,"minScore":30,"description":"Own necessary these else despite return. Performance partner while relate before. Subject sister record decade learn sea.\nMind I court smile. Follow suggest include western your ground price morning.","previewFileId":"4eed27d2-7628-40f2-8385-a8a62e275b24","estimatedTime":"6 weeks","createdByUserId":"3a46bc08-ad40-48db-b226-e5579f318ff3"}'
