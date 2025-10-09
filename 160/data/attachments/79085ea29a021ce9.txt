@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDA0OjIzOjU3Ljk4NjI5NyIsInVzZXJfaWQiOiI0NjQ3MzU3Yi05NWMxLTRhMDktODlhOS02YzNlMmE5NmY0OTIifQ.aw4XDjSnH2NyAtd78FtH4oQzYqRNtclCZhCjq2l01Mo' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"World sometimes clearly board.","courseId":"21561ece-5eec-4c78-9d85-d99e60b6f7f7","maxScore":94,"minScore":7,"orderIndex":49,"description":"Store office student put. Tree career ready individual. Article book how.\nYear program bed head. Thought long school none rock. Attorney only news leg recent seat nation.","estimatedTime":"9 weeks"}'

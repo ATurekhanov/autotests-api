@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDA0OjIzOjU3LjQwMTU5NSIsInVzZXJfaWQiOiI0MjZlY2I0ZS0wZmZiLTRkZmUtYmI5NC0wOWI2NjA3ZDQ2ZWQifQ.9YnvLH3YYhSGq6loqOmPALupv0BsvHnbT6YzIoWX9nM' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon but protect.","courseId":"3e8f8bbc-7d1c-4ba3-be7d-c1d7832a60a9","maxScore":66,"minScore":29,"orderIndex":13,"description":"Skin authority other in science. Plan want president mention light walk teach start.\nWith use always too score usually.\nFamily suggest time including. Bag both unit money.","estimatedTime":"8 weeks"}'

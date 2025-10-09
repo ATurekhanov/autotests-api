@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDA0OjIzOjU2LjI0MTc3NyIsInVzZXJfaWQiOiIxMjc0ZjFjNS01OTkxLTRjZWQtYjc1MS1hMWI2NTRjYzRkMDMifQ.V89whS4HLzj-HD8Z9wbs1QRB5e3TflFAgVjcTyiBLUs' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father clear majority later history.","maxScore":73,"minScore":28,"description":"Drug night for tough. Reality deal law just. Hear inside couple just.\nAble too their herself none loss. Market travel eat no. Election three bring dream debate why agency.","previewFileId":"30b602b5-b2f7-440f-9dc8-cf906bfa9389","estimatedTime":"9 weeks","createdByUserId":"1274f1c5-5991-4ced-b751-a1b654cc4d03"}'
