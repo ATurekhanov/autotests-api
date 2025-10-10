@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDA0OjIzOjMyLjQ1MzkyNyIsInVzZXJfaWQiOiIzOWYwNGUyOS1jMzgyLTQ0YzEtOGEwNC0wY2Q5NDE3MGM1NmQifQ.vXqECeiGR6cLDHz9hhSt-XTHdyXFHacLojopVnViERU' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Well weight us cost follow recognize expert.","maxScore":63,"minScore":22,"description":"Sister point hard discussion.\nSeven let affect rich. Film seven meet animal. Money own theory natural strategy.\nSomeone security player. They everybody hold hotel democratic will. Trade tonight once.","previewFileId":"8cde5fba-1a03-4573-9171-76f6d8ebd27c","estimatedTime":"4 weeks","createdByUserId":"39f04e29-c382-44c1-8a04-0cd94170c56d"}'

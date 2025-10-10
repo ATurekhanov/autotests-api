@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDA0OjIzOjM0LjE4OTA4MSIsInVzZXJfaWQiOiJiNDdjNGVmOS0xZThkLTQ1MGYtOWJhNi1mZjMyYjkxMDJkMDEifQ.JKtVie7iWj6btZ_DncnQetTSG3Sg4oyzGD61s_FPvGg' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer rather line suffer.","courseId":"169f6a02-52ef-4553-ac63-46882924ac44","maxScore":69,"minScore":3,"orderIndex":60,"description":"Catch mission cold school. Strategy minute phone place administration beyond old. Face senior probably since citizen else candidate green.","estimatedTime":"5 weeks"}'

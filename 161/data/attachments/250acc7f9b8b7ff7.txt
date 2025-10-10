@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDA0OjIzOjMxLjEwNjM4MSIsInVzZXJfaWQiOiIzYjBkZThkMy0zNDE3LTRkNmUtOGNkMS02ZTczMjhjOTNmZTcifQ.m4AfRqHTfnq9NKt6AZAse2SnME9B7I6MA6sRgnOExRc' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Local support time participant draw around.","maxScore":94,"minScore":7,"description":"Four price of lawyer throw describe east. Ball all help. Send week bag worker.","previewFileId":"6d2ffe79-c622-43d5-bf38-f24c9578118d","estimatedTime":"3 weeks","createdByUserId":"3b0de8d3-3417-4d6e-8cd1-6e7328c93fe7"}'

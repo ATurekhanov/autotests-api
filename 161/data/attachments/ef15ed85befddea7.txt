@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDA0OjIzOjM0Ljc0NTc0NiIsInVzZXJfaWQiOiJmYmVlMDc5Ni02ZDA3LTQ4NzItYmMyNy03NTg0ZWIxMGRkM2UifQ.JWILllGCKgwXx1pDtmN-Z_Avi6BrY2Dbf7l9ys2SucQ' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight anyone agree cold.","maxScore":98,"minScore":15,"description":"Morning section black its TV level. Family since stock guess.\nNew various citizen. Finally effect executive growth.\nLaw form language left this be. Color fact individual particular evidence training.","previewFileId":"cf2d61da-d4a1-4ce2-b288-7bb320e2c5fa","estimatedTime":"2 weeks","createdByUserId":"fbee0796-6d07-4872-bc27-7584eb10dd3e"}'

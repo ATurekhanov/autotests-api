@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDA0OjIzOjMyLjE5NDc0NSIsInVzZXJfaWQiOiJhNDk5YzhkOS0yODQ5LTQ3YWYtYWM4NS03ZWZhN2VjODFjNDIifQ.C2QCkedadxiypvfBLJ6KlEgQ3of5crbIaetDhWCobnk' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region night high become ask view there.","maxScore":74,"minScore":3,"description":"Figure also fund future PM. Smile impact manager decide defense.\nFederal meet century son serve modern discuss. Season million thing rich old.","previewFileId":"002a431f-2b9f-4a1e-9e57-bd3c2cd34bb3","estimatedTime":"2 weeks","createdByUserId":"a499c8d9-2849-47af-ac85-7efa7ec81c42"}'
