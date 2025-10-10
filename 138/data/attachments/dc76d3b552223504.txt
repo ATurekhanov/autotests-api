@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDAzOjU2OjE1LjAxNzA0OCIsInVzZXJfaWQiOiI5NjVmZjFjOC05MzZkLTRlOTUtOTdiOC1mNDc4NWU0OGIwZjEifQ.oMMMXkt-8tUIWwjkCP9mEuaqxijTqIaCrZAF4hZjWCQ' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount enter present college performance.","maxScore":57,"minScore":2,"description":"Realize sister fire itself live believe one child. Age eat discussion despite easy either serious. Bad threat great.","previewFileId":"8f5120b5-af4d-4f63-a133-3b9c7e498616","estimatedTime":"6 weeks","createdByUserId":"965ff1c8-936d-4e95-97b8-f4785e48b0f1"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDAzOjU2OjE0LjQzNzI2OCIsInVzZXJfaWQiOiI4Y2Y0MjZhNy1lN2UxLTRlNzAtYjMwMi1hMzA1YzdhNDM2NGEifQ.9eju0J7KOlwk4Jn_9A610Bu9kFs6G9sBBboAOdLvaGY' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He mother fear case third fly game.","maxScore":71,"minScore":12,"description":"Wrong at resource foreign society throw. Realize computer fact including store. Film box window easy real radio doctor.","previewFileId":"7af4aeb9-2385-4c9b-9c72-4a2941e77648","estimatedTime":"6 weeks","createdByUserId":"8cf426a7-e7e1-4e70-b302-a305c7a4364a"}'

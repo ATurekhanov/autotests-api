@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDAzOjU2OjE1LjcwOTQ5MSIsInVzZXJfaWQiOiJmN2E4Nzk3MS01Yzg5LTQzNDMtYWYyZC02NTEyYTM1MjJmYmEifQ.s6J5YC2YbB3tkZAKnWW1Ps3swF9waw5II1fWtXRMd8g' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay loss write baby teach statement degree.","courseId":"7449ae70-096c-4b3d-9389-f6694e996da0","maxScore":78,"minScore":5,"orderIndex":65,"description":"Staff play get do act law identify paper. Outside beautiful community. Guy agree hundred city event argue both keep. Loss cold wear any lawyer.","estimatedTime":"6 weeks"}'

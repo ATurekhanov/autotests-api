@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDAzOjU2OjEzLjc5NzQyMSIsInVzZXJfaWQiOiJjZTMwYWE2MS0zNWMzLTQ4ZTgtYWY2Zi01MGQzOWQ3ODYzZTEifQ.S7Xaow3ABODWH3bDKsP26iDQ6vZXfC-Vrl5Oj3VWyj8' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Our say community ok sound.","maxScore":82,"minScore":25,"description":"Son program rock happen the. Race small name with effect.\nTax management audience position. Type owner run.","previewFileId":"de09fd96-122b-405a-81f4-bb2123644346","estimatedTime":"9 weeks","createdByUserId":"ce30aa61-35c3-48e8-af6f-50d39d7863e1"}'

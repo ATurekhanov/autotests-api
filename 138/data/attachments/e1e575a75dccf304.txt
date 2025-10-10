@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEwVDAzOjU2OjEyLjM0MjM3MiIsInVzZXJfaWQiOiJmMjMxMjNkNS0zZWU5LTQ3NzktYWUwZS00MGNmYjY5MGJkMmUifQ._NDnid5_rL5TPWpJPbGr1QiKVbO4y_yNLKWYOcfv5tA' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fly side never those quality pay hour.","maxScore":95,"minScore":15,"description":"Experience a fly apply statement. Response down analysis. Deal modern future. Half pretty real strong get.\nProbably still recently over factor. Hand customer grow among candidate reach center.","previewFileId":"a56d4d9b-939e-4955-a4a1-d456e9e116e7","estimatedTime":"4 weeks","createdByUserId":"f23123d5-3ee9-4779-ae0e-40cfb690bd2e"}'
