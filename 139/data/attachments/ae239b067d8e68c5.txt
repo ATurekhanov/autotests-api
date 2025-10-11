@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAzOjQ5OjI3LjMxMDAwNiIsInVzZXJfaWQiOiI4ZmZmNGVjZC1kMjU3LTRkYzctOWI3ZS01ZWNmOWVjNWNkMGEifQ.sYWDWbC8FbirdYIvirFRnGFoG6U4sKfcLgF_0Gfpa-Y' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Admit together least.","maxScore":54,"minScore":12,"description":"Statement majority surface reality guess as. Kind indicate recent per. Theory someone evening just degree summer.","previewFileId":"7de386af-7be3-428c-9f00-efa1c783e49f","estimatedTime":"9 weeks","createdByUserId":"8fff4ecd-d257-4dc7-9b7e-5ecf9ec5cd0a"}'

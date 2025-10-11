@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAzOjQ5OjI2LjE0MDY5MyIsInVzZXJfaWQiOiJjNmFiZDFjMS0zMDNiLTQ0YjEtOWMxZi04ZTc4NzlhMDQ4OGEifQ.-xl57xncrBgDIBw-RMmtxeBPfNRw-AuRk6DDIZdJVOg' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Real trial stay wait manager among fund environment.","maxScore":56,"minScore":3,"description":"Represent position get claim American a. Yard system prepare modern improve two street.\nJoin alone keep adult turn opportunity adult. Language expect good of action financial according.","previewFileId":"ab74b21c-cb8d-4023-9973-0d0b5a211d34","estimatedTime":"6 weeks","createdByUserId":"c6abd1c1-303b-44b1-9c1f-8e7879a0488a"}'

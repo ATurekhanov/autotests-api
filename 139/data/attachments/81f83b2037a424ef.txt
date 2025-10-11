@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAzOjQ5OjI3LjU4MjcwNyIsInVzZXJfaWQiOiI4ZjNhZTU4MS1kNzdlLTRkOTgtOGUyOS1iYzY0MTlkYjMyMTQifQ.SVftuiBEJM629cGKSK-S8NOFW0JTr7NdUmmeQOG1pJk' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy who image people visit news better.","maxScore":85,"minScore":28,"description":"Check a water especially short structure painting choice. Study despite maybe challenge standard rule simple.","previewFileId":"421ddb0b-b8c6-4115-9ea5-f45876539659","estimatedTime":"1 weeks","createdByUserId":"8f3ae581-d77e-4d98-8e29-bc6419db3214"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAzOjQ5OjI5LjQwNzQyNiIsInVzZXJfaWQiOiJhZDExNjEyZS1kOTdjLTQ5MDctYmY4NS0zZWJjOTYzYmU4OTkifQ.a7XGbIILp-fr5KxJS-_n_cCMDg08HVZS1yyBFAYJjnw' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exist everyone summer others few better occur.","maxScore":77,"minScore":11,"description":"Style pull identify eat.\nStage look three degree attorney job. Think fire perform. Me say church street bag type hour.","previewFileId":"c42ca623-5f23-41a7-b65a-7a43b6914bd9","estimatedTime":"3 weeks","createdByUserId":"ad11612e-d97c-4907-bf85-3ebc963be899"}'

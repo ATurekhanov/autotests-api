@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAzOjQ5OjMwLjY1NzU5NiIsInVzZXJfaWQiOiI0MWVmNTA4OC1lNDc4LTRlYjMtYmQ2OS03YjNmZDhmM2RlY2YifQ.oa3I-0eQgu9Tz5lcNkJSh4zl4wUBry63Di5olnAyGl8' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above maybe adult single middle.","maxScore":76,"minScore":10,"description":"Language whole point lay letter ask difficult. Prove assume anyone station door short box.\nMedical get well run skill. Per attack able look check. Bank join trade study writer take anything personal.","previewFileId":"53421f01-5c34-4ad9-9037-4ff3659cc001","estimatedTime":"6 weeks","createdByUserId":"41ef5088-e478-4eb3-bd69-7b3fd8f3decf"}'
