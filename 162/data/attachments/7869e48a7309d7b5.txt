@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDA0OjIxOjI3LjQzMDg1OSIsInVzZXJfaWQiOiJjYzYwZjEwZS01NGVmLTRhMjItODczNC1hZGI1ZGUyZTM5M2UifQ.ImQRk2rvH40Xw_dAiIJaICFBHfQ8LXy749B6KCIe3fQ' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog until challenge cell include.","maxScore":78,"minScore":2,"description":"Hospital teacher writer note inside. Tax no step. Performance fear form new weight.\nEconomy tax fight east probably most. Some ahead miss conference on particularly.\nParty against light sell.","previewFileId":"df19f7d8-aefe-4965-9305-4b80f3bf3b90","estimatedTime":"9 weeks","createdByUserId":"cc60f10e-54ef-4a22-8734-adb5de2e393e"}'

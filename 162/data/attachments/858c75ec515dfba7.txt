@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDA0OjIxOjIzLjcwODIyNiIsInVzZXJfaWQiOiIwZTQ3ZGM5My00NjA5LTRkODgtOWZkYy1lMzQwOTc0M2NhNGMifQ.CcBa6Hm2K95zubQPxno096e608ivAdx1gcMXv-jBtN4' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Of size establish several brother task west.","maxScore":61,"minScore":14,"description":"Order class other full concern. Research change the section director rest.","previewFileId":"dc757b92-ddf5-42e6-af91-b9fc48e44dd8","estimatedTime":"2 weeks","createdByUserId":"0e47dc93-4609-4d88-9fdc-e3409743ca4c"}'

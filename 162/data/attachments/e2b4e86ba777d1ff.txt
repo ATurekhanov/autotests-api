@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDA0OjIxOjI0LjI5NzQ5NyIsInVzZXJfaWQiOiJlMDUzYWIwZC1kOTA1LTQwMzEtYTE0Yy1iODA0ODFkYmFhODAifQ.xNARCQcoNYdVNwQy6j-recH5pODvgkKMTcA1jpx5RGE' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Education across agent record sound stay exist.","maxScore":56,"minScore":18,"description":"Same reveal situation staff customer. Nor huge explain way study call candidate.\nI want campaign win. Continue point sometimes production item order social. Live likely factor stand social.","previewFileId":"2f31d7e6-43d8-42af-9e48-ac101fa0df4e","estimatedTime":"4 weeks","createdByUserId":"e053ab0d-d905-4031-a14c-b80481dbaa80"}'

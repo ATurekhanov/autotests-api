@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDA0OjIxOjI2LjA0OTQ5MiIsInVzZXJfaWQiOiJiZTFiYWI5OS03NTQxLTQ0YmMtYmEwMy01ZWIxN2EzZDI2OGYifQ.Nb_ja29UzFGissm3ecRQUuDO0qwl8qiBL6411SA8a5A' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shoulder term certain color beautiful real even smile.","maxScore":94,"minScore":12,"description":"Stuff happen pull discuss.\nFine simply in position how. Recognize collection information himself seem. Adult take generation.","previewFileId":"8ab26e1c-86f6-4d4d-97b2-0acb39a412c9","estimatedTime":"6 weeks","createdByUserId":"be1bab99-7541-44bc-ba03-5eb17a3d268f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDA0OjIxOjI2LjcwMjk3NCIsInVzZXJfaWQiOiIwZDVkOGQ3Zi0wNjVkLTQwZjUtYjg3Yy0wNGVmM2MwNDk0MjQifQ.prVLs59Gh_wZkm4lmAD9YFzxDRT2oemwKmvcPsOu1wo' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Life third least cultural cause my.","maxScore":94,"minScore":13,"description":"Region conference them forward rule concern side reflect. Method rich skill real happen race debate. Call play last yard collection report action.","previewFileId":"c0444013-a1b1-4167-9459-740c8da4b49e","estimatedTime":"3 weeks","createdByUserId":"0d5d8d7f-065d-40f5-b87c-04ef3c049424"}'
