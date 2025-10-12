@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDAzOjU3OjQ5LjEzOTQ0OSIsInVzZXJfaWQiOiI4OTVlOWE2ZS1iN2U1LTQ4ZGMtOGRiYy1jYTFiZDAwMzViOWIifQ.UH5oA0fJXhxIrYboH52zmtOcYV0w1kXq6XlXeqAnIT8' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ground just close short represent.","courseId":"deb4eca9-9892-4e9b-8d4b-76c9be56d906","maxScore":85,"minScore":29,"orderIndex":53,"description":"Task choose help floor.\nFeel usually member discussion month ok maintain. Us environmental right policy.\nTheory fire heavy commercial. Local watch lose most former party center over. Six fine wear.","estimatedTime":"9 weeks"}'

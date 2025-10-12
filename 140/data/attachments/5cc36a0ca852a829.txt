@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/50f5248d-4fc2-4ba5-87c0-96a495502fbd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDAzOjU3OjQ2LjgzMDc2NSIsInVzZXJfaWQiOiJlZGQ3OTFiZS1mMGMyLTQ5ZmUtYTc3MC1iN2RjNmYxMDM2YjcifQ.FZfIaIIQctrSixnrBv0mxp8fa-Z8ofccTbNJMye88Dg' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sport truth old matter.","maxScore":79,"minScore":27,"description":"Their him today tough include. Lawyer year great phone fact hear give decide.\nBusiness language believe. Suddenly film rest card. Up believe house finish method site.","estimatedTime":"8 weeks"}'

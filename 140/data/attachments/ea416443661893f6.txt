@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDAzOjU3OjUxLjI0NzE3NyIsInVzZXJfaWQiOiIxNTU4N2NkNS01ZGI4LTRhOTQtOWQ0YS1mZjk5OTU3MjJiYTAifQ.dpTOp66z3oZkmYQTCl4TiKt9iq9Kc3KC-qvmEGIHG8Y' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front set or.","maxScore":75,"minScore":6,"description":"Character argue really month easy else. Theory plan car Democrat ten order across.\nPut kind seem time subject chance truth scientist.\nCustomer above mean. All feel must turn language.","previewFileId":"8fe98b97-9159-4170-827c-16ef8aab1769","estimatedTime":"6 weeks","createdByUserId":"15587cd5-5db8-4a94-9d4a-ff9995722ba0"}'
