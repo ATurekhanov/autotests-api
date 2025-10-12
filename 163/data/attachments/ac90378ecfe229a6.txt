@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDA0OjIzOjIxLjE4NzE4NyIsInVzZXJfaWQiOiJhNWEyNDM2My1kNzc1LTRkNjctODcyMC0yYjUzMmU3ZTM4NWUifQ.iJn6fIUqH3A8m7jM5e_LenTwVCJuas4gNcrKt-HDixI' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Somebody artist either amount paper attorney artist.","maxScore":50,"minScore":7,"description":"Look although sea final affect soldier ball. Agency those environmental role vote manage image project.\nDog single should include woman big material. Town ball civil we where career mention.","previewFileId":"f01e63c8-f054-4b57-a212-38207317c5d5","estimatedTime":"8 weeks","createdByUserId":"a5a24363-d775-4d67-8720-2b532e7e385e"}'

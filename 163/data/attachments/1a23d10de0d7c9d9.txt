@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDA0OjIzOjIxLjc3Nzg4OCIsInVzZXJfaWQiOiJlZGQwOGM3Ny01Y2VmLTQxNjQtYmNmMS1kMTZlOWIwMjc1MmMifQ.9WT9tfwRhcIj7IiDZVToFKlaFahKdrc6X6coxLt1DD4' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Too brother next international while.","maxScore":57,"minScore":10,"description":"Mind left coach risk art special. Effort prepare everybody business for camera note.","previewFileId":"b24ff3c3-a8a9-4416-9bdd-91830e484cfb","estimatedTime":"7 weeks","createdByUserId":"edd08c77-5cef-4164-bcf1-d16e9b02752c"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f3140632-1324-494b-aba8-14f2326d61a0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDA0OjIzOjE3Ljk0NzcxOSIsInVzZXJfaWQiOiJkN2YzYTYxMy1hOTBiLTRlMWYtOTUxZC1iYzU5MTRiOWZjMDAifQ.AK-OOQgYNKQv4CaDGx0OeLDl69NsWy91lMxXFwAmiJc' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan pass official.","maxScore":100,"minScore":17,"description":"Agree authority type law whole. Season dog voice data chance page. Mind wear film involve coach staff allow always.\nTotal effort what decide. Receive feeling future later actually add soon.","estimatedTime":"6 weeks"}'

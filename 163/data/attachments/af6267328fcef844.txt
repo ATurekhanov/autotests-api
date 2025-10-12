@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDA0OjIzOjIwLjU0MzY2MSIsInVzZXJfaWQiOiIxZWVlYTAwYS1hOTQ4LTQ0NGMtYjEyYi1lM2VmMGM1MmQ2MTcifQ.jbRtI-bFxkwebqnn_fQv9pT5xqanClUw17R4pLGEswU' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm ago process scene save.","maxScore":62,"minScore":28,"description":"He newspaper hand pull everything. Executive then hold.\nShoulder power step body situation recently trade. Land life full professional store sense. Possible carry leave head end experience.","previewFileId":"eb3ab163-5145-40ba-aff4-e88561398f58","estimatedTime":"10 weeks","createdByUserId":"1eeea00a-a948-444c-b12b-e3ef0c52d617"}'

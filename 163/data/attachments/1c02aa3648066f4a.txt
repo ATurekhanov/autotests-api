@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDA0OjIzOjE3Ljk0NzcxOSIsInVzZXJfaWQiOiJkN2YzYTYxMy1hOTBiLTRlMWYtOTUxZC1iYzU5MTRiOWZjMDAifQ.AK-OOQgYNKQv4CaDGx0OeLDl69NsWy91lMxXFwAmiJc' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific student power standard range last understand explain.","maxScore":55,"minScore":1,"description":"Morning white to check amount clear. Affect paper heart two quickly her.\nWant baby put doctor. Allow remain foot bad population. Radio evening place.","previewFileId":"32300679-555f-4f12-b6e0-ad021a16f5c1","estimatedTime":"10 weeks","createdByUserId":"d7f3a613-a90b-4e1f-951d-bc5914b9fc00"}'

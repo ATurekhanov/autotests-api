@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDA0OjIzOjIyLjQ0MDMzOCIsInVzZXJfaWQiOiIzZGU3MGRjMC1lMmYyLTQ2YTUtOGJiNC05NTUwNDljNTFlY2MifQ.-NQ4KQEXTcKzu8hYnj3OJxzm8dyxPcJ_1ynDD6umtpk' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern brother nice throughout wide.","maxScore":57,"minScore":30,"description":"Best must sense. Building within plant us provide yet Republican.\nCheck hour fear yet among. Mean else ten subject resource.","previewFileId":"eb5c2ca1-9102-4fbf-b36a-2e3bf6d351b6","estimatedTime":"3 weeks","createdByUserId":"3de70dc0-e2f2-46a5-8bb4-955049c51ecc"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Fish kitchen Republican future door improve rule.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 77
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Red hotel live goal its contain rate.
+Theory hair could put case stand along. Sign keep whom report of foot view. Crime avoid town important Congress. Study claim especially.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to c7e9c42f-2507-4478-a48d-ad2c05f64820
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 82921467-bafd-480c-91d6-7f78773a1263
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

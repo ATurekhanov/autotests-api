@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEyVDA0OjIzOjIyLjQ0MDMzOCIsInVzZXJfaWQiOiIzZGU3MGRjMC1lMmYyLTQ2YTUtOGJiNC05NTUwNDljNTFlY2MifQ.-NQ4KQEXTcKzu8hYnj3OJxzm8dyxPcJ_1ynDD6umtpk' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice watch business eight something it.","courseId":"c22bc1d4-3f72-4aca-b991-19080972ce60","maxScore":88,"minScore":29,"orderIndex":55,"description":"Soon social accept book term behind oil. Trouble live house alone wall.","estimatedTime":"9 weeks"}'
