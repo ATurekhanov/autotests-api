@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/28f5737d-be71-4970-a4b7-02f05db2b017' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEzVDA0OjA2OjEyLjIxMDkzNSIsInVzZXJfaWQiOiJmZTA1Nzk4YS1jODY2LTQ5OWQtOTVlZC04OWRlM2I3NTM2YzQifQ.MFYWIwvMKVgkp6UDnTVCQaCqB8HZKBTEmMEBYbhI8WM' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody describe away fear close.","maxScore":88,"minScore":15,"description":"Prepare personal specific.\nPosition ready property upon whom arrive gas. Name white chair else majority commercial. Statement better ready.","estimatedTime":"1 weeks"}'

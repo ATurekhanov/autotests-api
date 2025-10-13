@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEzVDA0OjA2OjE1LjQ2NDI0MiIsInVzZXJfaWQiOiIyNzQ1MzhiYS02ZWU0LTRlMWEtODFmNy0zZjAyMjdmMTBlMTUifQ.0Y8zY-ARlgxKTivOJn313K7ibne9eoWmKpaM-B_K-4A' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal customer physical.","courseId":"670fcf47-3820-4683-a019-91b5ba500c1e","maxScore":66,"minScore":22,"orderIndex":67,"description":"Boy wall sport on. Floor theory son time trade.\nOther in create east. Kid figure seat.","estimatedTime":"4 weeks"}'

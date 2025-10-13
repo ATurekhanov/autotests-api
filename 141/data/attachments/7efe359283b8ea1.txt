@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEzVDA0OjA2OjE2LjA1MjE0MSIsInVzZXJfaWQiOiJhMmNkZDgzOC0yNmZjLTRmNmUtOWRkMS1mNTJjZmE4YWFhMTMifQ.jRXPZCXZo_2b5Vvoy9Noc4dTHlG8p1NKWRDaQxVQk7o' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feeling road responsibility.","maxScore":90,"minScore":24,"description":"Research defense billion thank mention shake. Skill song lawyer become recently investment fund. Whom daughter suggest recent challenge front goal.","previewFileId":"7c5cd665-a058-45a4-952e-15c45a47098e","estimatedTime":"1 weeks","createdByUserId":"a2cdd838-26fc-4f6e-9dd1-f52cfa8aaa13"}'

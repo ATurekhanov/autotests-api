@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEzVDA0OjA2OjEyLjIxMDkzNSIsInVzZXJfaWQiOiJmZTA1Nzk4YS1jODY2LTQ5OWQtOTVlZC04OWRlM2I3NTM2YzQifQ.MFYWIwvMKVgkp6UDnTVCQaCqB8HZKBTEmMEBYbhI8WM' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration sort go yes reach start.","maxScore":56,"minScore":23,"description":"Matter another sing most allow. Amount reveal exist fast per where. Beat history leg everything be.\nStrong rich walk dream.","previewFileId":"30786876-f029-4017-bdc5-3ac2115e0849","estimatedTime":"2 weeks","createdByUserId":"fe05798a-c866-499d-95ed-89de3b7536c4"}'
