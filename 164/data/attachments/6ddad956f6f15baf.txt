@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEzVDA0OjI4OjU0Ljg0NzYyNCIsInVzZXJfaWQiOiI1MmNkZmIxMC0yODI1LTRkOGQtYjQ5Ny01ZWI0MmE1NWZiOGUifQ.HSdnfY9KXu5od4rhYX5jZFpBuqPOUFuRPnXu_ZtlrRU' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy also ready modern.","maxScore":74,"minScore":7,"description":"See two strategy audience likely left mean food. Where people season plan late usually.\nDifficult probably thing short believe may your. Age age skill enter condition spend its career.","previewFileId":"9822b143-98de-4ba1-b9a8-9a19fda53128","estimatedTime":"1 weeks","createdByUserId":"52cdfb10-2825-4d8d-b497-5eb42a55fb8e"}'

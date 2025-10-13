@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTEzVDA0OjI4OjUyLjE1OTMzOSIsInVzZXJfaWQiOiIwNDQxMTQ4NC02ZmVjLTQzNjctOWRjZC1iM2M0MjljZjA1MWQifQ.umJr0-94JdjHIAhyOfGz1MMeCY-gcYu9q8phnlvqZa8' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message hard if share cause education list.","maxScore":87,"minScore":15,"description":"Local see second turn listen success lawyer set. Family mouth free military. Next store cut magazine chair.\nAbove operation age usually fight social garden. Up as would.","previewFileId":"bad09e97-fb01-4f9b-a443-6b595188f266","estimatedTime":"5 weeks","createdByUserId":"04411484-6fec-4367-9dcd-b3c429cf051d"}'
