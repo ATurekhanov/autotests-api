@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDAzOjU3OjE3Ljg0MTgxNyIsInVzZXJfaWQiOiIyMzBlMGI2Zi1kMTY1LTQ2MjItODA3Ny1lOWYyYmIyNTQ0NmQifQ.eyN7dH20T3OGjy5ZoPYgfZJAyQkZ7BhwgZ_QiWlisZE' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thousand certain purpose teacher.","maxScore":55,"minScore":9,"description":"National think line race operation force collection. Both key speak conference central.","previewFileId":"fcfdfdd9-19b0-4a28-af18-aeb222e02916","estimatedTime":"10 weeks","createdByUserId":"230e0b6f-d165-4622-8077-e9f2bb25446d"}'

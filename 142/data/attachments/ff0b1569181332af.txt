@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDAzOjU3OjE5LjAxMjg0MSIsInVzZXJfaWQiOiI5NjI2YmNmZS03ODY4LTQyNTQtOTA1MC1kYTBkNDc2YjQ0NDQifQ.gXLLMbFukcrnbgn9_b9jyfe9ClEvOxxIWsOOi74uk-o' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blood less become eye practice world nothing former.","maxScore":100,"minScore":8,"description":"Example part game need where third. Collection interesting radio available born base exist. He example indeed necessary coach check.","previewFileId":"4619b645-a594-44b2-a5da-ca7fdc28f10f","estimatedTime":"2 weeks","createdByUserId":"9626bcfe-7868-4254-9050-da0d476b4444"}'
