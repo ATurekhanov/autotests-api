@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDA0OjIzOjQ5LjU1MjM3MSIsInVzZXJfaWQiOiJjNWI1Yjc1Ny00MTAwLTQ3ODMtYjBmYi05NmQ2YWJmMDMxNjMifQ.wnieINfugqmTC_tUFlxYxRVhMh6_cvpuTSwozT4h-lw' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win fall series apply able.","maxScore":67,"minScore":15,"description":"Radio major bank avoid. Sound center represent score fine pull.\nHeart spring study provide party. Station agency book section.","previewFileId":"6392fcbd-a975-4478-a41d-62995ee9c7a9","estimatedTime":"9 weeks","createdByUserId":"c5b5b757-4100-4783-b0fb-96d6abf03163"}'

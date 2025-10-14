@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDA0OjIzOjUxLjQ0MTI2NSIsInVzZXJfaWQiOiI4M2YwNjRhOC05MWRkLTQzYjUtOWNhMy0yYjRkMGE4ZjE5ZWYifQ.tqBmEOHOD8fRAIHEIoiSP-6pG7yvNG0thkEGMB-DnkQ' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society fact among.","maxScore":59,"minScore":14,"description":"Structure recently home deal. Hot new source tough clearly television artist control. Light pretty station short job purpose pattern.\nStar theory rather guess raise. Pattern ask rise which hit.","previewFileId":"47d7ff50-a4d1-4827-80a4-5e131b13c0c2","estimatedTime":"3 weeks","createdByUserId":"83f064a8-91dd-43b5-9ca3-2b4d0a8f19ef"}'

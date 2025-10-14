@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDA0OjIzOjUwLjc4MTYyMyIsInVzZXJfaWQiOiJkNTBlYTc2Yi1kNzFmLTQ2NmItODMwMi05MWZiMjRmZTcwOWUifQ._Lq3K-vRucqv99sa2hvrkdsmmh8Diimh5UTWcmI3c4g' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard know yourself.","courseId":"1e1e8230-556d-4329-8179-947668f6f70c","maxScore":84,"minScore":20,"orderIndex":12,"description":"Or throw international security put law. After experience water help argue pretty before position.\nCost structure down year task city minute. Professional necessary she boy woman college and.","estimatedTime":"8 weeks"}'

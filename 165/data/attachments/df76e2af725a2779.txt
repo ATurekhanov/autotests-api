@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDA0OjIzOjUxLjQ0MTI2NSIsInVzZXJfaWQiOiI4M2YwNjRhOC05MWRkLTQzYjUtOWNhMy0yYjRkMGE4ZjE5ZWYifQ.tqBmEOHOD8fRAIHEIoiSP-6pG7yvNG0thkEGMB-DnkQ' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor form research store.","courseId":"0a201555-ccba-46ab-985f-ab63c665d623","maxScore":53,"minScore":28,"orderIndex":10,"description":"Rest news stand cell. Accept around stand third resource. Movie trial hear toward.\nMoney class majority down bill safe when. Single husband medical successful people huge.","estimatedTime":"5 weeks"}'

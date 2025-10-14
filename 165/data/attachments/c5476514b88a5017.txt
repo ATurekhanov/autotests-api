@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDA0OjIzOjUwLjc4MTYyMyIsInVzZXJfaWQiOiJkNTBlYTc2Yi1kNzFmLTQ2NmItODMwMi05MWZiMjRmZTcwOWUifQ._Lq3K-vRucqv99sa2hvrkdsmmh8Diimh5UTWcmI3c4g' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean center whose bar.","maxScore":71,"minScore":30,"description":"Build wide no value of old. Piece note building ready his surface. Television list mind.\nBest front plant job play pattern. General share reason especially kitchen.\nAudience Mr particular game.","previewFileId":"ee00bc3c-9b29-4785-b08f-3757094de2fd","estimatedTime":"7 weeks","createdByUserId":"d50ea76b-d71f-466b-8302-91fb24fe709e"}'
