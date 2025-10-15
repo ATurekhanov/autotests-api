@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE1VDA0OjAwOjQ2LjIyOTU5OSIsInVzZXJfaWQiOiJmODg4MjQ4Yy0yNDk0LTRiMjUtOTk1ZC0yNWJmZmQ0ZmE3OTYifQ.UmSY63lSFOLmI0g59WyUkDAFcIwjJZpnXHs-oxZONd0' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teach allow top campaign finally.","maxScore":85,"minScore":23,"description":"Home when which major anything run. Catch professional sort challenge might sometimes poor foot.","previewFileId":"21b72e03-376d-42fd-96fe-7bede033c843","estimatedTime":"3 weeks","createdByUserId":"f888248c-2494-4b25-995d-25bffd4fa796"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE1VDA0OjAwOjQ1LjA0ODY4MCIsInVzZXJfaWQiOiI5NTAxOWI2ZS0yNjAzLTQwZGYtODYxNi1iOWIzMmMxMjZhZjUifQ.Enk4nN5alHGpgAk0ZPkxW9vmlFf1NwH_KFJ15zNKqko' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night church heavy suddenly.","maxScore":86,"minScore":24,"description":"First discuss let. Order kid heavy myself education. Magazine certainly total situation stop. Against remember spring arrive cold.","previewFileId":"b7944742-46b7-4e00-802e-404676de2a71","estimatedTime":"2 weeks","createdByUserId":"95019b6e-2603-40df-8616-b9b32c126af5"}'

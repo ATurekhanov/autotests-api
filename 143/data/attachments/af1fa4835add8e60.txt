@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE1VDA0OjAwOjQ4LjEwMzA4NiIsInVzZXJfaWQiOiI5YTRlNTAxOC0yZDEwLTRlZjUtYTc1ZC1hNjgxNDliY2NkYTMifQ.NXHceqlov93LLwT2X3Cb0P9NkmBrppHuHmsxp1Q-BS0' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stage part style whom attack other speech.","courseId":"3f6e8fe9-72b7-4a01-8519-edf94d57547b","maxScore":98,"minScore":3,"orderIndex":52,"description":"Discuss natural bill only war better drive. Us certain tend.\nDraw foreign television process blood.","estimatedTime":"9 weeks"}'
