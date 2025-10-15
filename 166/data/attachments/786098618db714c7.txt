@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE1VDA0OjI1OjM5LjMzMjUwMSIsInVzZXJfaWQiOiJkZTE0ODE5Ny03OGM1LTQ0YzctYjQxMy0zMjcyZjI5N2U3NmYifQ.ltmCqqqsYQdqsl7XU5DbQQNDQ0trLut0Lc7qASxw5ak' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person agent leg risk past.","maxScore":78,"minScore":5,"description":"Truth clear can once arrive quite. Forget question second agree. End and control approach anyone course see.","previewFileId":"33ce28f7-d641-497c-b931-a17616630824","estimatedTime":"9 weeks","createdByUserId":"de148197-78c5-44c7-b413-3272f297e76f"}'
