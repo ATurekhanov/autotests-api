@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9b9cba3f-96e7-482f-b5cb-788128c883bc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjI1OjI3LjM1NjMzMCIsInVzZXJfaWQiOiJjZmZmNGZiOC01MmY1LTQzNTEtYjBmMS0yODMyMWVlMTczZWIifQ.r0o7NzsG8gTDWgViFCvjV0VLwgIV-GQ4g2BdIdlKzvQ' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Number range sometimes look case white.","maxScore":71,"minScore":15,"description":"Scene suddenly here recognize. Field support certain before. Ago politics once century know at when.\nDoctor federal heart attack report short. Write war policy get.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjI1OjMxLjIwNTQwNiIsInVzZXJfaWQiOiI2YTE4YmUyOS1kYjRlLTRjMGUtOTkwZC0zZWJmZmFmNzg1ZTQifQ.ZpFS_Im2T6vDGSwUfGCX7seTPRSmuSs3NCkpqVnnXRw' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Check feel everyone others certain project.","maxScore":80,"minScore":30,"description":"Little tree I town fear. Rise rate down risk president. Couple assume discussion close again test thing in.","previewFileId":"74059a9a-fc8e-408d-a193-9827c9c7246f","estimatedTime":"4 weeks","createdByUserId":"6a18be29-db4e-4c0e-990d-3ebffaf785e4"}'

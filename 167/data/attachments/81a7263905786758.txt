@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjI1OjMxLjg3NDI4NSIsInVzZXJfaWQiOiJlYWEwNGFhOC1jZmZhLTQ5N2QtOTQ0Ni03NTFiOGVkMTFiZjEifQ.oIHgsshH9RO768XNIv1HBLIYGPE0vrjUXBCB9pkLZqc' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent heavy across minute several book occur few.","courseId":"c7d39f05-86ee-4822-a332-471a1caa1df2","maxScore":59,"minScore":15,"orderIndex":35,"description":"Space author use least ok base.\nFuture thank language experience step generation your. Administration single store. Election nearly source certain dark interest drug.","estimatedTime":"10 weeks"}'
