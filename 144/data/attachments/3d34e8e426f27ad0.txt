@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjAwOjI4Ljg0NDc4NyIsInVzZXJfaWQiOiI5NGYyMjRiNy03NzJlLTRmYTItYmI3MS01MTdhMDMxMjA5M2YifQ.NP_OyFgcmTGbbjODmTup9vR8ADa1fKzKLRr6sMzVs5M' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature amount beyond day specific yourself.","maxScore":89,"minScore":19,"description":"Hear half Republican wait six success performance. North attention early accept rock option down third.","previewFileId":"61e29988-7941-44b1-9ad6-f3f552f6c68e","estimatedTime":"5 weeks","createdByUserId":"94f224b7-772e-4fa2-bb71-517a0312093f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjAwOjMwLjEwMDEyNSIsInVzZXJfaWQiOiJkNTIyNTM5My0xZTliLTQ2YWItOWUxZC0yZDE4MjcyOTBiMGYifQ.RJm5l5OLWT96gQR26NYMlGItS-Xdj6xm_oVfw7NXvCA' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball grow million leave support lawyer.","maxScore":78,"minScore":4,"description":"Break evidence plant long fill. Some memory material beautiful everything response likely information. Sport activity strategy a.","previewFileId":"de321771-e5ef-4c7a-a29b-782f0491d592","estimatedTime":"8 weeks","createdByUserId":"d5225393-1e9b-46ab-9e1d-2d1827290b0f"}'

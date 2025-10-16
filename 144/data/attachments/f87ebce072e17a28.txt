@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjAwOjI5LjQzMTk0OCIsInVzZXJfaWQiOiIwNWU5OTk2Mi04Y2ZmLTQwYWMtOTM5ZC00MWJlYWViNjkxODIifQ.wICruYOosOxFpg7-rBgi8SkrolOfbPRhLCQIh2Fn8Uk' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Almost area fine deep enjoy month.","maxScore":59,"minScore":17,"description":"Wait central soldier marriage listen. Foreign support author dark until machine.\nSign me single smile house. Phone fund point. Security market kitchen story should leave education conference.","previewFileId":"120f7bdf-a353-4d74-913b-a03049849983","estimatedTime":"4 weeks","createdByUserId":"05e99962-8cff-40ac-939d-41beaeb69182"}'

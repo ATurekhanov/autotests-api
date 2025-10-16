@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjAwOjI3LjAxNzgyMiIsInVzZXJfaWQiOiI1Y2RhNGUyOS04ZDExLTQ4YTgtOWQ1NC05NmZlYTRmMmE0ODgifQ.RDwgRaCNsAc0tkN2mmChjU0CUwAb8tnJi57mwHKS734' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil identify student law magazine notice race.","maxScore":77,"minScore":8,"description":"Trouble author less song pattern teach reason. My perhaps book. Music development month image others once. Speak phone standard explain learn.","previewFileId":"b5b9b9c9-c668-4145-b407-359460e87210","estimatedTime":"8 weeks","createdByUserId":"5cda4e29-8d11-48a8-9d54-96fea4f2a488"}'

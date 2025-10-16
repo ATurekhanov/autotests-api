@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjAwOjI4LjE5NjU0NCIsInVzZXJfaWQiOiI4ODI4NTkxNS05Y2U0LTQ2ZjItOWVmOC1hZDc4OWFlYjMzYTEifQ.yOiLJqf6oPrIjkox1pgdwZ9BciGgnFuwCowxrSBYThs' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet dinner beautiful couple recognize.","maxScore":92,"minScore":13,"description":"By term item pay both little fund guy. Necessary cut suggest everybody local. Attention near catch guess. Available hear mouth discover of.","previewFileId":"df744ca5-583d-4ac9-8c33-43a476eb21e8","estimatedTime":"2 weeks","createdByUserId":"88285915-9ce4-46f2-9ef8-ad789aeb33a1"}'

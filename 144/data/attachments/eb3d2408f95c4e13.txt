@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjAwOjI1LjU5NzIzOSIsInVzZXJfaWQiOiJkNjEyYWZlZi1mMWM1LTQzYzUtYWEwNS1kM2FlMjI0ZTQ2ODIifQ.CGuGm_CU96TgcaSoZs9va6_U1Uad0kA6OXftElkV6ek' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Benefit father local off.","maxScore":81,"minScore":25,"description":"Show loss personal business participant sister. Our mouth young parent cover police stock check. Sit various miss current resource six.\nAgo avoid want traditional. Relationship have dog issue.","previewFileId":"4332efcc-7ad5-49d5-a654-7594d2923052","estimatedTime":"3 weeks","createdByUserId":"d612afef-f1c5-43c5-aa05-d3ae224e4682"}'

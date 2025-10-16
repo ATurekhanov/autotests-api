@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDA0OjAwOjI3LjkyNDEzOSIsInVzZXJfaWQiOiJhZjFmYzY4YS0wM2Q4LTQ3Y2UtYTQ3Mi1iM2RhYTMwYjAwOGUifQ.hphZsvcTEJM_u4XXXALB8CH031gl3v5Hiv3ESrDLsHg' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big water some light indeed writer remember.","courseId":"f480812e-3252-4add-bac2-436f92a8d650","maxScore":53,"minScore":21,"orderIndex":14,"description":"Reveal true rest rise car second report course. Read pull plan card rock.","estimatedTime":"1 weeks"}'
