@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDAzOjU3OjQwLjM3MTgxNCIsInVzZXJfaWQiOiIwN2M2ZTY3Zi02OWE0LTQ2ZmItYjBjZi0xYTk0ZWJlNmNkNzYifQ.H8kflRsL9oC3qmHYUip1vLev0yZLDn5Y49gkgXtckKQ' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Social enjoy city child.","maxScore":55,"minScore":17,"description":"However few admit economy member thousand fast.\nHuge reason sure mouth morning may. Message activity house single black from like hot.","previewFileId":"e952fecc-c8e2-4324-ac4e-81a5228118c3","estimatedTime":"7 weeks","createdByUserId":"07c6e67f-69a4-46fb-b0cf-1a94ebe6cd76"}'

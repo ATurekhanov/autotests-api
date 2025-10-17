@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDAzOjU3OjQzLjU1ODE1MiIsInVzZXJfaWQiOiIyZTE4ZmIyZS1kYzI2LTRlYzItOTEwYy1jMTRlNmIxMGY3NWIifQ._uOfR7aMvsYplxJBw8WWgw6Z4o-I9huWvp_M-GkxXfk' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interest same call popular game.","maxScore":79,"minScore":21,"description":"Tough agency call knowledge audience. All western capital mission. There dream mission threat drug activity.","previewFileId":"c9fdccf4-e5f7-43da-b35a-163339e63dd5","estimatedTime":"8 weeks","createdByUserId":"2e18fb2e-dc26-4ec2-910c-c14e6b10f75b"}'

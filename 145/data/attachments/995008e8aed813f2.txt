@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDAzOjU3OjQyLjM2MjU4OCIsInVzZXJfaWQiOiI4ZjkwYWQxMS01NzQyLTRkMWEtYTgyYS02MDhjMzIzZjBmMDYifQ.46yj24i1YZeVBrUKfCG4p7mFC16MUGEvXXY5Jtjp9Wk' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Structure doctor build fight.","maxScore":69,"minScore":29,"description":"Blue institution position town. Join within some than soon use ask. South war enter notice.\nRelate pay central camera beat. Tax turn life two lawyer. Teach safe response follow old.","previewFileId":"633dc6e9-1d04-48e6-9d5c-3bf263acf6a5","estimatedTime":"6 weeks","createdByUserId":"8f90ad11-5742-4d1a-a82a-608c323f0f06"}'
