@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjMyLjg1MDI1MSIsInVzZXJfaWQiOiJhNjViYTY0YS00OGJmLTRjMTMtODgyMi1jZDc0NDM2ZTk1NTUifQ.OOHtavgLf4ZSoluNchXJeLji4_vwwzowi-r2OsYgTpE' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add sport reason friend through control.","maxScore":71,"minScore":25,"description":"Mean surface method position technology where. Many source yet hope.\nRisk focus today require western. Wish play enough. View back walk thing ready wait skill carry.","previewFileId":"46378f9a-dfdc-49c1-8c47-1f326a8ee2e0","estimatedTime":"7 weeks","createdByUserId":"a65ba64a-48bf-4c13-8822-cd74436e9555"}'

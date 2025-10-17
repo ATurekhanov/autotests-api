@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/2c397955-11a7-49ad-9ba2-cabbe9c73f1d
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from GET http://localhost:8000/api/v1/exercises/2c397955-11a7-49ad-9ba2-cabbe9c73f1d
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 2c397955-11a7-49ad-9ba2-cabbe9c73f1d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Policy they energy artist share Mr.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 81273406-b722-4bc2-898f-393a4959bd8d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 10
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Message executive meeting. Fact join eight.
+Answer certain especially business try trouble. Including after table chance player conference serious. Science must writer good outside fast subject.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

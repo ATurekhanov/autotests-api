@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjM2LjY3NzQzNCIsInVzZXJfaWQiOiIzMWY1MDU3My02MmQxLTQ2NWUtYTFmZi0zNjk0OTg4OTY5M2UifQ.DsV0ILN-9bYohUeLubgU7wU-tRC4W8iwSWjBeOGqMuo' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development alone work partner system fire.","maxScore":65,"minScore":27,"description":"Reach along gun during. Attention beautiful world onto. Everything who fast during performance energy.\nTelevision must sit condition how particular. Consider project writer attack case.","previewFileId":"1a0284c7-d158-426b-9c8c-568ab617a1d2","estimatedTime":"2 weeks","createdByUserId":"31f50573-62d1-465e-a1ff-36949889693e"}'

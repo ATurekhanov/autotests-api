@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjM3LjMyMzc5MSIsInVzZXJfaWQiOiI3MTlkODhmYS1kNDVmLTQ4NjMtYTQ2Ni05ZmYxZGY4N2IxMjQifQ.zFFn3CmtWcH6lU45lJpXvf24z1G20fqD38_77lcUclE' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount quite miss.","maxScore":97,"minScore":6,"description":"Enough study Democrat project. Rock discuss computer investment ahead should.","previewFileId":"ccd6d44c-7aa7-4e28-81ea-a578f08e48f9","estimatedTime":"4 weeks","createdByUserId":"719d88fa-d45f-4863-a466-9ff1df87b124"}'

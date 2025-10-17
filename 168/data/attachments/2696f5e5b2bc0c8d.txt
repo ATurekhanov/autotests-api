@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjM1LjE2MTc5MyIsInVzZXJfaWQiOiI3NTViOWQwNS05NjgzLTQ3NTgtOTQxZi1mZTZkYjdhNWZjNGMifQ.APjy-xLKxsM1WdRQ7CLUXa-fK5XO6Cnj5usRc6_doPE' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There may deep phone exist money.","courseId":"0a7915f5-b7a7-4015-a365-4098fdd5cb9e","maxScore":68,"minScore":4,"orderIndex":85,"description":"Prove sort door hit. Near able treat to affect. Within less poor peace pick picture position.","estimatedTime":"6 weeks"}'

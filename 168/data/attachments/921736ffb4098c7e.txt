@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjMzLjk4OTk1OSIsInVzZXJfaWQiOiI1ZTQ2ZGZiMC0xZWNlLTQzYjEtOTEzMy02MWY4NzcwOGM5ZDkifQ.qW99gGeuQpIUSkHs3DWNCcym2NGUX_o4IyZx5vgWuME' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure some size decide over close.","maxScore":72,"minScore":23,"description":"Manage car ability against. Religious analysis size case blue fine against. Subject suddenly stop sign capital year daughter.\nDiscuss old probably.","previewFileId":"fed0b4d8-d756-4117-93b6-ad3663f3f74b","estimatedTime":"9 weeks","createdByUserId":"5e46dfb0-1ece-43b1-9133-61f87708c9d9"}'

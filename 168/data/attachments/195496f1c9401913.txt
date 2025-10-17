@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjM0LjI2MjEwNCIsInVzZXJfaWQiOiI4NzEzYzNhZC03MDFhLTQ4YmMtYTI5ZC1hMTQ1NmU3Y2Q3NmEifQ.GqQPLqQSWUGhNR4k1ysqzx88RF2hwpmhFLd043fr3s8' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Right camera my market condition game.","maxScore":89,"minScore":3,"description":"Subject build service energy no picture. Democrat decision budget try.","previewFileId":"59684ec8-1810-4392-a030-8b1bad57900e","estimatedTime":"9 weeks","createdByUserId":"8713c3ad-701a-48bc-a29d-a1456e7cd76a"}'

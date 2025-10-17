@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b54037a9-a69a-45d3-bfea-5d7351df1018' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjMyLjg1MDI1MSIsInVzZXJfaWQiOiJhNjViYTY0YS00OGJmLTRjMTMtODgyMi1jZDc0NDM2ZTk1NTUifQ.OOHtavgLf4ZSoluNchXJeLji4_vwwzowi-r2OsYgTpE' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Allow ok father effect language.","maxScore":54,"minScore":2,"description":"Happy consumer general down. Computer myself hotel camera. Join rich along whole Mrs city hard.\nSea culture cut beat southern effort make. Near paper compare third across.","estimatedTime":"3 weeks"}'

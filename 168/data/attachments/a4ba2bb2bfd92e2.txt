@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE3VDA0OjI0OjM3LjMyMzc5MSIsInVzZXJfaWQiOiI3MTlkODhmYS1kNDVmLTQ4NjMtYTQ2Ni05ZmYxZGY4N2IxMjQifQ.zFFn3CmtWcH6lU45lJpXvf24z1G20fqD38_77lcUclE' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fire specific nice wait.","courseId":"135c953a-1bd9-4ebd-ac5e-0afb86e39e04","maxScore":95,"minScore":14,"orderIndex":89,"description":"Along choose despite feeling lay never. Assume wish majority several price. Street quality capital involve set meeting especially. Win gun forget protect drive several campaign.","estimatedTime":"9 weeks"}'
