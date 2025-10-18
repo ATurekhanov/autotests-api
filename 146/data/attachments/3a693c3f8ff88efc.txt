@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAzOjUwOjQyLjI2MTQ0OCIsInVzZXJfaWQiOiJlMDBmM2U4Ny03YWE4LTRjNWQtOGQ0My1hNGM5ZDUyODY1ZjEifQ.4tfoRzHnilZQMObpYMb3W6KG7h-2c8jkRM2bE3ZdoKA' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Record technology itself few technology between.","maxScore":89,"minScore":17,"description":"Future around how result law least send. Task guy very line history. People also community sing window score term.","previewFileId":"23e45512-b60d-4c9e-8944-87487e591214","estimatedTime":"9 weeks","createdByUserId":"e00f3e87-7aa8-4c5d-8d43-a4c9d52865f1"}'

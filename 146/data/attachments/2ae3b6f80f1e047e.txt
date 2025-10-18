@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAzOjUwOjQwLjgxMjcwOSIsInVzZXJfaWQiOiIwNjk5NGFkMC00NjJjLTRlNTgtOGFjZS0yZDA2NGYxY2QzZmMifQ.znaCp_LZFuShvOD3g3aq7vvEWztajRWYUBz7ISq-pmw' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group standard rate experience wish.","maxScore":51,"minScore":14,"description":"Letter speech camera various professor. Summer so subject sure choose entire. Down want office up.","previewFileId":"3e7b607e-30ac-4600-b085-99a6b2cfafc3","estimatedTime":"8 weeks","createdByUserId":"06994ad0-462c-4e58-8ace-2d064f1cd3fc"}'

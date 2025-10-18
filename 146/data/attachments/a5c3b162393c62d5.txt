@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAzOjUwOjQ0LjEwNzg4MCIsInVzZXJfaWQiOiI3NmE0YmNiOS1lNTNkLTQyZGQtOGZmNS0xNjEyYWNhZjEwYmYifQ.GGdeeRQSona0FaUCLLAKfm8CnMKWTRek7OCTZ0ZnVTs' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Surface billion history service class up effort.","maxScore":64,"minScore":24,"description":"One build forward wonder scene size. Remain account audience against writer their. Full each simple center music its partner play. Quite item him end help.","previewFileId":"e3686023-e0a1-4794-ac57-c5cb14a0091e","estimatedTime":"3 weeks","createdByUserId":"76a4bcb9-e53d-42dd-8ff5-1612acaf10bf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAzOjUwOjM5LjY2MDQ3MiIsInVzZXJfaWQiOiI1ZGEyNDc2YS05OWU2LTQxZWItYTNhNi0wZmQ3MmUzMGZmZmQifQ.dBWABRf8Rh9UmrsAGTbyxlLwsmL7KQj7FMMhvXwIaFc' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same international official radio suggest arrive whom.","maxScore":88,"minScore":8,"description":"Sport affect line majority. Rate current build ready ever thousand direction. Camera view back her. Development energy outside real top and east mean.","previewFileId":"8c1aae8f-b976-4366-9522-9f7993545409","estimatedTime":"6 weeks","createdByUserId":"5da2476a-99e6-41eb-a3a6-0fd72e30fffd"}'

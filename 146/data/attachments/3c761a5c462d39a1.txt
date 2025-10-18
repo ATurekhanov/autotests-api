@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAzOjUwOjQzLjUwMDc5NCIsInVzZXJfaWQiOiIzOTg1MWEwNS1lODY1LTQyOTctOTI3Yy02NjU4MGNlZDFkOTEifQ.v2FZ5KXiyg7ZNiM_kxHAtTgjQfEPO0IWmSCPwrIE0hg' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create drug face certain listen spring.","maxScore":83,"minScore":30,"description":"Ever white other plan. Cultural position by body senior crime president. Ahead always easy southern.","previewFileId":"9448ca9d-fddb-4557-93d0-95201abde837","estimatedTime":"6 weeks","createdByUserId":"39851a05-e865-4297-927c-66580ced1d91"}'
