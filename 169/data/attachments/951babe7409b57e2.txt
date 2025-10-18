@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA0OjIxOjQ3LjY3Nzk3MiIsInVzZXJfaWQiOiJiZTRmNjlhMC0zNTgyLTRiOTMtYjJmZC1iYWUyODc1ZTI5MGIifQ.jd9s3OBCKGkY8sZBgD0gnWjnEqJBN44TwfvHORuFJes' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task weight collection drug kind plan here.","maxScore":56,"minScore":4,"description":"Sound civil more long. Either happy old heavy finish difference. Throughout stage word. Someone pretty laugh base begin.","previewFileId":"9b496a74-d2bc-45f0-bba8-bb9a1ddb238a","estimatedTime":"4 weeks","createdByUserId":"be4f69a0-3582-4b93-b2fd-bae2875e290b"}'

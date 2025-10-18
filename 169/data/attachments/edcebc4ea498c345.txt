@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA0OjIxOjQ2LjQzOTgzNyIsInVzZXJfaWQiOiJkYTIyYjlkOS00ZWI1LTQ4ZTItOTBmMS04MjQ0NGRjYTk4MDUifQ.50scp7ChdvnCRS9sLjXjB6Q5RTAv3Tpz7VgNq4hGHGI' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit trial between money dinner role.","maxScore":60,"minScore":5,"description":"Behavior prove close a. Military character read prevent summer. Letter community group political.","previewFileId":"22f3e715-5449-4b4a-94c0-e9816fb5993e","estimatedTime":"7 weeks","createdByUserId":"da22b9d9-4eb5-48e2-90f1-82444dca9805"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA0OjIxOjQ3LjA5MTI3MyIsInVzZXJfaWQiOiJlY2JmMmI4ZC0wY2ZjLTQ3ZTUtODA5Zi1hOWQwODEzNWRkNjIifQ.F9AolzGzQ8lCcbOcNHLY2WP7tAfJUFqlVGnLtuyHGCQ' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management sell administration major.","maxScore":85,"minScore":10,"description":"Before degree population picture me what nation at. Top identify act front cut.\nThought new song affect thank performance several. Stuff write far throw focus writer white card.","previewFileId":"bc9b5e89-2420-4dc7-a3df-e89f17867a83","estimatedTime":"9 weeks","createdByUserId":"ecbf2b8d-0cfc-47e5-809f-a9d08135dd62"}'
