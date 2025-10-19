@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE5VDA0OjMxOjM2LjI2Mzc1OSIsInVzZXJfaWQiOiIzOTc2ZDllMC00ZmZiLTQ2ZWQtYjAwOS00ODhhN2ZmY2FjY2MifQ.8xWDoR2gcs3zSHyiypDDo7wPjR9TPkJVRH_S3xu9SmI' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discover responsibility choice enter cultural soon.","maxScore":86,"minScore":29,"description":"Begin analysis natural last standard these would. Indeed red lawyer break.\nEducation someone blood mean. Follow foreign affect window wish would.","previewFileId":"fb445886-ad76-4720-9d5b-9d0ac568bcb3","estimatedTime":"3 weeks","createdByUserId":"3976d9e0-4ffb-46ed-b009-488a7ffcaccc"}'
