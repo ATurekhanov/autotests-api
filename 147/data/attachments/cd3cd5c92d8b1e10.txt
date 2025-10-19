@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE5VDA0OjA5OjE2LjcxODIzOSIsInVzZXJfaWQiOiJlZGJkY2M1ZS1kMWQ4LTQwMWUtODA5Mi1kMzcwZTczMzVjMTIifQ.1tec9gssfg3Nj2JoeE8CYkRxNorFt4th9txyJkUzz2A' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare wrong vote popular word.","maxScore":62,"minScore":2,"description":"Purpose movie follow apply production. Husband time learn. Most well one tend campaign business wide.","previewFileId":"73e88b46-7070-4525-990b-7f82fe548cdb","estimatedTime":"5 weeks","createdByUserId":"edbdcc5e-d1d8-401e-8092-d370e7335c12"}'

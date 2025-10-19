@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE5VDA0OjA5OjE3LjkwNTE1MSIsInVzZXJfaWQiOiJjODM1M2I2My1iMzI0LTRjMmItOGUwYS0wOWEzYTUxNDE3ZWEifQ.dbGFVa3gHi-hcZoWsCdEgh4QO2KcRB_rOfu9fwoZ5ks' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Into hot federal manager.","maxScore":94,"minScore":1,"description":"Around nature book impact statement. Coach appear enough camera. Else up why with serious.\nMachine nice write parent commercial keep garden. Direction share against man big close agency.","previewFileId":"d2be04a0-775a-4b15-8619-b3ced28f3177","estimatedTime":"6 weeks","createdByUserId":"c8353b63-b324-4c2b-8e0a-09a3a51417ea"}'

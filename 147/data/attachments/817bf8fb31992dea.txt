@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE5VDA0OjA5OjE4LjU0NjA4NiIsInVzZXJfaWQiOiI4NDkxYTBiMC05Y2EzLTRlZGItYTQ4My1lNGQzYTE0ZjI2NzcifQ.B2xNQ-fWcPyALnNicbCMESS7FSawCP9sPWZQ7a6yWMM' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book need box usually physical pretty.","courseId":"30f6fbd5-5904-4126-b3d6-50385d504d5d","maxScore":99,"minScore":12,"orderIndex":64,"description":"Street section tell prove table sense tree. Without medical itself enjoy. Section story yeah consumer road.\nEnough hit father color tend. Full shake sea tax bit.","estimatedTime":"7 weeks"}'

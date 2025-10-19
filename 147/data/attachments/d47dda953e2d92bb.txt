@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE5VDA0OjA5OjE5Ljc4NDg5NCIsInVzZXJfaWQiOiJhMGFhN2JhZC03ZWJhLTQ3YzQtODFiZC05ZWIxMzk4ODdlZDIifQ.1M75xA-hUpxHcuB6Ab0MYvXkhnv6Aw_iaivpAXmmBLY' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight easy improve finally.","maxScore":93,"minScore":10,"description":"Power cultural interest until hear style. Public leader black manage dog wear find owner. Military another it.","previewFileId":"6581a775-bff1-4396-b009-01d52f56c75a","estimatedTime":"8 weeks","createdByUserId":"a0aa7bad-7eba-47c4-81bd-9eb139887ed2"}'

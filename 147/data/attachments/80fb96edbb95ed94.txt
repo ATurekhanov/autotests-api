@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE5VDA0OjA5OjE4LjU0NjA4NiIsInVzZXJfaWQiOiI4NDkxYTBiMC05Y2EzLTRlZGItYTQ4My1lNGQzYTE0ZjI2NzcifQ.B2xNQ-fWcPyALnNicbCMESS7FSawCP9sPWZQ7a6yWMM' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy close customer not account center.","maxScore":86,"minScore":12,"description":"Watch relate receive.\nProperty knowledge same lay opportunity. Teacher magazine risk sea special. Ready fear mouth let matter. Across account summer home single behind.","previewFileId":"f541821e-5d5c-448d-8c0e-6c49c2a87c7b","estimatedTime":"1 weeks","createdByUserId":"8491a0b0-9ca3-4edb-a483-e4d3a14f2677"}'
