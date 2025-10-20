@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIwVDA0OjMzOjI0LjAyNTE5NiIsInVzZXJfaWQiOiJkNGM5ZGEzNC1kMmFlLTQxNDQtYWY5OC1iMThlNjBjNGExMzEifQ.unFFTaZaYd2qTECgnPG5aA1xi4euitRMq7kHD6LPqbQ' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It suffer drop turn.","maxScore":60,"minScore":28,"description":"Skin imagine color rather about economic member finally. Value around law challenge various feel budget.","previewFileId":"960af70f-f855-47f1-a396-7261b3ae3714","estimatedTime":"4 weeks","createdByUserId":"d4c9da34-d2ae-4144-af98-b18e60c4a131"}'

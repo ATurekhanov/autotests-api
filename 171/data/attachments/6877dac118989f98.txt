@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIwVDA0OjMzOjIxLjY4ODkwNSIsInVzZXJfaWQiOiI3ZTBiZDQyYS0wMGFmLTQ2NjEtOGZjZS04NTNiMDNlOGVlMmQifQ.l0C0Ft5r9drY1ypiV8ePh9WmltJB3Y-bD3BZZaoUGFE' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother already doctor wonder another success.","maxScore":74,"minScore":29,"description":"With live nice difficult share about somebody. Ability reveal make traditional.","previewFileId":"59394d50-b853-47e0-b31c-4506c24d826e","estimatedTime":"10 weeks","createdByUserId":"7e0bd42a-00af-4661-8fce-853b03e8ee2d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIwVDA0OjMzOjIzLjQ0MTU5NSIsInVzZXJfaWQiOiJkNzhkMmM1NC1mY2VmLTRlMDktODA5OS02NTdiNGU5NzkwYzIifQ.NGWGFOJBTlqeIgLbVwDSAjZOlTBv__nA1GP_Zuerquk' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe coach his cost job.","maxScore":67,"minScore":16,"description":"Analysis majority present star challenge ready democratic politics.\nSerious worry draw perform. Production fear answer start.\nChange American argue property marriage couple sure.","previewFileId":"9124cb3b-bf33-4063-aa74-6225a5fddf3a","estimatedTime":"7 weeks","createdByUserId":"d78d2c54-fcef-4e09-8099-657b4e9790c2"}'
