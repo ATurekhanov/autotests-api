@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIwVDA0OjExOjI3LjcwNDIzNyIsInVzZXJfaWQiOiI1OTA5MDg5Mi1lMjY1LTRjNzMtOGRmYy03YmVjZGVjZDNjZWMifQ.reri9gHDx-NUZVCRWnyMcqScYaGGe739IacGWhgJwAo' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm matter instead particularly policy thousand.","maxScore":80,"minScore":10,"description":"Sort either off understand financial energy data. Involve your protect whatever modern. Which any three value modern.\nTrade record experience. Price but remain movement wonder case.","previewFileId":"f54991f4-47bb-4640-800c-a2a47a99b0e4","estimatedTime":"7 weeks","createdByUserId":"59090892-e265-4c73-8dfc-7becdecd3cec"}'

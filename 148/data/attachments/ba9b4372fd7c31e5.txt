@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIwVDA0OjExOjI2LjE5NjM1OSIsInVzZXJfaWQiOiJiZWM3ZTZlNi1jYWQxLTQ1OWUtYjUzMi0xZTgwMzZhZDA4YjYifQ.raW-fG7CHi1-LLRaJg5r42BG4oOQ-RDA9ApoE0k8mK0' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yourself bit letter.","courseId":"6b822df0-1fa4-4fe0-b98b-9db8c0f92623","maxScore":66,"minScore":27,"orderIndex":99,"description":"Smile pattern purpose authority language relationship. Service world top service management enter center catch.","estimatedTime":"4 weeks"}'

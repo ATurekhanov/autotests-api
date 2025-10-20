@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIwVDA0OjExOjI4LjM2ODQ1MiIsInVzZXJfaWQiOiJjYzY2OWI0NC05N2MxLTRlMzctOWE0My04MWM4OWFiOWI3ZTMifQ.7ZcLTQKKod_hpR8oAMldKTZEaa1udatSXk7FCcHcRMg' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye station safe expect now trip.","maxScore":99,"minScore":13,"description":"Institution see side best already choose area. Person concern be benefit.\nHeart all really compare success meeting development. Cover lead daughter rise.","previewFileId":"52e9c478-aad1-47a3-b88c-91ff983c4683","estimatedTime":"7 weeks","createdByUserId":"cc669b44-97c1-4e37-9a43-81c89ab9b7e3"}'

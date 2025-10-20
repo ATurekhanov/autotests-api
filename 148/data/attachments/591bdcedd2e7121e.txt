@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIwVDA0OjExOjI1LjAxNDEzMiIsInVzZXJfaWQiOiIyZjI4MDk2Zi04OWEyLTQxMmMtODgwNi1jNDQ4MGI0ZjJjNjUifQ.GA_zthsX9nssRvAqpzqrDFIh4dwMRCsvAdMfJOSftmc' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Detail civil list involve.","maxScore":95,"minScore":16,"description":"Suggest authority the rock. Energy can top go student affect against store.\nTheir forward popular law. Institution see mind thus ever.","previewFileId":"3f5e144e-a5fb-4958-b7b2-99b7ef235883","estimatedTime":"1 weeks","createdByUserId":"2f28096f-89a2-412c-8806-c4480b4f2c65"}'
