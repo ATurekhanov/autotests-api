@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjI2OjEwLjk3Mjc1MCIsInVzZXJfaWQiOiI1NzYzZmE5ZS0yZmQ3LTRkNzEtODU2Yy0wZGNkMTdiNjYyZTMifQ.scD8o8TS7dyDyjrneQXJhdMOy162joBNeLsymg404hk' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit when range attorney.","maxScore":57,"minScore":19,"description":"Power performance blue true. Local law at another data.\nDinner magazine seven simply. Around campaign key room kitchen. Prove agreement reduce unit. Other its prepare include information.","previewFileId":"718eebe9-61e7-446f-9fcc-55cedd7848ce","estimatedTime":"1 weeks","createdByUserId":"5763fa9e-2fd7-4d71-856c-0dcd17b662e3"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6bfc3805-0d7a-42a0-89ae-48db2a24a77a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjI2OjA5LjgzNDE0MyIsInVzZXJfaWQiOiI1MTU3YWQwOS1kYzBjLTQ2NTYtOGJlNC03MzMyZTYzOWI1ZmEifQ.JJM45zMDfUivcU78SpgoGXAGiK9DZ8RFE14ZYKoE0E8' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Grow single section baby with left two.","maxScore":90,"minScore":7,"description":"Magazine although wrong organization article example. Without number baby product experience training. Data her large not concern. Discover high rule market many key.","estimatedTime":"3 weeks"}'

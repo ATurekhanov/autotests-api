@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjI2OjExLjI0NDU1OSIsInVzZXJfaWQiOiJjNTFkODZmZi0zZTZjLTQ5NDYtYjU5NC04MDhjNDU1MzE0MWMifQ.EOv3Ff7qZdOMW_WfPNWG7kYN7AX0UbFPbtMaTovlbGY' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay like stop region wait.","maxScore":68,"minScore":2,"description":"That believe beyond newspaper amount focus maintain condition. Skin increase design a appear room manager task.\nBack war sister moment his. Hear impact quickly attack many right.","previewFileId":"3a656ba0-6db4-4a07-a414-79437c4f98a6","estimatedTime":"8 weeks","createdByUserId":"c51d86ff-3e6c-4946-b594-808c4553141c"}'

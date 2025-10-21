@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjI2OjA5LjgzNDE0MyIsInVzZXJfaWQiOiI1MTU3YWQwOS1kYzBjLTQ2NTYtOGJlNC03MzMyZTYzOWI1ZmEifQ.JJM45zMDfUivcU78SpgoGXAGiK9DZ8RFE14ZYKoE0E8' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Against table continue great too assume party long.","maxScore":72,"minScore":1,"description":"New Republican coach to. Partner interview want amount. Total believe order no box in.\nReport memory court least future industry. Nor especially technology line value then seven wear.","previewFileId":"5d4cdd8d-ad53-4959-91e5-f46c176246b8","estimatedTime":"5 weeks","createdByUserId":"5157ad09-dc0c-4656-8be4-7332e639b5fa"}'

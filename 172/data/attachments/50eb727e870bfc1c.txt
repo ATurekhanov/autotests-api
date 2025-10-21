@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjI2OjEzLjYyNjc0OSIsInVzZXJfaWQiOiJmZGJlNWM4Ni0wYzRlLTRkYzktOTI4My05YmY5Y2ZhMjBhNzQifQ.waWDe0LSzMfINkQ8zQxHvGvcfJBRmGTQ1_Wtt35C5B4' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment however middle heavy myself every among.","maxScore":79,"minScore":27,"description":"Treatment past bank audience. Edge central have usually. Thought teacher wait.","previewFileId":"e8b24d3e-15f5-47cc-9cc0-4d87d78bb067","estimatedTime":"10 weeks","createdByUserId":"fdbe5c86-0c4e-4dc9-9283-9bf9cfa20a74"}'
