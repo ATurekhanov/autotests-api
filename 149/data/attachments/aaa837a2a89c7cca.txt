@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjAyOjI3LjM0MjI0OCIsInVzZXJfaWQiOiI0YzA4Y2Y3Ny1iODUzLTQ0YWItOTFlZS0yOWFjMDI5MTcxYjYifQ.NTmL0pZV-wlLOYrAYrAUy3V899HN8UuTMFdsBhySHSg' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry yeah medical condition on may level majority.","maxScore":55,"minScore":30,"description":"Security far return reduce back. Side perhaps from down.\nApply receive home network both feeling. Rock partner traditional few teach authority military wear.\nLeft wear maintain third.","previewFileId":"001505a3-d581-4e17-ac86-71e82b5170cb","estimatedTime":"5 weeks","createdByUserId":"4c08cf77-b853-44ab-91ee-29ac029171b6"}'

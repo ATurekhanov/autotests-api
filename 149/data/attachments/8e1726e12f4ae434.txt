@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjAyOjI0LjI4NjUxMiIsInVzZXJfaWQiOiIzZTQ4Zjg2Yi1lODAzLTQwYmItYmJjMS1lMmQ3Nzg0MGJjNWUifQ.KEDsckYWhT4lO7RkjeJVSNpY8VDRMjUrGgOWOljrves' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Identify debate year lot now address.","maxScore":64,"minScore":4,"description":"Himself director impact bring prepare change citizen military. Pay thank maybe forget.\nEconomic with call hospital. Ok within paper system everyone any. Soon finally long wife behind pass.","previewFileId":"8c25c77f-4a60-4165-b5d0-da471fcd2620","estimatedTime":"5 weeks","createdByUserId":"3e48f86b-e803-40bb-bbc1-e2d77840bc5e"}'

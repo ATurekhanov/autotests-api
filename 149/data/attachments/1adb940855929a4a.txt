@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDA0OjAyOjIyLjg2MTQyOSIsInVzZXJfaWQiOiJiZTQzNTJmYy04Y2U5LTQ5YzUtYmVjNi0yMmMzYzVlZGE3ZmQifQ.Xfb_2KtXsqdmK75Xu_C3QIQw14rAlPA93eKtmt1iMnc' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter take card including treat write.","maxScore":86,"minScore":12,"description":"Short federal work color way. Here property call open area today do. Sister dog I field modern into scene.","previewFileId":"5e697d53-08d5-4e12-a590-891383f0eef2","estimatedTime":"1 weeks","createdByUserId":"be4352fc-8ce9-49c5-bec6-22c3c5eda7fd"}'
