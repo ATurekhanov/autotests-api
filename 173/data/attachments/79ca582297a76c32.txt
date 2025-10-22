@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjI5OjQ1Ljg2MTc1NCIsInVzZXJfaWQiOiIxNzA4NmY3OS0zYTg0LTQ0MWEtYmM0NC00MTQwZTI2Y2ZhMjAifQ.KXegGq6-LzEuuCt8EEqBuHG1E4VEM5nnXVkuvFnleF4' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Data and respond trip surface.","courseId":"acbe2d1b-5b21-496d-9038-6d4abb9a6961","maxScore":56,"minScore":10,"orderIndex":57,"description":"Prove must two indeed be put. Peace available positive born.\nUse officer sit range south chance another. Pressure agree simple.","estimatedTime":"6 weeks"}'

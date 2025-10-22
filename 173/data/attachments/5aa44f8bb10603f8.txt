@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/11ae87a2-2bcf-4bdc-af4f-c0df6132ca8d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjI5OjQ1Ljg2MTc1NCIsInVzZXJfaWQiOiIxNzA4NmY3OS0zYTg0LTQ0MWEtYmM0NC00MTQwZTI2Y2ZhMjAifQ.KXegGq6-LzEuuCt8EEqBuHG1E4VEM5nnXVkuvFnleF4' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Total science bar garden good quite admit.","maxScore":92,"minScore":23,"orderIndex":74,"description":"Expect although adult hit. Most seat toward police.\nSell left instead walk. Set finish nature include middle indicate. Want Congress traditional behind analysis.","estimatedTime":"3 weeks"}'

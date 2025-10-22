@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjI5OjQ0LjY4NjM5OCIsInVzZXJfaWQiOiIyYjkwOWU2ZS1iYmI3LTRlZTMtYmQ1NC02MzlkNWU3YWNkN2MifQ.VS-213JxgdLChz2y2R2SKe45pdDJPDXbaYstEGpvIzU' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bring receive practice style remember.","maxScore":70,"minScore":8,"description":"New about four necessary make seem race. Join degree once agree. Choose modern be page quality reason organization.\nBecome by finally budget it. Series heavy try real.","previewFileId":"3dc27456-87ef-4b36-8ebc-2f8053ea9707","estimatedTime":"8 weeks","createdByUserId":"2b909e6e-bbb7-4ee3-bd54-639d5e7acd7c"}'

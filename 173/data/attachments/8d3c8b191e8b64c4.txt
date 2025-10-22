@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjI5OjQ0LjAzODU1MSIsInVzZXJfaWQiOiI4OGU3ZmEwNi00NTVlLTQ4NmItYmNjNi0wOGYyZTA0YjRlMWMifQ.9Yw8PEGG1CACnebuGeYcAgp_iWuJxWVnT-bw9wSfVZc' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank shake day base.","maxScore":83,"minScore":13,"description":"Style challenge central lose focus everyone half leave. Create what board author. Then attack thought particular prove value.\nGo sometimes avoid else. Treat or eat.","previewFileId":"3056c158-5f64-4e66-89d2-8b5e6db31ba6","estimatedTime":"7 weeks","createdByUserId":"88e7fa06-455e-486b-bcc6-08f2e04b4e1c"}'

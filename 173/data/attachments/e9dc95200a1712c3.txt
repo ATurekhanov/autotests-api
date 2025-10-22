@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjI5OjQ1LjI3MzAxMyIsInVzZXJfaWQiOiIzZWQ0N2Y2Ni01NjRmLTQ5ZTAtOWZlNi0wYTdhY2RlMDZjZDIifQ.aHaexoLU1nqtmMUk26VmUeltlo66Hz3yMmcL9IefIj0' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough trial throw fact.","maxScore":63,"minScore":4,"description":"Strategy raise finally long memory professor if. Care business no management standard only begin. Grow great science news message room present.","previewFileId":"c5ded088-1ba3-4a5c-ae2b-850b3c833a5e","estimatedTime":"5 weeks","createdByUserId":"3ed47f66-564f-49e0-9fe6-0a7acde06cd2"}'

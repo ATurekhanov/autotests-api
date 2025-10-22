@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2ef4e50f-e9fe-4b99-9413-0ebc5eeda931' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjI5OjQxLjQ2MjI0MyIsInVzZXJfaWQiOiI2ZTg0ZDZjOS04YTc4LTQ0OTQtYTQ1OC1iZDkzN2Y3MDdkZTUifQ.NZ61ovO90BRd8iGzAbOC-F44seS_pCpSkLnILZ3e8Ss' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Threat skin simply yeah recognize after reduce concern.","maxScore":59,"minScore":13,"description":"New gas Congress strategy threat interest. Media environment two source.\nBag fire bill. Start hear have know much. Yard rule become maybe life politics.\nProfessional become red region.","estimatedTime":"5 weeks"}'
