@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjA3OjU1LjU4ODUzMyIsInVzZXJfaWQiOiJkNWI4ZGY5ZC0yZDU1LTRjZWEtYmUxZi1jYTM0MjM5Mjk5NWYifQ.X4LMThtdBB9HsYX4HwjbeDRJcoXjTWuz4CvhbncqY0A' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm among east next difference method this.","maxScore":64,"minScore":17,"description":"Civil over offer cut nice feeling. Range three student product season fish tax.\nKeep though owner early number. Tell although against support any positive term.","previewFileId":"424c9ab7-7b98-4107-9f2c-4f0096ac7068","estimatedTime":"6 weeks","createdByUserId":"d5b8df9d-2d55-4cea-be1f-ca342392995f"}'

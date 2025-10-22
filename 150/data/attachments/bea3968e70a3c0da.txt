@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjA3OjU1LjU4ODUzMyIsInVzZXJfaWQiOiJkNWI4ZGY5ZC0yZDU1LTRjZWEtYmUxZi1jYTM0MjM5Mjk5NWYifQ.X4LMThtdBB9HsYX4HwjbeDRJcoXjTWuz4CvhbncqY0A' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority song the cold number.","courseId":"82c2515c-2f6a-4861-ac84-fc49490b690d","maxScore":97,"minScore":24,"orderIndex":44,"description":"Hit certainly actually notice product when wide. Painting big remain account firm reduce message or.\nAlone building half rock. Hope future just series former.","estimatedTime":"3 weeks"}'

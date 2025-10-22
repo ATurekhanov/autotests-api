@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4427ad65-4e57-4fd3-9ed8-60fb45edeeca' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjA3OjUxLjczNDAwNiIsInVzZXJfaWQiOiIxMDA2NGIxZS1jZGEzLTRmZDctYmZkNS0wMzY4YzgyN2I2ZjIifQ.jqanMa2i5VkJINNy74bd-ehtfsr4AOEgVU-wbT2Z77E' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person hospital likely face world piece.","maxScore":78,"minScore":18,"description":"Wide tree after imagine painting this. Officer tree public often board office.\nEverybody event expect ago always campaign student. Yes describe once cup former.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjA3OjUxLjczNDAwNiIsInVzZXJfaWQiOiIxMDA2NGIxZS1jZGEzLTRmZDctYmZkNS0wMzY4YzgyN2I2ZjIifQ.jqanMa2i5VkJINNy74bd-ehtfsr4AOEgVU-wbT2Z77E' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk table economic chair.","maxScore":84,"minScore":12,"description":"If name firm reduce.\nCenter industry modern dream. How suffer common draw that. Bed discussion college through son ground.","previewFileId":"9c299b6c-a2e7-4bd1-a2f4-04a5e0e5fef1","estimatedTime":"9 weeks","createdByUserId":"10064b1e-cda3-4fd7-bfd5-0368c827b6f2"}'

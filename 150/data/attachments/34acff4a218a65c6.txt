@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA0OjA3OjU0LjM2MTY0NiIsInVzZXJfaWQiOiI0MDFmY2M2OS00NDYxLTQ4ZmUtYjQ4NC1mZTVlOTQzOWNjNzcifQ.DjUUw1rIA86ID0_BTLUjyPLi7r4ZKtb6nUXWsooZIMY' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy smile cold month sense.","maxScore":73,"minScore":9,"description":"Your section last into as. Lot rich put others position.\nWatch nothing also offer finish administration. Pretty draw involve today ahead save. Cold western these.","previewFileId":"7850c454-9c6f-47d4-9978-bb1180791ecb","estimatedTime":"4 weeks","createdByUserId":"401fcc69-4461-48fe-b484-fe5e9439cc77"}'
