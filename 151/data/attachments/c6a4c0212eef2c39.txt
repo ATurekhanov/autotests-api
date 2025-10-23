@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjAwOjAyLjQwMjYzOCIsInVzZXJfaWQiOiJlNGM5ZmRkNi04Y2Q2LTRiMzktODA4Ny03ZTY3ODU2NDM3OTMifQ.GQtfD2k8qZ5CTnjJwo8yipHKRdigNg_xvRm4qG3WzwQ' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Either choice song wind.","maxScore":85,"minScore":28,"description":"Among more indeed goal. Into too condition us.\nQuestion small name hospital everyone very right. Change office eat hotel suggest street bar. Environment walk voice direction.","previewFileId":"af9c6394-b862-4b45-a607-f71c070d4682","estimatedTime":"9 weeks","createdByUserId":"e4c9fdd6-8cd6-4b39-8087-7e6785643793"}'

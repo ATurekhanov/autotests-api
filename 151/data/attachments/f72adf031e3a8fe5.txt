@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjAwOjA0LjIyNDIwMiIsInVzZXJfaWQiOiI3ZmU5ZWFiYi03YWU3LTQ3YzctODRjMC00NWRkZTNkMmI0ZjAifQ.S7RMH28SwxlsjI9VzUeT8xTpmGuroq5J-0gr4PT3Xso' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front social red could.","maxScore":85,"minScore":13,"description":"Card him be key drop arm last.\nSong attention own possible office take quickly draw. Save suggest note sometimes. Car final than adult free.\nStill any nearly by. Oil save best wall share.","previewFileId":"24995806-66e3-4137-af16-342e06fe0c7e","estimatedTime":"2 weeks","createdByUserId":"7fe9eabb-7ae7-47c7-84c0-45dde3d2b4f0"}'

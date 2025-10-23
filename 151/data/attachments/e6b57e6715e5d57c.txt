@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjAwOjAwLjk3ODMzNSIsInVzZXJfaWQiOiJmZjBjNmJiOS01NTIwLTQ5MTEtYjlkZS1iODEwNDJlMGIyNDAifQ.WIzUhpjXD93NbqwsTgx2HA1MCTryCLaDLCcmZ7Uj3mE' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Door miss world upon property.","maxScore":69,"minScore":8,"description":"Indicate offer decade tree guy others. Republican perhaps sell before those happen. Opportunity gun sign have.\nYeah meeting picture nature test so product. Another media conference until card.","previewFileId":"edd0c9a3-0bd6-4c9b-bf9b-322bd56cab57","estimatedTime":"4 weeks","createdByUserId":"ff0c6bb9-5520-4911-b9de-b81042e0b240"}'

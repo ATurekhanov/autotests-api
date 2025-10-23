@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b2248820-9a79-408a-8712-6ffb82b6e0ab' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjAwOjAwLjk3ODMzNSIsInVzZXJfaWQiOiJmZjBjNmJiOS01NTIwLTQ5MTEtYjlkZS1iODEwNDJlMGIyNDAifQ.WIzUhpjXD93NbqwsTgx2HA1MCTryCLaDLCcmZ7Uj3mE' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go material prevent family head part occur.","maxScore":96,"minScore":20,"description":"Only four rock hear yourself.\nMusic her believe decade national appear new. List pretty whom occur recognize government admit. Save force other maybe window value weight leg.","estimatedTime":"10 weeks"}'

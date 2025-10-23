@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjAwOjAyLjEyODExNSIsInVzZXJfaWQiOiI4NWVmNjlmOS1jYzYyLTQxZmUtOGNmMS02ZjAwZjU1ZDhiM2IifQ.8NM44_MtQBHBD0rlMmFFijeOmF-7DVT7idkUlOXSue0' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term central stand relate kind.","maxScore":68,"minScore":10,"description":"Director pick believe really. Boy production sit situation soon together. Law change career it.","previewFileId":"187b8c74-cf03-466d-95b9-9141272fc9b5","estimatedTime":"6 weeks","createdByUserId":"85ef69f9-cc62-41fe-8cf1-6f00f55d8b3b"}'

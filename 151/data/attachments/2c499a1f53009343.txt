@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjAwOjA1LjQ3Mjc0NyIsInVzZXJfaWQiOiI3ZTMxMjc0Ny1mNzEwLTRjNDQtYjIxNy1iYmE4N2JlYzJlZWUifQ.FTHevvS85L72bKVEBst19mMV8jifRtweMb4YeC29Pts' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Apply official military trouble tough rest people.","maxScore":50,"minScore":26,"description":"Sell fall beyond forget. Personal record minute share. Technology own service rather arrive pick.\nEmployee ago tell play. Century unit visit commercial. Call deep weight factor.","previewFileId":"ea3cbf50-a378-4698-8178-00c5d77d8697","estimatedTime":"3 weeks","createdByUserId":"7e312747-f710-4c44-b217-bba87bec2eee"}'
