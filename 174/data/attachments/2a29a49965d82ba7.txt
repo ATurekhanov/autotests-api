@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjI1OjEwLjU3MTk3NyIsInVzZXJfaWQiOiI2ZTVkNzM2MC01NWI5LTQ0MTAtYTU1Ni02OTFhOTE1ZjQ2ZjUifQ.Ub3XEKGQVFjFuQ4Jpw6mAXcKW5y0IFx088JUat7tpcA' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season maybe place world course rule.","maxScore":74,"minScore":3,"description":"Century staff material company represent certainly loss.\nFine prepare our teacher painting. Big hold unit rate including. My will foot.","previewFileId":"1453cebc-221c-4225-8bb9-ce93e48b87fc","estimatedTime":"2 weeks","createdByUserId":"6e5d7360-55b9-4410-a556-691a915f46f5"}'

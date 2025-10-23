@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjI1OjA5LjE1NzYyOCIsInVzZXJfaWQiOiIyYzQwNTMxNi05NjZiLTQzOWItYmU3MC03NzcyZTc2YzI2MDIifQ.rZXayU0jmHoKPHyOrba0T2ZLloSrsfGBhLenV0stCz0' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet go avoid order cut.","maxScore":88,"minScore":7,"description":"Beautiful election traditional. Think prove there history. Main allow lead charge data.\nRate team game room sure political. Discuss loss despite few.","previewFileId":"619ca3ec-a4a1-495d-aa6e-f767656f3a5e","estimatedTime":"5 weeks","createdByUserId":"2c405316-966b-439b-be70-7772e76c2602"}'

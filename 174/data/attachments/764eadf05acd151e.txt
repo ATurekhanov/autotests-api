@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjI1OjA4LjU2MjUyNSIsInVzZXJfaWQiOiI1NjAxYjhjNy02NWQ3LTQ2NmItOWM5Zi1hY2EzNzgxZmI3NGQifQ.h9aOLZCgjReRdCzr4CKnzQVkjUTxWwNIlvQsKap5WJs' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine pick but physical.","courseId":"3ef35452-01fa-46e0-a939-e4fb525454c4","maxScore":61,"minScore":23,"orderIndex":46,"description":"Perhaps paper article truth whom office camera according. Piece blood type system. Surface mother couple language fire.","estimatedTime":"2 weeks"}'

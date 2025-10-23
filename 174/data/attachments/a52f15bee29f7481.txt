@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjI1OjEwLjI5ODkzMiIsInVzZXJfaWQiOiI3ZmE0NTQ1My0yNWEwLTQ1NGEtOWFlYy0yNjcxNGFjODdjODMifQ.5JK1UTfssSZ8otKoqkBe2OOMQ8pv4aOSRppPtGPad1Y' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speak half attorney.","maxScore":66,"minScore":23,"description":"Fight treatment himself world institution. Although strategy available. Growth support pretty.","previewFileId":"658905c0-3524-4702-81a7-4e04317aa0bb","estimatedTime":"3 weeks","createdByUserId":"7fa45453-25a0-454a-9aec-26714ac87c83"}'

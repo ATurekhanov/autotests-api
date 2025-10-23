@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjI1OjA3LjM5NTQyOCIsInVzZXJfaWQiOiI0MzU5YjYwNC0yNWVjLTQ2NzEtYWY1Zi1hYThmNjVkNjE0NDEifQ.Re-dZgTulUCNFjZTla3GuZiXUuoKM5oyWz-O7F1O-X8' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Role happy explain remember interest.","maxScore":62,"minScore":19,"description":"Her throw read condition to dinner difficult father. Pay assume show worry on. Building range bit where other matter police.","previewFileId":"a6635bb2-9e85-45e9-970d-3d7dc226a0db","estimatedTime":"1 weeks","createdByUserId":"4359b604-25ec-4671-af5f-aa8f65d61441"}'

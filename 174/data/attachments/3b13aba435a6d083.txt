@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/27f23359-8990-4d90-9579-e22f16974430' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjI1OjA1Ljg5OTg3NSIsInVzZXJfaWQiOiI0MjFiMmFjYi0yODYxLTQ0NzItYjEzYS1iNDg4MzJhNzE4MjQifQ.XXa83sR3YGBXA_LpS_UADm1ZnhSTJMbLiL8b5Wuigpw' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially develop force news article door.","maxScore":95,"minScore":16,"description":"Behavior always piece inside throughout in threat. Democratic almost together save west. Two road natural surface improve once would. Wonder everybody study.","estimatedTime":"3 weeks"}'

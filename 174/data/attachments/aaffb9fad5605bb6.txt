@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDA0OjI1OjA1Ljg5OTg3NSIsInVzZXJfaWQiOiI0MjFiMmFjYi0yODYxLTQ0NzItYjEzYS1iNDg4MzJhNzE4MjQifQ.XXa83sR3YGBXA_LpS_UADm1ZnhSTJMbLiL8b5Wuigpw' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner ten begin road offer small.","maxScore":72,"minScore":18,"description":"Enjoy feel exactly fire.\nThroughout plant and can. Blood example sister yard.\nAt focus else fall imagine.","previewFileId":"778ae622-311a-4df6-ab0a-ab014eeef79d","estimatedTime":"7 weeks","createdByUserId":"421b2acb-2861-4472-b13a-b48832a71824"}'
