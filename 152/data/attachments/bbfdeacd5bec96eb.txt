@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDAzOjU3OjA5LjgwNDQzOSIsInVzZXJfaWQiOiJlMWFmNzk0OC00MTFkLTRiYWUtOWVkMC0xOWE1ZTFkYWFhM2MifQ.bgVX1IpyeNphGoacDs_KZMeeMl4yMu5cnbVV2qDENrg' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye night TV lay lot perform garden.","maxScore":73,"minScore":22,"description":"Large indeed green manage rule lead recognize serious. Sort throughout professor less impact feeling floor any. Quite authority buy century.","previewFileId":"d0a954a7-a857-4d93-b3d1-0e0124bca543","estimatedTime":"4 weeks","createdByUserId":"e1af7948-411d-4bae-9ed0-19a5e1daaa3c"}'

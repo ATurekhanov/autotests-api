@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDAzOjU3OjA2LjgxNzQ4NiIsInVzZXJfaWQiOiJkYWE1OWFhNy03YzIzLTQ3NTAtYTYyNi1mYzlkMTM0YzFlOWMifQ.2k1ZnhAjh7XOxT1WLuyMQeUlWYWsQ714QJsqSXN4N1I' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sort summer with whose dinner serve over.","maxScore":90,"minScore":1,"description":"Cold return protect under other front. Space must ball free build. Five common try white. Participant television leave image art.","previewFileId":"9da43ea9-e1bc-4db1-bee2-8827bea45848","estimatedTime":"7 weeks","createdByUserId":"daa59aa7-7c23-4750-a626-fc9d134c1e9c"}'

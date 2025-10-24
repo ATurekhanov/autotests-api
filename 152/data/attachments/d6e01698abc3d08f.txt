@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDAzOjU3OjA3Ljk4NjgyMCIsInVzZXJfaWQiOiJjYmIzZGVmYy0wMmU5LTRmMDQtYTAxNS1mM2NjYzAxMjY0NzMifQ.33KlrjQ5T_EAKUaXSRD1b-qp93u_YBSmbur-nzqf-sQ' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Into yard last hundred lawyer agree unit his.","maxScore":58,"minScore":5,"description":"Democrat recognize happen year political candidate allow. Song image there job lead.\nParent hard cost capital leg bank draw. Really trade write establish arm.","previewFileId":"d8c32d83-33cc-4c31-979f-8993f2a1e7f4","estimatedTime":"4 weeks","createdByUserId":"cbb3defc-02e9-4f04-a015-f3ccc0126473"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDAzOjU3OjA5LjIxMTcxMSIsInVzZXJfaWQiOiJjNTAwN2Y5NC0yMDVlLTQzZjctOGU3YS01ZmQzYTNmNDRhOTkifQ.xADO64hO6HDKwllkwvhSbFnS_WNM9KPn89Z2kEF8-Yc' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner institution process else artist food worker.","maxScore":81,"minScore":30,"description":"A read coach. Choice traditional memory do grow.\nSay family rich treat degree training third. Deal successful wonder. Simple over point blue technology financial.","previewFileId":"13718890-38ac-43e5-b15a-7a2d3264c1b4","estimatedTime":"7 weeks","createdByUserId":"c5007f94-205e-43f7-8e7a-5fd3a3f44a99"}'
