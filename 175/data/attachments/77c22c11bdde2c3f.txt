@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDA0OjI0OjEyLjUzMDMyMCIsInVzZXJfaWQiOiIxMjk0NDBjZi0zYzdmLTRiYWQtYTI5Zi05MTc1NWI1YmNhNGIifQ.YTgpSfq-7tyLPbfhl2LDiPSeLetwvcSMjQFIoJJ1BZI' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Action material probably news financial lose receive direction.","maxScore":54,"minScore":15,"description":"Word support describe in responsibility.\nIssue study figure catch public. Into usually seek.","previewFileId":"5274593c-c75c-4f16-91f3-052c55c7d07e","estimatedTime":"7 weeks","createdByUserId":"129440cf-3c7f-4bad-a29f-91755b5bca4b"}'

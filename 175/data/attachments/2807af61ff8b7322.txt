@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDA0OjI0OjEzLjkwODI1OCIsInVzZXJfaWQiOiJkMDY1ZTI2OS1lMjlmLTRkMmEtOWMzMi1iNjEyOTVlNjZjNjkifQ.oW-vGuqwSK2VJpnn0lfPvQYyLWl6MmwryCpTKrapJHo' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Between reality single movement star later.","courseId":"8fa8c358-436d-49c0-ba2e-db6ee2ee69ae","maxScore":59,"minScore":10,"orderIndex":21,"description":"Structure moment cost begin own try. Sport set military coach newspaper. Throughout half from finish anyone begin ten.","estimatedTime":"7 weeks"}'

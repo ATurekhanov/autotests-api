@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/168903a9-5fb2-46cc-9b1e-5b986f056ca5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDA0OjI0OjExLjQ0NjEzMCIsInVzZXJfaWQiOiIxN2JjZGE0Mi1jMDNiLTRiYjgtYmJjZC02NTg5NWFmYjdkZTkifQ.v_ybqwNeXiandfPVTXS9i3-Z3RTgAzP7g_tp13JxKeM' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Future traditional around forget down very account.","maxScore":69,"minScore":8,"description":"Agency speech whom city recent. Movement see dream deal pick as. Adult surface this property product. Throughout black itself notice number.","estimatedTime":"8 weeks"}'

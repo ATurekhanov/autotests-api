@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI0VDA0OjI0OjEzLjkwODI1OCIsInVzZXJfaWQiOiJkMDY1ZTI2OS1lMjlmLTRkMmEtOWMzMi1iNjEyOTVlNjZjNjkifQ.oW-vGuqwSK2VJpnn0lfPvQYyLWl6MmwryCpTKrapJHo' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach firm both.","maxScore":97,"minScore":28,"description":"Nearly fine up personal recognize occur drop.\nSeek possible simply rule coach police. Yes share ball because industry. But PM center worry rich impact.","previewFileId":"4e22c56c-e42a-4279-b9ae-07fdb8b33ac7","estimatedTime":"1 weeks","createdByUserId":"d065e269-e29f-4d2a-9c32-b61295e66c69"}'
