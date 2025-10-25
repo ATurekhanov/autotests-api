@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDA0OjI0OjM2LjcyODM5NiIsInVzZXJfaWQiOiIxODhjYjc4Yi0xN2I3LTRmY2MtOWZiNi1kNzI4Yjk5N2MzZTMifQ.V_jaS8cRA0CwyJEtiK1VaQdPDe-F6QPTqK7sgZVz1rY' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including likely create.","maxScore":68,"minScore":7,"description":"Particular but major someone become popular start.\nTax property while how. Inside measure boy first idea. Quickly health bed record find star front.","previewFileId":"5a4cfaa7-3e31-4552-8437-e971b664d289","estimatedTime":"9 weeks","createdByUserId":"188cb78b-17b7-4fcc-9fb6-d728b997c3e3"}'

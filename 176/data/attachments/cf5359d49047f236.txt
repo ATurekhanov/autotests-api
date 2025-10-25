@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDA0OjI0OjM1LjU0MTYzOSIsInVzZXJfaWQiOiJmMmQ5MTY2My02YjVhLTRkM2YtYjFlYy00OGQxM2NmMDQzMzYifQ.0e8EG3zBk_D3KdoQccpRYCSNgcdJbGs-39MQBw5_t5Y' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career cause growth quickly student happen.","maxScore":99,"minScore":4,"description":"Business maintain in art ask model. Country mouth purpose half material. Course improve range high key health lead.\nValue must very forget. Former candidate learn bar tax run.","previewFileId":"7b62a65d-6375-4122-835a-3de0c1e93228","estimatedTime":"2 weeks","createdByUserId":"f2d91663-6b5a-4d3f-b1ec-48d13cf04336"}'

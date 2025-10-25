@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/51dbc926-8ec8-40f7-91ba-1dc0b0a63673' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDA0OjI0OjM0LjEyNTQ2NSIsInVzZXJfaWQiOiI1YmNjMmIwNy04NGM3LTQ5OTEtYjA5Ni01OGMyMzI1MDA1NzMifQ.ap9QoesTetc37V6YaL129zDkhE45hXzru--WarNrhpY' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Staff economy region able.","maxScore":72,"minScore":6,"description":"View animal performance remain stuff owner. Especially represent follow paper in say source.\nRealize free describe say value. Five majority thank campaign pressure environmental somebody.","estimatedTime":"5 weeks"}'
