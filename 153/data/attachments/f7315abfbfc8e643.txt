@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAzOjU4OjI2LjMzOTE3MSIsInVzZXJfaWQiOiJiYTE0NGY2NC01MTU0LTQ2NzEtYjg0MC01NGI2NTA5MDkwNTQifQ.j-llmdWFTCsFPeVOD_0Ye9m-YlcuETZl2OQ-nJtOiHo' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option usually we ago reflect.","maxScore":86,"minScore":12,"description":"Individual million more space provide. Dog same must live rate. May development mean race organization film factor.\nBase entire total. Able house hard might as key.","previewFileId":"02e30aca-b3b1-492b-91d8-8838c279cff6","estimatedTime":"2 weeks","createdByUserId":"ba144f64-5154-4671-b840-54b650909054"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d7ebe6a3-93e0-4b60-b4a4-79744ad6b24f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAzOjU4OjI0LjkxOTE1MCIsInVzZXJfaWQiOiI0MTZjMTNlMS0zZTgwLTRjNjMtOTI4Mi0wMDQ3NmEwYWMzMjkifQ.YIxVGxvXVnJ0ygFOerZF9Lvxc466N4Fcd4tqhKhaUI4' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Once receive carry act seem during will.","maxScore":72,"minScore":24,"description":"Suddenly risk whole yes after federal. Apply control though consider.\nDuring day form hope usually herself. Watch population general change space song.","estimatedTime":"9 weeks"}'

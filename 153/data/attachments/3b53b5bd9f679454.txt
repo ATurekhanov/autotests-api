@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAzOjU4OjI4Ljc1MTY5MCIsInVzZXJfaWQiOiI0YmUyNjgyYi02ZTBlLTQ4NzQtOGFlMi1mYjliY2FhYjYzYTMifQ.EFjf2KWArMWXQZQ-dY8bL1gnnj05OzyZcaM9Rjw-xeA' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would network quickly ground.","courseId":"9b9c74cc-a12b-4831-8a43-aae1ff900ab5","maxScore":82,"minScore":30,"orderIndex":47,"description":"City health try deep. Sit travel seek lay production evening even. Do image picture citizen though degree expect teacher.","estimatedTime":"3 weeks"}'

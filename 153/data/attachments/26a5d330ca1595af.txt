@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAzOjU4OjI5LjQxNTQ1MyIsInVzZXJfaWQiOiIwZGVlNzYxZi0zMmRlLTQxZDktODI4Mi1lYTdjYWZiNWIxMDUifQ.pUU9qtd9S23R_yiQ2_cKt2Xfe1zvuXo4YCB_9VeSA_k' \
+  -H 'content-length: 447' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal dream represent attention fish hard can again.","maxScore":84,"minScore":5,"description":"Enjoy least memory enough message effort election group.\nGirl attorney behavior. Make nice view anything financial audience to.\nSure treat the available successful. From center whether air central.","previewFileId":"1950690c-77e2-4df8-94af-1a66428ca2bf","estimatedTime":"6 weeks","createdByUserId":"0dee761f-32de-41d9-8282-ea7cafb5b105"}'

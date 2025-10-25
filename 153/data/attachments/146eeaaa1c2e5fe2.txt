@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAzOjU4OjI2LjA2NDg4OSIsInVzZXJfaWQiOiI4YTEwZjkxMS04YmVhLTQxMzQtYTg5MS1mZWZiOGMwNGI5ODgifQ.ujy0EPqFV--KK1zS8k0fxaIdRPdmlMDYMWClT_cuhcE' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept outside school opportunity bad industry.","maxScore":55,"minScore":10,"description":"Of through bed leg. Laugh value possible discuss join however character. Answer value everything night.\nAll including yeah plan in institution toward for. Bit now firm.","previewFileId":"c10bb4b4-ac5e-4b5c-bd40-20e8de29a0a3","estimatedTime":"1 weeks","createdByUserId":"8a10f911-8bea-4134-a891-fefb8c04b988"}'
