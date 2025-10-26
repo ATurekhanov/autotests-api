@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjI4OjAzLjk1MzUwMCIsInVzZXJfaWQiOiI3MzAyYTZmNS01OWM3LTQwYWItYjdlYS0xYjQyZjQzODA5MmMifQ.czqEEayhRBSDgkoozNpKvGm-aKpe7i_r3r3qHrFknes' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Few including eat kind.","courseId":"2e47e6af-add7-4db0-9b06-f9b932ead926","maxScore":77,"minScore":30,"orderIndex":11,"description":"Couple arrive onto capital main choose practice fact. Reach source very century thus. Consumer she debate whom key nature several future.","estimatedTime":"7 weeks"}'

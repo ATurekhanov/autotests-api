@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjI4OjA1LjE5MDA1NSIsInVzZXJfaWQiOiJkMTc1ZWJlYS1lNzU2LTQ2YzQtYWY1My1hODJhZWM4NGNmZTMifQ.YNMotCdKr3Q6jdaVS8m0YXjX5T7HSkPJhRkmF6ixBFg' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"While sign about quality firm.","maxScore":71,"minScore":11,"description":"Day meeting ok range character nation. Collection financial particularly traditional himself toward majority read. Human knowledge federal scene.","previewFileId":"90232159-ab7c-402d-8969-d6c5d16f014d","estimatedTime":"7 weeks","createdByUserId":"d175ebea-e756-46c4-af53-a82aec84cfe3"}'
