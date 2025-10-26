@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjA0OjU1Ljk2Mzk3MSIsInVzZXJfaWQiOiI4MDliOGQzYS0xNWYxLTQxMTgtOTU5My1iYmQ0NWY4MDFmNjMifQ.XZ2EyAffoZWzFh2v5hfVhOje191Ulsg2AvwMPcKtYSM' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Piece design issue last.","maxScore":53,"minScore":2,"description":"Deal work support home physical smile smile.\nOver everybody generation others woman community nation red. Face child work world practice possible career. Up heart new card.","previewFileId":"8453a282-9efc-41c4-b1a4-bc70b1d32c2e","estimatedTime":"9 weeks","createdByUserId":"809b8d3a-15f1-4118-9593-bbd45f801f63"}'

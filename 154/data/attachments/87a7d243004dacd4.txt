@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjA0OjUzLjU1ODU5MCIsInVzZXJfaWQiOiI0MTY4MjQzYy01YWY4LTRjMGUtYmU5My1mYjQ3ODBhMGNiOGUifQ.vZLH4guzxJsvVmDj6PlYNFosQH_eKzrf90XJBOvanu4' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tax kitchen explain cost bit day strategy.","maxScore":60,"minScore":7,"description":"Rest walk example speak ago must. Lay conference billion light call parent great.","previewFileId":"d6aa4b23-e9dd-4459-925c-21c2b264cd59","estimatedTime":"5 weeks","createdByUserId":"4168243c-5af8-4c0e-be93-fb4780a0cb8e"}'

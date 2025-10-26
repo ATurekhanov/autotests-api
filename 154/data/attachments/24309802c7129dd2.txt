@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjA0OjU0LjczNDQyNiIsInVzZXJfaWQiOiIxMjM1YWE1Ny1jZGMzLTQ0YTEtOWJmOC1mNWE4NTZmY2NhNzkifQ.8NqVMHkYH4rSJtEV33z7bivyLye6xSusnB2MkA1asRM' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above language people itself each thing dark.","maxScore":58,"minScore":18,"description":"Win last choice seem billion parent. About fear main day.\nOff accept major common. Plant long tend.\nSome manage theory region purpose. Ago recent individual usually admit statement their food.","previewFileId":"ac69218f-bc48-4ce1-a3d6-5fb8fd4f964c","estimatedTime":"5 weeks","createdByUserId":"1235aa57-cdc3-44a1-9bf8-f5a856fcca79"}'

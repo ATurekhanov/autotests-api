@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjA0OjUyLjEzNDc5MiIsInVzZXJfaWQiOiJhZTliMTY5NC1iMTI2LTQ2OGItYWZmMy03MmZjMjBmMmM1N2YifQ.-Fyh44JssWQOo38MFTs7QtcMTyFtuLO7wQNNSGkQjIw' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred moment my see less.","maxScore":61,"minScore":30,"description":"Short forward start standard. Many analysis whether clear really with effect resource.","previewFileId":"4d1accb6-f9cb-4f8d-9eae-2cdbaeca5dd2","estimatedTime":"7 weeks","createdByUserId":"ae9b1694-b126-468b-aff3-72fc20f2c57f"}'

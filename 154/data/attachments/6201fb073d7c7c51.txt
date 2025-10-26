@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjA0OjU2LjYyMzgwNiIsInVzZXJfaWQiOiJhMGEyYmEzNC01MDkyLTQwNGItYmRlOS0zYjUzNzFhMjY0MzAifQ.5zgxNHp1tkf-ULkQ1Tb7fwL0ABWpEac7IJBt6xhy--4' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Should form woman number act me.","maxScore":86,"minScore":6,"description":"Law since network somebody voice sound capital. Reveal power third common study. Mother foreign trade likely administration way enjoy.","previewFileId":"bee80675-194d-4a1d-928d-a9eff23db671","estimatedTime":"9 weeks","createdByUserId":"a0a2ba34-5092-404b-bde9-3b5371a26430"}'

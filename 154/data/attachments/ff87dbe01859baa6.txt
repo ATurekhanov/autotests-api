@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI2VDA0OjA0OjUzLjI4NTE3NiIsInVzZXJfaWQiOiI3MjE3YmVlNi1hMTg4LTQzMDEtYmI3ZS03NGViYmVjNjJjN2UifQ.PwXyxugHXNQbkUtqjt1QmT1TXs5gUcl5feo84I4GRUo' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create it more military court assume both.","maxScore":96,"minScore":21,"description":"Think computer administration focus bar travel pull. Newspaper admit perform though reveal technology record.\nSocial peace open kind.","previewFileId":"eac8356d-08d3-46e6-91b5-1ee87f9be32e","estimatedTime":"7 weeks","createdByUserId":"7217bee6-a188-4301-bb7e-74ebbec62c7e"}'
