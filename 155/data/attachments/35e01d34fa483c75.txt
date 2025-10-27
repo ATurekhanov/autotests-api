@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/458719dc-dd96-4733-a606-c51dc97ebf43' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjE0OjU5LjU3NjU5MCIsInVzZXJfaWQiOiIyMDAwMzJmNy04MWY5LTQ1OGEtYTE2OS0zZTBkNjg3OTZjMDQifQ.1cIY6rxkoOpsW4GuLYs4DCbsmpsOaGq1GwjCDlULmFw' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun themselves particularly foot any amount box.","maxScore":71,"minScore":27,"description":"Safe note for government south majority test. Week sell middle star himself thing for. Put tree successful cause data administration five.\nMore able price early. Floor attack century.","estimatedTime":"10 weeks"}'

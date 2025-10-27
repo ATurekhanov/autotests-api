@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjE1OjAyLjgyMTA2NSIsInVzZXJfaWQiOiJlYTUzYzYyMC1kNDNlLTQ5YzktYmNjMy02Njk3NDQ4ZjhlM2YifQ.Jw66yRQze9JDGPzK4N7XkVe8Q62aj5BH4dwtcR8f1kI' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair fire notice whom recognize plant who.","maxScore":97,"minScore":11,"description":"Increase fear consumer ready. Through all thought environment once administration.\nHappen leader low no people easy car all. Song girl agent perform. Oil although you character pressure large.","previewFileId":"f569dd31-ecfe-4112-bdf0-45e448f27ee0","estimatedTime":"4 weeks","createdByUserId":"ea53c620-d43e-49c9-bcc3-6697448f8e3f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjE0OjU5LjU3NjU5MCIsInVzZXJfaWQiOiIyMDAwMzJmNy04MWY5LTQ1OGEtYTE2OS0zZTBkNjg3OTZjMDQifQ.1cIY6rxkoOpsW4GuLYs4DCbsmpsOaGq1GwjCDlULmFw' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Science television drop poor final authority.","maxScore":100,"minScore":23,"description":"Reach indeed three no. Arm cultural or turn soldier. Senior forget summer rate within because.\nAway sometimes thousand because again player. I in nearly. Trouble season whose decade big within.","previewFileId":"84b94206-6ab8-4ffb-b8f9-3041565f5917","estimatedTime":"10 weeks","createdByUserId":"200032f7-81f9-458a-a169-3e0d68796c04"}'

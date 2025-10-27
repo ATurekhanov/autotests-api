@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjE1OjAwLjcyMDA2MiIsInVzZXJfaWQiOiJjNWYwZDBjNi01MTNiLTQ0NDQtYjRlMS1hYTgyMmFhNTViZTUifQ.VI6p19Z-d8IOikLH1qRMcmI658hkFOjHnjzt83_07So' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Team end ground son.","maxScore":82,"minScore":10,"description":"Young hard through too education discussion.\nNature often fund line owner. Production statement audience particular however if. Car suggest report enjoy item cut in.","previewFileId":"02ec49d7-39d8-483f-b948-606b3aa85516","estimatedTime":"4 weeks","createdByUserId":"c5f0d0c6-513b-4444-b4e1-aa822aa55be5"}'

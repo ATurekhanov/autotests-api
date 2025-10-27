@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjE1OjAwLjk5NDIzOCIsInVzZXJfaWQiOiJiMDFiZGMwMS01ZTMzLTQ0ZWMtYjhmNy0zNzBlODEyMzEwOGYifQ.GfI4aQW0T06DueXM5Xo0qn02_hr_NJ5_7K8vPj5GsLM' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Up camera north maybe.","maxScore":55,"minScore":30,"description":"Respond sister senior well. Mission still enough more wait.\nOffice information generation everything notice food reality. Office view reflect thank.","previewFileId":"5afdc6ce-29bb-40b2-85d3-33403c95752e","estimatedTime":"4 weeks","createdByUserId":"b01bdc01-5e33-44ec-b8f7-370e8123108f"}'

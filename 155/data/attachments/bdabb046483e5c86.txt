@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjE1OjAzLjQxNzcwNSIsInVzZXJfaWQiOiIyOGE1OGEyOS0wOTg5LTQxYjYtYTQ1YS03MzYxY2ZiMTAzZmEifQ.lWed2BE5_X8sQuRo1tmHHFDu-hS9whGcX2V9r0YcPpg' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience yet apply successful information statement.","maxScore":65,"minScore":24,"description":"Each end give author understand. Hospital success many produce turn.\nSee easy beautiful focus region. Myself education the page. Live after able push form policy recent receive.","previewFileId":"1f0a1ce7-ebed-4e0a-bdd6-a07d69e9a8f5","estimatedTime":"7 weeks","createdByUserId":"28a58a29-0989-41b6-a45a-7361cfb103fa"}'
