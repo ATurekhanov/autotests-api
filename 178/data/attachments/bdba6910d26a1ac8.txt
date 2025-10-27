@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b089917f-7fe0-442a-aae0-34855b898ad0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjQ2OjMzLjk3NjAzMyIsInVzZXJfaWQiOiJhODEzOGIxZi1hNGRjLTRjMTItYjk1Yy0xYWVjNTU5MjAxMjMifQ.WlsFLCer69IG2hevQ9aS3zEKgXInbfZRVzMTJnURpIE' \
+  -H 'content-length: 214' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Notice theory month build oil kind.","maxScore":78,"minScore":4,"description":"Yet also certain college dinner. Center world ball house she charge. Whether mission senior term.","estimatedTime":"2 weeks"}'

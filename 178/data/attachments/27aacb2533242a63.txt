@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjQ2OjM2LjMwMzc4MCIsInVzZXJfaWQiOiJiYjQ3OWNhMy0yYTg1LTRjMmUtYjM2Ny1iNGRkY2VmYWUzMDAifQ.rTgiv9QgC9LrY8aGEe_ew_WiXrpV4AuqhS1fEiped8o' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Today skin class road coach art between.","courseId":"aa9f365f-29ba-4f4e-a69d-97fa391e5476","maxScore":95,"minScore":10,"orderIndex":66,"description":"Himself attack sit short party either scene less. Hair behind pattern billion music statement leg. Last middle whose government little quickly may. Identify energy important affect maintain we open.","estimatedTime":"2 weeks"}'

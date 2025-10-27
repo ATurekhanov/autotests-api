@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjQ2OjM1LjEyNzk1MCIsInVzZXJfaWQiOiI2YWFjMjc0Zi0wNmY0LTQ1NDItYTQ0Ni00MmRkMGEwZjZjZTcifQ.Q5RI22O55dSJXO6IulMlLNbUdRHWgm__ReacPibY34k' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player what rule them should which eat poor.","maxScore":53,"minScore":28,"description":"Term need attorney and doctor a accept. Parent smile Democrat.\nGarden art again. Always sing all mother process year four. Idea he star fish letter continue truth. He few personal.","previewFileId":"9c800f5b-ec02-4043-b92b-32d5e1468368","estimatedTime":"1 weeks","createdByUserId":"6aac274f-06f4-4542-a446-42dd0a0f6ce7"}'

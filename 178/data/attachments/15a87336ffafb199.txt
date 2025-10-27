@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjQ2OjMzLjk3NjAzMyIsInVzZXJfaWQiOiJhODEzOGIxZi1hNGRjLTRjMTItYjk1Yy0xYWVjNTU5MjAxMjMifQ.WlsFLCer69IG2hevQ9aS3zEKgXInbfZRVzMTJnURpIE' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go how whom point me list your.","maxScore":98,"minScore":10,"description":"Figure that senior street almost picture. Strong maintain produce. Appear issue event back far.","previewFileId":"12921a89-a942-49b8-99a5-7d61ca080978","estimatedTime":"5 weeks","createdByUserId":"a8138b1f-a4dc-4c12-b95c-1aec55920123"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjQ2OjM3LjgwOTM3MCIsInVzZXJfaWQiOiJmNzI2Y2ZiNC1hZWM1LTQ1NGYtOTk0NS0wODc4MDdkYWU2NWYifQ.8OghNMZqf5FKRYsGJ0fj_H_W75BdhKRH-3t8uVRNFIQ' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six camera Democrat door bank trip data.","maxScore":71,"minScore":15,"description":"Employee whatever thank traditional position tree black local. Shake and sure everything.","previewFileId":"15ae25b5-99f6-444c-8fd6-da825ac9d56e","estimatedTime":"7 weeks","createdByUserId":"f726cfb4-aec5-454f-9945-087807dae65f"}'

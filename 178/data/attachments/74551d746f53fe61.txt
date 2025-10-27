@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI3VDA0OjQ2OjM1LjQwMDcwMCIsInVzZXJfaWQiOiI0MzE5ZDdmNy00OTQ5LTQwYWMtYWQ2My1mMDYzMTU2ZDRkNjEifQ.4WdwTivS44m9_XGR4rjTrgAggd4owdxa61nECOzwFAc' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough read action between.","maxScore":62,"minScore":30,"description":"Particular boy imagine certainly both tax fund.\nRealize enough word shoulder because would. Away full could side military wish. Debate dinner vote would bar. Control everybody community can.","previewFileId":"5936e7bf-43a1-4fd2-baab-b63a28fa76e1","estimatedTime":"9 weeks","createdByUserId":"4319d7f7-4949-40ac-ad63-f063156d4d61"}'
