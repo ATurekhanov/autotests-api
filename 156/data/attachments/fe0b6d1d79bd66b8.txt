@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDA0OjA1OjAxLjgzNjkyNCIsInVzZXJfaWQiOiIwOTM2MDc5Yy0wNzhiLTQzZTAtYmE3YS1kZWYxZjZiMmY0ODMifQ.qhMzmQmQIkrcrZ9pCEPQ2iPKpDclCmLSLafgpB3Us1A' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact after pass garden condition.","maxScore":68,"minScore":22,"description":"Fact evening professor. Myself difficult glass. Yes under sing push water. Skin no staff hotel.\nSerious letter keep education city war score.","previewFileId":"fcc40b71-5241-47d4-ad66-cf63ceb89f7e","estimatedTime":"1 weeks","createdByUserId":"0936079c-078b-43e0-ba7a-def1f6b2f483"}'

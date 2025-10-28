@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDA0OjA1OjAwLjYxODMyMCIsInVzZXJfaWQiOiI2NzU5NzI4YS1lODEwLTQxYmItOTQ4NC01ZjEyNzU3Nzc3ZGYifQ.DIkMqFsOOLZw6_WepTO8pDhvaGkHNUA6LG2ilm1nYgw' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal arrive help summer vote research full.","maxScore":51,"minScore":11,"description":"Seven husband source early yes performance. Wait state both use threat.\nTruth me owner campaign green billion report. These perform kid member office. Sister scene write crime eight red.","previewFileId":"292c0b5c-894b-46a0-a7d3-cf1edc0d4a4a","estimatedTime":"9 weeks","createdByUserId":"6759728a-e810-41bb-9484-5f12757777df"}'

@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/cea3b9e5-b523-454a-9255-f80f0d7bac77
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from PATCH http://localhost:8000/api/v1/exercises/cea3b9e5-b523-454a-9255-f80f0d7bac77
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Require hair threat nature free beat let.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 63
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Year mother art get beautiful. Way me every new anyone always.
+Store still back Mrs around coach.
+Person fly author whether indeed. Turn our board. Even control your Democrat spend pick resource.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

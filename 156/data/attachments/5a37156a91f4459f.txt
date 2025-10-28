@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDA0OjA0OjU4LjAxMzkwNyIsInVzZXJfaWQiOiJiZTczZGZhZi1hNjg2LTQyOGQtYTg4MC1hM2ZjODk1MjE3MGIifQ.1S4xTfa098lDIGi80cmb3qGeN95AFraRe8wJUFYxxRE' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball chance figure my.","maxScore":53,"minScore":20,"description":"Worker choice treatment head star occur. Foreign yeah save Congress.\nMatter chair reality. Leg new about discussion important.\nNumber accept development region. Interest course able their.","previewFileId":"a89bcedf-bf95-446f-b63e-0ccb31d78350","estimatedTime":"7 weeks","createdByUserId":"be73dfaf-a686-428d-a880-a3fc8952170b"}'

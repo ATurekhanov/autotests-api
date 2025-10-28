@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDA0OjA1OjAyLjQ5Njk1NyIsInVzZXJfaWQiOiJmYjRlZTdhYy01MTA1LTRjMjktYTRjMS1jOWMzODMxMjExMmEifQ.E6VhrwJ-f1j-kq7jq8i_IeGI-aSfS6z52wJ1iSzxXqk' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recent source soldier chance point.","maxScore":69,"minScore":28,"description":"Get discussion later far yes heart. Score citizen music institution use meeting.\nFigure several hundred clearly customer. Structure great each forget yes least.","previewFileId":"7b6cf1f8-a0a3-4934-a606-20d92a77238a","estimatedTime":"9 weeks","createdByUserId":"fb4ee7ac-5105-4c29-a4c1-c9c38312112a"}'

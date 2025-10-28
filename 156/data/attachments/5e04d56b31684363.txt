@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/cea3b9e5-b523-454a-9255-f80f0d7bac77' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDA0OjA1OjAyLjQ5Njk1NyIsInVzZXJfaWQiOiJmYjRlZTdhYy01MTA1LTRjMjktYTRjMS1jOWMzODMxMjExMmEifQ.E6VhrwJ-f1j-kq7jq8i_IeGI-aSfS6z52wJ1iSzxXqk' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require hair threat nature free beat let.","maxScore":56,"minScore":24,"orderIndex":63,"description":"Year mother art get beautiful. Way me every new anyone always.\nStore still back Mrs around coach.\nPerson fly author whether indeed. Turn our board. Even control your Democrat spend pick resource.","estimatedTime":"1 weeks"}'
