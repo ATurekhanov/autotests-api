@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDA0OjI4OjMwLjM3MTg1NCIsInVzZXJfaWQiOiIzNzcwYmQzMC02MjkzLTQ4MGUtYTIzNC1lYTU4YzE2OGNiYmQifQ.of9zpN8WZxbhWITQU3WNlmjOxgwB2cM66E1FzbMuQno' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shake character lot sense reduce rest.","courseId":"bf6d9660-cb40-4a67-8440-3be69e190d43","maxScore":78,"minScore":6,"orderIndex":9,"description":"Join son team high feeling thing. Technology simply apply. Wrong summer college everyone.\nPublic anything Mrs. South recognize recently citizen case land improve.","estimatedTime":"4 weeks"}'
