@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI5VDA0OjMzOjI3LjExMTQ0NSIsInVzZXJfaWQiOiI5ZjQ4Mjk2NS1iZTg4LTQxZTAtYjE4NC03OGYwODdlYWMyNmYifQ.UDDcd4doWCMOHPDAh6blhzz-YgCzjsKgGzqfyUO76wQ' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Family away development gas bad.","maxScore":59,"minScore":26,"description":"Make eight national police range. Result industry more but wrong.\nMember fine blue. Decade person four store new cell station agency. Store event attorney book or.","previewFileId":"56b60cd4-34c9-4566-a0a3-025154410831","estimatedTime":"10 weeks","createdByUserId":"9f482965-be88-41e0-b184-78f087eac26f"}'

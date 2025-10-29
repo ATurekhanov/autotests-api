@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI5VDA0OjMzOjI1Ljg3NzM3MSIsInVzZXJfaWQiOiI0NTM1MzRjYS0wOWY4LTQxY2UtODYzMS1hMDVmOWZjN2ZjNjIifQ.YnRmj5MXWVDy5V1V5iGcvzlqC6Uy1-laFIUJN0-wZWM' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly hospital lose word effort Democrat.","maxScore":97,"minScore":10,"description":"Common first defense most. Animal law ten often.\nEast fish energy mother. Phone gas better data.\nLocal yeah mind culture. Apply energy company per business.","previewFileId":"44fa2495-2712-4be9-907a-080d26592d87","estimatedTime":"5 weeks","createdByUserId":"453534ca-09f8-41ce-8631-a05f9fc7fc62"}'
