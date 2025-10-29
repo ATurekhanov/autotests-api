@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI5VDA0OjExOjE2Ljk4OTY2NSIsInVzZXJfaWQiOiI4NDkzNGMwMC00ZTJkLTRlYzQtODNmZC0xNTA4MGFmMjFjZTAifQ.P7HyGMPf1tu_Z3BKa3C_smWsajilCgQB_UuXgv2MiDs' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cut west through lawyer people firm.","maxScore":89,"minScore":16,"description":"Tonight training window range represent movement race back. Never north room small page simply remember.\nMeeting into public himself.\nLook sister past best film rather. Own ball material.","previewFileId":"c787ef6b-6c59-4f20-8c54-708b7c85dd6d","estimatedTime":"6 weeks","createdByUserId":"84934c00-4e2d-4ec4-83fd-15080af21ce0"}'
