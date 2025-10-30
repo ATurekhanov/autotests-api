@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDA0OjI5OjA2LjQ5MDIyOCIsInVzZXJfaWQiOiI1YzQ2MTE1Ny00M2I4LTRkNGYtOGRlZi0xZGUxMjIyMmFmNWYifQ.ET7R1JQgby-fMcS3FdK9B2hRO0DiRc9ry6h-U35QgC4' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship could same.","maxScore":72,"minScore":27,"description":"Once none skin service commercial option hand. Magazine month once price consumer.\nSpeak at up. Wind kitchen natural civil.","previewFileId":"4aa9d603-c5b4-4d84-b3a9-3eda31308cec","estimatedTime":"7 weeks","createdByUserId":"5c461157-43b8-4d4f-8def-1de12222af5f"}'

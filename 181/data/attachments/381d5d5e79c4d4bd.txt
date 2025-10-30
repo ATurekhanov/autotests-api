@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDA0OjI5OjA0LjU4Njc1MSIsInVzZXJfaWQiOiJhMzFmYWFkOC04ZTI2LTQ1YWMtYWJlNi03NGY3NzI1ZjI4N2EifQ.bbJfx2mvyDONt6gN-kSQF3G5bBVUvheQuZUYyGbkC8Q' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Property husband professional report quality.","courseId":"0401d9d8-5cf0-4ff6-8034-84b1a8f7c3b1","maxScore":64,"minScore":26,"orderIndex":94,"description":"Weight design prevent. Skin reality simply order democratic garden cultural good.\nSeek room activity.","estimatedTime":"6 weeks"}'
