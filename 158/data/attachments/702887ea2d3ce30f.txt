@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDA0OjA2OjU2Ljk1NDY2NiIsInVzZXJfaWQiOiI2MmRlNTI1Zi01YWNhLTQxNTgtYWFjNy03ZWZmYmE3YTBmMjkifQ.Ne0MOqwlH_GnEEhrW31RTUUib_VYPCETCMEXA_AgvJg' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Morning measure mention more human thus.","maxScore":95,"minScore":10,"description":"Create wife mouth health subject task nor. Fine happy green movie market measure scene. Operation mention meet alone production will nearly.","previewFileId":"354ddfc4-1793-4c2a-b7f0-7a50e2ac09aa","estimatedTime":"8 weeks","createdByUserId":"62de525f-5aca-4158-aac7-7effba7a0f29"}'

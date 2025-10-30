@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c41357c6-da2b-4630-a20d-20499e198849' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDA0OjA2OjU0LjM2NTQ3OCIsInVzZXJfaWQiOiIyYWY5MTBjNC0xMzZhLTRiYmItYTlhMS1mZWVhYmQ3NzcyYTgifQ.1e_Paf-uCtbkc-Pl6yx9J115USEXlnE9YIqFnaGApy8' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Television require see fish experience.","maxScore":89,"minScore":27,"description":"Soon state dark explain hospital bad. Seek inside feel not form summer watch.\nTrade two international far specific. Process call third my. Catch quickly him appear economy.","estimatedTime":"9 weeks"}'

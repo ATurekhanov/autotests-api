@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDA0OjA2OjU4LjgzMDUxNSIsInVzZXJfaWQiOiI0ZDM2N2Q2NS05YjYwLTQ3NmEtYTkwNS03NmRhNTQ3NTZiYTUifQ.UClCZXOLjLP-DwqmcckB-Cbn8Q_mmWtWltFYt7DnOqY' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say speech language find tonight knowledge old.","maxScore":59,"minScore":16,"description":"More cause pretty do. Question clearly specific number. Assume deal former society.\nMovie simple memory mission. Course author modern until. Involve general nation add.","previewFileId":"517768c0-780c-4114-96b5-1197b4049ecf","estimatedTime":"6 weeks","createdByUserId":"4d367d65-9b60-476a-a905-76da54756ba5"}'

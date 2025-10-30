@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDA0OjA2OjU4LjE3Njg0MiIsInVzZXJfaWQiOiJlYTYyYjVkNy0zMzRiLTRmZTItYTA3Ny1iNGEyNjgzZTJlOGIifQ.5oMHaOAs8dwniRR5HaKdlFF-dgO_RhYb4-laPAyPuOc' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk section watch site.","maxScore":55,"minScore":30,"description":"Western could talk test court. Understand another what.\nContinue outside major language.\nProbably middle environmental thus. Often yes painting war.","previewFileId":"508178dc-ad78-479c-ad33-881699d30e56","estimatedTime":"10 weeks","createdByUserId":"ea62b5d7-334b-4fe2-a077-b4a2683e2e8b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDA0OjA2OjU1LjUwNjAyOSIsInVzZXJfaWQiOiI5YjM5NjdiNC02NzY5LTQ1Y2UtYTlhOC1lNjI5ODkyNTRiZjIifQ.ZVVFgXvbx2jgD5r-0Z2bdBTkQP-2x06zd6yJKcHFLu4' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big keep need free of Democrat term.","maxScore":53,"minScore":19,"description":"Generation this study. Southern along continue serve miss federal. Continue vote make any.\nFrom safe health design. Bit series member toward again responsibility.","previewFileId":"678f7b37-1ca9-4e29-9bf5-4a5663f14ae8","estimatedTime":"10 weeks","createdByUserId":"9b3967b4-6769-45ce-a9a8-e62989254bf2"}'
