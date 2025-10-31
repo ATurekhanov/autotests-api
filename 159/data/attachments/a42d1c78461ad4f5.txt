@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjA3OjQ4LjQwODc5OSIsInVzZXJfaWQiOiJjZjU1MmRkMC1kZmRiLTQ1MjUtYTVhMC1kYzcwNjlkODdmMjcifQ.mwcDzMSRBUGAJ5Au85Rosq2tPFZjL514pIgFEgw0kYs' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Begin include billion.","maxScore":83,"minScore":27,"description":"Data way right side expect. Major consumer never business consider. Similar front opportunity different. Consider ahead democratic Congress thus wonder mother sell.","previewFileId":"e651347f-4ddd-468f-be55-87bd09b5e104","estimatedTime":"4 weeks","createdByUserId":"cf552dd0-dfdb-4525-a5a0-dc7069d87f27"}'

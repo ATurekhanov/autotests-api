@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjA3OjQ3LjIyNDE4NCIsInVzZXJfaWQiOiI1MjkzNTllNy1jZTdjLTQ0YTgtYmEyOC0xNDlhMTA5ODhhZTcifQ.Zfg6iR9l06A5_V15dvJqHCeFJtYI8Ex4PR75NCUlJpk' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season treatment responsibility including despite.","maxScore":51,"minScore":16,"description":"Win arrive southern. Wear process sense.\nLawyer yet event foot.\nTurn less several billion. Prove represent improve open hit garden on. Inside whole trouble here important system.","previewFileId":"cdf40cb3-6121-446a-a52a-680839e14901","estimatedTime":"5 weeks","createdByUserId":"529359e7-ce7c-44a8-ba28-149a10988ae7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjA3OjQ1LjEzODY0OCIsInVzZXJfaWQiOiI1MWRlNTIwOC1iZjQyLTQ0YzItYjVmNi03N2E4NzMxMGVmMjgifQ.CmmeJGXOzqV-cbc5VRhEm3WYoGAg_r1_sTqC1qw9hxo' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teacher half news thank capital.","maxScore":98,"minScore":18,"description":"Test activity figure admit cell financial. Offer cup write treatment street themselves respond. Shoulder care rich.","previewFileId":"b123f23d-5618-4328-bef3-e11107164dbf","estimatedTime":"8 weeks","createdByUserId":"51de5208-bf42-44c2-b5f6-77a87310ef28"}'

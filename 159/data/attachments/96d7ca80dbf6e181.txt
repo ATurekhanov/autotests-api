@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjA3OjQzLjk5MzAxMSIsInVzZXJfaWQiOiJjMWI2MGRmYi02OWUzLTQ4MGYtODE0OC0zN2RiMjU1MjA1YmYifQ.hJ48I-xvKIk1uVOL5MquoQEME8-WklypONC-GaA9HhM' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell above machine final accept professional.","maxScore":69,"minScore":4,"description":"Thank as tend challenge them. Rise film performance skin find same.","previewFileId":"f617fe58-a81e-4be3-b139-605ccbaef85e","estimatedTime":"2 weeks","createdByUserId":"c1b60dfb-69e3-480f-8148-37db255205bf"}'

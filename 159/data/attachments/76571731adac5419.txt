@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjA3OjQ1LjQxMTY2NCIsInVzZXJfaWQiOiJmZDhlZjI2Yi05NjNjLTRkNmQtOThmYS1mOTc2M2EwMDE0YzgifQ.h0EZXUVQUGQCU-Lf9gt0NaAvSglgDMWIwwZn4c9J1uk' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discussion speak especially ever administration.","maxScore":74,"minScore":22,"description":"Entire themselves authority structure near value shake. Support brother player debate ahead current single start. Including write provide event before thank.","previewFileId":"144196aa-4503-4ad6-9c06-f0d167666c3f","estimatedTime":"6 weeks","createdByUserId":"fd8ef26b-963c-4d6d-98fa-f9763a0014c8"}'
