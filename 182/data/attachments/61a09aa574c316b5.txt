@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/27396c76-a9dd-46a4-8f05-f85e43f0257c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjMwOjAwLjg1NDEyNSIsInVzZXJfaWQiOiJhYmNiN2YxNy03YTFkLTQ2YWQtODgyZS1jYjdlNjdkNzBjMGIifQ.m-J49HdlVWXl80n-L8l0A1fXw11rVY1w2QG27wto4wc' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Structure baby per culture build expect.","maxScore":54,"minScore":7,"description":"Financial develop hold nothing poor old together. Company result treat course fact. Economy factor best citizen. Brother never likely six white trial safe story.","estimatedTime":"7 weeks"}'

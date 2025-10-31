@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjMwOjA1LjMxMTg0NyIsInVzZXJfaWQiOiI5ZDBkMTM3Ny04MTY4LTQ1ZGYtYjBhNS03NjQwZTFmY2FhZjcifQ.j8HFLiwfEw_2A2SFuuEz7bUHt8JA7JP2HmHxSSG8lCo' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start population partner know include.","maxScore":55,"minScore":1,"description":"Nothing man business develop. Fall less thought explain difference water smile. Call attorney above why than hard.","previewFileId":"21dad3d4-af43-469e-be5f-cc3e70e8c607","estimatedTime":"7 weeks","createdByUserId":"9d0d1377-8168-45df-b0a5-7640e1fcaaf7"}'

@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check create course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Phone beat study administration.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Phone station leader land task prepare. Sister trial author last relationship. Protect include south some.
+Bring kitchen cup culture skill relate. Military continue shoulder.
+Activity exist region.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "preview_file_id" equals to 7e41e6ea-9150-4af9-af82-5a3b652aae73
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:39 Check that "created_by_user_id" equals to 30d0d380-a03f-4a05-8df8-83c97de6cf20
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema

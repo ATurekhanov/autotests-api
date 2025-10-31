@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjMwOjA0LjA3ODc4NiIsInVzZXJfaWQiOiJkNjM5NTM4Ny1iYWIwLTQ2YTItOTNhOC0yNzE2MmZiMjI0MmEifQ.ZvNgq8YPmgf7Mzzp5MPL3WCmYSSVB4CtIMrM2UsOokw' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hospital watch every card sea.","maxScore":53,"minScore":5,"description":"Feeling tough old wife generation. Some film chance group along say former. Season between difference including simple increase run city.","previewFileId":"90b5e69d-6384-4e3d-ab44-b86610079a9f","estimatedTime":"4 weeks","createdByUserId":"d6395387-bab0-46a2-93a8-27162fb2242a"}'

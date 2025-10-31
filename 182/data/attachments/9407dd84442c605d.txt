@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjMwOjAzLjE2NTA0MiIsInVzZXJfaWQiOiI1YjhhYWJhMy1jNDRiLTQxMWYtODA5Zi1jMjRhYmI4YTRlMGUifQ.QvXaW3ACcTIRZGa8LnMoojttgqwB1ZtJ9SXRFMSBQzA' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eat group Democrat himself team project according.","courseId":"556ab773-6d36-4e55-a3d0-a3bce066ec23","maxScore":91,"minScore":8,"orderIndex":22,"description":"Citizen him goal everything under this itself. Manage probably system consider book just stand computer.","estimatedTime":"6 weeks"}'

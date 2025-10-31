@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/455586e0-cc80-4624-9c98-693738f799c2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjMwOjA1LjMxMTg0NyIsInVzZXJfaWQiOiI5ZDBkMTM3Ny04MTY4LTQ1ZGYtYjBhNS03NjQwZTFmY2FhZjcifQ.j8HFLiwfEw_2A2SFuuEz7bUHt8JA7JP2HmHxSSG8lCo' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key truth type per.","maxScore":73,"minScore":17,"orderIndex":98,"description":"Modern note challenge suffer. Serve simple most specific quite effect chance. Thousand save wear similar usually organization.\nPerhaps reveal together difficult. Ago political they production study.","estimatedTime":"6 weeks"}'

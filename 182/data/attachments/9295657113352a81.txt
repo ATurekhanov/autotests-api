@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMxVDA0OjMwOjA0LjA3ODc4NiIsInVzZXJfaWQiOiJkNjM5NTM4Ny1iYWIwLTQ2YTItOTNhOC0yNzE2MmZiMjI0MmEifQ.ZvNgq8YPmgf7Mzzp5MPL3WCmYSSVB4CtIMrM2UsOokw' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough continue let book appear up hair.","courseId":"e087d4b3-03d2-49f2-9a79-3e757f46036f","maxScore":75,"minScore":15,"orderIndex":32,"description":"Speech mean onto bed interesting. Travel service experience about its.\nKid yourself me there determine. Never ability cell record television smile.","estimatedTime":"6 weeks"}'
