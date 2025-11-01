@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjA3OjI0LjQxNDg0NyIsInVzZXJfaWQiOiJjNTVhMDQxNC0wNjgyLTQzODgtODQ4My05OWYzZmQ2MWU4NjkifQ.LPoHy9DGbRHSbJKZgOABhRACvwUajQyAxJZ-jkPHZrc' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"History suddenly development generation.","maxScore":57,"minScore":19,"description":"Six campaign agree. Management need view mention.\nThat she process every everything. Despite fly value customer speech consumer bit.","previewFileId":"fca0eda6-610f-48fe-96e8-843e7bdac20c","estimatedTime":"8 weeks","createdByUserId":"c55a0414-0682-4388-8483-99f3fd61e869"}'

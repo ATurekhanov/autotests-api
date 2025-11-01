@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjA3OjI1LjYzNzM4OCIsInVzZXJfaWQiOiJjOWFjYmQ1MS1lMjI5LTQyNDctYWE5Yy05Mjk4MGFjMzkzNzcifQ.cNDvAnP2cdQctyXxcf5naFA8pLOd7uEAQCqoDPuBZq4' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband customer according.","maxScore":51,"minScore":24,"description":"Particularly century couple movement. Marriage true mention amount.","previewFileId":"d8ac9516-5a31-4c4a-9cfc-a900af805774","estimatedTime":"1 weeks","createdByUserId":"c9acbd51-e229-4247-aa9c-92980ac39377"}'
