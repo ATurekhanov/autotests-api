@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjI4OjE3LjU3MjgwMyIsInVzZXJfaWQiOiIzZDYzMWQ3Ni03ZDZiLTQyZDQtYTE3Ni03MzE5ODAxYThjMjUifQ.U1U6mJjeqD37_0PGpYIrDNETePzb3uOlXWmZz-RmcIQ' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yourself most keep box production wall.","maxScore":95,"minScore":22,"description":"Soldier something suffer international moment. Shake address then choose fly site. Rock scene big smile.","previewFileId":"e131158d-3421-4be6-a857-85ee15a94ecd","estimatedTime":"9 weeks","createdByUserId":"3d631d76-7d6b-42d4-a176-7319801a8c25"}'

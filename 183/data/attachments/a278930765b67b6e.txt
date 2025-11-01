@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/51d6c860-5940-412c-9ebe-2b00e5cc85ec' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjI4OjIwLjY0ODgxMSIsInVzZXJfaWQiOiI2MjYzZDM4OS1hZmVlLTRjNzUtYTg4YS04ZTNjYmFhNWM4NjcifQ.QCtspt1v1lpOoyck1cMq-WYOcCQw9qYnrquePgMgVzE' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Commercial property walk take recent audience budget.","maxScore":63,"minScore":11,"orderIndex":58,"description":"Whether accept item city someone sound strategy. Produce either anything seat final north see. Similar serious yard entire effect.\nNow catch western.","estimatedTime":"1 weeks"}'

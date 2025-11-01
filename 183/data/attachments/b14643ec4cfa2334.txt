@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/61ff05a5-b2ca-4d20-b863-3492b5920467' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjI4OjE2LjE1NTI5NyIsInVzZXJfaWQiOiI0MjNhMTZiOS1iY2VmLTRjMmYtOWFmNS0yYjQzOGYzNWVkNTgifQ.ppE0iKTph2iOclfPWa5Z0qCLGo6r4_GFCBjs4BWglLE' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cup give fall might ever bit focus next.","maxScore":73,"minScore":15,"description":"Bill compare note anything each every age. Wear see international candidate partner produce. Someone maybe shake. Who allow resource bed apply we another about.","estimatedTime":"10 weeks"}'

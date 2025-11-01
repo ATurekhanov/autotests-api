@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjI4OjIwLjY0ODgxMSIsInVzZXJfaWQiOiI2MjYzZDM4OS1hZmVlLTRjNzUtYTg4YS04ZTNjYmFhNWM4NjcifQ.QCtspt1v1lpOoyck1cMq-WYOcCQw9qYnrquePgMgVzE' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mission still once there born.","maxScore":61,"minScore":18,"description":"Establish we before sort. Interest during first attorney.\nParent source candidate leg.","previewFileId":"86d5823a-0b8f-486e-a032-bc860907fb77","estimatedTime":"3 weeks","createdByUserId":"6263d389-afee-4c75-a88a-8e3cbaa5c867"}'

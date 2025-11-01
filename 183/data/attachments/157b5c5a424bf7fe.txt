@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjI4OjE5Ljk2MTY0NiIsInVzZXJfaWQiOiJjNDNmYjNjMy01NGQ4LTRjMmYtOTUwZS04MTcyNmIzMmNhMWQifQ.PQVwyqFCh6yGWRJle49P4mOJKQITmFuC7nnpzBoIcTU' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Miss approach action how.","maxScore":59,"minScore":17,"description":"Each if section feeling bit newspaper. Dog full industry statement choose though more wide.","previewFileId":"a45b1abc-3926-4d43-8307-ed7fbbfdb03f","estimatedTime":"9 weeks","createdByUserId":"c43fb3c3-54d8-4c2f-950e-81726b32ca1d"}'

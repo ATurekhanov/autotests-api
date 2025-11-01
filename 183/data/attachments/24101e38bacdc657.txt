@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDA0OjI4OjE4LjQ3MDI1NyIsInVzZXJfaWQiOiI0NmIwMGE4My1mNTRiLTQ1YTItOTk3MS0zYzhlMDgwZDAxZGYifQ.zbw_PAMlI7LEzcKRJ9xGaf4Tw52z9guc4pqH-Gt5rvo' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs clear show door somebody image represent.","courseId":"ddee437c-b662-4ce5-bf17-43d145eada90","maxScore":58,"minScore":17,"orderIndex":65,"description":"Begin air stay war someone. Important stuff PM respond board rise. Wear section threat. Stage table think big add mission speech of.\nStand member help you. Medical him lot color dinner yourself.","estimatedTime":"3 weeks"}'

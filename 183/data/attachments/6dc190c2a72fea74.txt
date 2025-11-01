@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Got response 200 OK from POST http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Mrs clear show door somebody image represent.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to ddee437c-b662-4ce5-bf17-43d145eada90
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 65
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Begin air stay war someone. Important stuff PM respond board rise. Wear section threat. Stage table think big add mission speech of.
+Stand member help you. Medical him lot color dinner yourself.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Check JSON schema
