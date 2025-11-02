@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjA5OjQzLjg5MDk3MyIsInVzZXJfaWQiOiIwOWEwN2Y5ZC05NWJiLTRiYWMtODRjYi04ZjM2YmQ4NjlmZjcifQ.TtIRhKHCuQid0GWVmRZwGpT7P8oWQomVQzgCScqMKSw' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Institution best exactly color edge simply compare.","maxScore":100,"minScore":1,"description":"Trial never deal you type. Establish woman question there option.\nLevel explain other system agree. Eat involve around must list.","previewFileId":"705aa681-e03d-4833-b3fc-bca965c413c6","estimatedTime":"5 weeks","createdByUserId":"09a07f9d-95bb-4bac-84cb-8f36bd869ff7"}'

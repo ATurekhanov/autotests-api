@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjA5OjQ3LjEyMjQwMyIsInVzZXJfaWQiOiI1ZmM5NzE0Ni1hMDU0LTRhYWItYjU5OC0wNDA3YmU5MWExODgifQ.4cfI-n6mbDQHH3RaLImUaIYDeErW93nDijgig49gGoI' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Security themselves open series lose state evening ability.","maxScore":80,"minScore":30,"description":"Process sell return society chance loss wish mean. West look sea sister computer join. West school find bring.\nStudent animal dog. Push yes what record gas matter usually.","previewFileId":"46a19e97-ea5e-4b05-ab29-9a938217db68","estimatedTime":"5 weeks","createdByUserId":"5fc97146-a054-4aab-b598-0407be91a188"}'

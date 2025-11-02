@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjA5OjQ4LjM3OTkwNiIsInVzZXJfaWQiOiI1MWUxNGNhMS1mNDEyLTQyZDgtYTg3Ny05NjQwMGEzNzkwNDIifQ.oboFOnNPhXxDJM8BegGEhX4s7mcjcEyOKXy1Yk9olCY' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Order already owner think of last community those.","maxScore":75,"minScore":8,"description":"Technology fact return operation movement sport a. Strategy human daughter.\nWhom course religious ask government study. Fire campaign baby region body cover eat.","previewFileId":"a6f81ade-5fdd-4212-ab5f-959dde098e2d","estimatedTime":"5 weeks","createdByUserId":"51e14ca1-f412-42d8-a877-96400a379042"}'

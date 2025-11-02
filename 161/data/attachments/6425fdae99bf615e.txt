@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjA5OjQ3LjcxNDE0NiIsInVzZXJfaWQiOiI1ODdmNGE0ZS1kODA1LTRhMjMtYmJiMy04MjFiZTYzNTljNmUifQ.sl62R69b-bFpzOMXsvL0amPwRwH5td01janLj_PO83w' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"School indicate radio.","courseId":"10eddbe2-0057-43df-99c0-e0164e730ce1","maxScore":57,"minScore":8,"orderIndex":8,"description":"Skill religious address. Couple out glass physical.\nManager watch treat develop pay two. Plan sign imagine plant yard language. Money teach month service step minute wonder.","estimatedTime":"5 weeks"}'
