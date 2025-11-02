@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjMxOjAzLjIzOTI3NyIsInVzZXJfaWQiOiIxNzJhYjExZi0zYjk2LTQ3OTgtODZjOC1hMmYxZWNiMTk4NGEifQ.GQ2orxJ5mzUD9sPdcZ3SRKDI3TZ75nuxrEY0WYNiKVk' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media with hold color trade condition blood.","maxScore":92,"minScore":12,"description":"Theory thing upon blood skin ok information kid. And worker state owner power size baby. Grow away across.\nEye nor authority color strategy. Can effort leader describe.","previewFileId":"4334f619-65df-4af1-a8a0-2115a32d4459","estimatedTime":"1 weeks","createdByUserId":"172ab11f-3b96-4798-86c8-a2f1ecb1984a"}'

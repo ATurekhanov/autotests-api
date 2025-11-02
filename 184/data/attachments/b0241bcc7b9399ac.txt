@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjMxOjA1LjMzNjk0OCIsInVzZXJfaWQiOiI1ZTljZTNhNS05MGMzLTRiYzYtYjczYS0zOWIzYmMyYWNjNmQifQ.3tAl-JfgWa-Z0y5cXTSK_x9WHuxnGQTnUWQt2tT85so' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Many scene quickly such floor mother charge.","maxScore":72,"minScore":21,"description":"Will before individual. Per figure the.\nSign there lot water season character. Strategy assume teacher religious.","previewFileId":"b6484fe2-6dfd-4fdd-86d8-d1aa00d6049c","estimatedTime":"5 weeks","createdByUserId":"5e9ce3a5-90c3-4bc6-b73a-39b3bc2acc6d"}'

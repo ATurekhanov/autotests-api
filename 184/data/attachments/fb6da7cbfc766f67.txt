@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjMxOjA2LjU5MTA0NCIsInVzZXJfaWQiOiI4MTliYTVmZC05MjhkLTQ3MjUtYjA2MS03MGY2ZDY5NzhmZGEifQ.0hZe66MPbzhXQ-NZnQ7paPzOBt96TOY38RP5Q0vXqG8' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"How expert more wish.","courseId":"67e0ec82-30f7-4e68-96e3-f18c98d5c854","maxScore":52,"minScore":1,"orderIndex":45,"description":"Manage food painting strong movement. Garden level game pattern million stop.\nClear allow toward possible. Six fall development. Drive exactly send born my Democrat build direction.","estimatedTime":"3 weeks"}'

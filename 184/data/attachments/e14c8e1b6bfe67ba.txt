@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAyVDA0OjMxOjAzLjUxMzQ1MyIsInVzZXJfaWQiOiI3MmMyZWQwOS02ODIwLTQxNjgtYjQwNC1hY2MzY2IxOWJkZGMifQ.W67wE0mH04YApOqXqBFttjA87bM2q-IDdMOzZgQmEFU' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience national how wall anything garden.","maxScore":72,"minScore":30,"description":"Keep agent where city serve. Reflect them onto recent paper situation.\nVote relationship similar yes. Power task note set. Nature without finish upon leg no understand hard.","previewFileId":"a6b07717-68b8-4e28-9d0b-17b48e025d13","estimatedTime":"3 weeks","createdByUserId":"72c2ed09-6820-4168-b404-acc3cb19bddc"}'
