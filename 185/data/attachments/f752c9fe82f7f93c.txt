@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAzVDA0OjM1OjE4LjcwNDk3OSIsInVzZXJfaWQiOiI2ZmRlZTRhMS0xOTA0LTQ5ZWYtOWI1Yy00MWFlYmYwNmYzYjAifQ.2VYyTjIUCPUhECriZWQ118i2-PyuTV8m8Vh_u4fIGO0' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She choice cost.","maxScore":60,"minScore":16,"description":"Admit difficult bed carry stage surface forget. Program follow poor heavy. Participant view thank for sell trial.\nTechnology beat teach measure. Sister safe share upon.","previewFileId":"7e67a8c0-9d4a-4b16-8dcd-522e8ec7f5b4","estimatedTime":"1 weeks","createdByUserId":"6fdee4a1-1904-49ef-9b5c-41aebf06f3b0"}'

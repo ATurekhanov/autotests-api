@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAzVDA0OjM1OjE2LjAzNDQxMCIsInVzZXJfaWQiOiIxOTNmODI2OS1hNWU0LTQyNDItOTk1OC0wM2NkY2MwNGRmNTEifQ.2f-__RwqKMNmeRLMCvHUR9fb53pO2tVsJ5_N0G8sKiU' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"My trip part about.","maxScore":75,"minScore":2,"description":"Whose represent seek plant. Business rest democratic see let. Serve low forget look deep star.","previewFileId":"e30bff25-920e-4fc9-a5ce-2442642ff257","estimatedTime":"7 weeks","createdByUserId":"193f8269-a5e4-4242-9958-03cdcc04df51"}'

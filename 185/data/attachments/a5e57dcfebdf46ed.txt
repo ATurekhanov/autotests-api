@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAzVDA0OjM1OjE0Ljg4NDYwOSIsInVzZXJfaWQiOiJiNDg0MzNhZS00NTU2LTRiZTItOTUyNS05MTI1ZjNjMjc3MWMifQ.LLSVMV7q2c04arpRiabtEXuEnlMuCH6fMwOpehSTmKA' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Us floor receive while.","maxScore":88,"minScore":18,"description":"During hotel because. Child we space election idea job culture.\nMother name media. Adult fly ok way others cup although.\nIf clearly sit. Social whom that movie from everyone quality.","previewFileId":"d05caa00-e143-402a-a7bc-b1bf12212d8d","estimatedTime":"8 weeks","createdByUserId":"b48433ae-4556-4be2-9525-9125f3c2771c"}'
