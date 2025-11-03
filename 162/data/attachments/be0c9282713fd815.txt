@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAzVDA0OjEzOjUyLjI4NTU3OCIsInVzZXJfaWQiOiIyZmU0YTcwNi1hNTBmLTQzZjktOGIzNS00ZWEzNGI3OTA4M2EifQ.UAHVyQQ-zfCkoOPSacc0u7UrLHj0vLTesktkjcKPIIs' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young stuff key range western computer little this.","maxScore":66,"minScore":25,"description":"Manage white want energy sister his investment. Boy fear maybe cell get leader behavior author. It force staff own family attorney.","previewFileId":"10faa1a1-4adb-4134-b0ad-fd12fbb776b7","estimatedTime":"4 weeks","createdByUserId":"2fe4a706-a50f-43f9-8b35-4ea34b79083a"}'

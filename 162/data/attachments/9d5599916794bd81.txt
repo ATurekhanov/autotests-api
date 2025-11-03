@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAzVDA0OjEzOjUyLjAxMzIyOCIsInVzZXJfaWQiOiJjZjYzNjgxMi01NDc5LTQwNTEtOTFiMi1jN2YzNTljNTA1ZGQifQ.kDB4JwXaKDeh-Kpfdk-vUIX2ECRYaCGeYYXRadf1l9Y' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guess clearly guess.","maxScore":72,"minScore":13,"description":"Stand candidate nation especially college. Include together shake night your. Its do probably lot month order.\nList left anything left dog. Choose what pattern.","previewFileId":"d997f062-c877-411f-83fe-74dfd4fd955f","estimatedTime":"2 weeks","createdByUserId":"cf636812-5479-4051-91b2-c7f359c505dd"}'

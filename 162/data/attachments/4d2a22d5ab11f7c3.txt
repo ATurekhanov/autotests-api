@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAzVDA0OjEzOjUzLjE4Nzg1MCIsInVzZXJfaWQiOiJhNjlhY2FhZi05NTdkLTQ4NmItOWM2Ny1hNjNmODY0YmI0OTgifQ.9fb4fwpR17qpGCvd_VIVJ_iehqaH6fZgA-d9zj-878g' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Degree along political.","courseId":"0bd93cc0-acca-4450-80ce-be832dbeada2","maxScore":84,"minScore":18,"orderIndex":77,"description":"Behind same paper effort public still likely. Especially language as agreement receive chance energy.\nHowever talk also may rich need. East value financial large marriage event move.","estimatedTime":"6 weeks"}'

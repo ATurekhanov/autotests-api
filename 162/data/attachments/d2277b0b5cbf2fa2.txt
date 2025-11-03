@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAzVDA0OjEzOjUzLjQ2MDUxMiIsInVzZXJfaWQiOiJkNTYzY2Q1MC0wY2VjLTQ1ZjEtODdjNC02NjQyODFiNWFhNTUifQ._2A-vxa8BM-_fI5qHdcO1JOUepVwL1JvTmUn8dYQ52c' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch president success write wait find.","maxScore":58,"minScore":18,"description":"Person toward time field three. Three behind both find way arrive body possible.\nSummer style fund oil land wait. Throw information likely win board smile.","previewFileId":"3953871d-90c8-449c-883e-7aa7b9341e3e","estimatedTime":"10 weeks","createdByUserId":"d563cd50-0cec-45f1-87c4-664281b5aa55"}'
